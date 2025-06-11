@@ -1,0 +1,19 @@
+{
+  "name": "material-design-icons",
+  "version": "1.0.0",
+  "description": "Material Design Icons for Elm (https://pictogrammers.com/library/mdi/)",
+  "license": "MIT",
+  "author": "Curtis Schlak <696163-realistschuckle@users.noreply.gitlab.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mdi/svg": "^7.4.47",
+    "fast-xml-parser": "^5.0.9"
+  },
+  "devDependencies": {
+    "elm-tooling": "^1.15.1"
+  }
+}
