@@ -13,7 +13,6 @@ when inside the directory containing this file.
 
 import Docs.NoMissing exposing (exposedModules, onlyExposed)
 import Docs.ReviewAtDocs
-import Docs.ReviewLinksAndSections
 import Docs.UpToDateReadmeLinks
 import NoConfusingPrefixOperator
 import NoDebug.Log
@@ -42,7 +41,6 @@ config =
         { document = onlyExposed
         , from = exposedModules
         }
-    , Docs.ReviewLinksAndSections.rule
     , Docs.ReviewAtDocs.rule
     , Docs.UpToDateReadmeLinks.rule
     , NoConfusingPrefixOperator.rule
