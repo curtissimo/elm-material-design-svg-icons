@@ -1,4 +1,4 @@
-module Material.Icons exposing (IconShape, emptyPath, iconShape, toSvg)
+module Material.Icons exposing (IconShape, iconShape, toSvg)
 
 import Html.Attributes exposing (property)
 import Json.Encode as Encode

@@ -43,6 +43,11 @@ magnifyClose =
     iconShape "M9,2A7,7 0 0,1 16,9C16,10.5 15.5,12 14.61,13.19L15.41,14H16L22,20L20,22L14,16V15.41L13.19,14.61C12,15.5 10.5,16 9,16A7,7 0 0,1 2,9A7,7 0 0,1 9,2M11.12,5.46L9,7.59L6.88,5.46L5.46,6.88L7.59,9L5.46,11.12L6.88,12.54L9,10.41L11.12,12.54L12.54,11.12L10.41,9L12.54,6.88L11.12,5.46Z"
 
 
+magnifyExpand : IconShape
+magnifyExpand =
+    iconShape "M18 16H17.42L16.61 15.19C17.5 14 18 12.5 18 11C18 7.13 14.87 4 11 4C9.5 4 8 4.5 6.79 5.4C3.7 7.72 3.07 12.11 5.39 15.2C7.71 18.29 12.1 18.92 15.19 16.6L16 17.41V18L21 23L23 21L18 16M11 16C8.24 16 6 13.76 6 11S8.24 6 11 6 16 8.24 16 11 13.76 16 11 16M3 6L1 8V1H8L6 3H3V6M21 1V8L19 6V3H16L14 1H21M6 19L8 21H1V14L3 16V19H6Z"
+
+
 magnifyMinus : IconShape
 magnifyMinus =
     iconShape "M9,2A7,7 0 0,1 16,9C16,10.57 15.5,12 14.61,13.19L15.41,14H16L22,20L20,22L14,16V15.41L13.19,14.61C12,15.5 10.57,16 9,16A7,7 0 0,1 2,9A7,7 0 0,1 9,2M5,8V10H13V8H5Z"
@@ -58,24 +63,19 @@ magnifyMinusOutline =
     iconShape "M15.5,14H14.71L14.43,13.73C15.41,12.59 16,11.11 16,9.5A6.5,6.5 0 0,0 9.5,3A6.5,6.5 0 0,0 3,9.5A6.5,6.5 0 0,0 9.5,16C11.11,16 12.59,15.41 13.73,14.43L14,14.71V15.5L19,20.5L20.5,19L15.5,14M9.5,14C7,14 5,12 5,9.5C5,7 7,5 9.5,5C12,5 14,7 14,9.5C14,12 12,14 9.5,14M7,9H12V10H7V9Z"
 
 
-magnifyExpand : IconShape
-magnifyExpand =
-    iconShape "M18 16H17.42L16.61 15.19C17.5 14 18 12.5 18 11C18 7.13 14.87 4 11 4C9.5 4 8 4.5 6.79 5.4C3.7 7.72 3.07 12.11 5.39 15.2C7.71 18.29 12.1 18.92 15.19 16.6L16 17.41V18L21 23L23 21L18 16M11 16C8.24 16 6 13.76 6 11S8.24 6 11 6 16 8.24 16 11 13.76 16 11 16M3 6L1 8V1H8L6 3H3V6M21 1V8L19 6V3H16L14 1H21M6 19L8 21H1V14L3 16V19H6Z"
-
-
 magnifyPlus : IconShape
 magnifyPlus =
     iconShape "M9,2A7,7 0 0,1 16,9C16,10.57 15.5,12 14.61,13.19L15.41,14H16L22,20L20,22L14,16V15.41L13.19,14.61C12,15.5 10.57,16 9,16A7,7 0 0,1 2,9A7,7 0 0,1 9,2M8,5V8H5V10H8V13H10V10H13V8H10V5H8Z"
 
 
-magnifyPlusOutline : IconShape
-magnifyPlusOutline =
-    iconShape "M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14M12,10H10V12H9V10H7V9H9V7H10V9H12V10Z"
-
-
 magnifyPlusCursor : IconShape
 magnifyPlusCursor =
     iconShape "M11,4A7,7 0 0,1 18,11C18,12.5 17.5,14 16.61,15.19L17.42,16H18L23,21L21,23L16,18V17.41L15.19,16.6C12.1,18.92 7.71,18.29 5.39,15.2C3.07,12.11 3.7,7.72 6.79,5.4C8,4.5 9.5,4 11,4M10,7V10H7V12H10V15H12V12H15V10H12V7H10M1,1V8L8,1H1Z"
+
+
+magnifyPlusOutline : IconShape
+magnifyPlusOutline =
+    iconShape "M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14M12,10H10V12H9V10H7V9H9V7H10V9H12V10Z"
 
 
 magnifyRemoveCursor : IconShape
@@ -148,14 +148,14 @@ mapCheck =
     iconShape "M18.25,22L15.5,19L16.66,17.82L18.25,19.41L21.84,15.82L23,17.23M20.5,3A0.5,0.5 0 0,1 21,3.5V13.36C20.36,13.13 19.69,13 19,13C17.46,13 16.06,13.6 15,14.56V7.1L9,5V16.9L13.04,18.3C13,18.54 13,18.77 13,19C13,19.46 13.06,19.92 13.16,20.36L9,18.9L3.66,20.97C3.59,21 3.55,21 3.5,21A0.5,0.5 0 0,1 3,20.5V5.38C3,5.15 3.16,4.97 3.35,4.9L9,3L15,5.1L20.33,3"
 
 
-mapCheckOutline : IconShape
-mapCheckOutline =
-    iconShape "M18.25,22L15.5,19L16.66,17.82L18.25,19.41L21.84,15.82L23,17.23L18.25,22M20.5,3A0.5,0.5 0 0,1 21,3.5V13.34C20.37,13.12 19.7,13 19,13V5.7L16,6.86V13.8C15.2,14.27 14.5,14.91 14,15.68V6.87L10,5.47V17.13L13.05,18.2L13,19C13,19.46 13.05,19.92 13.15,20.35L9,18.9L3.66,20.97L3.5,21A0.5,0.5 0 0,1 3,20.5V5.38C3,5.15 3.15,4.97 3.36,4.9L9,3L15,5.1L20.34,3.03L20.5,3M5,6.46V18.31L8,17.15V5.45L5,6.46Z"
-
-
 mapClock : IconShape
 mapClock =
     iconShape "M15,12H16.5V16.25L19.36,17.94L18.61,19.16L15,17V12M23,16A7,7 0 0,1 16,23C13,23 10.4,21.08 9.42,18.4L8,17.9L2.66,19.97L2.5,20A0.5,0.5 0 0,1 2,19.5V4.38C2,4.15 2.15,3.97 2.36,3.9L8,2L14,4.1L19.34,2H19.5A0.5,0.5 0 0,1 20,2.5V10.25C21.81,11.5 23,13.62 23,16M9,16C9,12.83 11.11,10.15 14,9.29V6.11L8,4V15.89L9,16.24C9,16.16 9,16.08 9,16M16,11A5,5 0 0,0 11,16A5,5 0 0,0 16,21A5,5 0 0,0 21,16A5,5 0 0,0 16,11Z"
+
+
+mapCheckOutline : IconShape
+mapCheckOutline =
+    iconShape "M18.25,22L15.5,19L16.66,17.82L18.25,19.41L21.84,15.82L23,17.23L18.25,22M20.5,3A0.5,0.5 0 0,1 21,3.5V13.34C20.37,13.12 19.7,13 19,13V5.7L16,6.86V13.8C15.2,14.27 14.5,14.91 14,15.68V6.87L10,5.47V17.13L13.05,18.2L13,19C13,19.46 13.05,19.92 13.15,20.35L9,18.9L3.66,20.97L3.5,21A0.5,0.5 0 0,1 3,20.5V5.38C3,5.15 3.15,4.97 3.36,4.9L9,3L15,5.1L20.34,3.03L20.5,3M5,6.46V18.31L8,17.15V5.45L5,6.46Z"
 
 
 mapClockOutline : IconShape
@@ -163,9 +163,9 @@ mapClockOutline =
     iconShape "M15,12H16.5V16.25L19.36,17.94L18.61,19.16L15,17V12M16,9C16.69,9 17.37,9.1 18,9.29V4.7L15,5.86V9.07C15.33,9 15.66,9 16,9M23,16A7,7 0 0,1 16,23C13,23 10.4,21.08 9.42,18.4L8,17.9L2.66,19.97L2.5,20A0.5,0.5 0 0,1 2,19.5V4.38C2,4.15 2.15,3.97 2.36,3.9L8,2L14,4.1L19.34,2.03L19.5,2A0.5,0.5 0 0,1 20,2.5V10.25C21.81,11.5 23,13.62 23,16M9,16C9,13.21 10.63,10.8 13,9.67V5.87L9,4.47V16.13H9C9,16.09 9,16.04 9,16M16,11A5,5 0 0,0 11,16A5,5 0 0,0 16,21A5,5 0 0,0 21,16A5,5 0 0,0 16,11M4,5.46V17.31L7,16.15V4.45L4,5.46Z"
 
 
-mapLegend : IconShape
-mapLegend =
-    iconShape "M9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21L3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19.03 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3L20.34,3.03L15,5.1L9,3M8,5.45V17.15L5,18.31V6.46L8,5.45M10,5.47L14,6.87V18.53L10,17.13V5.47M19,5.7V17.54L16,18.55V6.86L19,5.7M7.46,6.3L5.57,6.97V9.12L7.46,8.45V6.3M7.46,9.05L5.57,9.72V11.87L7.46,11.2V9.05M7.46,11.8L5.57,12.47V14.62L7.46,13.95V11.8M7.46,14.55L5.57,15.22V17.37L7.46,16.7V14.55Z"
+mapMarkerAccount : IconShape
+mapMarkerAccount =
+    iconShape "M12 2C8.14 2 5 5.14 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.14 15.86 2 12 2M12 4C13.1 4 14 4.9 14 6C14 7.11 13.1 8 12 8S10 7.11 10 6C10 4.9 10.9 4 12 4M12 14C10.33 14 8.86 13.15 8 11.85C8 10.53 10.67 9.8 12 9.8S16 10.53 16 11.85C15.14 13.15 13.67 14 12 14Z"
 
 
 mapMarker : IconShape
@@ -173,9 +173,9 @@ mapMarker =
     iconShape "M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"
 
 
-mapMarkerAccount : IconShape
-mapMarkerAccount =
-    iconShape "M12 2C8.14 2 5 5.14 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.14 15.86 2 12 2M12 4C13.1 4 14 4.9 14 6C14 7.11 13.1 8 12 8S10 7.11 10 6C10 4.9 10.9 4 12 4M12 14C10.33 14 8.86 13.15 8 11.85C8 10.53 10.67 9.8 12 9.8S16 10.53 16 11.85C15.14 13.15 13.67 14 12 14Z"
+mapLegend : IconShape
+mapLegend =
+    iconShape "M9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21L3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19.03 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3L20.34,3.03L15,5.1L9,3M8,5.45V17.15L5,18.31V6.46L8,5.45M10,5.47L14,6.87V18.53L10,17.13V5.47M19,5.7V17.54L16,18.55V6.86L19,5.7M7.46,6.3L5.57,6.97V9.12L7.46,8.45V6.3M7.46,9.05L5.57,9.72V11.87L7.46,11.2V9.05M7.46,11.8L5.57,12.47V14.62L7.46,13.95V11.8M7.46,14.55L5.57,15.22V17.37L7.46,16.7V14.55Z"
 
 
 mapMarkerAccountOutline : IconShape
@@ -233,14 +233,14 @@ mapMarkerMinus =
     iconShape "M9,11.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 9,6.5A2.5,2.5 0 0,0 6.5,9A2.5,2.5 0 0,0 9,11.5M9,2C12.86,2 16,5.13 16,9C16,14.25 9,22 9,22C9,22 2,14.25 2,9A7,7 0 0,1 9,2M15,17H23V19H15V17Z"
 
 
-mapMarkerMultiple : IconShape
-mapMarkerMultiple =
-    iconShape "M14,11.5A2.5,2.5 0 0,0 16.5,9A2.5,2.5 0 0,0 14,6.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 14,11.5M14,2C17.86,2 21,5.13 21,9C21,14.25 14,22 14,22C14,22 7,14.25 7,9A7,7 0 0,1 14,2M5,9C5,13.5 10.08,19.66 11,20.81L10,22C10,22 3,14.25 3,9C3,5.83 5.11,3.15 8,2.29C6.16,3.94 5,6.33 5,9Z"
-
-
 mapMarkerMinusOutline : IconShape
 mapMarkerMinusOutline =
     iconShape "M15 17H23V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
+
+
+mapMarkerMultiple : IconShape
+mapMarkerMultiple =
+    iconShape "M14,11.5A2.5,2.5 0 0,0 16.5,9A2.5,2.5 0 0,0 14,6.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 14,11.5M14,2C17.86,2 21,5.13 21,9C21,14.25 14,22 14,22C14,22 7,14.25 7,9A7,7 0 0,1 14,2M5,9C5,13.5 10.08,19.66 11,20.81L10,22C10,22 3,14.25 3,9C3,5.83 5.11,3.15 8,2.29C6.16,3.94 5,6.33 5,9Z"
 
 
 mapMarkerMultipleOutline : IconShape
@@ -403,14 +403,14 @@ mathIntegralBox =
     iconShape "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M15.9 6.9C15.9 6.9 15.2 6.6 14.9 6.6C14.3 6.5 13.9 6.7 13.7 7.7L12 16.8C11.8 17.6 11.5 18.2 11 18.6C10.6 18.9 10.2 19 9.7 19C8.9 19 7.7 18.5 7.7 18.5L8.2 17.1C8.2 17.1 9 17.4 9.2 17.4C9.5 17.5 9.7 17.4 9.9 17.3C10.1 17.2 10.2 16.9 10.3 16.6L11.9 7.4C12 6.6 12.4 6 12.9 5.5C13.5 5.1 14.2 5 15 5.1C15.7 5.2 16.5 5.6 16.5 5.6L15.9 6.9Z"
 
 
-mathNorm : IconShape
-mathNorm =
-    iconShape "M14 21V3H16V21H14M8 21V3H10V21H8Z"
-
-
 mathLog : IconShape
 mathLog =
     iconShape "M18 7C16.9 7 16 7.9 16 9V15C16 16.1 16.9 17 18 17H20C21.1 17 22 16.1 22 15V11H20V15H18V9H22V7H18M2 7V17H8V15H4V7H2M11 7C9.9 7 9 7.9 9 9V15C9 16.1 9.9 17 11 17H13C14.1 17 15 16.1 15 15V9C15 7.9 14.1 7 13 7H11M11 9H13V15H11V9Z"
+
+
+mathNorm : IconShape
+mathNorm =
+    iconShape "M14 21V3H16V21H14M8 21V3H10V21H8Z"
 
 
 mathNormBox : IconShape
@@ -608,14 +608,14 @@ messageBookmark =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M19 13L16.5 11.5L14 13V5H19V13Z"
 
 
-messageBulleted : IconShape
-messageBulleted =
-    iconShape "M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M8,14H6V12H8V14M8,11H6V9H8V11M8,8H6V6H8V8M15,14H10V12H15V14M18,11H10V9H18V11M18,8H10V6H18V8Z"
-
-
 messageBookmarkOutline : IconShape
 messageBookmarkOutline =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M18 14V6H13V14L15.5 12.5L18 14"
+
+
+messageBulleted : IconShape
+messageBulleted =
+    iconShape "M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M8,14H6V12H8V14M8,11H6V9H8V11M8,8H6V6H8V8M15,14H10V12H15V14M18,11H10V9H18V11M18,8H10V6H18V8Z"
 
 
 messageBulletedOff : IconShape
@@ -793,14 +793,14 @@ messageTextClock =
     iconShape "M22 12.41V4C22 2.9 21.11 2 20 2H4C2.9 2 2 2.9 2 4V22L6 18H9.29C10.15 20.89 12.83 23 16 23C19.86 23 23 19.87 23 16C23 14.69 22.63 13.46 22 12.41M6 6H18V8H6V6M16 9C14.1 9 12.37 9.77 11.11 11H6V9H16M6 12H10.26C9.84 12.6 9.5 13.28 9.3 14H6V12M16 20.85C13.32 20.85 11.15 18.68 11.15 16S13.32 11.15 16 11.15C18.67 11.15 20.85 13.32 20.85 16S18.67 20.85 16 20.85M16.5 15.82L18.94 17.23L18.19 18.53L15 16.69V13H16.5V15.82Z"
 
 
-messageTextFast : IconShape
-messageTextFast =
-    iconShape "M9 5C7.9 5 7 5.9 7 7V21L11 17H20C21.1 17 22 16.1 22 15V7C22 5.9 21.1 5 20 5H9M3 7C2.4 7 2 7.4 2 8S2.4 9 3 9H5V7H3M11 8H19V10H11V8M2 11C1.4 11 1 11.4 1 12S1.4 13 2 13H5V11H2M11 12H16V14H11V12M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
-
-
 messageTextClockOutline : IconShape
 messageTextClockOutline =
     iconShape "M22 12.41V4C22 2.9 21.11 2 20 2H4C2.9 2 2 2.89 2 4V22L6 18H9.29C10.15 20.89 12.83 23 16 23C19.86 23 23 19.87 23 16C23 14.69 22.63 13.46 22 12.41M5.17 16L4 17.17V4H20V10.26C18.86 9.47 17.5 9 16 9C14.1 9 12.37 9.77 11.11 11H6V13H9.69C9.25 13.91 9 14.93 9 16H5.17M16 20.85C13.32 20.85 11.15 18.68 11.15 16S13.32 11.15 16 11.15C18.67 11.15 20.85 13.32 20.85 16S18.67 20.85 16 20.85M18 9H6V7H18V9M16.5 15.82L18.94 17.23L18.19 18.53L15 16.69V13H16.5V15.82Z"
+
+
+messageTextFast : IconShape
+messageTextFast =
+    iconShape "M9 5C7.9 5 7 5.9 7 7V21L11 17H20C21.1 17 22 16.1 22 15V7C22 5.9 21.1 5 20 5H9M3 7C2.4 7 2 7.4 2 8S2.4 9 3 9H5V7H3M11 8H19V10H11V8M2 11C1.4 11 1 11.4 1 12S1.4 13 2 13H5V11H2M11 12H16V14H11V12M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
 
 
 messageTextFastOutline : IconShape
@@ -868,24 +868,24 @@ microphone =
     iconShape "M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z"
 
 
-microphoneMessageOff : IconShape
-microphoneMessageOff =
-    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L13.38,16.65C12.55,18.35 10.93,19.59 9,19.92V22H7V19.92C4.16,19.44 2,16.97 2,14H4A4,4 0 0,0 8,18C9.82,18 11.36,16.78 11.84,15.11L10,13.27V14A2,2 0 0,1 8,16A2,2 0 0,1 6,14V9.27L2,5.27M21.41,9.41L17.17,13.66L18.18,10H14A2,2 0 0,1 12,8V4A2,2 0 0,1 14,2H20A2,2 0 0,1 22,4V8C22,8.55 21.78,9.05 21.41,9.41Z"
-
-
 microphoneMessage : IconShape
 microphoneMessage =
     iconShape "M8,7A2,2 0 0,1 10,9V14A2,2 0 0,1 8,16A2,2 0 0,1 6,14V9A2,2 0 0,1 8,7M14,14C14,16.97 11.84,19.44 9,19.92V22H7V19.92C4.16,19.44 2,16.97 2,14H4A4,4 0 0,0 8,18A4,4 0 0,0 12,14H14M21.41,9.41L17.17,13.66L18.18,10H14A2,2 0 0,1 12,8V4A2,2 0 0,1 14,2H20A2,2 0 0,1 22,4V8C22,8.55 21.78,9.05 21.41,9.41Z"
 
 
-microphoneMinus : IconShape
-microphoneMinus =
-    iconShape "M9,2A3,3 0 0,1 12,5V11A3,3 0 0,1 9,14A3,3 0 0,1 6,11V5A3,3 0 0,1 9,2M16,11C16,14.5 13.44,17.43 10,17.93V21H8V17.93C4.56,17.43 2,14.5 2,11H4A5,5 0 0,0 9,16A5,5 0 0,0 14,11H16M15,5H23V7H15V5Z"
+microphoneMessageOff : IconShape
+microphoneMessageOff =
+    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L13.38,16.65C12.55,18.35 10.93,19.59 9,19.92V22H7V19.92C4.16,19.44 2,16.97 2,14H4A4,4 0 0,0 8,18C9.82,18 11.36,16.78 11.84,15.11L10,13.27V14A2,2 0 0,1 8,16A2,2 0 0,1 6,14V9.27L2,5.27M21.41,9.41L17.17,13.66L18.18,10H14A2,2 0 0,1 12,8V4A2,2 0 0,1 14,2H20A2,2 0 0,1 22,4V8C22,8.55 21.78,9.05 21.41,9.41Z"
 
 
 microphoneOff : IconShape
 microphoneOff =
     iconShape "M19,11C19,12.19 18.66,13.3 18.1,14.28L16.87,13.05C17.14,12.43 17.3,11.74 17.3,11H19M15,11.16L9,5.18V5A3,3 0 0,1 12,2A3,3 0 0,1 15,5V11L15,11.16M4.27,3L21,19.73L19.73,21L15.54,16.81C14.77,17.27 13.91,17.58 13,17.72V21H11V17.72C7.72,17.23 5,14.41 5,11H6.7C6.7,14 9.24,16.1 12,16.1C12.81,16.1 13.6,15.91 14.31,15.58L12.65,13.92L12,14A3,3 0 0,1 9,11V10.28L3,4.27L4.27,3Z"
+
+
+microphoneMinus : IconShape
+microphoneMinus =
+    iconShape "M9,2A3,3 0 0,1 12,5V11A3,3 0 0,1 9,14A3,3 0 0,1 6,11V5A3,3 0 0,1 9,2M16,11C16,14.5 13.44,17.43 10,17.93V21H8V17.93C4.56,17.43 2,14.5 2,11H4A5,5 0 0,0 9,16A5,5 0 0,0 14,11H16M15,5H23V7H15V5Z"
 
 
 microphoneOutline : IconShape
@@ -923,14 +923,14 @@ microphoneVariantOff =
     iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L16,19.26C15.86,21.35 14.12,23 12,23A4,4 0 0,1 8,19V18H7L6.16,9.82C5.82,9.47 5.53,9.06 5.33,8.6L2,5.27M9,3A4,4 0 0,1 13,7H8.82L6.08,4.26C6.81,3.5 7.85,3 9,3M11.84,9.82L11.82,10L9.82,8H12.87C12.69,8.7 12.33,9.32 11.84,9.82M11,18H10V19A2,2 0 0,0 12,21A2,2 0 0,0 14,19V17.27L11.35,14.62L11,18M18,10H20L19,11L20,12H18A2,2 0 0,0 16,14V14.18L14.3,12.5C14.9,11 16.33,10 18,10M8,12A1,1 0 0,0 9,13C9.21,13 9.4,12.94 9.56,12.83L8.17,11.44C8.06,11.6 8,11.79 8,12Z"
 
 
-microsoftXboxControllerBatteryUnknown : IconShape
-microsoftXboxControllerBatteryUnknown =
-    iconShape "M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8M18.19,8C17.32,8 16.62,8.2 16.08,8.59C15.56,9 15.3,9.57 15.31,10.36L15.32,10.39H17.25C17.26,10.09 17.35,9.86 17.53,9.7C17.71,9.55 17.93,9.47 18.19,9.47C18.5,9.47 18.76,9.57 18.94,9.75C19.12,9.94 19.2,10.2 19.2,10.5C19.2,10.82 19.13,11.09 18.97,11.32C18.83,11.55 18.62,11.75 18.36,11.91C17.85,12.25 17.5,12.55 17.31,12.82C17.11,13.08 17,13.5 17,14H19C19,13.69 19.04,13.44 19.13,13.26C19.22,13.08 19.39,12.9 19.64,12.74C20.09,12.5 20.46,12.21 20.75,11.81C21.04,11.41 21.19,11 21.19,10.5C21.19,9.74 20.92,9.13 20.38,8.68C19.85,8.23 19.12,8 18.19,8M17,15V17H19V15H17Z"
-
-
 microscope : IconShape
 microscope =
     iconShape "M9.46,6.28L11.05,9C8.47,9.26 6.5,11.41 6.5,14A5,5 0 0,0 11.5,19C13.55,19 15.31,17.77 16.08,16H13.5V14H21.5V16H19.25C18.84,17.57 17.97,18.96 16.79,20H19.5V22H3.5V20H6.21C4.55,18.53 3.5,16.39 3.5,14C3.5,10.37 5.96,7.2 9.46,6.28M12.74,2.07L13.5,3.37L14.36,2.87L17.86,8.93L14.39,10.93L10.89,4.87L11.76,4.37L11,3.07L12.74,2.07Z"
+
+
+microsoftXboxControllerBatteryUnknown : IconShape
+microsoftXboxControllerBatteryUnknown =
+    iconShape "M21.67,5C22.4,5 23,5.6 23,6.33V19.67A1.33,1.33 0 0,1 21.67,21H14.33C13.6,21 13,20.4 13,19.67V16.75H7.75C5.75,16.75 5,19 3,20C1,20 -0.5,17 3.5,8.5H3.75L4.19,7.67C4.19,7.67 7,6 8.33,7.23H13V6.33A1.33,1.33 0 0,1 14.33,5H16V3H20V5H21.67M11,8A1,1 0 0,0 10,9A1,1 0 0,0 11,10A1,1 0 0,0 12,9A1,1 0 0,0 11,8M18.19,8C17.32,8 16.62,8.2 16.08,8.59C15.56,9 15.3,9.57 15.31,10.36L15.32,10.39H17.25C17.26,10.09 17.35,9.86 17.53,9.7C17.71,9.55 17.93,9.47 18.19,9.47C18.5,9.47 18.76,9.57 18.94,9.75C19.12,9.94 19.2,10.2 19.2,10.5C19.2,10.82 19.13,11.09 18.97,11.32C18.83,11.55 18.62,11.75 18.36,11.91C17.85,12.25 17.5,12.55 17.31,12.82C17.11,13.08 17,13.5 17,14H19C19,13.69 19.04,13.44 19.13,13.26C19.22,13.08 19.39,12.9 19.64,12.74C20.09,12.5 20.46,12.21 20.75,11.81C21.04,11.41 21.19,11 21.19,10.5C21.19,9.74 20.92,9.13 20.38,8.68C19.85,8.23 19.12,8 18.19,8M17,15V17H19V15H17Z"
 
 
 microwave : IconShape
@@ -963,6 +963,11 @@ mine =
     iconShape "M23,13V11H19.93C19.75,9.58 19.19,8.23 18.31,7.1L20.5,4.93L19.07,3.5L16.9,5.69C15.77,4.81 14.42,4.25 13,4.07V1H11V4.07C9.58,4.25 8.23,4.81 7.1,5.69L4.93,3.5L3.5,4.93L5.69,7.1C4.81,8.23 4.25,9.58 4.07,11H1V13H4.07C4.25,14.42 4.81,15.77 5.69,16.9L3.5,19.07L4.93,20.5L7.1,18.31C8.23,19.19 9.58,19.75 11,19.93V23H13V19.93C14.42,19.75 15.77,19.19 16.9,18.31L19.07,20.5L20.5,19.07L18.31,16.9C19.19,15.77 19.75,14.42 19.93,13H23M12,8A4,4 0 0,0 8,12H6A6,6 0 0,1 12,6V8Z"
 
 
+miniSd : IconShape
+miniSd =
+    iconShape "M6,4A2,2 0 0,0 4,6V18A2,2 0 0,0 6,20H18A2,2 0 0,0 20,18V12L18,10V6A2,2 0 0,0 16,4H6M7,6H9V10H7V6M10,6H12V10H10V6M13,6H15V10H13V6Z"
+
+
 minidisc : IconShape
 minidisc =
     iconShape "M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H5M12,5C15.09,5 17.82,7.04 18.7,10H16A1,1 0 0,0 15,11V13A1,1 0 0,0 16,14H18.71C17.82,16.97 15.09,19 12,19A7,7 0 0,1 5,12A7,7 0 0,1 12,5M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z"
@@ -976,11 +981,6 @@ minus =
 minusBox : IconShape
 minusBox =
     iconShape "M17,13H7V11H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
-
-
-miniSd : IconShape
-miniSd =
-    iconShape "M6,4A2,2 0 0,0 4,6V18A2,2 0 0,0 6,20H18A2,2 0 0,0 20,18V12L18,10V6A2,2 0 0,0 16,4H6M7,6H9V10H7V6M10,6H12V10H10V6M13,6H15V10H13V6Z"
 
 
 minusBoxMultiple : IconShape
@@ -1243,14 +1243,14 @@ mopedOutline =
     iconShape "M19 7C19 5.9 18.11 5 17 5H14V7H17V9.65L13.5 14H10V9H6C3.79 9 2 10.79 2 13V16H4C4 17.66 5.34 19 7 19S10 17.66 10 16H14.5L19 10.35V7M7 17C6.45 17 6 16.55 6 16H8C8 16.55 7.55 17 7 17M8 14H4V13C4 11.9 4.9 11 6 11H8V14M19 13C17.34 13 16 14.34 16 16S17.34 19 19 19 22 17.66 22 16 20.66 13 19 13M19 17C18.45 17 18 16.55 18 16S18.45 15 19 15 20 15.45 20 16 19.55 17 19 17M10 8H5V6H10V8Z"
 
 
-more : IconShape
-more =
-    iconShape "M19,13.5A1.5,1.5 0 0,1 17.5,12A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 20.5,12A1.5,1.5 0 0,1 19,13.5M14,13.5A1.5,1.5 0 0,1 12.5,12A1.5,1.5 0 0,1 14,10.5A1.5,1.5 0 0,1 15.5,12A1.5,1.5 0 0,1 14,13.5M9,13.5A1.5,1.5 0 0,1 7.5,12A1.5,1.5 0 0,1 9,10.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 9,13.5M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.37,21 7.06,21H22A2,2 0 0,0 24,19V5C24,3.89 23.1,3 22,3Z"
-
-
 mortarPestle : IconShape
 mortarPestle =
     iconShape "M21 7L19 13L21 19V21H3V19L5 13L3 7V5H15.7L17.2 1L19.5 1.8L18.3 5H21V7Z"
+
+
+more : IconShape
+more =
+    iconShape "M19,13.5A1.5,1.5 0 0,1 17.5,12A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 20.5,12A1.5,1.5 0 0,1 19,13.5M14,13.5A1.5,1.5 0 0,1 12.5,12A1.5,1.5 0 0,1 14,10.5A1.5,1.5 0 0,1 15.5,12A1.5,1.5 0 0,1 14,13.5M9,13.5A1.5,1.5 0 0,1 7.5,12A1.5,1.5 0 0,1 9,10.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 9,13.5M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.37,21 7.06,21H22A2,2 0 0,0 24,19V5C24,3.89 23.1,3 22,3Z"
 
 
 mortarPestlePlus : IconShape
@@ -1363,19 +1363,14 @@ mouseMoveUp =
     iconShape "M7 9H2C2 6.04 4.17 3.57 7 3.09V9M18 17H20V11H23L19 7L15 11H18V17M9 3.09V9H14C14 6.04 11.83 3.57 9 3.09M2 15C2 18.3 4.7 21 8 21S14 18.3 14 15V11H2V15Z"
 
 
-mouseOff : IconShape
-mouseOff =
-    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L17.5,20.79C16.08,22.16 14.14,23 12,23A8,8 0 0,1 4,15V11H7.73L5.73,9H4C4,8.46 4.05,7.93 4.15,7.42L2,5.27M11,1.07V9H10.82L5.79,3.96C7.05,2.4 8.9,1.33 11,1.07M20,11V15C20,15.95 19.83,16.86 19.53,17.71L12.82,11H20M13,1.07C16.94,1.56 20,4.92 20,9H13V1.07Z"
-
-
 mouseMoveVertical : IconShape
 mouseMoveVertical =
     iconShape "M20 6H23L19 2L15 6H18V18H15L19 22L23 18H20V6M9 3.09C11.83 3.57 14 6.04 14 9H9V3.09M14 11V15C14 18.3 11.3 21 8 21S2 18.3 2 15V11H14M7 9H2C2 6.04 4.17 3.57 7 3.09V9Z"
 
 
-mouseRightClick : IconShape
-mouseRightClick =
-    iconShape "M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C7.06 1.56 4 4.92 4 9H11M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66Z"
+mouseOff : IconShape
+mouseOff =
+    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L17.5,20.79C16.08,22.16 14.14,23 12,23A8,8 0 0,1 4,15V11H7.73L5.73,9H4C4,8.46 4.05,7.93 4.15,7.42L2,5.27M11,1.07V9H10.82L5.79,3.96C7.05,2.4 8.9,1.33 11,1.07M20,11V15C20,15.95 19.83,16.86 19.53,17.71L12.82,11H20M13,1.07C16.94,1.56 20,4.92 20,9H13V1.07Z"
 
 
 mouseOutline : IconShape
@@ -1383,19 +1378,24 @@ mouseOutline =
     iconShape "M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15Z"
 
 
+mouseRightClick : IconShape
+mouseRightClick =
+    iconShape "M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C7.06 1.56 4 4.92 4 9H11M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66Z"
+
+
 mouseRightClickOutline : IconShape
 mouseRightClickOutline =
     iconShape "M13 9V1.07C16.94 1.56 20 4.92 20 9H13M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15Z"
 
 
-mouseVariant : IconShape
-mouseVariant =
-    iconShape "M14,7H10V2.1C12.28,2.56 14,4.58 14,7M4,7C4,4.58 5.72,2.56 8,2.1V7H4M14,12C14,14.42 12.28,16.44 10,16.9V18A3,3 0 0,0 13,21A3,3 0 0,0 16,18V13A4,4 0 0,1 20,9H22L21,10L22,11H20A2,2 0 0,0 18,13H18V18A5,5 0 0,1 13,23A5,5 0 0,1 8,18V16.9C5.72,16.44 4,14.42 4,12V9H14V12Z"
-
-
 mouseScrollWheel : IconShape
 mouseScrollWheel =
     iconShape "M11 1.07C7.05 1.56 4 4.92 4 9H11V7.73C10.4 7.39 10 6.74 10 6V4C10 3.26 10.4 2.61 11 2.27V1.07M13 9V7.73C13.6 7.39 14 6.74 14 6V4C14 3.26 13.6 2.61 13 2.27V1.07C16.94 1.56 20 4.92 20 9H13M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M13 6V4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V6C11 6.55 11.45 7 12 7C12.55 7 13 6.55 13 6Z"
+
+
+mouseVariant : IconShape
+mouseVariant =
+    iconShape "M14,7H10V2.1C12.28,2.56 14,4.58 14,7M4,7C4,4.58 5.72,2.56 8,2.1V7H4M14,12C14,14.42 12.28,16.44 10,16.9V18A3,3 0 0,0 13,21A3,3 0 0,0 16,18V13A4,4 0 0,1 20,9H22L21,10L22,11H20A2,2 0 0,0 18,13H18V18A5,5 0 0,1 13,23A5,5 0 0,1 8,18V16.9C5.72,16.44 4,14.42 4,12V9H14V12Z"
 
 
 mouseVariantOff : IconShape
@@ -1418,14 +1418,14 @@ movie =
     iconShape "M18,4L20,8H17L15,4H13L15,8H12L10,4H8L10,8H7L5,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V4H18Z"
 
 
-movieCheckOutline : IconShape
-movieCheckOutline =
-    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
-
-
 movieCheck : IconShape
 movieCheck =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
+
+
+movieCheckOutline : IconShape
+movieCheckOutline =
+    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
 
 
 movieCog : IconShape
@@ -1568,14 +1568,14 @@ movieOpenRemoveOutline =
     iconShape "M19.65 6.5L16.91 2.96L20.84 2.18L21.62 6.1L19.65 6.5M16.71 7.07L13.97 3.54L12 3.93L14.75 7.46L16.71 7.07M4.16 5.5L3.18 5.69C2.1 5.9 1.39 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4 20V12H20V13.09C20.72 13.21 21.39 13.46 22 13.81V10H2V20C2 21.11 2.9 22 4 22H13.81C13.46 21.39 13.22 20.72 13.09 20H4M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
 
 
-movieOpenSettingsOutline : IconShape
-movieOpenSettingsOutline =
-    iconShape "M19.65 4.5L16.91 .96L20.84 .18L21.62 4.1L19.65 4.5M16.71 5.07L13.97 1.54L12 1.93L14.75 5.46L16.71 5.07M11.81 6.05L9.07 2.5L7.1 2.91L9.85 6.44L11.81 6.05M4.16 3.5L3.18 3.69C2.1 3.9 1.39 4.96 1.61 6.04L2 8L6.9 7.03L4.16 3.5M22 8V18C22 19.11 21.11 20 20 20H4C2.9 20 2 19.11 2 18V8H22M20 10H4V18H20V10M7 24H9V22H7V24M15 24H17V22H15V24M11 24H13V22H11V24Z"
-
-
 movieOpenSettings : IconShape
 movieOpenSettings =
     iconShape "M14.75 5.46L12 1.93L13.97 1.54L16.71 5.07L14.75 5.46M21.62 4.1L20.84 .18L16.91 .96L19.65 4.5L21.62 4.1M11.81 6.05L9.07 2.5L7.1 2.91L9.85 6.44L11.81 6.05M2 8V18C2 19.11 2.9 20 4 20H20C21.11 20 22 19.11 22 18V8H2M4.16 3.5L3.18 3.69C2.1 3.91 1.4 4.96 1.61 6.04L2 8L6.9 7.03L4.16 3.5M11 24H13V22H11V24M7 24H9V22H7V24M15 24H17V22H15V24Z"
+
+
+movieOpenSettingsOutline : IconShape
+movieOpenSettingsOutline =
+    iconShape "M19.65 4.5L16.91 .96L20.84 .18L21.62 4.1L19.65 4.5M16.71 5.07L13.97 1.54L12 1.93L14.75 5.46L16.71 5.07M11.81 6.05L9.07 2.5L7.1 2.91L9.85 6.44L11.81 6.05M4.16 3.5L3.18 3.69C2.1 3.9 1.39 4.96 1.61 6.04L2 8L6.9 7.03L4.16 3.5M22 8V18C22 19.11 21.11 20 20 20H4C2.9 20 2 19.11 2 18V8H22M20 10H4V18H20V10M7 24H9V22H7V24M15 24H17V22H15V24M11 24H13V22H11V24Z"
 
 
 movieOpenStar : IconShape
@@ -1738,14 +1738,14 @@ musicAccidentalDoubleSharp =
     iconShape "M15.41 10H17V7H14V8.59L12 10.59L10 8.59V7H7V10H8.59L10.59 12L8.59 14H7V17H10V15.41L12 13.41L14 15.41V17H17V14H15.41L13.41 12L15.41 10Z"
 
 
-musicAccidentalNatural : IconShape
-musicAccidentalNatural =
-    iconShape "M10 8.75V3.5H8V17.5L14 15.25V20.5H16V6.5L10 8.75M14 13.25L10 14.75V10.75L14 9.25V13.25Z"
-
-
 musicAccidentalFlat : IconShape
 musicAccidentalFlat =
     iconShape "M8.5 19C13.36 16.26 15.5 13.91 15.5 12C15.5 10.59 14.79 9 12.5 9C11.8 9 11.11 9.28 10.5 9.67V5H8.5M10.5 15.38V12.26C11.12 11.59 11.95 11 12.5 11C13.09 11 13.5 11.07 13.5 12C13.5 12.15 13.4 13.3 10.5 15.38Z"
+
+
+musicAccidentalNatural : IconShape
+musicAccidentalNatural =
+    iconShape "M10 8.75V3.5H8V17.5L14 15.25V20.5H16V6.5L10 8.75M14 13.25L10 14.75V10.75L14 9.25V13.25Z"
 
 
 musicAccidentalSharp : IconShape
@@ -1828,14 +1828,14 @@ musicNoteHalf =
     iconShape "M16 3H14V13.56A3.96 3.96 0 0 0 12 13A4 4 0 1 0 16 17V3M12 19A2 2 0 1 1 14 17A2 2 0 0 1 12 19Z"
 
 
-musicNoteMinus : IconShape
-musicNoteMinus =
-    iconShape "M14 12V14H22V12H14M9 3V13.55C8.41 13.21 7.73 13 7 13C4.79 13 3 14.79 3 17S4.79 21 7 21 11 19.21 11 17V7H15V3H9Z"
-
-
 musicNoteHalfDotted : IconShape
 musicNoteHalfDotted =
     iconShape "M14 3H12V13.56A3.96 3.96 0 0 0 10 13A4 4 0 1 0 14 17V3M10 19A2 2 0 1 1 12 17A2 2 0 0 1 10 19M16.5 20A1.5 1.5 0 1 1 18 18.5A1.5 1.5 0 0 1 16.5 20Z"
+
+
+musicNoteMinus : IconShape
+musicNoteMinus =
+    iconShape "M14 12V14H22V12H14M9 3V13.55C8.41 13.21 7.73 13 7 13C4.79 13 3 14.79 3 17S4.79 21 7 21 11 19.21 11 17V7H15V3H9Z"
 
 
 musicNoteOff : IconShape
@@ -1950,6 +1950,9 @@ lookup name =
         "magnify-close" ->
             Just magnifyClose
 
+        "magnify-expand" ->
+            Just magnifyExpand
+
         "magnify-minus" ->
             Just magnifyMinus
 
@@ -1959,17 +1962,14 @@ lookup name =
         "magnify-minus-outline" ->
             Just magnifyMinusOutline
 
-        "magnify-expand" ->
-            Just magnifyExpand
-
         "magnify-plus" ->
             Just magnifyPlus
 
-        "magnify-plus-outline" ->
-            Just magnifyPlusOutline
-
         "magnify-plus-cursor" ->
             Just magnifyPlusCursor
+
+        "magnify-plus-outline" ->
+            Just magnifyPlusOutline
 
         "magnify-remove-cursor" ->
             Just magnifyRemoveCursor
@@ -2013,23 +2013,23 @@ lookup name =
         "map-check" ->
             Just mapCheck
 
-        "map-check-outline" ->
-            Just mapCheckOutline
-
         "map-clock" ->
             Just mapClock
+
+        "map-check-outline" ->
+            Just mapCheckOutline
 
         "map-clock-outline" ->
             Just mapClockOutline
 
-        "map-legend" ->
-            Just mapLegend
+        "map-marker-account" ->
+            Just mapMarkerAccount
 
         "map-marker" ->
             Just mapMarker
 
-        "map-marker-account" ->
-            Just mapMarkerAccount
+        "map-legend" ->
+            Just mapLegend
 
         "map-marker-account-outline" ->
             Just mapMarkerAccountOutline
@@ -2064,11 +2064,11 @@ lookup name =
         "map-marker-minus" ->
             Just mapMarkerMinus
 
-        "map-marker-multiple" ->
-            Just mapMarkerMultiple
-
         "map-marker-minus-outline" ->
             Just mapMarkerMinusOutline
+
+        "map-marker-multiple" ->
+            Just mapMarkerMultiple
 
         "map-marker-multiple-outline" ->
             Just mapMarkerMultipleOutline
@@ -2166,11 +2166,11 @@ lookup name =
         "math-integral-box" ->
             Just mathIntegralBox
 
-        "math-norm" ->
-            Just mathNorm
-
         "math-log" ->
             Just mathLog
+
+        "math-norm" ->
+            Just mathNorm
 
         "math-norm-box" ->
             Just mathNormBox
@@ -2289,11 +2289,11 @@ lookup name =
         "message-bookmark" ->
             Just messageBookmark
 
-        "message-bulleted" ->
-            Just messageBulleted
-
         "message-bookmark-outline" ->
             Just messageBookmarkOutline
+
+        "message-bulleted" ->
+            Just messageBulleted
 
         "message-bulleted-off" ->
             Just messageBulletedOff
@@ -2400,11 +2400,11 @@ lookup name =
         "message-text-clock" ->
             Just messageTextClock
 
-        "message-text-fast" ->
-            Just messageTextFast
-
         "message-text-clock-outline" ->
             Just messageTextClockOutline
+
+        "message-text-fast" ->
+            Just messageTextFast
 
         "message-text-fast-outline" ->
             Just messageTextFastOutline
@@ -2445,17 +2445,17 @@ lookup name =
         "microphone" ->
             Just microphone
 
-        "microphone-message-off" ->
-            Just microphoneMessageOff
-
         "microphone-message" ->
             Just microphoneMessage
 
-        "microphone-minus" ->
-            Just microphoneMinus
+        "microphone-message-off" ->
+            Just microphoneMessageOff
 
         "microphone-off" ->
             Just microphoneOff
+
+        "microphone-minus" ->
+            Just microphoneMinus
 
         "microphone-outline" ->
             Just microphoneOutline
@@ -2478,11 +2478,11 @@ lookup name =
         "microphone-variant-off" ->
             Just microphoneVariantOff
 
-        "microsoft-xbox-controller-battery-unknown" ->
-            Just microsoftXboxControllerBatteryUnknown
-
         "microscope" ->
             Just microscope
+
+        "microsoft-xbox-controller-battery-unknown" ->
+            Just microsoftXboxControllerBatteryUnknown
 
         "microwave" ->
             Just microwave
@@ -2502,6 +2502,9 @@ lookup name =
         "mine" ->
             Just mine
 
+        "mini-sd" ->
+            Just miniSd
+
         "minidisc" ->
             Just minidisc
 
@@ -2510,9 +2513,6 @@ lookup name =
 
         "minus-box" ->
             Just minusBox
-
-        "mini-sd" ->
-            Just miniSd
 
         "minus-box-multiple" ->
             Just minusBoxMultiple
@@ -2670,11 +2670,11 @@ lookup name =
         "moped-outline" ->
             Just mopedOutline
 
-        "more" ->
-            Just more
-
         "mortar-pestle" ->
             Just mortarPestle
+
+        "more" ->
+            Just more
 
         "mortar-pestle-plus" ->
             Just mortarPestlePlus
@@ -2742,26 +2742,26 @@ lookup name =
         "mouse-move-up" ->
             Just mouseMoveUp
 
-        "mouse-off" ->
-            Just mouseOff
-
         "mouse-move-vertical" ->
             Just mouseMoveVertical
 
-        "mouse-right-click" ->
-            Just mouseRightClick
+        "mouse-off" ->
+            Just mouseOff
 
         "mouse-outline" ->
             Just mouseOutline
 
+        "mouse-right-click" ->
+            Just mouseRightClick
+
         "mouse-right-click-outline" ->
             Just mouseRightClickOutline
 
-        "mouse-variant" ->
-            Just mouseVariant
-
         "mouse-scroll-wheel" ->
             Just mouseScrollWheel
+
+        "mouse-variant" ->
+            Just mouseVariant
 
         "mouse-variant-off" ->
             Just mouseVariantOff
@@ -2775,11 +2775,11 @@ lookup name =
         "movie" ->
             Just movie
 
-        "movie-check-outline" ->
-            Just movieCheckOutline
-
         "movie-check" ->
             Just movieCheck
+
+        "movie-check-outline" ->
+            Just movieCheckOutline
 
         "movie-cog" ->
             Just movieCog
@@ -2865,11 +2865,11 @@ lookup name =
         "movie-open-remove-outline" ->
             Just movieOpenRemoveOutline
 
-        "movie-open-settings-outline" ->
-            Just movieOpenSettingsOutline
-
         "movie-open-settings" ->
             Just movieOpenSettings
+
+        "movie-open-settings-outline" ->
+            Just movieOpenSettingsOutline
 
         "movie-open-star" ->
             Just movieOpenStar
@@ -2967,11 +2967,11 @@ lookup name =
         "music-accidental-double-sharp" ->
             Just musicAccidentalDoubleSharp
 
-        "music-accidental-natural" ->
-            Just musicAccidentalNatural
-
         "music-accidental-flat" ->
             Just musicAccidentalFlat
+
+        "music-accidental-natural" ->
+            Just musicAccidentalNatural
 
         "music-accidental-sharp" ->
             Just musicAccidentalSharp
@@ -3021,11 +3021,11 @@ lookup name =
         "music-note-half" ->
             Just musicNoteHalf
 
-        "music-note-minus" ->
-            Just musicNoteMinus
-
         "music-note-half-dotted" ->
             Just musicNoteHalfDotted
+
+        "music-note-minus" ->
+            Just musicNoteMinus
 
         "music-note-off" ->
             Just musicNoteOff

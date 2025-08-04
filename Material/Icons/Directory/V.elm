@@ -278,14 +278,14 @@ video2d =
     iconShape "M13 7H16C17.66 7 19 8.34 19 10V14C19 15.66 17.66 17 16 17H13V7M16 15C16.55 15 17 14.55 17 14V10C17 9.45 16.55 9 16 9H15V15H16M5 7H9C10.11 7 11 7.9 11 9V11C11 12.11 10.11 13 9 13H7V15H11V17H5V13C5 11.9 5.9 11 7 11H9V9H5V7Z"
 
 
-video3dOff : IconShape
-video3dOff =
-    iconShape "M2.61 2L21.35 20.74L19.94 22.15L14.8 17H13V15.2L11 13.23V15.21C10.93 15.68 10.74 16.08 10.41 16.41C10.08 16.73 9.68 16.93 9.21 17H5V15H9V13H6V11H8.8L6.79 9H5V7.23L1.2 3.41L2.61 2M16 7H16.22C17 7.07 17.63 7.36 18.14 7.88C18.65 8.39 18.93 9 19 9.76V14.24C18.95 14.63 18.87 15 18.72 15.3L17 13.6V9.85C16.95 9.63 16.84 9.44 16.69 9.28C16.53 9.13 16.34 9.03 16.12 9H15V11.59L13 9.57V7H16Z"
-
-
 video3d : IconShape
 video3d =
     iconShape "M5,7H9A2,2 0 0,1 11,9V15A2,2 0 0,1 9,17H5V15H9V13H6V11H9V9H5V7M13,7H16A3,3 0 0,1 19,10V14A3,3 0 0,1 16,17H13V7M16,15A1,1 0 0,0 17,14V10A1,1 0 0,0 16,9H15V15H16Z"
+
+
+video3dOff : IconShape
+video3dOff =
+    iconShape "M2.61 2L21.35 20.74L19.94 22.15L14.8 17H13V15.2L11 13.23V15.21C10.93 15.68 10.74 16.08 10.41 16.41C10.08 16.73 9.68 16.93 9.21 17H5V15H9V13H6V11H8.8L6.79 9H5V7.23L1.2 3.41L2.61 2M16 7H16.22C17 7.07 17.63 7.36 18.14 7.88C18.65 8.39 18.93 9 19 9.76V14.24C18.95 14.63 18.87 15 18.72 15.3L17 13.6V9.85C16.95 9.63 16.84 9.44 16.69 9.28C16.53 9.13 16.34 9.03 16.12 9H15V11.59L13 9.57V7H16Z"
 
 
 video3dVariant : IconShape
@@ -388,14 +388,14 @@ videoOffOutline =
     iconShape "M3.41,1.86L2,3.27L4.73,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16C16.21,18 16.39,17.92 16.55,17.82L19.73,21L21.14,19.59L12.28,10.73L3.41,1.86M5,16V8H6.73L14.73,16H5M15,8V10.61L21,16.61V6.5L17,10.5V7A1,1 0 0,0 16,6H10.39L12.39,8H15Z"
 
 
-videoPlus : IconShape
-videoPlus =
-    iconShape "M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H11V16H9V13H6V11H9V8H11V11H14V13Z"
-
-
 videoOutline : IconShape
 videoOutline =
     iconShape "M15,8V16H5V8H15M16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5V7A1,1 0 0,0 16,6Z"
+
+
+videoPlus : IconShape
+videoPlus =
+    iconShape "M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5M14,13H11V16H9V13H6V11H9V8H11V11H14V13Z"
 
 
 videoPlusOutline : IconShape
@@ -513,14 +513,14 @@ viewDashboardEditOutline =
     iconShape "M21 13.1C20.9 13.1 20.7 13.2 20.6 13.3L19.6 14.3L21.7 16.4L22.7 15.4C22.9 15.2 22.9 14.8 22.7 14.6L21.4 13.3C21.3 13.2 21.2 13.1 21 13.1M19.1 14.9L13 20.9V23H15.1L21.2 16.9L19.1 14.9M21 3H13V9H21V3M19 7H15V5H19V7M13 18.06V11H21V11.1C20.24 11.1 19.57 11.5 19.19 11.89L18.07 13H15V16.07L13 18.06M11 3H3V13H11V3M9 11H5V5H9V11M11 20.06V15H3V21H11V20.06M9 19H5V17H9V19Z"
 
 
-viewDashboardVariant : IconShape
-viewDashboardVariant =
-    iconShape "M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z"
-
-
 viewDashboardOutline : IconShape
 viewDashboardOutline =
     iconShape "M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z"
+
+
+viewDashboardVariant : IconShape
+viewDashboardVariant =
+    iconShape "M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z"
 
 
 viewDashboardVariantOutline : IconShape
@@ -568,14 +568,14 @@ viewGridPlus =
     iconShape "M13 3V11H21V3H13M3 21H11V13H3V21M3 3V11H11V3H3M13 16H16V13H18V16H21V18H18V21H16V18H13V16Z"
 
 
-viewGridPlusOutline : IconShape
-viewGridPlusOutline =
-    iconShape "M3 21H11V13H3M5 15H9V19H5M3 11H11V3H3M5 5H9V9H5M13 3V11H21V3M19 9H15V5H19M18 16H21V18H18V21H16V18H13V16H16V13H18Z"
-
-
 viewHeadline : IconShape
 viewHeadline =
     iconShape "M4,5V7H21V5M4,11H21V9H4M4,19H21V17H4M4,15H21V13H4V15Z"
+
+
+viewGridPlusOutline : IconShape
+viewGridPlusOutline =
+    iconShape "M3 21H11V13H3M5 15H9V19H5M3 11H11V3H3M5 5H9V9H5M13 3V11H21V3M19 9H15V5H19M18 16H21V18H18V21H16V18H13V16H16V13H18Z"
 
 
 viewList : IconShape
@@ -946,11 +946,11 @@ lookup name =
         "video-2d" ->
             Just video2d
 
-        "video-3d-off" ->
-            Just video3dOff
-
         "video-3d" ->
             Just video3d
+
+        "video-3d-off" ->
+            Just video3dOff
 
         "video-3d-variant" ->
             Just video3dVariant
@@ -1012,11 +1012,11 @@ lookup name =
         "video-off-outline" ->
             Just videoOffOutline
 
-        "video-plus" ->
-            Just videoPlus
-
         "video-outline" ->
             Just videoOutline
+
+        "video-plus" ->
+            Just videoPlus
 
         "video-plus-outline" ->
             Just videoPlusOutline
@@ -1087,11 +1087,11 @@ lookup name =
         "view-dashboard-edit-outline" ->
             Just viewDashboardEditOutline
 
-        "view-dashboard-variant" ->
-            Just viewDashboardVariant
-
         "view-dashboard-outline" ->
             Just viewDashboardOutline
+
+        "view-dashboard-variant" ->
+            Just viewDashboardVariant
 
         "view-dashboard-variant-outline" ->
             Just viewDashboardVariantOutline
@@ -1120,11 +1120,11 @@ lookup name =
         "view-grid-plus" ->
             Just viewGridPlus
 
-        "view-grid-plus-outline" ->
-            Just viewGridPlusOutline
-
         "view-headline" ->
             Just viewHeadline
+
+        "view-grid-plus-outline" ->
+            Just viewGridPlusOutline
 
         "view-list" ->
             Just viewList

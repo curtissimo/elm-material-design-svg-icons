@@ -132,7 +132,7 @@ ${lookupLines}
 
 class IconSpecCategoryDirectory {
   static categories = new Map();
-  static basePath = ["Material", "Icons"];
+  static basePath = ["Material", "Icons", "Categories"];
 
   static register(spec) {
     return spec.categories

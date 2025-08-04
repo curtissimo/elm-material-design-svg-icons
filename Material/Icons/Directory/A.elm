@@ -3,9 +3,9 @@ module Material.Icons.Directory.A exposing (..)
 import Material.Icons exposing (IconShape, iconShape)
 
 
-abTesting : IconShape
-abTesting =
-    iconShape "M4 2A2 2 0 0 0 2 4V12H4V8H6V12H8V4A2 2 0 0 0 6 2H4M4 4H6V6H4M22 15.5V14A2 2 0 0 0 20 12H16V22H20A2 2 0 0 0 22 20V18.5A1.54 1.54 0 0 0 20.5 17A1.54 1.54 0 0 0 22 15.5M20 20H18V18H20V20M20 16H18V14H20M5.79 21.61L4.21 20.39L18.21 2.39L19.79 3.61Z"
+abacus : IconShape
+abacus =
+    iconShape "M5 5H7V11H5V5M10 5H8V11H10V5M5 19H7V13H5V19M10 13H8V19H10V17H15V15H10V13M2 21H4V3H2V21M20 3V7H13V5H11V11H13V9H20V15H18V13H16V19H18V17H20V21H22V3H20Z"
 
 
 abjadArabic : IconShape
@@ -13,19 +13,19 @@ abjadArabic =
     iconShape "M12 4C10.08 4 8.5 5.58 8.5 7.5C8.5 8.43 8.88 9.28 9.5 9.91C7.97 10.91 7 12.62 7 14.5C7 17.53 9.47 20 12.5 20C14.26 20 16 19.54 17.5 18.66L16.5 16.93C15.28 17.63 13.9 18 12.5 18C10.56 18 9 16.45 9 14.5C9 12.91 10.06 11.53 11.59 11.12L16.8 9.72L16.28 7.79L11.83 9C11.08 8.9 10.5 8.28 10.5 7.5C10.5 6.66 11.16 6 12 6C12.26 6 12.5 6.07 12.75 6.2L13.75 4.47C13.22 4.16 12.61 4 12 4Z"
 
 
-abacus : IconShape
-abacus =
-    iconShape "M5 5H7V11H5V5M10 5H8V11H10V5M5 19H7V13H5V19M10 13H8V19H10V17H15V15H10V13M2 21H4V3H2V21M20 3V7H13V5H11V11H13V9H20V15H18V13H16V19H18V17H20V21H22V3H20Z"
+abjadHebrew : IconShape
+abjadHebrew =
+    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
+
+
+abTesting : IconShape
+abTesting =
+    iconShape "M4 2A2 2 0 0 0 2 4V12H4V8H6V12H8V4A2 2 0 0 0 6 2H4M4 4H6V6H4M22 15.5V14A2 2 0 0 0 20 12H16V22H20A2 2 0 0 0 22 20V18.5A1.54 1.54 0 0 0 20.5 17A1.54 1.54 0 0 0 22 15.5M20 20H18V18H20V20M20 16H18V14H20M5.79 21.61L4.21 20.39L18.21 2.39L19.79 3.61Z"
 
 
 abugidaDevanagari : IconShape
 abugidaDevanagari =
     iconShape "M8 3V5H11C12.32 5 13.41 5.83 13.82 7H6V9H14V10H12C9.25 10 7 12.25 7 15C7 17.75 9.25 20 12 20C12.77 20 13.45 19.73 14 19.3V21H16V17H14C13.55 17.62 12.83 18 12 18C10.33 18 9 16.67 9 15C9 13.33 10.33 12 12 12H16V9H18V7H15.9C15.43 4.72 13.41 3 11 3H8Z"
-
-
-abjadHebrew : IconShape
-abjadHebrew =
-    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
 
 
 abugidaThai : IconShape
@@ -253,14 +253,14 @@ accountCog =
     iconShape "M10 4A4 4 0 0 0 6 8A4 4 0 0 0 10 12A4 4 0 0 0 14 8A4 4 0 0 0 10 4M17 12C16.87 12 16.76 12.09 16.74 12.21L16.55 13.53C16.25 13.66 15.96 13.82 15.7 14L14.46 13.5C14.35 13.5 14.22 13.5 14.15 13.63L13.15 15.36C13.09 15.47 13.11 15.6 13.21 15.68L14.27 16.5C14.25 16.67 14.24 16.83 14.24 17C14.24 17.17 14.25 17.33 14.27 17.5L13.21 18.32C13.12 18.4 13.09 18.53 13.15 18.64L14.15 20.37C14.21 20.5 14.34 20.5 14.46 20.5L15.7 20C15.96 20.18 16.24 20.35 16.55 20.47L16.74 21.79C16.76 21.91 16.86 22 17 22H19C19.11 22 19.22 21.91 19.24 21.79L19.43 20.47C19.73 20.34 20 20.18 20.27 20L21.5 20.5C21.63 20.5 21.76 20.5 21.83 20.37L22.83 18.64C22.89 18.53 22.86 18.4 22.77 18.32L21.7 17.5C21.72 17.33 21.74 17.17 21.74 17C21.74 16.83 21.73 16.67 21.7 16.5L22.76 15.68C22.85 15.6 22.88 15.47 22.82 15.36L21.82 13.63C21.76 13.5 21.63 13.5 21.5 13.5L20.27 14C20 13.82 19.73 13.65 19.42 13.53L19.23 12.21C19.22 12.09 19.11 12 19 12H17M10 14C5.58 14 2 15.79 2 18V20H11.68A7 7 0 0 1 11 17A7 7 0 0 1 11.64 14.09C11.11 14.03 10.56 14 10 14M18 15.5C18.83 15.5 19.5 16.17 19.5 17C19.5 17.83 18.83 18.5 18 18.5C17.16 18.5 16.5 17.83 16.5 17C16.5 16.17 17.17 15.5 18 15.5Z"
 
 
-accountConvert : IconShape
-accountConvert =
-    iconShape "M12 0L11.34 .03L15.15 3.84L16.5 2.5C19.75 4.07 22.09 7.24 22.45 11H23.95C23.44 4.84 18.29 0 12 0M12 4C10.07 4 8.5 5.57 8.5 7.5C8.5 9.43 10.07 11 12 11C13.93 11 15.5 9.43 15.5 7.5C15.5 5.57 13.93 4 12 4M.05 13C.56 19.16 5.71 24 12 24L12.66 23.97L8.85 20.16L7.5 21.5C4.25 19.94 1.91 16.76 1.55 13H.05M12 13C8.13 13 5 14.57 5 16.5V18H19V16.5C19 14.57 15.87 13 12 13Z"
-
-
 accountCogOutline : IconShape
 accountCogOutline =
     iconShape "M10 4A4 4 0 0 0 6 8A4 4 0 0 0 10 12A4 4 0 0 0 14 8A4 4 0 0 0 10 4M10 6A2 2 0 0 1 12 8A2 2 0 0 1 10 10A2 2 0 0 1 8 8A2 2 0 0 1 10 6M17 12C16.84 12 16.76 12.08 16.76 12.24L16.5 13.5C16.28 13.68 15.96 13.84 15.72 14L14.44 13.5C14.36 13.5 14.2 13.5 14.12 13.6L13.16 15.36C13.08 15.44 13.08 15.6 13.24 15.68L14.28 16.5V17.5L13.24 18.32C13.16 18.4 13.08 18.56 13.16 18.64L14.12 20.4C14.2 20.5 14.36 20.5 14.44 20.5L15.72 20C15.96 20.16 16.28 20.32 16.5 20.5L16.76 21.76C16.76 21.92 16.84 22 17 22H19C19.08 22 19.24 21.92 19.24 21.76L19.4 20.5C19.72 20.32 20.04 20.16 20.28 20L21.5 20.5C21.64 20.5 21.8 20.5 21.8 20.4L22.84 18.64C22.92 18.56 22.84 18.4 22.76 18.32L21.72 17.5V16.5L22.76 15.68C22.84 15.6 22.92 15.44 22.84 15.36L21.8 13.6C21.8 13.5 21.64 13.5 21.5 13.5L20.28 14C20.04 13.84 19.72 13.68 19.4 13.5L19.24 12.24C19.24 12.08 19.08 12 19 12H17M10 13C7.33 13 2 14.33 2 17V20H11.67C11.39 19.41 11.19 18.77 11.09 18.1H3.9V17C3.9 16.36 7.03 14.9 10 14.9C10.43 14.9 10.87 14.94 11.3 15C11.5 14.36 11.77 13.76 12.12 13.21C11.34 13.08 10.6 13 10 13M18.04 15.5C18.84 15.5 19.5 16.16 19.5 17.04C19.5 17.84 18.84 18.5 18.04 18.5C17.16 18.5 16.5 17.84 16.5 17.04C16.5 16.16 17.16 15.5 18.04 15.5Z"
+
+
+accountConvert : IconShape
+accountConvert =
+    iconShape "M12 0L11.34 .03L15.15 3.84L16.5 2.5C19.75 4.07 22.09 7.24 22.45 11H23.95C23.44 4.84 18.29 0 12 0M12 4C10.07 4 8.5 5.57 8.5 7.5C8.5 9.43 10.07 11 12 11C13.93 11 15.5 9.43 15.5 7.5C15.5 5.57 13.93 4 12 4M.05 13C.56 19.16 5.71 24 12 24L12.66 23.97L8.85 20.16L7.5 21.5C4.25 19.94 1.91 16.76 1.55 13H.05M12 13C8.13 13 5 14.57 5 16.5V18H19V16.5C19 14.57 15.87 13 12 13Z"
 
 
 accountConvertOutline : IconShape
@@ -748,14 +748,14 @@ airHorn =
     iconShape "M19,2.8V6L19,9.2C19,9.5 18.7,9.8 18.4,9.7C18.4,9.7 14.5,7.1 10,7.1V9.5H10.2C10.7,9.5 11.2,9.7 11.4,10.1L12.7,11.9C12.9,12.1 13,12.4 13,12.6V20.6C13,21.3 12.3,22 11.5,22H6.5C5.7,22 5,21.4 5,20.6V12.6C5,12.3 5.1,12.1 5.3,11.9L6.6,10.1C6.9,9.7 7.3,9.5 7.8,9.5H8V8C7.6,8.5 7,8.8 6.4,8.8C5.1,8.8 4,7.5 4,6C4,4.5 5.1,3.2 6.4,3.2C7,3.3 7.6,3.6 8,4V2.6H10V5C14.5,5 18.4,2.4 18.4,2.4C18.7,2.3 19,2.5 19,2.8Z"
 
 
-airHumidifierOff : IconShape
-airHumidifierOff =
-    iconShape "M22.1 21.5L2.4 1.7L1.1 3L3.8 5.7C3.3 6.3 3 7.1 3 8V22H18V19.9L20.8 22.7L22.1 21.5M9.6 11.5L12.4 14.3C12.1 14.7 11.6 15 11 15C9.9 15 9 14.1 9 13C9 12.4 9.3 11.9 9.6 11.5M16 17.9V20H5V8C5 7.7 5.1 7.4 5.2 7.1L8.2 10.1C7.5 10.8 7 11.9 7 13C7 15.2 8.8 17 11 17C12.1 17 13.2 16.5 13.9 15.8L16 17.9M17 13.8C17.1 12.5 19 10.5 19 10.5S21 12.7 21 14C21 15 20.2 15.9 19.2 16L17 13.8M9.2 6L7.2 4H14C16.2 4 18 5.8 18 8V9H16V8C16 6.9 15.1 6 14 6H9.2Z"
-
-
 airHumidifier : IconShape
 airHumidifier =
     iconShape "M11 9C8.79 9 7 10.79 7 13S8.79 17 11 17 15 15.21 15 13 13.21 9 11 9M11 15C9.9 15 9 14.11 9 13S9.9 11 11 11 13 11.9 13 13 12.11 15 11 15M7 4H14C16.21 4 18 5.79 18 8V9H16V8C16 6.9 15.11 6 14 6H7C5.9 6 5 6.9 5 8V20H16V18H18V22H3V8C3 5.79 4.79 4 7 4M19 10.5C19 10.5 21 12.67 21 14C21 15.1 20.1 16 19 16S17 15.1 17 14C17 12.67 19 10.5 19 10.5"
+
+
+airHumidifierOff : IconShape
+airHumidifierOff =
+    iconShape "M22.1 21.5L2.4 1.7L1.1 3L3.8 5.7C3.3 6.3 3 7.1 3 8V22H18V19.9L20.8 22.7L22.1 21.5M9.6 11.5L12.4 14.3C12.1 14.7 11.6 15 11 15C9.9 15 9 14.1 9 13C9 12.4 9.3 11.9 9.6 11.5M16 17.9V20H5V8C5 7.7 5.1 7.4 5.2 7.1L8.2 10.1C7.5 10.8 7 11.9 7 13C7 15.2 8.8 17 11 17C12.1 17 13.2 16.5 13.9 15.8L16 17.9M17 13.8C17.1 12.5 19 10.5 19 10.5S21 12.7 21 14C21 15 20.2 15.9 19.2 16L17 13.8M9.2 6L7.2 4H14C16.2 4 18 5.8 18 8V9H16V8C16 6.9 15.1 6 14 6H9.2Z"
 
 
 airPurifier : IconShape
@@ -1228,6 +1228,11 @@ alphaDCircleOutline =
     iconShape "M9,7H13A2,2 0 0,1 15,9V15A2,2 0 0,1 13,17H9V7M11,9V15H13V9H11M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
+alphaE : IconShape
+alphaE =
+    iconShape "M9,7V17H15V15H11V13H15V11H11V9H15V7H9Z"
+
+
 alphaEBox : IconShape
 alphaEBox =
     iconShape "M9,7V17H15V15H11V13H15V11H11V9H15V7H9M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
@@ -1236,11 +1241,6 @@ alphaEBox =
 alphaEBoxOutline : IconShape
 alphaEBoxOutline =
     iconShape "M9,7H15V9H11V11H15V13H11V15H15V17H9V7M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M5,5V19H19V5H5Z"
-
-
-alphaE : IconShape
-alphaE =
-    iconShape "M9,7V17H15V15H11V13H15V11H11V9H15V7H9Z"
 
 
 alphaECircle : IconShape
@@ -1308,14 +1308,14 @@ alphaH =
     iconShape "M9,7V17H11V13H13V17H15V7H13V11H11V7H9Z"
 
 
-alphaHBoxOutline : IconShape
-alphaHBoxOutline =
-    iconShape "M9,7H11V11H13V7H15V17H13V13H11V17H9V7M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M5,5V19H19V5H5Z"
-
-
 alphaHBox : IconShape
 alphaHBox =
     iconShape "M9,7V17H11V13H13V17H15V7H13V11H11V7H9M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
+
+
+alphaHBoxOutline : IconShape
+alphaHBoxOutline =
+    iconShape "M9,7H11V11H13V7H15V17H13V13H11V17H9V7M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M5,5V19H19V5H5Z"
 
 
 alphaHCircle : IconShape
@@ -1603,14 +1603,14 @@ alphaSCircleOutline =
     iconShape "M11,7H15V9H11V11H13A2,2 0 0,1 15,13V15A2,2 0 0,1 13,17H9V15H13V13H11A2,2 0 0,1 9,11V9A2,2 0 0,1 11,7M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
-alphaTBox : IconShape
-alphaTBox =
-    iconShape "M9,7V9H11V17H13V9H15V7H9M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
-
-
 alphaT : IconShape
 alphaT =
     iconShape "M9,7V9H11V17H13V9H15V7H9Z"
+
+
+alphaTBox : IconShape
+alphaTBox =
+    iconShape "M9,7V9H11V17H13V9H15V7H9M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
 
 
 alphaTBoxOutline : IconShape
@@ -1873,14 +1873,14 @@ angleObtuse =
     iconShape "M21,19H9.31L4.07,5.36L5.93,4.64L8.96,12.5C9.5,12.29 10.09,12.17 10.71,12.17V12.17C13.38,12.17 15.56,14.34 15.58,17H21V19M10.69,17H13.58C13.56,15.42 12.3,14.17 10.71,14.17C10.34,14.17 10,14.24 9.67,14.36L10.69,17Z"
 
 
-angleRight : IconShape
-angleRight =
-    iconShape "M5,4H7V11H13V17H20V19H5V4M7,17H11V13H7V17Z"
-
-
 animation : IconShape
 animation =
     iconShape "M4,2C2.89,2 2,2.89 2,4V14H4V4H14V2H4M8,6C6.89,6 6,6.89 6,8V18H8V8H18V6H8M12,10C10.89,10 10,10.89 10,12V20C10,21.11 10.89,22 12,22H20C21.11,22 22,21.11 22,20V12C22,10.89 21.11,10 20,10H12Z"
+
+
+angleRight : IconShape
+angleRight =
+    iconShape "M5,4H7V11H13V17H20V19H5V4M7,17H11V13H7V17Z"
 
 
 animationOutline : IconShape
@@ -2158,14 +2158,14 @@ archiveEyeOutline =
     iconShape "M14.5 11C14.78 11 15 11.22 15 11.5V13H9V11.5C9 11.22 9.22 11 9.5 11H14.5M20 13.55V10H18V13.06C18.69 13.14 19.36 13.31 20 13.55M21 9H3V3H21V9M19 5H5V7H19V5M8.85 19H6V10H4V21H9.78C9.54 20.61 9.32 20.19 9.14 19.75L8.85 19M17 18C16.44 18 16 18.44 16 19S16.44 20 17 20 18 19.56 18 19 17.56 18 17 18M23 19C22.06 21.34 19.73 23 17 23S11.94 21.34 11 19C11.94 16.66 14.27 15 17 15S22.06 16.66 23 19M19.5 19C19.5 17.62 18.38 16.5 17 16.5S14.5 17.62 14.5 19 15.62 21.5 17 21.5 19.5 20.38 19.5 19Z"
 
 
-archiveLockOpen : IconShape
-archiveLockOpen =
-    iconShape "M21 7H3V3H21V7M19 9C19.34 9 19.68 9.04 20 9.11V8H4V21H13.03C13 20.9 13 20.8 13 20.7V17.2C13 16.24 13.5 15.34 14.2 14.74V13.5C14.2 13.33 14.24 13.17 14.26 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.67 11 14.82 11.09 14.91 11.22C15.75 9.91 17.28 9 19 9M21.8 16H17.5V13.5C17.5 12.7 18.2 12.2 19 12.2S20.5 12.7 20.5 13.5V14H21.8V13.5C21.8 12.1 20.4 11 19 11S16.2 12.1 16.2 13.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16Z"
-
-
 archiveLock : IconShape
 archiveLock =
     iconShape "M21 7H3V3H21V7M9.5 11H14.5C14.78 11 15 11.22 15 11.5V12.06C15.87 10.83 17.35 10 19 10C19.34 10 19.68 10.04 20 10.11V8H4V21H13.03C13 20.9 13 20.8 13 20.7V17.2C13 16.24 13.5 15.34 14.2 14.74V14.5C14.2 14 14.32 13.47 14.5 13H9V11.5C9 11.22 9.22 11 9.5 11M23 17.3V20.8C23 21.4 22.4 22 21.7 22H16.2C15.6 22 15 21.4 15 20.7V17.2C15 16.6 15.6 16 16.2 16V14.5C16.2 13.1 17.6 12 19 12S21.8 13.1 21.8 14.5V16C22.4 16 23 16.6 23 17.3M20.5 14.5C20.5 13.7 19.8 13.2 19 13.2S17.5 13.7 17.5 14.5V16H20.5V14.5Z"
+
+
+archiveLockOpen : IconShape
+archiveLockOpen =
+    iconShape "M21 7H3V3H21V7M19 9C19.34 9 19.68 9.04 20 9.11V8H4V21H13.03C13 20.9 13 20.8 13 20.7V17.2C13 16.24 13.5 15.34 14.2 14.74V13.5C14.2 13.33 14.24 13.17 14.26 13H9V11.5C9 11.22 9.22 11 9.5 11H14.5C14.67 11 14.82 11.09 14.91 11.22C15.75 9.91 17.28 9 19 9M21.8 16H17.5V13.5C17.5 12.7 18.2 12.2 19 12.2S20.5 12.7 20.5 13.5V14H21.8V13.5C21.8 12.1 20.4 11 19 11S16.2 12.1 16.2 13.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16Z"
 
 
 archiveLockOpenOutline : IconShape
@@ -2233,14 +2233,14 @@ archivePlusOutline =
     iconShape "M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M21 9H3V3H21V9M19 5H5V7H19V5M6 19V10H4V21H13.35C13.13 20.37 13 19.7 13 19H6M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
 
 
-archiveRefreshOutline : IconShape
-archiveRefreshOutline =
-    iconShape "M18 12.03V10H20V12.18C19.5 12.07 19 12 18.5 12C18.33 12 18.17 12 18 12.03M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 19V10H4V21H12.5C12.24 20.38 12.09 19.7 12.03 19H6M21 9H3V3H21V9M19 5H5V7H19V5M22 18.5V14.5L20.83 15.67C20.11 14.95 19.11 14.5 18 14.5C15.79 14.5 14 16.29 14 18.5S15.79 22.5 18 22.5C19.68 22.5 21.12 21.47 21.71 20H20C19.54 20.61 18.82 21 18 21C16.62 21 15.5 19.88 15.5 18.5S16.62 16 18 16C18.69 16 19.32 16.28 19.77 16.73L18 18.5H22Z"
-
-
 archiveRefresh : IconShape
 archiveRefresh =
     iconShape "M18.5 12C19 12 19.5 12.07 20 12.18V8H4V21H12.5C12.18 20.23 12 19.39 12 18.5C12 14.91 14.91 12 18.5 12M9 13V11.5C9 11.22 9.22 11 9.5 11H14.5C14.78 11 15 11.22 15 11.5V13H9M21 7H3V3H21V7M18 18.5L19.77 16.73C19.32 16.28 18.69 16 18 16C16.62 16 15.5 17.12 15.5 18.5S16.62 21 18 21C18.82 21 19.54 20.61 20 20H21.71C21.12 21.47 19.68 22.5 18 22.5C15.79 22.5 14 20.71 14 18.5S15.79 14.5 18 14.5C19.11 14.5 20.11 14.95 20.83 15.67L22 14.5V18.5H18Z"
+
+
+archiveRefreshOutline : IconShape
+archiveRefreshOutline =
+    iconShape "M18 12.03V10H20V12.18C19.5 12.07 19 12 18.5 12C18.33 12 18.17 12 18 12.03M9.5 11C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11H9.5M6 19V10H4V21H12.5C12.24 20.38 12.09 19.7 12.03 19H6M21 9H3V3H21V9M19 5H5V7H19V5M22 18.5V14.5L20.83 15.67C20.11 14.95 19.11 14.5 18 14.5C15.79 14.5 14 16.29 14 18.5S15.79 22.5 18 22.5C19.68 22.5 21.12 21.47 21.71 20H20C19.54 20.61 18.82 21 18 21C16.62 21 15.5 19.88 15.5 18.5S16.62 16 18 16C18.69 16 19.32 16.28 19.77 16.73L18 18.5H22Z"
 
 
 archiveRemove : IconShape
@@ -2253,14 +2253,14 @@ archiveRemoveOutline =
     iconShape "M18 13.09V10H20V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09M14.5 11H9.5C9.22 11 9 11.22 9 11.5V13H15V11.5C15 11.22 14.78 11 14.5 11M6 19V10H4V21H13.35C13.13 20.37 13 19.7 13 19H6M21 9H3V3H21V9M19 5H5V7H19V5M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
 
 
-archiveSearchOutline : IconShape
-archiveSearchOutline =
-    iconShape "M13.04 10C12.64 10.25 12.26 10.55 11.9 10.9C11.57 11.24 11.27 11.61 11.03 12H8V10.5C8 10.22 8.22 10 8.5 10H13.04M20 8H2V2H20V8M18 4H4V6H18V4M5 18V9H3V20H11.82C11.24 19.4 10.8 18.72 10.5 18H5M23.39 21L22 22.39L18.88 19.32C18.19 19.75 17.37 20 16.5 20C14 20 12 18 12 15.5S14 11 16.5 11 21 13 21 15.5C21 16.38 20.75 17.21 20.31 17.9L23.39 21M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5Z"
-
-
 archiveSearch : IconShape
 archiveSearch =
     iconShape "M20 6H2V2H20V6M11.03 12H8V10.5C8 10.22 8.22 10 8.5 10H13.04C14.84 8.87 17.07 8.7 19 9.5V7H3V20H11.82C9.7 17.8 9.44 14.5 11.03 12M23.39 21L22 22.39L18.88 19.32C18.19 19.75 17.37 20 16.5 20C14 20 12 18 12 15.5S14 11 16.5 11 21 13 21 15.5C21 16.38 20.75 17.21 20.31 17.9L23.39 21M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5Z"
+
+
+archiveSearchOutline : IconShape
+archiveSearchOutline =
+    iconShape "M13.04 10C12.64 10.25 12.26 10.55 11.9 10.9C11.57 11.24 11.27 11.61 11.03 12H8V10.5C8 10.22 8.22 10 8.5 10H13.04M20 8H2V2H20V8M18 4H4V6H18V4M5 18V9H3V20H11.82C11.24 19.4 10.8 18.72 10.5 18H5M23.39 21L22 22.39L18.88 19.32C18.19 19.75 17.37 20 16.5 20C14 20 12 18 12 15.5S14 11 16.5 11 21 13 21 15.5C21 16.38 20.75 17.21 20.31 17.9L23.39 21M19 15.5C19 14.12 17.88 13 16.5 13S14 14.12 14 15.5 15.12 18 16.5 18 19 16.88 19 15.5Z"
 
 
 archiveSettings : IconShape
@@ -2428,14 +2428,14 @@ arrowCollapseRight =
     iconShape "M12.08,4.08L20,12L12.08,19.92L10.67,18.5L16.17,13H2V11H16.17L10.67,5.5L12.08,4.08M20,12V22H22V2H20V12Z"
 
 
-arrowCollapseVertical : IconShape
-arrowCollapseVertical =
-    iconShape "M4,12H20V14H4V12M4,9H20V11H4V9M16,4L12,8L8,4H11V1H13V4H16M8,19L12,15L16,19H13V22H11V19H8Z"
-
-
 arrowCollapseUp : IconShape
 arrowCollapseUp =
     iconShape "M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z"
+
+
+arrowCollapseVertical : IconShape
+arrowCollapseVertical =
+    iconShape "M4,12H20V14H4V12M4,9H20V11H4V9M16,4L12,8L8,4H11V1H13V4H16M8,19L12,15L16,19H13V22H11V19H8Z"
 
 
 arrowDecision : IconShape
@@ -3108,14 +3108,14 @@ arrowUpLeftBold =
     iconShape "M13.5 21C9.36 21 6 17.64 6 13.5V11H2L8 4L14 11H10V13.5C10 15.43 11.57 17 13.5 17H21V21H13.5Z"
 
 
-arrowUpRightBold : IconShape
-arrowUpRightBold =
-    iconShape "M3 21V17H10.5C12.43 17 14 15.43 14 13.5V11H10L16 4L22 11H18V13.5C18 17.64 14.64 21 10.5 21H3Z"
-
-
 arrowUpRight : IconShape
 arrowUpRight =
     iconShape "M21.5 9.5L20.09 10.92L17 7.83V13.5C17 17.09 14.09 20 10.5 20H4V18H10.5C13 18 15 16 15 13.5V7.83L11.91 10.91L10.5 9.5L16 4L21.5 9.5Z"
+
+
+arrowUpRightBold : IconShape
+arrowUpRightBold =
+    iconShape "M3 21V17H10.5C12.43 17 14 15.43 14 13.5V11H10L16 4L22 11H18V13.5C18 17.64 14.64 21 10.5 21H3Z"
 
 
 arrowUpThick : IconShape
@@ -3333,14 +3333,14 @@ axisArrowLock =
     iconShape "M21.8,5C22.4,5 23,5.6 23,6.3V9.8C23,10.4 22.4,11 21.7,11H16.2C15.6,11 15,10.4 15,9.7V6.2C15,5.6 15.6,5 16.2,5V3.5C16.2,2.1 17.6,1 19,1C20.4,1 21.8,2.1 21.8,3.5V5M20.5,5V3.5C20.5,2.7 19.8,2.2 19,2.2C18.2,2.2 17.5,2.7 17.5,3.5V5H20.5M1.74,19.25L3.21,13.79L4.68,16.34L9,13.85V6H6L10,2L14,6H11V13.85L18.03,17.86L19.5,15.28L21,20.74L15.5,22.21L17.03,19.6L10,15.58L5.68,18.07L7.21,20.71L1.74,19.25Z"
 
 
-axisXArrow : IconShape
-axisXArrow =
-    iconShape "M1.5,20.5L3,15.03L4.46,17.6L11,13.82V3H13V13.82L22.39,19.25L21.39,21L12,15.56L5.46,19.33L7,21.96L1.5,20.5Z"
-
-
 axisLock : IconShape
 axisLock =
     iconShape "M21.8,5C22.4,5 23,5.6 23,6.3V9.8C23,10.4 22.4,11 21.7,11H16.2C15.6,11 15,10.4 15,9.7V6.2C15,5.6 15.6,5 16.2,5V3.5C16.2,2.1 17.6,1 19,1C20.4,1 21.8,2.1 21.8,3.5V5M20.5,5V3.5C20.5,2.7 19.8,2.2 19,2.2C18.2,2.2 17.5,2.7 17.5,3.5V5H20.5M11,13.82L20.39,19.25L19.39,21L10,15.56L3.17,19.5L2.17,17.77L9,13.82V3H11V13.82Z"
+
+
+axisXArrow : IconShape
+axisXArrow =
+    iconShape "M1.5,20.5L3,15.03L4.46,17.6L11,13.82V3H13V13.82L22.39,19.25L21.39,21L12,15.56L5.46,19.33L7,21.96L1.5,20.5Z"
 
 
 axisXArrowLock : IconShape
@@ -3406,20 +3406,20 @@ axisZRotateCounterclockwise =
 lookup : String -> Maybe IconShape
 lookup name =
     case name of
-        "ab-testing" ->
-            Just abTesting
+        "abacus" ->
+            Just abacus
 
         "abjad-arabic" ->
             Just abjadArabic
 
-        "abacus" ->
-            Just abacus
+        "abjad-hebrew" ->
+            Just abjadHebrew
+
+        "ab-testing" ->
+            Just abTesting
 
         "abugida-devanagari" ->
             Just abugidaDevanagari
-
-        "abjad-hebrew" ->
-            Just abjadHebrew
 
         "abugida-thai" ->
             Just abugidaThai
@@ -3556,11 +3556,11 @@ lookup name =
         "account-cog" ->
             Just accountCog
 
-        "account-convert" ->
-            Just accountConvert
-
         "account-cog-outline" ->
             Just accountCogOutline
+
+        "account-convert" ->
+            Just accountConvert
 
         "account-convert-outline" ->
             Just accountConvertOutline
@@ -3853,11 +3853,11 @@ lookup name =
         "air-horn" ->
             Just airHorn
 
-        "air-humidifier-off" ->
-            Just airHumidifierOff
-
         "air-humidifier" ->
             Just airHumidifier
+
+        "air-humidifier-off" ->
+            Just airHumidifierOff
 
         "air-purifier" ->
             Just airPurifier
@@ -4141,14 +4141,14 @@ lookup name =
         "alpha-d-circle-outline" ->
             Just alphaDCircleOutline
 
+        "alpha-e" ->
+            Just alphaE
+
         "alpha-e-box" ->
             Just alphaEBox
 
         "alpha-e-box-outline" ->
             Just alphaEBoxOutline
-
-        "alpha-e" ->
-            Just alphaE
 
         "alpha-e-circle" ->
             Just alphaECircle
@@ -4189,11 +4189,11 @@ lookup name =
         "alpha-h" ->
             Just alphaH
 
-        "alpha-h-box-outline" ->
-            Just alphaHBoxOutline
-
         "alpha-h-box" ->
             Just alphaHBox
+
+        "alpha-h-box-outline" ->
+            Just alphaHBoxOutline
 
         "alpha-h-circle" ->
             Just alphaHCircle
@@ -4366,11 +4366,11 @@ lookup name =
         "alpha-s-circle-outline" ->
             Just alphaSCircleOutline
 
-        "alpha-t-box" ->
-            Just alphaTBox
-
         "alpha-t" ->
             Just alphaT
+
+        "alpha-t-box" ->
+            Just alphaTBox
 
         "alpha-t-box-outline" ->
             Just alphaTBoxOutline
@@ -4528,11 +4528,11 @@ lookup name =
         "angle-obtuse" ->
             Just angleObtuse
 
-        "angle-right" ->
-            Just angleRight
-
         "animation" ->
             Just animation
+
+        "angle-right" ->
+            Just angleRight
 
         "animation-outline" ->
             Just animationOutline
@@ -4699,11 +4699,11 @@ lookup name =
         "archive-eye-outline" ->
             Just archiveEyeOutline
 
-        "archive-lock-open" ->
-            Just archiveLockOpen
-
         "archive-lock" ->
             Just archiveLock
+
+        "archive-lock-open" ->
+            Just archiveLockOpen
 
         "archive-lock-open-outline" ->
             Just archiveLockOpenOutline
@@ -4744,11 +4744,11 @@ lookup name =
         "archive-plus-outline" ->
             Just archivePlusOutline
 
-        "archive-refresh-outline" ->
-            Just archiveRefreshOutline
-
         "archive-refresh" ->
             Just archiveRefresh
+
+        "archive-refresh-outline" ->
+            Just archiveRefreshOutline
 
         "archive-remove" ->
             Just archiveRemove
@@ -4756,11 +4756,11 @@ lookup name =
         "archive-remove-outline" ->
             Just archiveRemoveOutline
 
-        "archive-search-outline" ->
-            Just archiveSearchOutline
-
         "archive-search" ->
             Just archiveSearch
+
+        "archive-search-outline" ->
+            Just archiveSearchOutline
 
         "archive-settings" ->
             Just archiveSettings
@@ -4861,11 +4861,11 @@ lookup name =
         "arrow-collapse-right" ->
             Just arrowCollapseRight
 
-        "arrow-collapse-vertical" ->
-            Just arrowCollapseVertical
-
         "arrow-collapse-up" ->
             Just arrowCollapseUp
+
+        "arrow-collapse-vertical" ->
+            Just arrowCollapseVertical
 
         "arrow-decision" ->
             Just arrowDecision
@@ -5269,11 +5269,11 @@ lookup name =
         "arrow-up-left-bold" ->
             Just arrowUpLeftBold
 
-        "arrow-up-right-bold" ->
-            Just arrowUpRightBold
-
         "arrow-up-right" ->
             Just arrowUpRight
+
+        "arrow-up-right-bold" ->
+            Just arrowUpRightBold
 
         "arrow-up-thick" ->
             Just arrowUpThick
@@ -5404,11 +5404,11 @@ lookup name =
         "axis-arrow-lock" ->
             Just axisArrowLock
 
-        "axis-x-arrow" ->
-            Just axisXArrow
-
         "axis-lock" ->
             Just axisLock
+
+        "axis-x-arrow" ->
+            Just axisXArrow
 
         "axis-x-arrow-lock" ->
             Just axisXArrowLock

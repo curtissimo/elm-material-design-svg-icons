@@ -243,14 +243,14 @@ noodles =
     iconShape "M22 3L10 4.41V6H22V7H10V12H22C22 13.81 21.43 15.46 20.32 16.95S17.77 19.53 16 20.25V22H8V20.25C6.24 19.53 4.79 18.43 3.68 16.95S2 13.81 2 12H5V4L22 2V3M6 4.88V6H7V4.78L6 4.88M6 7V12H7V7H6M9 12V7H8V12H9M9 6V4.55L8 4.64V6H9Z"
 
 
-notEqualVariant : IconShape
-notEqualVariant =
-    iconShape "M14.08,4.61L15.92,5.4L14.8,8H19V10H13.95L12.23,14H19V16H11.38L9.92,19.4L8.08,18.61L9.2,16H5V14H10.06L11.77,10H5V8H12.63L14.08,4.61Z"
-
-
 notEqual : IconShape
 notEqual =
     iconShape "M21,10H9V8H21V10M21,16H9V14H21V16M4,5H6V16H4V5M6,18V20H4V18H6Z"
+
+
+notEqualVariant : IconShape
+notEqualVariant =
+    iconShape "M14.08,4.61L15.92,5.4L14.8,8H19V10H13.95L12.23,14H19V16H11.38L9.92,19.4L8.08,18.61L9.2,16H5V14H10.06L11.77,10H5V8H12.63L14.08,4.61Z"
 
 
 note : IconShape
@@ -368,14 +368,14 @@ notebook =
     iconShape "M3,7V5H5V4C5,2.89 5.9,2 7,2H13V9L15.5,7.5L18,9V2H19C20.05,2 21,2.95 21,4V20C21,21.05 20.05,22 19,22H7C5.95,22 5,21.05 5,20V19H3V17H5V13H3V11H5V7H3M7,11H5V13H7V11M7,7V5H5V7H7M7,19V17H5V19H7Z"
 
 
-notebookCheckOutline : IconShape
-notebookCheckOutline =
-    iconShape "M16.75 22.16L14 19.16L15.16 18L16.75 19.59L20.34 16L21.5 17.41L16.75 22.16M17 4V10L15 8L13 10V4H9V20H12.08C12.2 20.72 12.45 21.39 12.8 22H7C5.95 22 5 21.05 5 20V19H3V17H5V13H3V11H5V7H3V5H5V4C5 2.89 5.9 2 7 2H19C20.05 2 21 2.95 21 4V13.8C20.39 13.45 19.72 13.2 19 13.08V4H17M5 19H7V17H5V19M5 13H7V11H5V13M5 7H7V5H5V7Z"
-
-
 notebookCheck : IconShape
 notebookCheck =
     iconShape "M16.75 22.16L14 19.16L15.16 18L16.75 19.59L20.34 16L21.5 17.41L16.75 22.16M3 7V5H5V4C5 2.89 5.9 2 7 2H13V9L15.5 7.5L18 9V2H19C20.05 2 21 2.95 21 4V13.8C20.12 13.29 19.09 13 18 13C14.69 13 12 15.69 12 19C12 20.09 12.29 21.12 12.8 22H7C5.95 22 5 21.05 5 20V19H3V17H5V13H3V11H5V7H3M5 5V7H7V5H5M5 19H7V17H5V19M5 13H7V11H5V13Z"
+
+
+notebookCheckOutline : IconShape
+notebookCheckOutline =
+    iconShape "M16.75 22.16L14 19.16L15.16 18L16.75 19.59L20.34 16L21.5 17.41L16.75 22.16M17 4V10L15 8L13 10V4H9V20H12.08C12.2 20.72 12.45 21.39 12.8 22H7C5.95 22 5 21.05 5 20V19H3V17H5V13H3V11H5V7H3V5H5V4C5 2.89 5.9 2 7 2H19C20.05 2 21 2.95 21 4V13.8C20.39 13.45 19.72 13.2 19 13.08V4H17M5 19H7V17H5V19M5 13H7V11H5V13M5 7H7V5H5V7Z"
 
 
 notebookEdit : IconShape
@@ -473,14 +473,14 @@ numeric0BoxMultiple =
     iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M13,5A2,2 0 0,0 11,7V13A2,2 0 0,0 13,15H15A2,2 0 0,0 17,13V7A2,2 0 0,0 15,5H13M13,7H15V13H13V7Z"
 
 
-numeric0BoxOutline : IconShape
-numeric0BoxOutline =
-    iconShape "M19,19V5H5V19H19M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M11,7H13A2,2 0 0,1 15,9V15A2,2 0 0,1 13,17H11A2,2 0 0,1 9,15V9A2,2 0 0,1 11,7M11,9V15H13V9H11Z"
-
-
 numeric0BoxMultipleOutline : IconShape
 numeric0BoxMultipleOutline =
     iconShape "M21,17V3H7V17H21M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M13,5H15A2,2 0 0,1 17,7V13A2,2 0 0,1 15,15H13A2,2 0 0,1 11,13V7A2,2 0 0,1 13,5M13,7V13H15V7H13Z"
+
+
+numeric0BoxOutline : IconShape
+numeric0BoxOutline =
+    iconShape "M19,19V5H5V19H19M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M11,7H13A2,2 0 0,1 15,9V15A2,2 0 0,1 13,17H11A2,2 0 0,1 9,15V9A2,2 0 0,1 11,7M11,9V15H13V9H11Z"
 
 
 numeric0Circle : IconShape
@@ -508,14 +508,14 @@ numeric1BoxMultiple =
     iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M14,15H16V5H12V7H14V15Z"
 
 
-numeric1BoxOutline : IconShape
-numeric1BoxOutline =
-    iconShape "M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,17H14V7H10V9H12"
-
-
 numeric1BoxMultipleOutline : IconShape
 numeric1BoxMultipleOutline =
     iconShape "M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M14,15H16V5H12V7H14M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
+
+
+numeric1BoxOutline : IconShape
+numeric1BoxOutline =
+    iconShape "M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,17H14V7H10V9H12"
 
 
 numeric1Circle : IconShape
@@ -558,14 +558,14 @@ numeric10Circle =
     iconShape "M14 9H16V15H14V9M22 12C22 17.5 17.5 22 12 22S2 17.5 2 12 6.5 2 12 2 22 6.5 22 12M10 7H6V9H8V17H10V7M18 9C18 7.9 17.11 7 16 7H14C12.9 7 12 7.9 12 9V15C12 16.11 12.9 17 14 17H16C17.11 17 18 16.11 18 15V9Z"
 
 
-numeric2 : IconShape
-numeric2 =
-    iconShape "M9,7V9H13V11H11A2,2 0 0,0 9,13V17H11L15,17V15H11V13H13A2,2 0 0,0 15,11V9A2,2 0 0,0 13,7H9Z"
-
-
 numeric10CircleOutline : IconShape
 numeric10CircleOutline =
     iconShape "M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22 2 17.5 2 12 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12S7.58 20 12 20 20 16.42 20 12 16.42 4 12 4M10 7H6V9H8V17H10V7M16 7H14C12.9 7 12 7.9 12 9V15C12 16.11 12.9 17 14 17H16C17.11 17 18 16.11 18 15V9C18 7.9 17.11 7 16 7M16 15H14V9H16V15Z"
+
+
+numeric2 : IconShape
+numeric2 =
+    iconShape "M9,7V9H13V11H11A2,2 0 0,0 9,13V17H11L15,17V15H11V13H13A2,2 0 0,0 15,11V9A2,2 0 0,0 13,7H9Z"
 
 
 numeric2Box : IconShape
@@ -818,19 +818,9 @@ numeric9Box =
     iconShape "M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M13,11H11V9H13V11M13,7H11A2,2 0 0,0 9,9V11C9,12.11 9.9,13 11,13H13V15H9V17H13A2,2 0 0,0 15,15V9C15,7.89 14.1,7 13,7Z"
 
 
-numeric9BoxOutline : IconShape
-numeric9BoxOutline =
-    iconShape "M13,11H11V9H13M13,7H11A2,2 0 0,0 9,9V11C9,12.11 9.9,13 11,13H13V15H9V17H13A2,2 0 0,0 15,15V9C15,7.89 14.1,7 13,7M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
-
-
 numeric9BoxMultiple : IconShape
 numeric9BoxMultiple =
     iconShape "M15,9H13V7H15V9M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M15,5H13A2,2 0 0,0 11,7V9C11,10.11 11.9,11 13,11H15V13H11V15H15A2,2 0 0,0 17,13V7C17,5.89 16.1,5 15,5M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21Z"
-
-
-numeric9Circle : IconShape
-numeric9Circle =
-    iconShape "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M13,17A2,2 0 0,0 15,15V9A2,2 0 0,0 13,7H11A2,2 0 0,0 9,9V11A2,2 0 0,0 11,13H13V15H9V17H13M13,11H11V9H13V11Z"
 
 
 numeric9BoxMultipleOutline : IconShape
@@ -838,19 +828,29 @@ numeric9BoxMultipleOutline =
     iconShape "M15,9H13V7H15M15,5H13A2,2 0 0,0 11,7V9C11,10.11 11.9,11 13,11H15V13H11V15H15A2,2 0 0,0 17,13V7C17,5.89 16.1,5 15,5M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
 
 
+numeric9BoxOutline : IconShape
+numeric9BoxOutline =
+    iconShape "M13,11H11V9H13M13,7H11A2,2 0 0,0 9,9V11C9,12.11 9.9,13 11,13H13V15H9V17H13A2,2 0 0,0 15,15V9C15,7.89 14.1,7 13,7M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
+
+
+numeric9Circle : IconShape
+numeric9Circle =
+    iconShape "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M13,17A2,2 0 0,0 15,15V9A2,2 0 0,0 13,7H11A2,2 0 0,0 9,9V11A2,2 0 0,0 11,13H13V15H9V17H13M13,11H11V9H13V11Z"
+
+
 numeric9CircleOutline : IconShape
 numeric9CircleOutline =
     iconShape "M13,17H9V15H13V13H11A2,2 0 0,1 9,11V9A2,2 0 0,1 11,7H13A2,2 0 0,1 15,9V15A2,2 0 0,1 13,17M13,11V9H11V11H13M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
-numeric9PlusBox : IconShape
-numeric9PlusBox =
-    iconShape "M21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5M19,11H17V9H15V11H13V13H15V15H17V13H19V11M10,7H8A2,2 0 0,0 6,9V11C6,12.11 6.9,13 8,13H10V15H6V17H10A2,2 0 0,0 12,15V9C12,7.89 11.1,7 10,7M8,9H10V11H8V9Z"
-
-
 numeric9Plus : IconShape
 numeric9Plus =
     iconShape "M19 11H17V9H15V11H13V13H15V15H17V13H19V11M10 7H8C6.9 7 6 7.9 6 9V11C6 12.11 6.9 13 8 13H10V15H6V17H10C11.11 17 12 16.11 12 15V9C12 7.89 11.1 7 10 7M10 11H8V9H10V11Z"
+
+
+numeric9PlusBox : IconShape
+numeric9PlusBox =
+    iconShape "M21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5M19,11H17V9H15V11H13V13H15V15H17V13H19V11M10,7H8A2,2 0 0,0 6,9V11C6,12.11 6.9,13 8,13H10V15H6V17H10A2,2 0 0,0 12,15V9C12,7.89 11.1,7 10,7M8,9H10V11H8V9Z"
 
 
 numeric9PlusBoxMultiple : IconShape
@@ -1050,11 +1050,11 @@ lookup name =
         "noodles" ->
             Just noodles
 
-        "not-equal-variant" ->
-            Just notEqualVariant
-
         "not-equal" ->
             Just notEqual
+
+        "not-equal-variant" ->
+            Just notEqualVariant
 
         "note" ->
             Just note
@@ -1125,11 +1125,11 @@ lookup name =
         "notebook" ->
             Just notebook
 
-        "notebook-check-outline" ->
-            Just notebookCheckOutline
-
         "notebook-check" ->
             Just notebookCheck
+
+        "notebook-check-outline" ->
+            Just notebookCheckOutline
 
         "notebook-edit" ->
             Just notebookEdit
@@ -1188,11 +1188,11 @@ lookup name =
         "numeric-0-box-multiple" ->
             Just numeric0BoxMultiple
 
-        "numeric-0-box-outline" ->
-            Just numeric0BoxOutline
-
         "numeric-0-box-multiple-outline" ->
             Just numeric0BoxMultipleOutline
+
+        "numeric-0-box-outline" ->
+            Just numeric0BoxOutline
 
         "numeric-0-circle" ->
             Just numeric0Circle
@@ -1209,11 +1209,11 @@ lookup name =
         "numeric-1-box-multiple" ->
             Just numeric1BoxMultiple
 
-        "numeric-1-box-outline" ->
-            Just numeric1BoxOutline
-
         "numeric-1-box-multiple-outline" ->
             Just numeric1BoxMultipleOutline
+
+        "numeric-1-box-outline" ->
+            Just numeric1BoxOutline
 
         "numeric-1-circle" ->
             Just numeric1Circle
@@ -1239,11 +1239,11 @@ lookup name =
         "numeric-10-circle" ->
             Just numeric10Circle
 
-        "numeric-2" ->
-            Just numeric2
-
         "numeric-10-circle-outline" ->
             Just numeric10CircleOutline
+
+        "numeric-2" ->
+            Just numeric2
 
         "numeric-2-box" ->
             Just numeric2Box
@@ -1395,26 +1395,26 @@ lookup name =
         "numeric-9-box" ->
             Just numeric9Box
 
-        "numeric-9-box-outline" ->
-            Just numeric9BoxOutline
-
         "numeric-9-box-multiple" ->
             Just numeric9BoxMultiple
-
-        "numeric-9-circle" ->
-            Just numeric9Circle
 
         "numeric-9-box-multiple-outline" ->
             Just numeric9BoxMultipleOutline
 
+        "numeric-9-box-outline" ->
+            Just numeric9BoxOutline
+
+        "numeric-9-circle" ->
+            Just numeric9Circle
+
         "numeric-9-circle-outline" ->
             Just numeric9CircleOutline
 
-        "numeric-9-plus-box" ->
-            Just numeric9PlusBox
-
         "numeric-9-plus" ->
             Just numeric9Plus
+
+        "numeric-9-plus-box" ->
+            Just numeric9PlusBox
 
         "numeric-9-plus-box-multiple" ->
             Just numeric9PlusBoxMultiple
