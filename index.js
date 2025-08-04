@@ -237,6 +237,11 @@ class IconSpecCategoryDirectory {
   get content() {
     const imports = new Set(this._specs.map(spec => spec.elmName[0].toUpperCase()));
 
+    const createIcon = d => {
+      const icon = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" height="48px" width="48px" property="presentation" viewBox="0 0 24 24"><path style="fill: currentcolor" d="${d}" /></svg>`;
+      return Buffer.from(icon).toString("base64");
+    };
+
     return `
 module ${this._submoduleName.join(".")} exposing (
   ${this._specs.map(x => x.elmName).join(",")}
@@ -253,6 +258,8 @@ ${Array.from(imports).toSorted().map(x => `import Material.Icons.Directory.${x}`
 
 ${this._specs.map(spec => `
 {-| The [\`${spec.iconName}\`](https://pictogrammers.com/library/mdi/icon/${spec.iconName}/) icon.
+
+![${spec.iconName}](data:image/svg+xml;base64,${createIcon(spec.draw)})
 -}
 
 ${spec.elmName} : IconShape

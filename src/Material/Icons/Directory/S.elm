@@ -779,18 +779,18 @@ satelliteUplink =
     iconShape "M11.86,2L11.34,3.93C15.75,4.78 19.2,8.23 20.05,12.65L22,12.13C20.95,7.03 16.96,3.04 11.86,2M10.82,5.86L10.3,7.81C13.34,8.27 15.72,10.65 16.18,13.68L18.12,13.16C17.46,9.44 14.55,6.5 10.82,5.86M3.72,9.69C3.25,10.73 3,11.86 3,13C3,14.95 3.71,16.82 5,18.28V22H8V20.41C8.95,20.8 9.97,21 11,21C12.14,21 13.27,20.75 14.3,20.28L3.72,9.69M9.79,9.76L9.26,11.72A3,3 0 0,1 12.26,14.72L14.23,14.2C14,11.86 12.13,10 9.79,9.76Z"
 
 
-{-| The [`satellite-variant`](https://pictogrammers.com/library/mdi/icon/satellite-variant/) icon.
--}
-satelliteVariant : IconShape
-satelliteVariant =
-    iconShape "M11.62,1L17.28,6.67L15.16,8.79L13.04,6.67L11.62,8.09L13.95,10.41L12.79,11.58L13.24,12.04C14.17,11.61 15.31,11.77 16.07,12.54L12.54,16.07C11.77,15.31 11.61,14.17 12.04,13.24L11.58,12.79L10.41,13.95L8.09,11.62L6.67,13.04L8.79,15.16L6.67,17.28L1,11.62L3.14,9.5L5.26,11.62L6.67,10.21L3.84,7.38C3.06,6.6 3.06,5.33 3.84,4.55L4.55,3.84C5.33,3.06 6.6,3.06 7.38,3.84L10.21,6.67L11.62,5.26L9.5,3.14L11.62,1M18,14A4,4 0 0,1 14,18V16A2,2 0 0,0 16,14H18M22,14A8,8 0 0,1 14,22V20A6,6 0 0,0 20,14H22Z"
-
-
 {-| The [`sausage`](https://pictogrammers.com/library/mdi/icon/sausage/) icon.
 -}
 sausage : IconShape
 sausage =
     iconShape "M19 5.3C20.2 5.8 21 7.1 21 8.5C21 15.4 15.4 21 8.5 21C7.1 21 5.9 20.2 5.3 19L3 20.5V14.5L5.3 16C5.9 14.8 7.1 14 8.5 14C11.5 14 14 11.5 14 8.5C14 7.1 14.8 5.9 16 5.3L14.5 3H20.5L19 5.3Z"
+
+
+{-| The [`satellite-variant`](https://pictogrammers.com/library/mdi/icon/satellite-variant/) icon.
+-}
+satelliteVariant : IconShape
+satelliteVariant =
+    iconShape "M11.62,1L17.28,6.67L15.16,8.79L13.04,6.67L11.62,8.09L13.95,10.41L12.79,11.58L13.24,12.04C14.17,11.61 15.31,11.77 16.07,12.54L12.54,16.07C11.77,15.31 11.61,14.17 12.04,13.24L11.58,12.79L10.41,13.95L8.09,11.62L6.67,13.04L8.79,15.16L6.67,17.28L1,11.62L3.14,9.5L5.26,11.62L6.67,10.21L3.84,7.38C3.06,6.6 3.06,5.33 3.84,4.55L4.55,3.84C5.33,3.06 6.6,3.06 7.38,3.84L10.21,6.67L11.62,5.26L9.5,3.14L11.62,1M18,14A4,4 0 0,1 14,18V16A2,2 0 0,0 16,14H18M22,14A8,8 0 0,1 14,22V20A6,6 0 0,0 20,14H22Z"
 
 
 {-| The [`sausage-off`](https://pictogrammers.com/library/mdi/icon/sausage-off/) icon.
@@ -2410,18 +2410,18 @@ shuffle =
     iconShape "M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z"
 
 
-{-| The [`shuffle-disabled`](https://pictogrammers.com/library/mdi/icon/shuffle-disabled/) icon.
--}
-shuffleDisabled : IconShape
-shuffleDisabled =
-    iconShape "M16,4.5V7H5V9H16V11.5L19.5,8M16,12.5V15H5V17H16V19.5L19.5,16"
-
-
 {-| The [`shuffle-variant`](https://pictogrammers.com/library/mdi/icon/shuffle-variant/) icon.
 -}
 shuffleVariant : IconShape
 shuffleVariant =
     iconShape "M17,3L22.25,7.5L17,12L22.25,16.5L17,21V18H14.26L11.44,15.18L13.56,13.06L15.5,15H17V12L17,9H15.5L6.5,18H2V15H5.26L14.26,6H17V3M2,6H6.5L9.32,8.82L7.2,10.94L5.26,9H2V6Z"
+
+
+{-| The [`shuffle-disabled`](https://pictogrammers.com/library/mdi/icon/shuffle-disabled/) icon.
+-}
+shuffleDisabled : IconShape
+shuffleDisabled =
+    iconShape "M16,4.5V7H5V9H16V11.5L19.5,8M16,12.5V15H5V17H16V19.5L19.5,16"
 
 
 {-| The [`shuriken`](https://pictogrammers.com/library/mdi/icon/shuriken/) icon.
@@ -2732,18 +2732,18 @@ simAlertOutline =
     iconShape "M13 13H11V7H13M13 17H11V15H13M18 4V20H6V8.8L10.8 4H18M18 2H10L4 8V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2Z"
 
 
-{-| The [`sim-off`](https://pictogrammers.com/library/mdi/icon/sim-off/) icon.
--}
-simOff : IconShape
-simOff =
-    iconShape "M20.84 22.73L19.46 21.35C19.1 21.75 18.58 22 18 22H6C4.89 22 4 21.11 4 20V8L5.06 6.95L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M20 4C20 2.9 19.11 2 18 2H10L7.6 4.4L20 16.8V4Z"
-
-
 {-| The [`sim-off-outline`](https://pictogrammers.com/library/mdi/icon/sim-off-outline/) icon.
 -}
 simOffOutline : IconShape
 simOffOutline =
     iconShape "M22.11 21.46L2.39 1.73L1.11 3L5.06 6.95L4 8V20C4 21.11 4.89 22 6 22H18C18.58 22 19.1 21.75 19.46 21.35L20.84 22.73L22.11 21.46M18 20H6V8.83L6.47 8.36L18 19.89V20M10.83 4H18V14.8L20 16.8V4C20 2.9 19.11 2 18 2H10L7.6 4.4L9 5.81L10.83 4Z"
+
+
+{-| The [`sim-off`](https://pictogrammers.com/library/mdi/icon/sim-off/) icon.
+-}
+simOff : IconShape
+simOff =
+    iconShape "M20.84 22.73L19.46 21.35C19.1 21.75 18.58 22 18 22H6C4.89 22 4 21.11 4 20V8L5.06 6.95L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M20 4C20 2.9 19.11 2 18 2H10L7.6 4.4L20 16.8V4Z"
 
 
 {-| The [`sim-outline`](https://pictogrammers.com/library/mdi/icon/sim-outline/) icon.
@@ -2774,18 +2774,18 @@ sitemapOutline =
     iconShape "M21 16V13C21 11.89 20.11 11 19 11H13V8H15V2H9V8H11V11H5C3.89 11 3 11.89 3 13V16H1V22H7V16H5V13H11V16H9V22H15V16H13V13H19V16H17V22H23V16H21M11 4H13V6H11V4M5 20H3V18H5V20M13 20H11V18H13V20M21 20H19V18H21V20Z"
 
 
-{-| The [`size-l`](https://pictogrammers.com/library/mdi/icon/size-l/) icon.
--}
-sizeL : IconShape
-sizeL =
-    iconShape "M9 7V17H15V15H11V7H9Z"
-
-
 {-| The [`size-m`](https://pictogrammers.com/library/mdi/icon/size-m/) icon.
 -}
 sizeM : IconShape
 sizeM =
     iconShape "M9 7C7.9 7 7 7.9 7 9V17H9V9H11V16H13V9H15V17H17V9C17 7.9 16.11 7 15 7H9Z"
+
+
+{-| The [`size-l`](https://pictogrammers.com/library/mdi/icon/size-l/) icon.
+-}
+sizeL : IconShape
+sizeL =
+    iconShape "M9 7V17H15V15H11V7H9Z"
 
 
 {-| The [`size-s`](https://pictogrammers.com/library/mdi/icon/size-s/) icon.
@@ -2795,18 +2795,18 @@ sizeS =
     iconShape "M11 7C9.9 7 9 7.9 9 9V11C9 12.11 9.9 13 11 13H13V15H9V17H13C14.11 17 15 16.11 15 15V13C15 11.9 14.11 11 13 11H11V9H15V7H11Z"
 
 
-{-| The [`size-xl`](https://pictogrammers.com/library/mdi/icon/size-xl/) icon.
--}
-sizeXl : IconShape
-sizeXl =
-    iconShape "M6 7H8L9 9.5L10 7H12L10 12L12 17H10L9 14.5L8 17H6L8 12L6 7M13 7H15V15H19V17H13V7Z"
-
-
 {-| The [`size-xs`](https://pictogrammers.com/library/mdi/icon/size-xs/) icon.
 -}
 sizeXs : IconShape
 sizeXs =
     iconShape "M6 7H8L9 9.5L10 7H12L10 12L12 17H10L9 14.5L8 17H6L8 12L6 7M15 7H19V9H15V11H17C18.11 11 19 11.9 19 13V15C19 16.11 18.11 17 17 17H13V15H17V13H15C13.9 13 13 12.11 13 11V9C13 7.9 13.9 7 15 7Z"
+
+
+{-| The [`size-xl`](https://pictogrammers.com/library/mdi/icon/size-xl/) icon.
+-}
+sizeXl : IconShape
+sizeXl =
+    iconShape "M6 7H8L9 9.5L10 7H12L10 12L12 17H10L9 14.5L8 17H6L8 12L6 7M13 7H15V15H19V17H13V7Z"
 
 
 {-| The [`size-xxl`](https://pictogrammers.com/library/mdi/icon/size-xxl/) icon.
@@ -2935,18 +2935,18 @@ skipNextCircle =
     iconShape "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M8,8L13,12L8,16M14,8H16V16H14"
 
 
-{-| The [`skip-next-circle-outline`](https://pictogrammers.com/library/mdi/icon/skip-next-circle-outline/) icon.
--}
-skipNextCircleOutline : IconShape
-skipNextCircleOutline =
-    iconShape "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4M8,8V16L13,12M14,8V16H16V8"
-
-
 {-| The [`skip-next-outline`](https://pictogrammers.com/library/mdi/icon/skip-next-outline/) icon.
 -}
 skipNextOutline : IconShape
 skipNextOutline =
     iconShape "M6,18L14.5,12L6,6M8,9.86L11.03,12L8,14.14M16,6H18V18H16"
+
+
+{-| The [`skip-next-circle-outline`](https://pictogrammers.com/library/mdi/icon/skip-next-circle-outline/) icon.
+-}
+skipNextCircleOutline : IconShape
+skipNextCircleOutline =
+    iconShape "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4M8,8V16L13,12M14,8V16H16V8"
 
 
 {-| The [`skip-previous`](https://pictogrammers.com/library/mdi/icon/skip-previous/) icon.
@@ -3152,18 +3152,18 @@ smokeDetector =
     iconShape "M12,18A6,6 0 0,0 18,12C18,8.68 15.31,6 12,6C8.68,6 6,8.68 6,12A6,6 0 0,0 12,18M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H19M8,12A4,4 0 0,1 12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12Z"
 
 
-{-| The [`smoke-detector-alert`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert/) icon.
--}
-smokeDetectorAlert : IconShape
-smokeDetectorAlert =
-    iconShape "M10 18C13.3 18 16 15.3 16 12C16 8.7 13.3 6 10 6C6.7 6 4 8.7 4 12C4 15.3 6.7 18 10 18M17 3C18.1 3 19 3.9 19 5V19C19 20.1 18.1 21 17 21H3C1.9 21 1 20.1 1 19V5C1 3.9 1.9 3 3 3H17M6 12C6 9.8 7.8 8 10 8S14 9.8 14 12 12.2 16 10 16 6 14.2 6 12M23 7H21V13H23V8M23 15H21V17H23V15Z"
-
-
 {-| The [`smoke-detector-alert-outline`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert-outline/) icon.
 -}
 smokeDetectorAlertOutline : IconShape
 smokeDetectorAlertOutline =
     iconShape "M17 3H3C1.9 3 1 3.9 1 5V19C1 20.1 1.9 21 3 21H17C18.1 21 19 20.1 19 19V5C19 3.9 18.1 3 17 3M17 19H3V5H17V19M10 18C13.3 18 16 15.3 16 12C16 8.7 13.3 6 10 6C6.7 6 4 8.7 4 12C4 15.3 6.7 18 10 18M10 8C12.2 8 14 9.8 14 12S12.2 16 10 16 6 14.2 6 12 7.8 8 10 8M23 7H21V13H23V8M23 15H21V17H23V15Z"
+
+
+{-| The [`smoke-detector-alert`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert/) icon.
+-}
+smokeDetectorAlert : IconShape
+smokeDetectorAlert =
+    iconShape "M10 18C13.3 18 16 15.3 16 12C16 8.7 13.3 6 10 6C6.7 6 4 8.7 4 12C4 15.3 6.7 18 10 18M17 3C18.1 3 19 3.9 19 5V19C19 20.1 18.1 21 17 21H3C1.9 21 1 20.1 1 19V5C1 3.9 1.9 3 3 3H17M6 12C6 9.8 7.8 8 10 8S14 9.8 14 12 12.2 16 10 16 6 14.2 6 12M23 7H21V13H23V8M23 15H21V17H23V15Z"
 
 
 {-| The [`smoke-detector-off`](https://pictogrammers.com/library/mdi/icon/smoke-detector-off/) icon.
@@ -3866,18 +3866,18 @@ speakerPause =
     iconShape "M12.28 19.81C11.87 19.92 11.45 20 11 20C8.24 20 6 17.76 6 15S8.24 10 11 10C12.89 10 14.5 11.06 15.37 12.61C16.16 12.23 17.06 12 18 12V4C18 2.89 17.1 2 16 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.54C13 21.37 12.54 20.63 12.28 19.81M11 4C12.11 4 13 4.89 13 6S12.11 8 11 8C9.89 8 9 7.1 9 6C9 4.89 9.89 4 11 4M13.74 13.78C12.7 14.82 12.06 16.24 12 17.81C11.69 17.93 11.36 18 11 18C9.34 18 8 16.66 8 15S9.34 12 11 12C12.22 12 13.27 12.73 13.74 13.78M19 15H21V21H19M15 15H17V21H15V15Z"
 
 
-{-| The [`speaker-play`](https://pictogrammers.com/library/mdi/icon/speaker-play/) icon.
--}
-speakerPlay : IconShape
-speakerPlay =
-    iconShape "M16 15V21L21 18L16 15M12.28 19.81C11.87 19.92 11.45 20 11 20C8.24 20 6 17.76 6 15S8.24 10 11 10C12.89 10 14.5 11.06 15.37 12.61C16.16 12.23 17.06 12 18 12V4C18 2.89 17.1 2 16 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.54C13 21.37 12.54 20.63 12.28 19.81M11 4C12.11 4 13 4.89 13 6S12.11 8 11 8C9.89 8 9 7.1 9 6C9 4.89 9.89 4 11 4M13.74 13.78C12.7 14.82 12.06 16.24 12 17.81C11.69 17.93 11.36 18 11 18C9.34 18 8 16.66 8 15S9.34 12 11 12C12.22 12 13.27 12.73 13.74 13.78Z"
-
-
 {-| The [`speaker-stop`](https://pictogrammers.com/library/mdi/icon/speaker-stop/) icon.
 -}
 speakerStop : IconShape
 speakerStop =
     iconShape "M12.28 19.81C11.87 19.92 11.45 20 11 20C8.24 20 6 17.76 6 15S8.24 10 11 10C12.89 10 14.5 11.06 15.37 12.61C16.16 12.23 17.06 12 18 12V4C18 2.89 17.1 2 16 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.54C13 21.37 12.54 20.63 12.28 19.81M11 4C12.11 4 13 4.89 13 6S12.11 8 11 8C9.89 8 9 7.1 9 6C9 4.89 9.89 4 11 4M13.74 13.78C12.7 14.82 12.06 16.24 12 17.81C11.69 17.93 11.36 18 11 18C9.34 18 8 16.66 8 15S9.34 12 11 12C12.22 12 13.27 12.73 13.74 13.78M21 15H15V21H21V15Z"
+
+
+{-| The [`speaker-play`](https://pictogrammers.com/library/mdi/icon/speaker-play/) icon.
+-}
+speakerPlay : IconShape
+speakerPlay =
+    iconShape "M16 15V21L21 18L16 15M12.28 19.81C11.87 19.92 11.45 20 11 20C8.24 20 6 17.76 6 15S8.24 10 11 10C12.89 10 14.5 11.06 15.37 12.61C16.16 12.23 17.06 12 18 12V4C18 2.89 17.1 2 16 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.54C13 21.37 12.54 20.63 12.28 19.81M11 4C12.11 4 13 4.89 13 6S12.11 8 11 8C9.89 8 9 7.1 9 6C9 4.89 9.89 4 11 4M13.74 13.78C12.7 14.82 12.06 16.24 12 17.81C11.69 17.93 11.36 18 11 18C9.34 18 8 16.66 8 15S9.34 12 11 12C12.22 12 13.27 12.73 13.74 13.78Z"
 
 
 {-| The [`speaker-wireless`](https://pictogrammers.com/library/mdi/icon/speaker-wireless/) icon.
@@ -3901,18 +3901,18 @@ speedometer =
     iconShape "M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z"
 
 
-{-| The [`speedometer-medium`](https://pictogrammers.com/library/mdi/icon/speedometer-medium/) icon.
--}
-speedometerMedium : IconShape
-speedometerMedium =
-    iconShape "M12 1.38L9.14 12.06C8.8 13.1 9.04 14.29 9.86 15.12C11.04 16.29 12.94 16.29 14.11 15.12C14.9 14.33 15.16 13.2 14.89 12.21M14.6 3.35L15.22 5.68C18.04 6.92 20 9.73 20 13C20 15.21 19.11 17.21 17.66 18.65H17.65C17.26 19.04 17.26 19.67 17.65 20.06C18.04 20.45 18.68 20.45 19.07 20.07C20.88 18.26 22 15.76 22 13C22 8.38 18.86 4.5 14.6 3.35M9.4 3.36C5.15 4.5 2 8.4 2 13C2 15.76 3.12 18.26 4.93 20.07C5.32 20.45 5.95 20.45 6.34 20.06C6.73 19.67 6.73 19.04 6.34 18.65C4.89 17.2 4 15.21 4 13C4 9.65 5.94 6.86 8.79 5.65"
-
-
 {-| The [`speedometer-slow`](https://pictogrammers.com/library/mdi/icon/speedometer-slow/) icon.
 -}
 speedometerSlow : IconShape
 speedometerSlow =
     iconShape "M12 16C13.66 16 15 14.66 15 13C15 11.88 14.39 10.9 13.5 10.39L3.79 4.77L9.32 14.35C9.82 15.33 10.83 16 12 16M12 3C10.19 3 8.5 3.5 7.03 4.32L9.13 5.53C10 5.19 11 5 12 5C16.42 5 20 8.58 20 13C20 15.21 19.11 17.21 17.66 18.65H17.65C17.26 19.04 17.26 19.67 17.65 20.06C18.04 20.45 18.68 20.45 19.07 20.07C20.88 18.26 22 15.76 22 13C22 7.5 17.5 3 12 3M2 13C2 15.76 3.12 18.26 4.93 20.07C5.32 20.45 5.95 20.45 6.34 20.06C6.73 19.67 6.73 19.04 6.34 18.65C4.89 17.2 4 15.21 4 13C4 12 4.19 11 4.54 10.1L3.33 8C2.5 9.5 2 11.18 2 13Z"
+
+
+{-| The [`speedometer-medium`](https://pictogrammers.com/library/mdi/icon/speedometer-medium/) icon.
+-}
+speedometerMedium : IconShape
+speedometerMedium =
+    iconShape "M12 1.38L9.14 12.06C8.8 13.1 9.04 14.29 9.86 15.12C11.04 16.29 12.94 16.29 14.11 15.12C14.9 14.33 15.16 13.2 14.89 12.21M14.6 3.35L15.22 5.68C18.04 6.92 20 9.73 20 13C20 15.21 19.11 17.21 17.66 18.65H17.65C17.26 19.04 17.26 19.67 17.65 20.06C18.04 20.45 18.68 20.45 19.07 20.07C20.88 18.26 22 15.76 22 13C22 8.38 18.86 4.5 14.6 3.35M9.4 3.36C5.15 4.5 2 8.4 2 13C2 15.76 3.12 18.26 4.93 20.07C5.32 20.45 5.95 20.45 6.34 20.06C6.73 19.67 6.73 19.04 6.34 18.65C4.89 17.2 4 15.21 4 13C4 9.65 5.94 6.86 8.79 5.65"
 
 
 {-| The [`spellcheck`](https://pictogrammers.com/library/mdi/icon/spellcheck/) icon.
@@ -5028,25 +5028,18 @@ strategy =
     iconShape "M6.91 5.5L9.21 7.79L7.79 9.21L5.5 6.91L3.21 9.21L1.79 7.79L4.09 5.5L1.79 3.21L3.21 1.79L5.5 4.09L7.79 1.79L9.21 3.21M22.21 16.21L20.79 14.79L18.5 17.09L16.21 14.79L14.79 16.21L17.09 18.5L14.79 20.79L16.21 22.21L18.5 19.91L20.79 22.21L22.21 20.79L19.91 18.5M20.4 6.83L17.18 11L15.6 9.73L16.77 8.23A9.08 9.08 0 0 0 10.11 13.85A4.5 4.5 0 1 1 7.5 13A4 4 0 0 1 8.28 13.08A11.27 11.27 0 0 1 16.43 6.26L15 5.18L16.27 3.6M10 17.5A2.5 2.5 0 1 0 7.5 20A2.5 2.5 0 0 0 10 17.5Z"
 
 
-{-| The [`stretch-to-page`](https://pictogrammers.com/library/mdi/icon/stretch-to-page/) icon.
--}
-stretchToPage : IconShape
-stretchToPage =
-    iconShape "M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.89,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.11,2 20,2M9,19H5V15L6.29,16.29L7.83,14.75L9.25,16.17L7.71,17.71M7.83,9.25L6.29,7.71L5,9V5H9L7.71,6.29L9.25,7.83M19,19H15L16.29,17.71L14.75,16.17L16.17,14.75L17.71,16.29L19,15M19,9L17.71,7.71L16.17,9.25L14.75,7.83L16.29,6.29L15,5H19"
-
-
-{-| The [`stretch-to-page-outline`](https://pictogrammers.com/library/mdi/icon/stretch-to-page-outline/) icon.
--}
-stretchToPageOutline : IconShape
-stretchToPageOutline =
-    iconShape "M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.89,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.11,2 20,2M20,20H4V4H20M8.83,10.25L7.29,8.71L6,10V6H10L8.71,7.29L10.25,8.83M13.75,8.83L15.29,7.29L14,6H18V10L16.71,8.71L15.17,10.25M15.17,13.75L16.71,15.29L18,14V18H14L15.29,16.71L13.75,15.17M10.25,15.17L8.71,16.71L10,18H6V14L7.29,15.29L8.83,13.75"
-
-
 {-| The [`string-lights`](https://pictogrammers.com/library/mdi/icon/string-lights/) icon.
 -}
 stringLights : IconShape
 stringLights =
     iconShape "M22.56 11.39C22.36 10.59 21.82 9.85 21.05 9.44L20.63 7.74C21.11 7.58 21.57 7.41 22 7.23V5C20 6.07 16.53 7.03 12 7.03S4 6.07 2 5V7.23C2.43 7.41 2.89 7.58 3.37 7.74L2.95 9.44C2.18 9.85 1.64 10.59 1.44 11.39C.905 13.57 .385 17.31 2.92 17.93C4 18.2 6 17.89 7.27 12.82C7.46 12 7.33 11.12 6.84 10.39L7.26 8.67C8.14 8.81 9.05 8.9 10 8.96V10.74C9.35 11.33 9 12.17 9 13C9 15.24 9.39 19 12 19C13.12 19 15 18.22 15 13C15 12.17 14.65 11.33 14 10.74V8.96C14.95 8.9 15.86 8.81 16.74 8.67L17.16 10.39C16.67 11.12 16.54 12 16.73 12.82C18 17.89 20 18.2 21.08 17.93C23.61 17.31 23.09 13.57 22.56 11.39M5.81 12.47C5.81 12.47 4.74 16.84 3.28 16.5C1.82 16.12 2.9 11.75 2.9 11.75S3.26 10.29 4.71 10.65 5.81 12.47 5.81 12.47M12 17.5C10.5 17.5 10.5 13 10.5 13S10.5 11.5 12 11.5 13.5 13 13.5 13 13.5 17.5 12 17.5M20.72 16.5C19.27 16.84 18.19 12.47 18.19 12.47S17.83 11 19.29 10.65 21.1 11.75 21.1 11.75 22.18 16.12 20.72 16.5Z"
+
+
+{-| The [`stretch-to-page`](https://pictogrammers.com/library/mdi/icon/stretch-to-page/) icon.
+-}
+stretchToPage : IconShape
+stretchToPage =
+    iconShape "M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.89,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.11,2 20,2M9,19H5V15L6.29,16.29L7.83,14.75L9.25,16.17L7.71,17.71M7.83,9.25L6.29,7.71L5,9V5H9L7.71,6.29L9.25,7.83M19,19H15L16.29,17.71L14.75,16.17L16.17,14.75L17.71,16.29L19,15M19,9L17.71,7.71L16.17,9.25L14.75,7.83L16.29,6.29L15,5H19"
 
 
 {-| The [`string-lights-off`](https://pictogrammers.com/library/mdi/icon/string-lights-off/) icon.
@@ -5068,6 +5061,13 @@ subdirectoryArrowLeft =
 subdirectoryArrowRight : IconShape
 subdirectoryArrowRight =
     iconShape "M19,15L13,21L11.58,19.58L15.17,16H4V4H6V14H15.17L11.58,10.42L13,9L19,15Z"
+
+
+{-| The [`stretch-to-page-outline`](https://pictogrammers.com/library/mdi/icon/stretch-to-page-outline/) icon.
+-}
+stretchToPageOutline : IconShape
+stretchToPageOutline =
+    iconShape "M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.89,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.11,2 20,2M20,20H4V4H20M8.83,10.25L7.29,8.71L6,10V6H10L8.71,7.29L10.25,8.83M13.75,8.83L15.29,7.29L14,6H18V10L16.71,8.71L15.17,10.25M15.17,13.75L16.71,15.29L18,14V18H14L15.29,16.71L13.75,15.17M10.25,15.17L8.71,16.71L10,18H6V14L7.29,15.29L8.83,13.75"
 
 
 {-| The [`submarine`](https://pictogrammers.com/library/mdi/icon/submarine/) icon.
@@ -5489,11 +5489,11 @@ lookup name =
         "satellite-uplink" ->
             Just satelliteUplink
 
-        "satellite-variant" ->
-            Just satelliteVariant
-
         "sausage" ->
             Just sausage
+
+        "satellite-variant" ->
+            Just satelliteVariant
 
         "sausage-off" ->
             Just sausageOff
@@ -6188,11 +6188,11 @@ lookup name =
         "shuffle" ->
             Just shuffle
 
-        "shuffle-disabled" ->
-            Just shuffleDisabled
-
         "shuffle-variant" ->
             Just shuffleVariant
+
+        "shuffle-disabled" ->
+            Just shuffleDisabled
 
         "shuriken" ->
             Just shuriken
@@ -6326,11 +6326,11 @@ lookup name =
         "sim-alert-outline" ->
             Just simAlertOutline
 
-        "sim-off" ->
-            Just simOff
-
         "sim-off-outline" ->
             Just simOffOutline
+
+        "sim-off" ->
+            Just simOff
 
         "sim-outline" ->
             Just simOutline
@@ -6344,20 +6344,20 @@ lookup name =
         "sitemap-outline" ->
             Just sitemapOutline
 
-        "size-l" ->
-            Just sizeL
-
         "size-m" ->
             Just sizeM
+
+        "size-l" ->
+            Just sizeL
 
         "size-s" ->
             Just sizeS
 
-        "size-xl" ->
-            Just sizeXl
-
         "size-xs" ->
             Just sizeXs
+
+        "size-xl" ->
+            Just sizeXl
 
         "size-xxl" ->
             Just sizeXxl
@@ -6413,11 +6413,11 @@ lookup name =
         "skip-next-circle" ->
             Just skipNextCircle
 
-        "skip-next-circle-outline" ->
-            Just skipNextCircleOutline
-
         "skip-next-outline" ->
             Just skipNextOutline
+
+        "skip-next-circle-outline" ->
+            Just skipNextCircleOutline
 
         "skip-previous" ->
             Just skipPrevious
@@ -6506,11 +6506,11 @@ lookup name =
         "smoke-detector" ->
             Just smokeDetector
 
-        "smoke-detector-alert" ->
-            Just smokeDetectorAlert
-
         "smoke-detector-alert-outline" ->
             Just smokeDetectorAlertOutline
+
+        "smoke-detector-alert" ->
+            Just smokeDetectorAlert
 
         "smoke-detector-off" ->
             Just smokeDetectorOff
@@ -6812,11 +6812,11 @@ lookup name =
         "speaker-pause" ->
             Just speakerPause
 
-        "speaker-play" ->
-            Just speakerPlay
-
         "speaker-stop" ->
             Just speakerStop
+
+        "speaker-play" ->
+            Just speakerPlay
 
         "speaker-wireless" ->
             Just speakerWireless
@@ -6827,11 +6827,11 @@ lookup name =
         "speedometer" ->
             Just speedometer
 
-        "speedometer-medium" ->
-            Just speedometerMedium
-
         "speedometer-slow" ->
             Just speedometerSlow
+
+        "speedometer-medium" ->
+            Just speedometerMedium
 
         "spellcheck" ->
             Just spellcheck
@@ -7310,14 +7310,11 @@ lookup name =
         "strategy" ->
             Just strategy
 
-        "stretch-to-page" ->
-            Just stretchToPage
-
-        "stretch-to-page-outline" ->
-            Just stretchToPageOutline
-
         "string-lights" ->
             Just stringLights
+
+        "stretch-to-page" ->
+            Just stretchToPage
 
         "string-lights-off" ->
             Just stringLightsOff
@@ -7327,6 +7324,9 @@ lookup name =
 
         "subdirectory-arrow-right" ->
             Just subdirectoryArrowRight
+
+        "stretch-to-page-outline" ->
+            Just stretchToPageOutline
 
         "submarine" ->
             Just submarine

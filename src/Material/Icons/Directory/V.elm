@@ -255,18 +255,18 @@ vectorArrangeAbove =
     iconShape "M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C6.67,16 10.33,16 14,16C15.11,16 16,15.11 16,14C16,10.33 16,6.67 16,3C16,1.89 15.11,1 14,1H3M3,3H14V14H3V3M18,7V9H20V20H9V18H7V20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7H18Z"
 
 
-{-| The [`vector-arrange-below`](https://pictogrammers.com/library/mdi/icon/vector-arrange-below/) icon.
--}
-vectorArrangeBelow : IconShape
-vectorArrangeBelow =
-    iconShape "M20,22C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C16.33,7 12.67,7 9,7C7.89,7 7,7.89 7,9C7,12.67 7,16.33 7,20C7,21.11 7.89,22 9,22H20M20,20H9V9H20V20M5,16V14H3V3H14V5H16V3C16,1.89 15.11,1 14,1H3C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H5Z"
-
-
 {-| The [`vector-bezier`](https://pictogrammers.com/library/mdi/icon/vector-bezier/) icon.
 -}
 vectorBezier : IconShape
 vectorBezier =
     iconShape "M7.5,4A1.5,1.5 0 0,0 6,5.5A1.5,1.5 0 0,0 7.5,7C8.13,7 8.7,6.6 8.91,6H13C13.67,5.33 14.33,5 15,5H8.91C8.7,4.4 8.13,4 7.5,4M19,5C8,5 14,17 5,17V19C16,19 10,7 19,7V5M16.5,17C15.87,17 15.3,17.4 15.09,18H11C10.33,18.67 9.67,19 9,19H15.09C15.3,19.6 15.87,20 16.5,20A1.5,1.5 0 0,0 18,18.5A1.5,1.5 0 0,0 16.5,17Z"
+
+
+{-| The [`vector-arrange-below`](https://pictogrammers.com/library/mdi/icon/vector-arrange-below/) icon.
+-}
+vectorArrangeBelow : IconShape
+vectorArrangeBelow =
+    iconShape "M20,22C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C16.33,7 12.67,7 9,7C7.89,7 7,7.89 7,9C7,12.67 7,16.33 7,20C7,21.11 7.89,22 9,22H20M20,20H9V9H20V20M5,16V14H3V3H14V5H16V3C16,1.89 15.11,1 14,1H3C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16H5Z"
 
 
 {-| The [`vector-circle`](https://pictogrammers.com/library/mdi/icon/vector-circle/) icon.
@@ -360,18 +360,18 @@ vectorPointEdit =
     iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M21.2 13C21.1 13 20.9 13.1 20.8 13.2L19.8 14.2L21.9 16.3L22.9 15.3C23.1 15.1 23.1 14.7 22.9 14.5L21.6 13.2C21.4 13.1 21.3 13 21.2 13M19.1 14.8L13 20.9V23H15.1L21.2 16.8L19.1 14.8Z"
 
 
-{-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
--}
-vectorPointMinus : IconShape
-vectorPointMinus =
-    iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M15 18V20H23V18H15Z"
-
-
 {-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
 -}
 vectorPointPlus : IconShape
 vectorPointPlus =
     iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
+
+
+{-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
+-}
+vectorPointMinus : IconShape
+vectorPointMinus =
+    iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M15 18V20H23V18H15Z"
 
 
 {-| The [`vector-point-select`](https://pictogrammers.com/library/mdi/icon/vector-point-select/) icon.
@@ -1179,18 +1179,18 @@ volumeMedium =
     iconShape "M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z"
 
 
-{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
--}
-volumeMute : IconShape
-volumeMute =
-    iconShape "M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z"
-
-
 {-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
 -}
 volumeMinus : IconShape
 volumeMinus =
     iconShape "M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z"
+
+
+{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
+-}
+volumeMute : IconShape
+volumeMute =
+    iconShape "M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z"
 
 
 {-| The [`volume-off`](https://pictogrammers.com/library/mdi/icon/volume-off/) icon.
@@ -1297,11 +1297,11 @@ lookup name =
         "vector-arrange-above" ->
             Just vectorArrangeAbove
 
-        "vector-arrange-below" ->
-            Just vectorArrangeBelow
-
         "vector-bezier" ->
             Just vectorBezier
+
+        "vector-arrange-below" ->
+            Just vectorArrangeBelow
 
         "vector-circle" ->
             Just vectorCircle
@@ -1342,11 +1342,11 @@ lookup name =
         "vector-point-edit" ->
             Just vectorPointEdit
 
-        "vector-point-minus" ->
-            Just vectorPointMinus
-
         "vector-point-plus" ->
             Just vectorPointPlus
+
+        "vector-point-minus" ->
+            Just vectorPointMinus
 
         "vector-point-select" ->
             Just vectorPointSelect
@@ -1693,11 +1693,11 @@ lookup name =
         "volume-medium" ->
             Just volumeMedium
 
-        "volume-mute" ->
-            Just volumeMute
-
         "volume-minus" ->
             Just volumeMinus
+
+        "volume-mute" ->
+            Just volumeMute
 
         "volume-off" ->
             Just volumeOff

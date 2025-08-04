@@ -566,18 +566,18 @@ packageVariantPlus =
     iconShape "M13 15.6C13.3 15.8 13.7 15.8 14 15.6L19 12.7V13C19.7 13 20.4 13.1 21 13.4V11.6L22 11C22.5 10.7 22.6 10.1 22.4 9.6L20.9 7.1C20.8 6.9 20.7 6.7 20.5 6.6L12.6 2.2C12.4 2.1 12.2 2 12 2S11.6 2.1 11.4 2.2L3.6 6.6C3.4 6.7 3.2 6.8 3.1 7L1.6 9.6C1.3 10.1 1.5 10.7 2 11C2.3 11.2 2.7 11.2 3 11V16.5C3 16.9 3.2 17.2 3.5 17.4L11.4 21.8C11.6 21.9 11.8 22 12 22S12.4 21.9 12.6 21.8L13.5 21.3C13.2 20.7 13.1 20 13 19.3M11 19.3L5 15.9V9.2L11 12.6V19.3M20.1 9.7L13.8 13.3L13.2 12.3L19.5 8.7L20.1 9.7M12 10.8V4.2L18 7.5L12 10.8M20 15V18H23V20H20V23H18V20H15V18H18V15H20Z"
 
 
-{-| The [`package-variant-remove`](https://pictogrammers.com/library/mdi/icon/package-variant-remove/) icon.
--}
-packageVariantRemove : IconShape
-packageVariantRemove =
-    iconShape "M13 15.6C13.3 15.8 13.7 15.8 14 15.6L19 12.7V13C19.7 13 20.4 13.1 21 13.4V11.6L22 11C22.5 10.7 22.6 10.1 22.4 9.6L20.9 7.1C20.8 6.9 20.7 6.7 20.5 6.6L12.6 2.2C12.4 2.1 12.2 2 12 2S11.6 2.1 11.4 2.2L3.6 6.6C3.4 6.7 3.2 6.8 3.1 7L1.6 9.6C1.3 10.1 1.5 10.7 2 11C2.3 11.2 2.7 11.2 3 11V16.5C3 16.9 3.2 17.2 3.5 17.4L11.4 21.8C11.6 21.9 11.8 22 12 22S12.4 21.9 12.6 21.8L13.5 21.3C13.2 20.7 13.1 20 13 19.3M11 19.3L5 15.9V9.2L11 12.6V19.3M20.1 9.7L13.8 13.3L13.2 12.3L19.5 8.7L20.1 9.7M12 10.8V4.2L18 7.5L12 10.8M22.5 16.9L20.4 19L22.5 21.1L21.1 22.5L19 20.4L16.9 22.5L15.5 21.1L17.6 19L15.5 16.9L16.9 15.5L19 17.6L21.1 15.5L22.5 16.9Z"
-
-
 {-| The [`page-first`](https://pictogrammers.com/library/mdi/icon/page-first/) icon.
 -}
 pageFirst : IconShape
 pageFirst =
     iconShape "M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z"
+
+
+{-| The [`package-variant-remove`](https://pictogrammers.com/library/mdi/icon/package-variant-remove/) icon.
+-}
+packageVariantRemove : IconShape
+packageVariantRemove =
+    iconShape "M13 15.6C13.3 15.8 13.7 15.8 14 15.6L19 12.7V13C19.7 13 20.4 13.1 21 13.4V11.6L22 11C22.5 10.7 22.6 10.1 22.4 9.6L20.9 7.1C20.8 6.9 20.7 6.7 20.5 6.6L12.6 2.2C12.4 2.1 12.2 2 12 2S11.6 2.1 11.4 2.2L3.6 6.6C3.4 6.7 3.2 6.8 3.1 7L1.6 9.6C1.3 10.1 1.5 10.7 2 11C2.3 11.2 2.7 11.2 3 11V16.5C3 16.9 3.2 17.2 3.5 17.4L11.4 21.8C11.6 21.9 11.8 22 12 22S12.4 21.9 12.6 21.8L13.5 21.3C13.2 20.7 13.1 20 13 19.3M11 19.3L5 15.9V9.2L11 12.6V19.3M20.1 9.7L13.8 13.3L13.2 12.3L19.5 8.7L20.1 9.7M12 10.8V4.2L18 7.5L12 10.8M22.5 16.9L20.4 19L22.5 21.1L21.1 22.5L19 20.4L16.9 22.5L15.5 21.1L17.6 19L15.5 16.9L16.9 15.5L19 17.6L21.1 15.5L22.5 16.9Z"
 
 
 {-| The [`page-last`](https://pictogrammers.com/library/mdi/icon/page-last/) icon.
@@ -2764,18 +2764,18 @@ poundBoxOutline =
     iconShape "M19 19H5V5H19M19 3H5A2 2 0 0 0 3 5V19A2 2 0 0 0 5 21H19A2 2 0 0 0 21 19V5A2 2 0 0 0 19 3M7 9H9.31L9.63 6H11.63L11.31 9H13.31L13.63 6H15.63L15.31 9H17V11H15.1L14.9 13H17V15H14.69L14.37 18H12.37L12.69 15H10.69L10.37 18H8.37L8.69 15H7V13H8.9L9.1 11H7V9M11.1 11L10.9 13H12.9L13.1 11Z"
 
 
-{-| The [`power`](https://pictogrammers.com/library/mdi/icon/power/) icon.
--}
-power : IconShape
-power =
-    iconShape "M16.56,5.44L15.11,6.89C16.84,7.94 18,9.83 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12C6,9.83 7.16,7.94 8.88,6.88L7.44,5.44C5.36,6.88 4,9.28 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,9.28 18.64,6.88 16.56,5.44M13,3H11V13H13"
-
-
 {-| The [`power-cycle`](https://pictogrammers.com/library/mdi/icon/power-cycle/) icon.
 -}
 powerCycle : IconShape
 powerCycle =
     iconShape "M12,3A9,9 0 0,0 3,12A9,9 0 0,0 12,21A9,9 0 0,0 21,12A9,9 0 0,0 12,3M12,19A7,7 0 0,1 5,12A7,7 0 0,1 12,5A7,7 0 0,1 19,12A7,7 0 0,1 12,19M13,17H11V7H13V17Z"
+
+
+{-| The [`power`](https://pictogrammers.com/library/mdi/icon/power/) icon.
+-}
+power : IconShape
+power =
+    iconShape "M16.56,5.44L15.11,6.89C16.84,7.94 18,9.83 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12C6,9.83 7.16,7.94 8.88,6.88L7.44,5.44C5.36,6.88 4,9.28 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,9.28 18.64,6.88 16.56,5.44M13,3H11V13H13"
 
 
 {-| The [`power-off`](https://pictogrammers.com/library/mdi/icon/power-off/) icon.
@@ -3345,13 +3345,6 @@ printerSettings =
     iconShape "M18,2V6H6V2H18M19,11A1,1 0 0,0 20,10A1,1 0 0,0 19,9A1,1 0 0,0 18,10A1,1 0 0,0 19,11M16,18V13H8V18H16M19,7A3,3 0 0,1 22,10V16H18V20H6V16H2V10A3,3 0 0,1 5,7H19M15,24V22H17V24H15M11,24V22H13V24H11M7,24V22H9V24H7Z"
 
 
-{-| The [`printer-wireless`](https://pictogrammers.com/library/mdi/icon/printer-wireless/) icon.
--}
-printerWireless : IconShape
-printerWireless =
-    iconShape "M4.93,3.92L6.34,5.33C9.46,2.2 14.53,2.2 17.66,5.33L19.07,3.92C15.17,0 8.84,0 4.93,3.92M7.76,6.75L9.17,8.16C10.73,6.6 13.26,6.6 14.83,8.16L16.24,6.75C13.9,4.41 10.1,4.41 7.76,6.75M19,14A1,1 0 0,1 18,13A1,1 0 0,1 19,12A1,1 0 0,1 20,13A1,1 0 0,1 19,14M16,20H8V15H16V20M19,10H5A3,3 0 0,0 2,13V18H6V22H18V18H22V13A3,3 0 0,0 19,10Z"
-
-
 {-| The [`priority-high`](https://pictogrammers.com/library/mdi/icon/priority-high/) icon.
 -}
 priorityHigh : IconShape
@@ -3364,6 +3357,13 @@ priorityHigh =
 priorityLow : IconShape
 priorityLow =
     iconShape "M14,5H22V7H14V5M14,10.5H22V12.5H14V10.5M14,16H22V18H14V16M2,11.5C2,15.08 4.92,18 8.5,18H9V20L12,17L9,14V16H8.5C6,16 4,14 4,11.5C4,9 6,7 8.5,7H12V5H8.5C4.92,5 2,7.92 2,11.5Z"
+
+
+{-| The [`printer-wireless`](https://pictogrammers.com/library/mdi/icon/printer-wireless/) icon.
+-}
+printerWireless : IconShape
+printerWireless =
+    iconShape "M4.93,3.92L6.34,5.33C9.46,2.2 14.53,2.2 17.66,5.33L19.07,3.92C15.17,0 8.84,0 4.93,3.92M7.76,6.75L9.17,8.16C10.73,6.6 13.26,6.6 14.83,8.16L16.24,6.75C13.9,4.41 10.1,4.41 7.76,6.75M19,14A1,1 0 0,1 18,13A1,1 0 0,1 19,12A1,1 0 0,1 20,13A1,1 0 0,1 19,14M16,20H8V15H16V20M19,10H5A3,3 0 0,0 2,13V18H6V22H18V18H22V13A3,3 0 0,0 19,10Z"
 
 
 {-| The [`professional-hexagon`](https://pictogrammers.com/library/mdi/icon/professional-hexagon/) icon.
@@ -3785,11 +3785,11 @@ lookup name =
         "package-variant-plus" ->
             Just packageVariantPlus
 
-        "package-variant-remove" ->
-            Just packageVariantRemove
-
         "page-first" ->
             Just pageFirst
+
+        "package-variant-remove" ->
+            Just packageVariantRemove
 
         "page-last" ->
             Just pageLast
@@ -4727,11 +4727,11 @@ lookup name =
         "pound-box-outline" ->
             Just poundBoxOutline
 
-        "power" ->
-            Just power
-
         "power-cycle" ->
             Just powerCycle
+
+        "power" ->
+            Just power
 
         "power-off" ->
             Just powerOff
@@ -4976,14 +4976,14 @@ lookup name =
         "printer-settings" ->
             Just printerSettings
 
-        "printer-wireless" ->
-            Just printerWireless
-
         "priority-high" ->
             Just priorityHigh
 
         "priority-low" ->
             Just priorityLow
+
+        "printer-wireless" ->
+            Just printerWireless
 
         "professional-hexagon" ->
             Just professionalHexagon

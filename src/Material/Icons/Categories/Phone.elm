@@ -124,16 +124,16 @@ module Material.Icons.Categories.Phone exposing
     , sim
     , simAlert
     , simAlertOutline
-    , simOff
     , simOffOutline
+    , simOff
     , simOutline
     , tabletCellphone
     , tooltipCellphone
     , volumeHigh
     , volumeLow
     , volumeMedium
-    , volumeMute
     , volumeMinus
+    , volumeMute
     , volumeOff
     , volumePlus
     , volumeSource
@@ -264,16 +264,16 @@ module Material.Icons.Categories.Phone exposing
 @docs sim
 @docs simAlert
 @docs simAlertOutline
-@docs simOff
 @docs simOffOutline
+@docs simOff
 @docs simOutline
 @docs tabletCellphone
 @docs tooltipCellphone
 @docs volumeHigh
 @docs volumeLow
 @docs volumeMedium
-@docs volumeMute
 @docs volumeMinus
+@docs volumeMute
 @docs volumeOff
 @docs volumePlus
 @docs volumeSource
@@ -295,6 +295,9 @@ import Material.Icons.Directory.V
 
 
 {-| The [`call-made`](https://pictogrammers.com/library/mdi/icon/call-made/) icon.
+
+![call-made](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksNVY3SDE1LjU5TDQsMTguNTlMNS40MSwyMEwxNyw4LjQxVjE1SDE5VjUiIC8+PC9zdmc+)
+
 -}
 callMade : IconShape
 callMade =
@@ -302,6 +305,9 @@ callMade =
 
 
 {-| The [`call-merge`](https://pictogrammers.com/library/mdi/icon/call-merge/) icon.
+
+![call-merge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDIwLjQxTDE4LjQxLDE5TDE1LDE1LjU5TDEzLjU5LDE3TTcuNSw4SDExVjEzLjU5TDUuNTksMTlMNywyMC40MUwxMywxNC40MVY4SDE2LjVMMTIsMy41IiAvPjwvc3ZnPg==)
+
 -}
 callMerge : IconShape
 callMerge =
@@ -309,6 +315,9 @@ callMerge =
 
 
 {-| The [`call-missed`](https://pictogrammers.com/library/mdi/icon/call-missed/) icon.
+
+![call-missed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjU5LDdMMTIsMTQuNTlMNi40MSw5SDExVjdIM1YxNUg1VjEwLjQxTDEyLDE3LjQxTDIxLDguNDEiIC8+PC9zdmc+)
+
 -}
 callMissed : IconShape
 callMissed =
@@ -316,6 +325,9 @@ callMissed =
 
 
 {-| The [`call-received`](https://pictogrammers.com/library/mdi/icon/call-received/) icon.
+
+![call-received](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDUuNDFMMTguNTksNEw3LDE1LjU5VjlINVYxOUgxNVYxN0g4LjQxIiAvPjwvc3ZnPg==)
+
 -}
 callReceived : IconShape
 callReceived =
@@ -323,6 +335,9 @@ callReceived =
 
 
 {-| The [`call-split`](https://pictogrammers.com/library/mdi/icon/call-split/) icon.
+
+![call-split](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDRMMTYuMjksNi4yOUwxMy40MSw5LjE3TDE0LjgzLDEwLjU5TDE3LjcxLDcuNzFMMjAsMTBWNE0xMCw0SDRWMTBMNi4yOSw3LjcxTDExLDEyLjQxVjIwSDEzVjExLjU5TDcuNzEsNi4yOSIgLz48L3N2Zz4=)
+
 -}
 callSplit : IconShape
 callSplit =
@@ -330,6 +345,9 @@ callSplit =
 
 
 {-| The [`cellphone`](https://pictogrammers.com/library/mdi/icon/cellphone/) icon.
+
+![cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDE5SDdWNUgxN00xNywxSDdDNS44OSwxIDUsMS44OSA1LDNWMjFBMiwyIDAgMCwwIDcsMjNIMTdBMiwyIDAgMCwwIDE5LDIxVjNDMTksMS44OSAxOC4xLDEgMTcsMVoiIC8+PC9zdmc+)
+
 -}
 cellphone : IconShape
 cellphone =
@@ -337,6 +355,9 @@ cellphone =
 
 
 {-| The [`cellphone-arrow-down`](https://pictogrammers.com/library/mdi/icon/cellphone-arrow-down/) icon.
+
+![cellphone-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDFIN0EyLDIgMCAwLDAgNSwzVjIxQTIsMiAwIDAsMCA3LDIzSDE3QTIsMiAwIDAsMCAxOSwyMVYzQTIsMiAwIDAsMCAxNywxTTE3LDE5SDdWNUgxN1YxOU0xNiwxM0gxM1Y4SDExVjEzSDhMMTIsMTdMMTYsMTNaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneArrowDown : IconShape
 cellphoneArrowDown =
@@ -344,6 +365,9 @@ cellphoneArrowDown =
 
 
 {-| The [`cellphone-arrow-down-variant`](https://pictogrammers.com/library/mdi/icon/cellphone-arrow-down-variant/) icon.
+
+![cellphone-arrow-down-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0TDIzIDlMMjEuNiA3LjZMMTkgMTAuMlYzSDE3VjEwLjJMMTQuNCA3LjZMMTMgOUwxOCAxNE0xOSAxNlYyMUMxOSAyMi4xIDE4LjEgMjMgMTcgMjNIN0M1LjkgMjMgNSAyMi4xIDUgMjFWM0M1IDEuOSA1LjkgMSA3IDFIMTRWNUg3VjE5SDE3VjE2SDE5WiIgLz48L3N2Zz4=)
+
 -}
 cellphoneArrowDownVariant : IconShape
 cellphoneArrowDownVariant =
@@ -351,6 +375,9 @@ cellphoneArrowDownVariant =
 
 
 {-| The [`cellphone-basic`](https://pictogrammers.com/library/mdi/icon/cellphone-basic/) icon.
+
+![cellphone-basic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDJBMSwxIDAgMCwwIDE0LDNWNkgxMEM4Ljg5LDYgOCw2Ljg5IDgsOFYyMEM4LDIxLjExIDguODksMjIgMTAsMjJIMTVDMTYuMTEsMjIgMTcsMjEuMTEgMTcsMjBWOEMxNyw3LjI2IDE2LjYsNi42MiAxNiw2LjI4VjNBMSwxIDAgMCwwIDE1LDJNMTAsOEgxNVYxM0gxMFY4TTEwLDE1SDExVjE2SDEwVjE1TTEyLDE1SDEzVjE2SDEyVjE1TTE0LDE1SDE1VjE2SDE0VjE1TTEwLDE3SDExVjE4SDEwVjE3TTEyLDE3SDEzVjE4SDEyVjE3TTE0LDE3SDE1VjE4SDE0VjE3TTEwLDE5SDExVjIwSDEwVjE5TTEyLDE5SDEzVjIwSDEyVjE5TTE0LDE5SDE1VjIwSDE0VjE5WiIgLz48L3N2Zz4=)
+
 -}
 cellphoneBasic : IconShape
 cellphoneBasic =
@@ -358,6 +385,9 @@ cellphoneBasic =
 
 
 {-| The [`cellphone-charging`](https://pictogrammers.com/library/mdi/icon/cellphone-charging/) icon.
+
+![cellphone-charging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE4LjVWMTNIOUwxMyA1LjVWMTFIMTVNMTcgMTlIN1Y1SDE3TTE3IDFIN0M1Ljg5IDEgNSAxLjg5IDUgM1YyMUEyIDIgMCAwIDAgNyAyM0gxN0EyIDIgMCAwIDAgMTkgMjFWM0MxOSAxLjg5IDE4LjEgMSAxNyAxWiIgLz48L3N2Zz4=)
+
 -}
 cellphoneCharging : IconShape
 cellphoneCharging =
@@ -365,6 +395,9 @@ cellphoneCharging =
 
 
 {-| The [`cellphone-check`](https://pictogrammers.com/library/mdi/icon/cellphone-check/) icon.
+
+![cellphone-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjU0IDIzSDdDNS45IDIzIDUgMjIuMTEgNSAyMVYzQzUgMS44OSA1Ljg5IDEgNyAxSDE3QzE4LjEgMSAxOSAxLjg5IDE5IDNWMTNDMTguMyAxMyAxNy42MyAxMy4xMyAxNyAxMy4zNVY1SDdWMTlIMTNDMTMgMjAuNTQgMTMuNTggMjEuOTQgMTQuNTQgMjNNMTcuNzUgMjIuMTZMMTUgMTkuMTZMMTYuMTYgMThMMTcuNzUgMTkuNTlMMjEuMzQgMTZMMjIuNSAxNy40MUwxNy43NSAyMi4xNiIgLz48L3N2Zz4=)
+
 -}
 cellphoneCheck : IconShape
 cellphoneCheck =
@@ -372,6 +405,9 @@ cellphoneCheck =
 
 
 {-| The [`cellphone-cog`](https://pictogrammers.com/library/mdi/icon/cellphone-cog/) icon.
+
+![cellphone-cog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODIsMTIuNUM5Ljg0LDEyLjMzIDkuODYsMTIuMTcgOS44NiwxMkM5Ljg2LDExLjgzIDkuODQsMTEuNjcgOS44MiwxMS41TDEwLjksMTAuNjlDMTEsMTAuNjIgMTEsMTAuNSAxMC45NiwxMC4zN0w5LjkzLDguNjRDOS44Nyw4LjUzIDkuNzMsOC41IDkuNjIsOC41M0w4LjM0LDkuMDNDOC4wNyw4LjgzIDcuNzgsOC42NyA3LjQ3LDguNTRMNy4yNyw3LjIxQzcuMjcsNy4wOSA3LjE2LDcgNy4wMyw3SDVDNC44NSw3IDQuNzQsNy4wOSA0LjcyLDcuMjFMNC41LDguNTNDNC4yMSw4LjY1IDMuOTIsOC44MyAzLjY1LDlMMi4zNyw4LjVDMi4yNSw4LjQ3IDIuMTIsOC41IDIuMDYsOC42M0wxLjAzLDEwLjM2QzAuOTcsMTAuNSAxLDEwLjYxIDEuMSwxMC42OUwyLjE4LDExLjVDMi4xNiwxMS42NyAyLjE1LDExLjg0IDIuMTUsMTJDMi4xNSwxMi4xNyAyLjE3LDEyLjMzIDIuMTksMTIuNUwxLjEsMTMuMzJDMSwxMy4zOSAxLDEzLjUzIDEuMDQsMTMuNjRMMi4wNywxNS4zN0MyLjEzLDE1LjUgMi4yNywxNS41IDIuMzgsMTUuNUwzLjY2LDE1QzMuOTMsMTUuMTggNC4yMiwxNS4zNCA0LjUzLDE1LjQ3TDQuNzMsMTYuNzlDNC43NCwxNi45MSA0Ljg1LDE3IDUsMTdINy4wNEM3LjE3LDE3IDcuMjgsMTYuOTEgNy4yOSwxNi43OUw3LjUsMTUuNDdDNy44LDE1LjM1IDguMDksMTUuMTcgOC4zNiwxNUw5LjY0LDE1LjVDOS43NiwxNS41MyA5Ljg5LDE1LjUgOS45NSwxNS4zN0wxMSwxMy42NEMxMS4wNCwxMy41MyAxMSwxMy40IDEwLjkyLDEzLjMyTDkuODIsMTIuNU02LDEzLjc1QzUsMTMuNzUgNC4yLDEyLjk3IDQuMiwxMkM0LjIsMTEuMDMgNSwxMC4yNSA2LDEwLjI1QzcsMTAuMjUgNy44LDExLjAzIDcuOCwxMkM3LjgsMTIuOTcgNywxMy43NSA2LDEzLjc1TTE3LDFIN0EyLDIgMCAwLDAgNSwzVjZIN1Y0SDE3VjIwSDdWMThINVYyMUEyLDIgMCAwLDAgNywyM0gxN0EyLDIgMCAwLDAgMTksMjFWM0EyLDIgMCAwLDAgMTcsMVoiIC8+PC9zdmc+)
+
 -}
 cellphoneCog : IconShape
 cellphoneCog =
@@ -379,6 +415,9 @@ cellphoneCog =
 
 
 {-| The [`cellphone-dock`](https://pictogrammers.com/library/mdi/icon/cellphone-dock/) icon.
+
+![cellphone-dock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE1SDhWNUgxNk0xNiwxSDhDNi44OSwxIDYsMS44OSA2LDNWMTdBMiwyIDAgMCwwIDgsMTlIMTZBMiwyIDAgMCwwIDE4LDE3VjNDMTgsMS44OSAxNy4xLDEgMTYsMU04LDIzSDE2VjIxSDhWMjNaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneDock : IconShape
 cellphoneDock =
@@ -386,6 +425,9 @@ cellphoneDock =
 
 
 {-| The [`cellphone-information`](https://pictogrammers.com/library/mdi/icon/cellphone-information/) icon.
+
+![cellphone-information](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDdIMTFWOUgxM1Y3TTEzIDExSDExVjE3SDEzVjExTTE3IDFIN0M1LjkgMSA1IDEuOSA1IDNWMjFDNSAyMi4xIDUuOSAyMyA3IDIzSDE3QzE4LjEgMjMgMTkgMjIuMSAxOSAyMVYzQzE5IDEuOSAxOC4xIDEgMTcgMU0xNyAxOUg3VjVIMTdWMTlaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneInformation : IconShape
 cellphoneInformation =
@@ -393,6 +435,9 @@ cellphoneInformation =
 
 
 {-| The [`cellphone-key`](https://pictogrammers.com/library/mdi/icon/cellphone-key/) icon.
+
+![cellphone-key](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMUM1LjkgMSA1IDEuOSA1IDNWN0g3VjRIMTdWMjBIN1YxN0g1VjIxQzUgMjIuMSA1LjkgMjMgNyAyM0gxN0MxOC4xIDIzIDE5IDIyLjEgMTkgMjFWM0MxOSAxLjkgMTguMSAxIDE3IDFIN002IDlDNC4zIDkgMyAxMC4zIDMgMTJTNC4zIDE1IDYgMTVDNy4zIDE1IDguNCAxNC4yIDguOCAxM0gxMVYxNUgxM1YxM0gxNVYxMUg4LjhDOC40IDkuOCA3LjMgOSA2IDlNNiAxMUM2LjYgMTEgNyAxMS40IDcgMTJTNi42IDEzIDYgMTMgNSAxMi42IDUgMTIgNS40IDExIDYgMTFaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneKey : IconShape
 cellphoneKey =
@@ -400,6 +445,9 @@ cellphoneKey =
 
 
 {-| The [`cellphone-link`](https://pictogrammers.com/library/mdi/icon/cellphone-link/) icon.
+
+![cellphone-link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE3SDE4VjEwSDIyTTIzLDhIMTdBMSwxIDAgMCwwIDE2LDlWMTlBMSwxIDAgMCwwIDE3LDIwSDIzQTEsMSAwIDAsMCAyNCwxOVY5QTEsMSAwIDAsMCAyMyw4TTQsNkgyMlY0SDRBMiwyIDAgMCwwIDIsNlYxN0gwVjIwSDE0VjE3SDRWNloiIC8+PC9zdmc+)
+
 -}
 cellphoneLink : IconShape
 cellphoneLink =
@@ -407,6 +455,9 @@ cellphoneLink =
 
 
 {-| The [`cellphone-link-off`](https://pictogrammers.com/library/mdi/icon/cellphone-link-off/) icon.
+
+![cellphone-link-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDhIMTdBMSwxIDAgMCwwIDE2LDlWMTMuMThMMTgsMTUuMThWMTBIMjJWMTdIMTkuODJMMjIuODIsMjBIMjNBMSwxIDAgMCwwIDI0LDE5VjlBMSwxIDAgMCwwIDIzLDhNNCw2LjI3TDE0LjczLDE3SDRWNi4yN00xLjkyLDEuNjVMMC42NSwyLjkyTDIuNDcsNC43NEMyLjE4LDUuMDggMiw1LjUgMiw2VjE3SDBWMjBIMTcuNzNMMjAuMDgsMjIuMzVMMjEuMzUsMjEuMDhMMy44OSwzLjYyTDEuOTIsMS42NU0yMiw2VjRINi44Mkw4LjgyLDZIMjJaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneLinkOff : IconShape
 cellphoneLinkOff =
@@ -414,6 +465,9 @@ cellphoneLinkOff =
 
 
 {-| The [`cellphone-lock`](https://pictogrammers.com/library/mdi/icon/cellphone-lock/) icon.
+
+![cellphone-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDFIN0EyLDIgMCAwLDAgNSwzVjZIN1Y0SDE3VjIwSDdWMThINVYyMUEyLDIgMCAwLDAgNywyM0gxN0EyLDIgMCAwLDAgMTksMjFWM0EyLDIgMCAwLDAgMTcsMU04LjgsMTFWOS41QzguOCw4LjEgNy40LDcgNiw3QzQuNiw3IDMuMiw4LjEgMy4yLDkuNVYxMUMyLjYsMTEgMiwxMS42IDIsMTIuMlYxNS43QzIsMTYuNCAyLjYsMTcgMy4yLDE3SDguN0M5LjQsMTcgMTAsMTYuNCAxMCwxNS44VjEyLjNDMTAsMTEuNiA5LjQsMTEgOC44LDExTTcuNSwxMUg0LjVWOS41QzQuNSw4LjcgNS4yLDguMiA2LDguMkM2LjgsOC4yIDcuNSw4LjcgNy41LDkuNVYxMVoiIC8+PC9zdmc+)
+
 -}
 cellphoneLock : IconShape
 cellphoneLock =
@@ -421,6 +475,9 @@ cellphoneLock =
 
 
 {-| The [`cellphone-marker`](https://pictogrammers.com/library/mdi/icon/cellphone-marker/) icon.
+
+![cellphone-marker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUgMTNDMTYuNiAxMyAxNSAxNC42MSAxNSAxNi41QzE1IDE5LjExIDE4LjUgMjMgMTguNSAyM1MyMiAxOS4xMSAyMiAxNi41QzIyIDE0LjYxIDIwLjQgMTMgMTguNSAxM00xOC41IDE3LjgxQzE3LjggMTcuODEgMTcuMyAxNy4yMSAxNy4zIDE2LjYxQzE3LjMgMTUuOTEgMTcuOSAxNS40MSAxOC41IDE1LjQxUzE5LjcgMTYgMTkuNyAxNi42MUMxOS44IDE3LjIxIDE5LjIgMTcuODEgMTguNSAxNy44MU0xNS45MSAyM0g3QzUuOSAyMyA1IDIyLjExIDUgMjFWM0M1IDEuODkgNS44OSAxIDcgMUgxN0MxOC4xIDEgMTkgMS44OSAxOSAzVjExLjAzQzE4Ljg0IDExIDE4LjY3IDExIDE4LjUgMTFDMTggMTEgMTcuNSAxMS4wOCAxNyAxMS4yMlY1SDdWMTlIMTMuNTRDMTQuMTQgMjAuNSAxNS4xMiAyMS45NyAxNS45MSAyM1oiIC8+PC9zdmc+)
+
 -}
 cellphoneMarker : IconShape
 cellphoneMarker =
@@ -428,6 +485,9 @@ cellphoneMarker =
 
 
 {-| The [`cellphone-message`](https://pictogrammers.com/library/mdi/icon/cellphone-message/) icon.
+
+![cellphone-message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE3VjdINFYxN0gxMU0xMSwzQTIsMiAwIDAsMSAxMyw1VjE5QTIsMiAwIDAsMSAxMSwyMUg0QzIuODksMjEgMiwyMC4xIDIsMTlWNUEyLDIgMCAwLDEgNCwzSDExTTE2LjUsM0gyMS41QTEuNSwxLjUgMCAwLDEgMjMsNC41VjcuNUExLjUsMS41IDAgMCwxIDIxLjUsOUgxOEwxNSwxMlY5TDE1LDQuNUExLjUsMS41IDAgMCwxIDE2LjUsM1oiIC8+PC9zdmc+)
+
 -}
 cellphoneMessage : IconShape
 cellphoneMessage =
@@ -435,6 +495,9 @@ cellphoneMessage =
 
 
 {-| The [`cellphone-message-off`](https://pictogrammers.com/library/mdi/icon/cellphone-message-off/) icon.
+
+![cellphone-message-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzkgMS43M0wxLjExIDNMMi4yMiA0LjExQzIuMDggNC4zOCAyIDQuNjggMiA1VjE5QzIgMjAuMSAyLjg5IDIxIDQgMjFIMTFDMTIuMSAyMSAxMyAyMC4xIDEzIDE5VjE0Ljg5TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TDIuMzkgMS43M00xMSAxN0g0VjdINS4xMUwxMSAxMi44OVYxN00yMyA0LjVWNy41QzIzIDguMzMgMjIuMzMgOSAyMS41IDlIMThMMTUuMSAxMS45TDE1IDExLjhWNC41QzE1IDMuNjcgMTUuNjcgMyAxNi41IDNIMjEuNUMyMi4zMyAzIDIzIDMuNjcgMjMgNC41TTEwLjIgN0w2LjIgM0gxMUMxMi4xIDMgMTMgMy45IDEzIDVWOS44TDExIDcuOFY3SDEwLjIiIC8+PC9zdmc+)
+
 -}
 cellphoneMessageOff : IconShape
 cellphoneMessageOff =
@@ -442,6 +505,9 @@ cellphoneMessageOff =
 
 
 {-| The [`cellphone-nfc`](https://pictogrammers.com/library/mdi/icon/cellphone-nfc/) icon.
+
+![cellphone-nfc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMTZWMThBNSw1IDAgMCwxIDcsMjNIOUE3LDcgMCAwLDAgMiwxNk0yLDIwVjIzSDVBMywzIDAgMCwwIDIsMjBNMiwxMlYxNEE5LDkgMCAwLDEgMTEsMjNIMTNDMTMsMTYuOTIgOC4wOCwxMiAyLDEyTTE3LDFIN0EyLDIgMCAwLDAgNSwzVjEwLjM3QzUuNjksMTAuNTMgNi4zNiwxMC43NCA3LDExVjVIMTdWMThIMTMuOTdDMTQuNSwxOS4yNSAxNC44MSwyMC41OSAxNC45MiwyMkgxN0EyLDIgMCAwLDAgMTksMjBWM0EyLDIgMCAwLDAgMTcsMVoiIC8+PC9zdmc+)
+
 -}
 cellphoneNfc : IconShape
 cellphoneNfc =
@@ -449,6 +515,9 @@ cellphoneNfc =
 
 
 {-| The [`cellphone-nfc-off`](https://pictogrammers.com/library/mdi/icon/cellphone-nfc-off/) icon.
+
+![cellphone-nfc-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjg0IDIyLjczTDE4Ljg1IDIwLjc0QzE4LjU2IDIxLjUgMTcuODQgMjIgMTcgMjJIMTQuOTJDMTQuODEgMjAuNTkgMTQuNSAxOS4yNSAxMy45NyAxOEgxNi4xMUw3IDguODlWMTFDNi4zNiAxMC43NCA1LjY5IDEwLjUzIDUgMTAuMzdWNi44OUwxLjExIDNMMi4zOSAxLjczTDIyLjExIDIxLjQ2TDIwLjg0IDIyLjczTTE3IDVWMTMuOEwxOSAxNS44VjNDMTkgMS45IDE4LjExIDEgMTcgMUg3QzYuMjQgMSA1LjU5IDEuNDMgNS4yNSAyLjA1TDguMiA1SDE3TTIgMjBWMjNINUM1IDIxLjM0IDMuNjYgMjAgMiAyME0yIDE2VjE4QzQuNzYgMTggNyAyMC4yNCA3IDIzSDlDOSAxOS4xMyA1Ljg3IDE2IDIgMTZNMiAxMlYxNEM2Ljk3IDE0IDExIDE4LjAzIDExIDIzSDEzQzEzIDE2LjkyIDguMDggMTIgMiAxMloiIC8+PC9zdmc+)
+
 -}
 cellphoneNfcOff : IconShape
 cellphoneNfcOff =
@@ -456,6 +525,9 @@ cellphoneNfcOff =
 
 
 {-| The [`cellphone-off`](https://pictogrammers.com/library/mdi/icon/cellphone-off/) icon.
+
+![cellphone-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzgsMS43M0wxLjExLDNMNSw2Ljg5VjIxQTIsMiAwIDAsMCA3LDIzSDE3QTIsMiAwIDAsMCAxOSwyMVYyMC44OUwyMC44NCwyMi43M0wyMi4xMSwyMS40Nk0xNywxOUg3VjguODlMMTcsMTguODlWMTlNMTcsNVYxMy44TDE5LDE1LjhWM0EyLDIgMCAwLDAgMTcsMUg3QzYuMjgsMSA1LjYsMS4zNyA1LjI0LDJMOC4yNCw1SDE3WiIgLz48L3N2Zz4=)
+
 -}
 cellphoneOff : IconShape
 cellphoneOff =
@@ -463,6 +535,9 @@ cellphoneOff =
 
 
 {-| The [`cellphone-play`](https://pictogrammers.com/library/mdi/icon/cellphone-play/) icon.
+
+![cellphone-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDE5SDdWNUgxN00xNyAxSDdDNS44OSAxIDUgMS44OSA1IDNWMjFDNSAyMi4xIDUuOSAyMyA3IDIzSDE3QzE4LjEgMjMgMTkgMjIuMSAxOSAyMVYzQzE5IDEuODkgMTguMSAxIDE3IDFNMTAgOVYxNUwxNCAxMkwxMCA5WiIgLz48L3N2Zz4=)
+
 -}
 cellphonePlay : IconShape
 cellphonePlay =
@@ -470,6 +545,9 @@ cellphonePlay =
 
 
 {-| The [`cellphone-remove`](https://pictogrammers.com/library/mdi/icon/cellphone-remove/) icon.
+
+![cellphone-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjU0IDE2Ljg4TDIxLjEyIDE1LjQ3TDE5IDE3LjU5TDE2Ljg4IDE1LjQ3TDE1LjQ3IDE2Ljg4TDE3LjU5IDE5TDE1LjQ3IDIxLjEyTDE2Ljg4IDIyLjU0TDE5IDIwLjQxTDIxLjEyIDIyLjU0TDIyLjU0IDIxLjEyTDIwLjQxIDE5TDIyLjU0IDE2Ljg4TTE0LjU0IDIzSDdDNS45IDIzIDUgMjIuMTEgNSAyMVYzQzUgMS44OSA1Ljg5IDEgNyAxSDE3QzE4LjEgMSAxOSAxLjg5IDE5IDNWMTNDMTguMyAxMyAxNy42MyAxMy4xMyAxNyAxMy4zNVY1SDdWMTlIMTNDMTMgMjAuNTQgMTMuNTggMjEuOTQgMTQuNTQgMjNaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneRemove : IconShape
 cellphoneRemove =
@@ -477,6 +555,9 @@ cellphoneRemove =
 
 
 {-| The [`cellphone-screenshot`](https://pictogrammers.com/library/mdi/icon/cellphone-screenshot/) icon.
+
+![cellphone-screenshot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMUEyLDIgMCAwLDAgNSwzVjIxQTIsMiAwIDAsMCA3LDIzSDE3QTIsMiAwIDAsMCAxOSwyMVYzQTIsMiAwIDAsMCAxNywxSDdNNyw0SDE3VjIwSDdWNE05LDZWMTBIMTAuNVY3LjVIMTNWNkg5TTEzLjUsMTRWMTYuNUgxMVYxOEgxNVYxNEgxMy41WiIgLz48L3N2Zz4=)
+
 -}
 cellphoneScreenshot : IconShape
 cellphoneScreenshot =
@@ -484,6 +565,9 @@ cellphoneScreenshot =
 
 
 {-| The [`cellphone-settings`](https://pictogrammers.com/library/mdi/icon/cellphone-settings/) icon.
+
+![cellphone-settings](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE2SDhWNEgxNk0xNiwwSDhBMiwyIDAgMCwwIDYsMlYxOEEyLDIgMCAwLDAgOCwyMEgxNkEyLDIgMCAwLDAgMTgsMThWMkEyLDIgMCAwLDAgMTYsME0xNSwyNEgxN1YyMkgxNU0xMSwyNEgxM1YyMkgxMU03LDI0SDlWMjJIN1YyNFoiIC8+PC9zdmc+)
+
 -}
 cellphoneSettings : IconShape
 cellphoneSettings =
@@ -491,6 +575,9 @@ cellphoneSettings =
 
 
 {-| The [`cellphone-sound`](https://pictogrammers.com/library/mdi/icon/cellphone-sound/) icon.
+
+![cellphone-sound](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjEsOC43QzIwLjksMTAuNSAyMC45LDEzLjMgMTkuMSwxNS4yTDIwLjEsMTYuMkMyMi42LDEzLjkgMjIuNiwxMC4xIDIwLjEsNy43TDE5LjEsOC43TTE4LDkuOEwxNywxMC44QzE3LjUsMTEuNSAxNy41LDEyLjQgMTcsMTMuMUwxOCwxNC4xQzE5LjIsMTIuOSAxOS4yLDExLjEgMTgsOS44TTE0LDFINEEyLDIgMCAwLDAgMiwzVjIxQTIsMiAwIDAsMCA0LDIzSDE0QTIsMiAwIDAsMCAxNiwyMVYzQTIsMiAwIDAsMCAxNCwxTTE0LDIwSDRWNEgxNFYyMFoiIC8+PC9zdmc+)
+
 -}
 cellphoneSound : IconShape
 cellphoneSound =
@@ -498,6 +585,9 @@ cellphoneSound =
 
 
 {-| The [`cellphone-text`](https://pictogrammers.com/library/mdi/icon/cellphone-text/) icon.
+
+![cellphone-text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDE5VjVIN1YxOUgxN00xNywxQTIsMiAwIDAsMSAxOSwzVjIxQTIsMiAwIDAsMSAxNywyM0g3QzUuODksMjMgNSwyMi4xIDUsMjFWM0M1LDEuODkgNS44OSwxIDcsMUgxN005LDdIMTVWOUg5VjdNOSwxMUgxM1YxM0g5VjExWiIgLz48L3N2Zz4=)
+
 -}
 cellphoneText : IconShape
 cellphoneText =
@@ -505,6 +595,9 @@ cellphoneText =
 
 
 {-| The [`cellphone-wireless`](https://pictogrammers.com/library/mdi/icon/cellphone-wireless/) icon.
+
+![cellphone-wireless](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjA3LDQuOTNDMjEuODgsNi43NCAyMyw5LjI0IDIzLDEyQzIzLDE0Ljc2IDIxLjg4LDE3LjI2IDIwLjA3LDE5LjA3TDE4LjY2LDE3LjY2QzIwLjExLDE2LjIyIDIxLDE0LjIyIDIxLDEyQzIxLDkuNzkgMjAuMTEsNy43OCAxOC42Niw2LjM0TDIwLjA3LDQuOTNNMTcuMjQsNy43NkMxOC4zMyw4Ljg1IDE5LDEwLjM1IDE5LDEyQzE5LDEzLjY1IDE4LjMzLDE1LjE1IDE3LjI0LDE2LjI0TDE1LjgzLDE0LjgzQzE2LjU1LDE0LjExIDE3LDEzLjExIDE3LDEyQzE3LDEwLjg5IDE2LjU1LDkuODkgMTUuODMsOS4xN0wxNy4yNCw3Ljc2TTEzLDEwQTIsMiAwIDAsMSAxNSwxMkEyLDIgMCAwLDEgMTMsMTRBMiwyIDAgMCwxIDExLDEyQTIsMiAwIDAsMSAxMywxME0xMS41LDFBMi41LDIuNSAwIDAsMSAxNCwzLjVWOEgxMlY0SDNWMTlIMTJWMTZIMTRWMjAuNUEyLjUsMi41IDAgMCwxIDExLjUsMjNIMy41QTIuNSwyLjUgMCAwLDEgMSwyMC41VjMuNUEyLjUsMi41IDAgMCwxIDMuNSwxSDExLjVaIiAvPjwvc3ZnPg==)
+
 -}
 cellphoneWireless : IconShape
 cellphoneWireless =
@@ -512,6 +605,9 @@ cellphoneWireless =
 
 
 {-| The [`deskphone`](https://pictogrammers.com/library/mdi/icon/deskphone/) icon.
+
+![deskphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNNMTUsNVYxOUgxOVY1SDE1TTUsNVY5SDEzVjVINU01LDExVjEzSDdWMTFINU04LDExVjEzSDEwVjExSDhNMTEsMTFWMTNIMTNWMTFIMTFNNSwxNFYxNkg3VjE0SDVNOCwxNFYxNkgxMFYxNEg4TTExLDE0VjE2SDEzVjE0SDExTTExLDE3VjE5SDEzVjE3SDExTTgsMTdWMTlIMTBWMTdIOE01LDE3VjE5SDdWMTdINVoiIC8+PC9zdmc+)
+
 -}
 deskphone : IconShape
 deskphone =
@@ -519,6 +615,9 @@ deskphone =
 
 
 {-| The [`devices`](https://pictogrammers.com/library/mdi/icon/devices/) icon.
+
+![devices](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgNkgyMVY0SDNDMS45IDQgMSA0LjkgMSA2VjE4QzEgMTkuMSAxLjkgMjAgMyAyMEg3VjE4SDNWNk0xMyAxMkg5VjEzLjc4QzguMzkgMTQuMzMgOCAxNS4xMSA4IDE2QzggMTYuODkgOC4zOSAxNy42NyA5IDE4LjIyVjIwSDEzVjE4LjIyQzEzLjYxIDE3LjY3IDE0IDE2Ljg4IDE0IDE2UzEzLjYxIDE0LjMzIDEzIDEzLjc4VjEyTTExIDE3LjVDMTAuMTcgMTcuNSA5LjUgMTYuODMgOS41IDE2UzEwLjE3IDE0LjUgMTEgMTQuNSAxMi41IDE1LjE3IDEyLjUgMTYgMTEuODMgMTcuNSAxMSAxNy41TTIyIDhIMTZDMTUuNSA4IDE1IDguNSAxNSA5VjE5QzE1IDE5LjUgMTUuNSAyMCAxNiAyMEgyMkMyMi41IDIwIDIzIDE5LjUgMjMgMTlWOUMyMyA4LjUgMjIuNSA4IDIyIDhNMjEgMThIMTdWMTBIMjFWMThaIiAvPjwvc3ZnPg==)
+
 -}
 devices : IconShape
 devices =
@@ -526,6 +625,9 @@ devices =
 
 
 {-| The [`fax`](https://pictogrammers.com/library/mdi/icon/fax/) icon.
+
+![fax](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDlIMThWNEg4VjIwSDIyVjEyQzIyIDEwLjM0IDIwLjY2IDkgMTkgOU0xMCA2SDE2VjlIMTBWNk0xNCAxN0gxMFYxMkgxNFYxN00xNiAxN0MxNS40NSAxNyAxNSAxNi41NSAxNSAxNkMxNSAxNS40NSAxNS40NSAxNSAxNiAxNUMxNi41NSAxNSAxNyAxNS40NSAxNyAxNkMxNyAxNi41NSAxNi41NSAxNyAxNiAxN00xNiAxNEMxNS40NSAxNCAxNSAxMy41NSAxNSAxM1MxNS40NSAxMiAxNiAxMkMxNi41NSAxMiAxNyAxMi40NSAxNyAxM1MxNi41NSAxNCAxNiAxNE0xOSAxN0MxOC40NSAxNyAxOCAxNi41NSAxOCAxNkMxOCAxNS40NSAxOC40NSAxNSAxOSAxNVMyMCAxNS40NSAyMCAxNkMyMCAxNi41NSAxOS41NSAxNyAxOSAxN00xOSAxNEMxOC40NSAxNCAxOCAxMy41NSAxOCAxM1MxOC40NSAxMiAxOSAxMiAyMCAxMi40NSAyMCAxMyAxOS41NSAxNCAxOSAxNE00LjUgOEMzLjEyIDggMiA5LjEyIDIgMTAuNVYxOC41QzIgMTkuODggMy4xMiAyMSA0LjUgMjFTNyAxOS44OCA3IDE4LjVWMTAuNUM3IDkuMTIgNS44OCA4IDQuNSA4WiIgLz48L3N2Zz4=)
+
 -}
 fax : IconShape
 fax =
@@ -533,6 +635,9 @@ fax =
 
 
 {-| The [`file-phone`](https://pictogrammers.com/library/mdi/icon/file-phone/) icon.
+
+![file-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjg5IDQgNFYyMEM0IDIxLjExIDQuODkgMjIgNiAyMkgxOEMxOS4xMSAyMiAyMCAyMS4xMSAyMCAyMFY4TDE0IDJNMTcgMTkuNDRDMTcgMTkuNzUgMTYuNzUgMjAgMTYuNDQgMjBDMTEuMjMgMjAgNyAxNS43NyA3IDEwLjU2QzcgMTAuMjUgNy4yNSAxMCA3LjU2IDEwSDkuNUM5LjgxIDEwIDEwLjA2IDEwLjI1IDEwLjA2IDEwLjU2QzEwLjA2IDExLjI1IDEwLjE3IDExLjkyIDEwLjM3IDEyLjU0QzEwLjQzIDEyLjczIDEwLjM5IDEyLjk1IDEwLjIzIDEzLjExTDkgMTQuMzNDOS44MSAxNS45IDExLjEgMTcuMTkgMTIuNjcgMThMMTMuOSAxNi43N0MxNC4wNSAxNi42MSAxNC4yNyAxNi41NyAxNC40NiAxNi42M0MxNS4wOCAxNi44MyAxNS43NSAxNi45NSAxNi40NSAxNi45NUMxNi43NSAxNi45NSAxNyAxNy4xOSAxNyAxNy41VjE5LjQ0TTEzIDlWMy41TDE4LjUgOUgxM1oiIC8+PC9zdmc+)
+
 -}
 filePhone : IconShape
 filePhone =
@@ -540,6 +645,9 @@ filePhone =
 
 
 {-| The [`file-phone-outline`](https://pictogrammers.com/library/mdi/icon/file-phone-outline/) icon.
+
+![file-phone-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05IDEzLjMzQzkuODEgMTQuOSAxMS4xIDE2LjE5IDEyLjY3IDE3TDEzLjg5IDE1Ljc3QzE0LjA1IDE1LjYxIDE0LjI3IDE1LjU3IDE0LjQ2IDE1LjYzQzE1LjA4IDE1LjgzIDE1Ljc1IDE1Ljk1IDE2LjQ0IDE1Ljk1QzE2Ljc1IDE1Ljk1IDE3IDE2LjE5IDE3IDE2LjVWMTguNDVDMTcgMTguNzUgMTYuNzUgMTkgMTYuNDQgMTlDMTEuMjMgMTkgNyAxNC43NyA3IDkuNTZDNyA5LjI1IDcuMjUgOSA3LjU2IDlIOS41QzkuODEgOSAxMC4wNiA5LjI1IDEwLjA2IDkuNTZDMTAuMDYgMTAuMjUgMTAuMTcgMTAuOTIgMTAuMzcgMTEuNTRDMTAuNDMgMTEuNzMgMTAuMzkgMTEuOTUgMTAuMjMgMTIuMTFMOSAxMy4zM1oiIC8+PC9zdmc+)
+
 -}
 filePhoneOutline : IconShape
 filePhoneOutline =
@@ -547,6 +655,9 @@ filePhoneOutline =
 
 
 {-| The [`monitor-cellphone`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone/) icon.
+
+![monitor-cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDE4QTEsMSAwIDAsMCAxNywxMlYyMUExLDEgMCAwLDAgMTgsMjJIMjNBMSwxIDAgMCwwIDI0LDIxVjEyQTEsMSAwIDAsMCAyMywxMU0yMywyMEgxOFYxM0gyM1YyME0yMCwySDJDMC44OSwyIDAsMi44OSAwLDRWMTZBMiwyIDAgMCwwIDIsMThIOVYyMEg3VjIySDE1VjIwSDEzVjE4SDE1VjE2SDJWNEgyMFY5SDIyVjRDMjIsMi44OSAyMS4xLDIgMjAsMloiIC8+PC9zdmc+)
+
 -}
 monitorCellphone : IconShape
 monitorCellphone =
@@ -554,6 +665,9 @@ monitorCellphone =
 
 
 {-| The [`monitor-cellphone-star`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone-star/) icon.
+
+![monitor-cellphone-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDE4QTEsMSAwIDAsMCAxNywxMlYyMUExLDEgMCAwLDAgMTgsMjJIMjNBMSwxIDAgMCwwIDI0LDIxVjEyQTEsMSAwIDAsMCAyMywxMU0yMywyMEgxOFYxM0gyM1YyME0yMCwySDJDMC44OSwyIDAsMi44OSAwLDRWMTZBMiwyIDAgMCwwIDIsMThIOVYyMEg3VjIySDE1VjIwSDEzVjE4SDE1VjE2SDJWNEgyMFY5SDIyVjRDMjIsMi44OSAyMS4xLDIgMjAsMk0xMS45Nyw5TDExLDZMMTAuMDMsOUg3TDkuNDcsMTAuNzZMOC41MywxMy42N0wxMSwxMS44N0wxMy40NywxMy42N0wxMi41MywxMC43NkwxNSw5SDExLjk3WiIgLz48L3N2Zz4=)
+
 -}
 monitorCellphoneStar : IconShape
 monitorCellphoneStar =
@@ -561,6 +675,9 @@ monitorCellphoneStar =
 
 
 {-| The [`network-strength-1`](https://pictogrammers.com/library/mdi/icon/network-strength-1/) icon.
+
+![network-strength-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEsMjFIMjFWMU0xOSw1LjgzVjE5SDExVjEzLjgzIiAvPjwvc3ZnPg==)
+
 -}
 networkStrength1 : IconShape
 networkStrength1 =
@@ -568,6 +685,9 @@ networkStrength1 =
 
 
 {-| The [`network-strength-1-alert`](https://pictogrammers.com/library/mdi/icon/network-strength-1-alert/) icon.
+
+![network-strength-1-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDFMMSAyMUgxN1YxOUgxMVYxMy44TDE5IDUuOFY5SDIxTTE5IDExVjE3SDIxVjExTTE5IDE5VjIxSDIxVjE5IiAvPjwvc3ZnPg==)
+
 -}
 networkStrength1Alert : IconShape
 networkStrength1Alert =
@@ -575,6 +695,9 @@ networkStrength1Alert =
 
 
 {-| The [`network-strength-2`](https://pictogrammers.com/library/mdi/icon/network-strength-2/) icon.
+
+![network-strength-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEsMjFIMjFWMU0xOSw1LjgzVjE5SDEzVjExLjgzIiAvPjwvc3ZnPg==)
+
 -}
 networkStrength2 : IconShape
 networkStrength2 =
@@ -582,6 +705,9 @@ networkStrength2 =
 
 
 {-| The [`network-strength-2-alert`](https://pictogrammers.com/library/mdi/icon/network-strength-2-alert/) icon.
+
+![network-strength-2-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDFMMSAyMUgxN1YxOUgxM1YxMS44TDE5IDUuOFY5SDIxTTE5IDExVjE3SDIxVjExTTE5IDE5VjIxSDIxVjE5IiAvPjwvc3ZnPg==)
+
 -}
 networkStrength2Alert : IconShape
 networkStrength2Alert =
@@ -589,6 +715,9 @@ networkStrength2Alert =
 
 
 {-| The [`network-strength-3`](https://pictogrammers.com/library/mdi/icon/network-strength-3/) icon.
+
+![network-strength-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEsMjFIMjFWMU0xOSw1LjgzVjE5SDE2VjguODMiIC8+PC9zdmc+)
+
 -}
 networkStrength3 : IconShape
 networkStrength3 =
@@ -596,6 +725,9 @@ networkStrength3 =
 
 
 {-| The [`network-strength-3-alert`](https://pictogrammers.com/library/mdi/icon/network-strength-3-alert/) icon.
+
+![network-strength-3-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDFMMSAyMUgxN1YxOUgxNlY4LjhMMTkgNS44VjlIMjFNMTkgMTFWMTdIMjFWMTFNMTkgMTlWMjFIMjFWMTkiIC8+PC9zdmc+)
+
 -}
 networkStrength3Alert : IconShape
 networkStrength3Alert =
@@ -603,6 +735,9 @@ networkStrength3Alert =
 
 
 {-| The [`network-strength-4`](https://pictogrammers.com/library/mdi/icon/network-strength-4/) icon.
+
+![network-strength-4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEsMjFIMjFWMSIgLz48L3N2Zz4=)
+
 -}
 networkStrength4 : IconShape
 networkStrength4 =
@@ -610,6 +745,9 @@ networkStrength4 =
 
 
 {-| The [`network-strength-4-alert`](https://pictogrammers.com/library/mdi/icon/network-strength-4-alert/) icon.
+
+![network-strength-4-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE3SDIxVjExSDE5TTE5IDIxSDIxVjE5SDE5TTEgMjFIMTdWOUgyMVYxIiAvPjwvc3ZnPg==)
+
 -}
 networkStrength4Alert : IconShape
 networkStrength4Alert =
@@ -617,6 +755,9 @@ networkStrength4Alert =
 
 
 {-| The [`network-strength-off`](https://pictogrammers.com/library/mdi/icon/network-strength-off/) icon.
+
+![network-strength-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDFMMTIuNCw5LjZMMjEsMTguMTlNNC43Nyw0LjVMMy41LDUuNzdMOS44NiwxMi4xM0wxLDIxSDE4LjczTDIwLjczLDIzTDIyLDIxLjczIiAvPjwvc3ZnPg==)
+
 -}
 networkStrengthOff : IconShape
 networkStrengthOff =
@@ -624,6 +765,9 @@ networkStrengthOff =
 
 
 {-| The [`network-strength-off-outline`](https://pictogrammers.com/library/mdi/icon/network-strength-off-outline/) icon.
+
+![network-strength-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDFMMTIuNCw5LjZMMTMuODUsMTEuMDVMMTksNS44M1YxNi4xOUwyMSwxOC4xOU00Ljc3LDQuNUwzLjUsNS43N0w5Ljg2LDEyLjEzTDEsMjFIMTguNzNMMjAuNzMsMjNMMjIsMjEuNzNNMTEuMzMsMTMuNkwxNi43MywxOUg2IiAvPjwvc3ZnPg==)
+
 -}
 networkStrengthOffOutline : IconShape
 networkStrengthOffOutline =
@@ -631,6 +775,9 @@ networkStrengthOffOutline =
 
 
 {-| The [`network-strength-outline`](https://pictogrammers.com/library/mdi/icon/network-strength-outline/) icon.
+
+![network-strength-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEsMjFIMjFWMU0xOSw1LjgzVjE5SDYiIC8+PC9zdmc+)
+
 -}
 networkStrengthOutline : IconShape
 networkStrengthOutline =
@@ -638,6 +785,9 @@ networkStrengthOutline =
 
 
 {-| The [`phone`](https://pictogrammers.com/library/mdi/icon/phone/) icon.
+
+![phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIsMTAuNzlDOC4wNiwxMy42MiAxMC4zOCwxNS45NCAxMy4yMSwxNy4zOEwxNS40MSwxNS4xOEMxNS42OSwxNC45IDE2LjA4LDE0LjgyIDE2LjQzLDE0LjkzQzE3LjU1LDE1LjMgMTguNzUsMTUuNSAyMCwxNS41QTEsMSAwIDAsMSAyMSwxNi41VjIwQTEsMSAwIDAsMSAyMCwyMUExNywxNyAwIDAsMSAzLDRBMSwxIDAgMCwxIDQsM0g3LjVBMSwxIDAgMCwxIDguNSw0QzguNSw1LjI1IDguNyw2LjQ1IDkuMDcsNy41N0M5LjE4LDcuOTIgOS4xLDguMzEgOC44Miw4LjU5TDYuNjIsMTAuNzlaIiAvPjwvc3ZnPg==)
+
 -}
 phone : IconShape
 phone =
@@ -645,6 +795,9 @@ phone =
 
 
 {-| The [`phone-alert`](https://pictogrammers.com/library/mdi/icon/phone-alert/) icon.
+
+![phone-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIsMTAuNzlDOC4wNiwxMy42MiAxMC4zOCwxNS45NCAxMy4yMSwxNy4zOEwxNS40MSwxNS4xOEMxNS42OSwxNC45IDE2LjA4LDE0LjgyIDE2LjQzLDE0LjkzQzE3LjU1LDE1LjMgMTguNzUsMTUuNSAyMCwxNS41QTEsMSAwIDAsMSAyMSwxNi41VjIwQTEsMSAwIDAsMSAyMCwyMUExNywxNyAwIDAsMSAzLDRDMywzLjQ0IDMuNDUsMyA0LDNINy41QTEsMSAwIDAsMSA4LjUsNEM4LjUsNS4yNCA4LjcsNi40NSA5LjA3LDcuNTdDOS4xOCw3LjkyIDkuMSw4LjMxIDguODIsOC41OEw2LjYyLDEwLjc5TTE3LDEyVjEwSDE5VjEySDE3TTE3LDhWMkgxOVY4SDE3WiIgLz48L3N2Zz4=)
+
 -}
 phoneAlert : IconShape
 phoneAlert =
@@ -652,6 +805,9 @@ phoneAlert =
 
 
 {-| The [`phone-alert-outline`](https://pictogrammers.com/library/mdi/icon/phone-alert-outline/) icon.
+
+![phone-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyAxMlYxMEgxOVYxMkgxN00xNyA4VjJIMTlWOEgxN1oiIC8+PC9zdmc+)
+
 -}
 phoneAlertOutline : IconShape
 phoneAlertOutline =
@@ -659,6 +815,9 @@ phoneAlertOutline =
 
 
 {-| The [`phone-bluetooth`](https://pictogrammers.com/library/mdi/icon/phone-bluetooth/) icon.
+
+![phone-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE1LjVDMTguNzUsMTUuNSAxNy41NSwxNS4zIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkgMTUuNDEsMTUuMThMMTMuMjEsMTcuMzhDMTAuMzgsMTUuOTQgOC4wNiwxMy42MiA2LjYyLDEwLjc5TDguODIsOC41OUM5LjEsOC4zMSA5LjE4LDcuOTIgOS4wNyw3LjU3QzguNyw2LjQ1IDguNSw1LjI1IDguNSw0QTEsMSAwIDAsMCA3LjUsM0g0QTEsMSAwIDAsMCAzLDRBMTcsMTcgMCAwLDAgMjAsMjFBMSwxIDAgMCwwIDIxLDIwVjE2LjVBMSwxIDAgMCwwIDIwLDE1LjVNMTgsNy4yMUwxOC45NCw4LjE0TDE4LDkuMDhNMTgsMi45MUwxOC45NCwzLjg1TDE4LDQuNzlNMTQuNzEsOS41TDE3LDcuMjFWMTFIMTcuNUwyMC4zNSw4LjE0TDE4LjIxLDZMMjAuMzUsMy44NUwxNy41LDFIMTdWNC43OUwxNC43MSwyLjVMMTQsMy4yMUwxNi43OSw2TDE0LDguNzlMMTQuNzEsOS41WiIgLz48L3N2Zz4=)
+
 -}
 phoneBluetooth : IconShape
 phoneBluetooth =
@@ -666,6 +825,9 @@ phoneBluetooth =
 
 
 {-| The [`phone-bluetooth-outline`](https://pictogrammers.com/library/mdi/icon/phone-bluetooth-outline/) icon.
+
+![phone-bluetooth-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOCA3LjIxTDE4Ljk0IDguMTRMMTggOS4wOE0xOCAyLjkxTDE4Ljk0IDMuODVMMTggNC43OU0xNC43MSA5LjVMMTcgNy4yMVYxMUgxNy41TDIwLjM1IDguMTRMMTguMjEgNkwyMC4zNSAzLjg1TDE3LjUgMUgxN1Y0Ljc5TDE0LjcxIDIuNUwxNCAzLjIxTDE2Ljc5IDZMMTQgOC43OUwxNC43MSA5LjVaIiAvPjwvc3ZnPg==)
+
 -}
 phoneBluetoothOutline : IconShape
 phoneBluetoothOutline =
@@ -673,6 +835,9 @@ phoneBluetoothOutline =
 
 
 {-| The [`phone-cancel`](https://pictogrammers.com/library/mdi/icon/phone-cancel/) icon.
+
+![phone-cancel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIgMTAuNzlDOC4wNiAxMy42MiAxMC4zOCAxNS45NCAxMy4yMSAxNy4zOEwxNS40MSAxNS4xOEMxNS42OSAxNC45IDE2LjA4IDE0LjgyIDE2LjQzIDE0LjkzQzE3LjU1IDE1LjMgMTguNzUgMTUuNSAyMCAxNS41QzIwLjU1IDE1LjUgMjEgMTUuOTUgMjEgMTYuNVYyMEMyMSAyMC41NSAyMC41NSAyMSAyMCAyMUMxMC42MSAyMSAzIDEzLjM5IDMgNEMzIDMuNDUgMy40NSAzIDQgM0g3LjVDOC4wNSAzIDguNSAzLjQ1IDguNSA0QzguNSA1LjI1IDguNyA2LjQ1IDkuMDcgNy41N0M5LjE4IDcuOTIgOS4xIDguMzEgOC44MiA4LjU5TDYuNjIgMTAuNzlNMTYuNSAyQzE0IDIgMTIgNCAxMiA2LjVTMTQgMTEgMTYuNSAxMSAyMSA5IDIxIDYuNSAxOSAyIDE2LjUgMk0xNi41IDkuNUMxNC44NCA5LjUgMTMuNSA4LjE2IDEzLjUgNi41QzEzLjUgNS45NCAxMy42NSA1LjQyIDEzLjkyIDVMMTggOS4wOEMxNy41OCA5LjM1IDE3LjA2IDkuNSAxNi41IDkuNU0xOS4wOCA4TDE1IDMuOTJDMTUuNDIgMy42NSAxNS45NCAzLjUgMTYuNSAzLjVDMTguMTYgMy41IDE5LjUgNC44NCAxOS41IDYuNUMxOS41IDcuMDYgMTkuMzUgNy41OCAxOS4wOCA4WiIgLz48L3N2Zz4=)
+
 -}
 phoneCancel : IconShape
 phoneCancel =
@@ -680,6 +845,9 @@ phoneCancel =
 
 
 {-| The [`phone-cancel-outline`](https://pictogrammers.com/library/mdi/icon/phone-cancel-outline/) icon.
+
+![phone-cancel-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNi41IDJDMTQgMiAxMiA0IDEyIDYuNVMxNCAxMSAxNi41IDExIDIxIDkgMjEgNi41IDE5IDIgMTYuNSAyTTE2LjUgOS41QzE0Ljg0IDkuNSAxMy41IDguMTYgMTMuNSA2LjVDMTMuNSA1Ljk0IDEzLjY1IDUuNDIgMTMuOTIgNUwxOCA5LjA4QzE3LjU4IDkuMzUgMTcuMDYgOS41IDE2LjUgOS41TTE5LjA4IDhMMTUgMy45MkMxNS40MiAzLjY1IDE1Ljk0IDMuNSAxNi41IDMuNUMxOC4xNiAzLjUgMTkuNSA0Ljg0IDE5LjUgNi41QzE5LjUgNy4wNiAxOS4zNSA3LjU4IDE5LjA4IDhaIiAvPjwvc3ZnPg==)
+
 -}
 phoneCancelOutline : IconShape
 phoneCancelOutline =
@@ -687,6 +855,9 @@ phoneCancelOutline =
 
 
 {-| The [`phone-check`](https://pictogrammers.com/library/mdi/icon/phone-check/) icon.
+
+![phone-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIgMTAuNzlBMTUuMSAxNS4xIDAgMCAwIDEzLjIxIDE3LjM4TDE1LjQxIDE1LjE4QTEgMSAwIDAgMSAxNi40MSAxNC45M0ExMS4zNiAxMS4zNiAwIDAgMCAyMCAxNS41QTEgMSAwIDAgMSAyMSAxNi41VjIwQTEgMSAwIDAgMSAyMCAyMUExNyAxNyAwIDAgMSAzIDRBMSAxIDAgMCAxIDQgM0g3LjVBMSAxIDAgMCAxIDguNSA0QTExLjM2IDExLjM2IDAgMCAwIDkuMDcgNy41N0ExIDEgMCAwIDEgOC44MiA4LjU3TTIxLjcxIDQuNzFMMjAuMjkgMy4yOUwxNSA4LjU5TDEyLjcxIDYuMjlMMTEuMjkgNy43MUwxNSAxMS40MVoiIC8+PC9zdmc+)
+
 -}
 phoneCheck : IconShape
 phoneCheck =
@@ -694,6 +865,9 @@ phoneCheck =
 
 
 {-| The [`phone-check-outline`](https://pictogrammers.com/library/mdi/icon/phone-check-outline/) icon.
+
+![phone-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVBMTEuMzYgMTEuMzYgMCAwIDEgMTYuNDMgMTQuOTNBMSAxIDAgMCAwIDE1LjQzIDE1LjE4TDEzLjIzIDE3LjM4QTE1LjEgMTUuMSAwIDAgMSA2LjY0IDEwLjc5TDguODQgOC41OUExIDEgMCAwIDAgOS4wOSA3LjU5QTExLjM2IDExLjM2IDAgMCAxIDguNSA0QTEgMSAwIDAgMCA3LjUgM0g0QTEgMSAwIDAgMCAzIDRBMTcgMTcgMCAwIDAgMjAgMjFBMSAxIDAgMCAwIDIxIDIwVjE2LjVBMSAxIDAgMCAwIDIwIDE1LjVNNSA1SDYuNTRBMTIuNTQgMTIuNTQgMCAwIDAgNyA3LjU5TDUuNzkgOC44QTE1IDE1IDAgMCAxIDUgNU0xOSAxOUExNSAxNSAwIDAgMSAxNS4yIDE4LjI0TDE2LjQxIDE3QTEyLjMxIDEyLjMxIDAgMCAwIDE5IDE3LjQ1TTE1IDExLjQ0TDExLjI5IDcuNzRMMTIuNzEgNi4zMkwxNSA4LjU5TDIwLjI5IDMuMjlMMjEuNzEgNC43MVoiIC8+PC9zdmc+)
+
 -}
 phoneCheckOutline : IconShape
 phoneCheckOutline =
@@ -701,6 +875,9 @@ phoneCheckOutline =
 
 
 {-| The [`phone-classic`](https://pictogrammers.com/library/mdi/icon/phone-classic/) icon.
+
+![phone-classic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDNDNy40NiwzIDMuMzQsNC43OCAwLjI5LDcuNjdDMC4xMSw3Ljg1IDAsOC4xIDAsOC4zOEMwLDguNjYgMC4xMSw4LjkxIDAuMjksOS4wOUwyLjc3LDExLjU3QzIuOTUsMTEuNzUgMy4yLDExLjg2IDMuNSwxMS44NkMzLjc1LDExLjg2IDQsMTEuNzUgNC4xOCwxMS41OEM0Ljk3LDEwLjg0IDUuODcsMTAuMjIgNi44NCw5LjczQzcuMTcsOS41NyA3LjQsOS4yMyA3LjQsOC44M1Y1LjczQzguODUsNS4yNSAxMC4zOSw1IDEyLDVDMTMuNTksNSAxNS4xNCw1LjI1IDE2LjU5LDUuNzJWOC44MkMxNi41OSw5LjIxIDE2LjgyLDkuNTYgMTcuMTUsOS43MkMxOC4xMywxMC4yMSAxOSwxMC44NCAxOS44MiwxMS41N0MyMCwxMS43NSAyMC4yNSwxMS44NSAyMC41LDExLjg1QzIwLjgsMTEuODUgMjEuMDUsMTEuNzQgMjEuMjMsMTEuNTZMMjMuNzEsOS4wOEMyMy44OSw4LjkgMjQsOC42NSAyNCw4LjM3QzI0LDguMDkgMjMuODgsNy44NSAyMy43LDcuNjdDMjAuNjUsNC43OCAxNi41MywzIDEyLDNNOSw3VjEwQzksMTAgMywxNSAzLDE4VjIySDIxVjE4QzIxLDE1IDE1LDEwIDE1LDEwVjdIMTNWOUgxMVY3SDlNMTIsMTJBNCw0IDAgMCwxIDE2LDE2QTQsNCAwIDAsMSAxMiwyMEE0LDQgMCAwLDEgOCwxNkE0LDQgMCAwLDEgMTIsMTJNMTIsMTMuNUEyLjUsMi41IDAgMCwwIDkuNSwxNkEyLjUsMi41IDAgMCwwIDEyLDE4LjVBMi41LDIuNSAwIDAsMCAxNC41LDE2QTIuNSwyLjUgMCAwLDAgMTIsMTMuNVoiIC8+PC9zdmc+)
+
 -}
 phoneClassic : IconShape
 phoneClassic =
@@ -708,6 +885,9 @@ phoneClassic =
 
 
 {-| The [`phone-clock`](https://pictogrammers.com/library/mdi/icon/phone-clock/) icon.
+
+![phone-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjkgMUMxMi4xIDEuMSA5IDQuMiA5IDhDOSAxMS45IDEyLjEgMTUgMTYgMTVTMjMgMTEuOSAyMyA4IDE5LjkgMSAxNS45IDFDMTYgMSAxNS45IDEgMTUuOSAxTTE2IDNDMTguOCAzIDIxIDUuMiAyMSA4UzE4LjggMTMgMTYgMTMgMTEgMTAuOCAxMSA4IDEzLjIgMyAxNiAzTTE1IDRWOUwxOC42IDExLjJMMTkuNCAxMEwxNi41IDguM1Y0SDE1TTQuNiAxMi44QzYgMTUuNiA4LjQgMTggMTEuMiAxOS40TDEzLjQgMTcuMkMxMy43IDE2LjkgMTQuMSAxNi44IDE0LjQgMTdDMTUuNSAxNy40IDE2LjcgMTcuNiAxOCAxNy42QzE4LjUgMTcuNiAxOSAxOC4xIDE5IDE4LjZWMjJDMTkgMjIuNSAxOC41IDIzIDE4IDIzQzguNiAyMyAxIDE1LjQgMSA2QzEgNS40IDEuNSA1IDIgNUg1LjVDNi4xIDUgNi41IDUuNCA2LjUgNkM2LjUgNy4yIDYuNyA4LjQgNy4xIDkuNkM3LjIgMTAgNy4xIDEwLjMgNi45IDEwLjZMNC42IDEyLjgiIC8+PC9zdmc+)
+
 -}
 phoneClock : IconShape
 phoneClock =
@@ -715,6 +895,9 @@ phoneClock =
 
 
 {-| The [`phone-dial`](https://pictogrammers.com/library/mdi/icon/phone-dial/) icon.
+
+![phone-dial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNiAxMC44QzggMTMuNiAxMC40IDE1LjkgMTMuMiAxNy40TDE1LjQgMTUuMkMxNS43IDE0LjkgMTYuMSAxNC44IDE2LjQgMTVDMTcuNSAxNS40IDE4LjcgMTUuNiAyMCAxNS42QzIwLjYgMTUuNiAyMSAxNiAyMSAxNi42VjIwQzIxIDIwLjYgMjAuNiAyMSAyMCAyMUMxMC42IDIxIDMgMTMuNCAzIDRDMyAzLjQgMy41IDMgNCAzSDcuNUM4LjEgMyA4LjUgMy40IDguNSA0QzguNSA1LjIgOC43IDYuNCA5LjEgNy42QzkuMiA3LjkgOS4xIDguMyA4LjkgOC42TDYuNiAxMC44TTE0IDNDMTMuNCAzIDEzIDMuNCAxMyA0UzEzLjQgNSAxNCA1IDE1IDQuNiAxNSA0IDE0LjYgMyAxNCAzTTE3IDNDMTYuNCAzIDE2IDMuNCAxNiA0UzE2LjQgNSAxNyA1IDE4IDQuNiAxOCA0IDE3LjYgMyAxNyAzTTIwIDNDMTkuNCAzIDE5IDMuNCAxOSA0UzE5LjQgNSAyMCA1IDIxIDQuNiAyMSA0IDIwLjYgMyAyMCAzTTE0IDZDMTMuNCA2IDEzIDYuNCAxMyA3UzEzLjQgOCAxNCA4IDE1IDcuNiAxNSA3IDE0LjYgNiAxNCA2TTE3IDZDMTYuNCA2IDE2IDYuNCAxNiA3UzE2LjQgOCAxNyA4IDE4IDcuNiAxOCA3IDE3LjYgNiAxNyA2TTIwIDZDMTkuNCA2IDE5IDYuNCAxOSA3UzE5LjQgOCAyMCA4IDIxIDcuNiAyMSA3IDIwLjYgNiAyMCA2TTE0IDlDMTMuNCA5IDEzIDkuNCAxMyAxMFMxMy40IDExIDE0IDExIDE1IDEwLjYgMTUgMTAgMTQuNiA5IDE0IDlNMTcgOUMxNi40IDkgMTYgOS40IDE2IDEwUzE2LjQgMTEgMTcgMTEgMTggMTAuNiAxOCAxMCAxNy42IDkgMTcgOU0yMCA5QzE5LjQgOSAxOSA5LjQgMTkgMTBTMTkuNCAxMSAyMCAxMSAyMSAxMC42IDIxIDEwIDIwLjYgOSAyMCA5WiIgLz48L3N2Zz4=)
+
 -}
 phoneDial : IconShape
 phoneDial =
@@ -722,6 +905,9 @@ phoneDial =
 
 
 {-| The [`phone-dial-outline`](https://pictogrammers.com/library/mdi/icon/phone-dial-outline/) icon.
+
+![phone-dial-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNSA0QzE1IDQuNiAxNC42IDUgMTQgNVMxMyA0LjYgMTMgNCAxMy40IDMgMTQgMyAxNSAzLjQgMTUgNE0xOCA0QzE4IDQuNiAxNy42IDUgMTcgNVMxNiA0LjYgMTYgNCAxNi40IDMgMTcgMyAxOCAzLjQgMTggNE0yMSA0QzIxIDQuNiAyMC42IDUgMjAgNVMxOSA0LjYgMTkgNCAxOS40IDMgMjAgMyAyMSAzLjQgMjEgNE0xNSA3QzE1IDcuNiAxNC42IDggMTQgOFMxMyA3LjYgMTMgNyAxMy40IDYgMTQgNiAxNSA2LjQgMTUgN00xOCA3QzE4IDcuNiAxNy42IDggMTcgOFMxNiA3LjYgMTYgNyAxNi40IDYgMTcgNiAxOCA2LjQgMTggN00yMSA3QzIxIDcuNiAyMC42IDggMjAgOFMxOSA3LjYgMTkgNyAxOS40IDYgMjAgNiAyMSA2LjQgMjEgN00xNSAxMEMxNSAxMC42IDE0LjYgMTEgMTQgMTFTMTMgMTAuNiAxMyAxMCAxMy40IDkgMTQgOSAxNSA5LjQgMTUgMTBNMTggMTBDMTggMTAuNiAxNy42IDExIDE3IDExUzE2IDEwLjYgMTYgMTAgMTYuNCA5IDE3IDkgMTggOS40IDE4IDEwTTIxIDEwQzIxIDEwLjYgMjAuNiAxMSAyMCAxMVMxOSAxMC42IDE5IDEwIDE5LjQgOSAyMCA5IDIxIDkuNCAyMSAxMFoiIC8+PC9zdmc+)
+
 -}
 phoneDialOutline : IconShape
 phoneDialOutline =
@@ -729,6 +915,9 @@ phoneDialOutline =
 
 
 {-| The [`phone-forward`](https://pictogrammers.com/library/mdi/icon/phone-forward/) icon.
+
+![phone-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE1LjVDMTguNzUsMTUuNSAxNy41NSwxNS4zIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkgMTUuNDEsMTUuMThMMTMuMjEsMTcuMzhDMTAuMzgsMTUuOTQgOC4wNiwxMy42MiA2LjYyLDEwLjc5TDguODIsOC41OUM5LjEsOC4zMSA5LjE4LDcuOTIgOS4wNyw3LjU3QzguNyw2LjQ1IDguNSw1LjI1IDguNSw0QTEsMSAwIDAsMCA3LjUsM0g0QTEsMSAwIDAsMCAzLDRBMTcsMTcgMCAwLDAgMjAsMjFBMSwxIDAgMCwwIDIxLDIwVjE2LjVBMSwxIDAgMCwwIDIwLDE1LjVNMTgsMTFMMjMsNkwxOCwxVjRIMTRWOEgxOFYxMVoiIC8+PC9zdmc+)
+
 -}
 phoneForward : IconShape
 phoneForward =
@@ -736,6 +925,9 @@ phoneForward =
 
 
 {-| The [`phone-forward-outline`](https://pictogrammers.com/library/mdi/icon/phone-forward-outline/) icon.
+
+![phone-forward-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOCAxMUwyMyA2TDE4IDFWNEgxNFY4SDE4VjExWiIgLz48L3N2Zz4=)
+
 -}
 phoneForwardOutline : IconShape
 phoneForwardOutline =
@@ -743,6 +935,9 @@ phoneForwardOutline =
 
 
 {-| The [`phone-hangup`](https://pictogrammers.com/library/mdi/icon/phone-hangup/) icon.
+
+![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDlDMTAuNCw5IDguODUsOS4yNSA3LjQsOS43MlYxMi44MkM3LjQsMTMuMjIgNy4xNywxMy41NiA2Ljg0LDEzLjcyQzUuODYsMTQuMjEgNC45NywxNC44NCA0LjE3LDE1LjU3QzQsMTUuNzUgMy43NSwxNS44NiAzLjUsMTUuODZDMy4yLDE1Ljg2IDIuOTUsMTUuNzQgMi43NywxNS41NkwwLjI5LDEzLjA4QzAuMTEsMTIuOSAwLDEyLjY1IDAsMTIuMzhDMCwxMi4xIDAuMTEsMTEuODUgMC4yOSwxMS42N0MzLjM0LDguNzcgNy40Niw3IDEyLDdDMTYuNTQsNyAyMC42Niw4Ljc3IDIzLjcxLDExLjY3QzIzLjg5LDExLjg1IDI0LDEyLjEgMjQsMTIuMzhDMjQsMTIuNjUgMjMuODksMTIuOSAyMy43MSwxMy4wOEwyMS4yMywxNS41NkMyMS4wNSwxNS43NCAyMC44LDE1Ljg2IDIwLjUsMTUuODZDMjAuMjUsMTUuODYgMjAsMTUuNzUgMTkuODIsMTUuNTdDMTkuMDMsMTQuODQgMTguMTQsMTQuMjEgMTcuMTYsMTMuNzJDMTYuODMsMTMuNTYgMTYuNiwxMy4yMiAxNi42LDEyLjgyVjkuNzJDMTUuMTUsOS4yNSAxMy42LDkgMTIsOVoiIC8+PC9zdmc+)
+
 -}
 phoneHangup : IconShape
 phoneHangup =
@@ -750,6 +945,9 @@ phoneHangup =
 
 
 {-| The [`phone-hangup-outline`](https://pictogrammers.com/library/mdi/icon/phone-hangup-outline/) icon.
+
+![phone-hangup-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjcxIDExLjY3QTE3IDE3IDAgMCAwIC4yOSAxMS42N0ExIDEgMCAwIDAgMCAxMi4zOEExIDEgMCAwIDAgLjI5IDEzLjA4TDIuNzcgMTUuNTZBMSAxIDAgMCAwIDMuNSAxNS44NUExIDEgMCAwIDAgNC4xOCAxNS41N0ExMS41IDExLjUgMCAwIDEgNi44NCAxMy43MkExIDEgMCAwIDAgNy40IDEyLjgyVjkuNzJBMTQuOTEgMTQuOTEgMCAwIDEgMTIgOUExNC41IDE0LjUgMCAwIDEgMTYuNTkgOS43M1YxMi44M0ExIDEgMCAwIDAgMTcuMTUgMTMuNzNBMTEuMjcgMTEuMjcgMCAwIDEgMTkuODIgMTUuNThBMSAxIDAgMCAwIDIwLjUgMTUuODZBMSAxIDAgMCAwIDIxLjIzIDE1LjU3TDIzLjcxIDEzLjA5QTEgMSAwIDAgMCAyMy43MSAxMS42N001LjQgMTIuMjJBMTMuNjggMTMuNjggMCAwIDAgMy41MyAxMy41TDIuNDYgMTIuNDJBMTUuNTQgMTUuNTQgMCAwIDEgNS40IDEwLjVNMjAuNSAxMy41QTEzLjc1IDEzLjc1IDAgMCAwIDE4LjYgMTIuMjNWMTAuNTNBMTQuMjYgMTQuMjYgMCAwIDEgMjEuNTUgMTIuNDNaIiAvPjwvc3ZnPg==)
+
 -}
 phoneHangupOutline : IconShape
 phoneHangupOutline =
@@ -757,6 +955,9 @@ phoneHangupOutline =
 
 
 {-| The [`phone-in-talk`](https://pictogrammers.com/library/mdi/icon/phone-in-talk/) icon.
+
+![phone-in-talk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDEySDE3QTUsNSAwIDAsMCAxMiw3VjlBMywzIDAgMCwxIDE1LDEyTTE5LDEySDIxQzIxLDcgMTYuOTcsMyAxMiwzVjVDMTUuODYsNSAxOSw4LjEzIDE5LDEyTTIwLDE1LjVDMTguNzUsMTUuNSAxNy41NSwxNS4zIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkgMTUuNDEsMTUuMThMMTMuMjEsMTcuMzhDMTAuMzgsMTUuOTQgOC4wNiwxMy42MiA2LjYyLDEwLjc5TDguODIsOC41OUM5LjEsOC4zMSA5LjE4LDcuOTIgOS4wNyw3LjU3QzguNyw2LjQ1IDguNSw1LjI1IDguNSw0QTEsMSAwIDAsMCA3LjUsM0g0QTEsMSAwIDAsMCAzLDRBMTcsMTcgMCAwLDAgMjAsMjFBMSwxIDAgMCwwIDIxLDIwVjE2LjVBMSwxIDAgMCwwIDIwLDE1LjVaIiAvPjwvc3ZnPg==)
+
 -}
 phoneInTalk : IconShape
 phoneInTalk =
@@ -764,6 +965,9 @@ phoneInTalk =
 
 
 {-| The [`phone-in-talk-outline`](https://pictogrammers.com/library/mdi/icon/phone-in-talk-outline/) icon.
+
+![phone-in-talk-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNSAxMkgxN0E1IDUgMCAwIDAgMTIgN1Y5QTMgMyAwIDAgMSAxNSAxMk0xOSAxMkgyMUMyMSA3IDE2Ljk3IDMgMTIgM1Y1QzE1Ljg2IDUgMTkgOC4xMyAxOSAxMloiIC8+PC9zdmc+)
+
 -}
 phoneInTalkOutline : IconShape
 phoneInTalkOutline =
@@ -771,6 +975,9 @@ phoneInTalkOutline =
 
 
 {-| The [`phone-incoming`](https://pictogrammers.com/library/mdi/icon/phone-incoming/) icon.
+
+![phone-incoming](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc1LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE3TDEzLjIxLDE3LjM3QzEwLjM4LDE1LjkzIDguMDYsMTMuNjIgNi42MiwxMC43OEw4LjgyLDguNTdDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNSA4LjUsNEExLDEgMCAwLDAgNy41LDNINE0xOSwxMVY5LjVIMTUuNUwyMSw0TDIwLDNMMTQuNSw4LjVWNUgxM1YxMUgxOVoiIC8+PC9zdmc+)
+
 -}
 phoneIncoming : IconShape
 phoneIncoming =
@@ -778,6 +985,9 @@ phoneIncoming =
 
 
 {-| The [`phone-incoming-outgoing`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outgoing/) icon.
+
+![phone-incoming-outgoing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE3LjVWMjFDMjAgMjEuNTUgMTkuNTUgMjIgMTkgMjJDOS42MSAyMiAyIDE0LjM5IDIgNUMyIDQuNDUgMi40NSA0IDMgNEg2LjVDNy4wNSA0IDcuNSA0LjQ1IDcuNSA1QzcuNSA2LjI1IDcuNyA3LjQ1IDguMDcgOC41N0M4LjE4IDguOTIgOC4xIDkuMzEgNy44MiA5LjU3TDUuNjIgMTEuNzhDNy4wNiAxNC42MiA5LjM4IDE2LjkzIDEyLjIxIDE4LjM3TDE0LjQxIDE2LjE3QzE0LjY5IDE1LjkgMTUuMDggMTUuODIgMTUuNDMgMTUuOTNDMTYuNTUgMTYuMyAxNy43NSAxNi41IDE5IDE2LjVDMTkuNTUgMTYuNSAyMCAxNi45NSAyMCAxNy41TTE2IDcuNUgxMi41TDE4IDJMMTcgMUwxMS41IDYuNVYzSDEwVjlIMTZWNy41TTE3IDZWNy41SDIwLjVMMTUgMTNMMTYgMTRMMjEuNSA4LjVWMTJIMjNWNkgxN1oiIC8+PC9zdmc+)
+
 -}
 phoneIncomingOutgoing : IconShape
 phoneIncomingOutgoing =
@@ -785,6 +995,9 @@ phoneIncomingOutgoing =
 
 
 {-| The [`phone-incoming-outgoing-outline`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outgoing-outline/) icon.
+
+![phone-incoming-outgoing-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE2LjVDMTcuOCAxNi41IDE2LjUgMTYuMyAxNS40IDE1LjlIMTUuMUMxNC44IDE1LjkgMTQuNiAxNiAxNC40IDE2LjJMMTIuMiAxOC40QzkuNCAxNi45IDcgMTQuNiA1LjYgMTEuOEw3LjggOS42QzguMSA5LjMgOC4yIDguOSA4IDguNkM3LjcgNy41IDcuNSA2LjIgNy41IDVDNy41IDQuNSA3IDQgNi41IDRIM0MyLjUgNCAyIDQuNSAyIDVDMiAxNC40IDkuNiAyMiAxOSAyMkMxOS41IDIyIDIwIDIxLjUgMjAgMjFWMTcuNUMyMCAxNyAxOS41IDE2LjUgMTkgMTYuNU00IDZINS41QzUuNiA2LjkgNS44IDcuOCA2IDguNkw0LjggOS44QzQuNCA4LjYgNC4xIDcuMyA0IDZNMTggMjBDMTYuNyAxOS45IDE1LjQgMTkuNiAxNC4yIDE5LjJMMTUuNCAxOEMxNi4yIDE4LjIgMTcuMSAxOC40IDE4IDE4LjRWMjBNMTYgOVY3LjVIMTIuNUwxOCAyTDE3IDFMMTEuNSA2LjVWM0gxMFY5SDE2TTE3IDZWNy41SDIwLjVMMTUgMTNMMTYgMTRMMjEuNSA4LjVWMTJIMjNWNkgxN1oiIC8+PC9zdmc+)
+
 -}
 phoneIncomingOutgoingOutline : IconShape
 phoneIncomingOutgoingOutline =
@@ -792,6 +1005,9 @@ phoneIncomingOutgoingOutline =
 
 
 {-| The [`phone-incoming-outline`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outline/) icon.
+
+![phone-incoming-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOSAxMVY5LjVIMTUuNUwyMSA0TDIwIDNMMTQuNSA4LjVWNUgxM1YxMUgxOVoiIC8+PC9zdmc+)
+
 -}
 phoneIncomingOutline : IconShape
 phoneIncomingOutline =
@@ -799,6 +1015,9 @@ phoneIncomingOutline =
 
 
 {-| The [`phone-lock`](https://pictogrammers.com/library/mdi/icon/phone-lock/) icon.
+
+![phone-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjIsNEgxNS44VjMuNUMxNS44LDIuNTYgMTYuNTYsMS44IDE3LjUsMS44QzE4LjQ0LDEuOCAxOS4yLDIuNTYgMTkuMiwzLjVNMjAsNFYzLjVBMi41LDIuNSAwIDAsMCAxNy41LDFBMi41LDIuNSAwIDAsMCAxNSwzLjVWNEExLDEgMCAwLDAgMTQsNVY5QTEsMSAwIDAsMCAxNSwxMEgyMEExLDEgMCAwLDAgMjEsOVY1QTEsMSAwIDAsMCAyMCw0TTIwLDE1LjVDMTguNzUsMTUuNSAxNy41NSwxNS4zIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkgMTUuNDEsMTUuMThMMTMuMjEsMTcuMzhDMTAuMzgsMTUuOTQgOC4wNiwxMy42MiA2LjYyLDEwLjc5TDguODIsOC41OUM5LjEsOC4zMSA5LjE4LDcuOTIgOS4wNyw3LjU3QzguNyw2LjQ1IDguNSw1LjI1IDguNSw0QTEsMSAwIDAsMCA3LjUsM0g0QTEsMSAwIDAsMCAzLDRBMTcsMTcgMCAwLDAgMjAsMjFBMSwxIDAgMCwwIDIxLDIwVjE2LjVBMSwxIDAgMCwwIDIwLDE1LjVaIiAvPjwvc3ZnPg==)
+
 -}
 phoneLock : IconShape
 phoneLock =
@@ -806,6 +1025,9 @@ phoneLock =
 
 
 {-| The [`phone-lock-outline`](https://pictogrammers.com/library/mdi/icon/phone-lock-outline/) icon.
+
+![phone-lock-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOS4yIDRIMTUuOFYzLjVDMTUuOCAyLjU2IDE2LjU2IDEuOCAxNy41IDEuOEMxOC40NCAxLjggMTkuMiAyLjU2IDE5LjIgMy41TTIwIDRWMy41QTIuNSAyLjUgMCAwIDAgMTcuNSAxQTIuNSAyLjUgMCAwIDAgMTUgMy41VjRBMSAxIDAgMCAwIDE0IDVWOUExIDEgMCAwIDAgMTUgMTBIMjBBMSAxIDAgMCAwIDIxIDlWNUExIDEgMCAwIDAgMjAgNFoiIC8+PC9zdmc+)
+
 -}
 phoneLockOutline : IconShape
 phoneLockOutline =
@@ -813,6 +1035,9 @@ phoneLockOutline =
 
 
 {-| The [`phone-log`](https://pictogrammers.com/library/mdi/icon/phone-log/) icon.
+
+![phone-log](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE1LjVBMSwxIDAgMCwxIDIxLDE2LjVWMjBBMSwxIDAgMCwxIDIwLDIxQTE3LDE3IDAgMCwxIDMsNEExLDEgMCAwLDEgNCwzSDcuNUExLDEgMCAwLDEgOC41LDRDOC41LDUuMjQgOC43LDYuNDUgOS4wNyw3LjU3QzkuMTgsNy45MiA5LjEsOC4zMSA4LjgyLDguNThMNi42MiwxMC43OUM4LjA2LDEzLjYyIDEwLjM4LDE1Ljk0IDEzLjIxLDE3LjM4TDE1LjQxLDE1LjE4QzE1LjY5LDE0LjkgMTYuMDgsMTQuODIgMTYuNDMsMTQuOTNDMTcuNTUsMTUuMyAxOC43NSwxNS41IDIwLDE1LjVNMTIsM0gxNFY1SDEyTTE1LDNIMjFWNUgxNU0xMiw2SDE0VjhIMTJNMTUsNkgyMVY4SDE1TTEyLDlIMTRWMTFIMTJNMTUsOUgyMVYxMUgxNSIgLz48L3N2Zz4=)
+
 -}
 phoneLog : IconShape
 phoneLog =
@@ -820,6 +1045,9 @@ phoneLog =
 
 
 {-| The [`phone-log-outline`](https://pictogrammers.com/library/mdi/icon/phone-log-outline/) icon.
+
+![phone-log-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xMiAzSDE0VjVIMTJNMTUgM0gyMVY1SDE1TTEyIDZIMTRWOEgxMk0xNSA2SDIxVjhIMTVNMTIgOUgxNFYxMUgxMk0xNSA5SDIxVjExSDE1WiIgLz48L3N2Zz4=)
+
 -}
 phoneLogOutline : IconShape
 phoneLogOutline =
@@ -827,6 +1055,9 @@ phoneLogOutline =
 
 
 {-| The [`phone-message`](https://pictogrammers.com/library/mdi/icon/phone-message/) icon.
+
+![phone-message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguNzUgMTUuNSAxNy41NSAxNS4zIDE2LjQzIDE0LjkzQzE2LjA4IDE0LjgyIDE1LjY5IDE0LjkgMTUuNDEgMTUuMTdMMTMuMjEgMTcuMzdDMTAuMzggMTUuOTMgOC4wNiAxMy42MiA2LjYyIDEwLjc5TDguODIgOC41OEM5LjEgOC4zMSA5LjE4IDcuOTIgOS4wNyA3LjU3QzguNyA2LjQ1IDguNSA1LjI1IDguNSA0QzguNSAzLjQ1IDguMDUgMyA3LjUgM0g0QzMuNDUgMyAzIDMuNDUgMyA0QzMgMTMuMzkgMTAuNjEgMjEgMjAgMjFDMjAuNTUgMjEgMjEgMjAuNTUgMjEgMjBWMTYuNUMyMSAxNS45NSAyMC41NSAxNS41IDIwIDE1LjVNMTIgM1YxM0wxNSAxMEgyMVYzSDEyWiIgLz48L3N2Zz4=)
+
 -}
 phoneMessage : IconShape
 phoneMessage =
@@ -834,6 +1065,9 @@ phoneMessage =
 
 
 {-| The [`phone-message-outline`](https://pictogrammers.com/library/mdi/icon/phone-message-outline/) icon.
+
+![phone-message-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguNzUgMTUuNSAxNy41NSAxNS4zIDE2LjQzIDE0LjkzQzE2LjMzIDE0LjkgMTYuMjIgMTQuODggMTYuMTIgMTQuODhDMTUuODYgMTQuODggMTUuNjEgMTUgMTUuNDEgMTUuMTdMMTMuMjEgMTcuMzdDMTAuMzggMTUuOTMgOC4wNiAxMy42MiA2LjYyIDEwLjc5TDguODIgOC41OEM5LjEgOC4zMSA5LjE4IDcuOTIgOS4wNyA3LjU3QzguNyA2LjQ1IDguNSA1LjI1IDguNSA0QzguNSAzLjQ1IDguMDUgMyA3LjUgM0g0QzMuNDUgMyAzIDMuNDUgMyA0QzMgMTMuMzkgMTAuNjEgMjEgMjAgMjFDMjAuNTUgMjEgMjEgMjAuNTUgMjEgMjBWMTYuNUMyMSAxNS45NSAyMC41NSAxNS41IDIwIDE1LjVNNS4wMyA1SDYuNTNDNi42IDUuODggNi43NSA2Ljc1IDcgNy41OUw1Ljc5IDguOEM1LjM4IDcuNTkgNS4xMiA2LjMyIDUuMDMgNU0xOSAxOC45N0MxNy42OCAxOC44OCAxNi40IDE4LjYyIDE1LjIgMTguMjFMMTYuNCAxN0MxNy4yNSAxNy4yNSAxOC4xMiAxNy40IDE5IDE3LjQ2VjE4Ljk3TTEyIDNWMTNMMTUgMTBIMjFWM0gxMk0xOSA4SDE0VjVIMTlWOFoiIC8+PC9zdmc+)
+
 -}
 phoneMessageOutline : IconShape
 phoneMessageOutline =
@@ -841,6 +1075,9 @@ phoneMessageOutline =
 
 
 {-| The [`phone-minus`](https://pictogrammers.com/library/mdi/icon/phone-minus/) icon.
+
+![phone-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc2LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE4TDEzLjIxLDE3LjM4QzEwLjM4LDE1Ljk0IDguMDcsMTMuNjIgNi42MiwxMC43OUw4LjgyLDguNThDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNCA4LjUsNEExLDEgMCAwLDAgNy41LDNNMTMsNlY4SDIxVjYiIC8+PC9zdmc+)
+
 -}
 phoneMinus : IconShape
 phoneMinus =
@@ -848,6 +1085,9 @@ phoneMinus =
 
 
 {-| The [`phone-minus-outline`](https://pictogrammers.com/library/mdi/icon/phone-minus-outline/) icon.
+
+![phone-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xMyA2VjhIMjFWNloiIC8+PC9zdmc+)
+
 -}
 phoneMinusOutline : IconShape
 phoneMinusOutline =
@@ -855,6 +1095,9 @@ phoneMinusOutline =
 
 
 {-| The [`phone-missed`](https://pictogrammers.com/library/mdi/icon/phone-missed/) icon.
+
+![phone-missed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjcxLDE2LjY3QzIwLjY2LDEzLjc3IDE2LjU0LDEyIDEyLDEyQzcuNDYsMTIgMy4zNCwxMy43NyAwLjI5LDE2LjY3QzAuMTEsMTYuODUgMCwxNy4xIDAsMTcuMzhDMCwxNy42NSAwLjExLDE3LjkgMC4yOSwxOC4wOEwyLjc3LDIwLjU2QzIuOTUsMjAuNzQgMy4yLDIwLjg2IDMuNSwyMC44NkMzLjc1LDIwLjg2IDQsMjAuNzUgNC4xOCwyMC41N0M0Ljk3LDE5LjgzIDUuODYsMTkuMjEgNi44NCwxOC43MkM3LjE3LDE4LjU2IDcuNCwxOC4yMiA3LjQsMTcuODJWMTQuNzJDOC44NSwxNC4yNSAxMC4zOSwxNCAxMiwxNEMxMy42LDE0IDE1LjE1LDE0LjI1IDE2LjYsMTQuNzJWMTcuODJDMTYuNiwxOC4yMiAxNi44MywxOC41NiAxNy4xNiwxOC43MkMxOC4xNCwxOS4yMSAxOS4wMywxOS44MyAxOS44MiwyMC41N0MyMCwyMC43NSAyMC4yNSwyMC44NiAyMC41LDIwLjg2QzIwLjgsMjAuODYgMjEuMDUsMjAuNzQgMjEuMjMsMjAuNTZMMjMuNzEsMTguMDhDMjMuODksMTcuOSAyNCwxNy42NSAyNCwxNy4zOEMyNCwxNy4xIDIzLjg5LDE2Ljg1IDIzLjcxLDE2LjY3TTYuNSw1LjVMMTIsMTFMMTksNEwxOCwzTDEyLDlMNy41LDQuNUgxMVYzSDVWOUg2LjVWNS41WiIgLz48L3N2Zz4=)
+
 -}
 phoneMissed : IconShape
 phoneMissed =
@@ -862,6 +1105,9 @@ phoneMissed =
 
 
 {-| The [`phone-missed-outline`](https://pictogrammers.com/library/mdi/icon/phone-missed-outline/) icon.
+
+![phone-missed-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjYgMTUuNXYxLjhjLjcuNCAxLjMuOCAxLjkgMS4zbDEuMS0xLjFjLS45LS45LTEuOS0xLjUtMy0ybS0xMy4yIDBjLTEgLjUtMiAxLjEtMi45IDEuOWwxLjEgMS4xYy42LS41IDEuMi0uOSAxLjktMS4zdi0xLjdNMTIgMTJjNC41IDAgOC43IDEuNyAxMS43IDQuNy4yLjIuMy40LjMuNyAwIC4zLS4xLjUtLjMuN2wtMi41IDIuNWMtLjIuMi0uNC4zLS43LjMtLjIgMC0uNS0uMS0uNy0uMy0uOC0uNy0xLjctMS40LTIuNy0xLjgtLjMtLjItLjYtLjUtLjYtLjl2LTMuMWMtMS41LS41LTMtLjctNC42LS43LTEuNiAwLTMuMS4yLTQuNi43djMuMWMwIC40LS4yLjctLjYuOS0xIC41LTEuOSAxLjEtMi43IDEuOC0uMi4yLS40LjMtLjcuMy0uMyAwLS41LS4xLS43LS4zTC4xIDE4LjFjMC0uMi0uMS0uNS0uMS0uNyAwLS4zLjEtLjUuMy0uN0MzLjMgMTMuOCA3LjUgMTIgMTIgMTJ6TTYuNSA1LjVWOUg1VjNoNnYxLjVINy41TDEyIDlsNi02IDEgMS03IDctNS41LTUuNXoiIC8+PC9zdmc+)
+
 -}
 phoneMissedOutline : IconShape
 phoneMissedOutline =
@@ -869,6 +1115,9 @@ phoneMissedOutline =
 
 
 {-| The [`phone-off`](https://pictogrammers.com/library/mdi/icon/phone-off/) icon.
+
+![phone-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjIyLDIuNUwyLjUsMjAuMjJMMy43NywyMS41TDguNjUsMTYuNjJDMTEuNzYsMTkuNDMgMTUuODEsMjEgMjAsMjFBMSwxIDAgMCwwIDIxLDIwVjE2LjVBMSwxIDAgMCwwIDIwLDE1LjVDMTguNzUsMTUuNSAxNy41NSwxNS4zIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkgMTUuNDEsMTUuMThMMTMuMjEsMTcuMzhDMTIuMDYsMTYuOCAxMSwxNi4wNiAxMC4wNiwxNS4yMUwyMS41LDMuNzdMMjAuMjIsMi41TTQsM0ExLDEgMCAwLDAgMyw0QzMsNy41NyA0LjE0LDExLjA1IDYuMjQsMTMuOTRMNy42NiwxMi41QzcuMjgsMTEuOTcgNi45MywxMS4zOSA2LjYyLDEwLjc5TDguODIsOC41OUM5LjEsOC4zMSA5LjE4LDcuOTIgOS4wNyw3LjU3QzguNyw2LjQ1IDguNSw1LjI1IDguNSw0QTEsMSAwIDAsMCA3LjUsM0g0WiIgLz48L3N2Zz4=)
+
 -}
 phoneOff : IconShape
 phoneOff =
@@ -876,6 +1125,9 @@ phoneOff =
 
 
 {-| The [`phone-off-outline`](https://pictogrammers.com/library/mdi/icon/phone-off-outline/) icon.
+
+![phone-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjQgMTdDMTcuMiAxNy4yIDE4LjEgMTcuNCAxOSAxNy41VjE5QzE3LjcgMTguOSAxNi40IDE4LjcgMTUuMiAxOC4yTDE2LjQgMTdNMjAuMiAyLjVMMi41IDIwLjJMMy44IDIxLjVMOC43IDE2LjZDMTEuOCAxOS40IDE1LjggMjEgMjAgMjFDMjAuNiAyMSAyMSAyMC42IDIxIDIwVjE2LjVDMjEgMTUuOSAyMC42IDE1LjUgMjAgMTUuNUMxOC44IDE1LjUgMTcuNSAxNS4zIDE2LjQgMTQuOUgxNi4xQzE1LjggMTQuOSAxNS42IDE1IDE1LjQgMTUuMkwxMy4yIDE3LjRDMTIuMSAxNi44IDExIDE2LjEgMTAuMSAxNS4yTDIxLjUgMy44TDIwLjIgMi41TTYuNSA1QzYuNiA1LjkgNi44IDYuOCA3IDcuNkw1LjggOC44QzUuNCA3LjYgNS4xIDYuMyA1IDVINi41TTcuNSAzSDRDMy40IDMgMyAzLjQgMyA0QzMgNy42IDQuMSAxMSA2LjIgMTMuOUw3LjYgMTIuNUM3LjIgMTIgNi45IDExLjQgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNCA4LjUgNS4yIDguNSA0QzguNSAzLjQgOC4xIDMgNy41IDNaIiAvPjwvc3ZnPg==)
+
 -}
 phoneOffOutline : IconShape
 phoneOffOutline =
@@ -883,6 +1135,9 @@ phoneOffOutline =
 
 
 {-| The [`phone-outgoing`](https://pictogrammers.com/library/mdi/icon/phone-outgoing/) icon.
+
+![phone-outgoing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc1LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE3TDEzLjIxLDE3LjM3QzEwLjM4LDE1LjkzIDguMDYsMTMuNjIgNi42MiwxMC43OEw4LjgyLDguNTdDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNSA4LjUsNEExLDEgMCAwLDAgNy41LDNINE0xNSwzVjQuNUgxOC41TDEzLDEwTDE0LDExTDE5LjUsNS41VjlIMjFWM0gxNVoiIC8+PC9zdmc+)
+
 -}
 phoneOutgoing : IconShape
 phoneOutgoing =
@@ -890,6 +1145,9 @@ phoneOutgoing =
 
 
 {-| The [`phone-outgoing-outline`](https://pictogrammers.com/library/mdi/icon/phone-outgoing-outline/) icon.
+
+![phone-outgoing-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNSAzVjQuNUgxOC41TDEzIDEwTDE0IDExTDE5LjUgNS41VjlIMjFWM0gxNVoiIC8+PC9zdmc+)
+
 -}
 phoneOutgoingOutline : IconShape
 phoneOutgoingOutline =
@@ -897,6 +1155,9 @@ phoneOutgoingOutline =
 
 
 {-| The [`phone-outline`](https://pictogrammers.com/library/mdi/icon/phone-outline/) icon.
+
+![phone-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE1LjVDMTguOCwxNS41IDE3LjUsMTUuMyAxNi40LDE0LjlDMTYuMywxNC45IDE2LjIsMTQuOSAxNi4xLDE0LjlDMTUuOCwxNC45IDE1LjYsMTUgMTUuNCwxNS4yTDEzLjIsMTcuNEMxMC40LDE1LjkgOCwxMy42IDYuNiwxMC44TDguOCw4LjZDOS4xLDguMyA5LjIsNy45IDksNy42QzguNyw2LjUgOC41LDUuMiA4LjUsNEM4LjUsMy41IDgsMyA3LjUsM0g0QzMuNSwzIDMsMy41IDMsNEMzLDEzLjQgMTAuNiwyMSAyMCwyMUMyMC41LDIxIDIxLDIwLjUgMjEsMjBWMTYuNUMyMSwxNiAyMC41LDE1LjUgMjAsMTUuNU01LDVINi41QzYuNiw1LjkgNi44LDYuOCA3LDcuNkw1LjgsOC44QzUuNCw3LjYgNS4xLDYuMyA1LDVNMTksMTlDMTcuNywxOC45IDE2LjQsMTguNiAxNS4yLDE4LjJMMTYuNCwxN0MxNy4yLDE3LjIgMTguMSwxNy40IDE5LDE3LjRWMTlaIiAvPjwvc3ZnPg==)
+
 -}
 phoneOutline : IconShape
 phoneOutline =
@@ -904,6 +1165,9 @@ phoneOutline =
 
 
 {-| The [`phone-paused`](https://pictogrammers.com/library/mdi/icon/phone-paused/) icon.
+
+![phone-paused](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDEwSDIxVjNIMTlNMjAsMTUuNUMxOC43NSwxNS41IDE3LjU1LDE1LjMgMTYuNDMsMTQuOTNDMTYuMDgsMTQuODIgMTUuNjksMTQuOSAxNS40MSwxNS4xOEwxMy4yMSwxNy4zOEMxMC4zOCwxNS45NCA4LjA2LDEzLjYyIDYuNjIsMTAuNzlMOC44Miw4LjU5QzkuMSw4LjMxIDkuMTgsNy45MiA5LjA3LDcuNTdDOC43LDYuNDUgOC41LDUuMjUgOC41LDRBMSwxIDAgMCwwIDcuNSwzSDRBMSwxIDAgMCwwIDMsNEExNywxNyAwIDAsMCAyMCwyMUExLDEgMCAwLDAgMjEsMjBWMTYuNUExLDEgMCAwLDAgMjAsMTUuNU0xNywzSDE1VjEwSDE3VjNaIiAvPjwvc3ZnPg==)
+
 -}
 phonePaused : IconShape
 phonePaused =
@@ -911,6 +1175,9 @@ phonePaused =
 
 
 {-| The [`phone-paused-outline`](https://pictogrammers.com/library/mdi/icon/phone-paused-outline/) icon.
+
+![phone-paused-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOSAxMEgyMVYzSDE5TTE3IDNIMTVWMTBIMTdWM1oiIC8+PC9zdmc+)
+
 -}
 phonePausedOutline : IconShape
 phonePausedOutline =
@@ -918,6 +1185,9 @@ phonePausedOutline =
 
 
 {-| The [`phone-plus`](https://pictogrammers.com/library/mdi/icon/phone-plus/) icon.
+
+![phone-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc2LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE4TDEzLjIxLDE3LjM4QzEwLjM4LDE1Ljk0IDguMDcsMTMuNjIgNi42MiwxMC43OUw4LjgyLDguNThDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNCA4LjUsNEExLDEgMCAwLDAgNy41LDNNMTYsM1Y2SDEzVjhIMTZWMTFIMThWOEgyMVY2SDE4VjMiIC8+PC9zdmc+)
+
 -}
 phonePlus : IconShape
 phonePlus =
@@ -925,6 +1195,9 @@ phonePlus =
 
 
 {-| The [`phone-plus-outline`](https://pictogrammers.com/library/mdi/icon/phone-plus-outline/) icon.
+
+![phone-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNiAzVjZIMTNWOEgxNlYxMUgxOFY4SDIxVjZIMThWM1oiIC8+PC9zdmc+)
+
 -}
 phonePlusOutline : IconShape
 phonePlusOutline =
@@ -932,6 +1205,9 @@ phonePlusOutline =
 
 
 {-| The [`phone-refresh`](https://pictogrammers.com/library/mdi/icon/phone-refresh/) icon.
+
+![phone-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIgMTAuNzlDOC4wNiAxMy42MiAxMC4zOCAxNS45NCAxMy4yMSAxNy4zOEwxNS40MSAxNS4xOEMxNS42OSAxNC45IDE2LjA4IDE0LjgyIDE2LjQzIDE0LjkzQzE3LjU1IDE1LjMgMTguNzUgMTUuNSAyMCAxNS41QzIwLjU1IDE1LjUgMjEgMTUuOTUgMjEgMTYuNVYyMEMyMSAyMC41NSAyMC41NSAyMSAyMCAyMUMxMC42MSAyMSAzIDEzLjM5IDMgNEMzIDMuNDUgMy40NSAzIDQgM0g3LjVDOC4wNSAzIDguNSAzLjQ1IDguNSA0QzguNSA1LjI1IDguNyA2LjQ1IDkuMDcgNy41N0M5LjE4IDcuOTIgOS4xIDguMzEgOC44MiA4LjU5TDYuNjIgMTAuNzlNMTcgN0wxOC43NyA1LjIzQzE4LjMyIDQuNzggMTcuNjkgNC41IDE3IDQuNUMxNS42MiA0LjUgMTQuNSA1LjYyIDE0LjUgN1MxNS42MiA5LjUgMTcgOS41QzE3LjgyIDkuNSAxOC41NCA5LjExIDE5IDguNUgyMC43MUMyMC4xMiA5Ljk3IDE4LjY4IDExIDE3IDExQzE0Ljc5IDExIDEzIDkuMjEgMTMgN1MxNC43OSAzIDE3IDNDMTguMTEgMyAxOS4xMSAzLjQ1IDE5LjgzIDQuMTdMMjEgM1Y3SDE3WiIgLz48L3N2Zz4=)
+
 -}
 phoneRefresh : IconShape
 phoneRefresh =
@@ -939,6 +1215,9 @@ phoneRefresh =
 
 
 {-| The [`phone-refresh-outline`](https://pictogrammers.com/library/mdi/icon/phone-refresh-outline/) icon.
+
+![phone-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyA3TDE4Ljc3IDUuMjNDMTguMzIgNC43OCAxNy42OSA0LjUgMTcgNC41QzE1LjYyIDQuNSAxNC41IDUuNjIgMTQuNSA3UzE1LjYyIDkuNSAxNyA5LjVDMTcuODIgOS41IDE4LjU0IDkuMTEgMTkgOC41SDIwLjcxQzIwLjEyIDkuOTcgMTguNjggMTEgMTcgMTFDMTQuNzkgMTEgMTMgOS4yMSAxMyA3UzE0Ljc5IDMgMTcgM0MxOC4xMSAzIDE5LjExIDMuNDUgMTkuODMgNC4xN0wyMSAzVjdIMTdaIiAvPjwvc3ZnPg==)
+
 -}
 phoneRefreshOutline : IconShape
 phoneRefreshOutline =
@@ -946,6 +1225,9 @@ phoneRefreshOutline =
 
 
 {-| The [`phone-remove`](https://pictogrammers.com/library/mdi/icon/phone-remove/) icon.
+
+![phone-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgM0MzLjQgMyAzIDMuNCAzIDRDMyAxMy40IDEwLjYgMjEgMjAgMjFDMjAuNiAyMSAyMSAyMC42IDIxIDIwVjE2LjVDMjEgMTUuOSAyMC42IDE1LjUgMjAgMTUuNUMxOC44IDE1LjUgMTcuNSAxNS4zIDE2LjQgMTQuOUMxNiAxNC44IDE1LjcgMTQuOSAxNS40IDE1LjFMMTMuMiAxNy4zQzEwLjQgMTUuOSA4LjEgMTMuNSA2LjYgMTAuN0w4LjggOC41QzkuMSA4LjIgOS4yIDcuOCA5IDcuNUM4LjcgNi40IDguNSA1LjIgOC41IDRDOC41IDMuNCA4LjEgMyA3LjUgM00xOS4xIDMuNUwxNyA1LjZMMTQuOSAzLjVMMTMuNSA0LjlMMTUuNiA3TDEzLjUgOS4xTDE0LjkgMTAuNUwxNyA4LjRMMTkuMSAxMC41TDIwLjUgOS4xTDE4LjQgN0wyMC41IDQuOSIgLz48L3N2Zz4=)
+
 -}
 phoneRemove : IconShape
 phoneRemove =
@@ -953,6 +1235,9 @@ phoneRemove =
 
 
 {-| The [`phone-remove-outline`](https://pictogrammers.com/library/mdi/icon/phone-remove-outline/) icon.
+
+![phone-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOS4xIDMuNUwxNyA1LjZMMTQuOSAzLjVMMTMuNSA0LjlMMTUuNiA3TDEzLjUgOS4xTDE0LjkgMTAuNUwxNyA4LjRMMTkuMSAxMC41TDIwLjUgOS4xTDE4LjQgN0wyMC41IDQuOUwxOS4xIDMuNVoiIC8+PC9zdmc+)
+
 -}
 phoneRemoveOutline : IconShape
 phoneRemoveOutline =
@@ -960,6 +1245,9 @@ phoneRemoveOutline =
 
 
 {-| The [`phone-return`](https://pictogrammers.com/library/mdi/icon/phone-return/) icon.
+
+![phone-return](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDZWMTFIMTkuNVY3LjVIMTMuODdMMTYuMyw5LjkzTDE1LjI0LDExTDExLDYuNzVMMTUuMjQsMi41TDE2LjMsMy41N0wxMy44Nyw2SDIxTTguODIsOC41OEM5LjA4LDguMzIgOS4xNyw3LjkzIDkuMDYsNy41OEM4LjY5LDYuNDIgOC41LDUuMjIgOC41LDRBMSwxIDAgMCwwIDcuNSwzSDRBMSwxIDAgMCwwIDMsNEExNywxNyAwIDAsMCAyMCwyMUExLDEgMCAwLDAgMjEsMjBWMTYuNUExLDEgMCAwLDAgMjAsMTUuNUMxOC43OSwxNS41IDE3LjU4LDE1LjMxIDE2LjQzLDE0LjkzQzE2LjA4LDE0LjgyIDE1LjY5LDE0LjkxIDE1LjQzLDE1LjE3TDEzLjIzLDE3LjM3QzEwLjM5LDE1LjkyIDguMDksMTMuNjIgNi42NCwxMC43OEw4LjgyLDguNThaIiAvPjwvc3ZnPg==)
+
 -}
 phoneReturn : IconShape
 phoneReturn =
@@ -967,6 +1255,9 @@ phoneReturn =
 
 
 {-| The [`phone-return-outline`](https://pictogrammers.com/library/mdi/icon/phone-return-outline/) icon.
+
+![phone-return-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0yMSA2VjExSDE5LjVWNy41SDEzLjg3TDE2LjMgOS45M0wxNS4yNCAxMUwxMSA2Ljc1TDE1LjI0IDIuNUwxNi4zIDMuNTdMMTMuODcgNkgyMVoiIC8+PC9zdmc+)
+
 -}
 phoneReturnOutline : IconShape
 phoneReturnOutline =
@@ -974,6 +1265,9 @@ phoneReturnOutline =
 
 
 {-| The [`phone-ring`](https://pictogrammers.com/library/mdi/icon/phone-ring/) icon.
+
+![phone-ring](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjcxIDE2LjY3QzIwLjY2IDEzLjc4IDE2LjU0IDEyIDEyIDEyUzMuMzQgMTMuNzguMjkgMTYuNjdjLS4xOC4xOC0uMjkuNDMtLjI5LjcxIDAgLjI4LjExLjUzLjI5LjcxbDIuNDggMi40OGMuMTguMTguNDMuMjkuNzEuMjkuMjcgMCAuNTItLjExLjctLjI4Ljc5LS43NCAxLjY5LTEuMzYgMi42Ni0xLjg1LjMzLS4xNi41Ni0uNS41Ni0uOXYtMy4xYzEuNDUtLjQ4IDMtLjczIDQuNi0uNzNzMy4xNS4yNSA0LjYuNzJ2My4xYzAgLjM5LjIzLjc0LjU2LjkuOTguNDkgMS44NyAxLjEyIDIuNjYgMS44NS4xOC4xOC40My4yOC43LjI4LjI4IDAgLjUzLS4xMS43MS0uMjlsMi40OC0yLjQ4Yy4xOC0uMTguMjktLjQzLjI5LS43MWEuOTkuOTkgMCAwIDAtLjI5LS43ek0yMS4xNiA2LjI2bC0xLjQxLTEuNDEtMy41NiAzLjU1IDEuNDEgMS40MXMzLjQ1LTMuNTIgMy41Ni0zLjU1ek0xMyAyaC0ydjVoMlYyek02LjQgOS44MUw3LjgxIDguNCA0LjI2IDQuODQgMi44NCA2LjI2Yy4xMS4wMyAzLjU2IDMuNTUgMy41NiAzLjU1eiIgLz48L3N2Zz4=)
+
 -}
 phoneRing : IconShape
 phoneRing =
@@ -981,6 +1275,9 @@ phoneRing =
 
 
 {-| The [`phone-ring-outline`](https://pictogrammers.com/library/mdi/icon/phone-ring-outline/) icon.
+
+![phone-ring-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjcxIDE2LjY3QzIwLjY2IDEzLjc4IDE2LjU0IDEyIDEyIDEyUzMuMzQgMTMuNzguMjkgMTYuNjdjLS4xOC4xOC0uMjkuNDMtLjI5LjcxIDAgLjI4LjExLjUzLjI5LjcxbDIuNDggMi40OGMuMTguMTguNDMuMjkuNzEuMjkuMjcgMCAuNTItLjExLjctLjI4Ljc5LS43NCAxLjY5LTEuMzYgMi42Ni0xLjg1LjMzLS4xNi41Ni0uNS41Ni0uOXYtMy4xYzEuNDUtLjQ4IDMtLjczIDQuNi0uNzNzMy4xNS4yNSA0LjYuNzJ2My4xYzAgLjM5LjIzLjc0LjU2LjkuOTguNDkgMS44NyAxLjEyIDIuNjYgMS44NS4xOC4xOC40My4yOC43LjI4LjI4IDAgLjUzLS4xMS43MS0uMjlsMi40OC0yLjQ4Yy4xOC0uMTguMjktLjQzLjI5LS43MWEuOTkuOTkgMCAwIDAtLjI5LS43em0tMTguMzEuNTZjLS42Ni4zNy0xLjI5LjgtMS44NyAxLjI3bC0xLjA3LTEuMDdjLjkxLS43NSAxLjktMS4zOSAyLjk1LTEuOXYxLjdINS40em0xNS4wNyAxLjI2Yy0uNTktLjQ4LTEuMjEtLjktMS44Ny0xLjI3di0xLjdjMS4wNC41MSAyLjAzIDEuMTUgMi45NCAxLjlsLTEuMDcgMS4wN3ptLjY5LTEyLjIzbC0xLjQxLTEuNDEtMy41NiAzLjU1IDEuNDEgMS40MXMzLjQ1LTMuNTIgMy41Ni0zLjU1ek0xMSAyaDJ2NWgtMlYyek02LjQgOS44MUw3LjgxIDguNCA0LjI2IDQuODQgMi44NCA2LjI2Yy4xMS4wMyAzLjU2IDMuNTUgMy41NiAzLjU1eiIgLz48L3N2Zz4=)
+
 -}
 phoneRingOutline : IconShape
 phoneRingOutline =
@@ -988,6 +1285,9 @@ phoneRingOutline =
 
 
 {-| The [`phone-rotate-landscape`](https://pictogrammers.com/library/mdi/icon/phone-rotate-landscape/) icon.
+
+![phone-rotate-landscape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMUgzQTIsMiAwIDAsMCAxLDNWMTZBMiwyIDAgMCwwIDMsMThIOUEyLDIgMCAwLDAgMTEsMTZWM0EyLDIgMCAwLDAgOSwxTTksMTVIM1YzSDlWMTVNMjEsMTNIMTNWMTVIMjFWMjFIOVYyMEg2VjIxQTIsMiAwIDAsMCA4LDIzSDIxQTIsMiAwIDAsMCAyMywyMVYxNUEyLDIgMCAwLDAgMjEsMTNNMjMsMTBMMTksOEwyMC45MSw3LjA5QzE5Ljc0LDQuMzEgMTcsMi41IDE0LDIuNVYxQTksOSAwIDAsMSAyMywxMFoiIC8+PC9zdmc+)
+
 -}
 phoneRotateLandscape : IconShape
 phoneRotateLandscape =
@@ -995,6 +1295,9 @@ phoneRotateLandscape =
 
 
 {-| The [`phone-rotate-portrait`](https://pictogrammers.com/library/mdi/icon/phone-rotate-portrait/) icon.
+
+![phone-rotate-portrait](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMUgzQTIsMiAwIDAsMCAxLDNWMTZBMiwyIDAgMCwwIDMsMThINFYxNUgzVjNIOVYxMUgxMVYzQTIsMiAwIDAsMCA5LDFNMjMsMjFWMTVBMiwyIDAgMCwwIDIxLDEzSDhBMiwyIDAgMCwwIDYsMTVWMjFBMiwyIDAgMCwwIDgsMjNIMjFBMiwyIDAgMCwwIDIzLDIxTTksMjFWMTVIMjFWMjFIOU0yMywxMEgyMS41QzIxLjUsNyAxOS42OSw0LjI3IDE2LjkyLDMuMDlMMTYsNUwxNCwxQTksOSAwIDAsMSAyMywxMFoiIC8+PC9zdmc+)
+
 -}
 phoneRotatePortrait : IconShape
 phoneRotatePortrait =
@@ -1002,6 +1305,9 @@ phoneRotatePortrait =
 
 
 {-| The [`phone-settings`](https://pictogrammers.com/library/mdi/icon/phone-settings/) icon.
+
+![phone-settings](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDExSDIxVjlIMTlNMjAsMTUuNUMxOC43NSwxNS41IDE3LjU1LDE1LjMgMTYuNDMsMTQuOTNDMTYuMDgsMTQuODIgMTUuNjksMTQuOSAxNS40MSwxNS4xOEwxMy4yMSwxNy4zOEMxMC4zOCwxNS45NCA4LjA2LDEzLjYyIDYuNjIsMTAuNzlMOC44Miw4LjU5QzkuMSw4LjMxIDkuMTgsNy45MiA5LjA3LDcuNTdDOC43LDYuNDUgOC41LDUuMjUgOC41LDRBMSwxIDAgMCwwIDcuNSwzSDRBMSwxIDAgMCwwIDMsNEExNywxNyAwIDAsMCAyMCwyMUExLDEgMCAwLDAgMjEsMjBWMTYuNUExLDEgMCAwLDAgMjAsMTUuNU0xNyw5SDE1VjExSDE3TTEzLDlIMTFWMTFIMTNWOVoiIC8+PC9zdmc+)
+
 -}
 phoneSettings : IconShape
 phoneSettings =
@@ -1009,6 +1315,9 @@ phoneSettings =
 
 
 {-| The [`phone-settings-outline`](https://pictogrammers.com/library/mdi/icon/phone-settings-outline/) icon.
+
+![phone-settings-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyA5SDE1VjExSDE3TTEzIDlIMTFWMTFIMTNWOU0xOSAxMUgyMVY5SDE5WiIgLz48L3N2Zz4=)
+
 -}
 phoneSettingsOutline : IconShape
 phoneSettingsOutline =
@@ -1016,6 +1325,9 @@ phoneSettingsOutline =
 
 
 {-| The [`phone-sync`](https://pictogrammers.com/library/mdi/icon/phone-sync/) icon.
+
+![phone-sync](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNjIgMTAuNzlDOC4wNiAxMy42MiAxMC4zOCAxNS45NCAxMy4yMSAxNy4zOEwxNS40MSAxNS4xOEMxNS42OSAxNC45IDE2LjA4IDE0LjgyIDE2LjQzIDE0LjkzQzE3LjU1IDE1LjMgMTguNzUgMTUuNSAyMCAxNS41QzIwLjU1IDE1LjUgMjEgMTUuOTUgMjEgMTYuNVYyMEMyMSAyMC41NSAyMC41NSAyMSAyMCAyMUMxMC42MSAyMSAzIDEzLjM5IDMgNEMzIDMuNDUgMy40NSAzIDQgM0g3LjVDOC4wNSAzIDguNSAzLjQ1IDguNSA0QzguNSA1LjI1IDguNyA2LjQ1IDkuMDcgNy41N0M5LjE4IDcuOTIgOS4xIDguMzEgOC44MiA4LjU5TDYuNjIgMTAuNzlNMTcgM1YxLjVMMTQuNzUgMy43NUwxNyA2VjQuNUMxOC4zOCA0LjUgMTkuNSA1LjYyIDE5LjUgN0MxOS41IDcuNCAxOS40MSA3Ljc4IDE5LjI0IDguMTJMMjAuMzMgOS4yMUMyMC43NSA4LjU4IDIxIDcuODIgMjEgN0MyMSA0Ljc5IDE5LjIxIDMgMTcgM00xNyA5LjVDMTUuNjIgOS41IDE0LjUgOC4zOCAxNC41IDdDMTQuNSA2LjYgMTQuNTkgNi4yMiAxNC43NiA1Ljg4TDEzLjY3IDQuNzlDMTMuMjUgNS40MiAxMyA2LjE4IDEzIDdDMTMgOS4yMSAxNC43OSAxMSAxNyAxMVYxMi41TDE5LjI1IDEwLjI1TDE3IDhWOS41WiIgLz48L3N2Zz4=)
+
 -}
 phoneSync : IconShape
 phoneSync =
@@ -1023,6 +1335,9 @@ phoneSync =
 
 
 {-| The [`phone-sync-outline`](https://pictogrammers.com/library/mdi/icon/phone-sync-outline/) icon.
+
+![phone-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyAzVjEuNUwxNC43NSAzLjc1TDE3IDZWNC41QzE4LjM4IDQuNSAxOS41IDUuNjIgMTkuNSA3QzE5LjUgNy40IDE5LjQxIDcuNzggMTkuMjQgOC4xMkwyMC4zMyA5LjIxQzIwLjc1IDguNTggMjEgNy44MiAyMSA3QzIxIDQuNzkgMTkuMjEgMyAxNyAzTTE3IDkuNUMxNS42MiA5LjUgMTQuNSA4LjM4IDE0LjUgN0MxNC41IDYuNiAxNC41OSA2LjIyIDE0Ljc2IDUuODhMMTMuNjcgNC43OUMxMy4yNSA1LjQyIDEzIDYuMTggMTMgN0MxMyA5LjIxIDE0Ljc5IDExIDE3IDExVjEyLjVMMTkuMjUgMTAuMjVMMTcgOFY5LjVaIiAvPjwvc3ZnPg==)
+
 -}
 phoneSyncOutline : IconShape
 phoneSyncOutline =
@@ -1030,6 +1345,9 @@ phoneSyncOutline =
 
 
 {-| The [`phone-voip`](https://pictogrammers.com/library/mdi/icon/phone-voip/) icon.
+
+![phone-voip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE3VjE5SDE0QTEsMSAwIDAsMSAxNSwyMEgyMlYyMkgxNUExLDEgMCAwLDEgMTQsMjNIMTBBMSwxIDAgMCwxIDksMjJIMlYyMEg5QTEsMSAwIDAsMSAxMCwxOUgxMVYxN0gxM00yMy43LDcuNjdDMjMuODgsNy44NSAyNCw4LjA5IDI0LDguMzdDMjQsOC42NSAyMy44OSw4LjkgMjMuNzEsOS4wOEwyMS4yMywxMS41NkMyMS4wNSwxMS43NCAyMC44LDExLjg1IDIwLjUsMTEuODVDMjAuMjUsMTEuODUgMjAsMTEuNzUgMTkuODIsMTEuNTdDMTksMTAuODQgMTguMTMsMTAuMjEgMTcuMTUsOS43MkMxNi44Miw5LjU2IDE2LjU5LDkuMjEgMTYuNTksOC44MlY1LjcyQzE1LjE0LDUuMjUgMTMuNTksNSAxMiw1QzEwLjQsNSA4Ljg1LDUuMjUgNy40LDUuNzNWOC44M0M3LjQsOS4yMyA3LjE3LDkuNTcgNi44NCw5LjczQzUuODcsMTAuMjIgNC45NywxMC44NCA0LjE4LDExLjU4QzQsMTEuNzUgMy43NSwxMS44NiAzLjUsMTEuODZDMy4yLDExLjg2IDIuOTUsMTEuNzUgMi43NywxMS41N0wwLjI5LDkuMDlDMC4xMSw4LjkxIDAsOC42NiAwLDguMzhDMCw4LjEgMC4xMSw3Ljg1IDAuMjksNy42N0MzLjM0LDQuNzggNy40NiwzIDEyLDNDMTYuNTMsMyAyMC42NSw0Ljc4IDIzLjcsNy42N00xMSwxMFYxNUgxMFYxMEgxMU0xMiwxMEgxNVYxM0gxM1YxNUgxMlYxME0xNCwxMlYxMUgxM1YxMkgxNFoiIC8+PC9zdmc+)
+
 -}
 phoneVoip : IconShape
 phoneVoip =
@@ -1037,6 +1355,9 @@ phoneVoip =
 
 
 {-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
+
+![signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMjFINlYxOEgzTTgsMjFIMTFWMTRIOE0xMywyMUgxNlY5SDEzTTE4LDIxSDIxVjNIMThWMjFaIiAvPjwvc3ZnPg==)
+
 -}
 signal : IconShape
 signal =
@@ -1044,6 +1365,9 @@ signal =
 
 
 {-| The [`signal-2g`](https://pictogrammers.com/library/mdi/icon/signal-2g/) icon.
+
+![signal-2g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE5LjVIMlYxMy41QTMsMyAwIDAsMSA1LDEwLjVIOFY3LjVIMlY0LjVIOEEzLDMgMCAwLDEgMTEsNy41VjEwLjVBMywzIDAgMCwxIDgsMTMuNUg1VjE2LjVIMTFNMjIsMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNSIgLz48L3N2Zz4=)
+
 -}
 signal2g : IconShape
 signal2g =
@@ -1051,6 +1375,9 @@ signal2g =
 
 
 {-| The [`signal-3g`](https://pictogrammers.com/library/mdi/icon/signal-3g/) icon.
+
+![signal-3g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE2LjVWMTQuMjVDMTEsMTMgMTAsMTIgOC43NSwxMkMxMCwxMiAxMSwxMSAxMSw5Ljc1VjcuNUEzLDMgMCAwLDAgOCw0LjVIMlY3LjVIOFYxMC41SDVWMTMuNUg4VjE2LjVIMlYxOS41SDhBMywzIDAgMCwwIDExLDE2LjVNMjIsMTYuNVYxMC41SDE3LjVWMTMuNUgxOVYxNi41SDE2VjcuNUgyMlY0LjVIMTZBMywzIDAgMCwwIDEzLDcuNVYxNi41QTMsMyAwIDAsMCAxNiwxOS41SDE5QTMsMyAwIDAsMCAyMiwxNi41WiIgLz48L3N2Zz4=)
+
 -}
 signal3g : IconShape
 signal3g =
@@ -1058,6 +1385,9 @@ signal3g =
 
 
 {-| The [`signal-4g`](https://pictogrammers.com/library/mdi/icon/signal-4g/) icon.
+
+![signal-4g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE2LjVWMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNU04LDE5LjVIMTFWNC41SDhWMTAuNUg1VjQuNUgyVjEzLjVIOFYxOS41WiIgLz48L3N2Zz4=)
+
 -}
 signal4g : IconShape
 signal4g =
@@ -1065,6 +1395,9 @@ signal4g =
 
 
 {-| The [`signal-5g`](https://pictogrammers.com/library/mdi/icon/signal-5g/) icon.
+
+![signal-5g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE2LjVWMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNU0xMCw0LjVIM1YxMkwzLDEzLjVIN1YxNi41SDNWMTkuNUg4LjVBMS41LDEuNSAwIDAsMCAxMCwxOFYxMkExLjUsMS41IDAgMCwwIDguNSwxMC41SDZWNy41SDEwVjQuNVoiIC8+PC9zdmc+)
+
 -}
 signal5g : IconShape
 signal5g =
@@ -1072,6 +1405,9 @@ signal5g =
 
 
 {-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
+
+![signal-cellular-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
+
 -}
 signalCellular1 : IconShape
 signalCellular1 =
@@ -1079,6 +1415,9 @@ signalCellular1 =
 
 
 {-| The [`signal-cellular-2`](https://pictogrammers.com/library/mdi/icon/signal-cellular-2/) icon.
+
+![signal-cellular-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
+
 -}
 signalCellular2 : IconShape
 signalCellular2 =
@@ -1086,6 +1425,9 @@ signalCellular2 =
 
 
 {-| The [`signal-cellular-3`](https://pictogrammers.com/library/mdi/icon/signal-cellular-3/) icon.
+
+![signal-cellular-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDRIMTZWMjBIMjFWNE0xNCw5SDlWMjBIMTRWOU03LDE0SDJWMjBIN1YxNFoiIC8+PC9zdmc+)
+
 -}
 signalCellular3 : IconShape
 signalCellular3 =
@@ -1093,6 +1435,9 @@ signalCellular3 =
 
 
 {-| The [`signal-cellular-outline`](https://pictogrammers.com/library/mdi/icon/signal-cellular-outline/) icon.
+
+![signal-cellular-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU01LjUsMTUuNVYxOC41SDMuNVYxNS41SDUuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
+
 -}
 signalCellularOutline : IconShape
 signalCellularOutline =
@@ -1100,6 +1445,9 @@ signalCellularOutline =
 
 
 {-| The [`signal-hspa`](https://pictogrammers.com/library/mdi/icon/signal-hspa/) icon.
+
+![signal-hspa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLjUsMTAuNUgxMy41VjQuNUgxNi41VjE5LjVIMTMuNVYxMy41SDEwLjVWMTkuNUg3LjVWNC41SDEwLjVWMTAuNVoiIC8+PC9zdmc+)
+
 -}
 signalHspa : IconShape
 signalHspa =
@@ -1107,6 +1455,9 @@ signalHspa =
 
 
 {-| The [`signal-hspa-plus`](https://pictogrammers.com/library/mdi/icon/signal-hspa-plus/) icon.
+
+![signal-hspa-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDhWMTFIMjJWMTRIMTlWMTdIMTZWMTRIMTNWMTFIMTZWOEgxOU01LDEwLjVIOFY0LjVIMTFWMTkuNUg4VjEzLjVINVYxOS41SDJWNC41SDVWMTAuNVoiIC8+PC9zdmc+)
+
 -}
 signalHspaPlus : IconShape
 signalHspaPlus =
@@ -1114,6 +1465,9 @@ signalHspaPlus =
 
 
 {-| The [`signal-off`](https://pictogrammers.com/library/mdi/icon/signal-off/) icon.
+
+![signal-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDNWMTYuMThMMjEsMTkuMThWM0gxOE00LjI4LDVMMyw2LjI3TDEwLjczLDE0SDhWMjFIMTFWMTQuMjdMMTMsMTYuMjdWMjFIMTZWMTkuMjdMMTkuNzMsMjNMMjEsMjEuNzJMNC4yOCw1TTEzLDlWMTEuMThMMTYsMTQuMThWOUgxM00zLDE4VjIxSDZWMThIM1oiIC8+PC9zdmc+)
+
 -}
 signalOff : IconShape
 signalOff =
@@ -1121,6 +1475,9 @@ signalOff =
 
 
 {-| The [`sim`](https://pictogrammers.com/library/mdi/icon/sim/) icon.
+
+![sim](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDRBMiwyIDAgMCwwIDE4LDJIMTBMNCw4VjIwQTIsMiAwIDAsMCA2LDIySDE4QzE5LjExLDIyIDIwLDIxLjEgMjAsMjBWNE05LDE5SDdWMTdIOVYxOU0xNywxOUgxNVYxN0gxN1YxOU05LDE1SDdWMTFIOVYxNU0xMywxOUgxMVYxNUgxM1YxOU0xMywxM0gxMVYxMUgxM1YxM00xNywxNUgxNVYxMUgxN1YxNVoiIC8+PC9zdmc+)
+
 -}
 sim : IconShape
 sim =
@@ -1128,6 +1485,9 @@ sim =
 
 
 {-| The [`sim-alert`](https://pictogrammers.com/library/mdi/icon/sim-alert/) icon.
+
+![sim-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDEzSDExVjdIMTNNMTMgMTdIMTFWMTVIMTNNMTggMkgxMEw0IDhWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDE4QzE5LjEgMjIgMjAgMjEuMSAyMCAyMFY0QzIwIDIuOSAxOS4xIDIgMTggMloiIC8+PC9zdmc+)
+
 -}
 simAlert : IconShape
 simAlert =
@@ -1135,27 +1495,39 @@ simAlert =
 
 
 {-| The [`sim-alert-outline`](https://pictogrammers.com/library/mdi/icon/sim-alert-outline/) icon.
+
+![sim-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDEzSDExVjdIMTNNMTMgMTdIMTFWMTVIMTNNMTggNFYyMEg2VjguOEwxMC44IDRIMThNMTggMkgxMEw0IDhWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDE4QzE5LjEgMjIgMjAgMjEuMSAyMCAyMFY0QzIwIDIuOSAxOS4xIDIgMTggMloiIC8+PC9zdmc+)
+
 -}
 simAlertOutline : IconShape
 simAlertOutline =
     Material.Icons.Directory.S.simAlertOutline
 
 
-{-| The [`sim-off`](https://pictogrammers.com/library/mdi/icon/sim-off/) icon.
--}
-simOff : IconShape
-simOff =
-    Material.Icons.Directory.S.simOff
-
-
 {-| The [`sim-off-outline`](https://pictogrammers.com/library/mdi/icon/sim-off-outline/) icon.
+
+![sim-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMNS4wNiA2Ljk1TDQgOFYyMEM0IDIxLjExIDQuODkgMjIgNiAyMkgxOEMxOC41OCAyMiAxOS4xIDIxLjc1IDE5LjQ2IDIxLjM1TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTE4IDIwSDZWOC44M0w2LjQ3IDguMzZMMTggMTkuODlWMjBNMTAuODMgNEgxOFYxNC44TDIwIDE2LjhWNEMyMCAyLjkgMTkuMTEgMiAxOCAySDEwTDcuNiA0LjRMOSA1LjgxTDEwLjgzIDRaIiAvPjwvc3ZnPg==)
+
 -}
 simOffOutline : IconShape
 simOffOutline =
     Material.Icons.Directory.S.simOffOutline
 
 
+{-| The [`sim-off`](https://pictogrammers.com/library/mdi/icon/sim-off/) icon.
+
+![sim-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjg0IDIyLjczTDE5LjQ2IDIxLjM1QzE5LjEgMjEuNzUgMTguNTggMjIgMTggMjJINkM0Ljg5IDIyIDQgMjEuMTEgNCAyMFY4TDUuMDYgNi45NUwxLjExIDNMMi4zOSAxLjczTDIyLjExIDIxLjQ2TDIwLjg0IDIyLjczTTIwIDRDMjAgMi45IDE5LjExIDIgMTggMkgxMEw3LjYgNC40TDIwIDE2LjhWNFoiIC8+PC9zdmc+)
+
+-}
+simOff : IconShape
+simOff =
+    Material.Icons.Directory.S.simOff
+
+
 {-| The [`sim-outline`](https://pictogrammers.com/library/mdi/icon/sim-outline/) icon.
+
+![sim-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRWMjBINlY4LjhMMTAuOCA0SDE4TTE4IDJIMTBMNCA4VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOEMxOS4xIDIyIDIwIDIxLjEgMjAgMjBWNEMyMCAyLjkgMTkuMSAyIDE4IDJNOS41IDE5SDcuNVYxN0g5LjVWMTlNMTYuNSAxOUgxNC41VjE3SDE2LjVWMTlNOS41IDE1SDcuNVYxMUg5LjVWMTVNMTMgMTlIMTFWMTVIMTNWMTlNMTMgMTNIMTFWMTFIMTNWMTNNMTYuNSAxNUgxNC41VjExSDE2LjVWMTVaIiAvPjwvc3ZnPg==)
+
 -}
 simOutline : IconShape
 simOutline =
@@ -1163,6 +1535,9 @@ simOutline =
 
 
 {-| The [`tablet-cellphone`](https://pictogrammers.com/library/mdi/icon/tablet-cellphone/) icon.
+
+![tablet-cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNEgyMEEyLDIgMCAwLDEgMjIsNlY4SDE4VjZINVYxOEgxNFYyMEgzQTIsMiAwIDAsMSAxLDE4VjZBMiwyIDAgMCwxIDMsNE0xNywxMEgyM0ExLDEgMCAwLDEgMjQsMTFWMjFBMSwxIDAgMCwxIDIzLDIySDE3QTEsMSAwIDAsMSAxNiwyMVYxMUExLDEgMCAwLDEgMTcsMTBNMTgsMTJWMTlIMjJWMTJIMThaIiAvPjwvc3ZnPg==)
+
 -}
 tabletCellphone : IconShape
 tabletCellphone =
@@ -1170,6 +1545,9 @@ tabletCellphone =
 
 
 {-| The [`tooltip-cellphone`](https://pictogrammers.com/library/mdi/icon/tooltip-cellphone/) icon.
+
+![tooltip-cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgNkgxNVYxNEg5VjZNMjIgNFYxNkMyMiAxNy4xMSAyMS4xMSAxOCAyMCAxOEgxNkwxMiAyMkw4IDE4SDRDMi45IDE4IDIgMTcuMTEgMiAxNlY0QzIgMi45IDIuOSAyIDQgMkgyMEMyMS4xMSAyIDIyIDIuOSAyMiA0TTE2IDUuMDlDMTYgNC41IDE1LjUgNCAxNC44NiA0SDkuMTRDOC41IDQgOCA0LjUgOCA1LjA5VjE0LjkxQzggMTUuNSA4LjUgMTYgOS4xNCAxNkgxNC44NkMxNS41IDE2IDE2IDE1LjUgMTYgMTQuOTFWNS4wOVoiIC8+PC9zdmc+)
+
 -}
 tooltipCellphone : IconShape
 tooltipCellphone =
@@ -1177,6 +1555,9 @@ tooltipCellphone =
 
 
 {-| The [`volume-high`](https://pictogrammers.com/library/mdi/icon/volume-high/) icon.
+
+![volume-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDMuMjNWNS4yOUMxNi44OSw2LjE1IDE5LDguODMgMTksMTJDMTksMTUuMTcgMTYuODksMTcuODQgMTQsMTguN1YyMC43N0MxOCwxOS44NiAyMSwxNi4yOCAyMSwxMkMyMSw3LjcyIDE4LDQuMTQgMTQsMy4yM00xNi41LDEyQzE2LjUsMTAuMjMgMTUuNSw4LjcxIDE0LDcuOTdWMTZDMTUuNSwxNS4yOSAxNi41LDEzLjc2IDE2LjUsMTJNMyw5VjE1SDdMMTIsMjBWNEw3LDlIM1oiIC8+PC9zdmc+)
+
 -}
 volumeHigh : IconShape
 volumeHigh =
@@ -1184,6 +1565,9 @@ volumeHigh =
 
 
 {-| The [`volume-low`](https://pictogrammers.com/library/mdi/icon/volume-low/) icon.
+
+![volume-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsOVYxNUgxMUwxNiwyMFY0TDExLDlIN1oiIC8+PC9zdmc+)
+
 -}
 volumeLow : IconShape
 volumeLow =
@@ -1191,27 +1575,39 @@ volumeLow =
 
 
 {-| The [`volume-medium`](https://pictogrammers.com/library/mdi/icon/volume-medium/) icon.
+
+![volume-medium](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsOVYxNUg5TDE0LDIwVjRMOSw5TTE4LjUsMTJDMTguNSwxMC4yMyAxNy41LDguNzEgMTYsNy45N1YxNkMxNy41LDE1LjI5IDE4LjUsMTMuNzYgMTguNSwxMloiIC8+PC9zdmc+)
+
 -}
 volumeMedium : IconShape
 volumeMedium =
     Material.Icons.Directory.V.volumeMedium
 
 
-{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
--}
-volumeMute : IconShape
-volumeMute =
-    Material.Icons.Directory.V.volumeMute
-
-
 {-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
+
+![volume-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTQsMTFIMjJWMTNIMTRWMTFaIiAvPjwvc3ZnPg==)
+
 -}
 volumeMinus : IconShape
 volumeMinus =
     Material.Icons.Directory.V.volumeMinus
 
 
+{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
+
+![volume-mute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTYuNTksMTJMMTQsOS40MUwxNS40MSw4TDE4LDEwLjU5TDIwLjU5LDhMMjIsOS40MUwxOS40MSwxMkwyMiwxNC41OUwyMC41OSwxNkwxOCwxMy40MUwxNS40MSwxNkwxNCwxNC41OUwxNi41OSwxMloiIC8+PC9zdmc+)
+
+-}
+volumeMute : IconShape
+volumeMute =
+    Material.Icons.Directory.V.volumeMute
+
+
 {-| The [`volume-off`](https://pictogrammers.com/library/mdi/icon/volume-off/) icon.
+
+![volume-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDRMOS45MSw2LjA5TDEyLDguMThNNC4yNywzTDMsNC4yN0w3LjczLDlIM1YxNUg3TDEyLDIwVjEzLjI3TDE2LjI1LDE3LjUzQzE1LjU4LDE4LjA0IDE0LjgzLDE4LjQ2IDE0LDE4LjdWMjAuNzdDMTUuMzgsMjAuNDUgMTYuNjMsMTkuODIgMTcuNjgsMTguOTZMMTkuNzMsMjFMMjEsMTkuNzNMMTIsMTAuNzNNMTksMTJDMTksMTIuOTQgMTguOCwxMy44MiAxOC40NiwxNC42NEwxOS45NywxNi4xNUMyMC42MiwxNC45MSAyMSwxMy41IDIxLDEyQzIxLDcuNzIgMTgsNC4xNCAxNCwzLjIzVjUuMjlDMTYuODksNi4xNSAxOSw4LjgzIDE5LDEyTTE2LjUsMTJDMTYuNSwxMC4yMyAxNS41LDguNzEgMTQsNy45N1YxMC4xOEwxNi40NSwxMi42M0MxNi41LDEyLjQzIDE2LjUsMTIuMjEgMTYuNSwxMloiIC8+PC9zdmc+)
+
 -}
 volumeOff : IconShape
 volumeOff =
@@ -1219,6 +1615,9 @@ volumeOff =
 
 
 {-| The [`volume-plus`](https://pictogrammers.com/library/mdi/icon/volume-plus/) icon.
+
+![volume-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTQsMTFIMTdWOEgxOVYxMUgyMlYxM0gxOVYxNkgxN1YxM0gxNFYxMVoiIC8+PC9zdmc+)
+
 -}
 volumePlus : IconShape
 volumePlus =
@@ -1226,6 +1625,9 @@ volumePlus =
 
 
 {-| The [`volume-source`](https://pictogrammers.com/library/mdi/icon/volume-source/) icon.
+
+![volume-source](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgOVYxNUg3TDEyIDIwVjRMNyA5SDNNMTYgMTVIMTRWOUgxNlYxNU0yMCAxOUgxOFY1SDIwVjE5WiIgLz48L3N2Zz4=)
+
 -}
 volumeSource : IconShape
 volumeSource =
@@ -1233,6 +1635,9 @@ volumeSource =
 
 
 {-| The [`volume-variant-off`](https://pictogrammers.com/library/mdi/icon/volume-variant-off/) icon.
+
+![volume-variant-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuNjQsMy42NEwyMS4zNiwxOS4zNkwxOS45NSwyMC43OEwxNiwxNi44M1YyMEwxMSwxNUg3VjlIOC4xN0w0LjIyLDUuMDVMNS42NCwzLjY0TTE2LDRWMTEuMTdMMTIuNDEsNy41OEwxNiw0WiIgLz48L3N2Zz4=)
+
 -}
 volumeVariantOff : IconShape
 volumeVariantOff =
@@ -1240,6 +1645,9 @@ volumeVariantOff =
 
 
 {-| The [`volume-vibrate`](https://pictogrammers.com/library/mdi/icon/volume-vibrate/) icon.
+
+![volume-vibrate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgOVYxNUg4TDEzIDIwVjRMOCA5SDRNMTYuNTUgMi40N0wxNS41IDMuNTNMMTcuOTMgNkwxNSA5TDE3LjkzIDEyTDE1IDE1TDE3LjkzIDE4TDE1LjUgMjAuNDdMMTYuNTUgMjEuNTNMMjAgMThMMTcuMDcgMTVMMjAgMTJMMTcuMDcgOUwyMCA2TDE2LjU1IDIuNDdaIiAvPjwvc3ZnPg==)
+
 -}
 volumeVibrate : IconShape
 volumeVibrate =

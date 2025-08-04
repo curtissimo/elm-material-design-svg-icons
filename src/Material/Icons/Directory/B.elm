@@ -798,18 +798,18 @@ bagPersonalTagOutline =
     iconShape "M14 5V4C14 2.9 13.1 2 12 2H8C6.9 2 6 2.9 6 4V5C3.8 5 2 6.8 2 9V20C2 21.1 2.9 22 4 22H15.2L13.2 20H4V16H6V18H7V16H12V15H4V9C4 7.9 4.9 7 6 7H14C15.1 7 16 7.9 16 9V12H18V9C18 6.8 16.2 5 14 5M12 5H8V4H12V5M10 9L8 11L10 13L12 11L10 9M21.8 17.8L18.2 14.2C18 14.1 17.8 14 17.6 14H14.8C14.4 14 14 14.4 14 14.8V17.6C14 17.8 14.1 18 14.2 18.2L17.8 21.8C17.9 21.9 18.1 22 18.4 22C18.6 22 18.8 21.9 19 21.8L21.8 19C21.9 18.9 22 18.7 22 18.4C22 18.2 21.9 18 21.8 17.8M15.4 16C15.1 16 14.8 15.7 14.8 15.4C14.8 15.1 15.1 14.8 15.4 14.8C15.7 14.8 16 15.1 16 15.4C16 15.7 15.7 16 15.4 16Z"
 
 
-{-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
--}
-bagSuitcaseOff : IconShape
-bagSuitcaseOff =
-    iconShape "M2 4.77L3.28 3.5L21 21.22L19.73 22.5L18 20.76C17.71 20.93 17.38 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V7.77L2 4.77M17.03 6C18.11 6 19 6.88 19 8V16.68L16 13.68V9H14.5V12.18L12.75 10.43V9H11.32L8.31 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M8 18H9.5V12.27L8 10.77V18M11.25 18H12.75V15.5L11.25 14V18M14.5 18H15.23L14.5 17.27V18M13.5 6V3.5H10.5V6H13.5Z"
-
-
 {-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
 -}
 bagSuitcase : IconShape
 bagSuitcase =
     iconShape "M17.03 6C18.11 6 19 6.88 19 8V19C19 20.13 18.11 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V8C5 6.88 5.89 6 6.97 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M13.5 6V3.5H10.5V6H13.5M8 9V18H9.5V9H8M14.5 9V18H16V9H14.5M11.25 9V18H12.75V9H11.25Z"
+
+
+{-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
+-}
+bagSuitcaseOff : IconShape
+bagSuitcaseOff =
+    iconShape "M2 4.77L3.28 3.5L21 21.22L19.73 22.5L18 20.76C17.71 20.93 17.38 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V7.77L2 4.77M17.03 6C18.11 6 19 6.88 19 8V16.68L16 13.68V9H14.5V12.18L12.75 10.43V9H11.32L8.31 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M8 18H9.5V12.27L8 10.77V18M11.25 18H12.75V15.5L11.25 14V18M14.5 18H15.23L14.5 17.27V18M13.5 6V3.5H10.5V6H13.5Z"
 
 
 {-| The [`bag-suitcase-off-outline`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off-outline/) icon.
@@ -1939,18 +1939,18 @@ bedDoubleOutline =
     iconShape "M8 5C7.5 5 7 5.21 6.61 5.6S6 6.45 6 7V10C5.47 10 5 10.19 4.59 10.59S4 11.47 4 12V17H5.34L6 19H7L7.69 17H16.36L17 19H18L18.66 17H20V12C20 11.47 19.81 11 19.41 10.59S18.53 10 18 10V7C18 6.45 17.8 6 17.39 5.6S16.5 5 16 5M8 7H11V10H8M13 7H16V10H13M6 12H18V15H6Z"
 
 
-{-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
--}
-bedKing : IconShape
-bedKing =
-    iconShape "M6 5C5.47 5 5 5.21 4.59 5.6S4 6.45 4 7V10C3.45 10 3 10.19 2.6 10.59S2 11.47 2 12V17H3.33L4 19H5L5.67 17H18.33L19 19H20L20.67 17H22V12C22 11.47 21.79 11 21.4 10.59C21 10.19 20.55 10 20 10V7C20 6.45 19.81 6 19.41 5.6S18.53 5 18 5M6 7H11V10H6M13 7H18V10H13Z"
-
-
 {-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
 -}
 bedEmpty : IconShape
 bedEmpty =
     iconShape "M19,7H5V14H3V5H1V20H3V17H21V20H23V11A4,4 0 0,0 19,7"
+
+
+{-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
+-}
+bedKing : IconShape
+bedKing =
+    iconShape "M6 5C5.47 5 5 5.21 4.59 5.6S4 6.45 4 7V10C3.45 10 3 10.19 2.6 10.59S2 11.47 2 12V17H3.33L4 19H5L5.67 17H18.33L19 19H20L20.67 17H22V12C22 11.47 21.79 11 21.4 10.59C21 10.19 20.55 10 20 10V7C20 6.45 19.81 6 19.41 5.6S18.53 5 18 5M6 7H11V10H6M13 7H18V10H13Z"
 
 
 {-| The [`bed-king-outline`](https://pictogrammers.com/library/mdi/icon/bed-king-outline/) icon.
@@ -1974,18 +1974,18 @@ bedQueen =
     iconShape "M19 10V7A2 2 0 0 0 17 5H7A2 2 0 0 0 5 7V10A2 2 0 0 0 3 12V17H4.33L5 19H6L6.67 17H17.33L18 19H19L19.67 17H21V12A2 2 0 0 0 19 10M17 10H7V7H17Z"
 
 
-{-| The [`bed-queen-outline`](https://pictogrammers.com/library/mdi/icon/bed-queen-outline/) icon.
--}
-bedQueenOutline : IconShape
-bedQueenOutline =
-    iconShape "M19 10V7A2 2 0 0 0 17 5H7A2 2 0 0 0 5 7V10A2 2 0 0 0 3 12V17H4.33L5 19H6L6.67 17H17.33L18 19H19L19.67 17H21V12A2 2 0 0 0 19 10M7 7H17V10H7M19 15H5V12H19Z"
-
-
 {-| The [`bed-single`](https://pictogrammers.com/library/mdi/icon/bed-single/) icon.
 -}
 bedSingle : IconShape
 bedSingle =
     iconShape "M17 10V7C17 5.9 16.11 5 15 5H9C7.9 5 7 5.9 7 7V10C5.9 10 4.89 10.9 5 12V17H6.33L7 19H8L8.67 17H15.33L16 19H17L17.67 17H19V12C19 10.9 18.11 10 17 10M15 10H9V7H15Z"
+
+
+{-| The [`bed-queen-outline`](https://pictogrammers.com/library/mdi/icon/bed-queen-outline/) icon.
+-}
+bedQueenOutline : IconShape
+bedQueenOutline =
+    iconShape "M19 10V7A2 2 0 0 0 17 5H7A2 2 0 0 0 5 7V10A2 2 0 0 0 3 12V17H4.33L5 19H6L6.67 17H17.33L18 19H19L19.67 17H21V12A2 2 0 0 0 19 10M7 7H17V10H7M19 15H5V12H19Z"
 
 
 {-| The [`bed-single-outline`](https://pictogrammers.com/library/mdi/icon/bed-single-outline/) icon.
@@ -4422,11 +4422,11 @@ lookup name =
         "bag-personal-tag-outline" ->
             Just bagPersonalTagOutline
 
-        "bag-suitcase-off" ->
-            Just bagSuitcaseOff
-
         "bag-suitcase" ->
             Just bagSuitcase
+
+        "bag-suitcase-off" ->
+            Just bagSuitcaseOff
 
         "bag-suitcase-off-outline" ->
             Just bagSuitcaseOffOutline
@@ -4911,11 +4911,11 @@ lookup name =
         "bed-double-outline" ->
             Just bedDoubleOutline
 
-        "bed-king" ->
-            Just bedKing
-
         "bed-empty" ->
             Just bedEmpty
+
+        "bed-king" ->
+            Just bedKing
 
         "bed-king-outline" ->
             Just bedKingOutline
@@ -4926,11 +4926,11 @@ lookup name =
         "bed-queen" ->
             Just bedQueen
 
-        "bed-queen-outline" ->
-            Just bedQueenOutline
-
         "bed-single" ->
             Just bedSingle
+
+        "bed-queen-outline" ->
+            Just bedQueenOutline
 
         "bed-single-outline" ->
             Just bedSingleOutline

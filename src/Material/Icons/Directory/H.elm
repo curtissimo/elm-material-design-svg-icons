@@ -1069,13 +1069,6 @@ heartFlash =
     iconShape "M16.5,2.83C14.76,2.83 13.09,3.64 12,4.9C10.91,3.64 9.24,2.83 7.5,2.83C4.42,2.83 2,5.24 2,8.33C2,12.1 5.4,15.19 10.55,19.86L12,21.17L13.45,19.86C18.6,15.19 22,12.1 22,8.33C22,5.24 19.58,2.83 16.5,2.83M12,17.83V13.83H9L12,6.83V10.83H15"
 
 
-{-| The [`heart-half-outline`](https://pictogrammers.com/library/mdi/icon/heart-half-outline/) icon.
--}
-heartHalfOutline : IconShape
-heartHalfOutline =
-    iconShape "M4,8.5C4,11.2 6.75,13.87 11,17.74V7.2C10.42,5.91 9,5 7.5,5C5.5,5 4,6.5 4,8.5M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
-
-
 {-| The [`heart-half`](https://pictogrammers.com/library/mdi/icon/heart-half/) icon.
 -}
 heartHalf : IconShape
@@ -1083,18 +1076,25 @@ heartHalf =
     iconShape "M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
 
 
-{-| The [`heart-minus`](https://pictogrammers.com/library/mdi/icon/heart-minus/) icon.
--}
-heartMinus : IconShape
-heartMinus =
-    iconShape "M12 18C12 19 12.25 19.92 12.67 20.74L12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 9.93 21.5 11.26 20.62 12.61C19.83 12.23 18.94 12 18 12C14.69 12 12 14.69 12 18M14 17V19H22V17H14Z"
-
-
 {-| The [`heart-half-full`](https://pictogrammers.com/library/mdi/icon/heart-half-full/) icon.
 -}
 heartHalfFull : IconShape
 heartHalfFull =
     iconShape "M16.5,5C15,5 13.58,5.91 13,7.2V17.74C17.25,13.87 20,11.2 20,8.5C20,6.5 18.5,5 16.5,5M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3Z"
+
+
+{-| The [`heart-half-outline`](https://pictogrammers.com/library/mdi/icon/heart-half-outline/) icon.
+-}
+heartHalfOutline : IconShape
+heartHalfOutline =
+    iconShape "M4,8.5C4,11.2 6.75,13.87 11,17.74V7.2C10.42,5.91 9,5 7.5,5C5.5,5 4,6.5 4,8.5M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
+
+
+{-| The [`heart-minus`](https://pictogrammers.com/library/mdi/icon/heart-minus/) icon.
+-}
+heartMinus : IconShape
+heartMinus =
+    iconShape "M12 18C12 19 12.25 19.92 12.67 20.74L12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 9.93 21.5 11.26 20.62 12.61C19.83 12.23 18.94 12 18 12C14.69 12 12 14.69 12 18M14 17V19H22V17H14Z"
 
 
 {-| The [`heart-minus-outline`](https://pictogrammers.com/library/mdi/icon/heart-minus-outline/) icon.
@@ -1454,6 +1454,13 @@ hololens =
     iconShape "M12,8C12,8 22,8 22,11C22,11 22.09,14.36 21.75,14.25C21,11 12,11 12,11C12,11 3,11 2.25,14.25C1.91,14.36 2,11 2,11C2,8 12,8 12,8M12,12C20,12 20.75,14.25 20.75,14.25C19.75,17.25 19,18 15,18C12,18 13,16.5 12,16.5C11,16.5 12,18 9,18C5,18 4.25,17.25 3.25,14.25C3.25,14.25 4,12 12,12Z"
 
 
+{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
+-}
+home : IconShape
+home =
+    iconShape "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
+
+
 {-| The [`home-account`](https://pictogrammers.com/library/mdi/icon/home-account/) icon.
 -}
 homeAccount : IconShape
@@ -1466,13 +1473,6 @@ homeAccount =
 homeAlert : IconShape
 homeAlert =
     iconShape "M12 3L2 12H5V20H19V12H22L12 3M13 18H11V16H13V18M13 14H11V8H13V14Z"
-
-
-{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
--}
-home : IconShape
-home =
-    iconShape "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
 
 
 {-| The [`home-alert-outline`](https://pictogrammers.com/library/mdi/icon/home-alert-outline/) icon.
@@ -2119,13 +2119,6 @@ humanChild =
     iconShape "M12,2A3,3 0 0,1 15,5A3,3 0 0,1 12,8A3,3 0 0,1 9,5A3,3 0 0,1 12,2M11,22H8V16H6V9H18V16H16V22H13V18H11V22Z"
 
 
-{-| The [`human-dolly`](https://pictogrammers.com/library/mdi/icon/human-dolly/) icon.
--}
-humanDolly : IconShape
-humanDolly =
-    iconShape "M16.78 21.84C15.77 22.27 14.59 21.8 14.16 20.78C13.73 19.77 14.2 18.59 15.22 18.16C16.23 17.73 17.41 18.2 17.84 19.22C18.27 20.23 17.8 21.41 16.78 21.84M7.62 6C8.73 6 9.62 5.11 9.62 4C9.62 2.9 8.73 2 7.62 2C6.5 2 5.62 2.9 5.62 4C5.62 5.11 6.5 6 7.62 6M22.05 16.34L18.2 18C18.42 18.22 18.62 18.5 18.76 18.82C18.9 19.15 18.96 19.5 19 19.82L22.83 18.18L22.05 16.34M10.16 8.78L10.9 10.59C10.66 10.5 10.44 10.38 10.26 10.26C9.66 9.87 9.22 9.38 8.93 8.8L8.19 7.23C8 6.88 7.77 6.62 7.45 6.44C7.16 6.27 6.85 6.18 6.53 6.18C6.21 6.18 5.91 6.26 5.62 6.4C4.22 7.5 3.87 9.54 3.87 9.54L3.53 11.11C3.44 11.63 3.39 12.15 3.39 12.68V17.64L1 20.87L2.5 22L5.27 18.25L5.44 15L7.12 17.34V22H8.97V15.94L7.12 13.33V12.68C7.12 12.24 7.12 11.81 7.23 11.39L7.58 10.19C7.96 10.74 8.42 11.22 8.97 11.63C9.42 11.97 10.68 12.57 11.87 12.86L14 17.8C14.22 17.58 14.5 17.38 14.83 17.24C15.15 17.1 15.5 17.04 15.82 17L12 8L10.16 8.78M15.36 12.12L17.32 16.72L22.95 14.31L21 9.72"
-
-
 {-| The [`human-edit`](https://pictogrammers.com/library/mdi/icon/human-edit/) icon.
 -}
 humanEdit : IconShape
@@ -2138,6 +2131,13 @@ humanEdit =
 humanFemale : IconShape
 humanFemale =
     iconShape "M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2M10.5,22V16H7.5L10.09,8.41C10.34,7.59 11.1,7 12,7C12.9,7 13.66,7.59 13.91,8.41L16.5,16H13.5V22H10.5Z"
+
+
+{-| The [`human-dolly`](https://pictogrammers.com/library/mdi/icon/human-dolly/) icon.
+-}
+humanDolly : IconShape
+humanDolly =
+    iconShape "M16.78 21.84C15.77 22.27 14.59 21.8 14.16 20.78C13.73 19.77 14.2 18.59 15.22 18.16C16.23 17.73 17.41 18.2 17.84 19.22C18.27 20.23 17.8 21.41 16.78 21.84M7.62 6C8.73 6 9.62 5.11 9.62 4C9.62 2.9 8.73 2 7.62 2C6.5 2 5.62 2.9 5.62 4C5.62 5.11 6.5 6 7.62 6M22.05 16.34L18.2 18C18.42 18.22 18.62 18.5 18.76 18.82C18.9 19.15 18.96 19.5 19 19.82L22.83 18.18L22.05 16.34M10.16 8.78L10.9 10.59C10.66 10.5 10.44 10.38 10.26 10.26C9.66 9.87 9.22 9.38 8.93 8.8L8.19 7.23C8 6.88 7.77 6.62 7.45 6.44C7.16 6.27 6.85 6.18 6.53 6.18C6.21 6.18 5.91 6.26 5.62 6.4C4.22 7.5 3.87 9.54 3.87 9.54L3.53 11.11C3.44 11.63 3.39 12.15 3.39 12.68V17.64L1 20.87L2.5 22L5.27 18.25L5.44 15L7.12 17.34V22H8.97V15.94L7.12 13.33V12.68C7.12 12.24 7.12 11.81 7.23 11.39L7.58 10.19C7.96 10.74 8.42 11.22 8.97 11.63C9.42 11.97 10.68 12.57 11.87 12.86L14 17.8C14.22 17.58 14.5 17.38 14.83 17.24C15.15 17.1 15.5 17.04 15.82 17L12 8L10.16 8.78M15.36 12.12L17.32 16.72L22.95 14.31L21 9.72"
 
 
 {-| The [`human-female-boy`](https://pictogrammers.com/library/mdi/icon/human-female-boy/) icon.
@@ -2721,17 +2721,17 @@ lookup name =
         "heart-flash" ->
             Just heartFlash
 
-        "heart-half-outline" ->
-            Just heartHalfOutline
-
         "heart-half" ->
             Just heartHalf
 
-        "heart-minus" ->
-            Just heartMinus
-
         "heart-half-full" ->
             Just heartHalfFull
+
+        "heart-half-outline" ->
+            Just heartHalfOutline
+
+        "heart-minus" ->
+            Just heartMinus
 
         "heart-minus-outline" ->
             Just heartMinusOutline
@@ -2886,14 +2886,14 @@ lookup name =
         "hololens" ->
             Just hololens
 
+        "home" ->
+            Just home
+
         "home-account" ->
             Just homeAccount
 
         "home-alert" ->
             Just homeAlert
-
-        "home" ->
-            Just home
 
         "home-alert-outline" ->
             Just homeAlertOutline
@@ -3171,14 +3171,14 @@ lookup name =
         "human-child" ->
             Just humanChild
 
-        "human-dolly" ->
-            Just humanDolly
-
         "human-edit" ->
             Just humanEdit
 
         "human-female" ->
             Just humanFemale
+
+        "human-dolly" ->
+            Just humanDolly
 
         "human-female-boy" ->
             Just humanFemaleBoy

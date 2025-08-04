@@ -294,13 +294,6 @@ network =
     iconShape "M17,3A2,2 0 0,1 19,5V15A2,2 0 0,1 17,17H13V19H14A1,1 0 0,1 15,20H22V22H15A1,1 0 0,1 14,23H10A1,1 0 0,1 9,22H2V20H9A1,1 0 0,1 10,19H11V17H7C5.89,17 5,16.1 5,15V5A2,2 0 0,1 7,3H17Z"
 
 
-{-| The [`network-off`](https://pictogrammers.com/library/mdi/icon/network-off/) icon.
--}
-networkOff : IconShape
-networkOff =
-    iconShape "M1,5.27L5,9.27V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H17.73L19.73,24L21,22.72L2.28,4L1,5.27M15,20A1,1 0 0,0 14,19H13V17.27L15.73,20H15M17.69,16.87L5.13,4.31C5.41,3.55 6.14,3 7,3H17A2,2 0 0,1 19,5V15C19,15.86 18.45,16.59 17.69,16.87M22,20V21.18L20.82,20H22Z"
-
-
 {-| The [`network-off-outline`](https://pictogrammers.com/library/mdi/icon/network-off-outline/) icon.
 -}
 networkOffOutline : IconShape
@@ -313,6 +306,13 @@ networkOffOutline =
 networkOutline : IconShape
 networkOutline =
     iconShape "M15,20A1,1 0 0,0 14,19H13V17H17A2,2 0 0,0 19,15V5A2,2 0 0,0 17,3H7A2,2 0 0,0 5,5V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H22V20H15M7,15V5H17V15H7Z"
+
+
+{-| The [`network-off`](https://pictogrammers.com/library/mdi/icon/network-off/) icon.
+-}
+networkOff : IconShape
+networkOff =
+    iconShape "M1,5.27L5,9.27V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H17.73L19.73,24L21,22.72L2.28,4L1,5.27M15,20A1,1 0 0,0 14,19H13V17.27L15.73,20H15M17.69,16.87L5.13,4.31C5.41,3.55 6.14,3 7,3H17A2,2 0 0,1 19,5V15C19,15.86 18.45,16.59 17.69,16.87M22,20V21.18L20.82,20H22Z"
 
 
 {-| The [`network-pos`](https://pictogrammers.com/library/mdi/icon/network-pos/) icon.
@@ -1503,14 +1503,14 @@ lookup name =
         "network" ->
             Just network
 
-        "network-off" ->
-            Just networkOff
-
         "network-off-outline" ->
             Just networkOffOutline
 
         "network-outline" ->
             Just networkOutline
+
+        "network-off" ->
+            Just networkOff
 
         "network-pos" ->
             Just networkPos

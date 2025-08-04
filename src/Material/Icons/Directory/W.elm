@@ -1501,18 +1501,18 @@ wifiStrength4 =
     iconShape "M12,3C7.79,3 3.7,4.41 0.38,7C4.41,12.06 7.89,16.37 12,21.5C16.08,16.42 20.24,11.24 23.65,7C20.32,4.41 16.22,3 12,3Z"
 
 
-{-| The [`wifi-strength-4-lock`](https://pictogrammers.com/library/mdi/icon/wifi-strength-4-lock/) icon.
--}
-wifiStrength4Lock : IconShape
-wifiStrength4Lock =
-    iconShape "M14.2 14.5V14.74C13.5 15.34 13 16.24 13 17.2V20.24L12 21.5C7.88 16.37 4.39 12.06 .365 7C3.69 4.41 7.78 3 12 3C16.2 3 20.31 4.41 23.64 7L20.91 10.39C20.32 10.14 19.68 10 19 10C16.4 10 14.2 12.06 14.2 14.5M23 17.3V20.8C23 21.4 22.4 22 21.7 22H16.2C15.6 22 15 21.4 15 20.7V17.2C15 16.6 15.6 16 16.2 16V14.5C16.2 13.1 17.6 12 19 12S21.8 13.1 21.8 14.5V16C22.4 16 23 16.6 23 17.3M20.5 14.5C20.5 13.7 19.8 13.2 19 13.2S17.5 13.7 17.5 14.5V16H20.5V14.5Z"
-
-
 {-| The [`wifi-strength-4-alert`](https://pictogrammers.com/library/mdi/icon/wifi-strength-4-alert/) icon.
 -}
 wifiStrength4Alert : IconShape
 wifiStrength4Alert =
     iconShape "M12 3C7.8 3 3.7 4.4 .4 7C4.4 12.1 7.9 16.4 12 21.5C14.4 18.5 16.7 15.7 19 12.8V8H22.8C23 7.7 23.4 7.3 23.6 7C20.3 4.4 16.2 3 12 3M21 10V16H23V10M21 18V20H23V18"
+
+
+{-| The [`wifi-strength-4-lock`](https://pictogrammers.com/library/mdi/icon/wifi-strength-4-lock/) icon.
+-}
+wifiStrength4Lock : IconShape
+wifiStrength4Lock =
+    iconShape "M14.2 14.5V14.74C13.5 15.34 13 16.24 13 17.2V20.24L12 21.5C7.88 16.37 4.39 12.06 .365 7C3.69 4.41 7.78 3 12 3C16.2 3 20.31 4.41 23.64 7L20.91 10.39C20.32 10.14 19.68 10 19 10C16.4 10 14.2 12.06 14.2 14.5M23 17.3V20.8C23 21.4 22.4 22 21.7 22H16.2C15.6 22 15 21.4 15 20.7V17.2C15 16.6 15.6 16 16.2 16V14.5C16.2 13.1 17.6 12 19 12S21.8 13.1 21.8 14.5V16C22.4 16 23 16.6 23 17.3M20.5 14.5C20.5 13.7 19.8 13.2 19 13.2S17.5 13.7 17.5 14.5V16H20.5V14.5Z"
 
 
 {-| The [`wifi-strength-4-lock-open`](https://pictogrammers.com/library/mdi/icon/wifi-strength-4-lock-open/) icon.
@@ -2361,11 +2361,11 @@ lookup name =
         "wifi-strength-4" ->
             Just wifiStrength4
 
-        "wifi-strength-4-lock" ->
-            Just wifiStrength4Lock
-
         "wifi-strength-4-alert" ->
             Just wifiStrength4Alert
+
+        "wifi-strength-4-lock" ->
+            Just wifiStrength4Lock
 
         "wifi-strength-4-lock-open" ->
             Just wifiStrength4LockOpen

@@ -689,13 +689,6 @@ module Material.Icons.Directory.A exposing
 import Material.Icons exposing (IconShape, iconShape)
 
 
-{-| The [`ab-testing`](https://pictogrammers.com/library/mdi/icon/ab-testing/) icon.
--}
-abTesting : IconShape
-abTesting =
-    iconShape "M4 2A2 2 0 0 0 2 4V12H4V8H6V12H8V4A2 2 0 0 0 6 2H4M4 4H6V6H4M22 15.5V14A2 2 0 0 0 20 12H16V22H20A2 2 0 0 0 22 20V18.5A1.54 1.54 0 0 0 20.5 17A1.54 1.54 0 0 0 22 15.5M20 20H18V18H20V20M20 16H18V14H20M5.79 21.61L4.21 20.39L18.21 2.39L19.79 3.61Z"
-
-
 {-| The [`abacus`](https://pictogrammers.com/library/mdi/icon/abacus/) icon.
 -}
 abacus : IconShape
@@ -710,6 +703,13 @@ abjadArabic =
     iconShape "M12 4C10.08 4 8.5 5.58 8.5 7.5C8.5 8.43 8.88 9.28 9.5 9.91C7.97 10.91 7 12.62 7 14.5C7 17.53 9.47 20 12.5 20C14.26 20 16 19.54 17.5 18.66L16.5 16.93C15.28 17.63 13.9 18 12.5 18C10.56 18 9 16.45 9 14.5C9 12.91 10.06 11.53 11.59 11.12L16.8 9.72L16.28 7.79L11.83 9C11.08 8.9 10.5 8.28 10.5 7.5C10.5 6.66 11.16 6 12 6C12.26 6 12.5 6.07 12.75 6.2L13.75 4.47C13.22 4.16 12.61 4 12 4Z"
 
 
+{-| The [`ab-testing`](https://pictogrammers.com/library/mdi/icon/ab-testing/) icon.
+-}
+abTesting : IconShape
+abTesting =
+    iconShape "M4 2A2 2 0 0 0 2 4V12H4V8H6V12H8V4A2 2 0 0 0 6 2H4M4 4H6V6H4M22 15.5V14A2 2 0 0 0 20 12H16V22H20A2 2 0 0 0 22 20V18.5A1.54 1.54 0 0 0 20.5 17A1.54 1.54 0 0 0 22 15.5M20 20H18V18H20V20M20 16H18V14H20M5.79 21.61L4.21 20.39L18.21 2.39L19.79 3.61Z"
+
+
 {-| The [`abugida-devanagari`](https://pictogrammers.com/library/mdi/icon/abugida-devanagari/) icon.
 -}
 abugidaDevanagari : IconShape
@@ -717,18 +717,18 @@ abugidaDevanagari =
     iconShape "M8 3V5H11C12.32 5 13.41 5.83 13.82 7H6V9H14V10H12C9.25 10 7 12.25 7 15C7 17.75 9.25 20 12 20C12.77 20 13.45 19.73 14 19.3V21H16V17H14C13.55 17.62 12.83 18 12 18C10.33 18 9 16.67 9 15C9 13.33 10.33 12 12 12H16V9H18V7H15.9C15.43 4.72 13.41 3 11 3H8Z"
 
 
-{-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
--}
-abjadHebrew : IconShape
-abjadHebrew =
-    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
-
-
 {-| The [`abugida-thai`](https://pictogrammers.com/library/mdi/icon/abugida-thai/) icon.
 -}
 abugidaThai : IconShape
 abugidaThai =
     iconShape "M9 20C9 17.44 10.87 12.42 13.86 7.25C14.29 6.5 15.08 6 16 6C17.12 6 18 6.88 18 8V20H20V8C20 5.8 18.2 4 16 4C14.34 4 12.9 4.92 12.13 6.25C10.56 8.96 9.61 11.15 9 13.03V6.5C9 5.13 7.87 4 6.5 4C5.13 4 4 5.13 4 6.5C4 7.87 5.13 9 6.5 9C6.67 9 6.84 9 7 8.95V20M6.5 6C6.79 6 7 6.21 7 6.5C7 6.79 6.79 7 6.5 7C6.21 7 6 6.79 6 6.5C6 6.21 6.21 6 6.5 6Z"
+
+
+{-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
+-}
+abjadHebrew : IconShape
+abjadHebrew =
+    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
 
 
 {-| The [`access-point`](https://pictogrammers.com/library/mdi/icon/access-point/) icon.
@@ -1270,18 +1270,18 @@ accountLockOutline =
     iconShape "M10 12C12.21 12 14 10.21 14 8S12.21 4 10 4 6 5.79 6 8 7.79 12 10 12M10 6C11.11 6 12 6.9 12 8S11.11 10 10 10 8 9.11 8 8 8.9 6 10 6M12 20H2V17C2 14.33 7.33 13 10 13C11 13 12.38 13.19 13.71 13.56C13.41 14.12 13.23 14.74 13.21 15.39C12.23 15.1 11.11 14.9 10 14.9C7.03 14.9 3.9 16.36 3.9 17V18.1H12C12 18.13 12 18.17 12 18.2V20M20.8 17V15.5C20.8 14.1 19.4 13 18 13C16.6 13 15.2 14.1 15.2 15.5V17C14.6 17 14 17.6 14 18.2V21.7C14 22.4 14.6 23 15.2 23H20.7C21.4 23 22 22.4 22 21.8V18.3C22 17.6 21.4 17 20.8 17M19.5 17H16.5V15.5C16.5 14.7 17.2 14.2 18 14.2C18.8 14.2 19.5 14.7 19.5 15.5V17Z"
 
 
-{-| The [`account-minus-outline`](https://pictogrammers.com/library/mdi/icon/account-minus-outline/) icon.
--}
-accountMinusOutline : IconShape
-accountMinusOutline =
-    iconShape "M15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4M15,5.9C16.16,5.9 17.1,6.84 17.1,8C17.1,9.16 16.16,10.1 15,10.1A2.1,2.1 0 0,1 12.9,8A2.1,2.1 0 0,1 15,5.9M1,10V12H9V10H1M15,13C12.33,13 7,14.33 7,17V20H23V17C23,14.33 17.67,13 15,13M15,14.9C17.97,14.9 21.1,16.36 21.1,17V18.1H8.9V17C8.9,16.36 12,14.9 15,14.9Z"
-
-
 {-| The [`account-minus`](https://pictogrammers.com/library/mdi/icon/account-minus/) icon.
 -}
 accountMinus : IconShape
 accountMinus =
     iconShape "M15,14C12.33,14 7,15.33 7,18V20H23V18C23,15.33 17.67,14 15,14M1,10V12H9V10M15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12Z"
+
+
+{-| The [`account-minus-outline`](https://pictogrammers.com/library/mdi/icon/account-minus-outline/) icon.
+-}
+accountMinusOutline : IconShape
+accountMinusOutline =
+    iconShape "M15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4M15,5.9C16.16,5.9 17.1,6.84 17.1,8C17.1,9.16 16.16,10.1 15,10.1A2.1,2.1 0 0,1 12.9,8A2.1,2.1 0 0,1 15,5.9M1,10V12H9V10H1M15,13C12.33,13 7,14.33 7,17V20H23V17C23,14.33 17.67,13 15,13M15,14.9C17.97,14.9 21.1,16.36 21.1,17V18.1H8.9V17C8.9,16.36 12,14.9 15,14.9Z"
 
 
 {-| The [`account-multiple`](https://pictogrammers.com/library/mdi/icon/account-multiple/) icon.
@@ -1291,18 +1291,18 @@ accountMultiple =
     iconShape "M16 17V19H2V17S2 13 9 13 16 17 16 17M12.5 7.5A3.5 3.5 0 1 0 9 11A3.5 3.5 0 0 0 12.5 7.5M15.94 13A5.32 5.32 0 0 1 18 17V19H22V17S22 13.37 15.94 13M15 4A3.39 3.39 0 0 0 13.07 4.59A5 5 0 0 1 13.07 10.41A3.39 3.39 0 0 0 15 11A3.5 3.5 0 0 0 15 4Z"
 
 
-{-| The [`account-multiple-check-outline`](https://pictogrammers.com/library/mdi/icon/account-multiple-check-outline/) icon.
--}
-accountMultipleCheckOutline : IconShape
-accountMultipleCheckOutline =
-    iconShape "M13 11A3 3 0 1 0 10 8A3 3 0 0 0 13 11M13 7A1 1 0 1 1 12 8A1 1 0 0 1 13 7M17.11 10.86A5 5 0 0 0 17.11 5.14A2.91 2.91 0 0 1 18 5A3 3 0 0 1 18 11A2.91 2.91 0 0 1 17.11 10.86M13 13C7 13 7 17 7 17V19H19V17S19 13 13 13M9 17C9 16.71 9.32 15 13 15C16.5 15 16.94 16.56 17 17M24 17V19H21V17A5.6 5.6 0 0 0 19.2 13.06C24 13.55 24 17 24 17M7.34 8.92L8.5 10.33L3.75 15.08L1 12.08L2.16 10.92L3.75 12.5L7.34 8.92"
-
-
 {-| The [`account-multiple-check`](https://pictogrammers.com/library/mdi/icon/account-multiple-check/) icon.
 -}
 accountMultipleCheck : IconShape
 accountMultipleCheck =
     iconShape "M19 17V19H7V17S7 13 13 13 19 17 19 17M16 8A3 3 0 1 0 13 11A3 3 0 0 0 16 8M19.2 13.06A5.6 5.6 0 0 1 21 17V19H24V17S24 13.55 19.2 13.06M18 5A2.91 2.91 0 0 0 17.11 5.14A5 5 0 0 1 17.11 10.86A2.91 2.91 0 0 0 18 11A3 3 0 0 0 18 5M7.34 8.92L8.5 10.33L3.75 15.08L1 12.08L2.16 10.92L3.75 12.5L7.34 8.92"
+
+
+{-| The [`account-multiple-check-outline`](https://pictogrammers.com/library/mdi/icon/account-multiple-check-outline/) icon.
+-}
+accountMultipleCheckOutline : IconShape
+accountMultipleCheckOutline =
+    iconShape "M13 11A3 3 0 1 0 10 8A3 3 0 0 0 13 11M13 7A1 1 0 1 1 12 8A1 1 0 0 1 13 7M17.11 10.86A5 5 0 0 0 17.11 5.14A2.91 2.91 0 0 1 18 5A3 3 0 0 1 18 11A2.91 2.91 0 0 1 17.11 10.86M13 13C7 13 7 17 7 17V19H19V17S19 13 13 13M9 17C9 16.71 9.32 15 13 15C16.5 15 16.94 16.56 17 17M24 17V19H21V17A5.6 5.6 0 0 0 19.2 13.06C24 13.55 24 17 24 17M7.34 8.92L8.5 10.33L3.75 15.08L1 12.08L2.16 10.92L3.75 12.5L7.34 8.92"
 
 
 {-| The [`account-multiple-minus`](https://pictogrammers.com/library/mdi/icon/account-multiple-minus/) icon.
@@ -1809,18 +1809,18 @@ airplaneClock =
     iconShape "M16 9C15.09 9 14.23 9.18 13.43 9.5L12.73 6.45L16.62 2.56C17.2 2 17.2 1.03 16.62 .44S15.08-.146 14.5 .44L10.61 4.33L1.41 2.21L0 3.62L7.43 7.5L3.54 11.4L1.06 11.05L0 12.11L3.18 13.87L4.95 17.06L6 16L5.66 13.5L9.55 9.63L10.57 11.59C9.59 12.79 9 14.33 9 16C9 19.87 12.13 23 16 23S23 19.87 23 16 19.87 9 16 9M16 21C13.24 21 11 18.76 11 16S13.24 11 16 11 21 13.24 21 16 18.76 21 16 21M16.5 16.25V12H15V17L18.61 19.16L19.36 17.94L16.5 16.25Z"
 
 
-{-| The [`airplane-cog`](https://pictogrammers.com/library/mdi/icon/airplane-cog/) icon.
--}
-airplaneCog : IconShape
-airplaneCog =
-    iconShape "M15.73 12.81C14.76 13.33 13.92 14.07 13.29 14.96L11.55 11.63L7.66 15.5L8 18L6.95 19.06L5.18 15.87L2 14.11L3.06 13.05L5.54 13.4L9.43 9.5L2 5.62L3.41 4.21L12.61 6.33L16.5 2.44C17.08 1.85 18.03 1.85 18.62 2.44C19.2 3.03 19.2 4 18.62 4.56L14.73 8.45L15.73 12.81M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"
-
-
 {-| The [`airplane-edit`](https://pictogrammers.com/library/mdi/icon/airplane-edit/) icon.
 -}
 airplaneEdit : IconShape
 airplaneEdit =
     iconShape "M11.55 11.63L7.66 15.5L8 18L6.95 19.06L5.18 15.87L2 14.11L3.06 13.05L5.54 13.4L9.43 9.5L2 5.62L3.41 4.21L12.61 6.33L16.5 2.44C17.08 1.85 18.03 1.85 18.62 2.44C19.2 3.03 19.2 4 18.62 4.56L14.73 8.45L16.03 14.1L13.94 16.19L11.55 11.63M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47Z"
+
+
+{-| The [`airplane-cog`](https://pictogrammers.com/library/mdi/icon/airplane-cog/) icon.
+-}
+airplaneCog : IconShape
+airplaneCog =
+    iconShape "M15.73 12.81C14.76 13.33 13.92 14.07 13.29 14.96L11.55 11.63L7.66 15.5L8 18L6.95 19.06L5.18 15.87L2 14.11L3.06 13.05L5.54 13.4L9.43 9.5L2 5.62L3.41 4.21L12.61 6.33L16.5 2.44C17.08 1.85 18.03 1.85 18.62 2.44C19.2 3.03 19.2 4 18.62 4.56L14.73 8.45L15.73 12.81M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"
 
 
 {-| The [`airplane-landing`](https://pictogrammers.com/library/mdi/icon/airplane-landing/) icon.
@@ -5351,18 +5351,18 @@ axisArrowLock =
     iconShape "M21.8,5C22.4,5 23,5.6 23,6.3V9.8C23,10.4 22.4,11 21.7,11H16.2C15.6,11 15,10.4 15,9.7V6.2C15,5.6 15.6,5 16.2,5V3.5C16.2,2.1 17.6,1 19,1C20.4,1 21.8,2.1 21.8,3.5V5M20.5,5V3.5C20.5,2.7 19.8,2.2 19,2.2C18.2,2.2 17.5,2.7 17.5,3.5V5H20.5M1.74,19.25L3.21,13.79L4.68,16.34L9,13.85V6H6L10,2L14,6H11V13.85L18.03,17.86L19.5,15.28L21,20.74L15.5,22.21L17.03,19.6L10,15.58L5.68,18.07L7.21,20.71L1.74,19.25Z"
 
 
-{-| The [`axis-x-arrow`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow/) icon.
--}
-axisXArrow : IconShape
-axisXArrow =
-    iconShape "M1.5,20.5L3,15.03L4.46,17.6L11,13.82V3H13V13.82L22.39,19.25L21.39,21L12,15.56L5.46,19.33L7,21.96L1.5,20.5Z"
-
-
 {-| The [`axis-lock`](https://pictogrammers.com/library/mdi/icon/axis-lock/) icon.
 -}
 axisLock : IconShape
 axisLock =
     iconShape "M21.8,5C22.4,5 23,5.6 23,6.3V9.8C23,10.4 22.4,11 21.7,11H16.2C15.6,11 15,10.4 15,9.7V6.2C15,5.6 15.6,5 16.2,5V3.5C16.2,2.1 17.6,1 19,1C20.4,1 21.8,2.1 21.8,3.5V5M20.5,5V3.5C20.5,2.7 19.8,2.2 19,2.2C18.2,2.2 17.5,2.7 17.5,3.5V5H20.5M11,13.82L20.39,19.25L19.39,21L10,15.56L3.17,19.5L2.17,17.77L9,13.82V3H11V13.82Z"
+
+
+{-| The [`axis-x-arrow`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow/) icon.
+-}
+axisXArrow : IconShape
+axisXArrow =
+    iconShape "M1.5,20.5L3,15.03L4.46,17.6L11,13.82V3H13V13.82L22.39,19.25L21.39,21L12,15.56L5.46,19.33L7,21.96L1.5,20.5Z"
 
 
 {-| The [`axis-x-arrow-lock`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow-lock/) icon.
@@ -5458,23 +5458,23 @@ axisZRotateCounterclockwise =
 lookup : String -> Maybe IconShape
 lookup name =
     case name of
-        "ab-testing" ->
-            Just abTesting
-
         "abacus" ->
             Just abacus
 
         "abjad-arabic" ->
             Just abjadArabic
 
+        "ab-testing" ->
+            Just abTesting
+
         "abugida-devanagari" ->
             Just abugidaDevanagari
 
-        "abjad-hebrew" ->
-            Just abjadHebrew
-
         "abugida-thai" ->
             Just abugidaThai
+
+        "abjad-hebrew" ->
+            Just abjadHebrew
 
         "access-point" ->
             Just accessPoint
@@ -5707,20 +5707,20 @@ lookup name =
         "account-lock-outline" ->
             Just accountLockOutline
 
-        "account-minus-outline" ->
-            Just accountMinusOutline
-
         "account-minus" ->
             Just accountMinus
+
+        "account-minus-outline" ->
+            Just accountMinusOutline
 
         "account-multiple" ->
             Just accountMultiple
 
-        "account-multiple-check-outline" ->
-            Just accountMultipleCheckOutline
-
         "account-multiple-check" ->
             Just accountMultipleCheck
+
+        "account-multiple-check-outline" ->
+            Just accountMultipleCheckOutline
 
         "account-multiple-minus" ->
             Just accountMultipleMinus
@@ -5938,11 +5938,11 @@ lookup name =
         "airplane-clock" ->
             Just airplaneClock
 
-        "airplane-cog" ->
-            Just airplaneCog
-
         "airplane-edit" ->
             Just airplaneEdit
+
+        "airplane-cog" ->
+            Just airplaneCog
 
         "airplane-landing" ->
             Just airplaneLanding
@@ -7456,11 +7456,11 @@ lookup name =
         "axis-arrow-lock" ->
             Just axisArrowLock
 
-        "axis-x-arrow" ->
-            Just axisXArrow
-
         "axis-lock" ->
             Just axisLock
+
+        "axis-x-arrow" ->
+            Just axisXArrow
 
         "axis-x-arrow-lock" ->
             Just axisXArrowLock

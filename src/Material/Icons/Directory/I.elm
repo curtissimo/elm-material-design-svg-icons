@@ -395,6 +395,13 @@ imageFrame =
     iconShape "M10,14.29L6.5,19H17.46L14.75,15.46L12.78,17.8L10,14.29M5,21V7H18.96V21H5M12,2.4L14.61,5.03H9.37L12,2.4M5,5.03C4.5,5.03 4,5.22 3.61,5.61C3.2,6 3,6.46 3,7V21C3,21.5 3.2,22 3.61,22.39C4,22.8 4.5,23 5,23H18.96C19.5,23 19.96,22.8 20.37,22.39C20.77,22 21,21.5 21,21V7C21,6.46 20.77,6 20.37,5.61C19.96,5.22 19.5,5.03 18.96,5.03H16L12,1L7.96,5.03H5Z"
 
 
+{-| The [`image-lock-outline`](https://pictogrammers.com/library/mdi/icon/image-lock-outline/) icon.
+-}
+imageLockOutline : IconShape
+imageLockOutline =
+    iconShape "M21.8 16V14.5C21.8 13.1 20.4 12 19 12S16.2 13.1 16.2 14.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16M20.5 16H17.5V14.5C17.5 13.7 18.2 13.2 19 13.2S20.5 13.7 20.5 14.5V16M5 3C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H13.03C13 20.9 13 20.8 13 20.7V19H5V5H19V10C19.69 10 20.37 10.16 21 10.42V5C21 3.9 20.11 3 19 3H5M13.96 12.29L11.21 15.83L9.25 13.47L6.5 17H13C13.08 16.14 13.46 15.46 13.96 14.96C14.03 14.89 14.13 14.85 14.2 14.79V14.5C14.2 13.95 14.3 13.44 14.47 12.97L13.96 12.29Z"
+
+
 {-| The [`image-lock`](https://pictogrammers.com/library/mdi/icon/image-lock/) icon.
 -}
 imageLock : IconShape
@@ -407,13 +414,6 @@ imageLock =
 imageMarker : IconShape
 imageMarker =
     iconShape "M13.55 18C13.97 19.08 14.59 20.12 15.19 21H5C3.9 21 3 20.11 3 19V5C3 3.9 3.9 3 5 3H19C20.1 3 21 3.89 21 5V10.63C20.25 10.23 19.39 10 18.5 10C16.29 10 14.33 11.39 13.47 13.33L11 16.5L8.5 13.5L5 18H13.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z"
-
-
-{-| The [`image-lock-outline`](https://pictogrammers.com/library/mdi/icon/image-lock-outline/) icon.
--}
-imageLockOutline : IconShape
-imageLockOutline =
-    iconShape "M21.8 16V14.5C21.8 13.1 20.4 12 19 12S16.2 13.1 16.2 14.5V16C15.6 16 15 16.6 15 17.2V20.7C15 21.4 15.6 22 16.2 22H21.7C22.4 22 23 21.4 23 20.8V17.3C23 16.6 22.4 16 21.8 16M20.5 16H17.5V14.5C17.5 13.7 18.2 13.2 19 13.2S20.5 13.7 20.5 14.5V16M5 3C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H13.03C13 20.9 13 20.8 13 20.7V19H5V5H19V10C19.69 10 20.37 10.16 21 10.42V5C21 3.9 20.11 3 19 3H5M13.96 12.29L11.21 15.83L9.25 13.47L6.5 17H13C13.08 16.14 13.46 15.46 13.96 14.96C14.03 14.89 14.13 14.85 14.2 14.79V14.5C14.2 13.95 14.3 13.44 14.47 12.97L13.96 12.29Z"
 
 
 {-| The [`image-marker-outline`](https://pictogrammers.com/library/mdi/icon/image-marker-outline/) icon.
@@ -927,18 +927,18 @@ invoiceEdit =
     iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.1 9.82 19 10 18.24 10.75L9.86 19.13V21.43M11.86 19.96L18 13.83L20.03 15.87L13.9 22H11.86V19.96M20.39 12.15C20.37 12.13 20.34 12.1 20.31 12.09C20.12 11.96 19.86 11.97 19.69 12.13L19.67 12.15L18.69 13.13L20.73 15.17L21.71 14.19C21.91 14 21.91 13.67 21.71 13.47L20.39 12.15Z"
 
 
-{-| The [`invoice-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-edit-outline/) icon.
--}
-invoiceEditOutline : IconShape
-invoiceEditOutline =
-    iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.37 9.93 19.64 9.93 19 10.22V5H5V18.26L6 17.6L9 19.6L9.86 19V21.43M11.86 19.96L18 13.83L20.03 15.87L13.9 22H11.86V19.96M20.73 15.17L21.71 14.19C21.91 14 21.91 13.67 21.71 13.47L20.39 12.15C20.37 12.13 20.34 12.1 20.31 12.09C20.12 11.96 19.86 11.97 19.69 12.13L19.67 12.15L18.69 13.13L20.73 15.17Z"
-
-
 {-| The [`invoice-export-outline`](https://pictogrammers.com/library/mdi/icon/invoice-export-outline/) icon.
 -}
 invoiceExportOutline : IconShape
 invoiceExportOutline =
     iconShape "M21 22L18 20L15 22L12 20L9 22L6 20L3 22V3H21V9.67L19 7.67V5H5V18.26L6 17.6L9 19.6L12 17.6L15 19.6L18 17.6L19 18.26V16.33L21 14.33V22M20.5 12L15.5 7L14.08 8.41L16.67 11H7V13H16.67L14.08 15.58L15.5 17L20.5 12Z"
+
+
+{-| The [`invoice-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-edit-outline/) icon.
+-}
+invoiceEditOutline : IconShape
+invoiceEditOutline =
+    iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.37 9.93 19.64 9.93 19 10.22V5H5V18.26L6 17.6L9 19.6L9.86 19V21.43M11.86 19.96L18 13.83L20.03 15.87L13.9 22H11.86V19.96M20.73 15.17L21.71 14.19C21.91 14 21.91 13.67 21.71 13.47L20.39 12.15C20.37 12.13 20.34 12.1 20.31 12.09C20.12 11.96 19.86 11.97 19.69 12.13L19.67 12.15L18.69 13.13L20.73 15.17Z"
 
 
 {-| The [`invoice-fast`](https://pictogrammers.com/library/mdi/icon/invoice-fast/) icon.
@@ -1130,13 +1130,6 @@ invoiceTextEdit =
     iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.1 9.82 19 10 18.24 10.75L9.86 19.13V21.43M17 7H7V9H17V7M15 11H7V13H15V11M11.86 19.96V22H13.9L20.03 15.87L18 13.83L11.86 19.96M21.71 13.47L20.39 12.15C20.37 12.13 20.34 12.1 20.31 12.09C20.12 11.96 19.86 11.97 19.69 12.13L19.67 12.15L18.69 13.13L20.73 15.17L21.71 14.19C21.91 14 21.91 13.67 21.71 13.47Z"
 
 
-{-| The [`invoice-text-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-edit-outline/) icon.
--}
-invoiceTextEditOutline : IconShape
-invoiceTextEditOutline =
-    iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.37 9.93 19.64 9.93 19 10.22V5H5V18.26L6 17.6L9 19.6L9.86 19V21.43M11.86 19.96L18 13.83L20.03 15.87L13.9 22H11.86V19.96M21.71 14.19L20.73 15.17L18.69 13.13L19.67 12.15L19.68 12.14L19.69 12.13C19.86 11.97 20.12 11.96 20.31 12.09C20.34 12.1 20.37 12.13 20.39 12.15L21.71 13.47C21.91 13.67 21.91 14 21.71 14.19M17 9V7H7V9H17M15 13V11H7V13H15Z"
-
-
 {-| The [`invoice-text-fast`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast/) icon.
 -}
 invoiceTextFast : IconShape
@@ -1144,11 +1137,11 @@ invoiceTextFast =
     iconShape "M7 5H22V21L19.5 19.32L17 21L14.5 19.32L12 21L9.5 19.32L7 21V5M18 9H11V11H18V9M11 13V15H16V13H11M3 7C2.4 7 2 7.4 2 8C2 8.6 2.4 9 3 9H5V7H3M1 12C1 11.4 1.4 11 2 11H5V13H2C1.4 13 1 12.6 1 12M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
 
 
-{-| The [`invoice-text-fast-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast-outline/) icon.
+{-| The [`invoice-text-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-edit-outline/) icon.
 -}
-invoiceTextFastOutline : IconShape
-invoiceTextFastOutline =
-    iconShape "M18 9H11V11H18V9M11 13H16V15H11V13M22 21L19.5 19.32L17 21L14.5 19.32L12 21L9.5 19.32L7 21V5H22V21M20 16.57V7H9V16.57L12 18.59L14.5 16.9L17 18.59L20 16.57M3 7C2.4 7 2 7.4 2 8C2 8.6 2.4 9 3 9H5V7H3M2 11C1.4 11 1 11.4 1 12C1 12.6 1.4 13 2 13H5V11H2M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
+invoiceTextEditOutline : IconShape
+invoiceTextEditOutline =
+    iconShape "M9.86 21.43L9 22L6 20L3 22V3H21V10.2C20.37 9.93 19.64 9.93 19 10.22V5H5V18.26L6 17.6L9 19.6L9.86 19V21.43M11.86 19.96L18 13.83L20.03 15.87L13.9 22H11.86V19.96M21.71 14.19L20.73 15.17L18.69 13.13L19.67 12.15L19.68 12.14L19.69 12.13C19.86 11.97 20.12 11.96 20.31 12.09C20.34 12.1 20.37 12.13 20.39 12.15L21.71 13.47C21.91 13.67 21.91 14 21.71 14.19M17 9V7H7V9H17M15 13V11H7V13H15Z"
 
 
 {-| The [`invoice-text-minus`](https://pictogrammers.com/library/mdi/icon/invoice-text-minus/) icon.
@@ -1156,6 +1149,13 @@ invoiceTextFastOutline =
 invoiceTextMinus : IconShape
 invoiceTextMinus =
     iconShape "M3 3V22L6 20L9 22L12 20L13.3 20.86C13.1 20.28 13 19.65 13 19C13 15.69 15.69 13 19 13C19.7 13 20.37 13.12 21 13.34V3H3M17 7V9H7V7H17M15 11V13H7V11H15M15 18V20H23V18H15Z"
+
+
+{-| The [`invoice-text-fast-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast-outline/) icon.
+-}
+invoiceTextFastOutline : IconShape
+invoiceTextFastOutline =
+    iconShape "M18 9H11V11H18V9M11 13H16V15H11V13M22 21L19.5 19.32L17 21L14.5 19.32L12 21L9.5 19.32L7 21V5H22V21M20 16.57V7H9V16.57L12 18.59L14.5 16.9L17 18.59L20 16.57M3 7C2.4 7 2 7.4 2 8C2 8.6 2.4 9 3 9H5V7H3M2 11C1.4 11 1 11.4 1 12C1 12.6 1.4 13 2 13H5V11H2M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
 
 
 {-| The [`invoice-text-minus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-minus-outline/) icon.
@@ -1172,18 +1172,18 @@ invoiceTextMultiple =
     iconShape "M17 2H2V17H4V4H17V2M21 22L18.5 20.32L16 22L13.5 20.32L11 22L8.5 20.32L6 22V6H21V22M10 10V12H17V10H10M15 14H10V16H15V14Z"
 
 
-{-| The [`invoice-text-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple-outline/) icon.
--}
-invoiceTextMultipleOutline : IconShape
-invoiceTextMultipleOutline =
-    iconShape "M2 2V17H4V4H17V2H2M10 10H17V12H10V10M15 14H10V16H15V14M18.5 20.32L21 22V6H6V22L8.5 20.32L11 22L13.5 20.32L16 22L18.5 20.32M19 8V17.57L16 19.59L13.5 17.9L11 19.59L8 17.57V8H19Z"
-
-
 {-| The [`invoice-text-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-outline/) icon.
 -}
 invoiceTextOutline : IconShape
 invoiceTextOutline =
     iconShape "M17 7V9H7V7H17M15 11V13H7V11H15M18 20L21 22V3H3V22L6 20L9 22L12 20L15 22L18 20M19 5V18.26L18 17.6L15 19.6L12 17.6L9 19.6L6 17.6L5 18.26V5H19Z"
+
+
+{-| The [`invoice-text-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple-outline/) icon.
+-}
+invoiceTextMultipleOutline : IconShape
+invoiceTextMultipleOutline =
+    iconShape "M2 2V17H4V4H17V2H2M10 10H17V12H10V10M15 14H10V16H15V14M18.5 20.32L21 22V6H6V22L8.5 20.32L11 22L13.5 20.32L16 22L18.5 20.32M19 8V17.57L16 19.59L13.5 17.9L11 19.59L8 17.57V8H19Z"
 
 
 {-| The [`invoice-text-plus`](https://pictogrammers.com/library/mdi/icon/invoice-text-plus/) icon.
@@ -1193,11 +1193,11 @@ invoiceTextPlus =
     iconShape "M3 3V22L6 20L9 22L12 20L13.3 20.86C13.1 20.28 13 19.65 13 19C13 15.69 15.69 13 19 13C19.7 13 20.37 13.12 21 13.34V3H3M17 7V9H7V7H17M15 11V13H7V11H15M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
 
 
-{-| The [`invoice-text-plus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-plus-outline/) icon.
+{-| The [`invoice-text-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove-outline/) icon.
 -}
-invoiceTextPlusOutline : IconShape
-invoiceTextPlusOutline =
-    iconShape "M21 13.34C20.37 13.12 19.7 13 19 13V5H5V18.26L6 17.6L9 19.6L12 17.6L13.04 18.29C13 18.5 13 18.76 13 19C13 19.65 13.1 20.28 13.3 20.86L12 20L9 22L6 20L3 22V3H21V13.34M17 9V7H7V9H17M15 13V11H7V13H15M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
+invoiceTextRemoveOutline : IconShape
+invoiceTextRemoveOutline =
+    iconShape "M12 20L13.3 20.86C13.1 20.28 13 19.65 13 19C13 18.76 13 18.5 13.04 18.29L12 17.6L9 19.6L6 17.6L5 18.26V5H19V13C19.7 13 20.37 13.12 21 13.34V3H3V22L6 20L9 22L12 20M17 9V7H7V9H17M15 13V11H7V13H15M19 17.6L16.9 15.5L15.5 16.9L17.6 19L15.5 21.1L16.9 22.5L19 20.4L21.1 22.5L22.5 21.1L20.4 19L22.5 16.9L21.1 15.5L19 17.6Z"
 
 
 {-| The [`invoice-text-remove`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove/) icon.
@@ -1207,11 +1207,11 @@ invoiceTextRemove =
     iconShape "M3 3V22L6 20L9 22L12 20L13.3 20.86C13.1 20.28 13 19.65 13 19C13 15.69 15.69 13 19 13C19.7 13 20.37 13.12 21 13.34V3H3M17 7V9H7V7H17M15 11V13H7V11H15M19 17.6L16.9 15.5L15.5 16.9L17.6 19L15.5 21.1L16.9 22.5L19 20.4L21.1 22.5L22.5 21.1L20.4 19L22.5 16.9L21.1 15.5L19 17.6Z"
 
 
-{-| The [`invoice-text-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove-outline/) icon.
+{-| The [`invoice-text-plus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-plus-outline/) icon.
 -}
-invoiceTextRemoveOutline : IconShape
-invoiceTextRemoveOutline =
-    iconShape "M12 20L13.3 20.86C13.1 20.28 13 19.65 13 19C13 18.76 13 18.5 13.04 18.29L12 17.6L9 19.6L6 17.6L5 18.26V5H19V13C19.7 13 20.37 13.12 21 13.34V3H3V22L6 20L9 22L12 20M17 9V7H7V9H17M15 13V11H7V13H15M19 17.6L16.9 15.5L15.5 16.9L17.6 19L15.5 21.1L16.9 22.5L19 20.4L21.1 22.5L22.5 21.1L20.4 19L22.5 16.9L21.1 15.5L19 17.6Z"
+invoiceTextPlusOutline : IconShape
+invoiceTextPlusOutline =
+    iconShape "M21 13.34C20.37 13.12 19.7 13 19 13V5H5V18.26L6 17.6L9 19.6L12 17.6L13.04 18.29C13 18.5 13 18.76 13 19C13 19.65 13.1 20.28 13.3 20.86L12 20L9 22L6 20L3 22V3H21V13.34M17 9V7H7V9H17M15 13V11H7V13H15M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
 
 
 {-| The [`invoice-text-send`](https://pictogrammers.com/library/mdi/icon/invoice-text-send/) icon.
@@ -1228,6 +1228,13 @@ ip =
     iconShape "M16,11H14V9H16V11M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M10,7H8V17H10V7M12,17H14V13H16A2,2 0 0,0 18,11V9A2,2 0 0,0 16,7H12V17Z"
 
 
+{-| The [`ip-network`](https://pictogrammers.com/library/mdi/icon/ip-network/) icon.
+-}
+ipNetwork : IconShape
+ipNetwork =
+    iconShape "M15,9H13V7H15V9M22,20V22H15A1,1 0 0,1 14,23H10A1,1 0 0,1 9,22H2V20H9A1,1 0 0,1 10,19H11V17H7A2,2 0 0,1 5,15V5A2,2 0 0,1 7,3H17A2,2 0 0,1 19,5V15A2,2 0 0,1 17,17H13V19H14A1,1 0 0,1 15,20H22M9,5H7V15H9V5M11,15H13V11H15A2,2 0 0,0 17,9V7A2,2 0 0,0 15,5H11V15Z"
+
+
 {-| The [`invoice-text-send-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-send-outline/) icon.
 -}
 invoiceTextSendOutline : IconShape
@@ -1240,13 +1247,6 @@ invoiceTextSendOutline =
 ipNetworkOutline : IconShape
 ipNetworkOutline =
     iconShape "M15,20A1,1 0 0,0 14,19H13V17H17A2,2 0 0,0 19,15V5A2,2 0 0,0 17,3H7A2,2 0 0,0 5,5V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H22V20H15M7,15V5H17V15H7M10,6H8V14H10V6M14,6H11V14H13V12H14A2,2 0 0,0 16,10V8A2,2 0 0,0 14,6M14,10H13V8H14V10Z"
-
-
-{-| The [`ip-network`](https://pictogrammers.com/library/mdi/icon/ip-network/) icon.
--}
-ipNetwork : IconShape
-ipNetwork =
-    iconShape "M15,9H13V7H15V9M22,20V22H15A1,1 0 0,1 14,23H10A1,1 0 0,1 9,22H2V20H9A1,1 0 0,1 10,19H11V17H7A2,2 0 0,1 5,15V5A2,2 0 0,1 7,3H17A2,2 0 0,1 19,5V15A2,2 0 0,1 17,17H13V19H14A1,1 0 0,1 15,20H22M9,5H7V15H9V5M11,15H13V11H15A2,2 0 0,0 17,9V7A2,2 0 0,0 15,5H11V15Z"
 
 
 {-| The [`ip-outline`](https://pictogrammers.com/library/mdi/icon/ip-outline/) icon.
@@ -1263,13 +1263,6 @@ ipod =
     iconShape "M7,2A2,2 0 0,0 5,4V20A2,2 0 0,0 7,22H17A2,2 0 0,0 19,20V4A2,2 0 0,0 17,2H7M7,4H17V10H7V4M12,12A4,4 0 0,1 16,16A4,4 0 0,1 12,20A4,4 0 0,1 8,16A4,4 0 0,1 12,12M12,14A2,2 0 0,0 10,16A2,2 0 0,0 12,18A2,2 0 0,0 14,16A2,2 0 0,0 12,14Z"
 
 
-{-| The [`iron-board`](https://pictogrammers.com/library/mdi/icon/iron-board/) icon.
--}
-ironBoard : IconShape
-ironBoard =
-    iconShape "M19 6H16V4.8C16 3.68 16.56 2.63 17.5 2C18.44 2.63 19 3.68 19 4.8V6M15.28 13.63L19.59 19C20.38 19.06 21 19.7 21 20.5C21 21.33 20.33 22 19.5 22S18 21.33 18 20.5C18 20.42 18 20.34 18 20.26L14 15.23L10 20.26C10 20.34 10 20.42 10 20.5C10 21.33 9.33 22 8.5 22S7 21.33 7 20.5C7 19.7 7.63 19.06 8.41 19L12.72 13.63L9 9H3V7H21V9H19L15.28 13.63M14 12L16.42 9H11.58L14 12Z"
-
-
 {-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
 -}
 iron : IconShape
@@ -1277,11 +1270,11 @@ iron =
     iconShape "M21 6C19.34 6 18 7.34 18 9V13C18 13.55 17.55 14 17 14V10C17 8.34 15.66 7 14 7H10C8.34 7 7 8.34 7 10H9C9 9.45 9.45 9 10 9H14C14.55 9 15 9.45 15 10V11H6C3.79 11 2 12.79 2 15V18H17V16C18.66 16 20 14.66 20 13V9C20 8.45 20.45 8 21 8H22V6H21Z"
 
 
-{-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.
+{-| The [`iron-board`](https://pictogrammers.com/library/mdi/icon/iron-board/) icon.
 -}
-ironOutline : IconShape
-ironOutline =
-    iconShape "M21 6C19.34 6 18 7.34 18 9V13C18 13.55 17.55 14 17 14V10C17 8.34 15.66 7 14 7H10C8.34 7 7 8.34 7 10H9C9 9.45 9.45 9 10 9H14C14.55 9 15 9.45 15 10V11H6C3.79 11 2 12.79 2 15V18H17V16C18.66 16 20 14.66 20 13V9C20 8.45 20.45 8 21 8H22V6H21M15 16H4V15C4 13.9 4.9 13 6 13H15V16Z"
+ironBoard : IconShape
+ironBoard =
+    iconShape "M19 6H16V4.8C16 3.68 16.56 2.63 17.5 2C18.44 2.63 19 3.68 19 4.8V6M15.28 13.63L19.59 19C20.38 19.06 21 19.7 21 20.5C21 21.33 20.33 22 19.5 22S18 21.33 18 20.5C18 20.42 18 20.34 18 20.26L14 15.23L10 20.26C10 20.34 10 20.42 10 20.5C10 21.33 9.33 22 8.5 22S7 21.33 7 20.5C7 19.7 7.63 19.06 8.41 19L12.72 13.63L9 9H3V7H21V9H19L15.28 13.63M14 12L16.42 9H11.58L14 12Z"
 
 
 {-| The [`island`](https://pictogrammers.com/library/mdi/icon/island/) icon.
@@ -1291,11 +1284,11 @@ island =
     iconShape "M20 20C18.61 20 17.22 19.53 16 18.67C13.56 20.38 10.44 20.38 8 18.67C6.78 19.53 5.39 20 4 20H2V22H4C5.37 22 6.74 21.65 8 21C10.5 22.3 13.5 22.3 16 21C17.26 21.65 18.62 22 20 22H22V20H20M20.78 19H20C18.82 19 17.64 18.6 16.58 17.85L16 17.45L15.42 17.85C14.39 18.57 13.21 18.95 12 18.95C10.77 18.95 9.59 18.57 8.56 17.85L8 17.45L7.43 17.85C6.36 18.6 5.18 19 4 19H3.22C3.75 17.54 5.58 15 12 15C14 15 15 15.24 15 15.24C15.68 13.87 16.83 10.77 16 6.82L17.06 7.53C17.39 8.96 18 11.75 16.8 15.65C19.43 16.5 20.42 18 20.78 19M22 7.59C21.21 6.5 20 5.71 18.58 5.53C18.7 5.67 18.81 5.83 18.92 6C20.12 7.91 19.87 10.32 18.47 11.95C19.06 10.5 19 8.79 18.08 7.36C18 7.28 17.96 7.2 17.9 7.11C17.5 6.53 16.96 6.06 16.38 5.72C14.35 6.37 12.88 8.27 12.88 10.5C12.88 11.03 12.96 11.53 13.1 12C12.5 11.17 12.16 10.17 12.16 9.07C12.16 7.41 12.96 5.95 14.2 5.03C13.16 4.95 12.09 5.18 11.14 5.78C10.7 6.05 10.32 6.38 10 6.76C10.39 5.82 11.05 5 12 4.4C13.04 3.74 14.25 3.5 15.39 3.69C15.1 3.29 14.75 2.92 14.33 2.6C13.92 2.29 13.47 2.05 13 1.88C14 1.91 15.04 2.24 15.91 2.89C16.35 3.22 16.7 3.62 17 4.05C17.06 4.05 17.12 4.04 17.19 4.04C19.45 4.04 21.37 5.53 22 7.59Z"
 
 
-{-| The [`iv-bag`](https://pictogrammers.com/library/mdi/icon/iv-bag/) icon.
+{-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.
 -}
-ivBag : IconShape
-ivBag =
-    iconShape "M14 1H10C5 1 5 3 5 3V15C5 15 5 17 10 17V19H11V20C11 21.21 11.8 23 14 23H18V21H14C13.19 21 13 20.45 13 20V19H14V17C19 17 19 15 19 15V3C19 3 19 1 14 1M17 12H14V11H17V12M17 5H14V6H17V8H14V9H17V10H7V3.5C7.3 3.32 8.13 3 10 3H14C15.88 3 16.7 3.32 17 3.5V5Z"
+ironOutline : IconShape
+ironOutline =
+    iconShape "M21 6C19.34 6 18 7.34 18 9V13C18 13.55 17.55 14 17 14V10C17 8.34 15.66 7 14 7H10C8.34 7 7 8.34 7 10H9C9 9.45 9.45 9 10 9H14C14.55 9 15 9.45 15 10V11H6C3.79 11 2 12.79 2 15V18H17V16C18.66 16 20 14.66 20 13V9C20 8.45 20.45 8 21 8H22V6H21M15 16H4V15C4 13.9 4.9 13 6 13H15V16Z"
 
 
 {-| The [`island-variant`](https://pictogrammers.com/library/mdi/icon/island-variant/) icon.
@@ -1303,6 +1296,13 @@ ivBag =
 islandVariant : IconShape
 islandVariant =
     iconShape "M15 15.26V13H11L15 9H12L15 6H13L16 3L19 6H17L20 9H17L21 13H17V15.76C19.13 16.47 20.68 17.67 21 19C19.3 18.87 17.62 18.54 16 18C14.79 18.61 13.37 19 12 19C10.71 19 9.17 18.58 8 18C6.37 18.54 4.72 18.87 3 19C3.54 16.77 7.4 15 12 15C13.05 15 14.06 15.09 15 15.26M8 19C8 19 5 20 2 20V22C5 22 8 21 8 21C8 21 10 22 12 22C14 22 16 21 16 21C16 21 19 22 22 22V20C19 20 16 19 16 19C16 19 14 20 12 20C10 20 8 19 8 19Z"
+
+
+{-| The [`iv-bag`](https://pictogrammers.com/library/mdi/icon/iv-bag/) icon.
+-}
+ivBag : IconShape
+ivBag =
+    iconShape "M14 1H10C5 1 5 3 5 3V15C5 15 5 17 10 17V19H11V20C11 21.21 11.8 23 14 23H18V21H14C13.19 21 13 20.45 13 20V19H14V17C19 17 19 15 19 15V3C19 3 19 1 14 1M17 12H14V11H17V12M17 5H14V6H17V8H14V9H17V10H7V3.5C7.3 3.32 8.13 3 10 3H14C15.88 3 16.7 3.32 17 3.5V5Z"
 
 
 {-| Look up an icon (which has the first letter "i") by its name.
@@ -1410,14 +1410,14 @@ lookup name =
         "image-frame" ->
             Just imageFrame
 
+        "image-lock-outline" ->
+            Just imageLockOutline
+
         "image-lock" ->
             Just imageLock
 
         "image-marker" ->
             Just imageMarker
-
-        "image-lock-outline" ->
-            Just imageLockOutline
 
         "image-marker-outline" ->
             Just imageMarkerOutline
@@ -1638,11 +1638,11 @@ lookup name =
         "invoice-edit" ->
             Just invoiceEdit
 
-        "invoice-edit-outline" ->
-            Just invoiceEditOutline
-
         "invoice-export-outline" ->
             Just invoiceExportOutline
+
+        "invoice-edit-outline" ->
+            Just invoiceEditOutline
 
         "invoice-fast" ->
             Just invoiceFast
@@ -1725,17 +1725,17 @@ lookup name =
         "invoice-text-edit" ->
             Just invoiceTextEdit
 
-        "invoice-text-edit-outline" ->
-            Just invoiceTextEditOutline
-
         "invoice-text-fast" ->
             Just invoiceTextFast
 
-        "invoice-text-fast-outline" ->
-            Just invoiceTextFastOutline
+        "invoice-text-edit-outline" ->
+            Just invoiceTextEditOutline
 
         "invoice-text-minus" ->
             Just invoiceTextMinus
+
+        "invoice-text-fast-outline" ->
+            Just invoiceTextFastOutline
 
         "invoice-text-minus-outline" ->
             Just invoiceTextMinusOutline
@@ -1743,23 +1743,23 @@ lookup name =
         "invoice-text-multiple" ->
             Just invoiceTextMultiple
 
-        "invoice-text-multiple-outline" ->
-            Just invoiceTextMultipleOutline
-
         "invoice-text-outline" ->
             Just invoiceTextOutline
+
+        "invoice-text-multiple-outline" ->
+            Just invoiceTextMultipleOutline
 
         "invoice-text-plus" ->
             Just invoiceTextPlus
 
-        "invoice-text-plus-outline" ->
-            Just invoiceTextPlusOutline
+        "invoice-text-remove-outline" ->
+            Just invoiceTextRemoveOutline
 
         "invoice-text-remove" ->
             Just invoiceTextRemove
 
-        "invoice-text-remove-outline" ->
-            Just invoiceTextRemoveOutline
+        "invoice-text-plus-outline" ->
+            Just invoiceTextPlusOutline
 
         "invoice-text-send" ->
             Just invoiceTextSend
@@ -1767,14 +1767,14 @@ lookup name =
         "ip" ->
             Just ip
 
+        "ip-network" ->
+            Just ipNetwork
+
         "invoice-text-send-outline" ->
             Just invoiceTextSendOutline
 
         "ip-network-outline" ->
             Just ipNetworkOutline
-
-        "ip-network" ->
-            Just ipNetwork
 
         "ip-outline" ->
             Just ipOutline
@@ -1782,23 +1782,23 @@ lookup name =
         "ipod" ->
             Just ipod
 
-        "iron-board" ->
-            Just ironBoard
-
         "iron" ->
             Just iron
 
-        "iron-outline" ->
-            Just ironOutline
+        "iron-board" ->
+            Just ironBoard
 
         "island" ->
             Just island
 
-        "iv-bag" ->
-            Just ivBag
+        "iron-outline" ->
+            Just ironOutline
 
         "island-variant" ->
             Just islandVariant
+
+        "iv-bag" ->
+            Just ivBag
 
         _ ->
             Nothing

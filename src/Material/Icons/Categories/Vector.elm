@@ -4,8 +4,8 @@
 
 module Material.Icons.Categories.Vector exposing
     ( vectorArrangeAbove
-    , vectorArrangeBelow
     , vectorBezier
+    , vectorArrangeBelow
     , vectorCircle
     , vectorCircleVariant
     , vectorCombine
@@ -19,8 +19,8 @@ module Material.Icons.Categories.Vector exposing
     , vectorLink
     , vectorPoint
     , vectorPointEdit
-    , vectorPointMinus
     , vectorPointPlus
+    , vectorPointMinus
     , vectorPointSelect
     , vectorPolygon
     , vectorPolygonVariant
@@ -42,8 +42,8 @@ module Material.Icons.Categories.Vector exposing
 {-| This module contains icons in the Material.Icons.Categories.Vector category.
 
 @docs vectorArrangeAbove
-@docs vectorArrangeBelow
 @docs vectorBezier
+@docs vectorArrangeBelow
 @docs vectorCircle
 @docs vectorCircleVariant
 @docs vectorCombine
@@ -57,8 +57,8 @@ module Material.Icons.Categories.Vector exposing
 @docs vectorLink
 @docs vectorPoint
 @docs vectorPointEdit
-@docs vectorPointMinus
 @docs vectorPointPlus
+@docs vectorPointMinus
 @docs vectorPointSelect
 @docs vectorPolygon
 @docs vectorPolygonVariant
@@ -83,27 +83,39 @@ import Material.Icons.Directory.V
 
 
 {-| The [`vector-arrange-above`](https://pictogrammers.com/library/mdi/icon/vector-arrange-above/) icon.
+
+![vector-arrange-above](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkM2LjY3LDE2IDEwLjMzLDE2IDE0LDE2QzE1LjExLDE2IDE2LDE1LjExIDE2LDE0QzE2LDEwLjMzIDE2LDYuNjcgMTYsM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgzTTMsM0gxNFYxNEgzVjNNMTgsN1Y5SDIwVjIwSDlWMThIN1YyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3SDE4WiIgLz48L3N2Zz4=)
+
 -}
 vectorArrangeAbove : IconShape
 vectorArrangeAbove =
     Material.Icons.Directory.V.vectorArrangeAbove
 
 
-{-| The [`vector-arrange-below`](https://pictogrammers.com/library/mdi/icon/vector-arrange-below/) icon.
--}
-vectorArrangeBelow : IconShape
-vectorArrangeBelow =
-    Material.Icons.Directory.V.vectorArrangeBelow
-
-
 {-| The [`vector-bezier`](https://pictogrammers.com/library/mdi/icon/vector-bezier/) icon.
+
+![vector-bezier](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSw0QTEuNSwxLjUgMCAwLDAgNiw1LjVBMS41LDEuNSAwIDAsMCA3LjUsN0M4LjEzLDcgOC43LDYuNiA4LjkxLDZIMTNDMTMuNjcsNS4zMyAxNC4zMyw1IDE1LDVIOC45MUM4LjcsNC40IDguMTMsNCA3LjUsNE0xOSw1QzgsNSAxNCwxNyA1LDE3VjE5QzE2LDE5IDEwLDcgMTksN1Y1TTE2LjUsMTdDMTUuODcsMTcgMTUuMywxNy40IDE1LjA5LDE4SDExQzEwLjMzLDE4LjY3IDkuNjcsMTkgOSwxOUgxNS4wOUMxNS4zLDE5LjYgMTUuODcsMjAgMTYuNSwyMEExLjUsMS41IDAgMCwwIDE4LDE4LjVBMS41LDEuNSAwIDAsMCAxNi41LDE3WiIgLz48L3N2Zz4=)
+
 -}
 vectorBezier : IconShape
 vectorBezier =
     Material.Icons.Directory.V.vectorBezier
 
 
+{-| The [`vector-arrange-below`](https://pictogrammers.com/library/mdi/icon/vector-arrange-below/) icon.
+
+![vector-arrange-below](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDIyQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdDMTYuMzMsNyAxMi42Nyw3IDksN0M3Ljg5LDcgNyw3Ljg5IDcsOUM3LDEyLjY3IDcsMTYuMzMgNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyME0yMCwyMEg5VjlIMjBWMjBNNSwxNlYxNEgzVjNIMTRWNUgxNlYzQzE2LDEuODkgMTUuMTEsMSAxNCwxSDNDMS44OSwxIDEsMS44OSAxLDNWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVoiIC8+PC9zdmc+)
+
+-}
+vectorArrangeBelow : IconShape
+vectorArrangeBelow =
+    Material.Icons.Directory.V.vectorArrangeBelow
+
+
 {-| The [`vector-circle`](https://pictogrammers.com/library/mdi/icon/vector-circle/) icon.
+
+![vector-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMlY0LjA2QzYuNzIsNC45MiA0LjkyLDYuNzIgNC4wNSw5SDJWMTVINC4wNkM0LjkyLDE3LjI4IDYuNzIsMTkuMDkgOSwxOS45NVYyMkgxNVYxOS45NEMxNy4yOCwxOS4wOCAxOS4wOSwxNy4yOCAxOS45NSwxNUgyMlY5SDE5Ljk0QzE5LjA4LDYuNzIgMTcuMjgsNC45MiAxNSw0LjA1VjJNMTEsNEgxM1Y2SDExTTksNi4yNVY4SDE1VjYuMjVDMTYuMTgsNi44NiAxNy4xNCw3LjgyIDE3Ljc1LDlIMTZWMTVIMTcuNzVDMTcuMTQsMTYuMTggMTYuMTgsMTcuMTQgMTUsMTcuNzVWMTZIOVYxNy43NUM3LjgyLDE3LjE0IDYuODYsMTYuMTggNi4yNSwxNUg4VjlINi4yNUM2Ljg2LDcuODIgNy44Miw2Ljg2IDksNi4yNU00LDExSDZWMTNINE0xOCwxMUgyMFYxM0gxOE0xMSwxOEgxM1YyMEgxMSIgLz48L3N2Zz4=)
+
 -}
 vectorCircle : IconShape
 vectorCircle =
@@ -111,6 +123,9 @@ vectorCircle =
 
 
 {-| The [`vector-circle-variant`](https://pictogrammers.com/library/mdi/icon/vector-circle-variant/) icon.
+
+![vector-circle-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDlIMTkuOTdDMTguNyw1LjQxIDE1LjMxLDMgMTEuNSwzQTksOSAwIDAsMCAyLjUsMTJDMi41LDE3IDYuNTMsMjEgMTEuNSwyMUMxNS4zMSwyMSAxOC43LDE4LjYgMjAsMTVIMjJNMjAsMTFWMTNIMThWMTFNMTcuODIsMTVDMTYuNjYsMTcuNDQgMTQuMiwxOSAxMS41LDE5QzcuNjQsMTkgNC41LDE1Ljg3IDQuNSwxMkM0LjUsOC4xNCA3LjY0LDUgMTEuNSw1QzE0LjIsNSAxNi42Niw2LjU3IDE3LjgxLDlIMTZWMTUiIC8+PC9zdmc+)
+
 -}
 vectorCircleVariant : IconShape
 vectorCircleVariant =
@@ -118,6 +133,9 @@ vectorCircleVariant =
 
 
 {-| The [`vector-combine`](https://pictogrammers.com/library/mdi/icon/vector-combine/) icon.
+
+![vector-combine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkM0LjMzLDE2IDcsMTYgNywxNkM3LDE2IDcsMTguNjcgNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3QzE4LjY3LDcgMTYsNyAxNiw3QzE2LDcgMTYsNC4zMyAxNiwzQzE2LDEuODkgMTUuMTEsMSAxNCwxSDNNMywzSDE0QzE0LDQuMzMgMTQsNyAxNCw3SDlDNy44OSw3IDcsNy44OSA3LDlWMTRDNywxNCA0LjMzLDE0IDMsMTRWM005LDlIMTRWMTRIOVY5TTE2LDlDMTYsOSAxOC42Nyw5IDIwLDlWMjBIOUM5LDE4LjY3IDksMTYgOSwxNkgxNEMxNS4xMSwxNiAxNiwxNS4xMSAxNiwxNFY5WiIgLz48L3N2Zz4=)
+
 -}
 vectorCombine : IconShape
 vectorCombine =
@@ -125,6 +143,9 @@ vectorCombine =
 
 
 {-| The [`vector-curve`](https://pictogrammers.com/library/mdi/icon/vector-curve/) icon.
+
+![vector-curve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUsMkExLjUsMS41IDAgMCwxIDIwLDMuNUExLjUsMS41IDAgMCwxIDE4LjUsNUMxOC4yNyw1IDE4LjA1LDQuOTUgMTcuODUsNC44NUwxNC4xNiw4LjU1TDE0LjUsOUMxNi42OSw3Ljc0IDE5LjI2LDcgMjIsN0wyMyw3LjAzVjkuMDRMMjIsOUMxOS40Miw5IDE3LDkuNzUgMTUsMTEuMDRBMy45NiwzLjk2IDAgMCwxIDExLjA0LDE1QzkuNzUsMTcgOSwxOS40MiA5LDIyTDkuMDQsMjNINy4wM0w3LDIyQzcsMTkuMjYgNy43NCwxNi42OSA5LDE0LjVMOC41NSwxNC4xNkw0Ljg1LDE3Ljg1QzQuOTUsMTguMDUgNSwxOC4yNyA1LDE4LjVBMS41LDEuNSAwIDAsMSAzLjUsMjBBMS41LDEuNSAwIDAsMSAyLDE4LjVBMS41LDEuNSAwIDAsMSAzLjUsMTdDMy43MywxNyAzLjk1LDE3LjA1IDQuMTUsMTcuMTVMNy44NCwxMy40NUM3LjMxLDEyLjc4IDcsMTEuOTIgNywxMUE0LDQgMCAwLDEgMTEsN0MxMS45Miw3IDEyLjc4LDcuMzEgMTMuNDUsNy44NEwxNy4xNSw0LjE1QzE3LjA1LDMuOTUgMTcsMy43MyAxNywzLjVBMS41LDEuNSAwIDAsMSAxOC41LDJNMTEsOUEyLDIgMCAwLDAgOSwxMUEyLDIgMCAwLDAgMTEsMTNBMiwyIDAgMCwwIDEzLDExQTIsMiAwIDAsMCAxMSw5WiIgLz48L3N2Zz4=)
+
 -}
 vectorCurve : IconShape
 vectorCurve =
@@ -132,6 +153,9 @@ vectorCurve =
 
 
 {-| The [`vector-difference`](https://pictogrammers.com/library/mdi/icon/vector-difference/) icon.
+
+![vector-difference](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg1VjE0SDNWM0gxNFY1SDE2VjNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM005LDdDNy44OSw3IDcsNy44OSA3LDlWMTFIOVY5SDExVjdIOU0xMyw3VjlIMTRWMTBIMTZWN0gxM00xOCw3VjlIMjBWMjBIOVYxOEg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNMTQsMTJWMTRIMTJWMTZIMTRDMTUuMTEsMTYgMTYsMTUuMTEgMTYsMTRWMTJIMTRNNywxM1YxNkgxMFYxNEg5VjEzSDdaIiAvPjwvc3ZnPg==)
+
 -}
 vectorDifference : IconShape
 vectorDifference =
@@ -139,6 +163,9 @@ vectorDifference =
 
 
 {-| The [`vector-difference-ab`](https://pictogrammers.com/library/mdi/icon/vector-difference-ab/) icon.
+
+![vector-difference-ab](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1Y1SDNWM0g1VjFIM003LDFWM0gxMFYxSDdNMTIsMVYzSDE0VjVIMTZWM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgxMk0xLDdWMTBIM1Y3SDFNMTQsN0MxNCw3IDE0LDExLjY3IDE0LDE0QzExLjY3LDE0IDcsMTQgNywxNEM3LDE0IDcsMTggNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3QzE4LDcgMTQsNyAxNCw3TTE2LDlIMjBWMjBIOVYxNkgxNEMxNS4xMSwxNiAxNiwxNS4xMSAxNiwxNFY5TTEsMTJWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVYxNEgzVjEySDFaIiAvPjwvc3ZnPg==)
+
 -}
 vectorDifferenceAb : IconShape
 vectorDifferenceAb =
@@ -146,6 +173,9 @@ vectorDifferenceAb =
 
 
 {-| The [`vector-difference-ba`](https://pictogrammers.com/library/mdi/icon/vector-difference-ba/) icon.
+
+![vector-difference-ba](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDIyQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjE4SDIwVjIwSDE4VjIySDIwTTE2LDIyVjIwSDEzVjIySDE2TTExLDIyVjIwSDlWMThIN1YyMEM3LDIxLjExIDcuODksMjIgOSwyMkgxMU0yMiwxNlYxM0gyMFYxNkgyMk05LDE2QzksMTYgOSwxMS4zMyA5LDlDMTEuMzMsOSAxNiw5IDE2LDlDMTYsOSAxNiw1IDE2LDNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM0MxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkM1LDE2IDksMTYgOSwxNk03LDE0SDNWM0gxNFY3SDlDNy44OSw3IDcsNy44OSA3LDlWMTRNMjIsMTFWOUMyMiw3Ljg5IDIxLjExLDcgMjAsN0gxOFY5SDIwVjExSDIyWiIgLz48L3N2Zz4=)
+
 -}
 vectorDifferenceBa : IconShape
 vectorDifferenceBa =
@@ -153,6 +183,9 @@ vectorDifferenceBa =
 
 
 {-| The [`vector-ellipse`](https://pictogrammers.com/library/mdi/icon/vector-ellipse/) icon.
+
+![vector-ellipse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDlWMTVIMjAuMzVDMTkuMzgsMTcuMTIgMTcuNDMsMTguNzggMTUsMTkuNTRWMjJIOVYxOS41NEM1LjUsMTguNDUgMywxNS41IDMsMTJDMyw3LjU4IDcuMDMsNCAxMiw0QzE1Ljc4LDQgMTksNi4wNyAyMC4zNSw5SDIzTTE3LDE1VjlIMTguMDZDMTYuODUsNy4yMSAxNC41OSw2IDEyLDZDOC4xMyw2IDUsOC42OSA1LDEyQzUsMTQuMzkgNi42NCwxNi40NiA5LDE3LjQyVjE2SDE1VjE3LjQyQzE2LjI5LDE2LjkgMTcuMzUsMTYuMDUgMTguMDYsMTVIMTdNMTksMTNIMjFWMTFIMTlWMTNNMTEsMjBIMTNWMThIMTFWMjBaIiAvPjwvc3ZnPg==)
+
 -}
 vectorEllipse : IconShape
 vectorEllipse =
@@ -160,6 +193,9 @@ vectorEllipse =
 
 
 {-| The [`vector-intersection`](https://pictogrammers.com/library/mdi/icon/vector-intersection/) icon.
+
+![vector-intersection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMuMTQsMUEyLjE0LDIuMTQgMCAwLDAgMSwzLjE0VjVIM1YzSDVWMUgzLjE0TTcsMVYzSDEwVjFIN00xMiwxVjNIMTRWNUgxNlYzLjE0QzE2LDEuOTYgMTUuMDQsMSAxMy44NiwxSDEyTTEsN1YxMEgzVjdIMU05LDdDNy44OSw3IDcsNy44OSA3LDlDNywxMS4zMyA3LDE2IDcsMTZDNywxNiAxMS41NywxNiAxMy44NiwxNkEyLjE0LDIuMTQgMCAwLDAgMTYsMTMuODZDMTYsMTEuNTcgMTYsNyAxNiw3QzE2LDcgMTEuMzMsNyA5LDdNMTgsN1Y5SDIwVjExSDIyVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNOSw5SDE0VjE0SDlWOU0xLDEyVjEzLjg2QzEsMTUuMDQgMS45NiwxNiAzLjE0LDE2SDVWMTRIM1YxMkgxTTIwLDEzVjE2SDIyVjEzSDIwTTcsMThWMjBDNywyMS4xMSA3Ljg5LDIyIDksMjJIMTFWMjBIOVYxOEg3TTIwLDE4VjIwSDE4VjIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjE4SDIwTTEzLDIwVjIySDE2VjIwSDEzWiIgLz48L3N2Zz4=)
+
 -}
 vectorIntersection : IconShape
 vectorIntersection =
@@ -167,6 +203,9 @@ vectorIntersection =
 
 
 {-| The [`vector-line`](https://pictogrammers.com/library/mdi/icon/vector-line/) icon.
+
+![vector-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNWNy41OUw3LjU5LDE1SDNWMjFIOVYxNi40MkwxNi40Miw5SDIxVjNNMTcsNUgxOVY3SDE3TTUsMTdIN1YxOUg1IiAvPjwvc3ZnPg==)
+
 -}
 vectorLine : IconShape
 vectorLine =
@@ -174,6 +213,9 @@ vectorLine =
 
 
 {-| The [`vector-link`](https://pictogrammers.com/library/mdi/icon/vector-link/) icon.
+
+![vector-link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMUMxLjg5IDEgMSAxLjg5IDEgM1YxNEMxIDE1LjExIDEuODkgMTYgMyAxNkgxNEMxNS4xMSAxNiAxNiAxNS4xMSAxNiAxNFYxMUgxNFYxNEgzVjNIMTRWNUgxNlYzQzE2IDEuODkgMTUuMTEgMSAxNCAxTTkgN0M3Ljg5IDcgNyA3Ljg5IDcgOVYxMkg5VjlIMjBWMjBIOVYxOEg3VjIwQzcgMjEuMTEgNy44OSAyMiA5IDIySDIwQzIxLjExIDIyIDIyIDIxLjExIDIyIDIwVjlDMjIgNy44OSAyMS4xMSA3IDIwIDdIOSIgLz48L3N2Zz4=)
+
 -}
 vectorLink : IconShape
 vectorLink =
@@ -181,6 +223,9 @@ vectorLink =
 
 
 {-| The [`vector-point`](https://pictogrammers.com/library/mdi/icon/vector-point/) icon.
+
+![vector-point](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFaIiAvPjwvc3ZnPg==)
+
 -}
 vectorPoint : IconShape
 vectorPoint =
@@ -188,27 +233,39 @@ vectorPoint =
 
 
 {-| The [`vector-point-edit`](https://pictogrammers.com/library/mdi/icon/vector-point-edit/) icon.
+
+![vector-point-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMjEuMiAxM0MyMS4xIDEzIDIwLjkgMTMuMSAyMC44IDEzLjJMMTkuOCAxNC4yTDIxLjkgMTYuM0wyMi45IDE1LjNDMjMuMSAxNS4xIDIzLjEgMTQuNyAyMi45IDE0LjVMMjEuNiAxMy4yQzIxLjQgMTMuMSAyMS4zIDEzIDIxLjIgMTNNMTkuMSAxNC44TDEzIDIwLjlWMjNIMTUuMUwyMS4yIDE2LjhMMTkuMSAxNC44WiIgLz48L3N2Zz4=)
+
 -}
 vectorPointEdit : IconShape
 vectorPointEdit =
     Material.Icons.Directory.V.vectorPointEdit
 
 
-{-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
--}
-vectorPointMinus : IconShape
-vectorPointMinus =
-    Material.Icons.Directory.V.vectorPointMinus
-
-
 {-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
+
+![vector-point-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMTggMTVWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBWMTVIMThaIiAvPjwvc3ZnPg==)
+
 -}
 vectorPointPlus : IconShape
 vectorPointPlus =
     Material.Icons.Directory.V.vectorPointPlus
 
 
+{-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
+
+![vector-point-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMTUgMThWMjBIMjNWMThIMTVaIiAvPjwvc3ZnPg==)
+
+-}
+vectorPointMinus : IconShape
+vectorPointMinus =
+    Material.Icons.Directory.V.vectorPointMinus
+
+
 {-| The [`vector-point-select`](https://pictogrammers.com/library/mdi/icon/vector-point-select/) icon.
+
+![vector-point-select](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIwTDcsMjJMMTIsMTFMMTcsMjJMMTIsMjBNOCwySDE2VjVIMjJWN0gxNlYxMEg4VjdIMlY1SDhWMk0xMCw0VjhIMTRWNEgxMFoiIC8+PC9zdmc+)
+
 -}
 vectorPointSelect : IconShape
 vectorPointSelect =
@@ -216,6 +273,9 @@ vectorPointSelect =
 
 
 {-| The [`vector-polygon`](https://pictogrammers.com/library/mdi/icon/vector-polygon/) icon.
+
+![vector-polygon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMlY4SDQuMjhMNS41NywxNkg0VjIySDEwVjIwLjA2TDE1LDIwLjA1VjIySDIxVjE2SDE5LjE3TDIwLDlIMjJWM0gxNlY2LjUzTDE0LjgsOEg5LjU5TDgsNS44MlYyTTQsNEg2VjZINE0xOCw1SDIwVjdIMThNNi4zMSw4SDcuMTFMOSwxMC41OVYxNEgxNVYxMC45MUwxNi41Nyw5SDE4TDE3LjE2LDE2SDE1VjE4LjA2SDEwVjE2SDcuNk0xMSwxMEgxM1YxMkgxMU02LDE4SDhWMjBINk0xNywxOEgxOVYyMEgxNyIgLz48L3N2Zz4=)
+
 -}
 vectorPolygon : IconShape
 vectorPolygon =
@@ -223,6 +283,9 @@ vectorPolygon =
 
 
 {-| The [`vector-polygon-variant`](https://pictogrammers.com/library/mdi/icon/vector-polygon-variant/) icon.
+
+![vector-polygon-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMkgxNlY1LjhMMTQuNCA4SDkuNkw4IDUuOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyTTExIDEwSDEzVjEySDExVjEwTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE2IDE4SDhWMTZINlY4SDcuMUw5IDEwLjZWMTRIMTVWMTAuNkwxNi45IDhIMThWMTZIMTZWMThNMjAgMjBIMThWMThIMjBWMjBNMTggNlY0SDIwVjZIMThaIiAvPjwvc3ZnPg==)
+
 -}
 vectorPolygonVariant : IconShape
 vectorPolygonVariant =
@@ -230,6 +293,9 @@ vectorPolygonVariant =
 
 
 {-| The [`vector-polyline`](https://pictogrammers.com/library/mdi/icon/vector-polyline/) icon.
+
+![vector-polyline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgM1Y5SDQuOTVMNi45NSAxNUg2VjIxSDEyVjE2LjQxTDE3LjQxIDExSDIyVjVIMTZWOS41N0wxMC41OSAxNUg5LjA2TDcuMDYgOUg4VjNNNCA1SDZWN0g0TTE4IDdIMjBWOUgxOE04IDE3SDEwVjE5SDhaIiAvPjwvc3ZnPg==)
+
 -}
 vectorPolyline : IconShape
 vectorPolyline =
@@ -237,6 +303,9 @@ vectorPolyline =
 
 
 {-| The [`vector-radius`](https://pictogrammers.com/library/mdi/icon/vector-radius/) icon.
+
+![vector-radius](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNEg0VjJIMTBWNEExMCwxMCAwIDAsMSAyMCwxNEgyMlYyMEgyMFYyMkgxOFYyMEgxNlYxNEgxOEE4LDggMCAwLDAgMTAsNlY4SDRWNkgyVjRNMTgsMTZWMThIMjBWMTZIMThNNiw0VjZIOFY0SDZaIiAvPjwvc3ZnPg==)
+
 -}
 vectorRadius : IconShape
 vectorRadius =
@@ -244,6 +313,9 @@ vectorRadius =
 
 
 {-| The [`vector-rectangle`](https://pictogrammers.com/library/mdi/icon/vector-rectangle/) icon.
+
+![vector-rectangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNEg4VjZIMTZWNEgyMlYxMEgyMFYxNEgyMlYyMEgxNlYxOEg4VjIwSDJWMTRINFYxMEgyVjRNMTYsMTBWOEg4VjEwSDZWMTRIOFYxNkgxNlYxNEgxOFYxMEgxNk00LDZWOEg2VjZINE0xOCw2VjhIMjBWNkgxOE00LDE2VjE4SDZWMTZINE0xOCwxNlYxOEgyMFYxNkgxOFoiIC8+PC9zdmc+)
+
 -}
 vectorRectangle : IconShape
 vectorRectangle =
@@ -251,6 +323,9 @@ vectorRectangle =
 
 
 {-| The [`vector-selection`](https://pictogrammers.com/library/mdi/icon/vector-selection/) icon.
+
+![vector-selection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUg1VjNIM1Y1SDFWM0EyLDIgMCAwLDEgMywxTTE0LDFBMiwyIDAgMCwxIDE2LDNWNUgxNFYzSDEyVjFIMTRNMjAsN0EyLDIgMCAwLDEgMjIsOVYxMUgyMFY5SDE4VjdIMjBNMjIsMjBBMiwyIDAgMCwxIDIwLDIySDE4VjIwSDIwVjE4SDIyVjIwTTIwLDEzSDIyVjE2SDIwVjEzTTEzLDlWN0gxNlYxMEgxNFY5SDEzTTEzLDIyVjIwSDE2VjIySDEzTTksMjJBMiwyIDAgMCwxIDcsMjBWMThIOVYyMEgxMVYyMkg5TTcsMTZWMTNIOVYxNEgxMFYxNkg3TTcsM1YxSDEwVjNIN00zLDE2QTIsMiAwIDAsMSAxLDE0VjEySDNWMTRINVYxNkgzTTEsN0gzVjEwSDFWN005LDdIMTFWOUg5VjExSDdWOUEyLDIgMCAwLDEgOSw3TTE2LDE0QTIsMiAwIDAsMSAxNCwxNkgxMlYxNEgxNFYxMkgxNlYxNFoiIC8+PC9zdmc+)
+
 -}
 vectorSelection : IconShape
 vectorSelection =
@@ -258,6 +333,9 @@ vectorSelection =
 
 
 {-| The [`vector-square`](https://pictogrammers.com/library/mdi/icon/vector-square/) icon.
+
+![vector-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMkg4VjRIMTZWMkgyMlY4SDIwVjE2SDIyVjIySDE2VjIwSDhWMjJIMlYxNkg0VjhIMlYyTTE2LDhWNkg4VjhINlYxNkg4VjE4SDE2VjE2SDE4VjhIMTZNNCw0VjZINlY0SDRNMTgsNFY2SDIwVjRIMThNNCwxOFYyMEg2VjE4SDRNMTgsMThWMjBIMjBWMThIMThaIiAvPjwvc3ZnPg==)
+
 -}
 vectorSquare : IconShape
 vectorSquare =
@@ -265,6 +343,9 @@ vectorSquare =
 
 
 {-| The [`vector-square-close`](https://pictogrammers.com/library/mdi/icon/vector-square-close/) icon.
+
+![vector-square-close](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE4IDhWMTZIMTZWMThIOFYxNkg2VjhIOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyVjJIMTZWOEgxOE0yMCAyMEgxOFYxOEgyMFYyME0xOCA2VjRIMjBWNkgxOE0xNCA2SDEwVjRIMTRWNloiIC8+PC9zdmc+)
+
 -}
 vectorSquareClose : IconShape
 vectorSquareClose =
@@ -272,6 +353,9 @@ vectorSquareClose =
 
 
 {-| The [`vector-square-edit`](https://pictogrammers.com/library/mdi/icon/vector-square-edit/) icon.
+
+![vector-square-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjcgMTQuNEwyMS43IDE1LjRMMTkuNiAxMy4zTDIwLjYgMTIuM0MyMC44IDEyLjEgMjEuMiAxMi4xIDIxLjQgMTIuM0wyMi43IDEzLjZDMjIuOSAxMy44IDIyLjkgMTQuMSAyMi43IDE0LjRNMTMgMTkuOUwxOS4xIDEzLjhMMjEuMiAxNS45TDE1LjEgMjJIMTNWMTkuOU0xMSAxOS45VjE5LjFMMTEuNiAxOC41TDEyLjEgMThIOFYxNkg2VjhIOFY2SDE2VjhIMThWMTIuMUwxOS4xIDExTDE5LjMgMTAuOEMxOS41IDEwLjYgMTkuOCAxMC40IDIwLjEgMTAuM1Y4SDIyLjFWMkgxNi4xVjRIOFYySDJWOEg0VjE2SDJWMjJIOFYyMEwxMSAxOS45TTE4IDRIMjBWNkgxOFY0TTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwWiIgLz48L3N2Zz4=)
+
 -}
 vectorSquareEdit : IconShape
 vectorSquareEdit =
@@ -279,6 +363,9 @@ vectorSquareEdit =
 
 
 {-| The [`vector-square-minus`](https://pictogrammers.com/library/mdi/icon/vector-square-minus/) icon.
+
+![vector-square-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE4LjcgMTMgMTguMyAxMy4xIDE4SDhWMTZINlY4SDhWNkgxNlY4SDE4VjEzLjFDMTguMyAxMyAxOC43IDEzIDE5IDEzQzE5LjMgMTMgMTkuNyAxMyAyMCAxMy4xVjhIMjJWMkgxNlY0SDhWMkgyVjhINFYxNkgyVjIySDhWMjBIMTMuMUMxMyAxOS43IDEzIDE5LjMgMTMgMTlNMTggNEgyMFY2SDE4VjRNNCA0SDZWNkg0VjRNNiAyMEg0VjE4SDZWMjBNMjMgMThWMjBIMTVWMThIMjNaIiAvPjwvc3ZnPg==)
+
 -}
 vectorSquareMinus : IconShape
 vectorSquareMinus =
@@ -286,6 +373,9 @@ vectorSquareMinus =
 
 
 {-| The [`vector-square-open`](https://pictogrammers.com/library/mdi/icon/vector-square-open/) icon.
+
+![vector-square-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE4IDhWMTZIMTZWMThIOFYxNkg2VjhIOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyVjJIMTZWOEgxOE0yMCAyMEgxOFYxOEgyMFYyME0xOCA2VjRIMjBWNkgxOFoiIC8+PC9zdmc+)
+
 -}
 vectorSquareOpen : IconShape
 vectorSquareOpen =
@@ -293,6 +383,9 @@ vectorSquareOpen =
 
 
 {-| The [`vector-square-plus`](https://pictogrammers.com/library/mdi/icon/vector-square-plus/) icon.
+
+![vector-square-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE4LjcgMTMgMTguMyAxMy4xIDE4SDhWMTZINlY4SDhWNkgxNlY4SDE4VjEzLjFDMTguMyAxMyAxOC43IDEzIDE5IDEzQzE5LjMgMTMgMTkuNyAxMyAyMCAxMy4xVjhIMjJWMkgxNlY0SDhWMkgyVjhINFYxNkgyVjIySDhWMjBIMTMuMUMxMyAxOS43IDEzIDE5LjMgMTMgMTlNMTggNEgyMFY2SDE4VjRNNCA0SDZWNkg0VjRNNiAyMEg0VjE4SDZWMjBNMjAgMTVWMThIMjNWMjBIMjBWMjNIMThWMjBIMTVWMThIMThWMTVIMjBaIiAvPjwvc3ZnPg==)
+
 -}
 vectorSquarePlus : IconShape
 vectorSquarePlus =
@@ -300,6 +393,9 @@ vectorSquarePlus =
 
 
 {-| The [`vector-square-remove`](https://pictogrammers.com/library/mdi/icon/vector-square-remove/) icon.
+
+![vector-square-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE4LjcgMTMgMTguMyAxMy4xIDE4SDhWMTZINlY4SDhWNkgxNlY4SDE4VjEzLjFDMTguMyAxMyAxOC43IDEzIDE5IDEzQzE5LjMgMTMgMTkuNyAxMyAyMCAxMy4xVjhIMjJWMkgxNlY0SDhWMkgyVjhINFYxNkgyVjIySDhWMjBIMTMuMUMxMyAxOS43IDEzIDE5LjMgMTMgMTlNMTggNEgyMFY2SDE4VjRNNCA0SDZWNkg0VjRNNiAyMEg0VjE4SDZWMjBNMjIuNSAxNi45TDIwLjQgMTlMMjIuNSAyMS4xTDIxLjEgMjIuNUwxOSAyMC40TDE2LjkgMjIuNUwxNS41IDIxLjFMMTcuNiAxOUwxNS41IDE2LjlMMTYuOSAxNS41TDE5IDE3LjZMMjEuMSAxNS41TDIyLjUgMTYuOVoiIC8+PC9zdmc+)
+
 -}
 vectorSquareRemove : IconShape
 vectorSquareRemove =
@@ -307,6 +403,9 @@ vectorSquareRemove =
 
 
 {-| The [`vector-triangle`](https://pictogrammers.com/library/mdi/icon/vector-triangle/) icon.
+
+![vector-triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksM1Y5SDkuNzNMNS43OSwxNkgyVjIySDhWMjBIMTZWMjJIMjJWMTZIMTguMjFMMTQuMjcsOUgxNVYzTTExLDVIMTNWN0gxMU0xMiw5LjA0TDE2LDE2LjE1VjE4SDhWMTYuMTVNNCwxOEg2VjIwSDRNMTgsMThIMjBWMjBIMTgiIC8+PC9zdmc+)
+
 -}
 vectorTriangle : IconShape
 vectorTriangle =
@@ -314,6 +413,9 @@ vectorTriangle =
 
 
 {-| The [`vector-union`](https://pictogrammers.com/library/mdi/icon/vector-union/) icon.
+
+![vector-union](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMTZWM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgzTTMsM0gxNFY5SDIwVjIwSDlWMTRIM1YzWiIgLz48L3N2Zz4=)
+
 -}
 vectorUnion : IconShape
 vectorUnion =

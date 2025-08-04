@@ -702,13 +702,6 @@ decimal =
     iconShape "M10 7A3 3 0 0 0 7 10V13A3 3 0 0 0 13 13V10A3 3 0 0 0 10 7M11 13A1 1 0 0 1 9 13V10A1 1 0 0 1 11 10M17 7A3 3 0 0 0 14 10V13A3 3 0 0 0 20 13V10A3 3 0 0 0 17 7M18 13A1 1 0 0 1 16 13V10A1 1 0 0 1 18 10M6 15A1 1 0 1 1 5 14A1 1 0 0 1 6 15Z"
 
 
-{-| The [`decimal-comma`](https://pictogrammers.com/library/mdi/icon/decimal-comma/) icon.
--}
-decimalComma : IconShape
-decimalComma =
-    iconShape "M10 7A3 3 0 0 1 13 10V13A3 3 0 0 1 7 13V10A3 3 0 0 1 10 7M10 9A1 1 0 0 0 9 10V13A1 1 0 0 0 11 13V10A1 1 0 0 0 10 9M17 7A3 3 0 0 1 20 10V13A3 3 0 0 1 14 13V10A3 3 0 0 1 17 7M17 9A1 1 0 0 0 16 10V13A1 1 0 0 0 18 13V10A1 1 0 0 0 17 9M5 14A1 1 0 0 0 4 15L5 18H6V15A1 1 0 0 0 5 14Z"
-
-
 {-| The [`decimal-comma-decrease`](https://pictogrammers.com/library/mdi/icon/decimal-comma-decrease/) icon.
 -}
 decimalCommaDecrease : IconShape
@@ -721,6 +714,13 @@ decimalCommaDecrease =
 decimalCommaIncrease : IconShape
 decimalCommaIncrease =
     iconShape "M9 5A3 3 0 0 0 6 8V11A3 3 0 0 0 12 11V8A3 3 0 0 0 9 5M10 11A1 1 0 0 1 8 11V8A1 1 0 0 1 10 8M16 14A3 3 0 0 0 19 11V8A3 3 0 0 0 13 8V11A3 3 0 0 0 16 14M15 8A1 1 0 0 1 17 8V11A1 1 0 0 1 15 11M19 20V18H13V16H19V14L22 17M5 13V16H4L3 13A1 1 0 0 1 5 13Z"
+
+
+{-| The [`decimal-comma`](https://pictogrammers.com/library/mdi/icon/decimal-comma/) icon.
+-}
+decimalComma : IconShape
+decimalComma =
+    iconShape "M10 7A3 3 0 0 1 13 10V13A3 3 0 0 1 7 13V10A3 3 0 0 1 10 7M10 9A1 1 0 0 0 9 10V13A1 1 0 0 0 11 13V10A1 1 0 0 0 10 9M17 7A3 3 0 0 1 20 10V13A3 3 0 0 1 14 13V10A3 3 0 0 1 17 7M17 9A1 1 0 0 0 16 10V13A1 1 0 0 0 18 13V10A1 1 0 0 0 17 9M5 14A1 1 0 0 0 4 15L5 18H6V15A1 1 0 0 0 5 14Z"
 
 
 {-| The [`decimal-decrease`](https://pictogrammers.com/library/mdi/icon/decimal-decrease/) icon.
@@ -1724,18 +1724,18 @@ downloadCircle =
     iconShape "M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M8 17H16V15H8V17M16 10H13.5V6H10.5V10H8L12 14L16 10Z"
 
 
-{-| The [`download-circle-outline`](https://pictogrammers.com/library/mdi/icon/download-circle-outline/) icon.
--}
-downloadCircleOutline : IconShape
-downloadCircleOutline =
-    iconShape "M8 17V15H16V17H8M16 10L12 14L8 10H10.5V6H13.5V10H16M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4Z"
-
-
 {-| The [`download-lock`](https://pictogrammers.com/library/mdi/icon/download-lock/) icon.
 -}
 downloadLock : IconShape
 downloadLock =
     iconShape "M5 20H14V18H5M19 9H15V3H9V9H5L12 16M22 16A1.08 1.08 0 0 1 23 17V21A1.08 1.08 0 0 1 22 22H17A1.08 1.08 0 0 1 16 21V17A1.08 1.08 0 0 1 17 16V14.5A2.5 2.5 0 0 1 22 14.5V16M21 16V14.5A1.5 1.5 0 0 0 18 14.5V16H21"
+
+
+{-| The [`download-circle-outline`](https://pictogrammers.com/library/mdi/icon/download-circle-outline/) icon.
+-}
+downloadCircleOutline : IconShape
+downloadCircleOutline =
+    iconShape "M8 17V15H16V17H8M16 10L12 14L8 10H10.5V6H13.5V10H16M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4Z"
 
 
 {-| The [`download-lock-outline`](https://pictogrammers.com/library/mdi/icon/download-lock-outline/) icon.
@@ -2117,14 +2117,14 @@ lookup name =
         "decimal" ->
             Just decimal
 
-        "decimal-comma" ->
-            Just decimalComma
-
         "decimal-comma-decrease" ->
             Just decimalCommaDecrease
 
         "decimal-comma-increase" ->
             Just decimalCommaIncrease
+
+        "decimal-comma" ->
+            Just decimalComma
 
         "decimal-decrease" ->
             Just decimalDecrease
@@ -2555,11 +2555,11 @@ lookup name =
         "download-circle" ->
             Just downloadCircle
 
-        "download-circle-outline" ->
-            Just downloadCircleOutline
-
         "download-lock" ->
             Just downloadLock
+
+        "download-circle-outline" ->
+            Just downloadCircleOutline
 
         "download-lock-outline" ->
             Just downloadLockOutline
