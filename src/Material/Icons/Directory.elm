@@ -1,4 +1,18 @@
+-- SPDX-License-Identifier: BSD-3-Clause
+-- Copyright (c) 2025 curtissimo, llc. All Rights Reserved.
+
+
 module Material.Icons.Directory exposing (lookup)
+
+{-| This module provides a way to look up an icon by its
+name.
+
+    let accountIcon =
+        Material.Icons.Directory.lookup "account"
+
+@docs lookup
+
+-}
 
 import Material.Icons exposing (IconShape)
 import Material.Icons.Directory.A
@@ -29,6 +43,12 @@ import Material.Icons.Directory.Y
 import Material.Icons.Directory.Z
 
 
+{-| Look up an icon by its name.
+
+    let accountIcon =
+        Material.Icons.Directory.lookup "account"
+
+-}
 lookup : String -> Maybe IconShape
 lookup name =
     lookupA name

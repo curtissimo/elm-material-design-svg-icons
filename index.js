@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { glob } from "glob";
 import { resolve, dirname } from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { exec } from 'node:child_process';
@@ -7,7 +8,12 @@ import { exec } from 'node:child_process';
 async function writeElmFile(path, content) {
   const pathsFile = resolve(path);
   await mkdir(dirname(pathsFile), { recursive: true });
-  await writeFile(pathsFile, content.trim() + "\n");
+  const contentWithSpdx = `
+-- SPDX-License-Identifier: BSD-3-Clause
+-- Copyright (c) 2025 curtissimo, llc. All Rights Reserved.
+
+` + content;
+  await writeFile(pathsFile, contentWithSpdx.trim() + "\n");
 }
 
 
@@ -44,11 +50,30 @@ class IconSpecLetterDirectory {
     const content = `
 module ${IconSpecLetterDirectory.basePath.join(".")} exposing (lookup)
 
+{-| This module provides a way to look up an icon by its
+name.
+
+    let accountIcon =
+        ${IconSpecLetterDirectory.basePath.join(".")}.lookup "account"
+
+@docs lookup
+
+-}
+
+
 import Material.Icons exposing (IconShape)
 ${Array.from(IconSpecLetterDirectory.directory.values())
         .map(directory => `import ${directory.moduleName}`)
         .join("\n")
       }
+
+
+{-| Look up an icon by its name.
+
+    let accountIcon =
+        ${IconSpecLetterDirectory.basePath.join(".")}.lookup "account"
+
+-}
 
 
 lookup : String -> Maybe IconShape
@@ -70,7 +95,7 @@ lookup${directory._letter} name =
         .join("\n\n")
       }
 `.substring(1);
-    await writeElmFile(this.basePath.join("/") + ".elm", content);
+    await writeElmFile(this.basePathPrefix.join("/") + "/" + this.basePath.join("/") + ".elm", content);
   }
 
   constructor(letter) {
@@ -101,7 +126,7 @@ lookup${directory._letter} name =
   }
 
   get file() {
-    return this.dir.concat([this._letter + ".elm"]).join("/");
+    return this.dir + "/" + this._letter + ".elm";
   }
 
   get content() {
@@ -114,12 +139,22 @@ lookup${directory._letter} name =
       .join("\n");
 
     return (`
-module ${this.moduleName} exposing (..)
+module ${this.moduleName} exposing (
+  ${this.specs.map(x => x.elmName).join(",")}
+  , lookup
+)
 
 import Material.Icons exposing (IconShape, iconShape)
 
 
 ${defLines}
+
+{-| Look up an icon (which has the first letter "${this._letter.toLowerCase()}") by its name.
+
+    let accountIcon =
+        ${IconSpecLetterDirectory.basePath.join(".")}.lookup "account"
+
+-}
 
 lookup : String -> Maybe IconShape
 lookup name =
@@ -180,7 +215,7 @@ class IconSpecCategoryDirectory {
   }
 
   get file() {
-    return this.dir.concat(this._submoduleName).join("/") + ".elm";
+    return IconSpecCategoryDirectory.basePathPrefix.join("/") + "/" + this._submoduleName.join("/") + ".elm";
   }
 
   addSpec(spec) {
@@ -197,13 +232,23 @@ class IconSpecCategoryDirectory {
     const imports = new Set(this._specs.map(spec => spec.elmName[0].toUpperCase()));
 
     return `
-module ${this._submoduleName.join(".")} exposing (..)
+module ${this._submoduleName.join(".")} exposing (
+  ${this._specs.map(x => x.elmName).join(",")}
+)
+
+{-| This module contains icons in the ${this._submoduleName.join(".")} category.
+
+${this._specs.map(x => x.elmName).map(x => "@docs " + x).join("\n")}
+-}
 
 import Material.Icons exposing (IconShape)
 ${Array.from(imports).toSorted().map(x => `import Material.Icons.Directory.${x}`).join("\n")}
 
 
 ${this._specs.map(spec => `
+{-| The [\`${spec.iconName}\`](https://pictogrammers.com/library/mdi/icon/${spec.iconName}/) icon.
+-}
+
 ${spec.elmName} : IconShape
 ${spec.elmName} =
     Material.Icons.Directory.${spec.elmName[0].toUpperCase()}.${spec.elmName}
@@ -278,6 +323,9 @@ class IconSpec {
 
   get elmDefinition() {
     return `
+{-| The [\`${this.iconName}\`](https://pictogrammers.com/library/mdi/icon/${this.iconName}/) icon.
+-}
+
 ${this.elmName} : IconShape
 ${this.elmName} =
     iconShape "${this.draw}"
@@ -302,35 +350,42 @@ const activeIconReaders = activeIconMetaData.map(async metaData => {
 await Promise.all(activeIconReaders);
 await IconSpecLetterDirectory.writeFiles();
 await IconSpecCategoryDirectory.writeFiles();
-await writeElmFile("Material/Icons.elm", `
+await writeElmFile("src/Material/Icons.elm", `
 module Material.Icons exposing (IconShape, iconShape, toSvg)
+
+{-| This module contains the 
+
+@docs IconShape
+@docs toSvg
+@docs iconShape
+-}
 
 import Html.Attributes exposing (property)
 import Json.Encode as Encode
 import Svg
-import Svg.Attributes exposing (..)
+import Svg.Attributes exposing (viewBox, d, style)
 
 
+{-| The shape of the icon.
+-}
 type IconShape =
     IconShape { path: String }
 
 
-emptyPath : IconShape
-emptyPath = 
-    IconShape { path = "" }
-
-
+{-| Used internally.
+-}
 iconShape : String -> IconShape
 iconShape path =
     IconShape { path = path }
 
 
+{-| Render the \`IconShape\`.
+-}
 toSvg : IconShape -> Svg.Svg msg
 toSvg (IconShape shape) =
     Svg.svg
         [ property "role" (Encode.string "presentation")
         , viewBox "0 0 24 24"
-        , style "height: 3rem; width: 3rem"
         ]
         [ Svg.path
             [ d shape.path
@@ -340,7 +395,16 @@ toSvg (IconShape shape) =
         ]
 `.substring(1));
 
-exec("npx elm-format --yes Material", (error, out, err) => {
+const packages = (await glob("./src/**/*.elm"))
+  .map(x => x.substring(4))
+  .map(x => x.substring(0, x.length - 4))
+  .map(x => x.replaceAll("/", "."))
+  .filter(x => !x.startsWith("Material.Icons.Directory."));
+const elmJson = JSON.parse(await readFile("./elm.json"));
+elmJson["exposed-modules"] = packages;
+await writeFile("./elm.json", JSON.stringify(elmJson, null, 4));
+
+exec("npx elm-format --yes src", (error, out, err) => {
   if (error !== null) {
     console.log(error);
     process.exit(1);

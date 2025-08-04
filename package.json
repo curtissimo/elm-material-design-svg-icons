@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@mdi/svg": "^7.4.47",
-    "fast-xml-parser": "^5.0.9"
+    "fast-xml-parser": "^5.0.9",
+    "glob": "^11.0.3"
   },
   "devDependencies": {
+    "elm-doc-preview": "^6.0.1",
     "elm-review": "^2.13.3",
     "elm-tooling": "^1.15.1"
   }
