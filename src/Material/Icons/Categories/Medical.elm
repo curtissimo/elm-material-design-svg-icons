@@ -80,10 +80,10 @@ module Material.Icons.Categories.Medical exposing
     , stethoscope
     , stomach
     , tooth
-    , toothbrush
     , toothOutline
-    , toothbrushPaste
+    , toothbrush
     , toothbrushElectric
+    , toothbrushPaste
     , truckPlus
     , truckPlusOutline
     , virus
@@ -171,10 +171,10 @@ module Material.Icons.Categories.Medical exposing
 @docs stethoscope
 @docs stomach
 @docs tooth
-@docs toothbrush
 @docs toothOutline
-@docs toothbrushPaste
+@docs toothbrush
 @docs toothbrushElectric
+@docs toothbrushPaste
 @docs truckPlus
 @docs truckPlusOutline
 @docs virus
@@ -743,13 +743,6 @@ tooth =
     Material.Icons.Directory.T.tooth
 
 
-{-| The [`toothbrush`](https://pictogrammers.com/library/mdi/icon/toothbrush/) icon.
--}
-toothbrush : IconShape
-toothbrush =
-    Material.Icons.Directory.T.toothbrush
-
-
 {-| The [`tooth-outline`](https://pictogrammers.com/library/mdi/icon/tooth-outline/) icon.
 -}
 toothOutline : IconShape
@@ -757,11 +750,11 @@ toothOutline =
     Material.Icons.Directory.T.toothOutline
 
 
-{-| The [`toothbrush-paste`](https://pictogrammers.com/library/mdi/icon/toothbrush-paste/) icon.
+{-| The [`toothbrush`](https://pictogrammers.com/library/mdi/icon/toothbrush/) icon.
 -}
-toothbrushPaste : IconShape
-toothbrushPaste =
-    Material.Icons.Directory.T.toothbrushPaste
+toothbrush : IconShape
+toothbrush =
+    Material.Icons.Directory.T.toothbrush
 
 
 {-| The [`toothbrush-electric`](https://pictogrammers.com/library/mdi/icon/toothbrush-electric/) icon.
@@ -769,6 +762,13 @@ toothbrushPaste =
 toothbrushElectric : IconShape
 toothbrushElectric =
     Material.Icons.Directory.T.toothbrushElectric
+
+
+{-| The [`toothbrush-paste`](https://pictogrammers.com/library/mdi/icon/toothbrush-paste/) icon.
+-}
+toothbrushPaste : IconShape
+toothbrushPaste =
+    Material.Icons.Directory.T.toothbrushPaste
 
 
 {-| The [`truck-plus`](https://pictogrammers.com/library/mdi/icon/truck-plus/) icon.

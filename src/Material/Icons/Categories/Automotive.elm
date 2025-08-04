@@ -64,8 +64,8 @@ module Material.Icons.Categories.Automotive exposing
     , carDefrostFront
     , carDefrostRear
     , carDoor
-    , carDoorLock
     , carDoorLockOpen
+    , carDoorLock
     , carElectric
     , carElectricOutline
     , carEmergency
@@ -232,8 +232,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs carDefrostFront
 @docs carDefrostRear
 @docs carDoor
-@docs carDoorLock
 @docs carDoorLockOpen
+@docs carDoorLock
 @docs carElectric
 @docs carElectricOutline
 @docs carEmergency
@@ -784,18 +784,18 @@ carDoor =
     Material.Icons.Directory.C.carDoor
 
 
-{-| The [`car-door-lock`](https://pictogrammers.com/library/mdi/icon/car-door-lock/) icon.
--}
-carDoorLock : IconShape
-carDoorLock =
-    Material.Icons.Directory.C.carDoorLock
-
-
 {-| The [`car-door-lock-open`](https://pictogrammers.com/library/mdi/icon/car-door-lock-open/) icon.
 -}
 carDoorLockOpen : IconShape
 carDoorLockOpen =
     Material.Icons.Directory.C.carDoorLockOpen
+
+
+{-| The [`car-door-lock`](https://pictogrammers.com/library/mdi/icon/car-door-lock/) icon.
+-}
+carDoorLock : IconShape
+carDoorLock =
+    Material.Icons.Directory.C.carDoorLock
 
 
 {-| The [`car-electric`](https://pictogrammers.com/library/mdi/icon/car-electric/) icon.

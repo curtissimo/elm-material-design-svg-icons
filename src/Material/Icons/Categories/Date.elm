@@ -200,8 +200,8 @@ module Material.Icons.Categories.Date exposing
     , timerCancel
     , timerCancelOutline
     , timerCheck
-    , timerCheckOutline
     , timerCog
+    , timerCheckOutline
     , timerCogOutline
     , timerEdit
     , timerEditOutline
@@ -228,8 +228,8 @@ module Material.Icons.Categories.Date exposing
     , timerRefreshOutline
     , timerRemove
     , timerRemoveOutline
-    , timerSandComplete
     , timerSand
+    , timerSandComplete
     , timerSandEmpty
     , timerSandFull
     , timerSandPaused
@@ -447,8 +447,8 @@ module Material.Icons.Categories.Date exposing
 @docs timerCancel
 @docs timerCancelOutline
 @docs timerCheck
-@docs timerCheckOutline
 @docs timerCog
+@docs timerCheckOutline
 @docs timerCogOutline
 @docs timerEdit
 @docs timerEditOutline
@@ -475,8 +475,8 @@ module Material.Icons.Categories.Date exposing
 @docs timerRefreshOutline
 @docs timerRemove
 @docs timerRemoveOutline
-@docs timerSandComplete
 @docs timerSand
+@docs timerSandComplete
 @docs timerSandEmpty
 @docs timerSandFull
 @docs timerSandPaused
@@ -1892,18 +1892,18 @@ timerCheck =
     Material.Icons.Directory.T.timerCheck
 
 
-{-| The [`timer-check-outline`](https://pictogrammers.com/library/mdi/icon/timer-check-outline/) icon.
--}
-timerCheckOutline : IconShape
-timerCheckOutline =
-    Material.Icons.Directory.T.timerCheckOutline
-
-
 {-| The [`timer-cog`](https://pictogrammers.com/library/mdi/icon/timer-cog/) icon.
 -}
 timerCog : IconShape
 timerCog =
     Material.Icons.Directory.T.timerCog
+
+
+{-| The [`timer-check-outline`](https://pictogrammers.com/library/mdi/icon/timer-check-outline/) icon.
+-}
+timerCheckOutline : IconShape
+timerCheckOutline =
+    Material.Icons.Directory.T.timerCheckOutline
 
 
 {-| The [`timer-cog-outline`](https://pictogrammers.com/library/mdi/icon/timer-cog-outline/) icon.
@@ -2088,18 +2088,18 @@ timerRemoveOutline =
     Material.Icons.Directory.T.timerRemoveOutline
 
 
-{-| The [`timer-sand-complete`](https://pictogrammers.com/library/mdi/icon/timer-sand-complete/) icon.
--}
-timerSandComplete : IconShape
-timerSandComplete =
-    Material.Icons.Directory.T.timerSandComplete
-
-
 {-| The [`timer-sand`](https://pictogrammers.com/library/mdi/icon/timer-sand/) icon.
 -}
 timerSand : IconShape
 timerSand =
     Material.Icons.Directory.T.timerSand
+
+
+{-| The [`timer-sand-complete`](https://pictogrammers.com/library/mdi/icon/timer-sand-complete/) icon.
+-}
+timerSandComplete : IconShape
+timerSandComplete =
+    Material.Icons.Directory.T.timerSandComplete
 
 
 {-| The [`timer-sand-empty`](https://pictogrammers.com/library/mdi/icon/timer-sand-empty/) icon.

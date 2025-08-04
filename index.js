@@ -81,7 +81,13 @@ lookup name =
     lookupA name
 
 
+lookupZ : String -> Maybe IconShape
+lookupZ name =
+  Material.Icons.Directory.Z.lookup name
+
+
 ${Array.from(IconSpecLetterDirectory.directory.values())
+        .filter(x => x._letter !== "Z")
         .map(directory => `
 lookup${directory._letter} : String -> Maybe IconShape
 lookup${directory._letter} name =

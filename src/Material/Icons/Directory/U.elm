@@ -71,18 +71,18 @@ ultraHighDefinition =
     iconShape "M9,7H11V11H13V7H15V17H13V13H11V17H9V7M17,7H20A3,3 0 0,1 23,10V14A3,3 0 0,1 20,17H17V7M20,15A1,1 0 0,0 21,14V10A1,1 0 0,0 20,9H19V15H20M7,14A3,3 0 0,1 4,17A3,3 0 0,1 1,14V7H3V14A1,1 0 0,0 4,15A1,1 0 0,0 5,14V7H7V14Z"
 
 
-{-| The [`umbrella`](https://pictogrammers.com/library/mdi/icon/umbrella/) icon.
--}
-umbrella : IconShape
-umbrella =
-    iconShape "M12,2A9,9 0 0,1 21,11H13V19A3,3 0 0,1 10,22A3,3 0 0,1 7,19V18H9V19A1,1 0 0,0 10,20A1,1 0 0,0 11,19V11H3A9,9 0 0,1 12,2Z"
-
-
 {-| The [`umbrella-beach`](https://pictogrammers.com/library/mdi/icon/umbrella-beach/) icon.
 -}
 umbrellaBeach : IconShape
 umbrellaBeach =
     iconShape "M13.13 14.56L14.56 13.13L21 19.57L19.57 21L13.13 14.56M17.42 8.83L20.28 5.97C16.33 2 9.93 2 6 5.95C9.91 4.65 14.29 5.7 17.42 8.83M5.95 6C2 9.93 2 16.33 5.97 20.28L8.83 17.42C5.7 14.29 4.65 9.91 5.95 6M5.97 5.96L5.96 5.97C5.58 9 7.13 12.85 10.26 16L16 10.26C12.86 7.13 9 5.58 5.97 5.96Z"
+
+
+{-| The [`umbrella`](https://pictogrammers.com/library/mdi/icon/umbrella/) icon.
+-}
+umbrella : IconShape
+umbrella =
+    iconShape "M12,2A9,9 0 0,1 21,11H13V19A3,3 0 0,1 10,22A3,3 0 0,1 7,19V18H9V19A1,1 0 0,0 10,20A1,1 0 0,0 11,19V11H3A9,9 0 0,1 12,2Z"
 
 
 {-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
@@ -99,18 +99,18 @@ umbrellaClosed =
     iconShape "M12 2C11.6 2 11.3 2.2 11.1 2.6L6.5 15H11V19C11 19.6 10.6 20 10 20C9.4 20 9 19.6 9 19V18H7V19C7 20.7 8.3 22 10 22S13 20.7 13 19V15H17.5L12.9 2.6C12.7 2.2 12.4 2 12 2Z"
 
 
-{-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
--}
-umbrellaClosedOutline : IconShape
-umbrellaClosedOutline =
-    iconShape "M12 2C12.4 2 12.8 2.2 12.9 2.6L17.5 15H13V19C13 20.7 11.7 22 10 22S7 20.7 7 19V18H9V19C9 19.6 9.4 20 10 20C10.6 20 11 19.6 11 19V15H6.5L11.1 2.6C11.2 2.2 11.6 2 12 2M12 5.9L9.4 13H14.7L12 5.9Z"
-
-
 {-| The [`umbrella-closed-variant`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-variant/) icon.
 -}
 umbrellaClosedVariant : IconShape
 umbrellaClosedVariant =
     iconShape "M15 7L13 6V3.5C13 3.2 13.2 3 13.5 3S14 3.2 14 3.5V4H16V3.5C16 2.1 14.9 1 13.5 1S11 2.1 11 3.5V6L9 7L6 6L11.1 21.3C11.4 22.2 12.7 22.2 13 21.3C14.6 16.2 18 6 18 6L15 7M11 15L9 8.9L9.7 9.1L11 8.1V15M13 8.1L14.3 9.1L15 8.9L13 15V8.1Z"
+
+
+{-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
+-}
+umbrellaClosedOutline : IconShape
+umbrellaClosedOutline =
+    iconShape "M12 2C12.4 2 12.8 2.2 12.9 2.6L17.5 15H13V19C13 20.7 11.7 22 10 22S7 20.7 7 19V18H9V19C9 19.6 9.4 20 10 20C10.6 20 11 19.6 11 19V15H6.5L11.1 2.6C11.2 2.2 11.6 2 12 2M12 5.9L9.4 13H14.7L12 5.9Z"
 
 
 {-| The [`umbrella-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-outline/) icon.
@@ -355,11 +355,11 @@ lookup name =
         "ultra-high-definition" ->
             Just ultraHighDefinition
 
-        "umbrella" ->
-            Just umbrella
-
         "umbrella-beach" ->
             Just umbrellaBeach
+
+        "umbrella" ->
+            Just umbrella
 
         "umbrella-beach-outline" ->
             Just umbrellaBeachOutline
@@ -367,11 +367,11 @@ lookup name =
         "umbrella-closed" ->
             Just umbrellaClosed
 
-        "umbrella-closed-outline" ->
-            Just umbrellaClosedOutline
-
         "umbrella-closed-variant" ->
             Just umbrellaClosedVariant
+
+        "umbrella-closed-outline" ->
+            Just umbrellaClosedOutline
 
         "umbrella-outline" ->
             Just umbrellaOutline

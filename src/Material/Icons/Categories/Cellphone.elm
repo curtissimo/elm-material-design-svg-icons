@@ -132,8 +132,8 @@ module Material.Icons.Categories.Cellphone exposing
     , volumeHigh
     , volumeLow
     , volumeMedium
-    , volumeMinus
     , volumeMute
+    , volumeMinus
     , volumeOff
     , volumePlus
     , volumeSource
@@ -272,8 +272,8 @@ module Material.Icons.Categories.Cellphone exposing
 @docs volumeHigh
 @docs volumeLow
 @docs volumeMedium
-@docs volumeMinus
 @docs volumeMute
+@docs volumeMinus
 @docs volumeOff
 @docs volumePlus
 @docs volumeSource
@@ -1197,18 +1197,18 @@ volumeMedium =
     Material.Icons.Directory.V.volumeMedium
 
 
-{-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
--}
-volumeMinus : IconShape
-volumeMinus =
-    Material.Icons.Directory.V.volumeMinus
-
-
 {-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
 -}
 volumeMute : IconShape
 volumeMute =
     Material.Icons.Directory.V.volumeMute
+
+
+{-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
+-}
+volumeMinus : IconShape
+volumeMinus =
+    Material.Icons.Directory.V.volumeMinus
 
 
 {-| The [`volume-off`](https://pictogrammers.com/library/mdi/icon/volume-off/) icon.

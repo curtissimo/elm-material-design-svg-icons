@@ -58,13 +58,13 @@ module Material.Icons.Categories.Shopping exposing
     , invoicePlusOutline
     , invoiceRemove
     , invoiceRemoveOutline
-    , invoiceSendOutline
     , invoiceSend
+    , invoiceSendOutline
     , invoiceTextArrowLeft
     , invoiceTextArrowLeftOutline
     , invoiceTextArrowRight
-    , invoiceTextCheck
     , invoiceTextArrowRightOutline
+    , invoiceTextCheck
     , invoiceTextCheckOutline
     , invoiceTextClock
     , invoiceTextClockOutline
@@ -73,15 +73,15 @@ module Material.Icons.Categories.Shopping exposing
     , invoiceTextFast
     , invoiceTextFastOutline
     , invoiceTextMinus
-    , invoiceTextMultiple
     , invoiceTextMinusOutline
+    , invoiceTextMultiple
     , invoiceTextMultipleOutline
     , invoiceTextOutline
     , invoiceTextPlus
     , invoiceTextPlusOutline
     , invoiceTextRemove
-    , invoiceTextSend
     , invoiceTextRemoveOutline
+    , invoiceTextSend
     , invoiceTextSendOutline
     , percent
     , percentBox
@@ -186,13 +186,13 @@ module Material.Icons.Categories.Shopping exposing
 @docs invoicePlusOutline
 @docs invoiceRemove
 @docs invoiceRemoveOutline
-@docs invoiceSendOutline
 @docs invoiceSend
+@docs invoiceSendOutline
 @docs invoiceTextArrowLeft
 @docs invoiceTextArrowLeftOutline
 @docs invoiceTextArrowRight
-@docs invoiceTextCheck
 @docs invoiceTextArrowRightOutline
+@docs invoiceTextCheck
 @docs invoiceTextCheckOutline
 @docs invoiceTextClock
 @docs invoiceTextClockOutline
@@ -201,15 +201,15 @@ module Material.Icons.Categories.Shopping exposing
 @docs invoiceTextFast
 @docs invoiceTextFastOutline
 @docs invoiceTextMinus
-@docs invoiceTextMultiple
 @docs invoiceTextMinusOutline
+@docs invoiceTextMultiple
 @docs invoiceTextMultipleOutline
 @docs invoiceTextOutline
 @docs invoiceTextPlus
 @docs invoiceTextPlusOutline
 @docs invoiceTextRemove
-@docs invoiceTextSend
 @docs invoiceTextRemoveOutline
+@docs invoiceTextSend
 @docs invoiceTextSendOutline
 @docs percent
 @docs percentBox
@@ -654,18 +654,18 @@ invoiceRemoveOutline =
     Material.Icons.Directory.I.invoiceRemoveOutline
 
 
-{-| The [`invoice-send-outline`](https://pictogrammers.com/library/mdi/icon/invoice-send-outline/) icon.
--}
-invoiceSendOutline : IconShape
-invoiceSendOutline =
-    Material.Icons.Directory.I.invoiceSendOutline
-
-
 {-| The [`invoice-send`](https://pictogrammers.com/library/mdi/icon/invoice-send/) icon.
 -}
 invoiceSend : IconShape
 invoiceSend =
     Material.Icons.Directory.I.invoiceSend
+
+
+{-| The [`invoice-send-outline`](https://pictogrammers.com/library/mdi/icon/invoice-send-outline/) icon.
+-}
+invoiceSendOutline : IconShape
+invoiceSendOutline =
+    Material.Icons.Directory.I.invoiceSendOutline
 
 
 {-| The [`invoice-text-arrow-left`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-left/) icon.
@@ -689,18 +689,18 @@ invoiceTextArrowRight =
     Material.Icons.Directory.I.invoiceTextArrowRight
 
 
-{-| The [`invoice-text-check`](https://pictogrammers.com/library/mdi/icon/invoice-text-check/) icon.
--}
-invoiceTextCheck : IconShape
-invoiceTextCheck =
-    Material.Icons.Directory.I.invoiceTextCheck
-
-
 {-| The [`invoice-text-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-right-outline/) icon.
 -}
 invoiceTextArrowRightOutline : IconShape
 invoiceTextArrowRightOutline =
     Material.Icons.Directory.I.invoiceTextArrowRightOutline
+
+
+{-| The [`invoice-text-check`](https://pictogrammers.com/library/mdi/icon/invoice-text-check/) icon.
+-}
+invoiceTextCheck : IconShape
+invoiceTextCheck =
+    Material.Icons.Directory.I.invoiceTextCheck
 
 
 {-| The [`invoice-text-check-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-check-outline/) icon.
@@ -759,18 +759,18 @@ invoiceTextMinus =
     Material.Icons.Directory.I.invoiceTextMinus
 
 
-{-| The [`invoice-text-multiple`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple/) icon.
--}
-invoiceTextMultiple : IconShape
-invoiceTextMultiple =
-    Material.Icons.Directory.I.invoiceTextMultiple
-
-
 {-| The [`invoice-text-minus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-minus-outline/) icon.
 -}
 invoiceTextMinusOutline : IconShape
 invoiceTextMinusOutline =
     Material.Icons.Directory.I.invoiceTextMinusOutline
+
+
+{-| The [`invoice-text-multiple`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple/) icon.
+-}
+invoiceTextMultiple : IconShape
+invoiceTextMultiple =
+    Material.Icons.Directory.I.invoiceTextMultiple
 
 
 {-| The [`invoice-text-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple-outline/) icon.
@@ -808,18 +808,18 @@ invoiceTextRemove =
     Material.Icons.Directory.I.invoiceTextRemove
 
 
-{-| The [`invoice-text-send`](https://pictogrammers.com/library/mdi/icon/invoice-text-send/) icon.
--}
-invoiceTextSend : IconShape
-invoiceTextSend =
-    Material.Icons.Directory.I.invoiceTextSend
-
-
 {-| The [`invoice-text-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove-outline/) icon.
 -}
 invoiceTextRemoveOutline : IconShape
 invoiceTextRemoveOutline =
     Material.Icons.Directory.I.invoiceTextRemoveOutline
+
+
+{-| The [`invoice-text-send`](https://pictogrammers.com/library/mdi/icon/invoice-text-send/) icon.
+-}
+invoiceTextSend : IconShape
+invoiceTextSend =
+    Material.Icons.Directory.I.invoiceTextSend
 
 
 {-| The [`invoice-text-send-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-send-outline/) icon.

@@ -22,10 +22,10 @@ module Material.Icons.Categories.Notification exposing
     , bellOff
     , bellOffOutline
     , bellOutline
+    , bellPlus
     , bellPlusOutline
     , bellRemove
     , bellRemoveOutline
-    , bellPlus
     , bellRing
     , bellRingOutline
     , bellSleep
@@ -60,10 +60,10 @@ module Material.Icons.Categories.Notification exposing
 @docs bellOff
 @docs bellOffOutline
 @docs bellOutline
+@docs bellPlus
 @docs bellPlusOutline
 @docs bellRemove
 @docs bellRemoveOutline
-@docs bellPlus
 @docs bellRing
 @docs bellRingOutline
 @docs bellSleep
@@ -220,6 +220,13 @@ bellOutline =
     Material.Icons.Directory.B.bellOutline
 
 
+{-| The [`bell-plus`](https://pictogrammers.com/library/mdi/icon/bell-plus/) icon.
+-}
+bellPlus : IconShape
+bellPlus =
+    Material.Icons.Directory.B.bellPlus
+
+
 {-| The [`bell-plus-outline`](https://pictogrammers.com/library/mdi/icon/bell-plus-outline/) icon.
 -}
 bellPlusOutline : IconShape
@@ -239,13 +246,6 @@ bellRemove =
 bellRemoveOutline : IconShape
 bellRemoveOutline =
     Material.Icons.Directory.B.bellRemoveOutline
-
-
-{-| The [`bell-plus`](https://pictogrammers.com/library/mdi/icon/bell-plus/) icon.
--}
-bellPlus : IconShape
-bellPlus =
-    Material.Icons.Directory.B.bellPlus
 
 
 {-| The [`bell-ring`](https://pictogrammers.com/library/mdi/icon/bell-ring/) icon.

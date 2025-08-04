@@ -798,18 +798,18 @@ bagPersonalTagOutline =
     iconShape "M14 5V4C14 2.9 13.1 2 12 2H8C6.9 2 6 2.9 6 4V5C3.8 5 2 6.8 2 9V20C2 21.1 2.9 22 4 22H15.2L13.2 20H4V16H6V18H7V16H12V15H4V9C4 7.9 4.9 7 6 7H14C15.1 7 16 7.9 16 9V12H18V9C18 6.8 16.2 5 14 5M12 5H8V4H12V5M10 9L8 11L10 13L12 11L10 9M21.8 17.8L18.2 14.2C18 14.1 17.8 14 17.6 14H14.8C14.4 14 14 14.4 14 14.8V17.6C14 17.8 14.1 18 14.2 18.2L17.8 21.8C17.9 21.9 18.1 22 18.4 22C18.6 22 18.8 21.9 19 21.8L21.8 19C21.9 18.9 22 18.7 22 18.4C22 18.2 21.9 18 21.8 17.8M15.4 16C15.1 16 14.8 15.7 14.8 15.4C14.8 15.1 15.1 14.8 15.4 14.8C15.7 14.8 16 15.1 16 15.4C16 15.7 15.7 16 15.4 16Z"
 
 
-{-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
--}
-bagSuitcase : IconShape
-bagSuitcase =
-    iconShape "M17.03 6C18.11 6 19 6.88 19 8V19C19 20.13 18.11 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V8C5 6.88 5.89 6 6.97 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M13.5 6V3.5H10.5V6H13.5M8 9V18H9.5V9H8M14.5 9V18H16V9H14.5M11.25 9V18H12.75V9H11.25Z"
-
-
 {-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
 -}
 bagSuitcaseOff : IconShape
 bagSuitcaseOff =
     iconShape "M2 4.77L3.28 3.5L21 21.22L19.73 22.5L18 20.76C17.71 20.93 17.38 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V7.77L2 4.77M17.03 6C18.11 6 19 6.88 19 8V16.68L16 13.68V9H14.5V12.18L12.75 10.43V9H11.32L8.31 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M8 18H9.5V12.27L8 10.77V18M11.25 18H12.75V15.5L11.25 14V18M14.5 18H15.23L14.5 17.27V18M13.5 6V3.5H10.5V6H13.5Z"
+
+
+{-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
+-}
+bagSuitcase : IconShape
+bagSuitcase =
+    iconShape "M17.03 6C18.11 6 19 6.88 19 8V19C19 20.13 18.11 21 17.03 21C17.03 21.58 16.56 22 16 22C15.5 22 15 21.58 15 21H9C9 21.58 8.5 22 8 22C7.44 22 6.97 21.58 6.97 21C5.89 21 5 20.13 5 19V8C5 6.88 5.89 6 6.97 6H9V3C9 2.42 9.46 2 10 2H14C14.54 2 15 2.42 15 3V6H17.03M13.5 6V3.5H10.5V6H13.5M8 9V18H9.5V9H8M14.5 9V18H16V9H14.5M11.25 9V18H12.75V9H11.25Z"
 
 
 {-| The [`bag-suitcase-off-outline`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off-outline/) icon.
@@ -1939,18 +1939,18 @@ bedDoubleOutline =
     iconShape "M8 5C7.5 5 7 5.21 6.61 5.6S6 6.45 6 7V10C5.47 10 5 10.19 4.59 10.59S4 11.47 4 12V17H5.34L6 19H7L7.69 17H16.36L17 19H18L18.66 17H20V12C20 11.47 19.81 11 19.41 10.59S18.53 10 18 10V7C18 6.45 17.8 6 17.39 5.6S16.5 5 16 5M8 7H11V10H8M13 7H16V10H13M6 12H18V15H6Z"
 
 
-{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
--}
-bedEmpty : IconShape
-bedEmpty =
-    iconShape "M19,7H5V14H3V5H1V20H3V17H21V20H23V11A4,4 0 0,0 19,7"
-
-
 {-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
 -}
 bedKing : IconShape
 bedKing =
     iconShape "M6 5C5.47 5 5 5.21 4.59 5.6S4 6.45 4 7V10C3.45 10 3 10.19 2.6 10.59S2 11.47 2 12V17H3.33L4 19H5L5.67 17H18.33L19 19H20L20.67 17H22V12C22 11.47 21.79 11 21.4 10.59C21 10.19 20.55 10 20 10V7C20 6.45 19.81 6 19.41 5.6S18.53 5 18 5M6 7H11V10H6M13 7H18V10H13Z"
+
+
+{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
+-}
+bedEmpty : IconShape
+bedEmpty =
+    iconShape "M19,7H5V14H3V5H1V20H3V17H21V20H23V11A4,4 0 0,0 19,7"
 
 
 {-| The [`bed-king-outline`](https://pictogrammers.com/library/mdi/icon/bed-king-outline/) icon.
@@ -2170,6 +2170,13 @@ bellOutline =
     iconShape "M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z"
 
 
+{-| The [`bell-plus`](https://pictogrammers.com/library/mdi/icon/bell-plus/) icon.
+-}
+bellPlus : IconShape
+bellPlus =
+    iconShape "M17 14V17H14V19H17V22H19V19H22V17H19V14M12 2A2 2 0 0 0 10 4A2 2 0 0 0 10 4.29C7.12 5.14 5 7.82 5 11V17L3 19V20H12.35A6 6 0 0 1 12 18A6 6 0 0 1 18 12A6 6 0 0 1 19 12.09V11C19 7.82 16.88 5.14 14 4.29A2 2 0 0 0 14 4A2 2 0 0 0 12 2M10 21A2 2 0 0 0 12 23A2 2 0 0 0 13.65 22.13A6 6 0 0 1 12.81 21Z"
+
+
 {-| The [`bell-plus-outline`](https://pictogrammers.com/library/mdi/icon/bell-plus-outline/) icon.
 -}
 bellPlusOutline : IconShape
@@ -2189,13 +2196,6 @@ bellRemove =
 bellRemoveOutline : IconShape
 bellRemoveOutline =
     iconShape "M20.12 14.46L18 16.59L15.88 14.46L14.46 15.88L16.59 18L14.46 20.12L15.88 21.54L18 19.41L20.12 21.54L21.54 20.12L19.41 18L21.54 15.88M12 2C10.9 2 10 2.9 10 4C10 4.1 10 4.19 10 4.29C7.12 5.14 5 7.82 5 11V17L3 19V20H12.35C12.12 19.36 12 18.68 12 18H7V11A5 5 0 0 1 12 6A5 5 0 0 1 17 11V12.09C17.33 12.04 17.66 12 18 12C18.34 12 18.67 12.03 19 12.09V11C19 7.82 16.88 5.14 14 4.29C14 4.19 14 4.1 14 4C14 2.9 13.11 2 12 2M10 21C10 22.11 10.9 23 12 23C12.66 23 13.28 22.67 13.65 22.13C13.33 21.79 13.05 21.41 12.81 21Z"
-
-
-{-| The [`bell-plus`](https://pictogrammers.com/library/mdi/icon/bell-plus/) icon.
--}
-bellPlus : IconShape
-bellPlus =
-    iconShape "M17 14V17H14V19H17V22H19V19H22V17H19V14M12 2A2 2 0 0 0 10 4A2 2 0 0 0 10 4.29C7.12 5.14 5 7.82 5 11V17L3 19V20H12.35A6 6 0 0 1 12 18A6 6 0 0 1 18 12A6 6 0 0 1 19 12.09V11C19 7.82 16.88 5.14 14 4.29A2 2 0 0 0 14 4A2 2 0 0 0 12 2M10 21A2 2 0 0 0 12 23A2 2 0 0 0 13.65 22.13A6 6 0 0 1 12.81 21Z"
 
 
 {-| The [`bell-ring`](https://pictogrammers.com/library/mdi/icon/bell-ring/) icon.
@@ -2611,18 +2611,18 @@ bookArrowDownOutline =
     iconShape "M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H18C19.11 2 20 2.9 20 4V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V4H13V12L10.5 9.75L8 12V4H6V20H13.09M20 20V16H18V20H16L19 23L22 20H20Z"
 
 
-{-| The [`book-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/book-arrow-left-outline/) icon.
--}
-bookArrowLeftOutline : IconShape
-bookArrowLeftOutline =
-    iconShape "M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H18C19.11 2 20 2.9 20 4V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V4H13V12L10.5 9.75L8 12V4H6V20H13.09M18 18V16L15 19L18 22V20H22V18H18Z"
-
-
 {-| The [`book-arrow-left`](https://pictogrammers.com/library/mdi/icon/book-arrow-left/) icon.
 -}
 bookArrowLeft : IconShape
 bookArrowLeft =
     iconShape "M13 19C13 20.1 13.3 21.12 13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H7V9L9.5 7.5L12 9V2H18C19.1 2 20 2.89 20 4V13.09C19.67 13.04 19.34 13 19 13C15.69 13 13 15.69 13 19M18 18V16L15 19L18 22V20H22V18H18Z"
+
+
+{-| The [`book-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/book-arrow-left-outline/) icon.
+-}
+bookArrowLeftOutline : IconShape
+bookArrowLeftOutline =
+    iconShape "M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H18C19.11 2 20 2.9 20 4V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V4H13V12L10.5 9.75L8 12V4H6V20H13.09M18 18V16L15 19L18 22V20H22V18H18Z"
 
 
 {-| The [`book-arrow-right`](https://pictogrammers.com/library/mdi/icon/book-arrow-right/) icon.
@@ -4422,11 +4422,11 @@ lookup name =
         "bag-personal-tag-outline" ->
             Just bagPersonalTagOutline
 
-        "bag-suitcase" ->
-            Just bagSuitcase
-
         "bag-suitcase-off" ->
             Just bagSuitcaseOff
+
+        "bag-suitcase" ->
+            Just bagSuitcase
 
         "bag-suitcase-off-outline" ->
             Just bagSuitcaseOffOutline
@@ -4911,11 +4911,11 @@ lookup name =
         "bed-double-outline" ->
             Just bedDoubleOutline
 
-        "bed-empty" ->
-            Just bedEmpty
-
         "bed-king" ->
             Just bedKing
+
+        "bed-empty" ->
+            Just bedEmpty
 
         "bed-king-outline" ->
             Just bedKingOutline
@@ -5010,6 +5010,9 @@ lookup name =
         "bell-outline" ->
             Just bellOutline
 
+        "bell-plus" ->
+            Just bellPlus
+
         "bell-plus-outline" ->
             Just bellPlusOutline
 
@@ -5018,9 +5021,6 @@ lookup name =
 
         "bell-remove-outline" ->
             Just bellRemoveOutline
-
-        "bell-plus" ->
-            Just bellPlus
 
         "bell-ring" ->
             Just bellRing
@@ -5199,11 +5199,11 @@ lookup name =
         "book-arrow-down-outline" ->
             Just bookArrowDownOutline
 
-        "book-arrow-left-outline" ->
-            Just bookArrowLeftOutline
-
         "book-arrow-left" ->
             Just bookArrowLeft
+
+        "book-arrow-left-outline" ->
+            Just bookArrowLeftOutline
 
         "book-arrow-right" ->
             Just bookArrowRight

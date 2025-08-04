@@ -14,9 +14,9 @@ module Material.Icons.Categories.Weather exposing
     , cloudArrowLeft
     , cloudArrowLeftOutline
     , cloudArrowRight
-    , cloudArrowRightOutline
     , cloudArrowUp
     , cloudArrowUpOutline
+    , cloudArrowRightOutline
     , cloudCancel
     , cloudCancelOutline
     , cloudCheck
@@ -51,14 +51,14 @@ module Material.Icons.Categories.Weather exposing
     , cloudUploadOutline
     , clouds
     , flash
-    , flashAlert
     , flashAlertOutline
+    , flashAlert
     , flashOutline
     , heatWave
     , homeFlood
     , lightningBolt
-    , lightningBoltOutline
     , lightningBoltCircle
+    , lightningBoltOutline
     , looks
     , moonFirstQuarter
     , moonFull
@@ -88,8 +88,8 @@ module Material.Icons.Categories.Weather exposing
     , sunThermometerOutline
     , sunWireless
     , sunWirelessOutline
-    , temperatureFahrenheit
     , temperatureCelsius
+    , temperatureFahrenheit
     , temperatureKelvin
     , themeLightDark
     , thermometer
@@ -98,8 +98,8 @@ module Material.Icons.Categories.Weather exposing
     , thermometerBluetooth
     , thermometerCheck
     , thermometerChevronDown
-    , thermometerHigh
     , thermometerChevronUp
+    , thermometerHigh
     , thermometerLines
     , thermometerLow
     , thermometerMinus
@@ -107,12 +107,12 @@ module Material.Icons.Categories.Weather exposing
     , thermometerPlus
     , thermometerWater
     , tsunami
-    , umbrella
     , umbrellaBeach
+    , umbrella
     , umbrellaBeachOutline
     , umbrellaClosed
-    , umbrellaClosedOutline
     , umbrellaClosedVariant
+    , umbrellaClosedOutline
     , umbrellaOutline
     , water
     , waterOpacity
@@ -177,9 +177,9 @@ module Material.Icons.Categories.Weather exposing
 @docs cloudArrowLeft
 @docs cloudArrowLeftOutline
 @docs cloudArrowRight
-@docs cloudArrowRightOutline
 @docs cloudArrowUp
 @docs cloudArrowUpOutline
+@docs cloudArrowRightOutline
 @docs cloudCancel
 @docs cloudCancelOutline
 @docs cloudCheck
@@ -214,14 +214,14 @@ module Material.Icons.Categories.Weather exposing
 @docs cloudUploadOutline
 @docs clouds
 @docs flash
-@docs flashAlert
 @docs flashAlertOutline
+@docs flashAlert
 @docs flashOutline
 @docs heatWave
 @docs homeFlood
 @docs lightningBolt
-@docs lightningBoltOutline
 @docs lightningBoltCircle
+@docs lightningBoltOutline
 @docs looks
 @docs moonFirstQuarter
 @docs moonFull
@@ -251,8 +251,8 @@ module Material.Icons.Categories.Weather exposing
 @docs sunThermometerOutline
 @docs sunWireless
 @docs sunWirelessOutline
-@docs temperatureFahrenheit
 @docs temperatureCelsius
+@docs temperatureFahrenheit
 @docs temperatureKelvin
 @docs themeLightDark
 @docs thermometer
@@ -261,8 +261,8 @@ module Material.Icons.Categories.Weather exposing
 @docs thermometerBluetooth
 @docs thermometerCheck
 @docs thermometerChevronDown
-@docs thermometerHigh
 @docs thermometerChevronUp
+@docs thermometerHigh
 @docs thermometerLines
 @docs thermometerLow
 @docs thermometerMinus
@@ -270,12 +270,12 @@ module Material.Icons.Categories.Weather exposing
 @docs thermometerPlus
 @docs thermometerWater
 @docs tsunami
-@docs umbrella
 @docs umbrellaBeach
+@docs umbrella
 @docs umbrellaBeachOutline
 @docs umbrellaClosed
-@docs umbrellaClosedOutline
 @docs umbrellaClosedVariant
+@docs umbrellaClosedOutline
 @docs umbrellaOutline
 @docs water
 @docs waterOpacity
@@ -419,13 +419,6 @@ cloudArrowRight =
     Material.Icons.Directory.C.cloudArrowRight
 
 
-{-| The [`cloud-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-right-outline/) icon.
--}
-cloudArrowRightOutline : IconShape
-cloudArrowRightOutline =
-    Material.Icons.Directory.C.cloudArrowRightOutline
-
-
 {-| The [`cloud-arrow-up`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-up/) icon.
 -}
 cloudArrowUp : IconShape
@@ -438,6 +431,13 @@ cloudArrowUp =
 cloudArrowUpOutline : IconShape
 cloudArrowUpOutline =
     Material.Icons.Directory.C.cloudArrowUpOutline
+
+
+{-| The [`cloud-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-right-outline/) icon.
+-}
+cloudArrowRightOutline : IconShape
+cloudArrowRightOutline =
+    Material.Icons.Directory.C.cloudArrowRightOutline
 
 
 {-| The [`cloud-cancel`](https://pictogrammers.com/library/mdi/icon/cloud-cancel/) icon.
@@ -678,18 +678,18 @@ flash =
     Material.Icons.Directory.F.flash
 
 
-{-| The [`flash-alert`](https://pictogrammers.com/library/mdi/icon/flash-alert/) icon.
--}
-flashAlert : IconShape
-flashAlert =
-    Material.Icons.Directory.F.flashAlert
-
-
 {-| The [`flash-alert-outline`](https://pictogrammers.com/library/mdi/icon/flash-alert-outline/) icon.
 -}
 flashAlertOutline : IconShape
 flashAlertOutline =
     Material.Icons.Directory.F.flashAlertOutline
+
+
+{-| The [`flash-alert`](https://pictogrammers.com/library/mdi/icon/flash-alert/) icon.
+-}
+flashAlert : IconShape
+flashAlert =
+    Material.Icons.Directory.F.flashAlert
 
 
 {-| The [`flash-outline`](https://pictogrammers.com/library/mdi/icon/flash-outline/) icon.
@@ -720,18 +720,18 @@ lightningBolt =
     Material.Icons.Directory.L.lightningBolt
 
 
-{-| The [`lightning-bolt-outline`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-outline/) icon.
--}
-lightningBoltOutline : IconShape
-lightningBoltOutline =
-    Material.Icons.Directory.L.lightningBoltOutline
-
-
 {-| The [`lightning-bolt-circle`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-circle/) icon.
 -}
 lightningBoltCircle : IconShape
 lightningBoltCircle =
     Material.Icons.Directory.L.lightningBoltCircle
+
+
+{-| The [`lightning-bolt-outline`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-outline/) icon.
+-}
+lightningBoltOutline : IconShape
+lightningBoltOutline =
+    Material.Icons.Directory.L.lightningBoltOutline
 
 
 {-| The [`looks`](https://pictogrammers.com/library/mdi/icon/looks/) icon.
@@ -937,18 +937,18 @@ sunWirelessOutline =
     Material.Icons.Directory.S.sunWirelessOutline
 
 
-{-| The [`temperature-fahrenheit`](https://pictogrammers.com/library/mdi/icon/temperature-fahrenheit/) icon.
--}
-temperatureFahrenheit : IconShape
-temperatureFahrenheit =
-    Material.Icons.Directory.T.temperatureFahrenheit
-
-
 {-| The [`temperature-celsius`](https://pictogrammers.com/library/mdi/icon/temperature-celsius/) icon.
 -}
 temperatureCelsius : IconShape
 temperatureCelsius =
     Material.Icons.Directory.T.temperatureCelsius
+
+
+{-| The [`temperature-fahrenheit`](https://pictogrammers.com/library/mdi/icon/temperature-fahrenheit/) icon.
+-}
+temperatureFahrenheit : IconShape
+temperatureFahrenheit =
+    Material.Icons.Directory.T.temperatureFahrenheit
 
 
 {-| The [`temperature-kelvin`](https://pictogrammers.com/library/mdi/icon/temperature-kelvin/) icon.
@@ -1007,18 +1007,18 @@ thermometerChevronDown =
     Material.Icons.Directory.T.thermometerChevronDown
 
 
-{-| The [`thermometer-high`](https://pictogrammers.com/library/mdi/icon/thermometer-high/) icon.
--}
-thermometerHigh : IconShape
-thermometerHigh =
-    Material.Icons.Directory.T.thermometerHigh
-
-
 {-| The [`thermometer-chevron-up`](https://pictogrammers.com/library/mdi/icon/thermometer-chevron-up/) icon.
 -}
 thermometerChevronUp : IconShape
 thermometerChevronUp =
     Material.Icons.Directory.T.thermometerChevronUp
+
+
+{-| The [`thermometer-high`](https://pictogrammers.com/library/mdi/icon/thermometer-high/) icon.
+-}
+thermometerHigh : IconShape
+thermometerHigh =
+    Material.Icons.Directory.T.thermometerHigh
 
 
 {-| The [`thermometer-lines`](https://pictogrammers.com/library/mdi/icon/thermometer-lines/) icon.
@@ -1070,18 +1070,18 @@ tsunami =
     Material.Icons.Directory.T.tsunami
 
 
-{-| The [`umbrella`](https://pictogrammers.com/library/mdi/icon/umbrella/) icon.
--}
-umbrella : IconShape
-umbrella =
-    Material.Icons.Directory.U.umbrella
-
-
 {-| The [`umbrella-beach`](https://pictogrammers.com/library/mdi/icon/umbrella-beach/) icon.
 -}
 umbrellaBeach : IconShape
 umbrellaBeach =
     Material.Icons.Directory.U.umbrellaBeach
+
+
+{-| The [`umbrella`](https://pictogrammers.com/library/mdi/icon/umbrella/) icon.
+-}
+umbrella : IconShape
+umbrella =
+    Material.Icons.Directory.U.umbrella
 
 
 {-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
@@ -1098,18 +1098,18 @@ umbrellaClosed =
     Material.Icons.Directory.U.umbrellaClosed
 
 
-{-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
--}
-umbrellaClosedOutline : IconShape
-umbrellaClosedOutline =
-    Material.Icons.Directory.U.umbrellaClosedOutline
-
-
 {-| The [`umbrella-closed-variant`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-variant/) icon.
 -}
 umbrellaClosedVariant : IconShape
 umbrellaClosedVariant =
     Material.Icons.Directory.U.umbrellaClosedVariant
+
+
+{-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
+-}
+umbrellaClosedOutline : IconShape
+umbrellaClosedOutline =
+    Material.Icons.Directory.U.umbrellaClosedOutline
 
 
 {-| The [`umbrella-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-outline/) icon.

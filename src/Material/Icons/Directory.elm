@@ -54,6 +54,11 @@ lookup name =
     lookupA name
 
 
+lookupZ : String -> Maybe IconShape
+lookupZ name =
+    Material.Icons.Directory.Z.lookup name
+
+
 lookupA : String -> Maybe IconShape
 lookupA name =
     case Material.Icons.Directory.A.lookup name of
@@ -302,13 +307,3 @@ lookupY name =
 
         Nothing ->
             lookupZ name
-
-
-lookupZ : String -> Maybe IconShape
-lookupZ name =
-    case Material.Icons.Directory.Z.lookup name of
-        Just icon ->
-            Just icon
-
-        Nothing ->
-            Nothing

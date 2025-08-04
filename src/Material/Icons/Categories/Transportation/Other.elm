@@ -83,8 +83,8 @@ module Material.Icons.Categories.Transportation.Other exposing
     , transitTransfer
     , truckOffRoad
     , truckOffRoadOff
-    , tunnel
     , tunnelOutline
+    , tunnel
     , unicycle
     , walk
     )
@@ -171,8 +171,8 @@ module Material.Icons.Categories.Transportation.Other exposing
 @docs transitTransfer
 @docs truckOffRoad
 @docs truckOffRoadOff
-@docs tunnel
 @docs tunnelOutline
+@docs tunnel
 @docs unicycle
 @docs walk
 
@@ -753,18 +753,18 @@ truckOffRoadOff =
     Material.Icons.Directory.T.truckOffRoadOff
 
 
-{-| The [`tunnel`](https://pictogrammers.com/library/mdi/icon/tunnel/) icon.
--}
-tunnel : IconShape
-tunnel =
-    Material.Icons.Directory.T.tunnel
-
-
 {-| The [`tunnel-outline`](https://pictogrammers.com/library/mdi/icon/tunnel-outline/) icon.
 -}
 tunnelOutline : IconShape
 tunnelOutline =
     Material.Icons.Directory.T.tunnelOutline
+
+
+{-| The [`tunnel`](https://pictogrammers.com/library/mdi/icon/tunnel/) icon.
+-}
+tunnel : IconShape
+tunnel =
+    Material.Icons.Directory.T.tunnel
 
 
 {-| The [`unicycle`](https://pictogrammers.com/library/mdi/icon/unicycle/) icon.

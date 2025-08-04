@@ -78,8 +78,8 @@ module Material.Icons.Categories.Music exposing
     , musicOff
     , musicRestEighth
     , musicRestHalf
-    , musicRestQuarter
     , musicRestSixteenth
+    , musicRestQuarter
     , musicRestWhole
     , ocarina
     , pauseBox
@@ -175,8 +175,8 @@ module Material.Icons.Categories.Music exposing
 @docs musicOff
 @docs musicRestEighth
 @docs musicRestHalf
-@docs musicRestQuarter
 @docs musicRestSixteenth
+@docs musicRestQuarter
 @docs musicRestWhole
 @docs ocarina
 @docs pauseBox
@@ -739,18 +739,18 @@ musicRestHalf =
     Material.Icons.Directory.M.musicRestHalf
 
 
-{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
--}
-musicRestQuarter : IconShape
-musicRestQuarter =
-    Material.Icons.Directory.M.musicRestQuarter
-
-
 {-| The [`music-rest-sixteenth`](https://pictogrammers.com/library/mdi/icon/music-rest-sixteenth/) icon.
 -}
 musicRestSixteenth : IconShape
 musicRestSixteenth =
     Material.Icons.Directory.M.musicRestSixteenth
+
+
+{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
+-}
+musicRestQuarter : IconShape
+musicRestQuarter =
+    Material.Icons.Directory.M.musicRestQuarter
 
 
 {-| The [`music-rest-whole`](https://pictogrammers.com/library/mdi/icon/music-rest-whole/) icon.

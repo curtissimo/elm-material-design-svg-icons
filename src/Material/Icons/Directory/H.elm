@@ -1069,20 +1069,6 @@ heartFlash =
     iconShape "M16.5,2.83C14.76,2.83 13.09,3.64 12,4.9C10.91,3.64 9.24,2.83 7.5,2.83C4.42,2.83 2,5.24 2,8.33C2,12.1 5.4,15.19 10.55,19.86L12,21.17L13.45,19.86C18.6,15.19 22,12.1 22,8.33C22,5.24 19.58,2.83 16.5,2.83M12,17.83V13.83H9L12,6.83V10.83H15"
 
 
-{-| The [`heart-half`](https://pictogrammers.com/library/mdi/icon/heart-half/) icon.
--}
-heartHalf : IconShape
-heartHalf =
-    iconShape "M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
-
-
-{-| The [`heart-half-full`](https://pictogrammers.com/library/mdi/icon/heart-half-full/) icon.
--}
-heartHalfFull : IconShape
-heartHalfFull =
-    iconShape "M16.5,5C15,5 13.58,5.91 13,7.2V17.74C17.25,13.87 20,11.2 20,8.5C20,6.5 18.5,5 16.5,5M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3Z"
-
-
 {-| The [`heart-half-outline`](https://pictogrammers.com/library/mdi/icon/heart-half-outline/) icon.
 -}
 heartHalfOutline : IconShape
@@ -1090,11 +1076,25 @@ heartHalfOutline =
     iconShape "M4,8.5C4,11.2 6.75,13.87 11,17.74V7.2C10.42,5.91 9,5 7.5,5C5.5,5 4,6.5 4,8.5M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
 
 
+{-| The [`heart-half`](https://pictogrammers.com/library/mdi/icon/heart-half/) icon.
+-}
+heartHalf : IconShape
+heartHalf =
+    iconShape "M13,7.2V17.74L13,20.44L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C10,3 13,5 13,7.2Z"
+
+
 {-| The [`heart-minus`](https://pictogrammers.com/library/mdi/icon/heart-minus/) icon.
 -}
 heartMinus : IconShape
 heartMinus =
     iconShape "M12 18C12 19 12.25 19.92 12.67 20.74L12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 9.93 21.5 11.26 20.62 12.61C19.83 12.23 18.94 12 18 12C14.69 12 12 14.69 12 18M14 17V19H22V17H14Z"
+
+
+{-| The [`heart-half-full`](https://pictogrammers.com/library/mdi/icon/heart-half-full/) icon.
+-}
+heartHalfFull : IconShape
+heartHalfFull =
+    iconShape "M16.5,5C15,5 13.58,5.91 13,7.2V17.74C17.25,13.87 20,11.2 20,8.5C20,6.5 18.5,5 16.5,5M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3Z"
 
 
 {-| The [`heart-minus-outline`](https://pictogrammers.com/library/mdi/icon/heart-minus-outline/) icon.
@@ -1454,13 +1454,6 @@ hololens =
     iconShape "M12,8C12,8 22,8 22,11C22,11 22.09,14.36 21.75,14.25C21,11 12,11 12,11C12,11 3,11 2.25,14.25C1.91,14.36 2,11 2,11C2,8 12,8 12,8M12,12C20,12 20.75,14.25 20.75,14.25C19.75,17.25 19,18 15,18C12,18 13,16.5 12,16.5C11,16.5 12,18 9,18C5,18 4.25,17.25 3.25,14.25C3.25,14.25 4,12 12,12Z"
 
 
-{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
--}
-home : IconShape
-home =
-    iconShape "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
-
-
 {-| The [`home-account`](https://pictogrammers.com/library/mdi/icon/home-account/) icon.
 -}
 homeAccount : IconShape
@@ -1473,6 +1466,13 @@ homeAccount =
 homeAlert : IconShape
 homeAlert =
     iconShape "M12 3L2 12H5V20H19V12H22L12 3M13 18H11V16H13V18M13 14H11V8H13V14Z"
+
+
+{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
+-}
+home : IconShape
+home =
+    iconShape "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
 
 
 {-| The [`home-alert-outline`](https://pictogrammers.com/library/mdi/icon/home-alert-outline/) icon.
@@ -2721,17 +2721,17 @@ lookup name =
         "heart-flash" ->
             Just heartFlash
 
-        "heart-half" ->
-            Just heartHalf
-
-        "heart-half-full" ->
-            Just heartHalfFull
-
         "heart-half-outline" ->
             Just heartHalfOutline
 
+        "heart-half" ->
+            Just heartHalf
+
         "heart-minus" ->
             Just heartMinus
+
+        "heart-half-full" ->
+            Just heartHalfFull
 
         "heart-minus-outline" ->
             Just heartMinusOutline
@@ -2886,14 +2886,14 @@ lookup name =
         "hololens" ->
             Just hololens
 
-        "home" ->
-            Just home
-
         "home-account" ->
             Just homeAccount
 
         "home-alert" ->
             Just homeAlert
+
+        "home" ->
+            Just home
 
         "home-alert-outline" ->
             Just homeAlertOutline

@@ -27,8 +27,8 @@ module Material.Icons.Categories.Nature exposing
     , flowerPoppy
     , flowerTulip
     , flowerTulipOutline
-    , forestOutline
     , forest
+    , forestOutline
     , grass
     , greenhouse
     , hexagonMultipleOutline
@@ -41,8 +41,8 @@ module Material.Icons.Categories.Nature exposing
     , ladybug
     , landslide
     , landslideOutline
-    , leafCircle
     , leaf
+    , leafCircle
     , leafCircleOutline
     , leafMaple
     , leafMapleOff
@@ -120,8 +120,8 @@ module Material.Icons.Categories.Nature exposing
 @docs flowerPoppy
 @docs flowerTulip
 @docs flowerTulipOutline
-@docs forestOutline
 @docs forest
+@docs forestOutline
 @docs grass
 @docs greenhouse
 @docs hexagonMultipleOutline
@@ -134,8 +134,8 @@ module Material.Icons.Categories.Nature exposing
 @docs ladybug
 @docs landslide
 @docs landslideOutline
-@docs leafCircle
 @docs leaf
+@docs leafCircle
 @docs leafCircleOutline
 @docs leafMaple
 @docs leafMapleOff
@@ -374,18 +374,18 @@ flowerTulipOutline =
     Material.Icons.Directory.F.flowerTulipOutline
 
 
-{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
--}
-forestOutline : IconShape
-forestOutline =
-    Material.Icons.Directory.F.forestOutline
-
-
 {-| The [`forest`](https://pictogrammers.com/library/mdi/icon/forest/) icon.
 -}
 forest : IconShape
 forest =
     Material.Icons.Directory.F.forest
+
+
+{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
+-}
+forestOutline : IconShape
+forestOutline =
+    Material.Icons.Directory.F.forestOutline
 
 
 {-| The [`grass`](https://pictogrammers.com/library/mdi/icon/grass/) icon.
@@ -472,18 +472,18 @@ landslideOutline =
     Material.Icons.Directory.L.landslideOutline
 
 
-{-| The [`leaf-circle`](https://pictogrammers.com/library/mdi/icon/leaf-circle/) icon.
--}
-leafCircle : IconShape
-leafCircle =
-    Material.Icons.Directory.L.leafCircle
-
-
 {-| The [`leaf`](https://pictogrammers.com/library/mdi/icon/leaf/) icon.
 -}
 leaf : IconShape
 leaf =
     Material.Icons.Directory.L.leaf
+
+
+{-| The [`leaf-circle`](https://pictogrammers.com/library/mdi/icon/leaf-circle/) icon.
+-}
+leafCircle : IconShape
+leafCircle =
+    Material.Icons.Directory.L.leafCircle
 
 
 {-| The [`leaf-circle-outline`](https://pictogrammers.com/library/mdi/icon/leaf-circle-outline/) icon.

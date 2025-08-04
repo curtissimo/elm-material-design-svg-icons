@@ -119,8 +119,8 @@ module Material.Icons.Categories.Arrow exposing
     , arrowUpBoldCircle
     , arrowUpBoldCircleOutline
     , arrowUpBoldHexagonOutline
-    , arrowUpBox
     , arrowUpBoldOutline
+    , arrowUpBox
     , arrowUpCircle
     , arrowUpCircleOutline
     , arrowUpDown
@@ -176,8 +176,8 @@ module Material.Icons.Categories.Arrow exposing
     , chevronUpCircleOutline
     , compareHorizontal
     , compareVertical
-    , fitToPage
     , fitToPageOutline
+    , fitToPage
     , forward
     , menuDown
     , menuDownOutline
@@ -353,8 +353,8 @@ module Material.Icons.Categories.Arrow exposing
 @docs arrowUpBoldCircle
 @docs arrowUpBoldCircleOutline
 @docs arrowUpBoldHexagonOutline
-@docs arrowUpBox
 @docs arrowUpBoldOutline
+@docs arrowUpBox
 @docs arrowUpCircle
 @docs arrowUpCircleOutline
 @docs arrowUpDown
@@ -410,8 +410,8 @@ module Material.Icons.Categories.Arrow exposing
 @docs chevronUpCircleOutline
 @docs compareHorizontal
 @docs compareVertical
-@docs fitToPage
 @docs fitToPageOutline
+@docs fitToPage
 @docs forward
 @docs menuDown
 @docs menuDownOutline
@@ -1293,18 +1293,18 @@ arrowUpBoldHexagonOutline =
     Material.Icons.Directory.A.arrowUpBoldHexagonOutline
 
 
-{-| The [`arrow-up-box`](https://pictogrammers.com/library/mdi/icon/arrow-up-box/) icon.
--}
-arrowUpBox : IconShape
-arrowUpBox =
-    Material.Icons.Directory.A.arrowUpBox
-
-
 {-| The [`arrow-up-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-outline/) icon.
 -}
 arrowUpBoldOutline : IconShape
 arrowUpBoldOutline =
     Material.Icons.Directory.A.arrowUpBoldOutline
+
+
+{-| The [`arrow-up-box`](https://pictogrammers.com/library/mdi/icon/arrow-up-box/) icon.
+-}
+arrowUpBox : IconShape
+arrowUpBox =
+    Material.Icons.Directory.A.arrowUpBox
 
 
 {-| The [`arrow-up-circle`](https://pictogrammers.com/library/mdi/icon/arrow-up-circle/) icon.
@@ -1692,18 +1692,18 @@ compareVertical =
     Material.Icons.Directory.C.compareVertical
 
 
-{-| The [`fit-to-page`](https://pictogrammers.com/library/mdi/icon/fit-to-page/) icon.
--}
-fitToPage : IconShape
-fitToPage =
-    Material.Icons.Directory.F.fitToPage
-
-
 {-| The [`fit-to-page-outline`](https://pictogrammers.com/library/mdi/icon/fit-to-page-outline/) icon.
 -}
 fitToPageOutline : IconShape
 fitToPageOutline =
     Material.Icons.Directory.F.fitToPageOutline
+
+
+{-| The [`fit-to-page`](https://pictogrammers.com/library/mdi/icon/fit-to-page/) icon.
+-}
+fitToPage : IconShape
+fitToPage =
+    Material.Icons.Directory.F.fitToPage
 
 
 {-| The [`forward`](https://pictogrammers.com/library/mdi/icon/forward/) icon.

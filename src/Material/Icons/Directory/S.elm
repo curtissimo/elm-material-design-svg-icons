@@ -1136,18 +1136,18 @@ seatLegroomNormal =
     iconShape "M5,12V3H3V12A5,5 0 0,0 8,17H14V15H8A3,3 0 0,1 5,12M20.5,18H19V11A2,2 0 0,0 17,9H12V3H6V11A3,3 0 0,0 9,14H16V21H20.5A1.5,1.5 0 0,0 22,19.5A1.5,1.5 0 0,0 20.5,18Z"
 
 
-{-| The [`seat-outline`](https://pictogrammers.com/library/mdi/icon/seat-outline/) icon.
--}
-seatOutline : IconShape
-seatOutline =
-    iconShape "M15,5V12H9V5H15M15,3H9A2,2 0 0,0 7,5V14H17V5A2,2 0 0,0 15,3M22,10H19V13H22V10M5,10H2V13H5V10M20,15H4V21H6V17H18V21H20V15Z"
-
-
 {-| The [`seat-legroom-reduced`](https://pictogrammers.com/library/mdi/icon/seat-legroom-reduced/) icon.
 -}
 seatLegroomReduced : IconShape
 seatLegroomReduced =
     iconShape "M19.97,19.2C20.15,20.16 19.42,21 18.5,21H14V18L15,14H9A3,3 0 0,1 6,11V3H12V9H17A2,2 0 0,1 19,11L17,18H18.44C19.17,18 19.83,18.5 19.97,19.2M5,12V3H3V12A5,5 0 0,0 8,17H12V15H8A3,3 0 0,1 5,12Z"
+
+
+{-| The [`seat-outline`](https://pictogrammers.com/library/mdi/icon/seat-outline/) icon.
+-}
+seatOutline : IconShape
+seatOutline =
+    iconShape "M15,5V12H9V5H15M15,3H9A2,2 0 0,0 7,5V14H17V5A2,2 0 0,0 15,3M22,10H19V13H22V10M5,10H2V13H5V10M20,15H4V21H6V17H18V21H20V15Z"
 
 
 {-| The [`seat-passenger`](https://pictogrammers.com/library/mdi/icon/seat-passenger/) icon.
@@ -3355,18 +3355,18 @@ socialDistance6Feet =
     iconShape "M6 6C7.1 6 8 5.1 8 4S7.1 2 6 2 4 2.9 4 4 4.9 6 6 6M10 9.43C10 8.62 9.5 7.9 8.78 7.58C7.93 7.21 7 7 6 7S4.07 7.21 3.22 7.58C2.5 7.9 2 8.62 2 9.43V10H10V9.43M18 6C19.1 6 20 5.1 20 4S19.1 2 18 2 16 2.9 16 4 16.9 6 18 6M22 9.43C22 8.62 21.5 7.9 20.78 7.58C19.93 7.21 19 7 18 7S16.07 7.21 15.22 7.58C14.5 7.9 14 8.62 14 9.43V10H22V9.43M19 17V15H5V17L2 14L5 11V13H19V11L22 14L19 17M10 19V18H7.5C7.22 18 7 18.22 7 18.5V21.5C7 21.78 7.22 22 7.5 22H9.5C9.78 22 10 21.78 10 21.5V20C10 19.72 9.78 19.5 9.5 19.5H8V19H10M9 20.5V21H8V20.5H9M17.5 19H16.5V22H15.5V19H14.5V18H17.5V19M12.5 19V19.5H13.5V20.5H12.5V22H11.5V18H14V19H12.5Z"
 
 
-{-| The [`sofa-outline`](https://pictogrammers.com/library/mdi/icon/sofa-outline/) icon.
--}
-sofaOutline : IconShape
-sofaOutline =
-    iconShape "M21 9V7C21 5.35 19.65 4 18 4H14C13.23 4 12.53 4.3 12 4.78C11.47 4.3 10.77 4 10 4H6C4.35 4 3 5.35 3 7V9C1.35 9 0 10.35 0 12V17C0 18.65 1.35 20 3 20V22H5V20H19V22H21V20C22.65 20 24 18.65 24 17V12C24 10.35 22.65 9 21 9M14 6H18C18.55 6 19 6.45 19 7V9.78C18.39 10.33 18 11.12 18 12V14H13V7C13 6.45 13.45 6 14 6M5 7C5 6.45 5.45 6 6 6H10C10.55 6 11 6.45 11 7V14H6V12C6 11.12 5.61 10.33 5 9.78V7M22 17C22 17.55 21.55 18 21 18H3C2.45 18 2 17.55 2 17V12C2 11.45 2.45 11 3 11S4 11.45 4 12V16H20V12C20 11.45 20.45 11 21 11S22 11.45 22 12V17Z"
-
-
 {-| The [`sofa`](https://pictogrammers.com/library/mdi/icon/sofa/) icon.
 -}
 sofa : IconShape
 sofa =
     iconShape "M12.5 7C12.5 5.89 13.39 5 14.5 5H18C19.1 5 20 5.9 20 7V9.16C18.84 9.57 18 10.67 18 11.97V14H12.5V7M6 11.96V14H11.5V7C11.5 5.89 10.61 5 9.5 5H6C4.9 5 4 5.9 4 7V9.15C5.16 9.56 6 10.67 6 11.96M20.66 10.03C19.68 10.19 19 11.12 19 12.12V15H5V12C5 10.9 4.11 10 3 10S1 10.9 1 12V17C1 18.1 1.9 19 3 19V21H5V19H19V21H21V19C22.1 19 23 18.1 23 17V12C23 10.79 21.91 9.82 20.66 10.03Z"
+
+
+{-| The [`sofa-outline`](https://pictogrammers.com/library/mdi/icon/sofa-outline/) icon.
+-}
+sofaOutline : IconShape
+sofaOutline =
+    iconShape "M21 9V7C21 5.35 19.65 4 18 4H14C13.23 4 12.53 4.3 12 4.78C11.47 4.3 10.77 4 10 4H6C4.35 4 3 5.35 3 7V9C1.35 9 0 10.35 0 12V17C0 18.65 1.35 20 3 20V22H5V20H19V22H21V20C22.65 20 24 18.65 24 17V12C24 10.35 22.65 9 21 9M14 6H18C18.55 6 19 6.45 19 7V9.78C18.39 10.33 18 11.12 18 12V14H13V7C13 6.45 13.45 6 14 6M5 7C5 6.45 5.45 6 6 6H10C10.55 6 11 6.45 11 7V14H6V12C6 11.12 5.61 10.33 5 9.78V7M22 17C22 17.55 21.55 18 21 18H3C2.45 18 2 17.55 2 17V12C2 11.45 2.45 11 3 11S4 11.45 4 12V16H20V12C20 11.45 20.45 11 21 11S22 11.45 22 12V17Z"
 
 
 {-| The [`sofa-single`](https://pictogrammers.com/library/mdi/icon/sofa-single/) icon.
@@ -3796,18 +3796,18 @@ spa =
     iconShape "M15.5,9.63C15.31,6.84 14.18,4.12 12.06,2C9.92,4.14 8.74,6.86 8.5,9.63C9.79,10.31 10.97,11.19 12,12.26C13.03,11.2 14.21,10.32 15.5,9.63M12,15.45C9.85,12.17 6.18,10 2,10C2,20 11.32,21.89 12,22C12.68,21.88 22,20 22,10C17.82,10 14.15,12.17 12,15.45Z"
 
 
-{-| The [`space-invaders`](https://pictogrammers.com/library/mdi/icon/space-invaders/) icon.
--}
-spaceInvaders : IconShape
-spaceInvaders =
-    iconShape "M7,6H5V4H7V6M17,6H19V4H17V6M23,12V18H21V14H19V18H17V16H7V18H5V14H3V18H1V12H3V10H5V8H7V6H9V8H15V6H17V8H19V10H21V12H23M15,10V12H17V10H15M7,12H9V10H7V12M11,18H7V20H11V18M17,18H13V20H17V18Z"
-
-
 {-| The [`spa-outline`](https://pictogrammers.com/library/mdi/icon/spa-outline/) icon.
 -}
 spaOutline : IconShape
 spaOutline =
     iconShape "M15.5,9.63C14.21,10.32 13.03,11.2 12,12.26C10.97,11.19 9.79,10.31 8.5,9.63C8.74,6.86 9.92,4.14 12.06,2C14.18,4.12 15.31,6.84 15.5,9.63M12,15.45C14.15,12.17 17.82,10 22,10C22,20 12.68,21.88 12,22C11.32,21.89 2,20 2,10C6.18,10 9.85,12.17 12,15.45M12.05,5.19C11.39,6.23 10.93,7.38 10.68,8.58L12,9.55L13.35,8.57C13.12,7.37 12.68,6.22 12.05,5.19M12,19.97C12,19.97 18,19 19.74,12.25C14,14 12,19.1 12,19.1C12,19.1 9,13 4.26,12.26C6,19 12,19.97 12,19.97Z"
+
+
+{-| The [`space-invaders`](https://pictogrammers.com/library/mdi/icon/space-invaders/) icon.
+-}
+spaceInvaders : IconShape
+spaceInvaders =
+    iconShape "M7,6H5V4H7V6M17,6H19V4H17V6M23,12V18H21V14H19V18H17V16H7V18H5V14H3V18H1V12H3V10H5V8H7V6H9V8H15V6H17V8H19V10H21V12H23M15,10V12H17V10H15M7,12H9V10H7V12M11,18H7V20H11V18M17,18H13V20H17V18Z"
 
 
 {-| The [`space-station`](https://pictogrammers.com/library/mdi/icon/space-station/) icon.
@@ -4398,18 +4398,18 @@ starHalf =
     iconShape "M12 2L9.19 8.62L2 9.24L7.45 13.97L5.82 21L12 17.27V2Z"
 
 
-{-| The [`star-minus`](https://pictogrammers.com/library/mdi/icon/star-minus/) icon.
--}
-starMinus : IconShape
-starMinus =
-    iconShape "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M14 17V19H22V17H14Z"
-
-
 {-| The [`star-half-full`](https://pictogrammers.com/library/mdi/icon/star-half-full/) icon.
 -}
 starHalfFull : IconShape
 starHalfFull =
     iconShape "M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+
+
+{-| The [`star-minus`](https://pictogrammers.com/library/mdi/icon/star-minus/) icon.
+-}
+starMinus : IconShape
+starMinus =
+    iconShape "M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C14.9 12 12.4 14.3 12 17.3L5.8 21M14 17V19H22V17H14Z"
 
 
 {-| The [`star-minus-outline`](https://pictogrammers.com/library/mdi/icon/star-minus-outline/) icon.
@@ -5642,11 +5642,11 @@ lookup name =
         "seat-legroom-normal" ->
             Just seatLegroomNormal
 
-        "seat-outline" ->
-            Just seatOutline
-
         "seat-legroom-reduced" ->
             Just seatLegroomReduced
+
+        "seat-outline" ->
+            Just seatOutline
 
         "seat-passenger" ->
             Just seatPassenger
@@ -6593,11 +6593,11 @@ lookup name =
         "social-distance-6-feet" ->
             Just socialDistance6Feet
 
-        "sofa-outline" ->
-            Just sofaOutline
-
         "sofa" ->
             Just sofa
+
+        "sofa-outline" ->
+            Just sofaOutline
 
         "sofa-single" ->
             Just sofaSingle
@@ -6782,11 +6782,11 @@ lookup name =
         "spa" ->
             Just spa
 
-        "space-invaders" ->
-            Just spaceInvaders
-
         "spa-outline" ->
             Just spaOutline
+
+        "space-invaders" ->
+            Just spaceInvaders
 
         "space-station" ->
             Just spaceStation
@@ -7040,11 +7040,11 @@ lookup name =
         "star-half" ->
             Just starHalf
 
-        "star-minus" ->
-            Just starMinus
-
         "star-half-full" ->
             Just starHalfFull
+
+        "star-minus" ->
+            Just starMinus
 
         "star-minus-outline" ->
             Just starMinusOutline

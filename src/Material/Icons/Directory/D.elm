@@ -1031,18 +1031,18 @@ dice1Outline =
     iconShape "M19 5V19H5V5H19M19 3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M12 10.5C11.17 10.5 10.5 11.17 10.5 12S11.17 13.5 12 13.5 13.5 12.83 13.5 12 12.83 10.5 12 10.5"
 
 
-{-| The [`dice-2-outline`](https://pictogrammers.com/library/mdi/icon/dice-2-outline/) icon.
--}
-dice2Outline : IconShape
-dice2Outline =
-    iconShape "M19 5V19H5V5H19M19 3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M7.5 6C6.67 6 6 6.67 6 7.5S6.67 9 7.5 9 9 8.33 9 7.5 8.33 6 7.5 6M16.5 15C15.67 15 15 15.67 15 16.5C15 17.33 15.67 18 16.5 18C17.33 18 18 17.33 18 16.5C18 15.67 17.33 15 16.5 15Z"
-
-
 {-| The [`dice-2`](https://pictogrammers.com/library/mdi/icon/dice-2/) icon.
 -}
 dice2 : IconShape
 dice2 =
     iconShape "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M7,5A2,2 0 0,0 5,7A2,2 0 0,0 7,9A2,2 0 0,0 9,7A2,2 0 0,0 7,5M17,15A2,2 0 0,0 15,17A2,2 0 0,0 17,19A2,2 0 0,0 19,17A2,2 0 0,0 17,15Z"
+
+
+{-| The [`dice-2-outline`](https://pictogrammers.com/library/mdi/icon/dice-2-outline/) icon.
+-}
+dice2Outline : IconShape
+dice2Outline =
+    iconShape "M19 5V19H5V5H19M19 3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M7.5 6C6.67 6 6 6.67 6 7.5S6.67 9 7.5 9 9 8.33 9 7.5 8.33 6 7.5 6M16.5 15C15.67 15 15 15.67 15 16.5C15 17.33 15.67 18 16.5 18C17.33 18 18 17.33 18 16.5C18 15.67 17.33 15 16.5 15Z"
 
 
 {-| The [`dice-3`](https://pictogrammers.com/library/mdi/icon/dice-3/) icon.
@@ -2258,11 +2258,11 @@ lookup name =
         "dice-1-outline" ->
             Just dice1Outline
 
-        "dice-2-outline" ->
-            Just dice2Outline
-
         "dice-2" ->
             Just dice2
+
+        "dice-2-outline" ->
+            Just dice2Outline
 
         "dice-3" ->
             Just dice3

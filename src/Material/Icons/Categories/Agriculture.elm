@@ -37,8 +37,8 @@ module Material.Icons.Categories.Agriculture exposing
     , flowerTulipOutline
     , foodApple
     , foodAppleOutline
-    , forestOutline
     , forest
+    , forestOutline
     , fruitCherries
     , fruitCherriesOff
     , fruitCitrus
@@ -62,14 +62,14 @@ module Material.Icons.Categories.Agriculture exposing
     , horseshoe
     , hydroPower
     , landFields
-    , landPlotsCircle
     , landPlots
+    , landPlotsCircle
     , landPlotsCircleVariant
-    , landRowsHorizontal
-    , landRowsVertical
     , landPlotsMarker
-    , leafCircle
+    , landRowsVertical
+    , landRowsHorizontal
     , leaf
+    , leafCircle
     , leafCircleOutline
     , leafOff
     , mushroom
@@ -167,8 +167,8 @@ module Material.Icons.Categories.Agriculture exposing
 @docs flowerTulipOutline
 @docs foodApple
 @docs foodAppleOutline
-@docs forestOutline
 @docs forest
+@docs forestOutline
 @docs fruitCherries
 @docs fruitCherriesOff
 @docs fruitCitrus
@@ -192,14 +192,14 @@ module Material.Icons.Categories.Agriculture exposing
 @docs horseshoe
 @docs hydroPower
 @docs landFields
-@docs landPlotsCircle
 @docs landPlots
+@docs landPlotsCircle
 @docs landPlotsCircleVariant
-@docs landRowsHorizontal
-@docs landRowsVertical
 @docs landPlotsMarker
-@docs leafCircle
+@docs landRowsVertical
+@docs landRowsHorizontal
 @docs leaf
+@docs leafCircle
 @docs leafCircleOutline
 @docs leafOff
 @docs mushroom
@@ -517,18 +517,18 @@ foodAppleOutline =
     Material.Icons.Directory.F.foodAppleOutline
 
 
-{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
--}
-forestOutline : IconShape
-forestOutline =
-    Material.Icons.Directory.F.forestOutline
-
-
 {-| The [`forest`](https://pictogrammers.com/library/mdi/icon/forest/) icon.
 -}
 forest : IconShape
 forest =
     Material.Icons.Directory.F.forest
+
+
+{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
+-}
+forestOutline : IconShape
+forestOutline =
+    Material.Icons.Directory.F.forestOutline
 
 
 {-| The [`fruit-cherries`](https://pictogrammers.com/library/mdi/icon/fruit-cherries/) icon.
@@ -692,18 +692,18 @@ landFields =
     Material.Icons.Directory.L.landFields
 
 
-{-| The [`land-plots-circle`](https://pictogrammers.com/library/mdi/icon/land-plots-circle/) icon.
--}
-landPlotsCircle : IconShape
-landPlotsCircle =
-    Material.Icons.Directory.L.landPlotsCircle
-
-
 {-| The [`land-plots`](https://pictogrammers.com/library/mdi/icon/land-plots/) icon.
 -}
 landPlots : IconShape
 landPlots =
     Material.Icons.Directory.L.landPlots
+
+
+{-| The [`land-plots-circle`](https://pictogrammers.com/library/mdi/icon/land-plots-circle/) icon.
+-}
+landPlotsCircle : IconShape
+landPlotsCircle =
+    Material.Icons.Directory.L.landPlotsCircle
 
 
 {-| The [`land-plots-circle-variant`](https://pictogrammers.com/library/mdi/icon/land-plots-circle-variant/) icon.
@@ -713,11 +713,11 @@ landPlotsCircleVariant =
     Material.Icons.Directory.L.landPlotsCircleVariant
 
 
-{-| The [`land-rows-horizontal`](https://pictogrammers.com/library/mdi/icon/land-rows-horizontal/) icon.
+{-| The [`land-plots-marker`](https://pictogrammers.com/library/mdi/icon/land-plots-marker/) icon.
 -}
-landRowsHorizontal : IconShape
-landRowsHorizontal =
-    Material.Icons.Directory.L.landRowsHorizontal
+landPlotsMarker : IconShape
+landPlotsMarker =
+    Material.Icons.Directory.L.landPlotsMarker
 
 
 {-| The [`land-rows-vertical`](https://pictogrammers.com/library/mdi/icon/land-rows-vertical/) icon.
@@ -727,18 +727,11 @@ landRowsVertical =
     Material.Icons.Directory.L.landRowsVertical
 
 
-{-| The [`land-plots-marker`](https://pictogrammers.com/library/mdi/icon/land-plots-marker/) icon.
+{-| The [`land-rows-horizontal`](https://pictogrammers.com/library/mdi/icon/land-rows-horizontal/) icon.
 -}
-landPlotsMarker : IconShape
-landPlotsMarker =
-    Material.Icons.Directory.L.landPlotsMarker
-
-
-{-| The [`leaf-circle`](https://pictogrammers.com/library/mdi/icon/leaf-circle/) icon.
--}
-leafCircle : IconShape
-leafCircle =
-    Material.Icons.Directory.L.leafCircle
+landRowsHorizontal : IconShape
+landRowsHorizontal =
+    Material.Icons.Directory.L.landRowsHorizontal
 
 
 {-| The [`leaf`](https://pictogrammers.com/library/mdi/icon/leaf/) icon.
@@ -746,6 +739,13 @@ leafCircle =
 leaf : IconShape
 leaf =
     Material.Icons.Directory.L.leaf
+
+
+{-| The [`leaf-circle`](https://pictogrammers.com/library/mdi/icon/leaf-circle/) icon.
+-}
+leafCircle : IconShape
+leafCircle =
+    Material.Icons.Directory.L.leafCircle
 
 
 {-| The [`leaf-circle-outline`](https://pictogrammers.com/library/mdi/icon/leaf-circle-outline/) icon.

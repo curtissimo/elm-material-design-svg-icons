@@ -70,8 +70,8 @@ module Material.Icons.Categories.HomeAutomation exposing
     , bed
     , bedDouble
     , bedDoubleOutline
-    , bedEmpty
     , bedKing
+    , bedEmpty
     , bedKingOutline
     , bedOutline
     , bedQueen
@@ -172,8 +172,8 @@ module Material.Icons.Categories.HomeAutomation exposing
     , fanSpeed1
     , fanSpeed2
     , fanSpeed3
-    , faucet
     , faucetVariant
+    , faucet
     , fence
     , fenceElectric
     , fire
@@ -248,9 +248,9 @@ module Material.Icons.Categories.HomeAutomation exposing
     , heatPumpOutline
     , heatWave
     , heatingCoil
-    , home
     , homeAccount
     , homeAlert
+    , home
     , homeAlertOutline
     , homeAnalytics
     , homeAutomation
@@ -319,8 +319,8 @@ module Material.Icons.Categories.HomeAutomation exposing
     , hvacOff
     , imageFrame
     , induction
-    , iron
     , ironBoard
+    , iron
     , ironOutline
     , kettle
     , kettleAlert
@@ -333,13 +333,13 @@ module Material.Icons.Categories.HomeAutomation exposing
     , keyChain
     , keyChainVariant
     , lamp
-    , lamps
     , lampOutline
+    , lamps
     , lampsOutline
     , laptop
     , lavaLamp
-    , ledOn
     , ledOff
+    , ledOn
     , ledOutline
     , ledStrip
     , ledStripVariant
@@ -349,15 +349,15 @@ module Material.Icons.Categories.HomeAutomation exposing
     , ledVariantOutline
     , lightFloodDown
     , lightFloodUp
-    , lightSwitch
     , lightRecessed
+    , lightSwitch
     , lightSwitchOff
+    , lightbulbAlert
     , lightbulb
     , lightbulbAlertOutline
-    , lightbulbAlert
     , lightbulbAuto
-    , lightbulbAutoOutline
     , lightbulbCfl
+    , lightbulbAutoOutline
     , lightbulbCflOff
     , lightbulbCflSpiral
     , lightbulbCflSpiralOff
@@ -366,38 +366,38 @@ module Material.Icons.Categories.HomeAutomation exposing
     , lightbulbGroup
     , lightbulbGroupOff
     , lightbulbGroupOffOutline
-    , lightbulbMultiple
     , lightbulbGroupOutline
-    , lightbulbMultipleOff
+    , lightbulbMultiple
     , lightbulbMultipleOffOutline
+    , lightbulbMultipleOff
     , lightbulbMultipleOutline
-    , lightbulbNightOutline
     , lightbulbNight
-    , lightbulbOffOutline
     , lightbulbOff
+    , lightbulbNightOutline
+    , lightbulbOffOutline
     , lightbulbOn
     , lightbulbOn10
     , lightbulbOn20
-    , lightbulbOn30
     , lightbulbOn40
+    , lightbulbOn30
     , lightbulbOn50
     , lightbulbOn60
     , lightbulbOn70
     , lightbulbOn80
-    , lightbulbOnOutline
     , lightbulbOn90
+    , lightbulbOnOutline
     , lightbulbOutline
+    , lightbulbQuestionOutline
     , lightbulbQuestion
     , lightbulbSpot
-    , lightbulbQuestionOutline
-    , lightbulbVariant
     , lightbulbSpotOff
+    , lightbulbVariant
     , lightbulbVariantOutline
     , lightningBolt
-    , lightningBoltOutline
     , lightningBoltCircle
-    , locationExit
+    , lightningBoltOutline
     , locationEnter
+    , locationExit
     , lock
     , lockAlert
     , lockAlertOutline
@@ -525,8 +525,8 @@ module Material.Icons.Categories.HomeAutomation exposing
     , smokeDetectorVariantOff
     , snowflakeAlert
     , snowflakeThermometer
-    , sofaOutline
     , sofa
+    , sofaOutline
     , sofaSingle
     , sofaSingleOutline
     , solarPanel
@@ -560,11 +560,11 @@ module Material.Icons.Categories.HomeAutomation exposing
     , tableFurniture
     , teddyBear
     , televisionAmbientLight
-    , television
-    , televisionOff
-    , televisionClassicOff
-    , televisionClassic
     , televisionGuide
+    , televisionClassicOff
+    , television
+    , televisionClassic
+    , televisionOff
     , theater
     , thermometer
     , thermometerAlert
@@ -572,8 +572,8 @@ module Material.Icons.Categories.HomeAutomation exposing
     , thermometerBluetooth
     , thermometerCheck
     , thermometerChevronDown
-    , thermometerHigh
     , thermometerChevronUp
+    , thermometerHigh
     , thermometerLines
     , thermometerLow
     , thermometerMinus
@@ -729,8 +729,8 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs bed
 @docs bedDouble
 @docs bedDoubleOutline
-@docs bedEmpty
 @docs bedKing
+@docs bedEmpty
 @docs bedKingOutline
 @docs bedOutline
 @docs bedQueen
@@ -831,8 +831,8 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs fanSpeed1
 @docs fanSpeed2
 @docs fanSpeed3
-@docs faucet
 @docs faucetVariant
+@docs faucet
 @docs fence
 @docs fenceElectric
 @docs fire
@@ -907,9 +907,9 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs heatPumpOutline
 @docs heatWave
 @docs heatingCoil
-@docs home
 @docs homeAccount
 @docs homeAlert
+@docs home
 @docs homeAlertOutline
 @docs homeAnalytics
 @docs homeAutomation
@@ -978,8 +978,8 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs hvacOff
 @docs imageFrame
 @docs induction
-@docs iron
 @docs ironBoard
+@docs iron
 @docs ironOutline
 @docs kettle
 @docs kettleAlert
@@ -992,13 +992,13 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs keyChain
 @docs keyChainVariant
 @docs lamp
-@docs lamps
 @docs lampOutline
+@docs lamps
 @docs lampsOutline
 @docs laptop
 @docs lavaLamp
-@docs ledOn
 @docs ledOff
+@docs ledOn
 @docs ledOutline
 @docs ledStrip
 @docs ledStripVariant
@@ -1008,15 +1008,15 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs ledVariantOutline
 @docs lightFloodDown
 @docs lightFloodUp
-@docs lightSwitch
 @docs lightRecessed
+@docs lightSwitch
 @docs lightSwitchOff
+@docs lightbulbAlert
 @docs lightbulb
 @docs lightbulbAlertOutline
-@docs lightbulbAlert
 @docs lightbulbAuto
-@docs lightbulbAutoOutline
 @docs lightbulbCfl
+@docs lightbulbAutoOutline
 @docs lightbulbCflOff
 @docs lightbulbCflSpiral
 @docs lightbulbCflSpiralOff
@@ -1025,38 +1025,38 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs lightbulbGroup
 @docs lightbulbGroupOff
 @docs lightbulbGroupOffOutline
-@docs lightbulbMultiple
 @docs lightbulbGroupOutline
-@docs lightbulbMultipleOff
+@docs lightbulbMultiple
 @docs lightbulbMultipleOffOutline
+@docs lightbulbMultipleOff
 @docs lightbulbMultipleOutline
-@docs lightbulbNightOutline
 @docs lightbulbNight
-@docs lightbulbOffOutline
 @docs lightbulbOff
+@docs lightbulbNightOutline
+@docs lightbulbOffOutline
 @docs lightbulbOn
 @docs lightbulbOn10
 @docs lightbulbOn20
-@docs lightbulbOn30
 @docs lightbulbOn40
+@docs lightbulbOn30
 @docs lightbulbOn50
 @docs lightbulbOn60
 @docs lightbulbOn70
 @docs lightbulbOn80
-@docs lightbulbOnOutline
 @docs lightbulbOn90
+@docs lightbulbOnOutline
 @docs lightbulbOutline
+@docs lightbulbQuestionOutline
 @docs lightbulbQuestion
 @docs lightbulbSpot
-@docs lightbulbQuestionOutline
-@docs lightbulbVariant
 @docs lightbulbSpotOff
+@docs lightbulbVariant
 @docs lightbulbVariantOutline
 @docs lightningBolt
-@docs lightningBoltOutline
 @docs lightningBoltCircle
-@docs locationExit
+@docs lightningBoltOutline
 @docs locationEnter
+@docs locationExit
 @docs lock
 @docs lockAlert
 @docs lockAlertOutline
@@ -1184,8 +1184,8 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs smokeDetectorVariantOff
 @docs snowflakeAlert
 @docs snowflakeThermometer
-@docs sofaOutline
 @docs sofa
+@docs sofaOutline
 @docs sofaSingle
 @docs sofaSingleOutline
 @docs solarPanel
@@ -1219,11 +1219,11 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs tableFurniture
 @docs teddyBear
 @docs televisionAmbientLight
-@docs television
-@docs televisionOff
-@docs televisionClassicOff
-@docs televisionClassic
 @docs televisionGuide
+@docs televisionClassicOff
+@docs television
+@docs televisionClassic
+@docs televisionOff
 @docs theater
 @docs thermometer
 @docs thermometerAlert
@@ -1231,8 +1231,8 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs thermometerBluetooth
 @docs thermometerCheck
 @docs thermometerChevronDown
-@docs thermometerHigh
 @docs thermometerChevronUp
+@docs thermometerHigh
 @docs thermometerLines
 @docs thermometerLow
 @docs thermometerMinus
@@ -1812,18 +1812,18 @@ bedDoubleOutline =
     Material.Icons.Directory.B.bedDoubleOutline
 
 
-{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
--}
-bedEmpty : IconShape
-bedEmpty =
-    Material.Icons.Directory.B.bedEmpty
-
-
 {-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
 -}
 bedKing : IconShape
 bedKing =
     Material.Icons.Directory.B.bedKing
+
+
+{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
+-}
+bedEmpty : IconShape
+bedEmpty =
+    Material.Icons.Directory.B.bedEmpty
 
 
 {-| The [`bed-king-outline`](https://pictogrammers.com/library/mdi/icon/bed-king-outline/) icon.
@@ -2526,18 +2526,18 @@ fanSpeed3 =
     Material.Icons.Directory.F.fanSpeed3
 
 
-{-| The [`faucet`](https://pictogrammers.com/library/mdi/icon/faucet/) icon.
--}
-faucet : IconShape
-faucet =
-    Material.Icons.Directory.F.faucet
-
-
 {-| The [`faucet-variant`](https://pictogrammers.com/library/mdi/icon/faucet-variant/) icon.
 -}
 faucetVariant : IconShape
 faucetVariant =
     Material.Icons.Directory.F.faucetVariant
+
+
+{-| The [`faucet`](https://pictogrammers.com/library/mdi/icon/faucet/) icon.
+-}
+faucet : IconShape
+faucet =
+    Material.Icons.Directory.F.faucet
 
 
 {-| The [`fence`](https://pictogrammers.com/library/mdi/icon/fence/) icon.
@@ -3058,13 +3058,6 @@ heatingCoil =
     Material.Icons.Directory.H.heatingCoil
 
 
-{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
--}
-home : IconShape
-home =
-    Material.Icons.Directory.H.home
-
-
 {-| The [`home-account`](https://pictogrammers.com/library/mdi/icon/home-account/) icon.
 -}
 homeAccount : IconShape
@@ -3077,6 +3070,13 @@ homeAccount =
 homeAlert : IconShape
 homeAlert =
     Material.Icons.Directory.H.homeAlert
+
+
+{-| The [`home`](https://pictogrammers.com/library/mdi/icon/home/) icon.
+-}
+home : IconShape
+home =
+    Material.Icons.Directory.H.home
 
 
 {-| The [`home-alert-outline`](https://pictogrammers.com/library/mdi/icon/home-alert-outline/) icon.
@@ -3555,18 +3555,18 @@ induction =
     Material.Icons.Directory.I.induction
 
 
-{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
--}
-iron : IconShape
-iron =
-    Material.Icons.Directory.I.iron
-
-
 {-| The [`iron-board`](https://pictogrammers.com/library/mdi/icon/iron-board/) icon.
 -}
 ironBoard : IconShape
 ironBoard =
     Material.Icons.Directory.I.ironBoard
+
+
+{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
+-}
+iron : IconShape
+iron =
+    Material.Icons.Directory.I.iron
 
 
 {-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.
@@ -3653,18 +3653,18 @@ lamp =
     Material.Icons.Directory.L.lamp
 
 
-{-| The [`lamps`](https://pictogrammers.com/library/mdi/icon/lamps/) icon.
--}
-lamps : IconShape
-lamps =
-    Material.Icons.Directory.L.lamps
-
-
 {-| The [`lamp-outline`](https://pictogrammers.com/library/mdi/icon/lamp-outline/) icon.
 -}
 lampOutline : IconShape
 lampOutline =
     Material.Icons.Directory.L.lampOutline
+
+
+{-| The [`lamps`](https://pictogrammers.com/library/mdi/icon/lamps/) icon.
+-}
+lamps : IconShape
+lamps =
+    Material.Icons.Directory.L.lamps
 
 
 {-| The [`lamps-outline`](https://pictogrammers.com/library/mdi/icon/lamps-outline/) icon.
@@ -3688,18 +3688,18 @@ lavaLamp =
     Material.Icons.Directory.L.lavaLamp
 
 
-{-| The [`led-on`](https://pictogrammers.com/library/mdi/icon/led-on/) icon.
--}
-ledOn : IconShape
-ledOn =
-    Material.Icons.Directory.L.ledOn
-
-
 {-| The [`led-off`](https://pictogrammers.com/library/mdi/icon/led-off/) icon.
 -}
 ledOff : IconShape
 ledOff =
     Material.Icons.Directory.L.ledOff
+
+
+{-| The [`led-on`](https://pictogrammers.com/library/mdi/icon/led-on/) icon.
+-}
+ledOn : IconShape
+ledOn =
+    Material.Icons.Directory.L.ledOn
 
 
 {-| The [`led-outline`](https://pictogrammers.com/library/mdi/icon/led-outline/) icon.
@@ -3765,13 +3765,6 @@ lightFloodUp =
     Material.Icons.Directory.L.lightFloodUp
 
 
-{-| The [`light-switch`](https://pictogrammers.com/library/mdi/icon/light-switch/) icon.
--}
-lightSwitch : IconShape
-lightSwitch =
-    Material.Icons.Directory.L.lightSwitch
-
-
 {-| The [`light-recessed`](https://pictogrammers.com/library/mdi/icon/light-recessed/) icon.
 -}
 lightRecessed : IconShape
@@ -3779,11 +3772,25 @@ lightRecessed =
     Material.Icons.Directory.L.lightRecessed
 
 
+{-| The [`light-switch`](https://pictogrammers.com/library/mdi/icon/light-switch/) icon.
+-}
+lightSwitch : IconShape
+lightSwitch =
+    Material.Icons.Directory.L.lightSwitch
+
+
 {-| The [`light-switch-off`](https://pictogrammers.com/library/mdi/icon/light-switch-off/) icon.
 -}
 lightSwitchOff : IconShape
 lightSwitchOff =
     Material.Icons.Directory.L.lightSwitchOff
+
+
+{-| The [`lightbulb-alert`](https://pictogrammers.com/library/mdi/icon/lightbulb-alert/) icon.
+-}
+lightbulbAlert : IconShape
+lightbulbAlert =
+    Material.Icons.Directory.L.lightbulbAlert
 
 
 {-| The [`lightbulb`](https://pictogrammers.com/library/mdi/icon/lightbulb/) icon.
@@ -3800,13 +3807,6 @@ lightbulbAlertOutline =
     Material.Icons.Directory.L.lightbulbAlertOutline
 
 
-{-| The [`lightbulb-alert`](https://pictogrammers.com/library/mdi/icon/lightbulb-alert/) icon.
--}
-lightbulbAlert : IconShape
-lightbulbAlert =
-    Material.Icons.Directory.L.lightbulbAlert
-
-
 {-| The [`lightbulb-auto`](https://pictogrammers.com/library/mdi/icon/lightbulb-auto/) icon.
 -}
 lightbulbAuto : IconShape
@@ -3814,18 +3814,18 @@ lightbulbAuto =
     Material.Icons.Directory.L.lightbulbAuto
 
 
-{-| The [`lightbulb-auto-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-auto-outline/) icon.
--}
-lightbulbAutoOutline : IconShape
-lightbulbAutoOutline =
-    Material.Icons.Directory.L.lightbulbAutoOutline
-
-
 {-| The [`lightbulb-cfl`](https://pictogrammers.com/library/mdi/icon/lightbulb-cfl/) icon.
 -}
 lightbulbCfl : IconShape
 lightbulbCfl =
     Material.Icons.Directory.L.lightbulbCfl
+
+
+{-| The [`lightbulb-auto-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-auto-outline/) icon.
+-}
+lightbulbAutoOutline : IconShape
+lightbulbAutoOutline =
+    Material.Icons.Directory.L.lightbulbAutoOutline
 
 
 {-| The [`lightbulb-cfl-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-cfl-off/) icon.
@@ -3884,13 +3884,6 @@ lightbulbGroupOffOutline =
     Material.Icons.Directory.L.lightbulbGroupOffOutline
 
 
-{-| The [`lightbulb-multiple`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple/) icon.
--}
-lightbulbMultiple : IconShape
-lightbulbMultiple =
-    Material.Icons.Directory.L.lightbulbMultiple
-
-
 {-| The [`lightbulb-group-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-group-outline/) icon.
 -}
 lightbulbGroupOutline : IconShape
@@ -3898,11 +3891,11 @@ lightbulbGroupOutline =
     Material.Icons.Directory.L.lightbulbGroupOutline
 
 
-{-| The [`lightbulb-multiple-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-off/) icon.
+{-| The [`lightbulb-multiple`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple/) icon.
 -}
-lightbulbMultipleOff : IconShape
-lightbulbMultipleOff =
-    Material.Icons.Directory.L.lightbulbMultipleOff
+lightbulbMultiple : IconShape
+lightbulbMultiple =
+    Material.Icons.Directory.L.lightbulbMultiple
 
 
 {-| The [`lightbulb-multiple-off-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-off-outline/) icon.
@@ -3912,18 +3905,18 @@ lightbulbMultipleOffOutline =
     Material.Icons.Directory.L.lightbulbMultipleOffOutline
 
 
+{-| The [`lightbulb-multiple-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-off/) icon.
+-}
+lightbulbMultipleOff : IconShape
+lightbulbMultipleOff =
+    Material.Icons.Directory.L.lightbulbMultipleOff
+
+
 {-| The [`lightbulb-multiple-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-outline/) icon.
 -}
 lightbulbMultipleOutline : IconShape
 lightbulbMultipleOutline =
     Material.Icons.Directory.L.lightbulbMultipleOutline
-
-
-{-| The [`lightbulb-night-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-night-outline/) icon.
--}
-lightbulbNightOutline : IconShape
-lightbulbNightOutline =
-    Material.Icons.Directory.L.lightbulbNightOutline
 
 
 {-| The [`lightbulb-night`](https://pictogrammers.com/library/mdi/icon/lightbulb-night/) icon.
@@ -3933,18 +3926,25 @@ lightbulbNight =
     Material.Icons.Directory.L.lightbulbNight
 
 
-{-| The [`lightbulb-off-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-off-outline/) icon.
--}
-lightbulbOffOutline : IconShape
-lightbulbOffOutline =
-    Material.Icons.Directory.L.lightbulbOffOutline
-
-
 {-| The [`lightbulb-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-off/) icon.
 -}
 lightbulbOff : IconShape
 lightbulbOff =
     Material.Icons.Directory.L.lightbulbOff
+
+
+{-| The [`lightbulb-night-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-night-outline/) icon.
+-}
+lightbulbNightOutline : IconShape
+lightbulbNightOutline =
+    Material.Icons.Directory.L.lightbulbNightOutline
+
+
+{-| The [`lightbulb-off-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-off-outline/) icon.
+-}
+lightbulbOffOutline : IconShape
+lightbulbOffOutline =
+    Material.Icons.Directory.L.lightbulbOffOutline
 
 
 {-| The [`lightbulb-on`](https://pictogrammers.com/library/mdi/icon/lightbulb-on/) icon.
@@ -3968,18 +3968,18 @@ lightbulbOn20 =
     Material.Icons.Directory.L.lightbulbOn20
 
 
-{-| The [`lightbulb-on-30`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-30/) icon.
--}
-lightbulbOn30 : IconShape
-lightbulbOn30 =
-    Material.Icons.Directory.L.lightbulbOn30
-
-
 {-| The [`lightbulb-on-40`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-40/) icon.
 -}
 lightbulbOn40 : IconShape
 lightbulbOn40 =
     Material.Icons.Directory.L.lightbulbOn40
+
+
+{-| The [`lightbulb-on-30`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-30/) icon.
+-}
+lightbulbOn30 : IconShape
+lightbulbOn30 =
+    Material.Icons.Directory.L.lightbulbOn30
 
 
 {-| The [`lightbulb-on-50`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-50/) icon.
@@ -4010,13 +4010,6 @@ lightbulbOn80 =
     Material.Icons.Directory.L.lightbulbOn80
 
 
-{-| The [`lightbulb-on-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-outline/) icon.
--}
-lightbulbOnOutline : IconShape
-lightbulbOnOutline =
-    Material.Icons.Directory.L.lightbulbOnOutline
-
-
 {-| The [`lightbulb-on-90`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-90/) icon.
 -}
 lightbulbOn90 : IconShape
@@ -4024,11 +4017,25 @@ lightbulbOn90 =
     Material.Icons.Directory.L.lightbulbOn90
 
 
+{-| The [`lightbulb-on-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-outline/) icon.
+-}
+lightbulbOnOutline : IconShape
+lightbulbOnOutline =
+    Material.Icons.Directory.L.lightbulbOnOutline
+
+
 {-| The [`lightbulb-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-outline/) icon.
 -}
 lightbulbOutline : IconShape
 lightbulbOutline =
     Material.Icons.Directory.L.lightbulbOutline
+
+
+{-| The [`lightbulb-question-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-question-outline/) icon.
+-}
+lightbulbQuestionOutline : IconShape
+lightbulbQuestionOutline =
+    Material.Icons.Directory.L.lightbulbQuestionOutline
 
 
 {-| The [`lightbulb-question`](https://pictogrammers.com/library/mdi/icon/lightbulb-question/) icon.
@@ -4045,11 +4052,11 @@ lightbulbSpot =
     Material.Icons.Directory.L.lightbulbSpot
 
 
-{-| The [`lightbulb-question-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-question-outline/) icon.
+{-| The [`lightbulb-spot-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-spot-off/) icon.
 -}
-lightbulbQuestionOutline : IconShape
-lightbulbQuestionOutline =
-    Material.Icons.Directory.L.lightbulbQuestionOutline
+lightbulbSpotOff : IconShape
+lightbulbSpotOff =
+    Material.Icons.Directory.L.lightbulbSpotOff
 
 
 {-| The [`lightbulb-variant`](https://pictogrammers.com/library/mdi/icon/lightbulb-variant/) icon.
@@ -4057,13 +4064,6 @@ lightbulbQuestionOutline =
 lightbulbVariant : IconShape
 lightbulbVariant =
     Material.Icons.Directory.L.lightbulbVariant
-
-
-{-| The [`lightbulb-spot-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-spot-off/) icon.
--}
-lightbulbSpotOff : IconShape
-lightbulbSpotOff =
-    Material.Icons.Directory.L.lightbulbSpotOff
 
 
 {-| The [`lightbulb-variant-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-variant-outline/) icon.
@@ -4080,13 +4080,6 @@ lightningBolt =
     Material.Icons.Directory.L.lightningBolt
 
 
-{-| The [`lightning-bolt-outline`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-outline/) icon.
--}
-lightningBoltOutline : IconShape
-lightningBoltOutline =
-    Material.Icons.Directory.L.lightningBoltOutline
-
-
 {-| The [`lightning-bolt-circle`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-circle/) icon.
 -}
 lightningBoltCircle : IconShape
@@ -4094,11 +4087,11 @@ lightningBoltCircle =
     Material.Icons.Directory.L.lightningBoltCircle
 
 
-{-| The [`location-exit`](https://pictogrammers.com/library/mdi/icon/location-exit/) icon.
+{-| The [`lightning-bolt-outline`](https://pictogrammers.com/library/mdi/icon/lightning-bolt-outline/) icon.
 -}
-locationExit : IconShape
-locationExit =
-    Material.Icons.Directory.L.locationExit
+lightningBoltOutline : IconShape
+lightningBoltOutline =
+    Material.Icons.Directory.L.lightningBoltOutline
 
 
 {-| The [`location-enter`](https://pictogrammers.com/library/mdi/icon/location-enter/) icon.
@@ -4106,6 +4099,13 @@ locationExit =
 locationEnter : IconShape
 locationEnter =
     Material.Icons.Directory.L.locationEnter
+
+
+{-| The [`location-exit`](https://pictogrammers.com/library/mdi/icon/location-exit/) icon.
+-}
+locationExit : IconShape
+locationExit =
+    Material.Icons.Directory.L.locationExit
 
 
 {-| The [`lock`](https://pictogrammers.com/library/mdi/icon/lock/) icon.
@@ -4997,18 +4997,18 @@ snowflakeThermometer =
     Material.Icons.Directory.S.snowflakeThermometer
 
 
-{-| The [`sofa-outline`](https://pictogrammers.com/library/mdi/icon/sofa-outline/) icon.
--}
-sofaOutline : IconShape
-sofaOutline =
-    Material.Icons.Directory.S.sofaOutline
-
-
 {-| The [`sofa`](https://pictogrammers.com/library/mdi/icon/sofa/) icon.
 -}
 sofa : IconShape
 sofa =
     Material.Icons.Directory.S.sofa
+
+
+{-| The [`sofa-outline`](https://pictogrammers.com/library/mdi/icon/sofa-outline/) icon.
+-}
+sofaOutline : IconShape
+sofaOutline =
+    Material.Icons.Directory.S.sofaOutline
 
 
 {-| The [`sofa-single`](https://pictogrammers.com/library/mdi/icon/sofa-single/) icon.
@@ -5242,18 +5242,11 @@ televisionAmbientLight =
     Material.Icons.Directory.T.televisionAmbientLight
 
 
-{-| The [`television`](https://pictogrammers.com/library/mdi/icon/television/) icon.
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
 -}
-television : IconShape
-television =
-    Material.Icons.Directory.T.television
-
-
-{-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
--}
-televisionOff : IconShape
-televisionOff =
-    Material.Icons.Directory.T.televisionOff
+televisionGuide : IconShape
+televisionGuide =
+    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
@@ -5263,6 +5256,13 @@ televisionClassicOff =
     Material.Icons.Directory.T.televisionClassicOff
 
 
+{-| The [`television`](https://pictogrammers.com/library/mdi/icon/television/) icon.
+-}
+television : IconShape
+television =
+    Material.Icons.Directory.T.television
+
+
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
 -}
 televisionClassic : IconShape
@@ -5270,11 +5270,11 @@ televisionClassic =
     Material.Icons.Directory.T.televisionClassic
 
 
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+{-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
 -}
-televisionGuide : IconShape
-televisionGuide =
-    Material.Icons.Directory.T.televisionGuide
+televisionOff : IconShape
+televisionOff =
+    Material.Icons.Directory.T.televisionOff
 
 
 {-| The [`theater`](https://pictogrammers.com/library/mdi/icon/theater/) icon.
@@ -5326,18 +5326,18 @@ thermometerChevronDown =
     Material.Icons.Directory.T.thermometerChevronDown
 
 
-{-| The [`thermometer-high`](https://pictogrammers.com/library/mdi/icon/thermometer-high/) icon.
--}
-thermometerHigh : IconShape
-thermometerHigh =
-    Material.Icons.Directory.T.thermometerHigh
-
-
 {-| The [`thermometer-chevron-up`](https://pictogrammers.com/library/mdi/icon/thermometer-chevron-up/) icon.
 -}
 thermometerChevronUp : IconShape
 thermometerChevronUp =
     Material.Icons.Directory.T.thermometerChevronUp
+
+
+{-| The [`thermometer-high`](https://pictogrammers.com/library/mdi/icon/thermometer-high/) icon.
+-}
+thermometerHigh : IconShape
+thermometerHigh =
+    Material.Icons.Directory.T.thermometerHigh
 
 
 {-| The [`thermometer-lines`](https://pictogrammers.com/library/mdi/icon/thermometer-lines/) icon.

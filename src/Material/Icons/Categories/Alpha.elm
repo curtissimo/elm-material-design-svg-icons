@@ -5,8 +5,8 @@
 module Material.Icons.Categories.Alpha exposing
     ( abjadArabic
     , abugidaDevanagari
-    , abugidaThai
     , abjadHebrew
+    , abugidaThai
     , alpha
     , alphaA
     , alphaABox
@@ -262,8 +262,8 @@ module Material.Icons.Categories.Alpha exposing
 
 @docs abjadArabic
 @docs abugidaDevanagari
-@docs abugidaThai
 @docs abjadHebrew
+@docs abugidaThai
 @docs alpha
 @docs alphaA
 @docs alphaABox
@@ -542,18 +542,18 @@ abugidaDevanagari =
     Material.Icons.Directory.A.abugidaDevanagari
 
 
-{-| The [`abugida-thai`](https://pictogrammers.com/library/mdi/icon/abugida-thai/) icon.
--}
-abugidaThai : IconShape
-abugidaThai =
-    Material.Icons.Directory.A.abugidaThai
-
-
 {-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
 -}
 abjadHebrew : IconShape
 abjadHebrew =
     Material.Icons.Directory.A.abjadHebrew
+
+
+{-| The [`abugida-thai`](https://pictogrammers.com/library/mdi/icon/abugida-thai/) icon.
+-}
+abugidaThai : IconShape
+abugidaThai =
+    Material.Icons.Directory.A.abugidaThai
 
 
 {-| The [`alpha`](https://pictogrammers.com/library/mdi/icon/alpha/) icon.

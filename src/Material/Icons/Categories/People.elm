@@ -75,8 +75,8 @@ module Material.Icons.Categories.People exposing
     , humanWalker
     , humanWheelchair
     , humanWhiteCane
-    , kabaddi
     , karate
+    , kabaddi
     , kayaking
     , meditation
     , motherHeart
@@ -169,8 +169,8 @@ module Material.Icons.Categories.People exposing
 @docs humanWalker
 @docs humanWheelchair
 @docs humanWhiteCane
-@docs kabaddi
 @docs karate
+@docs kabaddi
 @docs kayaking
 @docs meditation
 @docs motherHeart
@@ -708,18 +708,18 @@ humanWhiteCane =
     Material.Icons.Directory.H.humanWhiteCane
 
 
-{-| The [`kabaddi`](https://pictogrammers.com/library/mdi/icon/kabaddi/) icon.
--}
-kabaddi : IconShape
-kabaddi =
-    Material.Icons.Directory.K.kabaddi
-
-
 {-| The [`karate`](https://pictogrammers.com/library/mdi/icon/karate/) icon.
 -}
 karate : IconShape
 karate =
     Material.Icons.Directory.K.karate
+
+
+{-| The [`kabaddi`](https://pictogrammers.com/library/mdi/icon/kabaddi/) icon.
+-}
+kabaddi : IconShape
+kabaddi =
+    Material.Icons.Directory.K.kabaddi
 
 
 {-| The [`kayaking`](https://pictogrammers.com/library/mdi/icon/kayaking/) icon.

@@ -29,8 +29,8 @@ module Material.Icons.Categories.Format exposing
     , contentCopy
     , contentCut
     , contentPaste
-    , fitToPage
     , fitToPageOutline
+    , fitToPage
     , formatAlignBottom
     , formatAlignCenter
     , formatAlignJustify
@@ -65,9 +65,9 @@ module Material.Icons.Categories.Format exposing
     , formatHeaderIncrease
     , formatHeaderPound
     , formatHorizontalAlignCenter
-    , formatHorizontalAlignLeft
     , formatHorizontalAlignRight
     , formatIndentDecrease
+    , formatHorizontalAlignLeft
     , formatIndentIncrease
     , formatItalic
     , formatLetterCase
@@ -233,8 +233,8 @@ module Material.Icons.Categories.Format exposing
 @docs contentCopy
 @docs contentCut
 @docs contentPaste
-@docs fitToPage
 @docs fitToPageOutline
+@docs fitToPage
 @docs formatAlignBottom
 @docs formatAlignCenter
 @docs formatAlignJustify
@@ -269,9 +269,9 @@ module Material.Icons.Categories.Format exposing
 @docs formatHeaderIncrease
 @docs formatHeaderPound
 @docs formatHorizontalAlignCenter
-@docs formatHorizontalAlignLeft
 @docs formatHorizontalAlignRight
 @docs formatIndentDecrease
+@docs formatHorizontalAlignLeft
 @docs formatIndentIncrease
 @docs formatItalic
 @docs formatLetterCase
@@ -604,18 +604,18 @@ contentPaste =
     Material.Icons.Directory.C.contentPaste
 
 
-{-| The [`fit-to-page`](https://pictogrammers.com/library/mdi/icon/fit-to-page/) icon.
--}
-fitToPage : IconShape
-fitToPage =
-    Material.Icons.Directory.F.fitToPage
-
-
 {-| The [`fit-to-page-outline`](https://pictogrammers.com/library/mdi/icon/fit-to-page-outline/) icon.
 -}
 fitToPageOutline : IconShape
 fitToPageOutline =
     Material.Icons.Directory.F.fitToPageOutline
+
+
+{-| The [`fit-to-page`](https://pictogrammers.com/library/mdi/icon/fit-to-page/) icon.
+-}
+fitToPage : IconShape
+fitToPage =
+    Material.Icons.Directory.F.fitToPage
 
 
 {-| The [`format-align-bottom`](https://pictogrammers.com/library/mdi/icon/format-align-bottom/) icon.
@@ -856,13 +856,6 @@ formatHorizontalAlignCenter =
     Material.Icons.Directory.F.formatHorizontalAlignCenter
 
 
-{-| The [`format-horizontal-align-left`](https://pictogrammers.com/library/mdi/icon/format-horizontal-align-left/) icon.
--}
-formatHorizontalAlignLeft : IconShape
-formatHorizontalAlignLeft =
-    Material.Icons.Directory.F.formatHorizontalAlignLeft
-
-
 {-| The [`format-horizontal-align-right`](https://pictogrammers.com/library/mdi/icon/format-horizontal-align-right/) icon.
 -}
 formatHorizontalAlignRight : IconShape
@@ -875,6 +868,13 @@ formatHorizontalAlignRight =
 formatIndentDecrease : IconShape
 formatIndentDecrease =
     Material.Icons.Directory.F.formatIndentDecrease
+
+
+{-| The [`format-horizontal-align-left`](https://pictogrammers.com/library/mdi/icon/format-horizontal-align-left/) icon.
+-}
+formatHorizontalAlignLeft : IconShape
+formatHorizontalAlignLeft =
+    Material.Icons.Directory.F.formatHorizontalAlignLeft
 
 
 {-| The [`format-indent-increase`](https://pictogrammers.com/library/mdi/icon/format-indent-increase/) icon.

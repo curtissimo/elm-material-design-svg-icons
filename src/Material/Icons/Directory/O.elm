@@ -412,18 +412,18 @@ ornamentVariant =
     iconShape "M12,1A3,3 0 0,1 15,4V5A1,1 0 0,1 16,6V7.07C18.39,8.45 20,11.04 20,14A8,8 0 0,1 12,22A8,8 0 0,1 4,14C4,11.04 5.61,8.45 8,7.07V6A1,1 0 0,1 9,5V4A3,3 0 0,1 12,1M12,3A1,1 0 0,0 11,4V5H13V4A1,1 0 0,0 12,3M12,8C10.22,8 8.63,8.77 7.53,10H16.47C15.37,8.77 13.78,8 12,8M12,20C13.78,20 15.37,19.23 16.47,18H7.53C8.63,19.23 10.22,20 12,20M12,12A2,2 0 0,0 10,14A2,2 0 0,0 12,16A2,2 0 0,0 14,14A2,2 0 0,0 12,12M18,14C18,13.31 17.88,12.65 17.67,12C16.72,12.19 16,13 16,14C16,15 16.72,15.81 17.67,15.97C17.88,15.35 18,14.69 18,14M6,14C6,14.69 6.12,15.35 6.33,15.97C7.28,15.81 8,15 8,14C8,13 7.28,12.19 6.33,12C6.12,12.65 6,13.31 6,14Z"
 
 
-{-| The [`overscan`](https://pictogrammers.com/library/mdi/icon/overscan/) icon.
--}
-overscan : IconShape
-overscan =
-    iconShape "M12 5.5L10 8H14L12 5.5M18 10V14L20.5 12L18 10M6 10L3.5 12L6 14V10M14 16H10L12 18.5L14 16M21 3H3C1.9 3 1 3.9 1 5V19C1 20.1 1.9 21 3 21H21C22.1 21 23 20.1 23 19V5C23 3.9 22.1 3 21 3M21 19H3V5H21V19Z"
-
-
 {-| The [`outdoor-lamp`](https://pictogrammers.com/library/mdi/icon/outdoor-lamp/) icon.
 -}
 outdoorLamp : IconShape
 outdoorLamp =
     iconShape "M15 22H13C11.9 22 11 21.1 11 20V15H17V20C17 21.1 16.1 22 15 22M7 14H21L15 9.71V6C15 4.39 13.94 2 11 2S7 4.39 7 6C7 6.45 6.81 7 6 7H5V3H3V12H5V9H6C8.2 9 9 7.21 9 6C9 5.67 9.1 4 11 4C12.83 4 13 5.54 13 6V9.71L7 14Z"
+
+
+{-| The [`overscan`](https://pictogrammers.com/library/mdi/icon/overscan/) icon.
+-}
+overscan : IconShape
+overscan =
+    iconShape "M12 5.5L10 8H14L12 5.5M18 10V14L20.5 12L18 10M6 10L3.5 12L6 14V10M14 16H10L12 18.5L14 16M21 3H3C1.9 3 1 3.9 1 5V19C1 20.1 1.9 21 3 21H21C22.1 21 23 20.1 23 19V5C23 3.9 22.1 3 21 3M21 19H3V5H21V19Z"
 
 
 {-| The [`owl`](https://pictogrammers.com/library/mdi/icon/owl/) icon.
@@ -592,11 +592,11 @@ lookup name =
         "ornament-variant" ->
             Just ornamentVariant
 
-        "overscan" ->
-            Just overscan
-
         "outdoor-lamp" ->
             Just outdoorLamp
+
+        "overscan" ->
+            Just overscan
 
         "owl" ->
             Just owl

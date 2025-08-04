@@ -360,18 +360,18 @@ vectorPointEdit =
     iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M21.2 13C21.1 13 20.9 13.1 20.8 13.2L19.8 14.2L21.9 16.3L22.9 15.3C23.1 15.1 23.1 14.7 22.9 14.5L21.6 13.2C21.4 13.1 21.3 13 21.2 13M19.1 14.8L13 20.9V23H15.1L21.2 16.8L19.1 14.8Z"
 
 
-{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
--}
-vectorPointPlus : IconShape
-vectorPointPlus =
-    iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
-
-
 {-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
 -}
 vectorPointMinus : IconShape
 vectorPointMinus =
     iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M15 18V20H23V18H15Z"
+
+
+{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
+-}
+vectorPointPlus : IconShape
+vectorPointPlus =
+    iconShape "M9 9V15H15V9H9M11 11H13V13H11V11M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
 
 
 {-| The [`vector-point-select`](https://pictogrammers.com/library/mdi/icon/vector-point-select/) icon.
@@ -1179,18 +1179,18 @@ volumeMedium =
     iconShape "M5,9V15H9L14,20V4L9,9M18.5,12C18.5,10.23 17.5,8.71 16,7.97V16C17.5,15.29 18.5,13.76 18.5,12Z"
 
 
-{-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
--}
-volumeMinus : IconShape
-volumeMinus =
-    iconShape "M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z"
-
-
 {-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
 -}
 volumeMute : IconShape
 volumeMute =
     iconShape "M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z"
+
+
+{-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
+-}
+volumeMinus : IconShape
+volumeMinus =
+    iconShape "M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z"
 
 
 {-| The [`volume-off`](https://pictogrammers.com/library/mdi/icon/volume-off/) icon.
@@ -1342,11 +1342,11 @@ lookup name =
         "vector-point-edit" ->
             Just vectorPointEdit
 
-        "vector-point-plus" ->
-            Just vectorPointPlus
-
         "vector-point-minus" ->
             Just vectorPointMinus
+
+        "vector-point-plus" ->
+            Just vectorPointPlus
 
         "vector-point-select" ->
             Just vectorPointSelect
@@ -1693,11 +1693,11 @@ lookup name =
         "volume-medium" ->
             Just volumeMedium
 
-        "volume-minus" ->
-            Just volumeMinus
-
         "volume-mute" ->
             Just volumeMute
+
+        "volume-minus" ->
+            Just volumeMinus
 
         "volume-off" ->
             Just volumeOff

@@ -11,9 +11,9 @@ module Material.Icons.Categories.Cloud exposing
     , cloudArrowLeft
     , cloudArrowLeftOutline
     , cloudArrowRight
-    , cloudArrowRightOutline
     , cloudArrowUp
     , cloudArrowUpOutline
+    , cloudArrowRightOutline
     , cloudBraces
     , cloudCancel
     , cloudCancelOutline
@@ -62,8 +62,8 @@ module Material.Icons.Categories.Cloud exposing
     , cloudUpload
     , cloudUploadOutline
     , clouds
-    , fileCloud
     , fileCloudOutline
+    , fileCloud
     , imageFilterDrama
     , imageFilterDramaOutline
     , weatherCloudy
@@ -84,9 +84,9 @@ module Material.Icons.Categories.Cloud exposing
 @docs cloudArrowLeft
 @docs cloudArrowLeftOutline
 @docs cloudArrowRight
-@docs cloudArrowRightOutline
 @docs cloudArrowUp
 @docs cloudArrowUpOutline
+@docs cloudArrowRightOutline
 @docs cloudBraces
 @docs cloudCancel
 @docs cloudCancelOutline
@@ -135,8 +135,8 @@ module Material.Icons.Categories.Cloud exposing
 @docs cloudUpload
 @docs cloudUploadOutline
 @docs clouds
-@docs fileCloud
 @docs fileCloudOutline
+@docs fileCloud
 @docs imageFilterDrama
 @docs imageFilterDramaOutline
 @docs weatherCloudy
@@ -211,13 +211,6 @@ cloudArrowRight =
     Material.Icons.Directory.C.cloudArrowRight
 
 
-{-| The [`cloud-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-right-outline/) icon.
--}
-cloudArrowRightOutline : IconShape
-cloudArrowRightOutline =
-    Material.Icons.Directory.C.cloudArrowRightOutline
-
-
 {-| The [`cloud-arrow-up`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-up/) icon.
 -}
 cloudArrowUp : IconShape
@@ -230,6 +223,13 @@ cloudArrowUp =
 cloudArrowUpOutline : IconShape
 cloudArrowUpOutline =
     Material.Icons.Directory.C.cloudArrowUpOutline
+
+
+{-| The [`cloud-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/cloud-arrow-right-outline/) icon.
+-}
+cloudArrowRightOutline : IconShape
+cloudArrowRightOutline =
+    Material.Icons.Directory.C.cloudArrowRightOutline
 
 
 {-| The [`cloud-braces`](https://pictogrammers.com/library/mdi/icon/cloud-braces/) icon.
@@ -568,18 +568,18 @@ clouds =
     Material.Icons.Directory.C.clouds
 
 
-{-| The [`file-cloud`](https://pictogrammers.com/library/mdi/icon/file-cloud/) icon.
--}
-fileCloud : IconShape
-fileCloud =
-    Material.Icons.Directory.F.fileCloud
-
-
 {-| The [`file-cloud-outline`](https://pictogrammers.com/library/mdi/icon/file-cloud-outline/) icon.
 -}
 fileCloudOutline : IconShape
 fileCloudOutline =
     Material.Icons.Directory.F.fileCloudOutline
+
+
+{-| The [`file-cloud`](https://pictogrammers.com/library/mdi/icon/file-cloud/) icon.
+-}
+fileCloud : IconShape
+fileCloud =
+    Material.Icons.Directory.F.fileCloud
 
 
 {-| The [`image-filter-drama`](https://pictogrammers.com/library/mdi/icon/image-filter-drama/) icon.

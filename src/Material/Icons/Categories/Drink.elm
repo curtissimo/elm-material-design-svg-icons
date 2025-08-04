@@ -56,8 +56,8 @@ module Material.Icons.Categories.Drink exposing
     , cookieCogOutline
     , cookieEdit
     , cookieEditOutline
-    , cookieLock
     , cookieLockOutline
+    , cookieLock
     , cookieMinus
     , cookieMinusOutline
     , cookieOff
@@ -133,8 +133,8 @@ module Material.Icons.Categories.Drink exposing
     , glassStange
     , glassTulip
     , glassWine
-    , grill
     , grillOutline
+    , grill
     , hamburger
     , hamburgerCheck
     , hamburgerMinus
@@ -262,8 +262,8 @@ module Material.Icons.Categories.Drink exposing
 @docs cookieCogOutline
 @docs cookieEdit
 @docs cookieEditOutline
-@docs cookieLock
 @docs cookieLockOutline
+@docs cookieLock
 @docs cookieMinus
 @docs cookieMinusOutline
 @docs cookieOff
@@ -339,8 +339,8 @@ module Material.Icons.Categories.Drink exposing
 @docs glassStange
 @docs glassTulip
 @docs glassWine
-@docs grill
 @docs grillOutline
+@docs grill
 @docs hamburger
 @docs hamburgerCheck
 @docs hamburgerMinus
@@ -804,18 +804,18 @@ cookieEditOutline =
     Material.Icons.Directory.C.cookieEditOutline
 
 
-{-| The [`cookie-lock`](https://pictogrammers.com/library/mdi/icon/cookie-lock/) icon.
--}
-cookieLock : IconShape
-cookieLock =
-    Material.Icons.Directory.C.cookieLock
-
-
 {-| The [`cookie-lock-outline`](https://pictogrammers.com/library/mdi/icon/cookie-lock-outline/) icon.
 -}
 cookieLockOutline : IconShape
 cookieLockOutline =
     Material.Icons.Directory.C.cookieLockOutline
+
+
+{-| The [`cookie-lock`](https://pictogrammers.com/library/mdi/icon/cookie-lock/) icon.
+-}
+cookieLock : IconShape
+cookieLock =
+    Material.Icons.Directory.C.cookieLock
 
 
 {-| The [`cookie-minus`](https://pictogrammers.com/library/mdi/icon/cookie-minus/) icon.
@@ -1343,18 +1343,18 @@ glassWine =
     Material.Icons.Directory.G.glassWine
 
 
-{-| The [`grill`](https://pictogrammers.com/library/mdi/icon/grill/) icon.
--}
-grill : IconShape
-grill =
-    Material.Icons.Directory.G.grill
-
-
 {-| The [`grill-outline`](https://pictogrammers.com/library/mdi/icon/grill-outline/) icon.
 -}
 grillOutline : IconShape
 grillOutline =
     Material.Icons.Directory.G.grillOutline
+
+
+{-| The [`grill`](https://pictogrammers.com/library/mdi/icon/grill/) icon.
+-}
+grill : IconShape
+grill =
+    Material.Icons.Directory.G.grill
 
 
 {-| The [`hamburger`](https://pictogrammers.com/library/mdi/icon/hamburger/) icon.

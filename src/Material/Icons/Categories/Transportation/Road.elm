@@ -103,8 +103,8 @@ module Material.Icons.Categories.Transportation.Road exposing
     , truckRemoveOutline
     , truckSnowflake
     , truckTrailer
-    , tunnel
     , tunnelOutline
+    , tunnel
     , vanPassenger
     , vanUtility
     )
@@ -211,8 +211,8 @@ module Material.Icons.Categories.Transportation.Road exposing
 @docs truckRemoveOutline
 @docs truckSnowflake
 @docs truckTrailer
-@docs tunnel
 @docs tunnelOutline
+@docs tunnel
 @docs vanPassenger
 @docs vanUtility
 
@@ -935,18 +935,18 @@ truckTrailer =
     Material.Icons.Directory.T.truckTrailer
 
 
-{-| The [`tunnel`](https://pictogrammers.com/library/mdi/icon/tunnel/) icon.
--}
-tunnel : IconShape
-tunnel =
-    Material.Icons.Directory.T.tunnel
-
-
 {-| The [`tunnel-outline`](https://pictogrammers.com/library/mdi/icon/tunnel-outline/) icon.
 -}
 tunnelOutline : IconShape
 tunnelOutline =
     Material.Icons.Directory.T.tunnelOutline
+
+
+{-| The [`tunnel`](https://pictogrammers.com/library/mdi/icon/tunnel/) icon.
+-}
+tunnel : IconShape
+tunnel =
+    Material.Icons.Directory.T.tunnel
 
 
 {-| The [`van-passenger`](https://pictogrammers.com/library/mdi/icon/van-passenger/) icon.

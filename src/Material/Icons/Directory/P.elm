@@ -2407,11 +2407,11 @@ playlistRemove =
     iconShape "M14 10H3V12H14V10M14 6H3V8H14V6M3 16H10V14H3V16M14.4 22L17 19.4L19.6 22L21 20.6L18.4 18L21 15.4L19.6 14L17 16.6L14.4 14L13 15.4L15.6 18L13 20.6L14.4 22Z"
 
 
-{-| The [`plus`](https://pictogrammers.com/library/mdi/icon/plus/) icon.
+{-| The [`playlist-star`](https://pictogrammers.com/library/mdi/icon/playlist-star/) icon.
 -}
-plus : IconShape
-plus =
-    iconShape "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+playlistStar : IconShape
+playlistStar =
+    iconShape "M17 19.1L19.5 20.6L18.8 17.8L21 15.9L18.1 15.7L17 13L15.9 15.6L13 15.9L15.2 17.8L14.5 20.6L17 19.1M3 14H11V16H3V14M3 6H15V8H3V6M3 10H15V12H3V10Z"
 
 
 {-| The [`pliers`](https://pictogrammers.com/library/mdi/icon/pliers/) icon.
@@ -2421,18 +2421,18 @@ pliers =
     iconShape "M9.4 12.2C9.4 12.2 11.7 15.3 13.8 17.4C14.7 18.3 15.6 18.9 16.3 19.4C17.1 19.9 17.3 21 16.6 21.7C16.2 22.1 15.5 22.3 15 22C14.2 21.6 13 20.8 11.7 19.6C9.6 17.5 7.3 14.4 7.3 14.4L9.4 12.2M12.2 9.4C12.2 9.4 15.3 11.7 17.4 13.8C18.3 14.7 18.9 15.6 19.4 16.3C19.9 17.1 21 17.3 21.7 16.6C22.1 16.2 22.3 15.5 22 15C21.6 14.2 20.8 13 19.6 11.7C17.5 9.6 14.4 7.3 14.4 7.3L12.2 9.4M10.4 5.5L7.6 2.7L4.1 2L3.6 2.5L5.9 4.8C6.4 4.7 6.9 4.8 7.3 5.2C7.9 5.8 7.9 6.7 7.3 7.3S5.8 7.9 5.2 7.3C4.8 6.9 4.7 6.3 4.8 5.8L2.5 3.6L2 4.1L2.7 7.6L5.5 10.4L6.9 13.2L8.8 11.3L7.8 9.5L9.4 7.9L11.3 8.8L13.2 6.9L10.4 5.5Z"
 
 
+{-| The [`plus`](https://pictogrammers.com/library/mdi/icon/plus/) icon.
+-}
+plus : IconShape
+plus =
+    iconShape "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+
+
 {-| The [`plus-box`](https://pictogrammers.com/library/mdi/icon/plus-box/) icon.
 -}
 plusBox : IconShape
 plusBox =
     iconShape "M17,13H13V17H11V13H7V11H11V7H13V11H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
-
-
-{-| The [`playlist-star`](https://pictogrammers.com/library/mdi/icon/playlist-star/) icon.
--}
-playlistStar : IconShape
-playlistStar =
-    iconShape "M17 19.1L19.5 20.6L18.8 17.8L21 15.9L18.1 15.7L17 13L15.9 15.6L13 15.9L15.2 17.8L14.5 20.6L17 19.1M3 14H11V16H3V14M3 6H15V8H3V6M3 10H15V12H3V10Z"
 
 
 {-| The [`plus-box-multiple`](https://pictogrammers.com/library/mdi/icon/plus-box-multiple/) icon.
@@ -3576,18 +3576,18 @@ pulse =
     iconShape "M3,13H5.79L10.1,4.79L11.28,13.75L14.5,9.66L17.83,13H21V15H17L14.67,12.67L9.92,18.73L8.94,11.31L7,15H3V13Z"
 
 
-{-| The [`pump-off`](https://pictogrammers.com/library/mdi/icon/pump-off/) icon.
--}
-pumpOff : IconShape
-pumpOff =
-    iconShape "M22.1 21.5L2.4 1.7L1.1 3L4.8 6.7C3.7 8.2 3 10 3 12C3 13 3.2 14.1 3.5 15H2V21H12C14 21 15.8 20.3 17.3 19.2L20.8 22.7L22.1 21.5M5.9 15.5C5.3 14.5 5 13.3 5 12C5 10.6 5.5 9.2 6.2 8.1L9.2 11.1C9.1 11.3 9 11.7 9 12C9 12.5 9.2 13.1 9.4 13.5L5.9 15.5M12 19H11.3L11.7 15H12C12.3 15 12.6 14.9 12.9 14.8L15.9 17.8C14.8 18.5 13.4 19 12 19M12 8.8L7.4 4.2C8.8 3.5 10.3 3 12 3H22V9H20.5C20.8 9.9 21 11 21 12C21 13.7 20.5 15.2 19.8 16.6L12.2 9C13.3 9.1 14.3 9.8 14.7 10.7L18.3 9C17.3 6.7 14.8 5 12 5V8.8Z"
-
-
 {-| The [`pump`](https://pictogrammers.com/library/mdi/icon/pump/) icon.
 -}
 pump : IconShape
 pump =
     iconShape "M2 21V15H3.5C3.18 14.06 3 13.05 3 12C3 7.03 7.03 3 12 3H22V9H20.5C20.82 9.94 21 10.95 21 12C21 16.97 16.97 21 12 21H2M5 12C5 13.28 5.34 14.47 5.94 15.5L9.4 13.5C9.15 13.06 9 12.55 9 12C9 11.35 9.21 10.75 9.56 10.26L6.3 7.93C5.5 9.08 5 10.5 5 12M12 19C14.59 19 16.85 17.59 18.06 15.5L14.6 13.5C14.08 14.4 13.11 15 12 15L11.71 15L11.33 18.97L12 19M12 9C13.21 9 14.26 9.72 14.73 10.76L18.37 9.1C17.27 6.68 14.83 5 12 5V9M12 11C11.45 11 11 11.45 11 12C11 12.55 11.45 13 12 13C12.55 13 13 12.55 13 12C13 11.45 12.55 11 12 11Z"
+
+
+{-| The [`pump-off`](https://pictogrammers.com/library/mdi/icon/pump-off/) icon.
+-}
+pumpOff : IconShape
+pumpOff =
+    iconShape "M22.1 21.5L2.4 1.7L1.1 3L4.8 6.7C3.7 8.2 3 10 3 12C3 13 3.2 14.1 3.5 15H2V21H12C14 21 15.8 20.3 17.3 19.2L20.8 22.7L22.1 21.5M5.9 15.5C5.3 14.5 5 13.3 5 12C5 10.6 5.5 9.2 6.2 8.1L9.2 11.1C9.1 11.3 9 11.7 9 12C9 12.5 9.2 13.1 9.4 13.5L5.9 15.5M12 19H11.3L11.7 15H12C12.3 15 12.6 14.9 12.9 14.8L15.9 17.8C14.8 18.5 13.4 19 12 19M12 8.8L7.4 4.2C8.8 3.5 10.3 3 12 3H22V9H20.5C20.8 9.9 21 11 21 12C21 13.7 20.5 15.2 19.8 16.6L12.2 9C13.3 9.1 14.3 9.8 14.7 10.7L18.3 9C17.3 6.7 14.8 5 12 5V8.8Z"
 
 
 {-| The [`pumpkin`](https://pictogrammers.com/library/mdi/icon/pumpkin/) icon.
@@ -4574,17 +4574,17 @@ lookup name =
         "playlist-remove" ->
             Just playlistRemove
 
-        "plus" ->
-            Just plus
+        "playlist-star" ->
+            Just playlistStar
 
         "pliers" ->
             Just pliers
 
+        "plus" ->
+            Just plus
+
         "plus-box" ->
             Just plusBox
-
-        "playlist-star" ->
-            Just playlistStar
 
         "plus-box-multiple" ->
             Just plusBoxMultiple
@@ -5075,11 +5075,11 @@ lookup name =
         "pulse" ->
             Just pulse
 
-        "pump-off" ->
-            Just pumpOff
-
         "pump" ->
             Just pump
+
+        "pump-off" ->
+            Just pumpOff
 
         "pumpkin" ->
             Just pumpkin

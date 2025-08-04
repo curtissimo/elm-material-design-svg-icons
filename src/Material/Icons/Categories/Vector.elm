@@ -19,8 +19,8 @@ module Material.Icons.Categories.Vector exposing
     , vectorLink
     , vectorPoint
     , vectorPointEdit
-    , vectorPointPlus
     , vectorPointMinus
+    , vectorPointPlus
     , vectorPointSelect
     , vectorPolygon
     , vectorPolygonVariant
@@ -57,8 +57,8 @@ module Material.Icons.Categories.Vector exposing
 @docs vectorLink
 @docs vectorPoint
 @docs vectorPointEdit
-@docs vectorPointPlus
 @docs vectorPointMinus
+@docs vectorPointPlus
 @docs vectorPointSelect
 @docs vectorPolygon
 @docs vectorPolygonVariant
@@ -194,18 +194,18 @@ vectorPointEdit =
     Material.Icons.Directory.V.vectorPointEdit
 
 
-{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
--}
-vectorPointPlus : IconShape
-vectorPointPlus =
-    Material.Icons.Directory.V.vectorPointPlus
-
-
 {-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
 -}
 vectorPointMinus : IconShape
 vectorPointMinus =
     Material.Icons.Directory.V.vectorPointMinus
+
+
+{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
+-}
+vectorPointPlus : IconShape
+vectorPointPlus =
+    Material.Icons.Directory.V.vectorPointPlus
 
 
 {-| The [`vector-point-select`](https://pictogrammers.com/library/mdi/icon/vector-point-select/) icon.

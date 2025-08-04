@@ -33,9 +33,9 @@ module Material.Icons.Categories.Science exposing
     , eyedropperRemove
     , eyedropperVariant
     , flask
-    , flaskEmpty
     , flaskEmptyMinus
     , flaskEmptyMinusOutline
+    , flaskEmpty
     , flaskEmptyOutline
     , flaskEmptyPlus
     , flaskEmptyPlusOutline
@@ -73,8 +73,8 @@ module Material.Icons.Categories.Science exposing
     , scaleOff
     , telescope
     , testTube
-    , testTubeOff
     , testTubeEmpty
+    , testTubeOff
     , virus
     , virusOff
     , virusOffOutline
@@ -113,9 +113,9 @@ module Material.Icons.Categories.Science exposing
 @docs eyedropperRemove
 @docs eyedropperVariant
 @docs flask
-@docs flaskEmpty
 @docs flaskEmptyMinus
 @docs flaskEmptyMinusOutline
+@docs flaskEmpty
 @docs flaskEmptyOutline
 @docs flaskEmptyPlus
 @docs flaskEmptyPlusOutline
@@ -153,8 +153,8 @@ module Material.Icons.Categories.Science exposing
 @docs scaleOff
 @docs telescope
 @docs testTube
-@docs testTubeOff
 @docs testTubeEmpty
+@docs testTubeOff
 @docs virus
 @docs virusOff
 @docs virusOffOutline
@@ -387,13 +387,6 @@ flask =
     Material.Icons.Directory.F.flask
 
 
-{-| The [`flask-empty`](https://pictogrammers.com/library/mdi/icon/flask-empty/) icon.
--}
-flaskEmpty : IconShape
-flaskEmpty =
-    Material.Icons.Directory.F.flaskEmpty
-
-
 {-| The [`flask-empty-minus`](https://pictogrammers.com/library/mdi/icon/flask-empty-minus/) icon.
 -}
 flaskEmptyMinus : IconShape
@@ -406,6 +399,13 @@ flaskEmptyMinus =
 flaskEmptyMinusOutline : IconShape
 flaskEmptyMinusOutline =
     Material.Icons.Directory.F.flaskEmptyMinusOutline
+
+
+{-| The [`flask-empty`](https://pictogrammers.com/library/mdi/icon/flask-empty/) icon.
+-}
+flaskEmpty : IconShape
+flaskEmpty =
+    Material.Icons.Directory.F.flaskEmpty
 
 
 {-| The [`flask-empty-outline`](https://pictogrammers.com/library/mdi/icon/flask-empty-outline/) icon.
@@ -667,18 +667,18 @@ testTube =
     Material.Icons.Directory.T.testTube
 
 
-{-| The [`test-tube-off`](https://pictogrammers.com/library/mdi/icon/test-tube-off/) icon.
--}
-testTubeOff : IconShape
-testTubeOff =
-    Material.Icons.Directory.T.testTubeOff
-
-
 {-| The [`test-tube-empty`](https://pictogrammers.com/library/mdi/icon/test-tube-empty/) icon.
 -}
 testTubeEmpty : IconShape
 testTubeEmpty =
     Material.Icons.Directory.T.testTubeEmpty
+
+
+{-| The [`test-tube-off`](https://pictogrammers.com/library/mdi/icon/test-tube-off/) icon.
+-}
+testTubeOff : IconShape
+testTubeOff =
+    Material.Icons.Directory.T.testTubeOff
 
 
 {-| The [`virus`](https://pictogrammers.com/library/mdi/icon/virus/) icon.

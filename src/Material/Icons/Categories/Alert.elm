@@ -82,8 +82,8 @@ module Material.Icons.Categories.Alert exposing
     , fileDocumentAlertOutline
     , fireAlert
     , fireHydrantAlert
-    , flashAlert
     , flashAlertOutline
+    , flashAlert
     , folderAlert
     , folderAlertOutline
     , fridgeAlert
@@ -104,8 +104,8 @@ module Material.Icons.Categories.Alert exposing
     , kettleAlertOutline
     , keyAlert
     , keyAlertOutline
-    , lightbulbAlertOutline
     , lightbulbAlert
+    , lightbulbAlertOutline
     , lockAlert
     , lockAlertOutline
     , lockOpenAlert
@@ -256,8 +256,8 @@ module Material.Icons.Categories.Alert exposing
 @docs fileDocumentAlertOutline
 @docs fireAlert
 @docs fireHydrantAlert
-@docs flashAlert
 @docs flashAlertOutline
+@docs flashAlert
 @docs folderAlert
 @docs folderAlertOutline
 @docs fridgeAlert
@@ -278,8 +278,8 @@ module Material.Icons.Categories.Alert exposing
 @docs kettleAlertOutline
 @docs keyAlert
 @docs keyAlertOutline
-@docs lightbulbAlertOutline
 @docs lightbulbAlert
+@docs lightbulbAlertOutline
 @docs lockAlert
 @docs lockAlertOutline
 @docs lockOpenAlert
@@ -923,18 +923,18 @@ fireHydrantAlert =
     Material.Icons.Directory.F.fireHydrantAlert
 
 
-{-| The [`flash-alert`](https://pictogrammers.com/library/mdi/icon/flash-alert/) icon.
--}
-flashAlert : IconShape
-flashAlert =
-    Material.Icons.Directory.F.flashAlert
-
-
 {-| The [`flash-alert-outline`](https://pictogrammers.com/library/mdi/icon/flash-alert-outline/) icon.
 -}
 flashAlertOutline : IconShape
 flashAlertOutline =
     Material.Icons.Directory.F.flashAlertOutline
+
+
+{-| The [`flash-alert`](https://pictogrammers.com/library/mdi/icon/flash-alert/) icon.
+-}
+flashAlert : IconShape
+flashAlert =
+    Material.Icons.Directory.F.flashAlert
 
 
 {-| The [`folder-alert`](https://pictogrammers.com/library/mdi/icon/folder-alert/) icon.
@@ -1077,18 +1077,18 @@ keyAlertOutline =
     Material.Icons.Directory.K.keyAlertOutline
 
 
-{-| The [`lightbulb-alert-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-alert-outline/) icon.
--}
-lightbulbAlertOutline : IconShape
-lightbulbAlertOutline =
-    Material.Icons.Directory.L.lightbulbAlertOutline
-
-
 {-| The [`lightbulb-alert`](https://pictogrammers.com/library/mdi/icon/lightbulb-alert/) icon.
 -}
 lightbulbAlert : IconShape
 lightbulbAlert =
     Material.Icons.Directory.L.lightbulbAlert
+
+
+{-| The [`lightbulb-alert-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-alert-outline/) icon.
+-}
+lightbulbAlertOutline : IconShape
+lightbulbAlertOutline =
+    Material.Icons.Directory.L.lightbulbAlertOutline
 
 
 {-| The [`lock-alert`](https://pictogrammers.com/library/mdi/icon/lock-alert/) icon.

@@ -51,10 +51,10 @@ module Material.Icons.Categories.Form exposing
     , draw
     , drawPen
     , formDropdown
-    , formTextarea
     , formSelect
     , formTextbox
     , formTextboxLock
+    , formTextarea
     , formTextboxPassword
     , gestureTapButton
     , minusBox
@@ -124,10 +124,10 @@ module Material.Icons.Categories.Form exposing
 @docs draw
 @docs drawPen
 @docs formDropdown
-@docs formTextarea
 @docs formSelect
 @docs formTextbox
 @docs formTextboxLock
+@docs formTextarea
 @docs formTextboxPassword
 @docs gestureTapButton
 @docs minusBox
@@ -495,13 +495,6 @@ formDropdown =
     Material.Icons.Directory.F.formDropdown
 
 
-{-| The [`form-textarea`](https://pictogrammers.com/library/mdi/icon/form-textarea/) icon.
--}
-formTextarea : IconShape
-formTextarea =
-    Material.Icons.Directory.F.formTextarea
-
-
 {-| The [`form-select`](https://pictogrammers.com/library/mdi/icon/form-select/) icon.
 -}
 formSelect : IconShape
@@ -521,6 +514,13 @@ formTextbox =
 formTextboxLock : IconShape
 formTextboxLock =
     Material.Icons.Directory.F.formTextboxLock
+
+
+{-| The [`form-textarea`](https://pictogrammers.com/library/mdi/icon/form-textarea/) icon.
+-}
+formTextarea : IconShape
+formTextarea =
+    Material.Icons.Directory.F.formTextarea
 
 
 {-| The [`form-textbox-password`](https://pictogrammers.com/library/mdi/icon/form-textbox-password/) icon.

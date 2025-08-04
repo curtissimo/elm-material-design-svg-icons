@@ -42,10 +42,10 @@ module Material.Icons.Categories.GeographicInformationSystem exposing
     , layersEdit
     , layersMinus
     , layersOff
-    , layersOutline
     , layersOffOutline
-    , layersRemove
+    , layersOutline
     , layersPlus
+    , layersRemove
     , layersSearch
     , layersSearchOutline
     , longitude
@@ -63,8 +63,8 @@ module Material.Icons.Categories.GeographicInformationSystem exposing
     , mapMarker
     , mapMarkerAlert
     , mapMarkerAlertOutline
-    , mapMarkerCheck
     , mapMarkerCheckOutline
+    , mapMarkerCheck
     , mapMarkerCircle
     , mapMarkerDistance
     , mapMarkerDown
@@ -165,10 +165,10 @@ module Material.Icons.Categories.GeographicInformationSystem exposing
 @docs layersEdit
 @docs layersMinus
 @docs layersOff
-@docs layersOutline
 @docs layersOffOutline
-@docs layersRemove
+@docs layersOutline
 @docs layersPlus
+@docs layersRemove
 @docs layersSearch
 @docs layersSearchOutline
 @docs longitude
@@ -186,8 +186,8 @@ module Material.Icons.Categories.GeographicInformationSystem exposing
 @docs mapMarker
 @docs mapMarkerAlert
 @docs mapMarkerAlertOutline
-@docs mapMarkerCheck
 @docs mapMarkerCheckOutline
+@docs mapMarkerCheck
 @docs mapMarkerCircle
 @docs mapMarkerDistance
 @docs mapMarkerDown
@@ -535,13 +535,6 @@ layersOff =
     Material.Icons.Directory.L.layersOff
 
 
-{-| The [`layers-outline`](https://pictogrammers.com/library/mdi/icon/layers-outline/) icon.
--}
-layersOutline : IconShape
-layersOutline =
-    Material.Icons.Directory.L.layersOutline
-
-
 {-| The [`layers-off-outline`](https://pictogrammers.com/library/mdi/icon/layers-off-outline/) icon.
 -}
 layersOffOutline : IconShape
@@ -549,11 +542,11 @@ layersOffOutline =
     Material.Icons.Directory.L.layersOffOutline
 
 
-{-| The [`layers-remove`](https://pictogrammers.com/library/mdi/icon/layers-remove/) icon.
+{-| The [`layers-outline`](https://pictogrammers.com/library/mdi/icon/layers-outline/) icon.
 -}
-layersRemove : IconShape
-layersRemove =
-    Material.Icons.Directory.L.layersRemove
+layersOutline : IconShape
+layersOutline =
+    Material.Icons.Directory.L.layersOutline
 
 
 {-| The [`layers-plus`](https://pictogrammers.com/library/mdi/icon/layers-plus/) icon.
@@ -561,6 +554,13 @@ layersRemove =
 layersPlus : IconShape
 layersPlus =
     Material.Icons.Directory.L.layersPlus
+
+
+{-| The [`layers-remove`](https://pictogrammers.com/library/mdi/icon/layers-remove/) icon.
+-}
+layersRemove : IconShape
+layersRemove =
+    Material.Icons.Directory.L.layersRemove
 
 
 {-| The [`layers-search`](https://pictogrammers.com/library/mdi/icon/layers-search/) icon.
@@ -682,18 +682,18 @@ mapMarkerAlertOutline =
     Material.Icons.Directory.M.mapMarkerAlertOutline
 
 
-{-| The [`map-marker-check`](https://pictogrammers.com/library/mdi/icon/map-marker-check/) icon.
--}
-mapMarkerCheck : IconShape
-mapMarkerCheck =
-    Material.Icons.Directory.M.mapMarkerCheck
-
-
 {-| The [`map-marker-check-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-check-outline/) icon.
 -}
 mapMarkerCheckOutline : IconShape
 mapMarkerCheckOutline =
     Material.Icons.Directory.M.mapMarkerCheckOutline
+
+
+{-| The [`map-marker-check`](https://pictogrammers.com/library/mdi/icon/map-marker-check/) icon.
+-}
+mapMarkerCheck : IconShape
+mapMarkerCheck =
+    Material.Icons.Directory.M.mapMarkerCheck
 
 
 {-| The [`map-marker-circle`](https://pictogrammers.com/library/mdi/icon/map-marker-circle/) icon.

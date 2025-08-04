@@ -32,15 +32,15 @@ module Material.Icons.Categories.Lock exposing
     , calendarLockOutline
     , cameraLock
     , cameraLockOutline
-    , carDoorLock
     , carDoorLockOpen
+    , carDoorLock
     , cashLock
     , cashLockOpen
     , cellphoneLock
     , cloudLock
     , cloudLockOutline
-    , cookieLock
     , cookieLockOutline
+    , cookieLock
     , creditCardLock
     , creditCardLockOutline
     , databaseLock
@@ -69,33 +69,33 @@ module Material.Icons.Categories.Lock exposing
     , linkLock
     , lock
     , lockAlert
-    , lockAlertOutline
     , lockCheck
+    , lockAlertOutline
     , lockCheckOutline
     , lockClock
     , lockMinus
-    , lockOff
     , lockMinusOutline
-    , lockOpen
+    , lockOff
     , lockOffOutline
+    , lockOpen
     , lockOpenAlert
     , lockOpenAlertOutline
     , lockOpenCheck
     , lockOpenCheckOutline
-    , lockOpenMinusOutline
     , lockOpenMinus
+    , lockOpenMinusOutline
     , lockOpenOutline
     , lockOpenPlus
-    , lockOpenRemove
     , lockOpenPlusOutline
+    , lockOpenRemove
     , lockOpenRemoveOutline
     , lockOpenVariant
     , lockOpenVariantOutline
     , lockOutline
     , lockPlus
     , lockPlusOutline
-    , lockQuestion
     , lockRemove
+    , lockQuestion
     , lockRemoveOutline
     , lockReset
     , messageLock
@@ -179,15 +179,15 @@ module Material.Icons.Categories.Lock exposing
 @docs calendarLockOutline
 @docs cameraLock
 @docs cameraLockOutline
-@docs carDoorLock
 @docs carDoorLockOpen
+@docs carDoorLock
 @docs cashLock
 @docs cashLockOpen
 @docs cellphoneLock
 @docs cloudLock
 @docs cloudLockOutline
-@docs cookieLock
 @docs cookieLockOutline
+@docs cookieLock
 @docs creditCardLock
 @docs creditCardLockOutline
 @docs databaseLock
@@ -216,33 +216,33 @@ module Material.Icons.Categories.Lock exposing
 @docs linkLock
 @docs lock
 @docs lockAlert
-@docs lockAlertOutline
 @docs lockCheck
+@docs lockAlertOutline
 @docs lockCheckOutline
 @docs lockClock
 @docs lockMinus
-@docs lockOff
 @docs lockMinusOutline
-@docs lockOpen
+@docs lockOff
 @docs lockOffOutline
+@docs lockOpen
 @docs lockOpenAlert
 @docs lockOpenAlertOutline
 @docs lockOpenCheck
 @docs lockOpenCheckOutline
-@docs lockOpenMinusOutline
 @docs lockOpenMinus
+@docs lockOpenMinusOutline
 @docs lockOpenOutline
 @docs lockOpenPlus
-@docs lockOpenRemove
 @docs lockOpenPlusOutline
+@docs lockOpenRemove
 @docs lockOpenRemoveOutline
 @docs lockOpenVariant
 @docs lockOpenVariantOutline
 @docs lockOutline
 @docs lockPlus
 @docs lockPlusOutline
-@docs lockQuestion
 @docs lockRemove
+@docs lockQuestion
 @docs lockRemoveOutline
 @docs lockReset
 @docs messageLock
@@ -518,18 +518,18 @@ cameraLockOutline =
     Material.Icons.Directory.C.cameraLockOutline
 
 
-{-| The [`car-door-lock`](https://pictogrammers.com/library/mdi/icon/car-door-lock/) icon.
--}
-carDoorLock : IconShape
-carDoorLock =
-    Material.Icons.Directory.C.carDoorLock
-
-
 {-| The [`car-door-lock-open`](https://pictogrammers.com/library/mdi/icon/car-door-lock-open/) icon.
 -}
 carDoorLockOpen : IconShape
 carDoorLockOpen =
     Material.Icons.Directory.C.carDoorLockOpen
+
+
+{-| The [`car-door-lock`](https://pictogrammers.com/library/mdi/icon/car-door-lock/) icon.
+-}
+carDoorLock : IconShape
+carDoorLock =
+    Material.Icons.Directory.C.carDoorLock
 
 
 {-| The [`cash-lock`](https://pictogrammers.com/library/mdi/icon/cash-lock/) icon.
@@ -567,18 +567,18 @@ cloudLockOutline =
     Material.Icons.Directory.C.cloudLockOutline
 
 
-{-| The [`cookie-lock`](https://pictogrammers.com/library/mdi/icon/cookie-lock/) icon.
--}
-cookieLock : IconShape
-cookieLock =
-    Material.Icons.Directory.C.cookieLock
-
-
 {-| The [`cookie-lock-outline`](https://pictogrammers.com/library/mdi/icon/cookie-lock-outline/) icon.
 -}
 cookieLockOutline : IconShape
 cookieLockOutline =
     Material.Icons.Directory.C.cookieLockOutline
+
+
+{-| The [`cookie-lock`](https://pictogrammers.com/library/mdi/icon/cookie-lock/) icon.
+-}
+cookieLock : IconShape
+cookieLock =
+    Material.Icons.Directory.C.cookieLock
 
 
 {-| The [`credit-card-lock`](https://pictogrammers.com/library/mdi/icon/credit-card-lock/) icon.
@@ -777,18 +777,18 @@ lockAlert =
     Material.Icons.Directory.L.lockAlert
 
 
-{-| The [`lock-alert-outline`](https://pictogrammers.com/library/mdi/icon/lock-alert-outline/) icon.
--}
-lockAlertOutline : IconShape
-lockAlertOutline =
-    Material.Icons.Directory.L.lockAlertOutline
-
-
 {-| The [`lock-check`](https://pictogrammers.com/library/mdi/icon/lock-check/) icon.
 -}
 lockCheck : IconShape
 lockCheck =
     Material.Icons.Directory.L.lockCheck
+
+
+{-| The [`lock-alert-outline`](https://pictogrammers.com/library/mdi/icon/lock-alert-outline/) icon.
+-}
+lockAlertOutline : IconShape
+lockAlertOutline =
+    Material.Icons.Directory.L.lockAlertOutline
 
 
 {-| The [`lock-check-outline`](https://pictogrammers.com/library/mdi/icon/lock-check-outline/) icon.
@@ -812,13 +812,6 @@ lockMinus =
     Material.Icons.Directory.L.lockMinus
 
 
-{-| The [`lock-off`](https://pictogrammers.com/library/mdi/icon/lock-off/) icon.
--}
-lockOff : IconShape
-lockOff =
-    Material.Icons.Directory.L.lockOff
-
-
 {-| The [`lock-minus-outline`](https://pictogrammers.com/library/mdi/icon/lock-minus-outline/) icon.
 -}
 lockMinusOutline : IconShape
@@ -826,11 +819,11 @@ lockMinusOutline =
     Material.Icons.Directory.L.lockMinusOutline
 
 
-{-| The [`lock-open`](https://pictogrammers.com/library/mdi/icon/lock-open/) icon.
+{-| The [`lock-off`](https://pictogrammers.com/library/mdi/icon/lock-off/) icon.
 -}
-lockOpen : IconShape
-lockOpen =
-    Material.Icons.Directory.L.lockOpen
+lockOff : IconShape
+lockOff =
+    Material.Icons.Directory.L.lockOff
 
 
 {-| The [`lock-off-outline`](https://pictogrammers.com/library/mdi/icon/lock-off-outline/) icon.
@@ -838,6 +831,13 @@ lockOpen =
 lockOffOutline : IconShape
 lockOffOutline =
     Material.Icons.Directory.L.lockOffOutline
+
+
+{-| The [`lock-open`](https://pictogrammers.com/library/mdi/icon/lock-open/) icon.
+-}
+lockOpen : IconShape
+lockOpen =
+    Material.Icons.Directory.L.lockOpen
 
 
 {-| The [`lock-open-alert`](https://pictogrammers.com/library/mdi/icon/lock-open-alert/) icon.
@@ -868,18 +868,18 @@ lockOpenCheckOutline =
     Material.Icons.Directory.L.lockOpenCheckOutline
 
 
-{-| The [`lock-open-minus-outline`](https://pictogrammers.com/library/mdi/icon/lock-open-minus-outline/) icon.
--}
-lockOpenMinusOutline : IconShape
-lockOpenMinusOutline =
-    Material.Icons.Directory.L.lockOpenMinusOutline
-
-
 {-| The [`lock-open-minus`](https://pictogrammers.com/library/mdi/icon/lock-open-minus/) icon.
 -}
 lockOpenMinus : IconShape
 lockOpenMinus =
     Material.Icons.Directory.L.lockOpenMinus
+
+
+{-| The [`lock-open-minus-outline`](https://pictogrammers.com/library/mdi/icon/lock-open-minus-outline/) icon.
+-}
+lockOpenMinusOutline : IconShape
+lockOpenMinusOutline =
+    Material.Icons.Directory.L.lockOpenMinusOutline
 
 
 {-| The [`lock-open-outline`](https://pictogrammers.com/library/mdi/icon/lock-open-outline/) icon.
@@ -896,18 +896,18 @@ lockOpenPlus =
     Material.Icons.Directory.L.lockOpenPlus
 
 
-{-| The [`lock-open-remove`](https://pictogrammers.com/library/mdi/icon/lock-open-remove/) icon.
--}
-lockOpenRemove : IconShape
-lockOpenRemove =
-    Material.Icons.Directory.L.lockOpenRemove
-
-
 {-| The [`lock-open-plus-outline`](https://pictogrammers.com/library/mdi/icon/lock-open-plus-outline/) icon.
 -}
 lockOpenPlusOutline : IconShape
 lockOpenPlusOutline =
     Material.Icons.Directory.L.lockOpenPlusOutline
+
+
+{-| The [`lock-open-remove`](https://pictogrammers.com/library/mdi/icon/lock-open-remove/) icon.
+-}
+lockOpenRemove : IconShape
+lockOpenRemove =
+    Material.Icons.Directory.L.lockOpenRemove
 
 
 {-| The [`lock-open-remove-outline`](https://pictogrammers.com/library/mdi/icon/lock-open-remove-outline/) icon.
@@ -952,18 +952,18 @@ lockPlusOutline =
     Material.Icons.Directory.L.lockPlusOutline
 
 
-{-| The [`lock-question`](https://pictogrammers.com/library/mdi/icon/lock-question/) icon.
--}
-lockQuestion : IconShape
-lockQuestion =
-    Material.Icons.Directory.L.lockQuestion
-
-
 {-| The [`lock-remove`](https://pictogrammers.com/library/mdi/icon/lock-remove/) icon.
 -}
 lockRemove : IconShape
 lockRemove =
     Material.Icons.Directory.L.lockRemove
+
+
+{-| The [`lock-question`](https://pictogrammers.com/library/mdi/icon/lock-question/) icon.
+-}
+lockQuestion : IconShape
+lockQuestion =
+    Material.Icons.Directory.L.lockQuestion
 
 
 {-| The [`lock-remove-outline`](https://pictogrammers.com/library/mdi/icon/lock-remove-outline/) icon.

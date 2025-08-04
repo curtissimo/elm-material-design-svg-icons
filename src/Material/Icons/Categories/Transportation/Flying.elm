@@ -31,8 +31,8 @@ module Material.Icons.Categories.Transportation.Flying exposing
     , bagPersonalOff
     , bagPersonalOffOutline
     , bagPersonalOutline
-    , bagSuitcase
     , bagSuitcaseOff
+    , bagSuitcase
     , bagSuitcaseOffOutline
     , bagSuitcaseOutline
     , drone
@@ -80,8 +80,8 @@ module Material.Icons.Categories.Transportation.Flying exposing
 @docs bagPersonalOff
 @docs bagPersonalOffOutline
 @docs bagPersonalOutline
-@docs bagSuitcase
 @docs bagSuitcaseOff
+@docs bagSuitcase
 @docs bagSuitcaseOffOutline
 @docs bagSuitcaseOutline
 @docs drone
@@ -307,18 +307,18 @@ bagPersonalOutline =
     Material.Icons.Directory.B.bagPersonalOutline
 
 
-{-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
--}
-bagSuitcase : IconShape
-bagSuitcase =
-    Material.Icons.Directory.B.bagSuitcase
-
-
 {-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
 -}
 bagSuitcaseOff : IconShape
 bagSuitcaseOff =
     Material.Icons.Directory.B.bagSuitcaseOff
+
+
+{-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
+-}
+bagSuitcase : IconShape
+bagSuitcase =
+    Material.Icons.Directory.B.bagSuitcase
 
 
 {-| The [`bag-suitcase-off-outline`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off-outline/) icon.

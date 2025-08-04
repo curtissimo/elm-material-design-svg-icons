@@ -62,12 +62,12 @@ module Material.Icons.Categories.Sport exposing
     , humanFemaleDance
     , humanScooter
     , jumpRope
-    , kabaddi
     , karate
+    , kabaddi
     , kayaking
     , kettlebell
-    , kiteOutline
     , kite
+    , kiteOutline
     , medal
     , medalOutline
     , meditation
@@ -198,12 +198,12 @@ module Material.Icons.Categories.Sport exposing
 @docs humanFemaleDance
 @docs humanScooter
 @docs jumpRope
-@docs kabaddi
 @docs karate
+@docs kabaddi
 @docs kayaking
 @docs kettlebell
-@docs kiteOutline
 @docs kite
+@docs kiteOutline
 @docs medal
 @docs medalOutline
 @docs meditation
@@ -708,18 +708,18 @@ jumpRope =
     Material.Icons.Directory.J.jumpRope
 
 
-{-| The [`kabaddi`](https://pictogrammers.com/library/mdi/icon/kabaddi/) icon.
--}
-kabaddi : IconShape
-kabaddi =
-    Material.Icons.Directory.K.kabaddi
-
-
 {-| The [`karate`](https://pictogrammers.com/library/mdi/icon/karate/) icon.
 -}
 karate : IconShape
 karate =
     Material.Icons.Directory.K.karate
+
+
+{-| The [`kabaddi`](https://pictogrammers.com/library/mdi/icon/kabaddi/) icon.
+-}
+kabaddi : IconShape
+kabaddi =
+    Material.Icons.Directory.K.kabaddi
 
 
 {-| The [`kayaking`](https://pictogrammers.com/library/mdi/icon/kayaking/) icon.
@@ -736,18 +736,18 @@ kettlebell =
     Material.Icons.Directory.K.kettlebell
 
 
-{-| The [`kite-outline`](https://pictogrammers.com/library/mdi/icon/kite-outline/) icon.
--}
-kiteOutline : IconShape
-kiteOutline =
-    Material.Icons.Directory.K.kiteOutline
-
-
 {-| The [`kite`](https://pictogrammers.com/library/mdi/icon/kite/) icon.
 -}
 kite : IconShape
 kite =
     Material.Icons.Directory.K.kite
+
+
+{-| The [`kite-outline`](https://pictogrammers.com/library/mdi/icon/kite-outline/) icon.
+-}
+kiteOutline : IconShape
+kiteOutline =
+    Material.Icons.Directory.K.kiteOutline
 
 
 {-| The [`medal`](https://pictogrammers.com/library/mdi/icon/medal/) icon.

@@ -170,8 +170,8 @@ module Material.Icons.Categories.Uncategorized exposing
     , bookAlphabet
     , bookArrowDown
     , bookArrowDownOutline
-    , bookArrowLeftOutline
     , bookArrowLeft
+    , bookArrowLeftOutline
     , bookArrowRight
     , bookArrowRightOutline
     , bookArrowUp
@@ -505,8 +505,8 @@ module Material.Icons.Categories.Uncategorized exposing
     , contrastCircle
     , copyleft
     , copyright
-    , cpu32Bit
     , cpu64Bit
+    , cpu32Bit
     , crane
     , creation
     , creationOutline
@@ -688,14 +688,14 @@ module Material.Icons.Categories.Uncategorized exposing
     , expandAll
     , expandAllOutline
     , expansionCardVariant
-    , exportVariant
     , export
+    , exportVariant
     , eye
     , eyeArrowLeft
     , eyeArrowLeftOutline
     , eyeArrowRight
-    , eyeCheck
     , eyeArrowRightOutline
+    , eyeCheck
     , eyeCheckOutline
     , eyeCircle
     , eyeCircleOutline
@@ -709,10 +709,10 @@ module Material.Icons.Categories.Uncategorized exposing
     , eyeOff
     , eyeOffOutline
     , eyeOutline
-    , eyePlus
     , eyePlusOutline
-    , eyeRefresh
+    , eyePlus
     , eyeRefreshOutline
+    , eyeRefresh
     , eyeRemove
     , eyeRemoveOutline
     , faceAgent
@@ -766,17 +766,17 @@ module Material.Icons.Categories.Uncategorized exposing
     , flagOffOutline
     , flagOutline
     , flagPlus
-    , flagPlusOutline
     , flagRemove
     , flagRemoveOutline
+    , flagPlusOutline
     , flagTriangle
     , flagVariant
     , flagVariantMinus
     , flagVariantMinusOutline
     , flagVariantOff
     , flagVariantOffOutline
-    , flagVariantOutline
     , flagVariantPlus
+    , flagVariantOutline
     , flagVariantPlusOutline
     , flagVariantRemove
     , flagVariantRemoveOutline
@@ -1005,9 +1005,9 @@ module Material.Icons.Categories.Uncategorized exposing
     , informationOffOutline
     , informationVariant
     , invoiceArrowLeftOutline
-    , ipNetwork
     , ip
     , ipNetworkOutline
+    , ipNetwork
     , ipOutline
     , ipod
     , islandVariant
@@ -1024,31 +1024,31 @@ module Material.Icons.Categories.Uncategorized exposing
     , keyboard
     , keyboardBackspace
     , keyboardCaps
-    , keyboardCloseOutline
     , keyboardClose
+    , keyboardCloseOutline
     , keyboardEsc
     , keyboardF1
     , keyboardF10
-    , keyboardF11
     , keyboardF12
+    , keyboardF11
     , keyboardF2
     , keyboardF3
     , keyboardF4
     , keyboardF5
-    , keyboardF7
     , keyboardF6
+    , keyboardF7
     , keyboardF8
     , keyboardF9
     , keyboardOff
     , keyboardOffOutline
-    , keyboardReturn
     , keyboardOutline
+    , keyboardReturn
     , keyboardSpace
-    , keyboardTabReverse
     , keyboardTab
+    , keyboardTabReverse
     , keyboardVariant
-    , klingon
     , kitesurfing
+    , klingon
     , knife
     , label
     , labelMultiple
@@ -1056,42 +1056,42 @@ module Material.Icons.Categories.Uncategorized exposing
     , labelOff
     , labelOffOutline
     , labelOutline
-    , labelPercentOutline
     , labelPercent
+    , labelPercentOutline
     , labelVariant
     , labelVariantOutline
-    , lanCheck
     , lan
-    , lanDisconnect
+    , lanCheck
     , lanConnect
+    , lanDisconnect
     , lanPending
-    , lasso
     , laserPointer
+    , lasso
     , launch
     , layersTriple
     , layersTripleOutline
     , leak
     , leakOff
     , lectern
-    , license
     , libraryShelves
+    , license
     , lighthouse
     , lighthouseOn
     , lineScan
-    , link
     , linkBox
+    , link
     , linkBoxOutline
-    , linkBoxVariantOutline
     , linkBoxVariant
-    , linkCircleOutline
+    , linkBoxVariantOutline
     , linkCircle
+    , linkCircleOutline
     , linkEdit
     , linkOff
     , linkPlus
-    , linkVariantMinus
     , linkVariant
-    , linkVariantPlus
+    , linkVariantMinus
     , linkVariantOff
+    , linkVariantPlus
     , linkVariantRemove
     , listBox
     , listBoxOutline
@@ -1100,8 +1100,8 @@ module Material.Icons.Categories.Uncategorized exposing
     , lockPercent
     , lockPercentOpen
     , lockPercentOpenOutline
-    , lockPercentOpenVariant
     , lockPercentOpenVariantOutline
+    , lockPercentOpenVariant
     , lockPercentOutline
     , locker
     , lockerMultiple
@@ -1112,24 +1112,24 @@ module Material.Icons.Categories.Uncategorized exposing
     , loupe
     , magazinePistol
     , magazineRifle
-    , magnetOn
     , magnet
+    , magnetOn
     , magnifyClose
-    , magnifyMinusCursor
     , magnifyMinus
+    , magnifyMinusCursor
     , magnifyPlus
     , magnifyPlusCursor
     , magnifyRemoveCursor
     , magnifyScan
-    , mail
     , mailbox
+    , mail
     , mailboxOpen
-    , mailboxOpenOutline
     , mailboxOpenUp
-    , mailboxOpenUpOutline
+    , mailboxOpenOutline
     , mailboxOutline
-    , mailboxUp
+    , mailboxOpenUpOutline
     , mailboxUpOutline
+    , mailboxUp
     , margin
     , markerCheck
     , matrix
@@ -1449,8 +1449,8 @@ module Material.Icons.Categories.Uncategorized exposing
     , propaneTankOutline
     , protocol
     , publish
-    , pumpOff
     , pump
+    , pumpOff
     , purse
     , purseOutline
     , qrcode
@@ -1867,11 +1867,11 @@ module Material.Icons.Categories.Uncategorized exposing
     , texture
     , thermometerProbe
     , thermometerProbeOff
-    , thermostatCog
     , thoughtBubble
+    , thermostatCog
     , thoughtBubbleOutline
-    , thumbDownOutline
     , thumbDown
+    , thumbDownOutline
     , thumbUp
     , thumbUpOutline
     , thumbsUpDown
@@ -1937,8 +1937,8 @@ module Material.Icons.Categories.Uncategorized exposing
     , trendingUp
     , turnstile
     , turnstileOutline
-    , twoFactorAuthentication
     , typewriter
+    , twoFactorAuthentication
     , ufo
     , ufoOutline
     , undo
@@ -2233,8 +2233,8 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs bookAlphabet
 @docs bookArrowDown
 @docs bookArrowDownOutline
-@docs bookArrowLeftOutline
 @docs bookArrowLeft
+@docs bookArrowLeftOutline
 @docs bookArrowRight
 @docs bookArrowRightOutline
 @docs bookArrowUp
@@ -2568,8 +2568,8 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs contrastCircle
 @docs copyleft
 @docs copyright
-@docs cpu32Bit
 @docs cpu64Bit
+@docs cpu32Bit
 @docs crane
 @docs creation
 @docs creationOutline
@@ -2751,14 +2751,14 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs expandAll
 @docs expandAllOutline
 @docs expansionCardVariant
-@docs exportVariant
 @docs export
+@docs exportVariant
 @docs eye
 @docs eyeArrowLeft
 @docs eyeArrowLeftOutline
 @docs eyeArrowRight
-@docs eyeCheck
 @docs eyeArrowRightOutline
+@docs eyeCheck
 @docs eyeCheckOutline
 @docs eyeCircle
 @docs eyeCircleOutline
@@ -2772,10 +2772,10 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs eyeOff
 @docs eyeOffOutline
 @docs eyeOutline
-@docs eyePlus
 @docs eyePlusOutline
-@docs eyeRefresh
+@docs eyePlus
 @docs eyeRefreshOutline
+@docs eyeRefresh
 @docs eyeRemove
 @docs eyeRemoveOutline
 @docs faceAgent
@@ -2829,17 +2829,17 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs flagOffOutline
 @docs flagOutline
 @docs flagPlus
-@docs flagPlusOutline
 @docs flagRemove
 @docs flagRemoveOutline
+@docs flagPlusOutline
 @docs flagTriangle
 @docs flagVariant
 @docs flagVariantMinus
 @docs flagVariantMinusOutline
 @docs flagVariantOff
 @docs flagVariantOffOutline
-@docs flagVariantOutline
 @docs flagVariantPlus
+@docs flagVariantOutline
 @docs flagVariantPlusOutline
 @docs flagVariantRemove
 @docs flagVariantRemoveOutline
@@ -3068,9 +3068,9 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs informationOffOutline
 @docs informationVariant
 @docs invoiceArrowLeftOutline
-@docs ipNetwork
 @docs ip
 @docs ipNetworkOutline
+@docs ipNetwork
 @docs ipOutline
 @docs ipod
 @docs islandVariant
@@ -3087,31 +3087,31 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs keyboard
 @docs keyboardBackspace
 @docs keyboardCaps
-@docs keyboardCloseOutline
 @docs keyboardClose
+@docs keyboardCloseOutline
 @docs keyboardEsc
 @docs keyboardF1
 @docs keyboardF10
-@docs keyboardF11
 @docs keyboardF12
+@docs keyboardF11
 @docs keyboardF2
 @docs keyboardF3
 @docs keyboardF4
 @docs keyboardF5
-@docs keyboardF7
 @docs keyboardF6
+@docs keyboardF7
 @docs keyboardF8
 @docs keyboardF9
 @docs keyboardOff
 @docs keyboardOffOutline
-@docs keyboardReturn
 @docs keyboardOutline
+@docs keyboardReturn
 @docs keyboardSpace
-@docs keyboardTabReverse
 @docs keyboardTab
+@docs keyboardTabReverse
 @docs keyboardVariant
-@docs klingon
 @docs kitesurfing
+@docs klingon
 @docs knife
 @docs label
 @docs labelMultiple
@@ -3119,42 +3119,42 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs labelOff
 @docs labelOffOutline
 @docs labelOutline
-@docs labelPercentOutline
 @docs labelPercent
+@docs labelPercentOutline
 @docs labelVariant
 @docs labelVariantOutline
-@docs lanCheck
 @docs lan
-@docs lanDisconnect
+@docs lanCheck
 @docs lanConnect
+@docs lanDisconnect
 @docs lanPending
-@docs lasso
 @docs laserPointer
+@docs lasso
 @docs launch
 @docs layersTriple
 @docs layersTripleOutline
 @docs leak
 @docs leakOff
 @docs lectern
-@docs license
 @docs libraryShelves
+@docs license
 @docs lighthouse
 @docs lighthouseOn
 @docs lineScan
-@docs link
 @docs linkBox
+@docs link
 @docs linkBoxOutline
-@docs linkBoxVariantOutline
 @docs linkBoxVariant
-@docs linkCircleOutline
+@docs linkBoxVariantOutline
 @docs linkCircle
+@docs linkCircleOutline
 @docs linkEdit
 @docs linkOff
 @docs linkPlus
-@docs linkVariantMinus
 @docs linkVariant
-@docs linkVariantPlus
+@docs linkVariantMinus
 @docs linkVariantOff
+@docs linkVariantPlus
 @docs linkVariantRemove
 @docs listBox
 @docs listBoxOutline
@@ -3163,8 +3163,8 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs lockPercent
 @docs lockPercentOpen
 @docs lockPercentOpenOutline
-@docs lockPercentOpenVariant
 @docs lockPercentOpenVariantOutline
+@docs lockPercentOpenVariant
 @docs lockPercentOutline
 @docs locker
 @docs lockerMultiple
@@ -3175,24 +3175,24 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs loupe
 @docs magazinePistol
 @docs magazineRifle
-@docs magnetOn
 @docs magnet
+@docs magnetOn
 @docs magnifyClose
-@docs magnifyMinusCursor
 @docs magnifyMinus
+@docs magnifyMinusCursor
 @docs magnifyPlus
 @docs magnifyPlusCursor
 @docs magnifyRemoveCursor
 @docs magnifyScan
-@docs mail
 @docs mailbox
+@docs mail
 @docs mailboxOpen
-@docs mailboxOpenOutline
 @docs mailboxOpenUp
-@docs mailboxOpenUpOutline
+@docs mailboxOpenOutline
 @docs mailboxOutline
-@docs mailboxUp
+@docs mailboxOpenUpOutline
 @docs mailboxUpOutline
+@docs mailboxUp
 @docs margin
 @docs markerCheck
 @docs matrix
@@ -3512,8 +3512,8 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs propaneTankOutline
 @docs protocol
 @docs publish
-@docs pumpOff
 @docs pump
+@docs pumpOff
 @docs purse
 @docs purseOutline
 @docs qrcode
@@ -3930,11 +3930,11 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs texture
 @docs thermometerProbe
 @docs thermometerProbeOff
-@docs thermostatCog
 @docs thoughtBubble
+@docs thermostatCog
 @docs thoughtBubbleOutline
-@docs thumbDownOutline
 @docs thumbDown
+@docs thumbDownOutline
 @docs thumbUp
 @docs thumbUpOutline
 @docs thumbsUpDown
@@ -4000,8 +4000,8 @@ module Material.Icons.Categories.Uncategorized exposing
 @docs trendingUp
 @docs turnstile
 @docs turnstileOutline
-@docs twoFactorAuthentication
 @docs typewriter
+@docs twoFactorAuthentication
 @docs ufo
 @docs ufoOutline
 @docs undo
@@ -5324,18 +5324,18 @@ bookArrowDownOutline =
     Material.Icons.Directory.B.bookArrowDownOutline
 
 
-{-| The [`book-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/book-arrow-left-outline/) icon.
--}
-bookArrowLeftOutline : IconShape
-bookArrowLeftOutline =
-    Material.Icons.Directory.B.bookArrowLeftOutline
-
-
 {-| The [`book-arrow-left`](https://pictogrammers.com/library/mdi/icon/book-arrow-left/) icon.
 -}
 bookArrowLeft : IconShape
 bookArrowLeft =
     Material.Icons.Directory.B.bookArrowLeft
+
+
+{-| The [`book-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/book-arrow-left-outline/) icon.
+-}
+bookArrowLeftOutline : IconShape
+bookArrowLeftOutline =
+    Material.Icons.Directory.B.bookArrowLeftOutline
 
 
 {-| The [`book-arrow-right`](https://pictogrammers.com/library/mdi/icon/book-arrow-right/) icon.
@@ -7669,18 +7669,18 @@ copyright =
     Material.Icons.Directory.C.copyright
 
 
-{-| The [`cpu-32-bit`](https://pictogrammers.com/library/mdi/icon/cpu-32-bit/) icon.
--}
-cpu32Bit : IconShape
-cpu32Bit =
-    Material.Icons.Directory.C.cpu32Bit
-
-
 {-| The [`cpu-64-bit`](https://pictogrammers.com/library/mdi/icon/cpu-64-bit/) icon.
 -}
 cpu64Bit : IconShape
 cpu64Bit =
     Material.Icons.Directory.C.cpu64Bit
+
+
+{-| The [`cpu-32-bit`](https://pictogrammers.com/library/mdi/icon/cpu-32-bit/) icon.
+-}
+cpu32Bit : IconShape
+cpu32Bit =
+    Material.Icons.Directory.C.cpu32Bit
 
 
 {-| The [`crane`](https://pictogrammers.com/library/mdi/icon/crane/) icon.
@@ -8950,18 +8950,18 @@ expansionCardVariant =
     Material.Icons.Directory.E.expansionCardVariant
 
 
-{-| The [`export-variant`](https://pictogrammers.com/library/mdi/icon/export-variant/) icon.
--}
-exportVariant : IconShape
-exportVariant =
-    Material.Icons.Directory.E.exportVariant
-
-
 {-| The [`export`](https://pictogrammers.com/library/mdi/icon/export/) icon.
 -}
 export : IconShape
 export =
     Material.Icons.Directory.E.export
+
+
+{-| The [`export-variant`](https://pictogrammers.com/library/mdi/icon/export-variant/) icon.
+-}
+exportVariant : IconShape
+exportVariant =
+    Material.Icons.Directory.E.exportVariant
 
 
 {-| The [`eye`](https://pictogrammers.com/library/mdi/icon/eye/) icon.
@@ -8992,18 +8992,18 @@ eyeArrowRight =
     Material.Icons.Directory.E.eyeArrowRight
 
 
-{-| The [`eye-check`](https://pictogrammers.com/library/mdi/icon/eye-check/) icon.
--}
-eyeCheck : IconShape
-eyeCheck =
-    Material.Icons.Directory.E.eyeCheck
-
-
 {-| The [`eye-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/eye-arrow-right-outline/) icon.
 -}
 eyeArrowRightOutline : IconShape
 eyeArrowRightOutline =
     Material.Icons.Directory.E.eyeArrowRightOutline
+
+
+{-| The [`eye-check`](https://pictogrammers.com/library/mdi/icon/eye-check/) icon.
+-}
+eyeCheck : IconShape
+eyeCheck =
+    Material.Icons.Directory.E.eyeCheck
 
 
 {-| The [`eye-check-outline`](https://pictogrammers.com/library/mdi/icon/eye-check-outline/) icon.
@@ -9097,13 +9097,6 @@ eyeOutline =
     Material.Icons.Directory.E.eyeOutline
 
 
-{-| The [`eye-plus`](https://pictogrammers.com/library/mdi/icon/eye-plus/) icon.
--}
-eyePlus : IconShape
-eyePlus =
-    Material.Icons.Directory.E.eyePlus
-
-
 {-| The [`eye-plus-outline`](https://pictogrammers.com/library/mdi/icon/eye-plus-outline/) icon.
 -}
 eyePlusOutline : IconShape
@@ -9111,11 +9104,11 @@ eyePlusOutline =
     Material.Icons.Directory.E.eyePlusOutline
 
 
-{-| The [`eye-refresh`](https://pictogrammers.com/library/mdi/icon/eye-refresh/) icon.
+{-| The [`eye-plus`](https://pictogrammers.com/library/mdi/icon/eye-plus/) icon.
 -}
-eyeRefresh : IconShape
-eyeRefresh =
-    Material.Icons.Directory.E.eyeRefresh
+eyePlus : IconShape
+eyePlus =
+    Material.Icons.Directory.E.eyePlus
 
 
 {-| The [`eye-refresh-outline`](https://pictogrammers.com/library/mdi/icon/eye-refresh-outline/) icon.
@@ -9123,6 +9116,13 @@ eyeRefresh =
 eyeRefreshOutline : IconShape
 eyeRefreshOutline =
     Material.Icons.Directory.E.eyeRefreshOutline
+
+
+{-| The [`eye-refresh`](https://pictogrammers.com/library/mdi/icon/eye-refresh/) icon.
+-}
+eyeRefresh : IconShape
+eyeRefresh =
+    Material.Icons.Directory.E.eyeRefresh
 
 
 {-| The [`eye-remove`](https://pictogrammers.com/library/mdi/icon/eye-remove/) icon.
@@ -9496,13 +9496,6 @@ flagPlus =
     Material.Icons.Directory.F.flagPlus
 
 
-{-| The [`flag-plus-outline`](https://pictogrammers.com/library/mdi/icon/flag-plus-outline/) icon.
--}
-flagPlusOutline : IconShape
-flagPlusOutline =
-    Material.Icons.Directory.F.flagPlusOutline
-
-
 {-| The [`flag-remove`](https://pictogrammers.com/library/mdi/icon/flag-remove/) icon.
 -}
 flagRemove : IconShape
@@ -9515,6 +9508,13 @@ flagRemove =
 flagRemoveOutline : IconShape
 flagRemoveOutline =
     Material.Icons.Directory.F.flagRemoveOutline
+
+
+{-| The [`flag-plus-outline`](https://pictogrammers.com/library/mdi/icon/flag-plus-outline/) icon.
+-}
+flagPlusOutline : IconShape
+flagPlusOutline =
+    Material.Icons.Directory.F.flagPlusOutline
 
 
 {-| The [`flag-triangle`](https://pictogrammers.com/library/mdi/icon/flag-triangle/) icon.
@@ -9559,18 +9559,18 @@ flagVariantOffOutline =
     Material.Icons.Directory.F.flagVariantOffOutline
 
 
-{-| The [`flag-variant-outline`](https://pictogrammers.com/library/mdi/icon/flag-variant-outline/) icon.
--}
-flagVariantOutline : IconShape
-flagVariantOutline =
-    Material.Icons.Directory.F.flagVariantOutline
-
-
 {-| The [`flag-variant-plus`](https://pictogrammers.com/library/mdi/icon/flag-variant-plus/) icon.
 -}
 flagVariantPlus : IconShape
 flagVariantPlus =
     Material.Icons.Directory.F.flagVariantPlus
+
+
+{-| The [`flag-variant-outline`](https://pictogrammers.com/library/mdi/icon/flag-variant-outline/) icon.
+-}
+flagVariantOutline : IconShape
+flagVariantOutline =
+    Material.Icons.Directory.F.flagVariantOutline
 
 
 {-| The [`flag-variant-plus-outline`](https://pictogrammers.com/library/mdi/icon/flag-variant-plus-outline/) icon.
@@ -11169,13 +11169,6 @@ invoiceArrowLeftOutline =
     Material.Icons.Directory.I.invoiceArrowLeftOutline
 
 
-{-| The [`ip-network`](https://pictogrammers.com/library/mdi/icon/ip-network/) icon.
--}
-ipNetwork : IconShape
-ipNetwork =
-    Material.Icons.Directory.I.ipNetwork
-
-
 {-| The [`ip`](https://pictogrammers.com/library/mdi/icon/ip/) icon.
 -}
 ip : IconShape
@@ -11188,6 +11181,13 @@ ip =
 ipNetworkOutline : IconShape
 ipNetworkOutline =
     Material.Icons.Directory.I.ipNetworkOutline
+
+
+{-| The [`ip-network`](https://pictogrammers.com/library/mdi/icon/ip-network/) icon.
+-}
+ipNetwork : IconShape
+ipNetwork =
+    Material.Icons.Directory.I.ipNetwork
 
 
 {-| The [`ip-outline`](https://pictogrammers.com/library/mdi/icon/ip-outline/) icon.
@@ -11302,18 +11302,18 @@ keyboardCaps =
     Material.Icons.Directory.K.keyboardCaps
 
 
-{-| The [`keyboard-close-outline`](https://pictogrammers.com/library/mdi/icon/keyboard-close-outline/) icon.
--}
-keyboardCloseOutline : IconShape
-keyboardCloseOutline =
-    Material.Icons.Directory.K.keyboardCloseOutline
-
-
 {-| The [`keyboard-close`](https://pictogrammers.com/library/mdi/icon/keyboard-close/) icon.
 -}
 keyboardClose : IconShape
 keyboardClose =
     Material.Icons.Directory.K.keyboardClose
+
+
+{-| The [`keyboard-close-outline`](https://pictogrammers.com/library/mdi/icon/keyboard-close-outline/) icon.
+-}
+keyboardCloseOutline : IconShape
+keyboardCloseOutline =
+    Material.Icons.Directory.K.keyboardCloseOutline
 
 
 {-| The [`keyboard-esc`](https://pictogrammers.com/library/mdi/icon/keyboard-esc/) icon.
@@ -11337,18 +11337,18 @@ keyboardF10 =
     Material.Icons.Directory.K.keyboardF10
 
 
-{-| The [`keyboard-f11`](https://pictogrammers.com/library/mdi/icon/keyboard-f11/) icon.
--}
-keyboardF11 : IconShape
-keyboardF11 =
-    Material.Icons.Directory.K.keyboardF11
-
-
 {-| The [`keyboard-f12`](https://pictogrammers.com/library/mdi/icon/keyboard-f12/) icon.
 -}
 keyboardF12 : IconShape
 keyboardF12 =
     Material.Icons.Directory.K.keyboardF12
+
+
+{-| The [`keyboard-f11`](https://pictogrammers.com/library/mdi/icon/keyboard-f11/) icon.
+-}
+keyboardF11 : IconShape
+keyboardF11 =
+    Material.Icons.Directory.K.keyboardF11
 
 
 {-| The [`keyboard-f2`](https://pictogrammers.com/library/mdi/icon/keyboard-f2/) icon.
@@ -11379,18 +11379,18 @@ keyboardF5 =
     Material.Icons.Directory.K.keyboardF5
 
 
-{-| The [`keyboard-f7`](https://pictogrammers.com/library/mdi/icon/keyboard-f7/) icon.
--}
-keyboardF7 : IconShape
-keyboardF7 =
-    Material.Icons.Directory.K.keyboardF7
-
-
 {-| The [`keyboard-f6`](https://pictogrammers.com/library/mdi/icon/keyboard-f6/) icon.
 -}
 keyboardF6 : IconShape
 keyboardF6 =
     Material.Icons.Directory.K.keyboardF6
+
+
+{-| The [`keyboard-f7`](https://pictogrammers.com/library/mdi/icon/keyboard-f7/) icon.
+-}
+keyboardF7 : IconShape
+keyboardF7 =
+    Material.Icons.Directory.K.keyboardF7
 
 
 {-| The [`keyboard-f8`](https://pictogrammers.com/library/mdi/icon/keyboard-f8/) icon.
@@ -11421,18 +11421,18 @@ keyboardOffOutline =
     Material.Icons.Directory.K.keyboardOffOutline
 
 
-{-| The [`keyboard-return`](https://pictogrammers.com/library/mdi/icon/keyboard-return/) icon.
--}
-keyboardReturn : IconShape
-keyboardReturn =
-    Material.Icons.Directory.K.keyboardReturn
-
-
 {-| The [`keyboard-outline`](https://pictogrammers.com/library/mdi/icon/keyboard-outline/) icon.
 -}
 keyboardOutline : IconShape
 keyboardOutline =
     Material.Icons.Directory.K.keyboardOutline
+
+
+{-| The [`keyboard-return`](https://pictogrammers.com/library/mdi/icon/keyboard-return/) icon.
+-}
+keyboardReturn : IconShape
+keyboardReturn =
+    Material.Icons.Directory.K.keyboardReturn
 
 
 {-| The [`keyboard-space`](https://pictogrammers.com/library/mdi/icon/keyboard-space/) icon.
@@ -11442,18 +11442,18 @@ keyboardSpace =
     Material.Icons.Directory.K.keyboardSpace
 
 
-{-| The [`keyboard-tab-reverse`](https://pictogrammers.com/library/mdi/icon/keyboard-tab-reverse/) icon.
--}
-keyboardTabReverse : IconShape
-keyboardTabReverse =
-    Material.Icons.Directory.K.keyboardTabReverse
-
-
 {-| The [`keyboard-tab`](https://pictogrammers.com/library/mdi/icon/keyboard-tab/) icon.
 -}
 keyboardTab : IconShape
 keyboardTab =
     Material.Icons.Directory.K.keyboardTab
+
+
+{-| The [`keyboard-tab-reverse`](https://pictogrammers.com/library/mdi/icon/keyboard-tab-reverse/) icon.
+-}
+keyboardTabReverse : IconShape
+keyboardTabReverse =
+    Material.Icons.Directory.K.keyboardTabReverse
 
 
 {-| The [`keyboard-variant`](https://pictogrammers.com/library/mdi/icon/keyboard-variant/) icon.
@@ -11463,18 +11463,18 @@ keyboardVariant =
     Material.Icons.Directory.K.keyboardVariant
 
 
-{-| The [`klingon`](https://pictogrammers.com/library/mdi/icon/klingon/) icon.
--}
-klingon : IconShape
-klingon =
-    Material.Icons.Directory.K.klingon
-
-
 {-| The [`kitesurfing`](https://pictogrammers.com/library/mdi/icon/kitesurfing/) icon.
 -}
 kitesurfing : IconShape
 kitesurfing =
     Material.Icons.Directory.K.kitesurfing
+
+
+{-| The [`klingon`](https://pictogrammers.com/library/mdi/icon/klingon/) icon.
+-}
+klingon : IconShape
+klingon =
+    Material.Icons.Directory.K.klingon
 
 
 {-| The [`knife`](https://pictogrammers.com/library/mdi/icon/knife/) icon.
@@ -11526,18 +11526,18 @@ labelOutline =
     Material.Icons.Directory.L.labelOutline
 
 
-{-| The [`label-percent-outline`](https://pictogrammers.com/library/mdi/icon/label-percent-outline/) icon.
--}
-labelPercentOutline : IconShape
-labelPercentOutline =
-    Material.Icons.Directory.L.labelPercentOutline
-
-
 {-| The [`label-percent`](https://pictogrammers.com/library/mdi/icon/label-percent/) icon.
 -}
 labelPercent : IconShape
 labelPercent =
     Material.Icons.Directory.L.labelPercent
+
+
+{-| The [`label-percent-outline`](https://pictogrammers.com/library/mdi/icon/label-percent-outline/) icon.
+-}
+labelPercentOutline : IconShape
+labelPercentOutline =
+    Material.Icons.Directory.L.labelPercentOutline
 
 
 {-| The [`label-variant`](https://pictogrammers.com/library/mdi/icon/label-variant/) icon.
@@ -11554,13 +11554,6 @@ labelVariantOutline =
     Material.Icons.Directory.L.labelVariantOutline
 
 
-{-| The [`lan-check`](https://pictogrammers.com/library/mdi/icon/lan-check/) icon.
--}
-lanCheck : IconShape
-lanCheck =
-    Material.Icons.Directory.L.lanCheck
-
-
 {-| The [`lan`](https://pictogrammers.com/library/mdi/icon/lan/) icon.
 -}
 lan : IconShape
@@ -11568,11 +11561,11 @@ lan =
     Material.Icons.Directory.L.lan
 
 
-{-| The [`lan-disconnect`](https://pictogrammers.com/library/mdi/icon/lan-disconnect/) icon.
+{-| The [`lan-check`](https://pictogrammers.com/library/mdi/icon/lan-check/) icon.
 -}
-lanDisconnect : IconShape
-lanDisconnect =
-    Material.Icons.Directory.L.lanDisconnect
+lanCheck : IconShape
+lanCheck =
+    Material.Icons.Directory.L.lanCheck
 
 
 {-| The [`lan-connect`](https://pictogrammers.com/library/mdi/icon/lan-connect/) icon.
@@ -11582,6 +11575,13 @@ lanConnect =
     Material.Icons.Directory.L.lanConnect
 
 
+{-| The [`lan-disconnect`](https://pictogrammers.com/library/mdi/icon/lan-disconnect/) icon.
+-}
+lanDisconnect : IconShape
+lanDisconnect =
+    Material.Icons.Directory.L.lanDisconnect
+
+
 {-| The [`lan-pending`](https://pictogrammers.com/library/mdi/icon/lan-pending/) icon.
 -}
 lanPending : IconShape
@@ -11589,18 +11589,18 @@ lanPending =
     Material.Icons.Directory.L.lanPending
 
 
-{-| The [`lasso`](https://pictogrammers.com/library/mdi/icon/lasso/) icon.
--}
-lasso : IconShape
-lasso =
-    Material.Icons.Directory.L.lasso
-
-
 {-| The [`laser-pointer`](https://pictogrammers.com/library/mdi/icon/laser-pointer/) icon.
 -}
 laserPointer : IconShape
 laserPointer =
     Material.Icons.Directory.L.laserPointer
+
+
+{-| The [`lasso`](https://pictogrammers.com/library/mdi/icon/lasso/) icon.
+-}
+lasso : IconShape
+lasso =
+    Material.Icons.Directory.L.lasso
 
 
 {-| The [`launch`](https://pictogrammers.com/library/mdi/icon/launch/) icon.
@@ -11645,18 +11645,18 @@ lectern =
     Material.Icons.Directory.L.lectern
 
 
-{-| The [`license`](https://pictogrammers.com/library/mdi/icon/license/) icon.
--}
-license : IconShape
-license =
-    Material.Icons.Directory.L.license
-
-
 {-| The [`library-shelves`](https://pictogrammers.com/library/mdi/icon/library-shelves/) icon.
 -}
 libraryShelves : IconShape
 libraryShelves =
     Material.Icons.Directory.L.libraryShelves
+
+
+{-| The [`license`](https://pictogrammers.com/library/mdi/icon/license/) icon.
+-}
+license : IconShape
+license =
+    Material.Icons.Directory.L.license
 
 
 {-| The [`lighthouse`](https://pictogrammers.com/library/mdi/icon/lighthouse/) icon.
@@ -11680,18 +11680,18 @@ lineScan =
     Material.Icons.Directory.L.lineScan
 
 
-{-| The [`link`](https://pictogrammers.com/library/mdi/icon/link/) icon.
--}
-link : IconShape
-link =
-    Material.Icons.Directory.L.link
-
-
 {-| The [`link-box`](https://pictogrammers.com/library/mdi/icon/link-box/) icon.
 -}
 linkBox : IconShape
 linkBox =
     Material.Icons.Directory.L.linkBox
+
+
+{-| The [`link`](https://pictogrammers.com/library/mdi/icon/link/) icon.
+-}
+link : IconShape
+link =
+    Material.Icons.Directory.L.link
 
 
 {-| The [`link-box-outline`](https://pictogrammers.com/library/mdi/icon/link-box-outline/) icon.
@@ -11701,13 +11701,6 @@ linkBoxOutline =
     Material.Icons.Directory.L.linkBoxOutline
 
 
-{-| The [`link-box-variant-outline`](https://pictogrammers.com/library/mdi/icon/link-box-variant-outline/) icon.
--}
-linkBoxVariantOutline : IconShape
-linkBoxVariantOutline =
-    Material.Icons.Directory.L.linkBoxVariantOutline
-
-
 {-| The [`link-box-variant`](https://pictogrammers.com/library/mdi/icon/link-box-variant/) icon.
 -}
 linkBoxVariant : IconShape
@@ -11715,11 +11708,11 @@ linkBoxVariant =
     Material.Icons.Directory.L.linkBoxVariant
 
 
-{-| The [`link-circle-outline`](https://pictogrammers.com/library/mdi/icon/link-circle-outline/) icon.
+{-| The [`link-box-variant-outline`](https://pictogrammers.com/library/mdi/icon/link-box-variant-outline/) icon.
 -}
-linkCircleOutline : IconShape
-linkCircleOutline =
-    Material.Icons.Directory.L.linkCircleOutline
+linkBoxVariantOutline : IconShape
+linkBoxVariantOutline =
+    Material.Icons.Directory.L.linkBoxVariantOutline
 
 
 {-| The [`link-circle`](https://pictogrammers.com/library/mdi/icon/link-circle/) icon.
@@ -11727,6 +11720,13 @@ linkCircleOutline =
 linkCircle : IconShape
 linkCircle =
     Material.Icons.Directory.L.linkCircle
+
+
+{-| The [`link-circle-outline`](https://pictogrammers.com/library/mdi/icon/link-circle-outline/) icon.
+-}
+linkCircleOutline : IconShape
+linkCircleOutline =
+    Material.Icons.Directory.L.linkCircleOutline
 
 
 {-| The [`link-edit`](https://pictogrammers.com/library/mdi/icon/link-edit/) icon.
@@ -11750,13 +11750,6 @@ linkPlus =
     Material.Icons.Directory.L.linkPlus
 
 
-{-| The [`link-variant-minus`](https://pictogrammers.com/library/mdi/icon/link-variant-minus/) icon.
--}
-linkVariantMinus : IconShape
-linkVariantMinus =
-    Material.Icons.Directory.L.linkVariantMinus
-
-
 {-| The [`link-variant`](https://pictogrammers.com/library/mdi/icon/link-variant/) icon.
 -}
 linkVariant : IconShape
@@ -11764,11 +11757,11 @@ linkVariant =
     Material.Icons.Directory.L.linkVariant
 
 
-{-| The [`link-variant-plus`](https://pictogrammers.com/library/mdi/icon/link-variant-plus/) icon.
+{-| The [`link-variant-minus`](https://pictogrammers.com/library/mdi/icon/link-variant-minus/) icon.
 -}
-linkVariantPlus : IconShape
-linkVariantPlus =
-    Material.Icons.Directory.L.linkVariantPlus
+linkVariantMinus : IconShape
+linkVariantMinus =
+    Material.Icons.Directory.L.linkVariantMinus
 
 
 {-| The [`link-variant-off`](https://pictogrammers.com/library/mdi/icon/link-variant-off/) icon.
@@ -11776,6 +11769,13 @@ linkVariantPlus =
 linkVariantOff : IconShape
 linkVariantOff =
     Material.Icons.Directory.L.linkVariantOff
+
+
+{-| The [`link-variant-plus`](https://pictogrammers.com/library/mdi/icon/link-variant-plus/) icon.
+-}
+linkVariantPlus : IconShape
+linkVariantPlus =
+    Material.Icons.Directory.L.linkVariantPlus
 
 
 {-| The [`link-variant-remove`](https://pictogrammers.com/library/mdi/icon/link-variant-remove/) icon.
@@ -11834,18 +11834,18 @@ lockPercentOpenOutline =
     Material.Icons.Directory.L.lockPercentOpenOutline
 
 
-{-| The [`lock-percent-open-variant`](https://pictogrammers.com/library/mdi/icon/lock-percent-open-variant/) icon.
--}
-lockPercentOpenVariant : IconShape
-lockPercentOpenVariant =
-    Material.Icons.Directory.L.lockPercentOpenVariant
-
-
 {-| The [`lock-percent-open-variant-outline`](https://pictogrammers.com/library/mdi/icon/lock-percent-open-variant-outline/) icon.
 -}
 lockPercentOpenVariantOutline : IconShape
 lockPercentOpenVariantOutline =
     Material.Icons.Directory.L.lockPercentOpenVariantOutline
+
+
+{-| The [`lock-percent-open-variant`](https://pictogrammers.com/library/mdi/icon/lock-percent-open-variant/) icon.
+-}
+lockPercentOpenVariant : IconShape
+lockPercentOpenVariant =
+    Material.Icons.Directory.L.lockPercentOpenVariant
 
 
 {-| The [`lock-percent-outline`](https://pictogrammers.com/library/mdi/icon/lock-percent-outline/) icon.
@@ -11918,18 +11918,18 @@ magazineRifle =
     Material.Icons.Directory.M.magazineRifle
 
 
-{-| The [`magnet-on`](https://pictogrammers.com/library/mdi/icon/magnet-on/) icon.
--}
-magnetOn : IconShape
-magnetOn =
-    Material.Icons.Directory.M.magnetOn
-
-
 {-| The [`magnet`](https://pictogrammers.com/library/mdi/icon/magnet/) icon.
 -}
 magnet : IconShape
 magnet =
     Material.Icons.Directory.M.magnet
+
+
+{-| The [`magnet-on`](https://pictogrammers.com/library/mdi/icon/magnet-on/) icon.
+-}
+magnetOn : IconShape
+magnetOn =
+    Material.Icons.Directory.M.magnetOn
 
 
 {-| The [`magnify-close`](https://pictogrammers.com/library/mdi/icon/magnify-close/) icon.
@@ -11939,18 +11939,18 @@ magnifyClose =
     Material.Icons.Directory.M.magnifyClose
 
 
-{-| The [`magnify-minus-cursor`](https://pictogrammers.com/library/mdi/icon/magnify-minus-cursor/) icon.
--}
-magnifyMinusCursor : IconShape
-magnifyMinusCursor =
-    Material.Icons.Directory.M.magnifyMinusCursor
-
-
 {-| The [`magnify-minus`](https://pictogrammers.com/library/mdi/icon/magnify-minus/) icon.
 -}
 magnifyMinus : IconShape
 magnifyMinus =
     Material.Icons.Directory.M.magnifyMinus
+
+
+{-| The [`magnify-minus-cursor`](https://pictogrammers.com/library/mdi/icon/magnify-minus-cursor/) icon.
+-}
+magnifyMinusCursor : IconShape
+magnifyMinusCursor =
+    Material.Icons.Directory.M.magnifyMinusCursor
 
 
 {-| The [`magnify-plus`](https://pictogrammers.com/library/mdi/icon/magnify-plus/) icon.
@@ -11981,18 +11981,18 @@ magnifyScan =
     Material.Icons.Directory.M.magnifyScan
 
 
-{-| The [`mail`](https://pictogrammers.com/library/mdi/icon/mail/) icon.
--}
-mail : IconShape
-mail =
-    Material.Icons.Directory.M.mail
-
-
 {-| The [`mailbox`](https://pictogrammers.com/library/mdi/icon/mailbox/) icon.
 -}
 mailbox : IconShape
 mailbox =
     Material.Icons.Directory.M.mailbox
+
+
+{-| The [`mail`](https://pictogrammers.com/library/mdi/icon/mail/) icon.
+-}
+mail : IconShape
+mail =
+    Material.Icons.Directory.M.mail
 
 
 {-| The [`mailbox-open`](https://pictogrammers.com/library/mdi/icon/mailbox-open/) icon.
@@ -12002,13 +12002,6 @@ mailboxOpen =
     Material.Icons.Directory.M.mailboxOpen
 
 
-{-| The [`mailbox-open-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-open-outline/) icon.
--}
-mailboxOpenOutline : IconShape
-mailboxOpenOutline =
-    Material.Icons.Directory.M.mailboxOpenOutline
-
-
 {-| The [`mailbox-open-up`](https://pictogrammers.com/library/mdi/icon/mailbox-open-up/) icon.
 -}
 mailboxOpenUp : IconShape
@@ -12016,11 +12009,11 @@ mailboxOpenUp =
     Material.Icons.Directory.M.mailboxOpenUp
 
 
-{-| The [`mailbox-open-up-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-open-up-outline/) icon.
+{-| The [`mailbox-open-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-open-outline/) icon.
 -}
-mailboxOpenUpOutline : IconShape
-mailboxOpenUpOutline =
-    Material.Icons.Directory.M.mailboxOpenUpOutline
+mailboxOpenOutline : IconShape
+mailboxOpenOutline =
+    Material.Icons.Directory.M.mailboxOpenOutline
 
 
 {-| The [`mailbox-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-outline/) icon.
@@ -12030,11 +12023,11 @@ mailboxOutline =
     Material.Icons.Directory.M.mailboxOutline
 
 
-{-| The [`mailbox-up`](https://pictogrammers.com/library/mdi/icon/mailbox-up/) icon.
+{-| The [`mailbox-open-up-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-open-up-outline/) icon.
 -}
-mailboxUp : IconShape
-mailboxUp =
-    Material.Icons.Directory.M.mailboxUp
+mailboxOpenUpOutline : IconShape
+mailboxOpenUpOutline =
+    Material.Icons.Directory.M.mailboxOpenUpOutline
 
 
 {-| The [`mailbox-up-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-up-outline/) icon.
@@ -12042,6 +12035,13 @@ mailboxUp =
 mailboxUpOutline : IconShape
 mailboxUpOutline =
     Material.Icons.Directory.M.mailboxUpOutline
+
+
+{-| The [`mailbox-up`](https://pictogrammers.com/library/mdi/icon/mailbox-up/) icon.
+-}
+mailboxUp : IconShape
+mailboxUp =
+    Material.Icons.Directory.M.mailboxUp
 
 
 {-| The [`margin`](https://pictogrammers.com/library/mdi/icon/margin/) icon.
@@ -14277,18 +14277,18 @@ publish =
     Material.Icons.Directory.P.publish
 
 
-{-| The [`pump-off`](https://pictogrammers.com/library/mdi/icon/pump-off/) icon.
--}
-pumpOff : IconShape
-pumpOff =
-    Material.Icons.Directory.P.pumpOff
-
-
 {-| The [`pump`](https://pictogrammers.com/library/mdi/icon/pump/) icon.
 -}
 pump : IconShape
 pump =
     Material.Icons.Directory.P.pump
+
+
+{-| The [`pump-off`](https://pictogrammers.com/library/mdi/icon/pump-off/) icon.
+-}
+pumpOff : IconShape
+pumpOff =
+    Material.Icons.Directory.P.pumpOff
 
 
 {-| The [`purse`](https://pictogrammers.com/library/mdi/icon/purse/) icon.
@@ -17203,18 +17203,18 @@ thermometerProbeOff =
     Material.Icons.Directory.T.thermometerProbeOff
 
 
-{-| The [`thermostat-cog`](https://pictogrammers.com/library/mdi/icon/thermostat-cog/) icon.
--}
-thermostatCog : IconShape
-thermostatCog =
-    Material.Icons.Directory.T.thermostatCog
-
-
 {-| The [`thought-bubble`](https://pictogrammers.com/library/mdi/icon/thought-bubble/) icon.
 -}
 thoughtBubble : IconShape
 thoughtBubble =
     Material.Icons.Directory.T.thoughtBubble
+
+
+{-| The [`thermostat-cog`](https://pictogrammers.com/library/mdi/icon/thermostat-cog/) icon.
+-}
+thermostatCog : IconShape
+thermostatCog =
+    Material.Icons.Directory.T.thermostatCog
 
 
 {-| The [`thought-bubble-outline`](https://pictogrammers.com/library/mdi/icon/thought-bubble-outline/) icon.
@@ -17224,18 +17224,18 @@ thoughtBubbleOutline =
     Material.Icons.Directory.T.thoughtBubbleOutline
 
 
-{-| The [`thumb-down-outline`](https://pictogrammers.com/library/mdi/icon/thumb-down-outline/) icon.
--}
-thumbDownOutline : IconShape
-thumbDownOutline =
-    Material.Icons.Directory.T.thumbDownOutline
-
-
 {-| The [`thumb-down`](https://pictogrammers.com/library/mdi/icon/thumb-down/) icon.
 -}
 thumbDown : IconShape
 thumbDown =
     Material.Icons.Directory.T.thumbDown
+
+
+{-| The [`thumb-down-outline`](https://pictogrammers.com/library/mdi/icon/thumb-down-outline/) icon.
+-}
+thumbDownOutline : IconShape
+thumbDownOutline =
+    Material.Icons.Directory.T.thumbDownOutline
 
 
 {-| The [`thumb-up`](https://pictogrammers.com/library/mdi/icon/thumb-up/) icon.
@@ -17693,18 +17693,18 @@ turnstileOutline =
     Material.Icons.Directory.T.turnstileOutline
 
 
-{-| The [`two-factor-authentication`](https://pictogrammers.com/library/mdi/icon/two-factor-authentication/) icon.
--}
-twoFactorAuthentication : IconShape
-twoFactorAuthentication =
-    Material.Icons.Directory.T.twoFactorAuthentication
-
-
 {-| The [`typewriter`](https://pictogrammers.com/library/mdi/icon/typewriter/) icon.
 -}
 typewriter : IconShape
 typewriter =
     Material.Icons.Directory.T.typewriter
+
+
+{-| The [`two-factor-authentication`](https://pictogrammers.com/library/mdi/icon/two-factor-authentication/) icon.
+-}
+twoFactorAuthentication : IconShape
+twoFactorAuthentication =
+    Material.Icons.Directory.T.twoFactorAuthentication
 
 
 {-| The [`ufo`](https://pictogrammers.com/library/mdi/icon/ufo/) icon.

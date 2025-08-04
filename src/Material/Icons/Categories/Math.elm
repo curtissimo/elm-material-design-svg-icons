@@ -25,8 +25,8 @@ module Material.Icons.Categories.Math exposing
     , chartBoxOutline
     , chartBoxPlusOutline
     , chartDonut
-    , chartDonutVariant
     , chartBubble
+    , chartDonutVariant
     , chartGantt
     , chartHistogram
     , chartLine
@@ -157,8 +157,8 @@ module Material.Icons.Categories.Math exposing
 @docs chartBoxOutline
 @docs chartBoxPlusOutline
 @docs chartDonut
-@docs chartDonutVariant
 @docs chartBubble
+@docs chartDonutVariant
 @docs chartGantt
 @docs chartHistogram
 @docs chartLine
@@ -438,18 +438,18 @@ chartDonut =
     Material.Icons.Directory.C.chartDonut
 
 
-{-| The [`chart-donut-variant`](https://pictogrammers.com/library/mdi/icon/chart-donut-variant/) icon.
--}
-chartDonutVariant : IconShape
-chartDonutVariant =
-    Material.Icons.Directory.C.chartDonutVariant
-
-
 {-| The [`chart-bubble`](https://pictogrammers.com/library/mdi/icon/chart-bubble/) icon.
 -}
 chartBubble : IconShape
 chartBubble =
     Material.Icons.Directory.C.chartBubble
+
+
+{-| The [`chart-donut-variant`](https://pictogrammers.com/library/mdi/icon/chart-donut-variant/) icon.
+-}
+chartDonutVariant : IconShape
+chartDonutVariant =
+    Material.Icons.Directory.C.chartDonutVariant
 
 
 {-| The [`chart-gantt`](https://pictogrammers.com/library/mdi/icon/chart-gantt/) icon.

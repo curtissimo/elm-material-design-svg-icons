@@ -61,13 +61,13 @@ module Material.Icons.Categories.Navigation exposing
     , mapClock
     , mapClockOutline
     , mapLegend
-    , mapMarker
     , mapMarkerAccount
     , mapMarkerAccountOutline
+    , mapMarker
     , mapMarkerAlert
     , mapMarkerAlertOutline
-    , mapMarkerCheck
     , mapMarkerCheckOutline
+    , mapMarkerCheck
     , mapMarkerCircle
     , mapMarkerDistance
     , mapMarkerDown
@@ -191,13 +191,13 @@ module Material.Icons.Categories.Navigation exposing
 @docs mapClock
 @docs mapClockOutline
 @docs mapLegend
-@docs mapMarker
 @docs mapMarkerAccount
 @docs mapMarkerAccountOutline
+@docs mapMarker
 @docs mapMarkerAlert
 @docs mapMarkerAlertOutline
-@docs mapMarkerCheck
 @docs mapMarkerCheckOutline
+@docs mapMarkerCheck
 @docs mapMarkerCircle
 @docs mapMarkerDistance
 @docs mapMarkerDown
@@ -687,13 +687,6 @@ mapLegend =
     Material.Icons.Directory.M.mapLegend
 
 
-{-| The [`map-marker`](https://pictogrammers.com/library/mdi/icon/map-marker/) icon.
--}
-mapMarker : IconShape
-mapMarker =
-    Material.Icons.Directory.M.mapMarker
-
-
 {-| The [`map-marker-account`](https://pictogrammers.com/library/mdi/icon/map-marker-account/) icon.
 -}
 mapMarkerAccount : IconShape
@@ -706,6 +699,13 @@ mapMarkerAccount =
 mapMarkerAccountOutline : IconShape
 mapMarkerAccountOutline =
     Material.Icons.Directory.M.mapMarkerAccountOutline
+
+
+{-| The [`map-marker`](https://pictogrammers.com/library/mdi/icon/map-marker/) icon.
+-}
+mapMarker : IconShape
+mapMarker =
+    Material.Icons.Directory.M.mapMarker
 
 
 {-| The [`map-marker-alert`](https://pictogrammers.com/library/mdi/icon/map-marker-alert/) icon.
@@ -722,18 +722,18 @@ mapMarkerAlertOutline =
     Material.Icons.Directory.M.mapMarkerAlertOutline
 
 
-{-| The [`map-marker-check`](https://pictogrammers.com/library/mdi/icon/map-marker-check/) icon.
--}
-mapMarkerCheck : IconShape
-mapMarkerCheck =
-    Material.Icons.Directory.M.mapMarkerCheck
-
-
 {-| The [`map-marker-check-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-check-outline/) icon.
 -}
 mapMarkerCheckOutline : IconShape
 mapMarkerCheckOutline =
     Material.Icons.Directory.M.mapMarkerCheckOutline
+
+
+{-| The [`map-marker-check`](https://pictogrammers.com/library/mdi/icon/map-marker-check/) icon.
+-}
+mapMarkerCheck : IconShape
+mapMarkerCheck =
+    Material.Icons.Directory.M.mapMarkerCheck
 
 
 {-| The [`map-marker-circle`](https://pictogrammers.com/library/mdi/icon/map-marker-circle/) icon.

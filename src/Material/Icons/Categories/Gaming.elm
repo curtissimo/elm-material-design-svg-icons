@@ -58,8 +58,8 @@ module Material.Icons.Categories.Gaming exposing
     , crystalBall
     , dice1
     , dice1Outline
-    , dice2Outline
     , dice2
+    , dice2Outline
     , dice3
     , dice3Outline
     , dice4
@@ -114,9 +114,9 @@ module Material.Icons.Categories.Gaming exposing
     , ghostOffOutline
     , ghostOutline
     , heart
+    , heartHalfOutline
     , heartHalf
     , heartHalfFull
-    , heartHalfOutline
     , heartOutline
     , hololens
     , knifeMilitary
@@ -234,8 +234,8 @@ module Material.Icons.Categories.Gaming exposing
 @docs crystalBall
 @docs dice1
 @docs dice1Outline
-@docs dice2Outline
 @docs dice2
+@docs dice2Outline
 @docs dice3
 @docs dice3Outline
 @docs dice4
@@ -290,9 +290,9 @@ module Material.Icons.Categories.Gaming exposing
 @docs ghostOffOutline
 @docs ghostOutline
 @docs heart
+@docs heartHalfOutline
 @docs heartHalf
 @docs heartHalfFull
-@docs heartHalfOutline
 @docs heartOutline
 @docs hololens
 @docs knifeMilitary
@@ -759,18 +759,18 @@ dice1Outline =
     Material.Icons.Directory.D.dice1Outline
 
 
-{-| The [`dice-2-outline`](https://pictogrammers.com/library/mdi/icon/dice-2-outline/) icon.
--}
-dice2Outline : IconShape
-dice2Outline =
-    Material.Icons.Directory.D.dice2Outline
-
-
 {-| The [`dice-2`](https://pictogrammers.com/library/mdi/icon/dice-2/) icon.
 -}
 dice2 : IconShape
 dice2 =
     Material.Icons.Directory.D.dice2
+
+
+{-| The [`dice-2-outline`](https://pictogrammers.com/library/mdi/icon/dice-2-outline/) icon.
+-}
+dice2Outline : IconShape
+dice2Outline =
+    Material.Icons.Directory.D.dice2Outline
 
 
 {-| The [`dice-3`](https://pictogrammers.com/library/mdi/icon/dice-3/) icon.
@@ -1151,6 +1151,13 @@ heart =
     Material.Icons.Directory.H.heart
 
 
+{-| The [`heart-half-outline`](https://pictogrammers.com/library/mdi/icon/heart-half-outline/) icon.
+-}
+heartHalfOutline : IconShape
+heartHalfOutline =
+    Material.Icons.Directory.H.heartHalfOutline
+
+
 {-| The [`heart-half`](https://pictogrammers.com/library/mdi/icon/heart-half/) icon.
 -}
 heartHalf : IconShape
@@ -1163,13 +1170,6 @@ heartHalf =
 heartHalfFull : IconShape
 heartHalfFull =
     Material.Icons.Directory.H.heartHalfFull
-
-
-{-| The [`heart-half-outline`](https://pictogrammers.com/library/mdi/icon/heart-half-outline/) icon.
--}
-heartHalfOutline : IconShape
-heartHalfOutline =
-    Material.Icons.Directory.H.heartHalfOutline
 
 
 {-| The [`heart-outline`](https://pictogrammers.com/library/mdi/icon/heart-outline/) icon.

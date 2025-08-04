@@ -13,8 +13,8 @@ module Material.Icons.Categories.Clothing exposing
     , hanger
     , hardHat
     , hatFedora
-    , iron
     , ironBoard
+    , iron
     , ironOutline
     , lingerie
     , necklace
@@ -45,8 +45,8 @@ module Material.Icons.Categories.Clothing exposing
 @docs hanger
 @docs hardHat
 @docs hatFedora
-@docs iron
 @docs ironBoard
+@docs iron
 @docs ironOutline
 @docs lingerie
 @docs necklace
@@ -152,18 +152,18 @@ hatFedora =
     Material.Icons.Directory.H.hatFedora
 
 
-{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
--}
-iron : IconShape
-iron =
-    Material.Icons.Directory.I.iron
-
-
 {-| The [`iron-board`](https://pictogrammers.com/library/mdi/icon/iron-board/) icon.
 -}
 ironBoard : IconShape
 ironBoard =
     Material.Icons.Directory.I.ironBoard
+
+
+{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
+-}
+iron : IconShape
+iron =
+    Material.Icons.Directory.I.iron
 
 
 {-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.

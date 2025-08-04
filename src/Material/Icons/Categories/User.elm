@@ -72,11 +72,11 @@ module Material.Icons.Categories.User exposing
     , accountLockOpen
     , accountLockOpenOutline
     , accountLockOutline
-    , accountMinus
     , accountMinusOutline
+    , accountMinus
     , accountMultiple
-    , accountMultipleCheck
     , accountMultipleCheckOutline
+    , accountMultipleCheck
     , accountMultipleMinus
     , accountMultipleMinusOutline
     , accountMultipleOutline
@@ -266,11 +266,11 @@ module Material.Icons.Categories.User exposing
 @docs accountLockOpen
 @docs accountLockOpenOutline
 @docs accountLockOutline
-@docs accountMinus
 @docs accountMinusOutline
+@docs accountMinus
 @docs accountMultiple
-@docs accountMultipleCheck
 @docs accountMultipleCheckOutline
+@docs accountMultipleCheck
 @docs accountMultipleMinus
 @docs accountMultipleMinusOutline
 @docs accountMultipleOutline
@@ -887,18 +887,18 @@ accountLockOutline =
     Material.Icons.Directory.A.accountLockOutline
 
 
-{-| The [`account-minus`](https://pictogrammers.com/library/mdi/icon/account-minus/) icon.
--}
-accountMinus : IconShape
-accountMinus =
-    Material.Icons.Directory.A.accountMinus
-
-
 {-| The [`account-minus-outline`](https://pictogrammers.com/library/mdi/icon/account-minus-outline/) icon.
 -}
 accountMinusOutline : IconShape
 accountMinusOutline =
     Material.Icons.Directory.A.accountMinusOutline
+
+
+{-| The [`account-minus`](https://pictogrammers.com/library/mdi/icon/account-minus/) icon.
+-}
+accountMinus : IconShape
+accountMinus =
+    Material.Icons.Directory.A.accountMinus
 
 
 {-| The [`account-multiple`](https://pictogrammers.com/library/mdi/icon/account-multiple/) icon.
@@ -908,18 +908,18 @@ accountMultiple =
     Material.Icons.Directory.A.accountMultiple
 
 
-{-| The [`account-multiple-check`](https://pictogrammers.com/library/mdi/icon/account-multiple-check/) icon.
--}
-accountMultipleCheck : IconShape
-accountMultipleCheck =
-    Material.Icons.Directory.A.accountMultipleCheck
-
-
 {-| The [`account-multiple-check-outline`](https://pictogrammers.com/library/mdi/icon/account-multiple-check-outline/) icon.
 -}
 accountMultipleCheckOutline : IconShape
 accountMultipleCheckOutline =
     Material.Icons.Directory.A.accountMultipleCheckOutline
+
+
+{-| The [`account-multiple-check`](https://pictogrammers.com/library/mdi/icon/account-multiple-check/) icon.
+-}
+accountMultipleCheck : IconShape
+accountMultipleCheck =
+    Material.Icons.Directory.A.accountMultipleCheck
 
 
 {-| The [`account-multiple-minus`](https://pictogrammers.com/library/mdi/icon/account-multiple-minus/) icon.

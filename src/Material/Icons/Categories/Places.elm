@@ -19,8 +19,8 @@ module Material.Icons.Categories.Places exposing
     , eiffelTower
     , evStation
     , factory
-    , forestOutline
     , forest
+    , forestOutline
     , gasStation
     , home
     , homeCityOutline
@@ -107,8 +107,8 @@ module Material.Icons.Categories.Places exposing
 @docs eiffelTower
 @docs evStation
 @docs factory
-@docs forestOutline
 @docs forest
+@docs forestOutline
 @docs gasStation
 @docs home
 @docs homeCityOutline
@@ -309,18 +309,18 @@ factory =
     Material.Icons.Directory.F.factory
 
 
-{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
--}
-forestOutline : IconShape
-forestOutline =
-    Material.Icons.Directory.F.forestOutline
-
-
 {-| The [`forest`](https://pictogrammers.com/library/mdi/icon/forest/) icon.
 -}
 forest : IconShape
 forest =
     Material.Icons.Directory.F.forest
+
+
+{-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
+-}
+forestOutline : IconShape
+forestOutline =
+    Material.Icons.Directory.F.forestOutline
 
 
 {-| The [`gas-station`](https://pictogrammers.com/library/mdi/icon/gas-station/) icon.

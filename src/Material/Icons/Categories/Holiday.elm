@@ -8,8 +8,8 @@ module Material.Icons.Categories.Holiday exposing
     , bed
     , bedDouble
     , bedDoubleOutline
-    , bedEmpty
     , bedKing
+    , bedEmpty
     , bedKingOutline
     , bedOutline
     , bedQueen
@@ -86,8 +86,8 @@ module Material.Icons.Categories.Holiday exposing
 @docs bed
 @docs bedDouble
 @docs bedDoubleOutline
-@docs bedEmpty
 @docs bedKing
+@docs bedEmpty
 @docs bedKingOutline
 @docs bedOutline
 @docs bedQueen
@@ -209,18 +209,18 @@ bedDoubleOutline =
     Material.Icons.Directory.B.bedDoubleOutline
 
 
-{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
--}
-bedEmpty : IconShape
-bedEmpty =
-    Material.Icons.Directory.B.bedEmpty
-
-
 {-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
 -}
 bedKing : IconShape
 bedKing =
     Material.Icons.Directory.B.bedKing
+
+
+{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
+-}
+bedEmpty : IconShape
+bedEmpty =
+    Material.Icons.Directory.B.bedEmpty
 
 
 {-| The [`bed-king-outline`](https://pictogrammers.com/library/mdi/icon/bed-king-outline/) icon.

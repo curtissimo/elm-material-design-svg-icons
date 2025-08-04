@@ -1396,18 +1396,18 @@ exponentBox =
     iconShape "M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M13.76,6H15.39L16.5,8.6L17.59,6H19.24C19.24,6 17.5,10.57 16.46,12.32C16.08,12.89 15.35,13.27 14.5,13.25V11.75C14.96,11.76 15.25,11.5 15.5,11.13C15.61,11 15.68,10.8 15.74,10.64L13.76,6M6.41,9.59L9.21,12.38L12,9.59L13.41,11L10.62,13.79L13.41,16.59L12,18L9.21,15.21L6.41,18L5,16.59L7.79,13.79L5,11L6.41,9.59Z"
 
 
-{-| The [`export-variant`](https://pictogrammers.com/library/mdi/icon/export-variant/) icon.
--}
-exportVariant : IconShape
-exportVariant =
-    iconShape "M12,1L8,5H11V14H13V5H16M18,23H6C4.89,23 4,22.1 4,21V9A2,2 0 0,1 6,7H9V9H6V21H18V9H15V7H18A2,2 0 0,1 20,9V21A2,2 0 0,1 18,23Z"
-
-
 {-| The [`export`](https://pictogrammers.com/library/mdi/icon/export/) icon.
 -}
 export : IconShape
 export =
     iconShape "M23,12L19,8V11H10V13H19V16M1,18V6C1,4.89 1.9,4 3,4H15A2,2 0 0,1 17,6V9H15V6H3V18H15V15H17V18A2,2 0 0,1 15,20H3A2,2 0 0,1 1,18Z"
+
+
+{-| The [`export-variant`](https://pictogrammers.com/library/mdi/icon/export-variant/) icon.
+-}
+exportVariant : IconShape
+exportVariant =
+    iconShape "M12,1L8,5H11V14H13V5H16M18,23H6C4.89,23 4,22.1 4,21V9A2,2 0 0,1 6,7H9V9H6V21H18V9H15V7H18A2,2 0 0,1 20,9V21A2,2 0 0,1 18,23Z"
 
 
 {-| The [`eye`](https://pictogrammers.com/library/mdi/icon/eye/) icon.
@@ -1438,18 +1438,18 @@ eyeArrowRight =
     iconShape "M12 4.5C7 4.5 2.7 7.6 1 12C2.7 16.4 7 19.5 12 19.5H13.1C13 19.2 13 18.9 13 18.5C13 17.9 13.1 17.4 13.2 16.8C12.8 16.9 12.4 17 12 17C9.2 17 7 14.8 7 12S9.2 7 12 7 17 9.2 17 12C17 12.3 17 12.6 16.9 12.9C17.6 12.7 18.3 12.5 19 12.5C20.2 12.5 21.3 12.8 22.3 13.5C22.6 13 22.8 12.5 23 12C21.3 7.6 17 4.5 12 4.5M12 9C10.3 9 9 10.3 9 12S10.3 15 12 15 15 13.7 15 12 13.7 9 12 9M19 21V19H15V17H19V15L22 18L19 21"
 
 
-{-| The [`eye-check`](https://pictogrammers.com/library/mdi/icon/eye-check/) icon.
--}
-eyeCheck : IconShape
-eyeCheck =
-    iconShape "M23.5,17L18.5,22L15,18.5L16.5,17L18.5,19L22,15.5L23.5,17M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,17C12.5,17 12.97,16.93 13.42,16.79C13.15,17.5 13,18.22 13,19V19.45L12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5C17,4.5 21.27,7.61 23,12C22.75,12.64 22.44,13.26 22.08,13.85C21.18,13.31 20.12,13 19,13C18.22,13 17.5,13.15 16.79,13.42C16.93,12.97 17,12.5 17,12A5,5 0 0,0 12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17Z"
-
-
 {-| The [`eye-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/eye-arrow-right-outline/) icon.
 -}
 eyeArrowRightOutline : IconShape
 eyeArrowRightOutline =
     iconShape "M12 4.5C7 4.5 2.7 7.6 1 12C2.7 16.4 7 19.5 12 19.5H13.1C13 19.2 13 18.9 13 18.5C13 18.1 13 17.8 13.1 17.4C12.7 17.4 12.4 17.5 12 17.5C8.2 17.5 4.8 15.4 3.2 12C4.8 8.6 8.2 6.5 12 6.5S19.2 8.6 20.8 12C20.7 12.2 20.5 12.4 20.4 12.7C21.1 12.9 21.7 13.1 22.3 13.5C22.6 13 22.8 12.5 23 12C21.3 7.6 17 4.5 12 4.5M12 9C10.3 9 9 10.3 9 12S10.3 15 12 15 15 13.7 15 12 13.7 9 12 9M19 21V19H15V17H19V15L22 18L19 21"
+
+
+{-| The [`eye-check`](https://pictogrammers.com/library/mdi/icon/eye-check/) icon.
+-}
+eyeCheck : IconShape
+eyeCheck =
+    iconShape "M23.5,17L18.5,22L15,18.5L16.5,17L18.5,19L22,15.5L23.5,17M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,17C12.5,17 12.97,16.93 13.42,16.79C13.15,17.5 13,18.22 13,19V19.45L12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5C17,4.5 21.27,7.61 23,12C22.75,12.64 22.44,13.26 22.08,13.85C21.18,13.31 20.12,13 19,13C18.22,13 17.5,13.15 16.79,13.42C16.93,12.97 17,12.5 17,12A5,5 0 0,0 12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17Z"
 
 
 {-| The [`eye-check-outline`](https://pictogrammers.com/library/mdi/icon/eye-check-outline/) icon.
@@ -1543,13 +1543,6 @@ eyeOutline =
     iconShape "M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,4.5C17,4.5 21.27,7.61 23,12C21.27,16.39 17,19.5 12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5M3.18,12C4.83,15.36 8.24,17.5 12,17.5C15.76,17.5 19.17,15.36 20.82,12C19.17,8.64 15.76,6.5 12,6.5C8.24,6.5 4.83,8.64 3.18,12Z"
 
 
-{-| The [`eye-plus`](https://pictogrammers.com/library/mdi/icon/eye-plus/) icon.
--}
-eyePlus : IconShape
-eyePlus =
-    iconShape "M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,17.94 13.08,17.38 13.24,16.84C12.83,16.94 12.42,17 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12C17,12.29 16.97,12.59 16.92,12.88C17.58,12.63 18.29,12.5 19,12.5C20.17,12.5 21.31,12.84 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z"
-
-
 {-| The [`eye-plus-outline`](https://pictogrammers.com/library/mdi/icon/eye-plus-outline/) icon.
 -}
 eyePlusOutline : IconShape
@@ -1557,11 +1550,11 @@ eyePlusOutline =
     iconShape "M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z"
 
 
-{-| The [`eye-refresh`](https://pictogrammers.com/library/mdi/icon/eye-refresh/) icon.
+{-| The [`eye-plus`](https://pictogrammers.com/library/mdi/icon/eye-plus/) icon.
 -}
-eyeRefresh : IconShape
-eyeRefresh =
-    iconShape "M12 9C10.3 9 9 10.3 9 12S10.3 15 12 15 15 13.7 15 12 13.7 9 12 9M18 18.5L19.8 16.7C19.3 16.3 18.7 16 18 16C16.6 16 15.5 17.1 15.5 18.5S16.6 21 18 21C18.8 21 19.5 20.6 20 20H21.7C21.1 21.5 19.7 22.5 18 22.5C15.8 22.5 14 20.7 14 18.5S15.8 14.5 18 14.5C19.1 14.5 20.1 14.9 20.8 15.7L22 14.5V18.5H18M12.1 19.5C12.1 19.5 12 19.5 12.1 19.5C7 19.5 2.7 16.4 1 12C2.7 7.6 7 4.5 12 4.5S21.3 7.6 23 12C22.8 12.4 22.6 12.9 22.4 13.3C21.3 12.5 20 12 18.5 12C18 12 17.5 12.1 17 12.2V12C17 9.2 14.8 7 12 7S7 9.2 7 12 9.2 17 12 17H12.2C12.1 17.5 12 18 12 18.5C12 18.8 12 19.2 12.1 19.5Z"
+eyePlus : IconShape
+eyePlus =
+    iconShape "M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,17.94 13.08,17.38 13.24,16.84C12.83,16.94 12.42,17 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12C17,12.29 16.97,12.59 16.92,12.88C17.58,12.63 18.29,12.5 19,12.5C20.17,12.5 21.31,12.84 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z"
 
 
 {-| The [`eye-refresh-outline`](https://pictogrammers.com/library/mdi/icon/eye-refresh-outline/) icon.
@@ -1569,6 +1562,13 @@ eyeRefresh =
 eyeRefreshOutline : IconShape
 eyeRefreshOutline =
     iconShape "M12 9C13.7 9 15 10.3 15 12S13.7 15 12 15 9 13.7 9 12 10.3 9 12 9M18 18.5L19.8 16.7C19.3 16.3 18.7 16 18 16C16.6 16 15.5 17.1 15.5 18.5S16.6 21 18 21C18.8 21 19.5 20.6 20 20H21.7C21.1 21.5 19.7 22.5 18 22.5C15.8 22.5 14 20.7 14 18.5S15.8 14.5 18 14.5C19.1 14.5 20.1 14.9 20.8 15.7L22 14.5V18.5H18M12 18.5C12 18.2 12 17.8 12.1 17.5H12C8.2 17.5 4.8 15.4 3.2 12C4.8 8.6 8.2 6.5 12 6.5S19.2 8.6 20.8 12C20.7 12.1 20.7 12.2 20.6 12.4C21.2 12.6 21.8 12.9 22.4 13.3C22.6 12.9 22.8 12.4 23 12C21.3 7.6 17 4.5 12 4.5S2.7 7.6 1 12C2.7 16.4 7 19.5 12 19.5H12.1C12 19.2 12 18.8 12 18.5Z"
+
+
+{-| The [`eye-refresh`](https://pictogrammers.com/library/mdi/icon/eye-refresh/) icon.
+-}
+eyeRefresh : IconShape
+eyeRefresh =
+    iconShape "M12 9C10.3 9 9 10.3 9 12S10.3 15 12 15 15 13.7 15 12 13.7 9 12 9M18 18.5L19.8 16.7C19.3 16.3 18.7 16 18 16C16.6 16 15.5 17.1 15.5 18.5S16.6 21 18 21C18.8 21 19.5 20.6 20 20H21.7C21.1 21.5 19.7 22.5 18 22.5C15.8 22.5 14 20.7 14 18.5S15.8 14.5 18 14.5C19.1 14.5 20.1 14.9 20.8 15.7L22 14.5V18.5H18M12.1 19.5C12.1 19.5 12 19.5 12.1 19.5C7 19.5 2.7 16.4 1 12C2.7 7.6 7 4.5 12 4.5S21.3 7.6 23 12C22.8 12.4 22.6 12.9 22.4 13.3C21.3 12.5 20 12 18.5 12C18 12 17.5 12.1 17 12.2V12C17 9.2 14.8 7 12 7S7 9.2 7 12 9.2 17 12 17H12.2C12.1 17.5 12 18 12 18.5C12 18.8 12 19.2 12.1 19.5Z"
 
 
 {-| The [`eye-remove`](https://pictogrammers.com/library/mdi/icon/eye-remove/) icon.
@@ -2157,11 +2157,11 @@ lookup name =
         "exponent-box" ->
             Just exponentBox
 
-        "export-variant" ->
-            Just exportVariant
-
         "export" ->
             Just export
+
+        "export-variant" ->
+            Just exportVariant
 
         "eye" ->
             Just eye
@@ -2175,11 +2175,11 @@ lookup name =
         "eye-arrow-right" ->
             Just eyeArrowRight
 
-        "eye-check" ->
-            Just eyeCheck
-
         "eye-arrow-right-outline" ->
             Just eyeArrowRightOutline
+
+        "eye-check" ->
+            Just eyeCheck
 
         "eye-check-outline" ->
             Just eyeCheckOutline
@@ -2220,17 +2220,17 @@ lookup name =
         "eye-outline" ->
             Just eyeOutline
 
-        "eye-plus" ->
-            Just eyePlus
-
         "eye-plus-outline" ->
             Just eyePlusOutline
 
-        "eye-refresh" ->
-            Just eyeRefresh
+        "eye-plus" ->
+            Just eyePlus
 
         "eye-refresh-outline" ->
             Just eyeRefreshOutline
+
+        "eye-refresh" ->
+            Just eyeRefresh
 
         "eye-remove" ->
             Just eyeRemove

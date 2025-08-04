@@ -11,12 +11,12 @@ module Material.Icons.Categories.Files exposing
     , fileAlert
     , fileAlertOutline
     , fileArrowLeftRight
-    , fileArrowLeftRightOutline
     , fileArrowUpDown
-    , fileArrowUpDownOutline
+    , fileArrowLeftRightOutline
     , fileCabinet
-    , fileCad
+    , fileArrowUpDownOutline
     , fileCadBox
+    , fileCad
     , fileCancel
     , fileCancelOutline
     , fileCertificate
@@ -29,8 +29,8 @@ module Material.Icons.Categories.Files exposing
     , fileCheckOutline
     , fileClock
     , fileClockOutline
-    , fileCloud
     , fileCloudOutline
+    , fileCloud
     , fileCode
     , fileCodeOutline
     , fileCog
@@ -301,12 +301,12 @@ module Material.Icons.Categories.Files exposing
 @docs fileAlert
 @docs fileAlertOutline
 @docs fileArrowLeftRight
-@docs fileArrowLeftRightOutline
 @docs fileArrowUpDown
-@docs fileArrowUpDownOutline
+@docs fileArrowLeftRightOutline
 @docs fileCabinet
-@docs fileCad
+@docs fileArrowUpDownOutline
 @docs fileCadBox
+@docs fileCad
 @docs fileCancel
 @docs fileCancelOutline
 @docs fileCertificate
@@ -319,8 +319,8 @@ module Material.Icons.Categories.Files exposing
 @docs fileCheckOutline
 @docs fileClock
 @docs fileClockOutline
-@docs fileCloud
 @docs fileCloudOutline
+@docs fileCloud
 @docs fileCode
 @docs fileCodeOutline
 @docs fileCog
@@ -646,13 +646,6 @@ fileArrowLeftRight =
     Material.Icons.Directory.F.fileArrowLeftRight
 
 
-{-| The [`file-arrow-left-right-outline`](https://pictogrammers.com/library/mdi/icon/file-arrow-left-right-outline/) icon.
--}
-fileArrowLeftRightOutline : IconShape
-fileArrowLeftRightOutline =
-    Material.Icons.Directory.F.fileArrowLeftRightOutline
-
-
 {-| The [`file-arrow-up-down`](https://pictogrammers.com/library/mdi/icon/file-arrow-up-down/) icon.
 -}
 fileArrowUpDown : IconShape
@@ -660,11 +653,11 @@ fileArrowUpDown =
     Material.Icons.Directory.F.fileArrowUpDown
 
 
-{-| The [`file-arrow-up-down-outline`](https://pictogrammers.com/library/mdi/icon/file-arrow-up-down-outline/) icon.
+{-| The [`file-arrow-left-right-outline`](https://pictogrammers.com/library/mdi/icon/file-arrow-left-right-outline/) icon.
 -}
-fileArrowUpDownOutline : IconShape
-fileArrowUpDownOutline =
-    Material.Icons.Directory.F.fileArrowUpDownOutline
+fileArrowLeftRightOutline : IconShape
+fileArrowLeftRightOutline =
+    Material.Icons.Directory.F.fileArrowLeftRightOutline
 
 
 {-| The [`file-cabinet`](https://pictogrammers.com/library/mdi/icon/file-cabinet/) icon.
@@ -674,11 +667,11 @@ fileCabinet =
     Material.Icons.Directory.F.fileCabinet
 
 
-{-| The [`file-cad`](https://pictogrammers.com/library/mdi/icon/file-cad/) icon.
+{-| The [`file-arrow-up-down-outline`](https://pictogrammers.com/library/mdi/icon/file-arrow-up-down-outline/) icon.
 -}
-fileCad : IconShape
-fileCad =
-    Material.Icons.Directory.F.fileCad
+fileArrowUpDownOutline : IconShape
+fileArrowUpDownOutline =
+    Material.Icons.Directory.F.fileArrowUpDownOutline
 
 
 {-| The [`file-cad-box`](https://pictogrammers.com/library/mdi/icon/file-cad-box/) icon.
@@ -686,6 +679,13 @@ fileCad =
 fileCadBox : IconShape
 fileCadBox =
     Material.Icons.Directory.F.fileCadBox
+
+
+{-| The [`file-cad`](https://pictogrammers.com/library/mdi/icon/file-cad/) icon.
+-}
+fileCad : IconShape
+fileCad =
+    Material.Icons.Directory.F.fileCad
 
 
 {-| The [`file-cancel`](https://pictogrammers.com/library/mdi/icon/file-cancel/) icon.
@@ -772,18 +772,18 @@ fileClockOutline =
     Material.Icons.Directory.F.fileClockOutline
 
 
-{-| The [`file-cloud`](https://pictogrammers.com/library/mdi/icon/file-cloud/) icon.
--}
-fileCloud : IconShape
-fileCloud =
-    Material.Icons.Directory.F.fileCloud
-
-
 {-| The [`file-cloud-outline`](https://pictogrammers.com/library/mdi/icon/file-cloud-outline/) icon.
 -}
 fileCloudOutline : IconShape
 fileCloudOutline =
     Material.Icons.Directory.F.fileCloudOutline
+
+
+{-| The [`file-cloud`](https://pictogrammers.com/library/mdi/icon/file-cloud/) icon.
+-}
+fileCloud : IconShape
+fileCloud =
+    Material.Icons.Directory.F.fileCloud
 
 
 {-| The [`file-code`](https://pictogrammers.com/library/mdi/icon/file-code/) icon.

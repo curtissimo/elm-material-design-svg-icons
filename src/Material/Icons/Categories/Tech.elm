@@ -67,12 +67,12 @@ module Material.Icons.Categories.Tech exposing
     , tablet
     , tabletCellphone
     , tabletDashboard
-    , television
-    , televisionOff
-    , televisionClassicOff
-    , televisionClassic
-    , televisionPause
     , televisionGuide
+    , televisionClassicOff
+    , television
+    , televisionClassic
+    , televisionOff
+    , televisionPause
     , televisionPlay
     , televisionShimmer
     , televisionStop
@@ -155,12 +155,12 @@ module Material.Icons.Categories.Tech exposing
 @docs tablet
 @docs tabletCellphone
 @docs tabletDashboard
-@docs television
-@docs televisionOff
-@docs televisionClassicOff
-@docs televisionClassic
-@docs televisionPause
 @docs televisionGuide
+@docs televisionClassicOff
+@docs television
+@docs televisionClassic
+@docs televisionOff
+@docs televisionPause
 @docs televisionPlay
 @docs televisionShimmer
 @docs televisionStop
@@ -639,18 +639,11 @@ tabletDashboard =
     Material.Icons.Directory.T.tabletDashboard
 
 
-{-| The [`television`](https://pictogrammers.com/library/mdi/icon/television/) icon.
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
 -}
-television : IconShape
-television =
-    Material.Icons.Directory.T.television
-
-
-{-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
--}
-televisionOff : IconShape
-televisionOff =
-    Material.Icons.Directory.T.televisionOff
+televisionGuide : IconShape
+televisionGuide =
+    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
@@ -660,6 +653,13 @@ televisionClassicOff =
     Material.Icons.Directory.T.televisionClassicOff
 
 
+{-| The [`television`](https://pictogrammers.com/library/mdi/icon/television/) icon.
+-}
+television : IconShape
+television =
+    Material.Icons.Directory.T.television
+
+
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
 -}
 televisionClassic : IconShape
@@ -667,18 +667,18 @@ televisionClassic =
     Material.Icons.Directory.T.televisionClassic
 
 
+{-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
+-}
+televisionOff : IconShape
+televisionOff =
+    Material.Icons.Directory.T.televisionOff
+
+
 {-| The [`television-pause`](https://pictogrammers.com/library/mdi/icon/television-pause/) icon.
 -}
 televisionPause : IconShape
 televisionPause =
     Material.Icons.Directory.T.televisionPause
-
-
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
--}
-televisionGuide : IconShape
-televisionGuide =
-    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-play`](https://pictogrammers.com/library/mdi/icon/television-play/) icon.
