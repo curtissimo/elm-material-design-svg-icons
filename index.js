@@ -26,6 +26,7 @@ class IconSpecLetterDirectory {
       .map(letter => [letter, new IconSpecLetterDirectory(letter)])
   );
   static basePath = ["Material", "Icons", "Directory"];
+  static basePathPrefix = ["src"];
 
   static register(spec) {
     return IconSpecLetterDirectory.directory.get(spec.elmName[0].toUpperCase())
@@ -96,11 +97,11 @@ lookup${directory._letter} name =
   }
 
   get dir() {
-    return IconSpecLetterDirectory.basePath.join("/");
+    return IconSpecLetterDirectory.basePathPrefix.concat(IconSpecLetterDirectory.basePath).join("/");
   }
 
   get file() {
-    return IconSpecLetterDirectory.basePath.concat([this._letter + ".elm"]).join("/");
+    return this.dir.concat([this._letter + ".elm"]).join("/");
   }
 
   get content() {
@@ -133,6 +134,7 @@ ${lookupLines}
 class IconSpecCategoryDirectory {
   static categories = new Map();
   static basePath = ["Material", "Icons", "Categories"];
+  static basePathPrefix = ["src"];
 
   static register(spec) {
     return spec.categories
@@ -174,11 +176,11 @@ class IconSpecCategoryDirectory {
   }
 
   get dir() {
-    return IconSpecCategoryDirectory.basePath.join("/");
+    return IconSpecCategoryDirectory.basePathPrefix.concat(IconSpecCategoryDirectory.basePath).join("/");
   }
 
   get file() {
-    return this._submoduleName.join("/") + ".elm";
+    return this.dir.concat(this._submoduleName).join("/") + ".elm";
   }
 
   addSpec(spec) {
