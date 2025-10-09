@@ -13,9 +13,9 @@ module Material.Icons.Categories.Clothing exposing
     , hanger
     , hardHat
     , hatFedora
-    , iron
-    , ironBoard
     , ironOutline
+    , ironBoard
+    , iron
     , lingerie
     , necklace
     , shoeBallet
@@ -26,9 +26,9 @@ module Material.Icons.Categories.Clothing exposing
     , sunglasses
     , tie
     , tshirtCrew
-    , tshirtCrewOutline
     , tshirtV
     , tshirtVOutline
+    , tshirtCrewOutline
     , underwearOutline
     , wizardHat
     )
@@ -45,9 +45,9 @@ module Material.Icons.Categories.Clothing exposing
 @docs hanger
 @docs hardHat
 @docs hatFedora
-@docs iron
-@docs ironBoard
 @docs ironOutline
+@docs ironBoard
+@docs iron
 @docs lingerie
 @docs necklace
 @docs shoeBallet
@@ -58,9 +58,9 @@ module Material.Icons.Categories.Clothing exposing
 @docs sunglasses
 @docs tie
 @docs tshirtCrew
-@docs tshirtCrewOutline
 @docs tshirtV
 @docs tshirtVOutline
+@docs tshirtCrewOutline
 @docs underwearOutline
 @docs wizardHat
 
@@ -182,14 +182,14 @@ hatFedora =
     Material.Icons.Directory.H.hatFedora
 
 
-{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
+{-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.
 
-![iron](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZDMTkuMzQgNiAxOCA3LjM0IDE4IDlWMTNDMTggMTMuNTUgMTcuNTUgMTQgMTcgMTRWMTBDMTcgOC4zNCAxNS42NiA3IDE0IDdIMTBDOC4zNCA3IDcgOC4zNCA3IDEwSDlDOSA5LjQ1IDkuNDUgOSAxMCA5SDE0QzE0LjU1IDkgMTUgOS40NSAxNSAxMFYxMUg2QzMuNzkgMTEgMiAxMi43OSAyIDE1VjE4SDE3VjE2QzE4LjY2IDE2IDIwIDE0LjY2IDIwIDEzVjlDMjAgOC40NSAyMC40NSA4IDIxIDhIMjJWNkgyMVoiIC8+PC9zdmc+)
+![iron-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZDMTkuMzQgNiAxOCA3LjM0IDE4IDlWMTNDMTggMTMuNTUgMTcuNTUgMTQgMTcgMTRWMTBDMTcgOC4zNCAxNS42NiA3IDE0IDdIMTBDOC4zNCA3IDcgOC4zNCA3IDEwSDlDOSA5LjQ1IDkuNDUgOSAxMCA5SDE0QzE0LjU1IDkgMTUgOS40NSAxNSAxMFYxMUg2QzMuNzkgMTEgMiAxMi43OSAyIDE1VjE4SDE3VjE2QzE4LjY2IDE2IDIwIDE0LjY2IDIwIDEzVjlDMjAgOC40NSAyMC40NSA4IDIxIDhIMjJWNkgyMU0xNSAxNkg0VjE1QzQgMTMuOSA0LjkgMTMgNiAxM0gxNVYxNloiIC8+PC9zdmc+)
 
 -}
-iron : IconShape
-iron =
-    Material.Icons.Directory.I.iron
+ironOutline : IconShape
+ironOutline =
+    Material.Icons.Directory.I.ironOutline
 
 
 {-| The [`iron-board`](https://pictogrammers.com/library/mdi/icon/iron-board/) icon.
@@ -202,14 +202,14 @@ ironBoard =
     Material.Icons.Directory.I.ironBoard
 
 
-{-| The [`iron-outline`](https://pictogrammers.com/library/mdi/icon/iron-outline/) icon.
+{-| The [`iron`](https://pictogrammers.com/library/mdi/icon/iron/) icon.
 
-![iron-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZDMTkuMzQgNiAxOCA3LjM0IDE4IDlWMTNDMTggMTMuNTUgMTcuNTUgMTQgMTcgMTRWMTBDMTcgOC4zNCAxNS42NiA3IDE0IDdIMTBDOC4zNCA3IDcgOC4zNCA3IDEwSDlDOSA5LjQ1IDkuNDUgOSAxMCA5SDE0QzE0LjU1IDkgMTUgOS40NSAxNSAxMFYxMUg2QzMuNzkgMTEgMiAxMi43OSAyIDE1VjE4SDE3VjE2QzE4LjY2IDE2IDIwIDE0LjY2IDIwIDEzVjlDMjAgOC40NSAyMC40NSA4IDIxIDhIMjJWNkgyMU0xNSAxNkg0VjE1QzQgMTMuOSA0LjkgMTMgNiAxM0gxNVYxNloiIC8+PC9zdmc+)
+![iron](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZDMTkuMzQgNiAxOCA3LjM0IDE4IDlWMTNDMTggMTMuNTUgMTcuNTUgMTQgMTcgMTRWMTBDMTcgOC4zNCAxNS42NiA3IDE0IDdIMTBDOC4zNCA3IDcgOC4zNCA3IDEwSDlDOSA5LjQ1IDkuNDUgOSAxMCA5SDE0QzE0LjU1IDkgMTUgOS40NSAxNSAxMFYxMUg2QzMuNzkgMTEgMiAxMi43OSAyIDE1VjE4SDE3VjE2QzE4LjY2IDE2IDIwIDE0LjY2IDIwIDEzVjlDMjAgOC40NSAyMC40NSA4IDIxIDhIMjJWNkgyMVoiIC8+PC9zdmc+)
 
 -}
-ironOutline : IconShape
-ironOutline =
-    Material.Icons.Directory.I.ironOutline
+iron : IconShape
+iron =
+    Material.Icons.Directory.I.iron
 
 
 {-| The [`lingerie`](https://pictogrammers.com/library/mdi/icon/lingerie/) icon.
@@ -312,16 +312,6 @@ tshirtCrew =
     Material.Icons.Directory.T.tshirtCrew
 
 
-{-| The [`tshirt-crew-outline`](https://pictogrammers.com/library/mdi/icon/tshirt-crew-outline/) icon.
-
-![tshirt-crew-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDIxSDhBMSwxIDAgMCwxIDcsMjBWMTIuMDdMNS43LDEzLjEyQzUuMzEsMTMuNSA0LjY4LDEzLjUgNC4yOSwxMy4xMkwxLjQ2LDEwLjI5QzEuMDcsOS45IDEuMDcsOS4yNyAxLjQ2LDguODhMNy4zNCwzSDlDOSw0LjEgMTAuMzQsNSAxMiw1QzEzLjY2LDUgMTUsNC4xIDE1LDNIMTYuNjZMMjIuNTQsOC44OEMyMi45Myw5LjI3IDIyLjkzLDkuOSAyMi41NCwxMC4yOUwxOS43MSwxMy4xMkMxOS4zMiwxMy41IDE4LjY5LDEzLjUgMTguMywxMy4xMkwxNywxMi4wN1YyMEExLDEgMCAwLDEgMTYsMjFNMjAuNDIsOS41OEwxNi4xMSw1LjI4QzE1LjgsNS42MyAxNS40Myw1Ljk0IDE1LDYuMkMxNC4xNiw2LjcgMTMuMTMsNyAxMiw3QzEwLjMsNyA4Ljc5LDYuMzIgNy44OSw1LjI4TDMuNTgsOS41OEw1LDExTDgsOUg5VjE5SDE1VjlIMTZMMTksMTFMMjAuNDIsOS41OFoiIC8+PC9zdmc+)
-
--}
-tshirtCrewOutline : IconShape
-tshirtCrewOutline =
-    Material.Icons.Directory.T.tshirtCrewOutline
-
-
 {-| The [`tshirt-v`](https://pictogrammers.com/library/mdi/icon/tshirt-v/) icon.
 
 ![tshirt-v](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDIxSDhBMSwxIDAgMCwxIDcsMjBWMTIuMDdMNS43LDEzLjA3QzUuMzEsMTMuNDYgNC42OCwxMy40NiA0LjI5LDEzLjA3TDEuNDYsMTAuMjlDMS4wNyw5LjkgMS4wNyw5LjI3IDEuNDYsOC44OEw3LjM0LDNIOUM5LjI5LDQuOCAxMC40LDYuMzcgMTIsNy4yNUMxMy42LDYuMzcgMTQuNzEsNC44IDE1LDNIMTYuNjZMMjIuNTQsOC44OEMyMi45Myw5LjI3IDIyLjkzLDkuOSAyMi41NCwxMC4yOUwxOS43MSwxMy4xMkMxOS4zMiwxMy41IDE4LjY5LDEzLjUgMTguMywxMy4xMkwxNywxMi4xMlYyMEExLDEgMCAwLDEgMTYsMjEiIC8+PC9zdmc+)
@@ -340,6 +330,16 @@ tshirtV =
 tshirtVOutline : IconShape
 tshirtVOutline =
     Material.Icons.Directory.T.tshirtVOutline
+
+
+{-| The [`tshirt-crew-outline`](https://pictogrammers.com/library/mdi/icon/tshirt-crew-outline/) icon.
+
+![tshirt-crew-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDIxSDhBMSwxIDAgMCwxIDcsMjBWMTIuMDdMNS43LDEzLjEyQzUuMzEsMTMuNSA0LjY4LDEzLjUgNC4yOSwxMy4xMkwxLjQ2LDEwLjI5QzEuMDcsOS45IDEuMDcsOS4yNyAxLjQ2LDguODhMNy4zNCwzSDlDOSw0LjEgMTAuMzQsNSAxMiw1QzEzLjY2LDUgMTUsNC4xIDE1LDNIMTYuNjZMMjIuNTQsOC44OEMyMi45Myw5LjI3IDIyLjkzLDkuOSAyMi41NCwxMC4yOUwxOS43MSwxMy4xMkMxOS4zMiwxMy41IDE4LjY5LDEzLjUgMTguMywxMy4xMkwxNywxMi4wN1YyMEExLDEgMCAwLDEgMTYsMjFNMjAuNDIsOS41OEwxNi4xMSw1LjI4QzE1LjgsNS42MyAxNS40Myw1Ljk0IDE1LDYuMkMxNC4xNiw2LjcgMTMuMTMsNyAxMiw3QzEwLjMsNyA4Ljc5LDYuMzIgNy44OSw1LjI4TDMuNTgsOS41OEw1LDExTDgsOUg5VjE5SDE1VjlIMTZMMTksMTFMMjAuNDIsOS41OFoiIC8+PC9zdmc+)
+
+-}
+tshirtCrewOutline : IconShape
+tshirtCrewOutline =
+    Material.Icons.Directory.T.tshirtCrewOutline
 
 
 {-| The [`underwear-outline`](https://pictogrammers.com/library/mdi/icon/underwear-outline/) icon.

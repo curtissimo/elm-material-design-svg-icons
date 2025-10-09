@@ -20,8 +20,8 @@ module Material.Icons.Categories.Animal exposing
     , dog
     , dogService
     , dogSide
-    , dogSideOff
     , dolphin
+    , dogSideOff
     , donkey
     , duck
     , elephant
@@ -85,8 +85,8 @@ module Material.Icons.Categories.Animal exposing
 @docs dog
 @docs dogService
 @docs dogSide
-@docs dogSideOff
 @docs dolphin
+@docs dogSideOff
 @docs donkey
 @docs duck
 @docs elephant
@@ -319,16 +319,6 @@ dogSide =
     Material.Icons.Directory.D.dogSide
 
 
-{-| The [`dog-side-off`](https://pictogrammers.com/library/mdi/icon/dog-side-off/) icon.
-
-![dog-side-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEwTDE1IDdMMTkgM1Y1TDIyIDhMMjAgMTBMMTkgOUwxOCAxME0xNyAxMUwxNCA4TDEzIDlIMTIuMkwxNyAxMy44VjExTTIuMzkgMS43M0wxLjExIDNMNy4xMSA5SDVMMyA3TDIgOEw1IDExVjE0TDQgMTVWMjFINlYxOEw4IDE1SDEzLjExTDE1IDE2Ljg5VjIxSDE3VjE4Ljg5TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TDIuMzkgMS43M1oiIC8+PC9zdmc+)
-
--}
-dogSideOff : IconShape
-dogSideOff =
-    Material.Icons.Directory.D.dogSideOff
-
-
 {-| The [`dolphin`](https://pictogrammers.com/library/mdi/icon/dolphin/) icon.
 
 ![dolphin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDdDMjAgNyAyMCAzIDE1IDNDMTMuNDcgMyAxMi4xNSAzLjE5IDExIDMuNUMxMC41IDMuMDYgNy4yNiAuMzA5IDQgMy41N0w2LjU2IDYuMTNDMi41IDEwLjUzIDQgMTggNCAxOFMxIDE4IDEgMjJDMSAyMiA1IDIxIDUgMjFDNSAyMSA5IDIyIDkgMjJDOSAxOCA2IDE4IDYgMThTNi44NSAxMi4yNCAxMyAxMS4xOFYxNEMxNSAxNCAxNS42OCAxMi4xOSAxNS44OSAxMUgxOEMyMiAxMSAyMyAxMCAyMyA5UzIxIDcgMjAgN00xOCA4QzE3LjQ1IDggMTcgNy41NSAxNyA3UzE3LjQ1IDYgMTggNiAxOSA2LjQ1IDE5IDcgMTguNTUgOCAxOCA4WiIgLz48L3N2Zz4=)
@@ -337,6 +327,16 @@ dogSideOff =
 dolphin : IconShape
 dolphin =
     Material.Icons.Directory.D.dolphin
+
+
+{-| The [`dog-side-off`](https://pictogrammers.com/library/mdi/icon/dog-side-off/) icon.
+
+![dog-side-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEwTDE1IDdMMTkgM1Y1TDIyIDhMMjAgMTBMMTkgOUwxOCAxME0xNyAxMUwxNCA4TDEzIDlIMTIuMkwxNyAxMy44VjExTTIuMzkgMS43M0wxLjExIDNMNy4xMSA5SDVMMyA3TDIgOEw1IDExVjE0TDQgMTVWMjFINlYxOEw4IDE1SDEzLjExTDE1IDE2Ljg5VjIxSDE3VjE4Ljg5TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TDIuMzkgMS43M1oiIC8+PC9zdmc+)
+
+-}
+dogSideOff : IconShape
+dogSideOff =
+    Material.Icons.Directory.D.dogSideOff
 
 
 {-| The [`donkey`](https://pictogrammers.com/library/mdi/icon/donkey/) icon.

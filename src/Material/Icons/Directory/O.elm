@@ -76,18 +76,18 @@ ocarina =
     iconShape "M20,12C16.8,10.4 13.4,9.7 10.8,9.3L9.7,5.9C9.3,4.8 7.7,4.8 7.3,5.9L6.3,9C3.9,9.4 2,11.5 2,14C2,16.8 4.2,19 7,19C7,19 14,19 20,16C20,16 22,15 22,14C22,13 20,12 20,12M5,14C4.4,14 4,13.6 4,13C4,12.4 4.4,12 5,12C5.6,12 6,12.4 6,13C6,13.5 5.6,14 5,14M7,17C6.4,17 6,16.6 6,16C6,15.4 6.4,15 7,15C7.6,15 8,15.4 8,16C8,16.5 7.6,17 7,17M9,14C8.4,14 8,13.6 8,13C8,12.4 8.4,12 9,12C9.6,12 10,12.4 10,13C10,13.5 9.6,14 9,14M11,17C10.4,17 10,16.6 10,16C10,15.4 10.4,15 11,15C11.6,15 12,15.4 12,16C12,16.5 11.6,17 11,17M16,14C15.4,14 15,13.6 15,13C15,12.4 15.4,12 16,12C16.6,12 17,12.4 17,13C17,13.5 16.6,14 16,14M19,15C18.4,15 18,14.6 18,14C18,13.4 18.4,13 19,13C19.6,13 20,13.4 20,14C20,14.5 19.6,15 19,15Z"
 
 
-{-| The [`ocr`](https://pictogrammers.com/library/mdi/icon/ocr/) icon.
--}
-ocr : IconShape
-ocr =
-    iconShape "M2 5V19H14V17H12C10.89 17 10 16.11 10 15V9C10 7.89 10.89 7 12 7H14V5M14 7V9H16V7M14 9H12V15H14M14 15V17H16V15M5 7H7C8.11 7 9 7.89 9 9V15C9 16.11 8.11 17 7 17H5C3.89 17 3 16.11 3 15V9C3 7.89 3.89 7 5 7M17 7V17H19V13H20V14H21V17H23V14H22V12H23V8H22V7M5 9V15H7V9M19 9H21V11H19Z"
-
-
 {-| The [`octagon`](https://pictogrammers.com/library/mdi/icon/octagon/) icon.
 -}
 octagon : IconShape
 octagon =
     iconShape "M15.73,3H8.27L3,8.27V15.73L8.27,21H15.73L21,15.73V8.27"
+
+
+{-| The [`ocr`](https://pictogrammers.com/library/mdi/icon/ocr/) icon.
+-}
+ocr : IconShape
+ocr =
+    iconShape "M2 5V19H14V17H12C10.89 17 10 16.11 10 15V9C10 7.89 10.89 7 12 7H14V5M14 7V9H16V7M14 9H12V15H14M14 15V17H16V15M5 7H7C8.11 7 9 7.89 9 9V15C9 16.11 8.11 17 7 17H5C3.89 17 3 16.11 3 15V9C3 7.89 3.89 7 5 7M17 7V17H19V13H20V14H21V17H23V14H22V12H23V8H22V7M5 9V15H7V9M19 9H21V11H19Z"
 
 
 {-| The [`octagon-outline`](https://pictogrammers.com/library/mdi/icon/octagon-outline/) icon.
@@ -160,13 +160,6 @@ octahedron =
     iconShape "M21.7 11.29H21.71L12.71 2.29C12.5 2.1 12.26 2 12 2C11.74 2 11.5 2.1 11.29 2.29L2.29 11.29H2.3C1.91 11.68 1.91 12.32 2.3 12.71H2.29L11.29 21.71C11.5 21.9 11.74 22 12 22C12.26 22 12.5 21.9 12.71 21.71L21.71 12.71H21.7C22.09 12.32 22.09 11.68 21.7 11.29M13 8.28V5.41L17.3 9.71L13 8.28M11 8.28L6.7 9.71L11 5.41V8.28M12 10.05L17.84 12L12 13.95L6.16 12L12 10.05M11 15.72V18.59L6.7 14.29L11 15.72M13 15.72L17.3 14.29L13 18.59V15.72Z"
 
 
-{-| The [`octahedron-off`](https://pictogrammers.com/library/mdi/icon/octahedron-off/) icon.
--}
-octahedronOff : IconShape
-octahedronOff =
-    iconShape "M11 5.41V7.8L13.88 10.68L17.84 12L15.86 12.66L18.81 15.61L21.71 12.71H21.7C22.09 12.32 22.09 11.68 21.7 11.29H21.71L12.71 2.29C12.5 2.1 12.26 2 12 2S11.5 2.1 11.29 2.29L8.39 5.19L9.81 6.61L11 5.41M13 5.41L17.3 9.71L13 8.28V5.41M2.39 1.73L1.11 3L5.85 7.74L2.29 11.29H2.3C1.91 11.68 1.91 12.32 2.3 12.71H2.29L11.29 21.71C11.5 21.9 11.74 22 12 22S12.5 21.9 12.71 21.71L16.26 18.15L20.84 22.73L22.11 21.46L2.39 1.73M7.26 9.15L7.54 9.43L6.7 9.71L7.26 9.15M11 18.59L6.7 14.29L11 15.72V18.59M12 13.95L6.16 12L9.12 11L12.04 13.93L12 13.95M13 18.59V15.72L13.62 15.5L14.85 16.74L13 18.59Z"
-
-
 {-| The [`offer`](https://pictogrammers.com/library/mdi/icon/offer/) icon.
 -}
 offer : IconShape
@@ -179,6 +172,13 @@ offer =
 officeBuilding : IconShape
 officeBuilding =
     iconShape "M5,3V21H11V17.5H13V21H19V3H5M7,5H9V7H7V5M11,5H13V7H11V5M15,5H17V7H15V5M7,9H9V11H7V9M11,9H13V11H11V9M15,9H17V11H15V9M7,13H9V15H7V13M11,13H13V15H11V13M15,13H17V15H15V13M7,17H9V19H7V17M15,17H17V19H15V17Z"
+
+
+{-| The [`octahedron-off`](https://pictogrammers.com/library/mdi/icon/octahedron-off/) icon.
+-}
+octahedronOff : IconShape
+octahedronOff =
+    iconShape "M11 5.41V7.8L13.88 10.68L17.84 12L15.86 12.66L18.81 15.61L21.71 12.71H21.7C22.09 12.32 22.09 11.68 21.7 11.29H21.71L12.71 2.29C12.5 2.1 12.26 2 12 2S11.5 2.1 11.29 2.29L8.39 5.19L9.81 6.61L11 5.41M13 5.41L17.3 9.71L13 8.28V5.41M2.39 1.73L1.11 3L5.85 7.74L2.29 11.29H2.3C1.91 11.68 1.91 12.32 2.3 12.71H2.29L11.29 21.71C11.5 21.9 11.74 22 12 22S12.5 21.9 12.71 21.71L16.26 18.15L20.84 22.73L22.11 21.46L2.39 1.73M7.26 9.15L7.54 9.43L6.7 9.71L7.26 9.15M11 18.59L6.7 14.29L11 15.72V18.59M12 13.95L6.16 12L9.12 11L12.04 13.93L12 13.95M13 18.59V15.72L13.62 15.5L14.85 16.74L13 18.59Z"
 
 
 {-| The [`office-building-cog`](https://pictogrammers.com/library/mdi/icon/office-building-cog/) icon.
@@ -314,18 +314,18 @@ opacity =
     iconShape "M17.66,8L12,2.35L6.34,8C4.78,9.56 4,11.64 4,13.64C4,15.64 4.78,17.75 6.34,19.31C7.9,20.87 9.95,21.66 12,21.66C14.05,21.66 16.1,20.87 17.66,19.31C19.22,17.75 20,15.64 20,13.64C20,11.64 19.22,9.56 17.66,8M6,14C6,12 6.62,10.73 7.76,9.6L12,5.27L16.24,9.65C17.38,10.77 18,12 18,14H6Z"
 
 
-{-| The [`open-in-app`](https://pictogrammers.com/library/mdi/icon/open-in-app/) icon.
--}
-openInApp : IconShape
-openInApp =
-    iconShape "M12,10L8,14H11V20H13V14H16M19,4H5C3.89,4 3,4.9 3,6V18A2,2 0 0,0 5,20H9V18H5V8H19V18H15V20H19A2,2 0 0,0 21,18V6A2,2 0 0,0 19,4Z"
-
-
 {-| The [`open-in-new`](https://pictogrammers.com/library/mdi/icon/open-in-new/) icon.
 -}
 openInNew : IconShape
 openInNew =
     iconShape "M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+
+
+{-| The [`open-in-app`](https://pictogrammers.com/library/mdi/icon/open-in-app/) icon.
+-}
+openInApp : IconShape
+openInApp =
+    iconShape "M12,10L8,14H11V20H13V14H16M19,4H5C3.89,4 3,4.9 3,6V18A2,2 0 0,0 5,20H9V18H5V8H19V18H15V20H19A2,2 0 0,0 21,18V6A2,2 0 0,0 19,4Z"
 
 
 {-| The [`orbit`](https://pictogrammers.com/library/mdi/icon/orbit/) icon.
@@ -342,13 +342,6 @@ orbitVariant =
     iconShape "M19 8L15 12H18C18 15.31 15.31 18 12 18C11 18 10.03 17.75 9.2 17.3L7.74 18.76C8.97 19.54 10.43 20 12 20C16.42 20 20 16.42 20 12H23M6 12C6 8.69 8.69 6 12 6C13 6 13.97 6.25 14.8 6.7L16.26 5.24C15.03 4.46 13.57 4 12 4C7.58 4 4 7.58 4 12H1L5 16L9 12M14 12C14 13.11 13.11 14 12 14S10 13.11 10 12 10.9 10 12 10 14 10.9 14 12Z"
 
 
-{-| The [`order-alphabetical-ascending`](https://pictogrammers.com/library/mdi/icon/order-alphabetical-ascending/) icon.
--}
-orderAlphabeticalAscending : IconShape
-orderAlphabeticalAscending =
-    iconShape "M12 5H22V7H12M12 19V17H22V19M12 11H22V13H12M9 13V15L5.67 19H9V21H3V19L6.33 15H3V13M7 3H5C3.9 3 3 3.9 3 5V11H5V9H7V11H9V5C9 3.9 8.11 3 7 3M7 7H5V5H7Z"
-
-
 {-| The [`order-alphabetical-descending`](https://pictogrammers.com/library/mdi/icon/order-alphabetical-descending/) icon.
 -}
 orderAlphabeticalDescending : IconShape
@@ -361,6 +354,13 @@ orderAlphabeticalDescending =
 orderBoolAscending : IconShape
 orderBoolAscending =
     iconShape "M6 3C3.79 3 2 4.79 2 7S3.79 11 6 11 10 9.21 10 7 8.21 3 6 3M6 9C4.9 9 4 8.1 4 7S4.9 5 6 5 8 5.9 8 7 7.1 9 6 9M6 13C3.79 13 2 14.79 2 17S3.79 21 6 21 10 19.21 10 17 8.21 13 6 13M12 5H22V7H12V5M12 19V17H22V19H12M12 11H22V13H12V11Z"
+
+
+{-| The [`order-alphabetical-ascending`](https://pictogrammers.com/library/mdi/icon/order-alphabetical-ascending/) icon.
+-}
+orderAlphabeticalAscending : IconShape
+orderAlphabeticalAscending =
+    iconShape "M12 5H22V7H12M12 19V17H22V19M12 11H22V13H12M9 13V15L5.67 19H9V21H3V19L6.33 15H3V13M7 3H5C3.9 3 3 3.9 3 5V11H5V9H7V11H9V5C9 3.9 8.11 3 7 3M7 7H5V5H7Z"
 
 
 {-| The [`order-bool-ascending-variant`](https://pictogrammers.com/library/mdi/icon/order-bool-ascending-variant/) icon.
@@ -412,13 +412,6 @@ ornamentVariant =
     iconShape "M12,1A3,3 0 0,1 15,4V5A1,1 0 0,1 16,6V7.07C18.39,8.45 20,11.04 20,14A8,8 0 0,1 12,22A8,8 0 0,1 4,14C4,11.04 5.61,8.45 8,7.07V6A1,1 0 0,1 9,5V4A3,3 0 0,1 12,1M12,3A1,1 0 0,0 11,4V5H13V4A1,1 0 0,0 12,3M12,8C10.22,8 8.63,8.77 7.53,10H16.47C15.37,8.77 13.78,8 12,8M12,20C13.78,20 15.37,19.23 16.47,18H7.53C8.63,19.23 10.22,20 12,20M12,12A2,2 0 0,0 10,14A2,2 0 0,0 12,16A2,2 0 0,0 14,14A2,2 0 0,0 12,12M18,14C18,13.31 17.88,12.65 17.67,12C16.72,12.19 16,13 16,14C16,15 16.72,15.81 17.67,15.97C17.88,15.35 18,14.69 18,14M6,14C6,14.69 6.12,15.35 6.33,15.97C7.28,15.81 8,15 8,14C8,13 7.28,12.19 6.33,12C6.12,12.65 6,13.31 6,14Z"
 
 
-{-| The [`outdoor-lamp`](https://pictogrammers.com/library/mdi/icon/outdoor-lamp/) icon.
--}
-outdoorLamp : IconShape
-outdoorLamp =
-    iconShape "M15 22H13C11.9 22 11 21.1 11 20V15H17V20C17 21.1 16.1 22 15 22M7 14H21L15 9.71V6C15 4.39 13.94 2 11 2S7 4.39 7 6C7 6.45 6.81 7 6 7H5V3H3V12H5V9H6C8.2 9 9 7.21 9 6C9 5.67 9.1 4 11 4C12.83 4 13 5.54 13 6V9.71L7 14Z"
-
-
 {-| The [`overscan`](https://pictogrammers.com/library/mdi/icon/overscan/) icon.
 -}
 overscan : IconShape
@@ -431,6 +424,13 @@ overscan =
 owl : IconShape
 owl =
     iconShape "M12,16C12.56,16.84 13.31,17.53 14.2,18L12,20.2L9.8,18C10.69,17.53 11.45,16.84 12,16M17,11.2A2,2 0 0,0 15,13.2A2,2 0 0,0 17,15.2A2,2 0 0,0 19,13.2C19,12.09 18.1,11.2 17,11.2M7,11.2A2,2 0 0,0 5,13.2A2,2 0 0,0 7,15.2A2,2 0 0,0 9,13.2C9,12.09 8.1,11.2 7,11.2M17,8.7A4,4 0 0,1 21,12.7A4,4 0 0,1 17,16.7A4,4 0 0,1 13,12.7A4,4 0 0,1 17,8.7M7,8.7A4,4 0 0,1 11,12.7A4,4 0 0,1 7,16.7A4,4 0 0,1 3,12.7A4,4 0 0,1 7,8.7M2.24,1C4,4.7 2.73,7.46 1.55,10.2C1.19,11 1,11.83 1,12.7A6,6 0 0,0 7,18.7C7.21,18.69 7.42,18.68 7.63,18.65L10.59,21.61L12,23L13.41,21.61L16.37,18.65C16.58,18.68 16.79,18.69 17,18.7A6,6 0 0,0 23,12.7C23,11.83 22.81,11 22.45,10.2C21.27,7.46 20,4.7 21.76,1C19.12,3.06 15.36,4.69 12,4.7C8.64,4.69 4.88,3.06 2.24,1Z"
+
+
+{-| The [`outdoor-lamp`](https://pictogrammers.com/library/mdi/icon/outdoor-lamp/) icon.
+-}
+outdoorLamp : IconShape
+outdoorLamp =
+    iconShape "M15 22H13C11.9 22 11 21.1 11 20V15H17V20C17 21.1 16.1 22 15 22M7 14H21L15 9.71V6C15 4.39 13.94 2 11 2S7 4.39 7 6C7 6.45 6.81 7 6 7H5V3H3V12H5V9H6C8.2 9 9 7.21 9 6C9 5.67 9.1 4 11 4C12.83 4 13 5.54 13 6V9.71L7 14Z"
 
 
 {-| Look up an icon (which has the first letter "o") by its name.
@@ -448,11 +448,11 @@ lookup name =
         "ocarina" ->
             Just ocarina
 
-        "ocr" ->
-            Just ocr
-
         "octagon" ->
             Just octagon
+
+        "ocr" ->
+            Just ocr
 
         "octagon-outline" ->
             Just octagonOutline
@@ -484,14 +484,14 @@ lookup name =
         "octahedron" ->
             Just octahedron
 
-        "octahedron-off" ->
-            Just octahedronOff
-
         "offer" ->
             Just offer
 
         "office-building" ->
             Just officeBuilding
+
+        "octahedron-off" ->
+            Just octahedronOff
 
         "office-building-cog" ->
             Just officeBuildingCog
@@ -550,11 +550,11 @@ lookup name =
         "opacity" ->
             Just opacity
 
-        "open-in-app" ->
-            Just openInApp
-
         "open-in-new" ->
             Just openInNew
+
+        "open-in-app" ->
+            Just openInApp
 
         "orbit" ->
             Just orbit
@@ -562,14 +562,14 @@ lookup name =
         "orbit-variant" ->
             Just orbitVariant
 
-        "order-alphabetical-ascending" ->
-            Just orderAlphabeticalAscending
-
         "order-alphabetical-descending" ->
             Just orderAlphabeticalDescending
 
         "order-bool-ascending" ->
             Just orderBoolAscending
+
+        "order-alphabetical-ascending" ->
+            Just orderAlphabeticalAscending
 
         "order-bool-ascending-variant" ->
             Just orderBoolAscendingVariant
@@ -592,14 +592,14 @@ lookup name =
         "ornament-variant" ->
             Just ornamentVariant
 
-        "outdoor-lamp" ->
-            Just outdoorLamp
-
         "overscan" ->
             Just overscan
 
         "owl" ->
             Just owl
+
+        "outdoor-lamp" ->
+            Just outdoorLamp
 
         _ ->
             Nothing

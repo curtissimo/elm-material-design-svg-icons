@@ -6,8 +6,8 @@ module Material.Icons.Categories.Science exposing
     ( atom
     , atomVariant
     , aurora
-    , bacteria
     , bacteriaOutline
+    , bacteria
     , beaker
     , beakerAlert
     , beakerAlertOutline
@@ -16,10 +16,10 @@ module Material.Icons.Categories.Science exposing
     , beakerMinus
     , beakerMinusOutline
     , beakerOutline
-    , beakerPlus
     , beakerPlusOutline
-    , beakerQuestion
+    , beakerPlus
     , beakerQuestionOutline
+    , beakerQuestion
     , beakerRemove
     , beakerRemoveOutline
     , biohazard
@@ -27,8 +27,8 @@ module Material.Icons.Categories.Science exposing
     , bottleTonicOutline
     , dna
     , eyedropper
-    , eyedropperMinus
     , eyedropperOff
+    , eyedropperMinus
     , eyedropperPlus
     , eyedropperRemove
     , eyedropperVariant
@@ -36,8 +36,8 @@ module Material.Icons.Categories.Science exposing
     , flaskEmpty
     , flaskEmptyMinus
     , flaskEmptyMinusOutline
-    , flaskEmptyOutline
     , flaskEmptyPlus
+    , flaskEmptyOutline
     , flaskEmptyPlusOutline
     , flaskEmptyRemove
     , flaskEmptyRemoveOutline
@@ -45,13 +45,13 @@ module Material.Icons.Categories.Science exposing
     , flaskMinusOutline
     , flaskOutline
     , flaskPlus
-    , flaskPlusOutline
     , flaskRemove
+    , flaskPlusOutline
     , flaskRemoveOutline
     , flaskRoundBottom
     , flaskRoundBottomEmpty
-    , flaskRoundBottomEmptyOutline
     , flaskRoundBottomOutline
+    , flaskRoundBottomEmptyOutline
     , microscope
     , molecule
     , moleculeCo
@@ -68,13 +68,13 @@ module Material.Icons.Categories.Science exposing
     , rocketLaunchOutline
     , rocketOutline
     , safetyGoggles
-    , scale
     , scaleBalance
+    , scale
     , scaleOff
     , telescope
     , testTube
-    , testTubeOff
     , testTubeEmpty
+    , testTubeOff
     , virus
     , virusOff
     , virusOffOutline
@@ -86,8 +86,8 @@ module Material.Icons.Categories.Science exposing
 @docs atom
 @docs atomVariant
 @docs aurora
-@docs bacteria
 @docs bacteriaOutline
+@docs bacteria
 @docs beaker
 @docs beakerAlert
 @docs beakerAlertOutline
@@ -96,10 +96,10 @@ module Material.Icons.Categories.Science exposing
 @docs beakerMinus
 @docs beakerMinusOutline
 @docs beakerOutline
-@docs beakerPlus
 @docs beakerPlusOutline
-@docs beakerQuestion
+@docs beakerPlus
 @docs beakerQuestionOutline
+@docs beakerQuestion
 @docs beakerRemove
 @docs beakerRemoveOutline
 @docs biohazard
@@ -107,8 +107,8 @@ module Material.Icons.Categories.Science exposing
 @docs bottleTonicOutline
 @docs dna
 @docs eyedropper
-@docs eyedropperMinus
 @docs eyedropperOff
+@docs eyedropperMinus
 @docs eyedropperPlus
 @docs eyedropperRemove
 @docs eyedropperVariant
@@ -116,8 +116,8 @@ module Material.Icons.Categories.Science exposing
 @docs flaskEmpty
 @docs flaskEmptyMinus
 @docs flaskEmptyMinusOutline
-@docs flaskEmptyOutline
 @docs flaskEmptyPlus
+@docs flaskEmptyOutline
 @docs flaskEmptyPlusOutline
 @docs flaskEmptyRemove
 @docs flaskEmptyRemoveOutline
@@ -125,13 +125,13 @@ module Material.Icons.Categories.Science exposing
 @docs flaskMinusOutline
 @docs flaskOutline
 @docs flaskPlus
-@docs flaskPlusOutline
 @docs flaskRemove
+@docs flaskPlusOutline
 @docs flaskRemoveOutline
 @docs flaskRoundBottom
 @docs flaskRoundBottomEmpty
-@docs flaskRoundBottomEmptyOutline
 @docs flaskRoundBottomOutline
+@docs flaskRoundBottomEmptyOutline
 @docs microscope
 @docs molecule
 @docs moleculeCo
@@ -148,13 +148,13 @@ module Material.Icons.Categories.Science exposing
 @docs rocketLaunchOutline
 @docs rocketOutline
 @docs safetyGoggles
-@docs scale
 @docs scaleBalance
+@docs scale
 @docs scaleOff
 @docs telescope
 @docs testTube
-@docs testTubeOff
 @docs testTubeEmpty
+@docs testTubeOff
 @docs virus
 @docs virusOff
 @docs virusOffOutline
@@ -207,16 +207,6 @@ aurora =
     Material.Icons.Directory.A.aurora
 
 
-{-| The [`bacteria`](https://pictogrammers.com/library/mdi/icon/bacteria/) icon.
-
-![bacteria](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE2QzIxLDE1LjUgMjAuOTUsMTUuMDggMjAuODgsMTQuNjhMMjIuNDUsMTMuOUwyMS41NSwxMi4xTDIwLjE4LDEyLjc5QzE5LjYzLDExLjk2IDE4LjkxLDExLjUgMTguMjksMTEuMjhMMTguOTUsOS4zMkwxNy4wNSw4LjY4TDE2LjI5LDEwLjk2QzE0Ljk2LDEwLjgzIDE0LjE3LDEwLjMyIDEzLjcsOS43N0wxNS40NSw4LjlMMTQuNTUsNy4xTDEzLDcuODlDMTIuOTcsNy41OSAxMi44Niw2LjcyIDEyLjI4LDUuODdMMTMuODMsMy41NUwxMi4xNywyLjQ0TDEwLjc2LDQuNTZDMTAuMjgsNC4zMyA5LjcsNC4xNSA5LDQuMDZWMkg3VjQuMUM2LjI5LDQuMjUgNS43Myw0LjU0IDUuMzIsNC45MUwyLjcsMi4yOUwxLjI5LDMuNzFMNC4yNCw2LjY1QzQsNy4zOSA0LDggNCw4SDJWMTBINC4wNEM0LjEsMTAuNjMgNC4yMSwxMS4zNiA0LjQsMTIuMTVMMS42OCwxMy4wNUwyLjMxLDE0Ljk1TDUsMTQuMDVDNS4yNCwxNC41NiA1LjUsMTUuMDggNS44MiwxNS41OEwzLjQ0LDE3LjE3TDQuNTUsMTguODNMNy4wNywxNy4xNUM3LjYzLDE3LjcxIDguMjksMTguMjEgOS4wNiwxOC42NEw4LjEsMjAuNTVMOS44OSwyMS40NUwxMC44OSwxOS40NUwxMC43MywxOS4zNkMxMS42OCwxOS42OCAxMi43NiwxOS45IDE0LDE5Ljk3VjIySDE2VjE5LjkzQzE2Ljc2LDE5Ljg0IDE3LjgxLDE5LjY0IDE4Ljc3LDE5LjE5TDIwLjI5LDIwLjcxTDIxLjcsMTkuMjlMMjAuMzcsMTcuOTVDMjAuNzUsMTcuNDQgMjEsMTYuOCAyMSwxNk04LjUsMTFBMS41LDEuNSAwIDAsMSA3LDkuNUExLjUsMS41IDAgMCwxIDguNSw4QTEuNSwxLjUgMCAwLDEgMTAsOS41QTEuNSwxLjUgMCAwLDEgOC41LDExTTExLDE0QTEsMSAwIDAsMSAxMCwxM0ExLDEgMCAwLDEgMTEsMTJBMSwxIDAgMCwxIDEyLDEzQTEsMSAwIDAsMSAxMSwxNE0xNS41LDE3QTEuNSwxLjUgMCAwLDEgMTQsMTUuNUExLjUsMS41IDAgMCwxIDE1LjUsMTRBMS41LDEuNSAwIDAsMSAxNywxNS41QTEuNSwxLjUgMCAwLDEgMTUuNSwxN1oiIC8+PC9zdmc+)
-
--}
-bacteria : IconShape
-bacteria =
-    Material.Icons.Directory.B.bacteria
-
-
 {-| The [`bacteria-outline`](https://pictogrammers.com/library/mdi/icon/bacteria-outline/) icon.
 
 ![bacteria-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMkg3VjQuMUM2LjI5LDQuMjUgNS43Myw0LjU0IDUuMzIsNC45MUwyLjcsMi4yOUwxLjI5LDMuNzFMNC4yNCw2LjY1QzQsNy4zOSA0LDggNCw4SDJWMTBINC4wNEM0LjEsMTAuNjMgNC4yMSwxMS4zNiA0LjQsMTIuMTVMMS42OCwxMy4wNUwyLjMxLDE0Ljk1TDUsMTQuMDVDNS4yNCwxNC41NiA1LjUsMTUuMDggNS44MiwxNS41OEwzLjQ0LDE3LjE3TDQuNTUsMTguODNMNy4wNywxNy4xNUM3LjYzLDE3LjcxIDguMjksMTguMjEgOS4wNiwxOC42NEw4LjEsMjAuNTVMOS44OSwyMS40NUwxMC44OSwxOS40NUwxMC43MywxOS4zNkMxMS42OCwxOS42OCAxMi43NiwxOS45IDE0LDE5Ljk3VjIySDE2VjE5LjkzQzE2Ljc2LDE5Ljg0IDE3LjgxLDE5LjY0IDE4Ljc3LDE5LjE5TDIwLjI5LDIwLjcxTDIxLjcsMTkuMjlMMjAuMzcsMTcuOTVDMjAuNzUsMTcuNDQgMjEsMTYuOCAyMSwxNkMyMSwxNS41IDIwLjk1LDE1LjA4IDIwLjg4LDE0LjY4TDIyLjQ1LDEzLjlMMjEuNTUsMTIuMUwyMC4xOCwxMi43OUMxOS42MywxMS45NiAxOC45MSwxMS41IDE4LjI5LDExLjI4TDE4Ljk1LDkuMzJMMTcuMDUsOC42OEwxNi4yOSwxMC45NkMxNC45NiwxMC44MyAxNC4xNywxMC4zMiAxMy43LDkuNzdMMTUuNDUsOC45TDE0LjU1LDcuMUwxMyw3Ljg5QzEyLjk3LDcuNTkgMTIuODYsNi43MiAxMi4yOCw1Ljg3TDEzLjgzLDMuNTVMMTIuMTcsMi40NEwxMC43Niw0LjU2QzEwLjI4LDQuMzMgOS43LDQuMTUgOSw0LjA2TTE1LDE4QzEyLjA2LDE4IDkuODEsMTcuMTggOC4zMSwxNS41NkM1LjY4LDEyLjcyIDYsOC4yIDYsOC4xN1Y4LjExTDYsOC4wM0M2LDcuMSA2LjM5LDYgOCw2QzEwLjYzLDYgMTAuOTcsNy40MyAxMSw4QzExLDEwIDEyLjYsMTMgMTcsMTNDMTcuMzMsMTMgMTksMTMuMTUgMTksMTZDMTksMTcuODkgMTUuMDMsMTggMTUsMThNOC41LDhBMS41LDEuNSAwIDAsMCA3LDkuNUExLjUsMS41IDAgMCwwIDguNSwxMUExLjUsMS41IDAgMCwwIDEwLDkuNUExLjUsMS41IDAgMCwwIDguNSw4TTExLDEyQTEsMSAwIDAsMCAxMCwxM0ExLDEgMCAwLDAgMTEsMTRBMSwxIDAgMCwwIDEyLDEzQTEsMSAwIDAsMCAxMSwxMk0xNS41LDE0QTEuNSwxLjUgMCAwLDAgMTQsMTUuNUExLjUsMS41IDAgMCwwIDE1LjUsMTdBMS41LDEuNSAwIDAsMCAxNywxNS41QTEuNSwxLjUgMCAwLDAgMTUuNSwxNFoiIC8+PC9zdmc+)
@@ -225,6 +215,16 @@ bacteria =
 bacteriaOutline : IconShape
 bacteriaOutline =
     Material.Icons.Directory.B.bacteriaOutline
+
+
+{-| The [`bacteria`](https://pictogrammers.com/library/mdi/icon/bacteria/) icon.
+
+![bacteria](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE2QzIxLDE1LjUgMjAuOTUsMTUuMDggMjAuODgsMTQuNjhMMjIuNDUsMTMuOUwyMS41NSwxMi4xTDIwLjE4LDEyLjc5QzE5LjYzLDExLjk2IDE4LjkxLDExLjUgMTguMjksMTEuMjhMMTguOTUsOS4zMkwxNy4wNSw4LjY4TDE2LjI5LDEwLjk2QzE0Ljk2LDEwLjgzIDE0LjE3LDEwLjMyIDEzLjcsOS43N0wxNS40NSw4LjlMMTQuNTUsNy4xTDEzLDcuODlDMTIuOTcsNy41OSAxMi44Niw2LjcyIDEyLjI4LDUuODdMMTMuODMsMy41NUwxMi4xNywyLjQ0TDEwLjc2LDQuNTZDMTAuMjgsNC4zMyA5LjcsNC4xNSA5LDQuMDZWMkg3VjQuMUM2LjI5LDQuMjUgNS43Myw0LjU0IDUuMzIsNC45MUwyLjcsMi4yOUwxLjI5LDMuNzFMNC4yNCw2LjY1QzQsNy4zOSA0LDggNCw4SDJWMTBINC4wNEM0LjEsMTAuNjMgNC4yMSwxMS4zNiA0LjQsMTIuMTVMMS42OCwxMy4wNUwyLjMxLDE0Ljk1TDUsMTQuMDVDNS4yNCwxNC41NiA1LjUsMTUuMDggNS44MiwxNS41OEwzLjQ0LDE3LjE3TDQuNTUsMTguODNMNy4wNywxNy4xNUM3LjYzLDE3LjcxIDguMjksMTguMjEgOS4wNiwxOC42NEw4LjEsMjAuNTVMOS44OSwyMS40NUwxMC44OSwxOS40NUwxMC43MywxOS4zNkMxMS42OCwxOS42OCAxMi43NiwxOS45IDE0LDE5Ljk3VjIySDE2VjE5LjkzQzE2Ljc2LDE5Ljg0IDE3LjgxLDE5LjY0IDE4Ljc3LDE5LjE5TDIwLjI5LDIwLjcxTDIxLjcsMTkuMjlMMjAuMzcsMTcuOTVDMjAuNzUsMTcuNDQgMjEsMTYuOCAyMSwxNk04LjUsMTFBMS41LDEuNSAwIDAsMSA3LDkuNUExLjUsMS41IDAgMCwxIDguNSw4QTEuNSwxLjUgMCAwLDEgMTAsOS41QTEuNSwxLjUgMCAwLDEgOC41LDExTTExLDE0QTEsMSAwIDAsMSAxMCwxM0ExLDEgMCAwLDEgMTEsMTJBMSwxIDAgMCwxIDEyLDEzQTEsMSAwIDAsMSAxMSwxNE0xNS41LDE3QTEuNSwxLjUgMCAwLDEgMTQsMTUuNUExLjUsMS41IDAgMCwxIDE1LjUsMTRBMS41LDEuNSAwIDAsMSAxNywxNS41QTEuNSwxLjUgMCAwLDEgMTUuNSwxN1oiIC8+PC9zdmc+)
+
+-}
+bacteria : IconShape
+bacteria =
+    Material.Icons.Directory.B.bacteria
 
 
 {-| The [`beaker`](https://pictogrammers.com/library/mdi/icon/beaker/) icon.
@@ -307,16 +307,6 @@ beakerOutline =
     Material.Icons.Directory.B.beakerOutline
 
 
-{-| The [`beaker-plus`](https://pictogrammers.com/library/mdi/icon/beaker-plus/) icon.
-
-![beaker-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTMgM0gyMVY1QzE5LjkgNSAxOSA1LjkgMTkgN1YxMkMxNS42OSAxMiAxMyAxNC42OSAxMyAxOEMxMyAxOS4wOSAxMy4yOSAyMC4xMiAxMy44IDIxSDdDNS45IDIxIDUgMjAuMSA1IDE5VjdDNSA1LjkgNC4xIDUgMyA1VjNNNyA5VjEwSDEwVjlIN003IDExVjEySDEwVjExSDdNMTAgMTZWMTVIN1YxNkgxME0xMiAxNFYxM0g3VjE0SDEyTTEyIDhWN0g3VjhIMTJaIiAvPjwvc3ZnPg==)
-
--}
-beakerPlus : IconShape
-beakerPlus =
-    Material.Icons.Directory.B.beakerPlus
-
-
 {-| The [`beaker-plus-outline`](https://pictogrammers.com/library/mdi/icon/beaker-plus-outline/) icon.
 
 ![beaker-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTMgM0gyMVY1QzE5LjkgNSAxOSA1LjkgMTkgN1YxMkMxOC4zIDEyIDE3LjYzIDEyLjEyIDE3IDEyLjM0VjVIN1Y3SDEyVjhIN1Y5SDEwVjEwSDdWMTFIMTBWMTJIN1YxM0gxMlYxNEg3VjE1SDEwVjE2SDdWMTlIMTMuMDhDMTMuMiAxOS43MiAxMy40NSAyMC4zOSAxMy44IDIxSDdDNS45IDIxIDUgMjAuMTEgNSAxOVY3QzUgNS45IDQuMTEgNSAzIDVWM1oiIC8+PC9zdmc+)
@@ -327,14 +317,14 @@ beakerPlusOutline =
     Material.Icons.Directory.B.beakerPlusOutline
 
 
-{-| The [`beaker-question`](https://pictogrammers.com/library/mdi/icon/beaker-question/) icon.
+{-| The [`beaker-plus`](https://pictogrammers.com/library/mdi/icon/beaker-plus/) icon.
 
-![beaker-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTAgM0gxOFY1QzE2LjkgNSAxNiA1LjkgMTYgN1YxOUMxNiAyMC4xIDE1LjEgMjEgMTQgMjFINEMyLjkgMjEgMiAyMC4xIDIgMTlWN0MyIDUuOSAxLjEgNSAwIDVWM000IDlWMTBIN1Y5SDRNNCAxMVYxMkg3VjExSDRNNyAxNlYxNUg0VjE2SDdNOSAxNFYxM0g0VjE0SDlNOSA4VjdINFY4SDlNMjEuNSAxNS41VjE3SDIwVjE1LjVIMjEuNU0xOS41IDEwLjVIMThWMTBDMTggOC4zNCAxOS4zNCA3IDIxIDdDMjIuNjYgNyAyNCA4LjM0IDI0IDEwQzI0IDEwLjk3IDIzLjUgMTEuODggMjIuNzEgMTIuNDFMMjIuNDEgMTIuNkMyMS44NCAxMyAyMS41IDEzLjYyIDIxLjUgMTQuM1YxNC41SDIwVjE0LjNDMjAgMTMuMTEgMjAuNiAxMiAyMS41OSAxMS4zNUwyMS44OCAxMS4xNkMyMi4yNyAxMC45IDIyLjUgMTAuNDcgMjIuNSAxMEMyMi41IDkuMTggMjEuODMgOC41IDIxIDguNUMyMC4xNyA4LjUgMTkuNSA5LjE3IDE5LjUgMTBWMTAuNVoiIC8+PC9zdmc+)
+![beaker-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTMgM0gyMVY1QzE5LjkgNSAxOSA1LjkgMTkgN1YxMkMxNS42OSAxMiAxMyAxNC42OSAxMyAxOEMxMyAxOS4wOSAxMy4yOSAyMC4xMiAxMy44IDIxSDdDNS45IDIxIDUgMjAuMSA1IDE5VjdDNSA1LjkgNC4xIDUgMyA1VjNNNyA5VjEwSDEwVjlIN003IDExVjEySDEwVjExSDdNMTAgMTZWMTVIN1YxNkgxME0xMiAxNFYxM0g3VjE0SDEyTTEyIDhWN0g3VjhIMTJaIiAvPjwvc3ZnPg==)
 
 -}
-beakerQuestion : IconShape
-beakerQuestion =
-    Material.Icons.Directory.B.beakerQuestion
+beakerPlus : IconShape
+beakerPlus =
+    Material.Icons.Directory.B.beakerPlus
 
 
 {-| The [`beaker-question-outline`](https://pictogrammers.com/library/mdi/icon/beaker-question-outline/) icon.
@@ -345,6 +335,16 @@ beakerQuestion =
 beakerQuestionOutline : IconShape
 beakerQuestionOutline =
     Material.Icons.Directory.B.beakerQuestionOutline
+
+
+{-| The [`beaker-question`](https://pictogrammers.com/library/mdi/icon/beaker-question/) icon.
+
+![beaker-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTAgM0gxOFY1QzE2LjkgNSAxNiA1LjkgMTYgN1YxOUMxNiAyMC4xIDE1LjEgMjEgMTQgMjFINEMyLjkgMjEgMiAyMC4xIDIgMTlWN0MyIDUuOSAxLjEgNSAwIDVWM000IDlWMTBIN1Y5SDRNNCAxMVYxMkg3VjExSDRNNyAxNlYxNUg0VjE2SDdNOSAxNFYxM0g0VjE0SDlNOSA4VjdINFY4SDlNMjEuNSAxNS41VjE3SDIwVjE1LjVIMjEuNU0xOS41IDEwLjVIMThWMTBDMTggOC4zNCAxOS4zNCA3IDIxIDdDMjIuNjYgNyAyNCA4LjM0IDI0IDEwQzI0IDEwLjk3IDIzLjUgMTEuODggMjIuNzEgMTIuNDFMMjIuNDEgMTIuNkMyMS44NCAxMyAyMS41IDEzLjYyIDIxLjUgMTQuM1YxNC41SDIwVjE0LjNDMjAgMTMuMTEgMjAuNiAxMiAyMS41OSAxMS4zNUwyMS44OCAxMS4xNkMyMi4yNyAxMC45IDIyLjUgMTAuNDcgMjIuNSAxMEMyMi41IDkuMTggMjEuODMgOC41IDIxIDguNUMyMC4xNyA4LjUgMTkuNSA5LjE3IDE5LjUgMTBWMTAuNVoiIC8+PC9zdmc+)
+
+-}
+beakerQuestion : IconShape
+beakerQuestion =
+    Material.Icons.Directory.B.beakerQuestion
 
 
 {-| The [`beaker-remove`](https://pictogrammers.com/library/mdi/icon/beaker-remove/) icon.
@@ -417,16 +417,6 @@ eyedropper =
     Material.Icons.Directory.E.eyedropper
 
 
-{-| The [`eyedropper-minus`](https://pictogrammers.com/library/mdi/icon/eyedropper-minus/) icon.
-
-![eyedropper-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjM1IDExLjcyTDE3LjIyIDEzLjg1TDE1LjgxIDEyLjQzTDguMSAyMC4xNEwzLjUgMjJMMiAyMC41TDMuODYgMTUuOUwxMS41NyA4LjE5TDEwLjE1IDYuNzhMMTIuMjggNC42NUwxOS4zNSAxMS43Mk0xNi43NiAzQzE3LjkzIDEuODMgMTkuODMgMS44MyAyMSAzUzIyLjE3IDYuMDcgMjEgNy4yNEwxOS4wOCA5LjE2TDE0Ljg0IDQuOTJMMTYuNzYgM001LjU2IDE3LjAzTDQuNSAxOS41TDYuOTcgMTguNDRMMTQuNCAxMUwxMyA5LjZMNS41NiAxNy4wM005IDRWNkgxVjRIOVoiIC8+PC9zdmc+)
-
--}
-eyedropperMinus : IconShape
-eyedropperMinus =
-    Material.Icons.Directory.E.eyedropperMinus
-
-
 {-| The [`eyedropper-off`](https://pictogrammers.com/library/mdi/icon/eyedropper-off/) icon.
 
 ![eyedropper-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDcuMjRMMTkuMDggOS4xNkwxNC44NCA0LjkyTDE2Ljc2IDNDMTcuOTMgMS44MyAxOS44MyAxLjgzIDIxIDNTMjIuMTcgNi4wNyAyMSA3LjI0TTEwLjk0IDguODJMMTIuMzYgMTAuMjRMMTMgOS42TDE0LjQgMTFMMTMuNzYgMTEuNjRMMTUuMTggMTMuMDZMMTUuODEgMTIuNDNMMTcuMjIgMTMuODVMMTkuMzUgMTEuNzJMMTIuMjggNC42NUwxMC4xNSA2Ljc4TDExLjU3IDguMTlMMTAuOTQgOC44Mk0xOS44NiAyMC4yOUwxOC41OCAyMS41N0wxMi42MyAxNS42MUw4LjEgMjAuMTRMMy41IDIyTDIgMjAuNUwzLjg2IDE1LjlMOC4zOSAxMS4zN0wxLjg2IDQuODVMMy4xNCAzLjU3TDE5Ljg2IDIwLjI5TTExLjIxIDE0LjJMOS44MSAxMi43OUw1LjU2IDE3LjAzTDQuNSAxOS41TDYuOTcgMTguNDRMMTEuMjEgMTQuMloiIC8+PC9zdmc+)
@@ -435,6 +425,16 @@ eyedropperMinus =
 eyedropperOff : IconShape
 eyedropperOff =
     Material.Icons.Directory.E.eyedropperOff
+
+
+{-| The [`eyedropper-minus`](https://pictogrammers.com/library/mdi/icon/eyedropper-minus/) icon.
+
+![eyedropper-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjM1IDExLjcyTDE3LjIyIDEzLjg1TDE1LjgxIDEyLjQzTDguMSAyMC4xNEwzLjUgMjJMMiAyMC41TDMuODYgMTUuOUwxMS41NyA4LjE5TDEwLjE1IDYuNzhMMTIuMjggNC42NUwxOS4zNSAxMS43Mk0xNi43NiAzQzE3LjkzIDEuODMgMTkuODMgMS44MyAyMSAzUzIyLjE3IDYuMDcgMjEgNy4yNEwxOS4wOCA5LjE2TDE0Ljg0IDQuOTJMMTYuNzYgM001LjU2IDE3LjAzTDQuNSAxOS41TDYuOTcgMTguNDRMMTQuNCAxMUwxMyA5LjZMNS41NiAxNy4wM005IDRWNkgxVjRIOVoiIC8+PC9zdmc+)
+
+-}
+eyedropperMinus : IconShape
+eyedropperMinus =
+    Material.Icons.Directory.E.eyedropperMinus
 
 
 {-| The [`eyedropper-plus`](https://pictogrammers.com/library/mdi/icon/eyedropper-plus/) icon.
@@ -507,16 +507,6 @@ flaskEmptyMinusOutline =
     Material.Icons.Directory.F.flaskEmptyMinusOutline
 
 
-{-| The [`flask-empty-outline`](https://pictogrammers.com/library/mdi/icon/flask-empty-outline/) icon.
-
-![flask-empty-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTlBMSwxIDAgMCwwIDYsMjBIMThBMSwxIDAgMCwwIDE5LDE5QzE5LDE4Ljc5IDE4LjkzLDE4LjU5IDE4LjgyLDE4LjQzTDEzLDguMzVWNEgxMVY4LjM1TDUuMTgsMTguNDNDNS4wNywxOC41OSA1LDE4Ljc5IDUsMTlNNiwyMkEzLDMgMCAwLDEgMywxOUMzLDE4LjQgMy4xOCwxNy44NCAzLjUsMTcuMzdMOSw3LjgxVjZBMSwxIDAgMCwxIDgsNVY0QTIsMiAwIDAsMSAxMCwySDE0QTIsMiAwIDAsMSAxNiw0VjVBMSwxIDAgMCwxIDE1LDZWNy44MUwyMC41LDE3LjM3QzIwLjgyLDE3Ljg0IDIxLDE4LjQgMjEsMTlBMywzIDAgMCwxIDE4LDIySDZaIiAvPjwvc3ZnPg==)
-
--}
-flaskEmptyOutline : IconShape
-flaskEmptyOutline =
-    Material.Icons.Directory.F.flaskEmptyOutline
-
-
 {-| The [`flask-empty-plus`](https://pictogrammers.com/library/mdi/icon/flask-empty-plus/) icon.
 
 ![flask-empty-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTYgMjJDNC4zNCAyMiAzIDIwLjY2IDMgMTlDMyAxOC40IDMuMTggMTcuODQgMy41IDE3LjM2TDkgNy44MVY2QzguNDUgNiA4IDUuNTUgOCA1VjRDOCAyLjkgOC45IDIgMTAgMkgxNEMxNS4xMSAyIDE2IDIuOSAxNiA0VjVDMTYgNS41NSAxNS41NSA2IDE1IDZWNy44MUwxNy41IDEyLjE4QzE0LjkyIDEyLjg0IDEzIDE1LjIgMTMgMThDMTMgMTkuNTQgMTMuNTggMjAuOTQgMTQuNTMgMjJINloiIC8+PC9zdmc+)
@@ -525,6 +515,16 @@ flaskEmptyOutline =
 flaskEmptyPlus : IconShape
 flaskEmptyPlus =
     Material.Icons.Directory.F.flaskEmptyPlus
+
+
+{-| The [`flask-empty-outline`](https://pictogrammers.com/library/mdi/icon/flask-empty-outline/) icon.
+
+![flask-empty-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTlBMSwxIDAgMCwwIDYsMjBIMThBMSwxIDAgMCwwIDE5LDE5QzE5LDE4Ljc5IDE4LjkzLDE4LjU5IDE4LjgyLDE4LjQzTDEzLDguMzVWNEgxMVY4LjM1TDUuMTgsMTguNDNDNS4wNywxOC41OSA1LDE4Ljc5IDUsMTlNNiwyMkEzLDMgMCAwLDEgMywxOUMzLDE4LjQgMy4xOCwxNy44NCAzLjUsMTcuMzdMOSw3LjgxVjZBMSwxIDAgMCwxIDgsNVY0QTIsMiAwIDAsMSAxMCwySDE0QTIsMiAwIDAsMSAxNiw0VjVBMSwxIDAgMCwxIDE1LDZWNy44MUwyMC41LDE3LjM3QzIwLjgyLDE3Ljg0IDIxLDE4LjQgMjEsMTlBMywzIDAgMCwxIDE4LDIySDZaIiAvPjwvc3ZnPg==)
+
+-}
+flaskEmptyOutline : IconShape
+flaskEmptyOutline =
+    Material.Icons.Directory.F.flaskEmptyOutline
 
 
 {-| The [`flask-empty-plus-outline`](https://pictogrammers.com/library/mdi/icon/flask-empty-plus-outline/) icon.
@@ -597,16 +597,6 @@ flaskPlus =
     Material.Icons.Directory.F.flaskPlus
 
 
-{-| The [`flask-plus-outline`](https://pictogrammers.com/library/mdi/icon/flask-plus-outline/) icon.
-
-![flask-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTUgMTlDNSAxOS41NSA1LjQ1IDIwIDYgMjBIMTMuMzRDMTMuNjEgMjAuNzUgMTQgMjEuNDIgMTQuNTMgMjJINkM0LjM0IDIyIDMgMjAuNjYgMyAxOUMzIDE4LjQgMy4xOCAxNy44NCAzLjUgMTcuMzZMOSA3LjgxVjZDOC40NSA2IDggNS41NSA4IDVWNEM4IDIuOSA4LjkgMiAxMCAySDE0QzE1LjExIDIgMTYgMi45IDE2IDRWNUMxNiA1LjU1IDE1LjU1IDYgMTUgNlY3LjgxTDE3LjUgMTIuMThDMTYuODYgMTIuMzUgMTYuMjQgMTIuNjMgMTUuNjkgMTNMMTMgOC4zNVY0SDExVjguMzVMNS4xOCAxOC40M0M1LjA3IDE4LjU5IDUgMTguNzkgNSAxOU0xMyAxNkwxMy41OCAxNS40MkMxMy4yMSAxNi4yIDEzIDE3LjA4IDEzIDE4SDcuNzNMMTAuMzkgMTMuMzlMMTMgMTZNMTIuNSAxMkMxMi43OCAxMiAxMyAxMi4yMiAxMyAxMi41QzEzIDEyLjc4IDEyLjc4IDEzIDEyLjUgMTNDMTIuMjIgMTMgMTIgMTIuNzggMTIgMTIuNUMxMiAxMi4yMiAxMi4yMiAxMiAxMi41IDEyWiIgLz48L3N2Zz4=)
-
--}
-flaskPlusOutline : IconShape
-flaskPlusOutline =
-    Material.Icons.Directory.F.flaskPlusOutline
-
-
 {-| The [`flask-remove`](https://pictogrammers.com/library/mdi/icon/flask-remove/) icon.
 
 ![flask-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjQ2IDE1Ljg4TDE2Ljg4IDE0LjQ2TDE5IDE2LjU5TDIxLjEyIDE0LjQ3TDIyLjUzIDE1Ljg4TDIwLjQxIDE4TDIyLjU0IDIwLjEyTDIxLjEyIDIxLjU0TDE5IDE5LjQxTDE2Ljg4IDIxLjUzTDE1LjQ3IDIwLjEyTDE3LjU5IDE4TDE1LjQ2IDE1Ljg4TTYgMjJDNC4zNCAyMiAzIDIwLjY2IDMgMTlDMyAxOC40IDMuMTggMTcuODQgMy41IDE3LjM2TDkgNy44MVY2QzguNDUgNiA4IDUuNTUgOCA1VjRDOCAyLjkgOC45IDIgMTAgMkgxNEMxNS4xMSAyIDE2IDIuOSAxNiA0VjVDMTYgNS41NSAxNS41NSA2IDE1IDZWNy44MUwxNy41IDEyLjE4QzE1LjUgMTIuNyAxMy44NiAxNC4yNiAxMy4yNiAxNi4yNkw4LjkzIDExLjkzTDUuMTggMTguNDNDNS4wNyAxOC41OSA1IDE4Ljc5IDUgMTlDNSAxOS41NSA1LjQ1IDIwIDYgMjBIMTMuMzRDMTMuNjEgMjAuNzUgMTQgMjEuNDIgMTQuNTMgMjJINk0xMyAxMEMxMi40NSAxMCAxMiAxMC40NSAxMiAxMUMxMiAxMS41NSAxMi40NSAxMiAxMyAxMkMxMy41NSAxMiAxNCAxMS41NSAxNCAxMUMxNCAxMC40NSAxMy41NSAxMCAxMyAxMFoiIC8+PC9zdmc+)
@@ -615,6 +605,16 @@ flaskPlusOutline =
 flaskRemove : IconShape
 flaskRemove =
     Material.Icons.Directory.F.flaskRemove
+
+
+{-| The [`flask-plus-outline`](https://pictogrammers.com/library/mdi/icon/flask-plus-outline/) icon.
+
+![flask-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0SDIwVjE3SDIzVjE5SDIwVjIySDE4VjE5SDE1VjE3SDE4VjE0TTUgMTlDNSAxOS41NSA1LjQ1IDIwIDYgMjBIMTMuMzRDMTMuNjEgMjAuNzUgMTQgMjEuNDIgMTQuNTMgMjJINkM0LjM0IDIyIDMgMjAuNjYgMyAxOUMzIDE4LjQgMy4xOCAxNy44NCAzLjUgMTcuMzZMOSA3LjgxVjZDOC40NSA2IDggNS41NSA4IDVWNEM4IDIuOSA4LjkgMiAxMCAySDE0QzE1LjExIDIgMTYgMi45IDE2IDRWNUMxNiA1LjU1IDE1LjU1IDYgMTUgNlY3LjgxTDE3LjUgMTIuMThDMTYuODYgMTIuMzUgMTYuMjQgMTIuNjMgMTUuNjkgMTNMMTMgOC4zNVY0SDExVjguMzVMNS4xOCAxOC40M0M1LjA3IDE4LjU5IDUgMTguNzkgNSAxOU0xMyAxNkwxMy41OCAxNS40MkMxMy4yMSAxNi4yIDEzIDE3LjA4IDEzIDE4SDcuNzNMMTAuMzkgMTMuMzlMMTMgMTZNMTIuNSAxMkMxMi43OCAxMiAxMyAxMi4yMiAxMyAxMi41QzEzIDEyLjc4IDEyLjc4IDEzIDEyLjUgMTNDMTIuMjIgMTMgMTIgMTIuNzggMTIgMTIuNUMxMiAxMi4yMiAxMi4yMiAxMiAxMi41IDEyWiIgLz48L3N2Zz4=)
+
+-}
+flaskPlusOutline : IconShape
+flaskPlusOutline =
+    Material.Icons.Directory.F.flaskPlusOutline
 
 
 {-| The [`flask-remove-outline`](https://pictogrammers.com/library/mdi/icon/flask-remove-outline/) icon.
@@ -647,16 +647,6 @@ flaskRoundBottomEmpty =
     Material.Icons.Directory.F.flaskRoundBottomEmpty
 
 
-{-| The [`flask-round-bottom-empty-outline`](https://pictogrammers.com/library/mdi/icon/flask-round-bottom-empty-outline/) icon.
-
-![flask-round-bottom-empty-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE1QzE5IDE4Ljg3IDE1Ljg3IDIyIDEyIDIyQzguMTMgMjIgNSAxOC44NyA1IDE1QzUgMTIuMjEgNi42NCA5LjggOSA4LjY3VjVDOSA0LjQ1IDkuNDUgNCAxMCA0SDEwLjVMOS41IDJIMTQuNUwxMy41IDRIMTRDMTQuNTUgNCAxNSA0LjQ1IDE1IDVWOC42N0MxNy4zNiA5LjggMTkgMTIuMjEgMTkgMTVNMTEgNlYxMC4xQzguNzIgMTAuNTYgNyAxMi41OCA3IDE1QzcgMTcuNzYgOS4yNCAyMCAxMiAyMEMxNC43NiAyMCAxNyAxNy43NiAxNyAxNUMxNyAxMi41OCAxNS4yOCAxMC41NiAxMyAxMC4xVjZIMTFaIiAvPjwvc3ZnPg==)
-
--}
-flaskRoundBottomEmptyOutline : IconShape
-flaskRoundBottomEmptyOutline =
-    Material.Icons.Directory.F.flaskRoundBottomEmptyOutline
-
-
 {-| The [`flask-round-bottom-outline`](https://pictogrammers.com/library/mdi/icon/flask-round-bottom-outline/) icon.
 
 ![flask-round-bottom-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE1QzE1IDE2LjY2IDEzLjY2IDE4IDEyIDE4QzEwLjM0IDE4IDkgMTYuNjYgOSAxNVYxNEgxMVYxNUMxMSAxNS41NSAxMS40NSAxNiAxMiAxNkMxMi41NSAxNiAxMyAxNS41NSAxMyAxNVYxNEgxNVYxNU0xOSAxNUMxOSAxOC44NyAxNS44NyAyMiAxMiAyMkM4LjEzIDIyIDUgMTguODcgNSAxNUM1IDEyLjIxIDYuNjQgOS44IDkgOC42N1Y1QzkgNC40NSA5LjQ1IDQgMTAgNEgxMC41TDkuNSAySDE0LjVMMTMuNSA0SDE0QzE0LjU1IDQgMTUgNC40NSAxNSA1VjguNjdDMTcuMzYgOS44IDE5IDEyLjIxIDE5IDE1TTExIDZWMTAuMUM4LjcyIDEwLjU2IDcgMTIuNTggNyAxNUM3IDE3Ljc2IDkuMjQgMjAgMTIgMjBDMTQuNzYgMjAgMTcgMTcuNzYgMTcgMTVDMTcgMTIuNTggMTUuMjggMTAuNTYgMTMgMTAuMVY2SDExWiIgLz48L3N2Zz4=)
@@ -665,6 +655,16 @@ flaskRoundBottomEmptyOutline =
 flaskRoundBottomOutline : IconShape
 flaskRoundBottomOutline =
     Material.Icons.Directory.F.flaskRoundBottomOutline
+
+
+{-| The [`flask-round-bottom-empty-outline`](https://pictogrammers.com/library/mdi/icon/flask-round-bottom-empty-outline/) icon.
+
+![flask-round-bottom-empty-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE1QzE5IDE4Ljg3IDE1Ljg3IDIyIDEyIDIyQzguMTMgMjIgNSAxOC44NyA1IDE1QzUgMTIuMjEgNi42NCA5LjggOSA4LjY3VjVDOSA0LjQ1IDkuNDUgNCAxMCA0SDEwLjVMOS41IDJIMTQuNUwxMy41IDRIMTRDMTQuNTUgNCAxNSA0LjQ1IDE1IDVWOC42N0MxNy4zNiA5LjggMTkgMTIuMjEgMTkgMTVNMTEgNlYxMC4xQzguNzIgMTAuNTYgNyAxMi41OCA3IDE1QzcgMTcuNzYgOS4yNCAyMCAxMiAyMEMxNC43NiAyMCAxNyAxNy43NiAxNyAxNUMxNyAxMi41OCAxNS4yOCAxMC41NiAxMyAxMC4xVjZIMTFaIiAvPjwvc3ZnPg==)
+
+-}
+flaskRoundBottomEmptyOutline : IconShape
+flaskRoundBottomEmptyOutline =
+    Material.Icons.Directory.F.flaskRoundBottomEmptyOutline
 
 
 {-| The [`microscope`](https://pictogrammers.com/library/mdi/icon/microscope/) icon.
@@ -827,16 +827,6 @@ safetyGoggles =
     Material.Icons.Directory.S.safetyGoggles
 
 
-{-| The [`scale`](https://pictogrammers.com/library/mdi/icon/scale/) icon.
-
-![scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNDYsMTUuMDZMNy4wNSwxNi40N0w1LjY4LDE1LjFDNC44MiwxNi4yMSA0LjI0LDE3LjU0IDQuMDYsMTlINlYyMUgyVjIwQzIsMTUuMTYgNS40NCwxMS4xMyAxMCwxMC4yVjguMkwyLDVWM0gyMlY1TDE0LDguMlYxMC4yQzE4LjU2LDExLjEzIDIyLDE1LjE2IDIyLDIwVjIxSDE4VjE5SDE5Ljk0QzE5Ljc2LDE3LjU0IDE5LjE4LDE2LjIxIDE4LjMyLDE1LjFMMTYuOTUsMTYuNDdMMTUuNTQsMTUuMDZMMTYuOTEsMTMuNjhDMTUuOCwxMi44MiAxNC40NiwxMi4yNCAxMywxMi4wNlYxNEgxMVYxMi4wNkM5LjU0LDEyLjI0IDguMiwxMi44MiA3LjA5LDEzLjY4TDguNDYsMTUuMDZNMTIsMThBMiwyIDAgMCwxIDE0LDIwQTIsMiAwIDAsMSAxMiwyMkMxMS42OCwyMiAxMS4zOCwyMS45MyAxMS4xMiwyMS43OUw3LjI3LDIwTDExLjEyLDE4LjIxQzExLjM4LDE4LjA3IDExLjY4LDE4IDEyLDE4WiIgLz48L3N2Zz4=)
-
--}
-scale : IconShape
-scale =
-    Material.Icons.Directory.S.scale
-
-
 {-| The [`scale-balance`](https://pictogrammers.com/library/mdi/icon/scale-balance/) icon.
 
 ![scale-balance](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDNDMTAuNzMsMyA5LjYsMy44IDkuMTgsNUgzVjdINC45NUwyLDE0QzEuNTMsMTYgMywxNyA1LjUsMTdDOCwxNyA5LjU2LDE2IDksMTRMNi4wNSw3SDkuMTdDOS41LDcuODUgMTAuMTUsOC41IDExLDguODNWMjBIMlYyMkgyMlYyMEgxM1Y4LjgyQzEzLjg1LDguNSAxNC41LDcuODUgMTQuODIsN0gxNy45NUwxNSwxNEMxNC41MywxNiAxNiwxNyAxOC41LDE3QzIxLDE3IDIyLjU2LDE2IDIyLDE0TDE5LjA1LDdIMjFWNUgxNC44M0MxNC40LDMuOCAxMy4yNywzIDEyLDNNMTIsNUExLDEgMCAwLDEgMTMsNkExLDEgMCAwLDEgMTIsN0ExLDEgMCAwLDEgMTEsNkExLDEgMCAwLDEgMTIsNU01LjUsMTAuMjVMNywxNEg0TDUuNSwxMC4yNU0xOC41LDEwLjI1TDIwLDE0SDE3TDE4LjUsMTAuMjVaIiAvPjwvc3ZnPg==)
@@ -845,6 +835,16 @@ scale =
 scaleBalance : IconShape
 scaleBalance =
     Material.Icons.Directory.S.scaleBalance
+
+
+{-| The [`scale`](https://pictogrammers.com/library/mdi/icon/scale/) icon.
+
+![scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNDYsMTUuMDZMNy4wNSwxNi40N0w1LjY4LDE1LjFDNC44MiwxNi4yMSA0LjI0LDE3LjU0IDQuMDYsMTlINlYyMUgyVjIwQzIsMTUuMTYgNS40NCwxMS4xMyAxMCwxMC4yVjguMkwyLDVWM0gyMlY1TDE0LDguMlYxMC4yQzE4LjU2LDExLjEzIDIyLDE1LjE2IDIyLDIwVjIxSDE4VjE5SDE5Ljk0QzE5Ljc2LDE3LjU0IDE5LjE4LDE2LjIxIDE4LjMyLDE1LjFMMTYuOTUsMTYuNDdMMTUuNTQsMTUuMDZMMTYuOTEsMTMuNjhDMTUuOCwxMi44MiAxNC40NiwxMi4yNCAxMywxMi4wNlYxNEgxMVYxMi4wNkM5LjU0LDEyLjI0IDguMiwxMi44MiA3LjA5LDEzLjY4TDguNDYsMTUuMDZNMTIsMThBMiwyIDAgMCwxIDE0LDIwQTIsMiAwIDAsMSAxMiwyMkMxMS42OCwyMiAxMS4zOCwyMS45MyAxMS4xMiwyMS43OUw3LjI3LDIwTDExLjEyLDE4LjIxQzExLjM4LDE4LjA3IDExLjY4LDE4IDEyLDE4WiIgLz48L3N2Zz4=)
+
+-}
+scale : IconShape
+scale =
+    Material.Icons.Directory.S.scale
 
 
 {-| The [`scale-off`](https://pictogrammers.com/library/mdi/icon/scale-off/) icon.
@@ -877,16 +877,6 @@ testTube =
     Material.Icons.Directory.T.testTube
 
 
-{-| The [`test-tube-off`](https://pictogrammers.com/library/mdi/icon/test-tube-off/) icon.
-
-![test-tube-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjAsMjAuNzJMMTguNzMsMjJMMTUuODQsMTkuMTFDMTUuMzYsMjAuNzcgMTMuODIsMjIgMTIsMjJBNCw0IDAgMCwxIDgsMThWMTEuMjdMMiw1LjI3TTcsMkgxN1Y0SDE2VjE0LjE4TDEzLjYzLDExLjgxQzEzLjg2LDExLjYzIDE0LDExLjM1IDE0LDExQzE0LDEwLjQgMTMuNiwxMCAxMywxMEMxMi42NSwxMCAxMi4zNywxMC4xNCAxMi4xOSwxMC4zN0w4LDYuMThWNEg3VjJNMTEsMTZDMTEuNSwxNiAxMS44OCwxNS43MSAxMiwxNS4yNEwxMC43NiwxNEMxMC4yOSwxNC4xMiAxMCwxNC41IDEwLDE1QzEwLDE1LjYgMTAuNCwxNiAxMSwxNk0xNCw3VjRIMTBWN0gxNFoiIC8+PC9zdmc+)
-
--}
-testTubeOff : IconShape
-testTubeOff =
-    Material.Icons.Directory.T.testTubeOff
-
-
 {-| The [`test-tube-empty`](https://pictogrammers.com/library/mdi/icon/test-tube-empty/) icon.
 
 ![test-tube-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMkgxN1Y0SDE2VjE4QTQsNCAwIDAsMSAxMiwyMkE0LDQgMCAwLDEgOCwxOFY0SDdWMk0xNCw0SDEwVjE4QTIsMiAwIDAsMCAxMiwyMEEyLDIgMCAwLDAgMTQsMThWNFoiIC8+PC9zdmc+)
@@ -895,6 +885,16 @@ testTubeOff =
 testTubeEmpty : IconShape
 testTubeEmpty =
     Material.Icons.Directory.T.testTubeEmpty
+
+
+{-| The [`test-tube-off`](https://pictogrammers.com/library/mdi/icon/test-tube-off/) icon.
+
+![test-tube-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjAsMjAuNzJMMTguNzMsMjJMMTUuODQsMTkuMTFDMTUuMzYsMjAuNzcgMTMuODIsMjIgMTIsMjJBNCw0IDAgMCwxIDgsMThWMTEuMjdMMiw1LjI3TTcsMkgxN1Y0SDE2VjE0LjE4TDEzLjYzLDExLjgxQzEzLjg2LDExLjYzIDE0LDExLjM1IDE0LDExQzE0LDEwLjQgMTMuNiwxMCAxMywxMEMxMi42NSwxMCAxMi4zNywxMC4xNCAxMi4xOSwxMC4zN0w4LDYuMThWNEg3VjJNMTEsMTZDMTEuNSwxNiAxMS44OCwxNS43MSAxMiwxNS4yNEwxMC43NiwxNEMxMC4yOSwxNC4xMiAxMCwxNC41IDEwLDE1QzEwLDE1LjYgMTAuNCwxNiAxMSwxNk0xNCw3VjRIMTBWN0gxNFoiIC8+PC9zdmc+)
+
+-}
+testTubeOff : IconShape
+testTubeOff =
+    Material.Icons.Directory.T.testTubeOff
 
 
 {-| The [`virus`](https://pictogrammers.com/library/mdi/icon/virus/) icon.

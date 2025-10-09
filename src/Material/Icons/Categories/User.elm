@@ -8,19 +8,19 @@ module Material.Icons.Categories.User exposing
     , accountAlertOutline
     , accountArrowDown
     , accountArrowDownOutline
-    , accountArrowLeft
     , accountArrowLeftOutline
+    , accountArrowLeft
     , accountArrowRight
     , accountArrowRightOutline
     , accountArrowUp
     , accountArrowUpOutline
-    , accountBadge
     , accountBadgeOutline
+    , accountBadge
     , accountBox
     , accountBoxEditOutline
     , accountBoxMinusOutline
-    , accountBoxMultiple
     , accountBoxMultipleOutline
+    , accountBoxMultiple
     , accountBoxOutline
     , accountBoxPlusOutline
     , accountCancel
@@ -30,10 +30,10 @@ module Material.Icons.Categories.User exposing
     , accountCash
     , accountCashOutline
     , accountCheck
-    , accountCheckOutline
     , accountChild
-    , accountChildCircle
+    , accountCheckOutline
     , accountChildOutline
+    , accountChildCircle
     , accountCircle
     , accountCircleOutline
     , accountClock
@@ -43,10 +43,10 @@ module Material.Icons.Categories.User exposing
     , accountConvert
     , accountConvertOutline
     , accountCowboyHat
-    , accountCowboyHatOutline
     , accountCreditCard
-    , accountCreditCardOutline
+    , accountCowboyHatOutline
     , accountDetails
+    , accountCreditCardOutline
     , accountDetailsOutline
     , accountEdit
     , accountEditOutline
@@ -55,8 +55,8 @@ module Material.Icons.Categories.User exposing
     , accountFile
     , accountFileOutline
     , accountFileText
-    , accountFileTextOutline
     , accountFilter
+    , accountFileTextOutline
     , accountFilterOutline
     , accountGroup
     , accountGroupOutline
@@ -75,8 +75,8 @@ module Material.Icons.Categories.User exposing
     , accountMinus
     , accountMinusOutline
     , accountMultiple
-    , accountMultipleCheck
     , accountMultipleCheckOutline
+    , accountMultipleCheck
     , accountMultipleMinus
     , accountMultipleMinusOutline
     , accountMultipleOutline
@@ -89,38 +89,38 @@ module Material.Icons.Categories.User exposing
     , accountNetwork
     , accountNetworkOff
     , accountNetworkOffOutline
-    , accountNetworkOutline
     , accountOff
-    , accountOffOutline
+    , accountNetworkOutline
     , accountOutline
+    , accountOffOutline
     , accountPlus
     , accountPlusOutline
     , accountQuestion
     , accountQuestionOutline
     , accountReactivate
     , accountReactivateOutline
-    , accountRemove
     , accountRemoveOutline
+    , accountRemove
     , accountSchool
     , accountSchoolOutline
     , accountSearch
     , accountSearchOutline
     , accountSettings
-    , accountSettingsOutline
     , accountStar
+    , accountSettingsOutline
     , accountStarOutline
     , accountSupervisor
     , accountSupervisorCircle
-    , accountSupervisorCircleOutline
     , accountSupervisorOutline
+    , accountSupervisorCircleOutline
     , accountSwitch
     , accountSwitchOutline
     , accountSync
     , accountSyncOutline
-    , accountTag
     , accountTagOutline
-    , accountTie
+    , accountTag
     , accountTieHat
+    , accountTie
     , accountTieHatOutline
     , accountTieOutline
     , accountTieVoice
@@ -130,13 +130,13 @@ module Material.Icons.Categories.User exposing
     , accountTieWoman
     , accountVoice
     , accountVoiceOff
-    , accountWrench
     , accountWrenchOutline
-    , badgeAccount
-    , badgeAccountAlert
+    , accountWrench
     , badgeAccountAlertOutline
-    , badgeAccountHorizontal
+    , badgeAccountAlert
+    , badgeAccount
     , badgeAccountHorizontalOutline
+    , badgeAccountHorizontal
     , badgeAccountOutline
     , bookAccount
     , bookAccountOutline
@@ -148,10 +148,10 @@ module Material.Icons.Categories.User exposing
     , cardAccountDetails
     , cardAccountDetailsOutline
     , cardAccountDetailsStar
-    , cardAccountDetailsStarOutline
     , cardAccountMail
-    , cardAccountPhone
+    , cardAccountDetailsStarOutline
     , cardAccountMailOutline
+    , cardAccountPhone
     , cardAccountPhoneOutline
     , clipboardAccount
     , clipboardAccountOutline
@@ -171,8 +171,8 @@ module Material.Icons.Categories.User exposing
     , humanCapacityIncrease
     , humanGreetingProximity
     , laptopAccount
-    , mapMarkerAccountOutline
     , mapMarkerAccount
+    , mapMarkerAccountOutline
     , monitorAccount
     , naturePeople
     , naturePeopleOutline
@@ -202,19 +202,19 @@ module Material.Icons.Categories.User exposing
 @docs accountAlertOutline
 @docs accountArrowDown
 @docs accountArrowDownOutline
-@docs accountArrowLeft
 @docs accountArrowLeftOutline
+@docs accountArrowLeft
 @docs accountArrowRight
 @docs accountArrowRightOutline
 @docs accountArrowUp
 @docs accountArrowUpOutline
-@docs accountBadge
 @docs accountBadgeOutline
+@docs accountBadge
 @docs accountBox
 @docs accountBoxEditOutline
 @docs accountBoxMinusOutline
-@docs accountBoxMultiple
 @docs accountBoxMultipleOutline
+@docs accountBoxMultiple
 @docs accountBoxOutline
 @docs accountBoxPlusOutline
 @docs accountCancel
@@ -224,10 +224,10 @@ module Material.Icons.Categories.User exposing
 @docs accountCash
 @docs accountCashOutline
 @docs accountCheck
-@docs accountCheckOutline
 @docs accountChild
-@docs accountChildCircle
+@docs accountCheckOutline
 @docs accountChildOutline
+@docs accountChildCircle
 @docs accountCircle
 @docs accountCircleOutline
 @docs accountClock
@@ -237,10 +237,10 @@ module Material.Icons.Categories.User exposing
 @docs accountConvert
 @docs accountConvertOutline
 @docs accountCowboyHat
-@docs accountCowboyHatOutline
 @docs accountCreditCard
-@docs accountCreditCardOutline
+@docs accountCowboyHatOutline
 @docs accountDetails
+@docs accountCreditCardOutline
 @docs accountDetailsOutline
 @docs accountEdit
 @docs accountEditOutline
@@ -249,8 +249,8 @@ module Material.Icons.Categories.User exposing
 @docs accountFile
 @docs accountFileOutline
 @docs accountFileText
-@docs accountFileTextOutline
 @docs accountFilter
+@docs accountFileTextOutline
 @docs accountFilterOutline
 @docs accountGroup
 @docs accountGroupOutline
@@ -269,8 +269,8 @@ module Material.Icons.Categories.User exposing
 @docs accountMinus
 @docs accountMinusOutline
 @docs accountMultiple
-@docs accountMultipleCheck
 @docs accountMultipleCheckOutline
+@docs accountMultipleCheck
 @docs accountMultipleMinus
 @docs accountMultipleMinusOutline
 @docs accountMultipleOutline
@@ -283,38 +283,38 @@ module Material.Icons.Categories.User exposing
 @docs accountNetwork
 @docs accountNetworkOff
 @docs accountNetworkOffOutline
-@docs accountNetworkOutline
 @docs accountOff
-@docs accountOffOutline
+@docs accountNetworkOutline
 @docs accountOutline
+@docs accountOffOutline
 @docs accountPlus
 @docs accountPlusOutline
 @docs accountQuestion
 @docs accountQuestionOutline
 @docs accountReactivate
 @docs accountReactivateOutline
-@docs accountRemove
 @docs accountRemoveOutline
+@docs accountRemove
 @docs accountSchool
 @docs accountSchoolOutline
 @docs accountSearch
 @docs accountSearchOutline
 @docs accountSettings
-@docs accountSettingsOutline
 @docs accountStar
+@docs accountSettingsOutline
 @docs accountStarOutline
 @docs accountSupervisor
 @docs accountSupervisorCircle
-@docs accountSupervisorCircleOutline
 @docs accountSupervisorOutline
+@docs accountSupervisorCircleOutline
 @docs accountSwitch
 @docs accountSwitchOutline
 @docs accountSync
 @docs accountSyncOutline
-@docs accountTag
 @docs accountTagOutline
-@docs accountTie
+@docs accountTag
 @docs accountTieHat
+@docs accountTie
 @docs accountTieHatOutline
 @docs accountTieOutline
 @docs accountTieVoice
@@ -324,13 +324,13 @@ module Material.Icons.Categories.User exposing
 @docs accountTieWoman
 @docs accountVoice
 @docs accountVoiceOff
-@docs accountWrench
 @docs accountWrenchOutline
-@docs badgeAccount
-@docs badgeAccountAlert
+@docs accountWrench
 @docs badgeAccountAlertOutline
-@docs badgeAccountHorizontal
+@docs badgeAccountAlert
+@docs badgeAccount
 @docs badgeAccountHorizontalOutline
+@docs badgeAccountHorizontal
 @docs badgeAccountOutline
 @docs bookAccount
 @docs bookAccountOutline
@@ -342,10 +342,10 @@ module Material.Icons.Categories.User exposing
 @docs cardAccountDetails
 @docs cardAccountDetailsOutline
 @docs cardAccountDetailsStar
-@docs cardAccountDetailsStarOutline
 @docs cardAccountMail
-@docs cardAccountPhone
+@docs cardAccountDetailsStarOutline
 @docs cardAccountMailOutline
+@docs cardAccountPhone
 @docs cardAccountPhoneOutline
 @docs clipboardAccount
 @docs clipboardAccountOutline
@@ -365,8 +365,8 @@ module Material.Icons.Categories.User exposing
 @docs humanCapacityIncrease
 @docs humanGreetingProximity
 @docs laptopAccount
-@docs mapMarkerAccountOutline
 @docs mapMarkerAccount
+@docs mapMarkerAccountOutline
 @docs monitorAccount
 @docs naturePeople
 @docs naturePeopleOutline
@@ -454,16 +454,6 @@ accountArrowDownOutline =
     Material.Icons.Directory.A.accountArrowDownOutline
 
 
-{-| The [`account-arrow-left`](https://pictogrammers.com/library/mdi/icon/account-arrow-left/) icon.
-
-![account-arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDE4SDIxVjE2SDE3VjE0TDE0IDE3TDE3IDIwVjE4TTExIDRDOC44IDQgNyA1LjggNyA4UzguOCAxMiAxMSAxMiAxNSAxMC4yIDE1IDggMTMuMiA0IDExIDRNMTEgMTRDNi42IDE0IDMgMTUuOCAzIDE4VjIwSDEyLjVDMTIuMiAxOS4yIDEyIDE4LjQgMTIgMTcuNUMxMiAxNi4zIDEyLjMgMTUuMiAxMi45IDE0LjFDMTIuMyAxNC4xIDExLjcgMTQgMTEgMTQiIC8+PC9zdmc+)
-
--}
-accountArrowLeft : IconShape
-accountArrowLeft =
-    Material.Icons.Directory.A.accountArrowLeft
-
-
 {-| The [`account-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/account-arrow-left-outline/) icon.
 
 ![account-arrow-left-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDE4SDIxVjE2SDE3VjE0TDE0IDE3TDE3IDIwVjE4TTExIDRDOC44IDQgNyA1LjggNyA4UzguOCAxMiAxMSAxMiAxNSAxMC4yIDE1IDggMTMuMiA0IDExIDRNMTEgNkMxMi4xIDYgMTMgNi45IDEzIDhTMTIuMSAxMCAxMSAxMCA5IDkuMSA5IDggOS45IDYgMTEgNk0xMSAxM0M4LjMgMTMgMyAxNC4zIDMgMTdWMjBIMTIuNUMxMi4yIDE5LjQgMTIuMSAxOC44IDEyIDE4LjFINC45VjE3QzQuOSAxNi40IDggMTQuOSAxMSAxNC45QzExLjUgMTQuOSAxMiAxNSAxMi41IDE1QzEyLjggMTQuNCAxMy4xIDEzLjggMTMuNiAxMy4zQzEyLjYgMTMuMSAxMS43IDEzIDExIDEzIiAvPjwvc3ZnPg==)
@@ -472,6 +462,16 @@ accountArrowLeft =
 accountArrowLeftOutline : IconShape
 accountArrowLeftOutline =
     Material.Icons.Directory.A.accountArrowLeftOutline
+
+
+{-| The [`account-arrow-left`](https://pictogrammers.com/library/mdi/icon/account-arrow-left/) icon.
+
+![account-arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDE4SDIxVjE2SDE3VjE0TDE0IDE3TDE3IDIwVjE4TTExIDRDOC44IDQgNyA1LjggNyA4UzguOCAxMiAxMSAxMiAxNSAxMC4yIDE1IDggMTMuMiA0IDExIDRNMTEgMTRDNi42IDE0IDMgMTUuOCAzIDE4VjIwSDEyLjVDMTIuMiAxOS4yIDEyIDE4LjQgMTIgMTcuNUMxMiAxNi4zIDEyLjMgMTUuMiAxMi45IDE0LjFDMTIuMyAxNC4xIDExLjcgMTQgMTEgMTQiIC8+PC9zdmc+)
+
+-}
+accountArrowLeft : IconShape
+accountArrowLeft =
+    Material.Icons.Directory.A.accountArrowLeft
 
 
 {-| The [`account-arrow-right`](https://pictogrammers.com/library/mdi/icon/account-arrow-right/) icon.
@@ -514,16 +514,6 @@ accountArrowUpOutline =
     Material.Icons.Directory.A.accountArrowUpOutline
 
 
-{-| The [`account-badge`](https://pictogrammers.com/library/mdi/icon/account-badge/) icon.
-
-![account-badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDE5LjVDMTQgMTcuNSAxNS4xIDE1LjcgMTYuNyAxNC44QzE1LjQgMTQuMyAxMy44IDE0IDEyIDE0QzcuNiAxNCA0IDE1LjggNCAxOFYyMEgxNFYxOS41TTE5LjUgMTZDMTcuNiAxNiAxNiAxNy42IDE2IDE5LjVTMTcuNiAyMyAxOS41IDIzIDIzIDIxLjQgMjMgMTkuNSAyMS40IDE2IDE5LjUgMTZNMTYgOEMxNiAxMC4yIDE0LjIgMTIgMTIgMTJTOCAxMC4yIDggOCA5LjggNCAxMiA0IDE2IDUuOCAxNiA4WiIgLz48L3N2Zz4=)
-
--}
-accountBadge : IconShape
-accountBadge =
-    Material.Icons.Directory.A.accountBadge
-
-
 {-| The [`account-badge-outline`](https://pictogrammers.com/library/mdi/icon/account-badge-outline/) icon.
 
 ![account-badge-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDIwSDRWMTdDNCAxNC4zIDkuMyAxMyAxMiAxM0MxMy41IDEzIDE1LjkgMTMuNCAxNy43IDE0LjNDMTYuOSAxNC42IDE2LjMgMTUgMTUuNyAxNS41QzE0LjYgMTUuMSAxMy4zIDE0LjkgMTIgMTQuOUM5IDE0LjkgNS45IDE2LjQgNS45IDE3VjE4LjFIMTQuMkMxNC4xIDE4LjUgMTQgMTkgMTQgMTkuNVYyME0yMyAxOS41QzIzIDIxLjQgMjEuNCAyMyAxOS41IDIzUzE2IDIxLjQgMTYgMTkuNSAxNy42IDE2IDE5LjUgMTYgMjMgMTcuNiAyMyAxOS41TTEyIDZDMTMuMSA2IDE0IDYuOSAxNCA4UzEzLjEgMTAgMTIgMTAgMTAgOS4xIDEwIDggMTAuOSA2IDEyIDZNMTIgNEM5LjggNCA4IDUuOCA4IDhTOS44IDEyIDEyIDEyIDE2IDEwLjIgMTYgOCAxNC4yIDQgMTIgNFoiIC8+PC9zdmc+)
@@ -532,6 +522,16 @@ accountBadge =
 accountBadgeOutline : IconShape
 accountBadgeOutline =
     Material.Icons.Directory.A.accountBadgeOutline
+
+
+{-| The [`account-badge`](https://pictogrammers.com/library/mdi/icon/account-badge/) icon.
+
+![account-badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDE5LjVDMTQgMTcuNSAxNS4xIDE1LjcgMTYuNyAxNC44QzE1LjQgMTQuMyAxMy44IDE0IDEyIDE0QzcuNiAxNCA0IDE1LjggNCAxOFYyMEgxNFYxOS41TTE5LjUgMTZDMTcuNiAxNiAxNiAxNy42IDE2IDE5LjVTMTcuNiAyMyAxOS41IDIzIDIzIDIxLjQgMjMgMTkuNSAyMS40IDE2IDE5LjUgMTZNMTYgOEMxNiAxMC4yIDE0LjIgMTIgMTIgMTJTOCAxMC4yIDggOCA5LjggNCAxMiA0IDE2IDUuOCAxNiA4WiIgLz48L3N2Zz4=)
+
+-}
+accountBadge : IconShape
+accountBadge =
+    Material.Icons.Directory.A.accountBadge
 
 
 {-| The [`account-box`](https://pictogrammers.com/library/mdi/icon/account-box/) icon.
@@ -564,16 +564,6 @@ accountBoxMinusOutline =
     Material.Icons.Directory.A.accountBoxMinusOutline
 
 
-{-| The [`account-box-multiple`](https://pictogrammers.com/library/mdi/icon/account-box-multiple/) icon.
-
-![account-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyVjIwQTIsMiAwIDAsMCA0LDIySDE4VjIwSDRWNk0yMCwyQTIsMiAwIDAsMSAyMiw0VjE2QTIsMiAwIDAsMSAyMCwxOEg4QTIsMiAwIDAsMSA2LDE2VjRBMiwyIDAgMCwxIDgsMkgyME0xNyw3QTMsMyAwIDAsMCAxNCw0QTMsMyAwIDAsMCAxMSw3QTMsMyAwIDAsMCAxNCwxMEEzLDMgMCAwLDAgMTcsN004LDE1VjE2SDIwVjE1QzIwLDEzIDE2LDExLjkgMTQsMTEuOUMxMiwxMS45IDgsMTMgOCwxNVoiIC8+PC9zdmc+)
-
--}
-accountBoxMultiple : IconShape
-accountBoxMultiple =
-    Material.Icons.Directory.A.accountBoxMultiple
-
-
 {-| The [`account-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/account-box-multiple-outline/) icon.
 
 ![account-box-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNkgyVjIwQzIgMjEuMTEgMi45IDIyIDQgMjJIMThWMjBINFY2TTE4LjUgMTQuMjVDMTguNSAxMi43NSAxNS41IDEyIDE0IDEyUzkuNSAxMi43NSA5LjUgMTQuMjVWMTVIMTguNU0xNCAxMC4yNUMxNS4yNCAxMC4yNSAxNi4yNSA5LjI0IDE2LjI1IDhTMTUuMjQgNS43NSAxNCA1Ljc1IDExLjc1IDYuNzYgMTEuNzUgOCAxMi43NiAxMC4yNSAxNCAxMC4yNU0yMCAySDhDNi45IDIgNiAyLjkgNiA0VjE2QzYgMTcuMTEgNi45IDE4IDggMThIMjBDMjEuMTEgMTggMjIgMTcuMTEgMjIgMTZWNEMyMiAyLjg5IDIxLjEgMiAyMCAyTTIwIDE2SDhWNEgyMFYxNloiIC8+PC9zdmc+)
@@ -582,6 +572,16 @@ accountBoxMultiple =
 accountBoxMultipleOutline : IconShape
 accountBoxMultipleOutline =
     Material.Icons.Directory.A.accountBoxMultipleOutline
+
+
+{-| The [`account-box-multiple`](https://pictogrammers.com/library/mdi/icon/account-box-multiple/) icon.
+
+![account-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyVjIwQTIsMiAwIDAsMCA0LDIySDE4VjIwSDRWNk0yMCwyQTIsMiAwIDAsMSAyMiw0VjE2QTIsMiAwIDAsMSAyMCwxOEg4QTIsMiAwIDAsMSA2LDE2VjRBMiwyIDAgMCwxIDgsMkgyME0xNyw3QTMsMyAwIDAsMCAxNCw0QTMsMyAwIDAsMCAxMSw3QTMsMyAwIDAsMCAxNCwxMEEzLDMgMCAwLDAgMTcsN004LDE1VjE2SDIwVjE1QzIwLDEzIDE2LDExLjkgMTQsMTEuOUMxMiwxMS45IDgsMTMgOCwxNVoiIC8+PC9zdmc+)
+
+-}
+accountBoxMultiple : IconShape
+accountBoxMultiple =
+    Material.Icons.Directory.A.accountBoxMultiple
 
 
 {-| The [`account-box-outline`](https://pictogrammers.com/library/mdi/icon/account-box-outline/) icon.
@@ -674,16 +674,6 @@ accountCheck =
     Material.Icons.Directory.A.accountCheck
 
 
-{-| The [`account-check-outline`](https://pictogrammers.com/library/mdi/icon/account-check-outline/) icon.
-
-![account-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjEsMTIuNUwyMi41LDEzLjkxTDE1Ljk3LDIwLjVMMTIuNSwxN0wxMy45LDE1LjU5TDE1Ljk3LDE3LjY3TDIxLjEsMTIuNU0xMSw0QTQsNCAwIDAsMSAxNSw4QTQsNCAwIDAsMSAxMSwxMkE0LDQgMCAwLDEgNyw4QTQsNCAwIDAsMSAxMSw0TTExLDZBMiwyIDAgMCwwIDksOEEyLDIgMCAwLDAgMTEsMTBBMiwyIDAgMCwwIDEzLDhBMiwyIDAgMCwwIDExLDZNMTEsMTNDMTEuNjgsMTMgMTIuNSwxMy4wOSAxMy40MSwxMy4yNkwxMS43NCwxNC45M0wxMSwxNC45QzguMDMsMTQuOSA0LjksMTYuMzYgNC45LDE3VjE4LjFIMTEuMUwxMywyMEgzVjE3QzMsMTQuMzQgOC4zMywxMyAxMSwxM1oiIC8+PC9zdmc+)
-
--}
-accountCheckOutline : IconShape
-accountCheckOutline =
-    Material.Icons.Directory.A.accountCheckOutline
-
-
 {-| The [`account-child`](https://pictogrammers.com/library/mdi/icon/account-child/) icon.
 
 ![account-child](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMywzIDAgMCwxIDE1LDVBMywzIDAgMCwxIDEyLDhBMywzIDAgMCwxIDksNUEzLDMgMCAwLDEgMTIsMk0xMiw5QzEzLjYzLDkgMTUuMTIsOS4zNSAxNi41LDEwLjA1QzE3Ljg0LDEwLjc2IDE4LjUsMTEuNjEgMTguNSwxMi42MVYxOC4zOEMxOC41LDE5LjUgMTcuNjQsMjAuNDQgMTUuODksMjEuMTlWMTlDMTUuODksMTguMDUgMTUuMDMsMTcuMzggMTMuMzEsMTYuOTdDMTIuNzUsMTYuODQgMTIuMzEsMTYuNzggMTIsMTYuNzhDMTEuMTMsMTYuNzggMTAuMywxNi45NSA5LjU0LDE3LjNDOC43NywxNy42NCA4LjMxLDE4LjA4IDguMTYsMTguNjFDOS41LDE5LjE0IDEwLjc4LDE5LjQxIDEyLDE5LjQxTDEzLDE5LjMxVjIxLjk0TDEyLDIyQzEwLjYzLDIyIDkuMzMsMjEuNzIgOC4xMSwyMS4xOUM2LjM2LDIwLjQ0IDUuNSwxOS41IDUuNSwxOC4zOFYxMi42MUM1LjUsMTEuNjEgNi4xNiwxMC43NiA3LjUsMTAuMDVDOC44OCw5LjM1IDEwLjM4LDkgMTIsOU0xMiwxMUEyLDIgMCAwLDAgMTAsMTNBMiwyIDAgMCwwIDEyLDE1QTIsMiAwIDAsMCAxNCwxM0EyLDIgMCAwLDAgMTIsMTFaIiAvPjwvc3ZnPg==)
@@ -694,14 +684,14 @@ accountChild =
     Material.Icons.Directory.A.accountChild
 
 
-{-| The [`account-child-circle`](https://pictogrammers.com/library/mdi/icon/account-child-circle/) icon.
+{-| The [`account-check-outline`](https://pictogrammers.com/library/mdi/icon/account-check-outline/) icon.
 
-![account-child-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEyQTEuNSwxLjUgMCAwLDEgMTMuNSwxMy41QTEuNSwxLjUgMCAwLDEgMTIsMTVBMS41LDEuNSAwIDAsMSAxMC41LDEzLjVBMS41LDEuNSAwIDAsMSAxMiwxMk0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiwxNkMxMi43MiwxNiAxMy40LDE2LjE1IDE0LjA0LDE2LjVDMTQuNjgsMTYuOCAxNSwxNy4yIDE1LDE3LjY3VjE5LjQxQzE2LjM0LDE4LjgxIDE3LDE4LjA4IDE3LDE3LjJWMTIuOEMxNywxMiAxNi41LDExLjM1IDE1LjQ1LDEwLjhDMTQuNCwxMC4yNiAxMy4yNSwxMCAxMiwxMEMxMC43NSwxMCA5LjYsMTAuMjYgOC41NSwxMC44QzcuNSwxMS4zNSA3LDEyIDcsMTIuOFYxNy4yQzcsMTggNy41MywxOC42OSA4LjYzLDE5LjIyQzkuNzIsMTkuNzUgMTAuODQsMjAgMTIsMjBMMTMsMTkuOTJWMTcuOTFMMTIsMThDMTEsMTggMTAsMTcuOCA5LjA1LDE3LjM5QzkuMTcsMTcgOS41MywxNi42OSAxMC4xMywxNi40MUMxMC43MiwxNi4xMyAxMS4zNCwxNiAxMiwxNk0xMiw0QTIuNSwyLjUgMCAwLDAgOS41LDYuNUEyLjUsMi41IDAgMCwwIDEyLDlBMi41LDIuNSAwIDAsMCAxNC41LDYuNUEyLjUsMi41IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+![account-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjEsMTIuNUwyMi41LDEzLjkxTDE1Ljk3LDIwLjVMMTIuNSwxN0wxMy45LDE1LjU5TDE1Ljk3LDE3LjY3TDIxLjEsMTIuNU0xMSw0QTQsNCAwIDAsMSAxNSw4QTQsNCAwIDAsMSAxMSwxMkE0LDQgMCAwLDEgNyw4QTQsNCAwIDAsMSAxMSw0TTExLDZBMiwyIDAgMCwwIDksOEEyLDIgMCAwLDAgMTEsMTBBMiwyIDAgMCwwIDEzLDhBMiwyIDAgMCwwIDExLDZNMTEsMTNDMTEuNjgsMTMgMTIuNSwxMy4wOSAxMy40MSwxMy4yNkwxMS43NCwxNC45M0wxMSwxNC45QzguMDMsMTQuOSA0LjksMTYuMzYgNC45LDE3VjE4LjFIMTEuMUwxMywyMEgzVjE3QzMsMTQuMzQgOC4zMywxMyAxMSwxM1oiIC8+PC9zdmc+)
 
 -}
-accountChildCircle : IconShape
-accountChildCircle =
-    Material.Icons.Directory.A.accountChildCircle
+accountCheckOutline : IconShape
+accountCheckOutline =
+    Material.Icons.Directory.A.accountCheckOutline
 
 
 {-| The [`account-child-outline`](https://pictogrammers.com/library/mdi/icon/account-child-outline/) icon.
@@ -712,6 +702,16 @@ accountChildCircle =
 accountChildOutline : IconShape
 accountChildOutline =
     Material.Icons.Directory.A.accountChildOutline
+
+
+{-| The [`account-child-circle`](https://pictogrammers.com/library/mdi/icon/account-child-circle/) icon.
+
+![account-child-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEyQTEuNSwxLjUgMCAwLDEgMTMuNSwxMy41QTEuNSwxLjUgMCAwLDEgMTIsMTVBMS41LDEuNSAwIDAsMSAxMC41LDEzLjVBMS41LDEuNSAwIDAsMSAxMiwxMk0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiwxNkMxMi43MiwxNiAxMy40LDE2LjE1IDE0LjA0LDE2LjVDMTQuNjgsMTYuOCAxNSwxNy4yIDE1LDE3LjY3VjE5LjQxQzE2LjM0LDE4LjgxIDE3LDE4LjA4IDE3LDE3LjJWMTIuOEMxNywxMiAxNi41LDExLjM1IDE1LjQ1LDEwLjhDMTQuNCwxMC4yNiAxMy4yNSwxMCAxMiwxMEMxMC43NSwxMCA5LjYsMTAuMjYgOC41NSwxMC44QzcuNSwxMS4zNSA3LDEyIDcsMTIuOFYxNy4yQzcsMTggNy41MywxOC42OSA4LjYzLDE5LjIyQzkuNzIsMTkuNzUgMTAuODQsMjAgMTIsMjBMMTMsMTkuOTJWMTcuOTFMMTIsMThDMTEsMTggMTAsMTcuOCA5LjA1LDE3LjM5QzkuMTcsMTcgOS41MywxNi42OSAxMC4xMywxNi40MUMxMC43MiwxNi4xMyAxMS4zNCwxNiAxMiwxNk0xMiw0QTIuNSwyLjUgMCAwLDAgOS41LDYuNUEyLjUsMi41IDAgMCwwIDEyLDlBMi41LDIuNSAwIDAsMCAxNC41LDYuNUEyLjUsMi41IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+accountChildCircle : IconShape
+accountChildCircle =
+    Material.Icons.Directory.A.accountChildCircle
 
 
 {-| The [`account-circle`](https://pictogrammers.com/library/mdi/icon/account-circle/) icon.
@@ -804,16 +804,6 @@ accountCowboyHat =
     Material.Icons.Directory.A.accountCowboyHat
 
 
-{-| The [`account-cowboy-hat-outline`](https://pictogrammers.com/library/mdi/icon/account-cowboy-hat-outline/) icon.
-
-![account-cowboy-hat-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDRDMTguNCA0IDE4IDQuNCAxOCA1VjZIMTYuNUwxNS4xIDNDMTUgMi44IDE0LjkgMi42IDE0LjcgMi41QzE0LjIgMiAxMy40IDEuOSAxMi43IDIuMkwxMiAyLjRMMTEuMyAyLjFDMTAuNiAxLjggOS44IDEuOSA5LjMgMi40QzkuMSAyLjYgOSAyLjggOC45IDNMNy41IDZINlY1QzYgNC40IDUuNiA0IDUgNFM0IDQuNCA0IDVWNkM0IDcuMSA0LjkgOCA2IDhIMThDMTkuMSA4IDIwIDcuMSAyMCA2VjVDMjAgNC41IDE5LjYgNCAxOSA0TTQgMjJWMTlDNCAxNi4zMyA5LjMzIDE1IDEyIDE1UzIwIDE2LjMzIDIwIDE5VjIySDRNMTguMSAyMC4xVjE5QzE4LjEgMTguMzYgMTQuOTcgMTYuOSAxMiAxNi45UzUuOSAxOC4zNiA1LjkgMTlWMjAuMUgxOC4xTTE2IDlWMTBDMTYgMTIuMjEgMTQuMjEgMTQgMTIgMTRTOCAxMi4yMSA4IDEwVjlIMTBWMTBDMTAgMTEuMTEgMTAuOSAxMiAxMiAxMlMxNCAxMS4xMSAxNCAxMFY5SDE2WiIgLz48L3N2Zz4=)
-
--}
-accountCowboyHatOutline : IconShape
-accountCowboyHatOutline =
-    Material.Icons.Directory.A.accountCowboyHatOutline
-
-
 {-| The [`account-credit-card`](https://pictogrammers.com/library/mdi/icon/account-credit-card/) icon.
 
 ![account-credit-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTJDOS4yIDEyIDExIDEwLjIgMTEgOFM5LjIgNCA3IDQgMyA1LjggMyA4IDQuOCAxMiA3IDEyTTExIDIwVjE0LjdDOS45IDE0LjMgOC41IDE0IDcgMTRDMy4xIDE0IDAgMTUuOCAwIDE4VjIwSDExTTIyIDRIMTVDMTMuOSA0IDEzIDQuOSAxMyA2VjE4QzEzIDE5LjEgMTMuOSAyMCAxNSAyMEgyMkMyMy4xIDIwIDI0IDE5LjEgMjQgMThWNkMyNCA0LjkgMjMuMSA0IDIyIDRNMTggMThIMTZWNkgxOFYxOFoiIC8+PC9zdmc+)
@@ -824,14 +814,14 @@ accountCreditCard =
     Material.Icons.Directory.A.accountCreditCard
 
 
-{-| The [`account-credit-card-outline`](https://pictogrammers.com/library/mdi/icon/account-credit-card-outline/) icon.
+{-| The [`account-cowboy-hat-outline`](https://pictogrammers.com/library/mdi/icon/account-cowboy-hat-outline/) icon.
 
-![account-credit-card-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgNEM0LjggNCAzIDUuOCAzIDhTNC44IDEyIDcgMTIgMTEgMTAuMiAxMSA4IDkuMiA0IDcgNE03IDEwQzUuOSAxMCA1IDkuMSA1IDhTNS45IDYgNyA2IDkgNi45IDkgOCA4LjEgMTAgNyAxME03IDE0QzMuMSAxNCAwIDE1LjggMCAxOFYyMEgxMVYxOEgyQzIgMTcuNCAzLjggMTYgNyAxNkM4LjggMTYgMTAuMiAxNi41IDExIDE3VjE0LjhDOS45IDE0LjMgOC41IDE0IDcgMTRNMjIgNEgxNUMxMy45IDQgMTMgNC45IDEzIDZWMThDMTMgMTkuMSAxMy45IDIwIDE1IDIwSDIyQzIzLjEgMjAgMjQgMTkuMSAyNCAxOFY2QzI0IDQuOSAyMy4xIDQgMjIgNE0xNiAxOEgxNVY2SDE2VjE4TTIyIDE4SDE4VjZIMjJWMThaIiAvPjwvc3ZnPg==)
+![account-cowboy-hat-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDRDMTguNCA0IDE4IDQuNCAxOCA1VjZIMTYuNUwxNS4xIDNDMTUgMi44IDE0LjkgMi42IDE0LjcgMi41QzE0LjIgMiAxMy40IDEuOSAxMi43IDIuMkwxMiAyLjRMMTEuMyAyLjFDMTAuNiAxLjggOS44IDEuOSA5LjMgMi40QzkuMSAyLjYgOSAyLjggOC45IDNMNy41IDZINlY1QzYgNC40IDUuNiA0IDUgNFM0IDQuNCA0IDVWNkM0IDcuMSA0LjkgOCA2IDhIMThDMTkuMSA4IDIwIDcuMSAyMCA2VjVDMjAgNC41IDE5LjYgNCAxOSA0TTQgMjJWMTlDNCAxNi4zMyA5LjMzIDE1IDEyIDE1UzIwIDE2LjMzIDIwIDE5VjIySDRNMTguMSAyMC4xVjE5QzE4LjEgMTguMzYgMTQuOTcgMTYuOSAxMiAxNi45UzUuOSAxOC4zNiA1LjkgMTlWMjAuMUgxOC4xTTE2IDlWMTBDMTYgMTIuMjEgMTQuMjEgMTQgMTIgMTRTOCAxMi4yMSA4IDEwVjlIMTBWMTBDMTAgMTEuMTEgMTAuOSAxMiAxMiAxMlMxNCAxMS4xMSAxNCAxMFY5SDE2WiIgLz48L3N2Zz4=)
 
 -}
-accountCreditCardOutline : IconShape
-accountCreditCardOutline =
-    Material.Icons.Directory.A.accountCreditCardOutline
+accountCowboyHatOutline : IconShape
+accountCowboyHatOutline =
+    Material.Icons.Directory.A.accountCowboyHatOutline
 
 
 {-| The [`account-details`](https://pictogrammers.com/library/mdi/icon/account-details/) icon.
@@ -842,6 +832,16 @@ accountCreditCardOutline =
 accountDetails : IconShape
 accountDetails =
     Material.Icons.Directory.A.accountDetails
+
+
+{-| The [`account-credit-card-outline`](https://pictogrammers.com/library/mdi/icon/account-credit-card-outline/) icon.
+
+![account-credit-card-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgNEM0LjggNCAzIDUuOCAzIDhTNC44IDEyIDcgMTIgMTEgMTAuMiAxMSA4IDkuMiA0IDcgNE03IDEwQzUuOSAxMCA1IDkuMSA1IDhTNS45IDYgNyA2IDkgNi45IDkgOCA4LjEgMTAgNyAxME03IDE0QzMuMSAxNCAwIDE1LjggMCAxOFYyMEgxMVYxOEgyQzIgMTcuNCAzLjggMTYgNyAxNkM4LjggMTYgMTAuMiAxNi41IDExIDE3VjE0LjhDOS45IDE0LjMgOC41IDE0IDcgMTRNMjIgNEgxNUMxMy45IDQgMTMgNC45IDEzIDZWMThDMTMgMTkuMSAxMy45IDIwIDE1IDIwSDIyQzIzLjEgMjAgMjQgMTkuMSAyNCAxOFY2QzI0IDQuOSAyMy4xIDQgMjIgNE0xNiAxOEgxNVY2SDE2VjE4TTIyIDE4SDE4VjZIMjJWMThaIiAvPjwvc3ZnPg==)
+
+-}
+accountCreditCardOutline : IconShape
+accountCreditCardOutline =
+    Material.Icons.Directory.A.accountCreditCardOutline
 
 
 {-| The [`account-details-outline`](https://pictogrammers.com/library/mdi/icon/account-details-outline/) icon.
@@ -924,16 +924,6 @@ accountFileText =
     Material.Icons.Directory.A.accountFileText
 
 
-{-| The [`account-file-text-outline`](https://pictogrammers.com/library/mdi/icon/account-file-text-outline/) icon.
-
-![account-file-text-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSA1QzkuNDMgNSAxMSA2LjU3IDExIDguNUMxMSAxMC40MyA5LjQzIDEyIDcuNSAxMkM1LjU3IDEyIDQgMTAuNDMgNCA4LjVDNCA2LjU3IDUuNTcgNSA3LjUgNU0xIDE5VjE2LjVDMSAxNC41NyA0LjQ2IDEzIDcuNSAxM0M4LjY4IDEzIDkuOTIgMTMuMjQgMTEgMTMuNjRWMTUuNTZDMTAuMTggMTUuMjIgOC45MSAxNSA3LjUgMTVDNSAxNSAzIDE1LjY3IDMgMTYuNVYxN0gxMVYxOUgxTTIyIDE5SDE0QzEzLjQ1IDE5IDEzIDE4LjU1IDEzIDE4VjZDMTMgNS40NSAxMy40NSA1IDE0IDVIMTlMMjMgOVYxOEMyMyAxOC41NSAyMi41NSAxOSAyMiAxOU0xNSA3VjE3SDIxVjEwSDE4VjdIMTVNNy41IDdDNi42NyA3IDYgNy42NyA2IDguNUM2IDkuMzMgNi42NyAxMCA3LjUgMTBDOC4zMyAxMCA5IDkuMzMgOSA4LjVDOSA3LjY3IDguMzMgNyA3LjUgN00xNiAxM0gyMFYxNUgxNlYxM1oiIC8+PC9zdmc+)
-
--}
-accountFileTextOutline : IconShape
-accountFileTextOutline =
-    Material.Icons.Directory.A.accountFileTextOutline
-
-
 {-| The [`account-filter`](https://pictogrammers.com/library/mdi/icon/account-filter/) icon.
 
 ![account-filter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDRDMTIuMiA0IDE0IDUuOCAxNCA4UzEyLjIgMTIgMTAgMTIgNiAxMC4yIDYgOCA3LjggNCAxMCA0TTE3IDIxTDE4LjggMjIuNzdDMTkuMyAyMy4yNyAyMCAyMi44NyAyMCAyMi4yOFYxOEwyMi44IDE0LjZDMjMuMyAxMy45IDIyLjggMTMgMjIgMTNIMTVDMTQuMiAxMyAxMy43IDE0IDE0LjIgMTQuNkwxNyAxOFYyMU0xNSAxOC43TDEyLjcgMTUuOUMxMi4zIDE1LjQgMTIuMSAxNC44IDEyLjEgMTQuMkMxMS40IDE0IDEwLjcgMTQgMTAgMTRDNS42IDE0IDIgMTUuOCAyIDE4VjIwSDE1VjE4LjdaIiAvPjwvc3ZnPg==)
@@ -942,6 +932,16 @@ accountFileTextOutline =
 accountFilter : IconShape
 accountFilter =
     Material.Icons.Directory.A.accountFilter
+
+
+{-| The [`account-file-text-outline`](https://pictogrammers.com/library/mdi/icon/account-file-text-outline/) icon.
+
+![account-file-text-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSA1QzkuNDMgNSAxMSA2LjU3IDExIDguNUMxMSAxMC40MyA5LjQzIDEyIDcuNSAxMkM1LjU3IDEyIDQgMTAuNDMgNCA4LjVDNCA2LjU3IDUuNTcgNSA3LjUgNU0xIDE5VjE2LjVDMSAxNC41NyA0LjQ2IDEzIDcuNSAxM0M4LjY4IDEzIDkuOTIgMTMuMjQgMTEgMTMuNjRWMTUuNTZDMTAuMTggMTUuMjIgOC45MSAxNSA3LjUgMTVDNSAxNSAzIDE1LjY3IDMgMTYuNVYxN0gxMVYxOUgxTTIyIDE5SDE0QzEzLjQ1IDE5IDEzIDE4LjU1IDEzIDE4VjZDMTMgNS40NSAxMy40NSA1IDE0IDVIMTlMMjMgOVYxOEMyMyAxOC41NSAyMi41NSAxOSAyMiAxOU0xNSA3VjE3SDIxVjEwSDE4VjdIMTVNNy41IDdDNi42NyA3IDYgNy42NyA2IDguNUM2IDkuMzMgNi42NyAxMCA3LjUgMTBDOC4zMyAxMCA5IDkuMzMgOSA4LjVDOSA3LjY3IDguMzMgNyA3LjUgN00xNiAxM0gyMFYxNUgxNlYxM1oiIC8+PC9zdmc+)
+
+-}
+accountFileTextOutline : IconShape
+accountFileTextOutline =
+    Material.Icons.Directory.A.accountFileTextOutline
 
 
 {-| The [`account-filter-outline`](https://pictogrammers.com/library/mdi/icon/account-filter-outline/) icon.
@@ -1124,16 +1124,6 @@ accountMultiple =
     Material.Icons.Directory.A.accountMultiple
 
 
-{-| The [`account-multiple-check`](https://pictogrammers.com/library/mdi/icon/account-multiple-check/) icon.
-
-![account-multiple-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE3VjE5SDdWMTdTNyAxMyAxMyAxMyAxOSAxNyAxOSAxN00xNiA4QTMgMyAwIDEgMCAxMyAxMUEzIDMgMCAwIDAgMTYgOE0xOS4yIDEzLjA2QTUuNiA1LjYgMCAwIDEgMjEgMTdWMTlIMjRWMTdTMjQgMTMuNTUgMTkuMiAxMy4wNk0xOCA1QTIuOTEgMi45MSAwIDAgMCAxNy4xMSA1LjE0QTUgNSAwIDAgMSAxNy4xMSAxMC44NkEyLjkxIDIuOTEgMCAwIDAgMTggMTFBMyAzIDAgMCAwIDE4IDVNNy4zNCA4LjkyTDguNSAxMC4zM0wzLjc1IDE1LjA4TDEgMTIuMDhMMi4xNiAxMC45MkwzLjc1IDEyLjVMNy4zNCA4LjkyIiAvPjwvc3ZnPg==)
-
--}
-accountMultipleCheck : IconShape
-accountMultipleCheck =
-    Material.Icons.Directory.A.accountMultipleCheck
-
-
 {-| The [`account-multiple-check-outline`](https://pictogrammers.com/library/mdi/icon/account-multiple-check-outline/) icon.
 
 ![account-multiple-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDExQTMgMyAwIDEgMCAxMCA4QTMgMyAwIDAgMCAxMyAxMU0xMyA3QTEgMSAwIDEgMSAxMiA4QTEgMSAwIDAgMSAxMyA3TTE3LjExIDEwLjg2QTUgNSAwIDAgMCAxNy4xMSA1LjE0QTIuOTEgMi45MSAwIDAgMSAxOCA1QTMgMyAwIDAgMSAxOCAxMUEyLjkxIDIuOTEgMCAwIDEgMTcuMTEgMTAuODZNMTMgMTNDNyAxMyA3IDE3IDcgMTdWMTlIMTlWMTdTMTkgMTMgMTMgMTNNOSAxN0M5IDE2LjcxIDkuMzIgMTUgMTMgMTVDMTYuNSAxNSAxNi45NCAxNi41NiAxNyAxN00yNCAxN1YxOUgyMVYxN0E1LjYgNS42IDAgMCAwIDE5LjIgMTMuMDZDMjQgMTMuNTUgMjQgMTcgMjQgMTdNNy4zNCA4LjkyTDguNSAxMC4zM0wzLjc1IDE1LjA4TDEgMTIuMDhMMi4xNiAxMC45MkwzLjc1IDEyLjVMNy4zNCA4LjkyIiAvPjwvc3ZnPg==)
@@ -1142,6 +1132,16 @@ accountMultipleCheck =
 accountMultipleCheckOutline : IconShape
 accountMultipleCheckOutline =
     Material.Icons.Directory.A.accountMultipleCheckOutline
+
+
+{-| The [`account-multiple-check`](https://pictogrammers.com/library/mdi/icon/account-multiple-check/) icon.
+
+![account-multiple-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE3VjE5SDdWMTdTNyAxMyAxMyAxMyAxOSAxNyAxOSAxN00xNiA4QTMgMyAwIDEgMCAxMyAxMUEzIDMgMCAwIDAgMTYgOE0xOS4yIDEzLjA2QTUuNiA1LjYgMCAwIDEgMjEgMTdWMTlIMjRWMTdTMjQgMTMuNTUgMTkuMiAxMy4wNk0xOCA1QTIuOTEgMi45MSAwIDAgMCAxNy4xMSA1LjE0QTUgNSAwIDAgMSAxNy4xMSAxMC44NkEyLjkxIDIuOTEgMCAwIDAgMTggMTFBMyAzIDAgMCAwIDE4IDVNNy4zNCA4LjkyTDguNSAxMC4zM0wzLjc1IDE1LjA4TDEgMTIuMDhMMi4xNiAxMC45MkwzLjc1IDEyLjVMNy4zNCA4LjkyIiAvPjwvc3ZnPg==)
+
+-}
+accountMultipleCheck : IconShape
+accountMultipleCheck =
+    Material.Icons.Directory.A.accountMultipleCheck
 
 
 {-| The [`account-multiple-minus`](https://pictogrammers.com/library/mdi/icon/account-multiple-minus/) icon.
@@ -1264,16 +1264,6 @@ accountNetworkOffOutline =
     Material.Icons.Directory.A.accountNetworkOffOutline
 
 
-{-| The [`account-network-outline`](https://pictogrammers.com/library/mdi/icon/account-network-outline/) icon.
-
-![account-network-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEwQTMuNSwzLjUgMCAwLDAgMTUuNSw2LjVBMy41LDMuNSAwIDAsMCAxMiwzQTMuNSwzLjUgMCAwLDAgOC41LDYuNUEzLjUsMy41IDAgMCwwIDEyLDEwTTEyLDVBMS41LDEuNSAwIDAsMSAxMy41LDYuNUExLjUsMS41IDAgMCwxIDEyLDhBMS41LDEuNSAwIDAsMSAxMC41LDYuNUExLjUsMS41IDAgMCwxIDEyLDVNMTUsMjBBMSwxIDAgMCwwIDE0LDE5SDEzVjE3SDE5VjE1LjVDMTksMTMuNTcgMTUuODcsMTIgMTIsMTJDOC4xMywxMiA1LDEzLjU3IDUsMTUuNVYxN0gxMVYxOUgxMEExLDEgMCAwLDAgOSwyMEgyVjIySDlBMSwxIDAgMCwwIDEwLDIzSDE0QTEsMSAwIDAsMCAxNSwyMkgyMlYyMEgxNU03LjYxLDE1QzguMzksMTQuNTMgOS44OSwxNCAxMiwxNEMxNC4xMSwxNCAxNS42MSwxNC41MyAxNi4zOSwxNUg3LjYxWiIgLz48L3N2Zz4=)
-
--}
-accountNetworkOutline : IconShape
-accountNetworkOutline =
-    Material.Icons.Directory.A.accountNetworkOutline
-
-
 {-| The [`account-off`](https://pictogrammers.com/library/mdi/icon/account-off/) icon.
 
 ![account-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhDMTYsOS45NSAxNC42LDExLjU4IDEyLjc1LDExLjkzTDguMDcsNy4yNUM4LjQyLDUuNCAxMC4wNSw0IDEyLDRNMTIuMjgsMTRMMTguMjgsMjBMMjAsMjEuNzJMMTguNzMsMjNMMTUuNzMsMjBINFYxOEM0LDE2LjE2IDYuNSwxNC42MSA5Ljg3LDE0LjE0TDIuNzgsNy4wNUw0LjA1LDUuNzhMMTIuMjgsMTRNMjAsMThWMTkuMThMMTUuMTQsMTQuMzJDMTgsMTQuOTMgMjAsMTYuMzUgMjAsMThaIiAvPjwvc3ZnPg==)
@@ -1284,14 +1274,14 @@ accountOff =
     Material.Icons.Directory.A.accountOff
 
 
-{-| The [`account-off-outline`](https://pictogrammers.com/library/mdi/icon/account-off-outline/) icon.
+{-| The [`account-network-outline`](https://pictogrammers.com/library/mdi/icon/account-network-outline/) icon.
 
-![account-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNzUsN0w0LjAzLDUuNzVMMTMuMjYsMTVMMjAsMjEuNzJMMTguNzMsMjNMMTUuNzMsMjBINFYxN0M0LDE1LjE0IDYuNjEsMTMuOTIgOS4wOSwxMy4zNkwyLjc1LDdNMjAsMTdWMTkuMThMMTguMSwxNy4yOFYxN0MxOC4xLDE2Ljc0IDE3LjYsMTYuMzUgMTYuOCwxNkwxNCwxMy4xOEMxNi43MSwxMy42MyAyMCwxNC45MSAyMCwxN001LjksMTdWMTguMUgxMy44M0wxMC43MiwxNUM4LjE5LDE1LjMgNS45LDE2LjQ1IDUuOSwxN00xMiw0QTQsNCAwIDAsMSAxNiw4QzE2LDkuOTUgMTQuNiwxMS41OCAxMi43NSwxMS45M0w4LjA3LDcuMjVDOC40Miw1LjQgMTAuMDUsNCAxMiw0TTEyLDZBMiwyIDAgMCwwIDEwLDhBMiwyIDAgMCwwIDEyLDEwQTIsMiAwIDAsMCAxNCw4QTIsMiAwIDAsMCAxMiw2WiIgLz48L3N2Zz4=)
+![account-network-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEwQTMuNSwzLjUgMCAwLDAgMTUuNSw2LjVBMy41LDMuNSAwIDAsMCAxMiwzQTMuNSwzLjUgMCAwLDAgOC41LDYuNUEzLjUsMy41IDAgMCwwIDEyLDEwTTEyLDVBMS41LDEuNSAwIDAsMSAxMy41LDYuNUExLjUsMS41IDAgMCwxIDEyLDhBMS41LDEuNSAwIDAsMSAxMC41LDYuNUExLjUsMS41IDAgMCwxIDEyLDVNMTUsMjBBMSwxIDAgMCwwIDE0LDE5SDEzVjE3SDE5VjE1LjVDMTksMTMuNTcgMTUuODcsMTIgMTIsMTJDOC4xMywxMiA1LDEzLjU3IDUsMTUuNVYxN0gxMVYxOUgxMEExLDEgMCAwLDAgOSwyMEgyVjIySDlBMSwxIDAgMCwwIDEwLDIzSDE0QTEsMSAwIDAsMCAxNSwyMkgyMlYyMEgxNU03LjYxLDE1QzguMzksMTQuNTMgOS44OSwxNCAxMiwxNEMxNC4xMSwxNCAxNS42MSwxNC41MyAxNi4zOSwxNUg3LjYxWiIgLz48L3N2Zz4=)
 
 -}
-accountOffOutline : IconShape
-accountOffOutline =
-    Material.Icons.Directory.A.accountOffOutline
+accountNetworkOutline : IconShape
+accountNetworkOutline =
+    Material.Icons.Directory.A.accountNetworkOutline
 
 
 {-| The [`account-outline`](https://pictogrammers.com/library/mdi/icon/account-outline/) icon.
@@ -1302,6 +1292,16 @@ accountOffOutline =
 accountOutline : IconShape
 accountOutline =
     Material.Icons.Directory.A.accountOutline
+
+
+{-| The [`account-off-outline`](https://pictogrammers.com/library/mdi/icon/account-off-outline/) icon.
+
+![account-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNzUsN0w0LjAzLDUuNzVMMTMuMjYsMTVMMjAsMjEuNzJMMTguNzMsMjNMMTUuNzMsMjBINFYxN0M0LDE1LjE0IDYuNjEsMTMuOTIgOS4wOSwxMy4zNkwyLjc1LDdNMjAsMTdWMTkuMThMMTguMSwxNy4yOFYxN0MxOC4xLDE2Ljc0IDE3LjYsMTYuMzUgMTYuOCwxNkwxNCwxMy4xOEMxNi43MSwxMy42MyAyMCwxNC45MSAyMCwxN001LjksMTdWMTguMUgxMy44M0wxMC43MiwxNUM4LjE5LDE1LjMgNS45LDE2LjQ1IDUuOSwxN00xMiw0QTQsNCAwIDAsMSAxNiw4QzE2LDkuOTUgMTQuNiwxMS41OCAxMi43NSwxMS45M0w4LjA3LDcuMjVDOC40Miw1LjQgMTAuMDUsNCAxMiw0TTEyLDZBMiwyIDAgMCwwIDEwLDhBMiwyIDAgMCwwIDEyLDEwQTIsMiAwIDAsMCAxNCw4QTIsMiAwIDAsMCAxMiw2WiIgLz48L3N2Zz4=)
+
+-}
+accountOffOutline : IconShape
+accountOffOutline =
+    Material.Icons.Directory.A.accountOffOutline
 
 
 {-| The [`account-plus`](https://pictogrammers.com/library/mdi/icon/account-plus/) icon.
@@ -1364,16 +1364,6 @@ accountReactivateOutline =
     Material.Icons.Directory.A.accountReactivateOutline
 
 
-{-| The [`account-remove`](https://pictogrammers.com/library/mdi/icon/account-remove/) icon.
-
-![account-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE0QzE3LjY3LDE0IDIzLDE1LjMzIDIzLDE4VjIwSDdWMThDNywxNS4zMyAxMi4zMywxNCAxNSwxNE0xNSwxMkE0LDQgMCAwLDEgMTEsOEE0LDQgMCAwLDEgMTUsNEE0LDQgMCAwLDEgMTksOEE0LDQgMCAwLDEgMTUsMTJNNSw5LjU5TDcuMTIsNy40Nkw4LjU0LDguODhMNi40MSwxMUw4LjU0LDEzLjEyTDcuMTIsMTQuNTRMNSwxMi40MUwyLjg4LDE0LjU0TDEuNDYsMTMuMTJMMy41OSwxMUwxLjQ2LDguODhMMi44OCw3LjQ2TDUsOS41OVoiIC8+PC9zdmc+)
-
--}
-accountRemove : IconShape
-accountRemove =
-    Material.Icons.Directory.A.accountRemove
-
-
 {-| The [`account-remove-outline`](https://pictogrammers.com/library/mdi/icon/account-remove-outline/) icon.
 
 ![account-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuNDYsOC44OEwyLjg4LDcuNDZMNSw5LjU5TDcuMTIsNy40Nkw4LjU0LDguODhMNi40MSwxMUw4LjU0LDEzLjEyTDcuMTIsMTQuNTRMNSwxMi40MUwyLjg4LDE0LjU0TDEuNDYsMTMuMTJMMy41OSwxMUwxLjQ2LDguODhNMTUsNEE0LDQgMCAwLDEgMTksOEE0LDQgMCAwLDEgMTUsMTJBNCw0IDAgMCwxIDExLDhBNCw0IDAgMCwxIDE1LDRNMTUsNS45QTIuMSwyLjEgMCAwLDAgMTIuOSw4QTIuMSwyLjEgMCAwLDAgMTUsMTAuMUMxNi4xNiwxMC4xIDE3LjEsOS4xNiAxNy4xLDhDMTcuMSw2Ljg0IDE2LjE2LDUuOSAxNSw1LjlNMTUsMTNDMTcuNjcsMTMgMjMsMTQuMzMgMjMsMTdWMjBIN1YxN0M3LDE0LjMzIDEyLjMzLDEzIDE1LDEzTTE1LDE0LjlDMTIsMTQuOSA4LjksMTYuMzYgOC45LDE3VjE4LjFIMjEuMVYxN0MyMS4xLDE2LjM2IDE3Ljk3LDE0LjkgMTUsMTQuOVoiIC8+PC9zdmc+)
@@ -1382,6 +1372,16 @@ accountRemove =
 accountRemoveOutline : IconShape
 accountRemoveOutline =
     Material.Icons.Directory.A.accountRemoveOutline
+
+
+{-| The [`account-remove`](https://pictogrammers.com/library/mdi/icon/account-remove/) icon.
+
+![account-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE0QzE3LjY3LDE0IDIzLDE1LjMzIDIzLDE4VjIwSDdWMThDNywxNS4zMyAxMi4zMywxNCAxNSwxNE0xNSwxMkE0LDQgMCAwLDEgMTEsOEE0LDQgMCAwLDEgMTUsNEE0LDQgMCAwLDEgMTksOEE0LDQgMCAwLDEgMTUsMTJNNSw5LjU5TDcuMTIsNy40Nkw4LjU0LDguODhMNi40MSwxMUw4LjU0LDEzLjEyTDcuMTIsMTQuNTRMNSwxMi40MUwyLjg4LDE0LjU0TDEuNDYsMTMuMTJMMy41OSwxMUwxLjQ2LDguODhMMi44OCw3LjQ2TDUsOS41OVoiIC8+PC9zdmc+)
+
+-}
+accountRemove : IconShape
+accountRemove =
+    Material.Icons.Directory.A.accountRemove
 
 
 {-| The [`account-school`](https://pictogrammers.com/library/mdi/icon/account-school/) icon.
@@ -1434,16 +1434,6 @@ accountSettings =
     Material.Icons.Directory.A.accountSettings
 
 
-{-| The [`account-settings-outline`](https://pictogrammers.com/library/mdi/icon/account-settings-outline/) icon.
-
-![account-settings-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTQuMjEgNCAxNiA1Ljc5IDE2IDhTMTQuMjEgMTIgMTIgMTIgOCAxMC4yMSA4IDggOS43OSA0IDEyIDRNMTIgNkMxMC45IDYgMTAgNi45IDEwIDhTMTAuOSAxMCAxMiAxMCAxNCA5LjExIDE0IDggMTMuMTEgNiAxMiA2TTEyIDEzQzE0LjY3IDEzIDIwIDE0LjMzIDIwIDE3VjIwSDRWMTdDNCAxNC4zMyA5LjMzIDEzIDEyIDEzTTEyIDE0LjlDOS4wMyAxNC45IDUuOSAxNi4zNiA1LjkgMTdWMTguMUgxOC4xVjE3QzE4LjEgMTYuMzYgMTQuOTcgMTQuOSAxMiAxNC45TTEzIDIySDExVjI0SDEzVjIyTTE3IDIySDE1VjI0SDE3VjIyTTkgMjJIN1YyNEg5VjIyWiIgLz48L3N2Zz4=)
-
--}
-accountSettingsOutline : IconShape
-accountSettingsOutline =
-    Material.Icons.Directory.A.accountSettingsOutline
-
-
 {-| The [`account-star`](https://pictogrammers.com/library/mdi/icon/account-star/) icon.
 
 ![account-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE0QzEyLjMzLDE0IDcsMTUuMzMgNywxOFYyMEgyM1YxOEMyMywxNS4zMyAxNy42NywxNCAxNSwxNE0xNSwxMkE0LDQgMCAwLDAgMTksOEE0LDQgMCAwLDAgMTUsNEE0LDQgMCAwLDAgMTEsOEE0LDQgMCAwLDAgMTUsMTJNNSwxMy4yOEw3LjQ1LDE0Ljc3TDYuOCwxMS45Nkw5LDEwLjA4TDYuMTEsOS44M0w1LDcuMTlMMy44Nyw5LjgzTDEsMTAuMDhMMy4xOCwxMS45NkwyLjUsMTQuNzdMNSwxMy4yOFoiIC8+PC9zdmc+)
@@ -1452,6 +1442,16 @@ accountSettingsOutline =
 accountStar : IconShape
 accountStar =
     Material.Icons.Directory.A.accountStar
+
+
+{-| The [`account-settings-outline`](https://pictogrammers.com/library/mdi/icon/account-settings-outline/) icon.
+
+![account-settings-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTQuMjEgNCAxNiA1Ljc5IDE2IDhTMTQuMjEgMTIgMTIgMTIgOCAxMC4yMSA4IDggOS43OSA0IDEyIDRNMTIgNkMxMC45IDYgMTAgNi45IDEwIDhTMTAuOSAxMCAxMiAxMCAxNCA5LjExIDE0IDggMTMuMTEgNiAxMiA2TTEyIDEzQzE0LjY3IDEzIDIwIDE0LjMzIDIwIDE3VjIwSDRWMTdDNCAxNC4zMyA5LjMzIDEzIDEyIDEzTTEyIDE0LjlDOS4wMyAxNC45IDUuOSAxNi4zNiA1LjkgMTdWMTguMUgxOC4xVjE3QzE4LjEgMTYuMzYgMTQuOTcgMTQuOSAxMiAxNC45TTEzIDIySDExVjI0SDEzVjIyTTE3IDIySDE1VjI0SDE3VjIyTTkgMjJIN1YyNEg5VjIyWiIgLz48L3N2Zz4=)
+
+-}
+accountSettingsOutline : IconShape
+accountSettingsOutline =
+    Material.Icons.Directory.A.accountSettingsOutline
 
 
 {-| The [`account-star-outline`](https://pictogrammers.com/library/mdi/icon/account-star-outline/) icon.
@@ -1484,16 +1484,6 @@ accountSupervisorCircle =
     Material.Icons.Directory.A.accountSupervisorCircle
 
 
-{-| The [`account-supervisor-circle-outline`](https://pictogrammers.com/library/mdi/icon/account-supervisor-circle-outline/) icon.
-
-![account-supervisor-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUgMTBDMTIuNSA4LjM0IDExLjE2IDcgOS41IDdDNy44NiA3IDYuNSA4LjM0IDYuNSAxMEM2LjUgMTEuNjQgNy44NiAxMyA5LjUgMTNDMTEuMTYgMTMgMTIuNSAxMS42NCAxMi41IDEwTTkuNSAxMUM4Ljk2IDExIDguNSAxMC41NCA4LjUgMTBDOC41IDkuNDQgOC45NiA5IDkuNSA5QzEwLjA2IDkgMTAuNSA5LjQ0IDEwLjUgMTBDMTAuNSAxMC41NCAxMC4wNiAxMSA5LjUgMTFNMTYgMTNDMTcuMTIgMTMgMTggMTIuMSAxOCAxMUMxOCA5Ljg4IDE3LjEyIDkgMTYgOUMxNC45IDkgMTQgOS44OCAxNCAxMUMxNCAxMi4xIDE0LjkgMTMgMTYgMTNNMTIgMkM2LjUgMiAyIDYuNSAyIDEyQzIgMTcuNSA2LjUgMjIgMTIgMjJDMTcuNSAyMiAyMiAxNy41IDIyIDEyQzIyIDYuNSAxNy41IDIgMTIgMk01Ljg1IDE3LjExQzYuNTMgMTYuNTcgOC4xMiAxNiA5LjUgMTZDOS41OCAxNiA5LjY2IDE2IDkuNzQgMTZDMTAgMTUuMzcgMTAuNDEgMTQuNzIgMTEuMDQgMTQuMTVDMTAuNSAxNC4wNSA5Ljk1IDE0IDkuNSAxNEM4LjIxIDE0IDYuMTIgMTQuNDQgNC43OCAxNS40MkM0LjI4IDE0LjM4IDQgMTMuMjIgNCAxMkM0IDcuNTggNy41OSA0IDEyIDRDMTYuNDEgNCAyMCA3LjU4IDIwIDEyQzIwIDEzLjE5IDE5LjczIDE0LjMzIDE5LjI1IDE1LjM2QzE4LjI1IDE0Ljc3IDE2Ljg5IDE0LjUgMTYgMTQuNUMxNC41IDE0LjUgMTEuNSAxNS4zIDExLjUgMTcuMTlWMTkuOTdDOS4yNCAxOS44NCA3LjIyIDE4Ljc2IDUuODUgMTcuMTFaIiAvPjwvc3ZnPg==)
-
--}
-accountSupervisorCircleOutline : IconShape
-accountSupervisorCircleOutline =
-    Material.Icons.Directory.A.accountSupervisorCircleOutline
-
-
 {-| The [`account-supervisor-outline`](https://pictogrammers.com/library/mdi/icon/account-supervisor-outline/) icon.
 
 ![account-supervisor-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTUuNUMxOC4yMiAxNS41IDIwLjI1IDE2LjMgMjAuNSAxNi43OFYxNy41SDEyLjVWMTYuNzhDMTIuNzUgMTYuMyAxNC43OCAxNS41IDE2LjUgMTUuNU0xNi41IDE0QzE0LjY3IDE0IDExIDE0LjkyIDExIDE2Ljc1VjE5SDIyVjE2Ljc1QzIyIDE0LjkyIDE4LjMzIDE0IDE2LjUgMTRNOSAxM0M2LjY3IDEzIDIgMTQuMTcgMiAxNi41VjE5SDlWMTcuNUgzLjVWMTYuNUMzLjUgMTUuODcgNi4yOSAxNC4zNCA5LjgyIDE0LjVBNS4xMiA1LjEyIDAgMCAxIDExLjM3IDEzLjI1QTEyLjI4IDEyLjI4IDAgMCAwIDkgMTNNOSA2LjVBMS41IDEuNSAwIDEgMSA3LjUgOEExLjUgMS41IDAgMCAxIDkgNi41TTkgNUEzIDMgMCAxIDAgMTIgOEEzIDMgMCAwIDAgOSA1TTE2LjUgOC41QTEgMSAwIDEgMSAxNS41IDkuNUExIDEgMCAwIDEgMTYuNSA4LjVNMTYuNSA3QTIuNSAyLjUgMCAxIDAgMTkgOS41QTIuNSAyLjUgMCAwIDAgMTYuNSA3WiIgLz48L3N2Zz4=)
@@ -1502,6 +1492,16 @@ accountSupervisorCircleOutline =
 accountSupervisorOutline : IconShape
 accountSupervisorOutline =
     Material.Icons.Directory.A.accountSupervisorOutline
+
+
+{-| The [`account-supervisor-circle-outline`](https://pictogrammers.com/library/mdi/icon/account-supervisor-circle-outline/) icon.
+
+![account-supervisor-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUgMTBDMTIuNSA4LjM0IDExLjE2IDcgOS41IDdDNy44NiA3IDYuNSA4LjM0IDYuNSAxMEM2LjUgMTEuNjQgNy44NiAxMyA5LjUgMTNDMTEuMTYgMTMgMTIuNSAxMS42NCAxMi41IDEwTTkuNSAxMUM4Ljk2IDExIDguNSAxMC41NCA4LjUgMTBDOC41IDkuNDQgOC45NiA5IDkuNSA5QzEwLjA2IDkgMTAuNSA5LjQ0IDEwLjUgMTBDMTAuNSAxMC41NCAxMC4wNiAxMSA5LjUgMTFNMTYgMTNDMTcuMTIgMTMgMTggMTIuMSAxOCAxMUMxOCA5Ljg4IDE3LjEyIDkgMTYgOUMxNC45IDkgMTQgOS44OCAxNCAxMUMxNCAxMi4xIDE0LjkgMTMgMTYgMTNNMTIgMkM2LjUgMiAyIDYuNSAyIDEyQzIgMTcuNSA2LjUgMjIgMTIgMjJDMTcuNSAyMiAyMiAxNy41IDIyIDEyQzIyIDYuNSAxNy41IDIgMTIgMk01Ljg1IDE3LjExQzYuNTMgMTYuNTcgOC4xMiAxNiA5LjUgMTZDOS41OCAxNiA5LjY2IDE2IDkuNzQgMTZDMTAgMTUuMzcgMTAuNDEgMTQuNzIgMTEuMDQgMTQuMTVDMTAuNSAxNC4wNSA5Ljk1IDE0IDkuNSAxNEM4LjIxIDE0IDYuMTIgMTQuNDQgNC43OCAxNS40MkM0LjI4IDE0LjM4IDQgMTMuMjIgNCAxMkM0IDcuNTggNy41OSA0IDEyIDRDMTYuNDEgNCAyMCA3LjU4IDIwIDEyQzIwIDEzLjE5IDE5LjczIDE0LjMzIDE5LjI1IDE1LjM2QzE4LjI1IDE0Ljc3IDE2Ljg5IDE0LjUgMTYgMTQuNUMxNC41IDE0LjUgMTEuNSAxNS4zIDExLjUgMTcuMTlWMTkuOTdDOS4yNCAxOS44NCA3LjIyIDE4Ljc2IDUuODUgMTcuMTFaIiAvPjwvc3ZnPg==)
+
+-}
+accountSupervisorCircleOutline : IconShape
+accountSupervisorCircleOutline =
+    Material.Icons.Directory.A.accountSupervisorCircleOutline
 
 
 {-| The [`account-switch`](https://pictogrammers.com/library/mdi/icon/account-switch/) icon.
@@ -1544,16 +1544,6 @@ accountSyncOutline =
     Material.Icons.Directory.A.accountSyncOutline
 
 
-{-| The [`account-tag`](https://pictogrammers.com/library/mdi/icon/account-tag/) icon.
-
-![account-tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjggMTcuOEwxOC4yIDE0LjJDMTggMTQuMSAxNy44IDE0IDE3LjYgMTRIMTQuOEMxNC40IDE0IDE0IDE0LjQgMTQgMTQuOFYxNy42QzE0IDE3LjggMTQuMSAxOCAxNC4yIDE4LjJMMTcuOCAyMS44QzE3LjkgMjEuOSAxOC4xIDIyIDE4LjQgMjJDMTguNiAyMiAxOC44IDIxLjkgMTkgMjEuOEwyMS44IDE5QzIxLjkgMTguOSAyMiAxOC43IDIyIDE4LjRDMjIgMTguMiAyMS45IDE4IDIxLjggMTcuOE0xNS40IDE2QzE1LjEgMTYgMTQuOCAxNS43IDE0LjggMTUuNEMxNC44IDE1LjEgMTUuMSAxNC44IDE1LjQgMTQuOEMxNS43IDE0LjggMTYgMTUuMSAxNiAxNS40QzE2IDE1LjcgMTUuNyAxNiAxNS40IDE2TTEwIDRDNy44IDQgNiA1LjggNiA4UzcuOCAxMiAxMCAxMiAxNCAxMC4yIDE0IDggMTIuMiA0IDEwIDRNMTAgMTRDNS42IDE0IDIgMTUuOCAyIDE4VjIwSDEzLjJMMTIuOCAxOS42QzEyLjMgMTkuMSAxMiAxOC40IDEyIDE3LjZWMTQuOEMxMiAxNC42IDEyIDE0LjQgMTIuMSAxNC4xQzExLjQgMTQgMTAuNyAxNCAxMCAxNFoiIC8+PC9zdmc+)
-
--}
-accountTag : IconShape
-accountTag =
-    Material.Icons.Directory.A.accountTag
-
-
 {-| The [`account-tag-outline`](https://pictogrammers.com/library/mdi/icon/account-tag-outline/) icon.
 
 ![account-tag-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjQgMTZDMTUuMSAxNiAxNC44IDE1LjcgMTQuOCAxNS40QzE0LjggMTUuMSAxNS4xIDE0LjggMTUuNCAxNC44QzE1LjcgMTQuOCAxNiAxNS4xIDE2IDE1LjRDMTYgMTUuNyAxNS43IDE2IDE1LjQgMTZNMjEuOCAxNy44TDE4LjIgMTQuMkMxOCAxNC4xIDE3LjggMTQgMTcuNiAxNEgxNC44QzE0LjQgMTQgMTQgMTQuNCAxNCAxNC44VjE3LjZDMTQgMTcuOCAxNC4xIDE4IDE0LjIgMTguMkwxNy44IDIxLjhDMTcuOSAyMS45IDE4LjEgMjIgMTguNCAyMlMxOC44IDIxLjkgMTkgMjEuOEwyMS44IDE5QzIxLjkgMTguOSAyMiAxOC43IDIyIDE4LjRDMjIgMTguMiAyMS45IDE4IDIxLjggMTcuOE0xMCA0QzcuOCA0IDYgNS44IDYgOFM3LjggMTIgMTAgMTIgMTQgMTAuMiAxNCA4IDEyLjIgNCAxMCA0TTEwIDZDMTEuMSA2IDEyIDYuOSAxMiA4UzExLjEgMTAgMTAgMTAgOCA5LjEgOCA4IDguOSA2IDEwIDZNMTAgMTNDNy4zIDEzIDIgMTQuMyAyIDE3VjIwSDEzLjJMMTIuOCAxOS42QzEyLjQgMTkuMiAxMi4xIDE4LjcgMTIgMTguMUgzLjlWMTdDMy45IDE2LjQgNyAxNC45IDEwIDE0LjlDMTAuNyAxNC45IDExLjQgMTUgMTIgMTUuMVYxNC44QzEyIDE0LjIgMTIuMiAxMy43IDEyLjUgMTMuM0MxMS42IDEzLjEgMTAuNyAxMyAxMCAxM1oiIC8+PC9zdmc+)
@@ -1564,14 +1554,14 @@ accountTagOutline =
     Material.Icons.Directory.A.accountTagOutline
 
 
-{-| The [`account-tie`](https://pictogrammers.com/library/mdi/icon/account-tie/) icon.
+{-| The [`account-tag`](https://pictogrammers.com/library/mdi/icon/account-tag/) icon.
 
-![account-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDNDMTQuMjEgMyAxNiA0Ljc5IDE2IDdTMTQuMjEgMTEgMTIgMTEgOCA5LjIxIDggNyA5Ljc5IDMgMTIgM00xNiAxMy41NEMxNiAxNC42IDE1LjcyIDE3LjA3IDEzLjgxIDE5LjgzTDEzIDE1TDEzLjk0IDEzLjEyQzEzLjMyIDEzLjA1IDEyLjY3IDEzIDEyIDEzUzEwLjY4IDEzLjA1IDEwLjA2IDEzLjEyTDExIDE1TDEwLjE5IDE5LjgzQzguMjggMTcuMDcgOCAxNC42IDggMTMuNTRDNS42MSAxNC4yNCA0IDE1LjUgNCAxN1YyMUgyMFYxN0MyMCAxNS41IDE4LjQgMTQuMjQgMTYgMTMuNTRaIiAvPjwvc3ZnPg==)
+![account-tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjggMTcuOEwxOC4yIDE0LjJDMTggMTQuMSAxNy44IDE0IDE3LjYgMTRIMTQuOEMxNC40IDE0IDE0IDE0LjQgMTQgMTQuOFYxNy42QzE0IDE3LjggMTQuMSAxOCAxNC4yIDE4LjJMMTcuOCAyMS44QzE3LjkgMjEuOSAxOC4xIDIyIDE4LjQgMjJDMTguNiAyMiAxOC44IDIxLjkgMTkgMjEuOEwyMS44IDE5QzIxLjkgMTguOSAyMiAxOC43IDIyIDE4LjRDMjIgMTguMiAyMS45IDE4IDIxLjggMTcuOE0xNS40IDE2QzE1LjEgMTYgMTQuOCAxNS43IDE0LjggMTUuNEMxNC44IDE1LjEgMTUuMSAxNC44IDE1LjQgMTQuOEMxNS43IDE0LjggMTYgMTUuMSAxNiAxNS40QzE2IDE1LjcgMTUuNyAxNiAxNS40IDE2TTEwIDRDNy44IDQgNiA1LjggNiA4UzcuOCAxMiAxMCAxMiAxNCAxMC4yIDE0IDggMTIuMiA0IDEwIDRNMTAgMTRDNS42IDE0IDIgMTUuOCAyIDE4VjIwSDEzLjJMMTIuOCAxOS42QzEyLjMgMTkuMSAxMiAxOC40IDEyIDE3LjZWMTQuOEMxMiAxNC42IDEyIDE0LjQgMTIuMSAxNC4xQzExLjQgMTQgMTAuNyAxNCAxMCAxNFoiIC8+PC9zdmc+)
 
 -}
-accountTie : IconShape
-accountTie =
-    Material.Icons.Directory.A.accountTie
+accountTag : IconShape
+accountTag =
+    Material.Icons.Directory.A.accountTag
 
 
 {-| The [`account-tie-hat`](https://pictogrammers.com/library/mdi/icon/account-tie-hat/) icon.
@@ -1582,6 +1572,16 @@ accountTie =
 accountTieHat : IconShape
 accountTieHat =
     Material.Icons.Directory.A.accountTieHat
+
+
+{-| The [`account-tie`](https://pictogrammers.com/library/mdi/icon/account-tie/) icon.
+
+![account-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDNDMTQuMjEgMyAxNiA0Ljc5IDE2IDdTMTQuMjEgMTEgMTIgMTEgOCA5LjIxIDggNyA5Ljc5IDMgMTIgM00xNiAxMy41NEMxNiAxNC42IDE1LjcyIDE3LjA3IDEzLjgxIDE5LjgzTDEzIDE1TDEzLjk0IDEzLjEyQzEzLjMyIDEzLjA1IDEyLjY3IDEzIDEyIDEzUzEwLjY4IDEzLjA1IDEwLjA2IDEzLjEyTDExIDE1TDEwLjE5IDE5LjgzQzguMjggMTcuMDcgOCAxNC42IDggMTMuNTRDNS42MSAxNC4yNCA0IDE1LjUgNCAxN1YyMUgyMFYxN0MyMCAxNS41IDE4LjQgMTQuMjQgMTYgMTMuNTRaIiAvPjwvc3ZnPg==)
+
+-}
+accountTie : IconShape
+accountTie =
+    Material.Icons.Directory.A.accountTie
 
 
 {-| The [`account-tie-hat-outline`](https://pictogrammers.com/library/mdi/icon/account-tie-hat-outline/) icon.
@@ -1674,16 +1674,6 @@ accountVoiceOff =
     Material.Icons.Directory.A.accountVoiceOff
 
 
-{-| The [`account-wrench`](https://pictogrammers.com/library/mdi/icon/account-wrench/) icon.
-
-![account-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjkgMjEuMkwxOC44IDE3LjFDMTkuMiAxNi4xIDE5IDE0LjggMTguMSAxNEMxNy4yIDEzLjEgMTUuOSAxMi45IDE0LjggMTMuNEwxNi43IDE1LjNMMTUuMyAxNi43TDEzLjMgMTQuN0MxMi44IDE1LjggMTMgMTcuMSAxMy45IDE4LjFDMTQuOCAxOSAxNiAxOS4yIDE3IDE4LjhMMjEuMSAyMi45QzIxLjMgMjMuMSAyMS42IDIzLjEgMjEuNyAyMi45TDIyLjcgMjEuOUMyMyAyMS42IDIzIDIxLjMgMjIuOSAyMS4yTTEzIDIwSDJWMThDMiAxNS44IDUuNiAxNCAxMCAxNEMxMC41IDE0IDExIDE0IDExLjQgMTQuMUMxMS4xIDE0LjcgMTEgMTUuMyAxMSAxNkMxMSAxNy42IDExLjggMTkuMSAxMyAyME0xMCA0QzcuOCA0IDYgNS44IDYgOFM3LjggMTIgMTAgMTIgMTQgMTAuMiAxNCA4IDEyLjIgNCAxMCA0IiAvPjwvc3ZnPg==)
-
--}
-accountWrench : IconShape
-accountWrench =
-    Material.Icons.Directory.A.accountWrench
-
-
 {-| The [`account-wrench-outline`](https://pictogrammers.com/library/mdi/icon/account-wrench-outline/) icon.
 
 ![account-wrench-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjkgMjEuMkwxOC44IDE3LjFDMTkuMiAxNi4xIDE5IDE0LjggMTguMSAxNEMxNy4yIDEzLjEgMTUuOSAxMi45IDE0LjggMTMuNEwxNi43IDE1LjNMMTUuMyAxNi43TDEzLjMgMTQuN0MxMi44IDE1LjggMTMgMTcuMSAxMy45IDE4LjFDMTQuOCAxOSAxNiAxOS4yIDE3IDE4LjhMMjEuMSAyMi45QzIxLjMgMjMuMSAyMS42IDIzLjEgMjEuNyAyMi45TDIyLjcgMjEuOUMyMyAyMS42IDIzIDIxLjMgMjIuOSAyMS4yTTEwIDEyQzEyLjIgMTIgMTQgMTAuMiAxNCA4UzEyLjIgNCAxMCA0IDYgNS44IDYgOCA3LjggMTIgMTAgMTJNMTAgNkMxMS4xIDYgMTIgNi45IDEyIDhTMTEuMSAxMCAxMCAxMCA4IDkuMSA4IDggOC45IDYgMTAgNk0xMyAyMEgyVjE3QzIgMTQuMyA3LjMgMTMgMTAgMTNDMTAuNSAxMyAxMS4yIDEzLjEgMTEuOSAxMy4yQzExLjUgMTMuNyAxMS4zIDE0LjMgMTEuMSAxNUMxMC43IDE1IDEwLjQgMTQuOSAxMCAxNC45QzcgMTQuOSAzLjkgMTYuNCAzLjkgMTdWMTguMUgxMS41QzExLjggMTguOSAxMi40IDE5LjUgMTMgMjBaIiAvPjwvc3ZnPg==)
@@ -1694,24 +1684,14 @@ accountWrenchOutline =
     Material.Icons.Directory.A.accountWrenchOutline
 
 
-{-| The [`badge-account`](https://pictogrammers.com/library/mdi/icon/badge-account/) icon.
+{-| The [`account-wrench`](https://pictogrammers.com/library/mdi/icon/account-wrench/) icon.
 
-![badge-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDNIMTRWNkgxMFYzSDdBMiwyIDAgMCwwIDUsNVYyMUEyLDIgMCAwLDAgNywyM0gxN0EyLDIgMCAwLDAgMTksMjFWNUEyLDIgMCAwLDAgMTcsM00xMiw4QTIsMiAwIDAsMSAxNCwxMEEyLDIgMCAwLDEgMTIsMTJBMiwyIDAgMCwxIDEwLDEwQTIsMiAwIDAsMSAxMiw4TTE2LDE2SDhWMTVDOCwxMy42NyAxMC42NywxMyAxMiwxM0MxMy4zMywxMyAxNiwxMy42NyAxNiwxNVYxNk0xMyw1SDExVjFIMTNWNU0xNiwxOUg4VjE4SDE2VjE5TTEyLDIxSDhWMjBIMTJWMjFaIiAvPjwvc3ZnPg==)
-
--}
-badgeAccount : IconShape
-badgeAccount =
-    Material.Icons.Directory.B.badgeAccount
-
-
-{-| The [`badge-account-alert`](https://pictogrammers.com/library/mdi/icon/badge-account-alert/) icon.
-
-![badge-account-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNIMTJWNkg4VjNINUEyLDIgMCAwLDAgMyw1VjIxQTIsMiAwIDAsMCA1LDIzSDE1QTIsMiAwIDAsMCAxNywyMVY1QTIsMiAwIDAsMCAxNSwzTTEwLDhBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxMCwxMkEyLDIgMCAwLDEgOCwxMEEyLDIgMCAwLDEgMTAsOE0xNCwxNkg2VjE1QzYsMTMuNjcgOC42NywxMyAxMCwxM0MxMS4zMywxMyAxNCwxMy42NyAxNCwxNVYxNk0xMSw1SDlWMUgxMVY1TTE0LDE5SDZWMThIMTRWMTlNMTAsMjFINlYyMEgxMFYyMU0xOSwxM1Y3SDIxVjEzSDE5TTE5LDE3VjE1SDIxVjE3SDE5WiIgLz48L3N2Zz4=)
+![account-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjkgMjEuMkwxOC44IDE3LjFDMTkuMiAxNi4xIDE5IDE0LjggMTguMSAxNEMxNy4yIDEzLjEgMTUuOSAxMi45IDE0LjggMTMuNEwxNi43IDE1LjNMMTUuMyAxNi43TDEzLjMgMTQuN0MxMi44IDE1LjggMTMgMTcuMSAxMy45IDE4LjFDMTQuOCAxOSAxNiAxOS4yIDE3IDE4LjhMMjEuMSAyMi45QzIxLjMgMjMuMSAyMS42IDIzLjEgMjEuNyAyMi45TDIyLjcgMjEuOUMyMyAyMS42IDIzIDIxLjMgMjIuOSAyMS4yTTEzIDIwSDJWMThDMiAxNS44IDUuNiAxNCAxMCAxNEMxMC41IDE0IDExIDE0IDExLjQgMTQuMUMxMS4xIDE0LjcgMTEgMTUuMyAxMSAxNkMxMSAxNy42IDExLjggMTkuMSAxMyAyME0xMCA0QzcuOCA0IDYgNS44IDYgOFM3LjggMTIgMTAgMTIgMTQgMTAuMiAxNCA4IDEyLjIgNCAxMCA0IiAvPjwvc3ZnPg==)
 
 -}
-badgeAccountAlert : IconShape
-badgeAccountAlert =
-    Material.Icons.Directory.B.badgeAccountAlert
+accountWrench : IconShape
+accountWrench =
+    Material.Icons.Directory.A.accountWrench
 
 
 {-| The [`badge-account-alert-outline`](https://pictogrammers.com/library/mdi/icon/badge-account-alert-outline/) icon.
@@ -1724,14 +1704,24 @@ badgeAccountAlertOutline =
     Material.Icons.Directory.B.badgeAccountAlertOutline
 
 
-{-| The [`badge-account-horizontal`](https://pictogrammers.com/library/mdi/icon/badge-account-horizontal/) icon.
+{-| The [`badge-account-alert`](https://pictogrammers.com/library/mdi/icon/badge-account-alert/) icon.
 
-![badge-account-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDRIMTRWN0gxMFY0SDJBMiwyIDAgMCwwIDAsNlYyMEEyLDIgMCAwLDAgMiwyMkgyMkEyLDIgMCAwLDAgMjQsMjBWNkEyLDIgMCAwLDAgMjIsNE04LDlBMiwyIDAgMCwxIDEwLDExQTIsMiAwIDAsMSA4LDEzQTIsMiAwIDAsMSA2LDExQTIsMiAwIDAsMSA4LDlNMTIsMTdINFYxNkM0LDE0LjY3IDYuNjcsMTQgOCwxNEM5LjMzLDE0IDEyLDE0LjY3IDEyLDE2VjE3TTIwLDE4SDE0VjE2SDIwVjE4TTIwLDE0SDE0VjEySDIwVjE0TTIwLDEwSDE0VjhIMjBWMTBNMTMsNkgxMVYySDEzVjZaIiAvPjwvc3ZnPg==)
+![badge-account-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNIMTJWNkg4VjNINUEyLDIgMCAwLDAgMyw1VjIxQTIsMiAwIDAsMCA1LDIzSDE1QTIsMiAwIDAsMCAxNywyMVY1QTIsMiAwIDAsMCAxNSwzTTEwLDhBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxMCwxMkEyLDIgMCAwLDEgOCwxMEEyLDIgMCAwLDEgMTAsOE0xNCwxNkg2VjE1QzYsMTMuNjcgOC42NywxMyAxMCwxM0MxMS4zMywxMyAxNCwxMy42NyAxNCwxNVYxNk0xMSw1SDlWMUgxMVY1TTE0LDE5SDZWMThIMTRWMTlNMTAsMjFINlYyMEgxMFYyMU0xOSwxM1Y3SDIxVjEzSDE5TTE5LDE3VjE1SDIxVjE3SDE5WiIgLz48L3N2Zz4=)
 
 -}
-badgeAccountHorizontal : IconShape
-badgeAccountHorizontal =
-    Material.Icons.Directory.B.badgeAccountHorizontal
+badgeAccountAlert : IconShape
+badgeAccountAlert =
+    Material.Icons.Directory.B.badgeAccountAlert
+
+
+{-| The [`badge-account`](https://pictogrammers.com/library/mdi/icon/badge-account/) icon.
+
+![badge-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDNIMTRWNkgxMFYzSDdBMiwyIDAgMCwwIDUsNVYyMUEyLDIgMCAwLDAgNywyM0gxN0EyLDIgMCAwLDAgMTksMjFWNUEyLDIgMCAwLDAgMTcsM00xMiw4QTIsMiAwIDAsMSAxNCwxMEEyLDIgMCAwLDEgMTIsMTJBMiwyIDAgMCwxIDEwLDEwQTIsMiAwIDAsMSAxMiw4TTE2LDE2SDhWMTVDOCwxMy42NyAxMC42NywxMyAxMiwxM0MxMy4zMywxMyAxNiwxMy42NyAxNiwxNVYxNk0xMyw1SDExVjFIMTNWNU0xNiwxOUg4VjE4SDE2VjE5TTEyLDIxSDhWMjBIMTJWMjFaIiAvPjwvc3ZnPg==)
+
+-}
+badgeAccount : IconShape
+badgeAccount =
+    Material.Icons.Directory.B.badgeAccount
 
 
 {-| The [`badge-account-horizontal-outline`](https://pictogrammers.com/library/mdi/icon/badge-account-horizontal-outline/) icon.
@@ -1742,6 +1732,16 @@ badgeAccountHorizontal =
 badgeAccountHorizontalOutline : IconShape
 badgeAccountHorizontalOutline =
     Material.Icons.Directory.B.badgeAccountHorizontalOutline
+
+
+{-| The [`badge-account-horizontal`](https://pictogrammers.com/library/mdi/icon/badge-account-horizontal/) icon.
+
+![badge-account-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDRIMTRWN0gxMFY0SDJBMiwyIDAgMCwwIDAsNlYyMEEyLDIgMCAwLDAgMiwyMkgyMkEyLDIgMCAwLDAgMjQsMjBWNkEyLDIgMCAwLDAgMjIsNE04LDlBMiwyIDAgMCwxIDEwLDExQTIsMiAwIDAsMSA4LDEzQTIsMiAwIDAsMSA2LDExQTIsMiAwIDAsMSA4LDlNMTIsMTdINFYxNkM0LDE0LjY3IDYuNjcsMTQgOCwxNEM5LjMzLDE0IDEyLDE0LjY3IDEyLDE2VjE3TTIwLDE4SDE0VjE2SDIwVjE4TTIwLDE0SDE0VjEySDIwVjE0TTIwLDEwSDE0VjhIMjBWMTBNMTMsNkgxMVYySDEzVjZaIiAvPjwvc3ZnPg==)
+
+-}
+badgeAccountHorizontal : IconShape
+badgeAccountHorizontal =
+    Material.Icons.Directory.B.badgeAccountHorizontal
 
 
 {-| The [`badge-account-outline`](https://pictogrammers.com/library/mdi/icon/badge-account-outline/) icon.
@@ -1854,16 +1854,6 @@ cardAccountDetailsStar =
     Material.Icons.Directory.C.cardAccountDetailsStar
 
 
-{-| The [`card-account-details-star-outline`](https://pictogrammers.com/library/mdi/icon/card-account-details-star-outline/) icon.
-
-![card-account-details-star-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDIyLjA5TDIyLjQ1IDIzLjU4TDIxLjggMjAuNzdMMjQgMTguODlMMjEuMTEgMTguNjRMMjAgMTZMMTguODcgMTguNjRMMTYgMTguODlMMTguMTggMjAuNzdMMTcuNSAyMy41OEwyMCAyMi4wOU0xNC4wOCAyMUgyQy45MSAyMC45NiAuMDQgMjAuMDkgMCAxOVY1Qy4wNCAzLjkxIC45MSAzLjA0IDIgM0gyMkMyMy4wOSAzLjA0IDIzLjk2IDMuOTEgMjQgNVYxNS41M0MyMy40MiAxNSAyMi43NSAxNC42MSAyMiAxNC4zNFY1SDJWMTlIMTQuMDhDMTQuMDMgMTkuMzMgMTQgMTkuNjYgMTQgMjBDMTQgMjAuMzQgMTQuMDMgMjAuNjggMTQuMDggMjFNMTQgMTdINFYxNS43NUM0IDE0LjA5IDcuMzQgMTMuMjUgOSAxMy4yNUMxMC42NiAxMy4yNSAxNCAxNC4wOSAxNCAxNS43NVYxN00xNCAxMUgxOFYxMkgxNFYxMU05IDdDNy42MyA3IDYuNSA4LjEzIDYuNSA5LjVDNi41IDEwLjg3IDcuNjMgMTIgOSAxMkMxMC4zNyAxMiAxMS41IDEwLjg3IDExLjUgOS41QzExLjUgOC4xMyAxMC4zNyA3IDkgN00xNCA5SDIwVjEwSDE0VjlNMTQgN0gyMFY4SDE0VjdaIiAvPjwvc3ZnPg==)
-
--}
-cardAccountDetailsStarOutline : IconShape
-cardAccountDetailsStarOutline =
-    Material.Icons.Directory.C.cardAccountDetailsStarOutline
-
-
 {-| The [`card-account-mail`](https://pictogrammers.com/library/mdi/icon/card-account-mail/) icon.
 
 ![card-account-mail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDhWN0wxOCw5TDE1LDdWOEwxOCwxME0yMiwzSDJBMiwyIDAgMCwwIDAsNVYxOUEyLDIgMCAwLDAgMiwyMUgyMkEyLDIgMCAwLDAgMjQsMTlWNUEyLDIgMCAwLDAgMjIsM004LDZBMywzIDAgMCwxIDExLDlBMywzIDAgMCwxIDgsMTJBMywzIDAgMCwxIDUsOUEzLDMgMCAwLDEgOCw2TTE0LDE4SDJWMTdDMiwxNSA2LDEzLjkgOCwxMy45QzEwLDEzLjkgMTQsMTUgMTQsMTdNMjIsMTJIMTRWNkgyMiIgLz48L3N2Zz4=)
@@ -1874,14 +1864,14 @@ cardAccountMail =
     Material.Icons.Directory.C.cardAccountMail
 
 
-{-| The [`card-account-phone`](https://pictogrammers.com/library/mdi/icon/card-account-phone/) icon.
+{-| The [`card-account-details-star-outline`](https://pictogrammers.com/library/mdi/icon/card-account-details-star-outline/) icon.
 
-![card-account-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDNIMkEyLDIgMCAwLDAgMCw1VjE5QTIsMiAwIDAsMCAyLDIxSDIyQTIsMiAwIDAsMCAyNCwxOVY1QTIsMiAwIDAsMCAyMiwzTTgsNkEzLDMgMCAwLDEgMTEsOUEzLDMgMCAwLDEgOCwxMkEzLDMgMCAwLDEgNSw5QTMsMyAwIDAsMSA4LDZNMTQsMThIMlYxN0MyLDE1IDYsMTMuOSA4LDEzLjlDMTAsMTMuOSAxNCwxNSAxNCwxN1YxOE0xNy44NSwxNEgxOS41TDIxLDE2TDE5LDE4QzE3LjcsMTcgMTYuNzMsMTUuNjEgMTYuMjgsMTRDMTYuMSwxMy4zNiAxNiwxMi42OSAxNiwxMkMxNiwxMS4zMSAxNi4xLDEwLjY0IDE2LjI4LDEwQzE2LjczLDguMzggMTcuNyw3IDE5LDZMMjEsOEwxOS41LDEwSDE3Ljg1QzE3LjYzLDEwLjYzIDE3LjUsMTEuMyAxNy41LDEyQzE3LjUsMTIuNyAxNy42MywxMy4zNyAxNy44NSwxNFoiIC8+PC9zdmc+)
+![card-account-details-star-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDIyLjA5TDIyLjQ1IDIzLjU4TDIxLjggMjAuNzdMMjQgMTguODlMMjEuMTEgMTguNjRMMjAgMTZMMTguODcgMTguNjRMMTYgMTguODlMMTguMTggMjAuNzdMMTcuNSAyMy41OEwyMCAyMi4wOU0xNC4wOCAyMUgyQy45MSAyMC45NiAuMDQgMjAuMDkgMCAxOVY1Qy4wNCAzLjkxIC45MSAzLjA0IDIgM0gyMkMyMy4wOSAzLjA0IDIzLjk2IDMuOTEgMjQgNVYxNS41M0MyMy40MiAxNSAyMi43NSAxNC42MSAyMiAxNC4zNFY1SDJWMTlIMTQuMDhDMTQuMDMgMTkuMzMgMTQgMTkuNjYgMTQgMjBDMTQgMjAuMzQgMTQuMDMgMjAuNjggMTQuMDggMjFNMTQgMTdINFYxNS43NUM0IDE0LjA5IDcuMzQgMTMuMjUgOSAxMy4yNUMxMC42NiAxMy4yNSAxNCAxNC4wOSAxNCAxNS43NVYxN00xNCAxMUgxOFYxMkgxNFYxMU05IDdDNy42MyA3IDYuNSA4LjEzIDYuNSA5LjVDNi41IDEwLjg3IDcuNjMgMTIgOSAxMkMxMC4zNyAxMiAxMS41IDEwLjg3IDExLjUgOS41QzExLjUgOC4xMyAxMC4zNyA3IDkgN00xNCA5SDIwVjEwSDE0VjlNMTQgN0gyMFY4SDE0VjdaIiAvPjwvc3ZnPg==)
 
 -}
-cardAccountPhone : IconShape
-cardAccountPhone =
-    Material.Icons.Directory.C.cardAccountPhone
+cardAccountDetailsStarOutline : IconShape
+cardAccountDetailsStarOutline =
+    Material.Icons.Directory.C.cardAccountDetailsStarOutline
 
 
 {-| The [`card-account-mail-outline`](https://pictogrammers.com/library/mdi/icon/card-account-mail-outline/) icon.
@@ -1892,6 +1882,16 @@ cardAccountPhone =
 cardAccountMailOutline : IconShape
 cardAccountMailOutline =
     Material.Icons.Directory.C.cardAccountMailOutline
+
+
+{-| The [`card-account-phone`](https://pictogrammers.com/library/mdi/icon/card-account-phone/) icon.
+
+![card-account-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDNIMkEyLDIgMCAwLDAgMCw1VjE5QTIsMiAwIDAsMCAyLDIxSDIyQTIsMiAwIDAsMCAyNCwxOVY1QTIsMiAwIDAsMCAyMiwzTTgsNkEzLDMgMCAwLDEgMTEsOUEzLDMgMCAwLDEgOCwxMkEzLDMgMCAwLDEgNSw5QTMsMyAwIDAsMSA4LDZNMTQsMThIMlYxN0MyLDE1IDYsMTMuOSA4LDEzLjlDMTAsMTMuOSAxNCwxNSAxNCwxN1YxOE0xNy44NSwxNEgxOS41TDIxLDE2TDE5LDE4QzE3LjcsMTcgMTYuNzMsMTUuNjEgMTYuMjgsMTRDMTYuMSwxMy4zNiAxNiwxMi42OSAxNiwxMkMxNiwxMS4zMSAxNi4xLDEwLjY0IDE2LjI4LDEwQzE2LjczLDguMzggMTcuNyw3IDE5LDZMMjEsOEwxOS41LDEwSDE3Ljg1QzE3LjYzLDEwLjYzIDE3LjUsMTEuMyAxNy41LDEyQzE3LjUsMTIuNyAxNy42MywxMy4zNyAxNy44NSwxNFoiIC8+PC9zdmc+)
+
+-}
+cardAccountPhone : IconShape
+cardAccountPhone =
+    Material.Icons.Directory.C.cardAccountPhone
 
 
 {-| The [`card-account-phone-outline`](https://pictogrammers.com/library/mdi/icon/card-account-phone-outline/) icon.
@@ -2084,16 +2084,6 @@ laptopAccount =
     Material.Icons.Directory.L.laptopAccount
 
 
-{-| The [`map-marker-account-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-account-outline/) icon.
-
-![map-marker-account-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTQuOCA0IDE3IDYuMiAxNyA5QzE3IDExLjkgMTQuMSAxNi4yIDEyIDE4LjlDOS45IDE2LjIgNyAxMS45IDcgOUM3IDYuMiA5LjIgNCAxMiA0TTEyIDJDOC4xIDIgNSA1LjEgNSA5QzUgMTQuMiAxMiAyMiAxMiAyMlMxOSAxNC4yIDE5IDlDMTkgNS4xIDE1LjkgMiAxMiAyTTEyIDEwQzEzLjMzIDEwIDE2IDEwLjY3IDE2IDEyVjEyLjE2QzE1LjAzIDEzLjI4IDEzLjYgMTQgMTIgMTRTOC45NyAxMy4yOCA4IDEyLjE2VjEyQzggMTAuNjcgMTAuNjcgMTAgMTIgMTBNMTIgOUMxMC45IDkgMTAgOC4xIDEwIDdTMTAuOSA1IDEyIDUgMTQgNS45IDE0IDcgMTMuMSA5IDEyIDlaIiAvPjwvc3ZnPg==)
-
--}
-mapMarkerAccountOutline : IconShape
-mapMarkerAccountOutline =
-    Material.Icons.Directory.M.mapMarkerAccountOutline
-
-
 {-| The [`map-marker-account`](https://pictogrammers.com/library/mdi/icon/map-marker-account/) icon.
 
 ![map-marker-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDOC4xNCAyIDUgNS4xNCA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMlMxOSAxNC4yNSAxOSA5QzE5IDUuMTQgMTUuODYgMiAxMiAyTTEyIDRDMTMuMSA0IDE0IDQuOSAxNCA2QzE0IDcuMTEgMTMuMSA4IDEyIDhTMTAgNy4xMSAxMCA2QzEwIDQuOSAxMC45IDQgMTIgNE0xMiAxNEMxMC4zMyAxNCA4Ljg2IDEzLjE1IDggMTEuODVDOCAxMC41MyAxMC42NyA5LjggMTIgOS44UzE2IDEwLjUzIDE2IDExLjg1QzE1LjE0IDEzLjE1IDEzLjY3IDE0IDEyIDE0WiIgLz48L3N2Zz4=)
@@ -2102,6 +2092,16 @@ mapMarkerAccountOutline =
 mapMarkerAccount : IconShape
 mapMarkerAccount =
     Material.Icons.Directory.M.mapMarkerAccount
+
+
+{-| The [`map-marker-account-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-account-outline/) icon.
+
+![map-marker-account-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTQuOCA0IDE3IDYuMiAxNyA5QzE3IDExLjkgMTQuMSAxNi4yIDEyIDE4LjlDOS45IDE2LjIgNyAxMS45IDcgOUM3IDYuMiA5LjIgNCAxMiA0TTEyIDJDOC4xIDIgNSA1LjEgNSA5QzUgMTQuMiAxMiAyMiAxMiAyMlMxOSAxNC4yIDE5IDlDMTkgNS4xIDE1LjkgMiAxMiAyTTEyIDEwQzEzLjMzIDEwIDE2IDEwLjY3IDE2IDEyVjEyLjE2QzE1LjAzIDEzLjI4IDEzLjYgMTQgMTIgMTRTOC45NyAxMy4yOCA4IDEyLjE2VjEyQzggMTAuNjcgMTAuNjcgMTAgMTIgMTBNMTIgOUMxMC45IDkgMTAgOC4xIDEwIDdTMTAuOSA1IDEyIDUgMTQgNS45IDE0IDcgMTMuMSA5IDEyIDlaIiAvPjwvc3ZnPg==)
+
+-}
+mapMarkerAccountOutline : IconShape
+mapMarkerAccountOutline =
+    Material.Icons.Directory.M.mapMarkerAccountOutline
 
 
 {-| The [`monitor-account`](https://pictogrammers.com/library/mdi/icon/monitor-account/) icon.

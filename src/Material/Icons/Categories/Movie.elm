@@ -20,8 +20,8 @@ module Material.Icons.Categories.Movie exposing
     , motionPlay
     , motionPlayOutline
     , movie
-    , movieCheckOutline
     , movieCheck
+    , movieCheckOutline
     , movieCog
     , movieCogOutline
     , movieEdit
@@ -34,15 +34,15 @@ module Material.Icons.Categories.Movie exposing
     , movieOffOutline
     , movieOpen
     , movieOpenCheck
-    , movieOpenCheckOutline
     , movieOpenCog
+    , movieOpenCheckOutline
     , movieOpenCogOutline
     , movieOpenEdit
     , movieOpenEditOutline
     , movieOpenMinus
     , movieOpenMinusOutline
-    , movieOpenOff
     , movieOpenOffOutline
+    , movieOpenOff
     , movieOpenOutline
     , movieOpenPlay
     , movieOpenPlayOutline
@@ -58,14 +58,14 @@ module Material.Icons.Categories.Movie exposing
     , moviePlay
     , moviePlayOutline
     , moviePlus
-    , moviePlusOutline
     , movieRemove
+    , moviePlusOutline
     , movieRemoveOutline
-    , movieRoll
     , movieSearch
+    , movieRoll
     , movieSearchOutline
-    , movieSettings
     , movieSettingsOutline
+    , movieSettings
     , movieStar
     , movieStarOutline
     , multimedia
@@ -75,21 +75,21 @@ module Material.Icons.Categories.Movie exposing
     , playBoxLockOutline
     , qualityHigh
     , standardDefinition
-    , televisionSpeaker
     , televisionSpeakerOff
+    , televisionSpeaker
     , ultraHighDefinition
     , vhs
     , video
-    , video2d
     , video3d
+    , video2d
     , video3dOff
     , video3dVariant
     , video4kBox
-    , videoAccount
     , videoBox
+    , videoAccount
     , videoBoxOff
-    , videoCheck
     , videoCheckOutline
+    , videoCheck
     , videoHighDefinition
     , videoImage
     , videoInputAntenna
@@ -108,9 +108,9 @@ module Material.Icons.Categories.Movie exposing
     , videoPlusOutline
     , videoStabilization
     , videoStandardDefinition
-    , videoSwitch
     , videoSwitchOutline
     , videoVintage
+    , videoSwitch
     , videoWireless
     , videoWirelessOutline
     , webcam
@@ -135,8 +135,8 @@ module Material.Icons.Categories.Movie exposing
 @docs motionPlay
 @docs motionPlayOutline
 @docs movie
-@docs movieCheckOutline
 @docs movieCheck
+@docs movieCheckOutline
 @docs movieCog
 @docs movieCogOutline
 @docs movieEdit
@@ -149,15 +149,15 @@ module Material.Icons.Categories.Movie exposing
 @docs movieOffOutline
 @docs movieOpen
 @docs movieOpenCheck
-@docs movieOpenCheckOutline
 @docs movieOpenCog
+@docs movieOpenCheckOutline
 @docs movieOpenCogOutline
 @docs movieOpenEdit
 @docs movieOpenEditOutline
 @docs movieOpenMinus
 @docs movieOpenMinusOutline
-@docs movieOpenOff
 @docs movieOpenOffOutline
+@docs movieOpenOff
 @docs movieOpenOutline
 @docs movieOpenPlay
 @docs movieOpenPlayOutline
@@ -173,14 +173,14 @@ module Material.Icons.Categories.Movie exposing
 @docs moviePlay
 @docs moviePlayOutline
 @docs moviePlus
-@docs moviePlusOutline
 @docs movieRemove
+@docs moviePlusOutline
 @docs movieRemoveOutline
-@docs movieRoll
 @docs movieSearch
+@docs movieRoll
 @docs movieSearchOutline
-@docs movieSettings
 @docs movieSettingsOutline
+@docs movieSettings
 @docs movieStar
 @docs movieStarOutline
 @docs multimedia
@@ -190,21 +190,21 @@ module Material.Icons.Categories.Movie exposing
 @docs playBoxLockOutline
 @docs qualityHigh
 @docs standardDefinition
-@docs televisionSpeaker
 @docs televisionSpeakerOff
+@docs televisionSpeaker
 @docs ultraHighDefinition
 @docs vhs
 @docs video
-@docs video2d
 @docs video3d
+@docs video2d
 @docs video3dOff
 @docs video3dVariant
 @docs video4kBox
-@docs videoAccount
 @docs videoBox
+@docs videoAccount
 @docs videoBoxOff
-@docs videoCheck
 @docs videoCheckOutline
+@docs videoCheck
 @docs videoHighDefinition
 @docs videoImage
 @docs videoInputAntenna
@@ -223,9 +223,9 @@ module Material.Icons.Categories.Movie exposing
 @docs videoPlusOutline
 @docs videoStabilization
 @docs videoStandardDefinition
-@docs videoSwitch
 @docs videoSwitchOutline
 @docs videoVintage
+@docs videoSwitch
 @docs videoWireless
 @docs videoWirelessOutline
 @docs webcam
@@ -417,16 +417,6 @@ movie =
     Material.Icons.Directory.M.movie
 
 
-{-| The [`movie-check-outline`](https://pictogrammers.com/library/mdi/icon/movie-check-outline/) icon.
-
-![movie-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMzkgMTMuNDYgMjAuNzIgMTMuMjIgMjAgMTMuMDlWMTBINS43Nkw0IDYuNDdWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjEuMzQgMTUuODRMMTcuNzUgMTkuNDNMMTYuMTYgMTcuODRMMTUgMTlMMTcuNzUgMjJMMjIuNSAxNy4yNUwyMS4zNCAxNS44NFoiIC8+PC9zdmc+)
-
--}
-movieCheckOutline : IconShape
-movieCheckOutline =
-    Material.Icons.Directory.M.movieCheckOutline
-
-
 {-| The [`movie-check`](https://pictogrammers.com/library/mdi/icon/movie-check/) icon.
 
 ![movie-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMTIgMTMuMyAyMC4xIDEzIDE5IDEzQzE1LjY5IDEzIDEzIDE1LjY5IDEzIDE5TTIxLjM0IDE1Ljg0TDE3Ljc1IDE5LjQzTDE2LjE2IDE3Ljg0TDE1IDE5TDE3Ljc1IDIyTDIyLjUgMTcuMjVMMjEuMzQgMTUuODRaIiAvPjwvc3ZnPg==)
@@ -435,6 +425,16 @@ movieCheckOutline =
 movieCheck : IconShape
 movieCheck =
     Material.Icons.Directory.M.movieCheck
+
+
+{-| The [`movie-check-outline`](https://pictogrammers.com/library/mdi/icon/movie-check-outline/) icon.
+
+![movie-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMzkgMTMuNDYgMjAuNzIgMTMuMjIgMjAgMTMuMDlWMTBINS43Nkw0IDYuNDdWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjEuMzQgMTUuODRMMTcuNzUgMTkuNDNMMTYuMTYgMTcuODRMMTUgMTlMMTcuNzUgMjJMMjIuNSAxNy4yNUwyMS4zNCAxNS44NFoiIC8+PC9zdmc+)
+
+-}
+movieCheckOutline : IconShape
+movieCheckOutline =
+    Material.Icons.Directory.M.movieCheckOutline
 
 
 {-| The [`movie-cog`](https://pictogrammers.com/library/mdi/icon/movie-cog/) icon.
@@ -557,16 +557,6 @@ movieOpenCheck =
     Material.Icons.Directory.M.movieOpenCheck
 
 
-{-| The [`movie-open-check-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-check-outline/) icon.
-
-![movie-open-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0Ljc1IDcuNDZMMTIgMy45M0wxMy45NyAzLjU0TDE2LjcxIDcuMDdMMTQuNzUgNy40Nk0yMS42MiA2LjFMMjAuODQgMi4xOEwxNi45MSAyLjk2TDE5LjY1IDYuNUwyMS42MiA2LjFNMTEuODEgOC4wNUw5LjA3IDQuNUw3LjEgNC45MUw5Ljg1IDguNDRMMTEuODEgOC4wNU00LjE2IDUuNUwzLjE4IDUuNjlDMi4xIDUuOSAxLjM5IDYuOTYgMS42MSA4LjA0TDIgMTBMNi45IDkuMDNMNC4xNiA1LjVNNCAyMFYxMkgyMFYxMy4wOUMyMC43MiAxMy4yMSAyMS4zOSAxMy40NiAyMiAxMy44MVYxMEgyVjIwQzIgMjEuMTEgMi45IDIyIDQgMjJIMTMuODFDMTMuNDYgMjEuMzkgMTMuMjIgMjAuNzIgMTMuMDkgMjBINE0yMS4zNCAxNS44NEwxNy43NSAxOS40M0wxNi4xNiAxNy44NEwxNSAxOUwxNy43NSAyMkwyMi41IDE3LjI1TDIxLjM0IDE1Ljg0WiIgLz48L3N2Zz4=)
-
--}
-movieOpenCheckOutline : IconShape
-movieOpenCheckOutline =
-    Material.Icons.Directory.M.movieOpenCheckOutline
-
-
 {-| The [`movie-open-cog`](https://pictogrammers.com/library/mdi/icon/movie-open-cog/) icon.
 
 ![movie-open-cog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0Ljc1IDcuNDZMMTIgMy45M0wxMy45NyAzLjU0TDE2LjcxIDcuMDdMMTQuNzUgNy40Nk0yMS42MiA2LjFMMjAuODQgMi4xOEwxNi45MSAyLjk2TDE5LjY1IDYuNUwyMS42MiA2LjFNMTkgMTJDMjAuMDggMTIgMjEuMDkgMTIuMjUgMjIgMTIuNjhWMTBIMlYyMEMyIDIxLjExIDIuOSAyMiA0IDIySDEyLjY4QzEyLjI1IDIxLjA5IDEyIDIwLjA4IDEyIDE5QzEyIDE1LjEzIDE1LjEzIDEyIDE5IDEyTTExLjgxIDguMDVMOS4wNyA0LjVMNy4xIDQuOTFMOS44NSA4LjQ0TDExLjgxIDguMDVNNC4xNiA1LjVMMy4xOCA1LjY5QzIuMSA1LjkxIDEuNCA2Ljk2IDEuNjEgOC4wNEwyIDEwTDYuOSA5LjAzTDQuMTYgNS41TTIzLjggMjAuNEMyMy45IDIwLjQgMjMuOSAyMC41IDIzLjggMjAuNkwyMi44IDIyLjNDMjIuNyAyMi40IDIyLjYgMjIuNCAyMi41IDIyLjRMMjEuMyAyMkMyMSAyMi4yIDIwLjggMjIuMyAyMC41IDIyLjVMMjAuMyAyMy44QzIwLjMgMjMuOSAyMC4yIDI0IDIwLjEgMjRIMTguMUMxOCAyNCAxNy45IDIzLjkgMTcuOCAyMy44TDE3LjYgMjIuNUMxNy4zIDIyLjQgMTcgMjIuMiAxNi44IDIyTDE1LjYgMjIuNUMxNS41IDIyLjUgMTUuNCAyMi41IDE1LjMgMjIuNEwxNC4zIDIwLjdDMTQuMiAyMC42IDE0LjMgMjAuNSAxNC40IDIwLjRMMTUuNSAxOS42VjE4LjZMMTQuNCAxNy44QzE0LjMgMTcuNyAxNC4zIDE3LjYgMTQuMyAxNy41TDE1LjMgMTUuOEMxNS40IDE1LjcgMTUuNSAxNS43IDE1LjYgMTUuN0wxNi44IDE2LjJDMTcuMSAxNiAxNy4zIDE1LjkgMTcuNiAxNS43TDE3LjggMTQuNEMxNy44IDE0LjMgMTcuOSAxNC4yIDE4LjEgMTQuMkgyMC4xQzIwLjIgMTQuMiAyMC4zIDE0LjMgMjAuMyAxNC40TDIwLjUgMTUuN0MyMC44IDE1LjggMjEuMSAxNiAyMS40IDE2LjJMMjIuNiAxNS43QzIyLjcgMTUuNyAyMi45IDE1LjcgMjIuOSAxNS44TDIzLjkgMTcuNUMyNCAxNy42IDIzLjkgMTcuNyAyMy44IDE3LjhMMjIuNyAxOC42VjE5LjZMMjMuOCAyMC40TTIwLjUgMTlDMjAuNSAxOC4yIDE5LjggMTcuNSAxOSAxNy41UzE3LjUgMTguMiAxNy41IDE5IDE4LjIgMjAuNSAxOSAyMC41IDIwLjUgMTkuOCAyMC41IDE5WiIgLz48L3N2Zz4=)
@@ -575,6 +565,16 @@ movieOpenCheckOutline =
 movieOpenCog : IconShape
 movieOpenCog =
     Material.Icons.Directory.M.movieOpenCog
+
+
+{-| The [`movie-open-check-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-check-outline/) icon.
+
+![movie-open-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0Ljc1IDcuNDZMMTIgMy45M0wxMy45NyAzLjU0TDE2LjcxIDcuMDdMMTQuNzUgNy40Nk0yMS42MiA2LjFMMjAuODQgMi4xOEwxNi45MSAyLjk2TDE5LjY1IDYuNUwyMS42MiA2LjFNMTEuODEgOC4wNUw5LjA3IDQuNUw3LjEgNC45MUw5Ljg1IDguNDRMMTEuODEgOC4wNU00LjE2IDUuNUwzLjE4IDUuNjlDMi4xIDUuOSAxLjM5IDYuOTYgMS42MSA4LjA0TDIgMTBMNi45IDkuMDNMNC4xNiA1LjVNNCAyMFYxMkgyMFYxMy4wOUMyMC43MiAxMy4yMSAyMS4zOSAxMy40NiAyMiAxMy44MVYxMEgyVjIwQzIgMjEuMTEgMi45IDIyIDQgMjJIMTMuODFDMTMuNDYgMjEuMzkgMTMuMjIgMjAuNzIgMTMuMDkgMjBINE0yMS4zNCAxNS44NEwxNy43NSAxOS40M0wxNi4xNiAxNy44NEwxNSAxOUwxNy43NSAyMkwyMi41IDE3LjI1TDIxLjM0IDE1Ljg0WiIgLz48L3N2Zz4=)
+
+-}
+movieOpenCheckOutline : IconShape
+movieOpenCheckOutline =
+    Material.Icons.Directory.M.movieOpenCheckOutline
 
 
 {-| The [`movie-open-cog-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-cog-outline/) icon.
@@ -627,16 +627,6 @@ movieOpenMinusOutline =
     Material.Icons.Directory.M.movieOpenMinusOutline
 
 
-{-| The [`movie-open-off`](https://pictogrammers.com/library/mdi/icon/movie-open-off/) icon.
-
-![movie-open-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjIgMTBIMjJWMTguOEwxMy4yIDEwTTIxLjYgNi4xTDIwLjggMi4yTDE2LjkgM0wxOS42IDYuNUwyMS42IDYuMU0xMS44IDhMOS4xIDQuNUw3LjkgNC43TDExLjMgOC4xTDExLjggOE0yLjQgMS43TDEuMSAzTDMuNyA1LjZMMy4yIDUuN0MyLjEgNS45IDEuNCA3IDEuNiA4TDIgMTBMNy4xIDlMOC4xIDEwSDJWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwLjFMMjAuOCAyMi43TDIyLjEgMjEuNEwyLjQgMS43TTE2LjcgNy4xTDE0IDMuNUwxMiAzLjlMMTQuOCA3LjRMMTYuNyA3LjFaIiAvPjwvc3ZnPg==)
-
--}
-movieOpenOff : IconShape
-movieOpenOff =
-    Material.Icons.Directory.M.movieOpenOff
-
-
 {-| The [`movie-open-off-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-off-outline/) icon.
 
 ![movie-open-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjcgNi41TDE2LjkgM0wyMC44IDIuMkwyMS42IDYuMUwxOS43IDYuNU0yMi4xIDIxLjVMMjAuOCAyMi44TDIwLjEgMjJINEMyLjkgMjIgMiAyMS4xIDIgMjBWMTBIOC4xTDcuMSA5TDIgMTBMMS42IDhDMS40IDcgMi4xIDUuOSAzLjIgNS43TDMuNyA1LjZMMS4xIDNMMi40IDEuN0wyMi4xIDIxLjVNMTguMSAyMEwxMC4xIDEySDRWMjBIMTguMU0yMiAxOC44VjEwSDEzLjJMMTUuMiAxMkgyMFYxNi44TDIyIDE4LjhNMTYuNyA3LjFMMTQgMy41TDEyIDMuOUwxNC44IDcuNEwxNi43IDcuMU0xMS44IDhMOS4xIDQuNUw3LjkgNC43TDExLjMgOC4xTDExLjggOFoiIC8+PC9zdmc+)
@@ -645,6 +635,16 @@ movieOpenOff =
 movieOpenOffOutline : IconShape
 movieOpenOffOutline =
     Material.Icons.Directory.M.movieOpenOffOutline
+
+
+{-| The [`movie-open-off`](https://pictogrammers.com/library/mdi/icon/movie-open-off/) icon.
+
+![movie-open-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjIgMTBIMjJWMTguOEwxMy4yIDEwTTIxLjYgNi4xTDIwLjggMi4yTDE2LjkgM0wxOS42IDYuNUwyMS42IDYuMU0xMS44IDhMOS4xIDQuNUw3LjkgNC43TDExLjMgOC4xTDExLjggOE0yLjQgMS43TDEuMSAzTDMuNyA1LjZMMy4yIDUuN0MyLjEgNS45IDEuNCA3IDEuNiA4TDIgMTBMNy4xIDlMOC4xIDEwSDJWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwLjFMMjAuOCAyMi43TDIyLjEgMjEuNEwyLjQgMS43TTE2LjcgNy4xTDE0IDMuNUwxMiAzLjlMMTQuOCA3LjRMMTYuNyA3LjFaIiAvPjwvc3ZnPg==)
+
+-}
+movieOpenOff : IconShape
+movieOpenOff =
+    Material.Icons.Directory.M.movieOpenOff
 
 
 {-| The [`movie-open-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-outline/) icon.
@@ -797,16 +797,6 @@ moviePlus =
     Material.Icons.Directory.M.moviePlus
 
 
-{-| The [`movie-plus-outline`](https://pictogrammers.com/library/mdi/icon/movie-plus-outline/) icon.
-
-![movie-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMzkgMTMuNDYgMjAuNzIgMTMuMjIgMjAgMTMuMDlWMTBINS43Nkw0IDYuNDdWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
-
--}
-moviePlusOutline : IconShape
-moviePlusOutline =
-    Material.Icons.Directory.M.moviePlusOutline
-
-
 {-| The [`movie-remove`](https://pictogrammers.com/library/mdi/icon/movie-remove/) icon.
 
 ![movie-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMTIgMTMuMyAyMC4xIDEzIDE5IDEzQzE1LjY5IDEzIDEzIDE1LjY5IDEzIDE5TTIyLjU0IDE2Ljg4TDIxLjEyIDE1LjQ3TDE5IDE3LjU5TDE2Ljg4IDE1LjQ3TDE1LjQ3IDE2Ljg4TDE3LjU5IDE5TDE1LjQ3IDIxLjEyTDE2Ljg4IDIyLjU0TDE5IDIwLjQxTDIxLjEyIDIyLjU0TDIyLjU0IDIxLjEyTDIwLjQxIDE5TDIyLjU0IDE2Ljg4WiIgLz48L3N2Zz4=)
@@ -815,6 +805,16 @@ moviePlusOutline =
 movieRemove : IconShape
 movieRemove =
     Material.Icons.Directory.M.movieRemove
+
+
+{-| The [`movie-plus-outline`](https://pictogrammers.com/library/mdi/icon/movie-plus-outline/) icon.
+
+![movie-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuODFDMjEuMzkgMTMuNDYgMjAuNzIgMTMuMjIgMjAgMTMuMDlWMTBINS43Nkw0IDYuNDdWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
+
+-}
+moviePlusOutline : IconShape
+moviePlusOutline =
+    Material.Icons.Directory.M.moviePlusOutline
 
 
 {-| The [`movie-remove-outline`](https://pictogrammers.com/library/mdi/icon/movie-remove-outline/) icon.
@@ -827,16 +827,6 @@ movieRemoveOutline =
     Material.Icons.Directory.M.movieRemoveOutline
 
 
-{-| The [`movie-roll`](https://pictogrammers.com/library/mdi/icon/movie-roll/) icon.
-
-![movie-roll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTEyLDRBMi41LDIuNSAwIDAsMCA5LjUsNi41QTIuNSwyLjUgMCAwLDAgMTIsOUEyLjUsMi41IDAgMCwwIDE0LjUsNi41QTIuNSwyLjUgMCAwLDAgMTIsNE00LjQsOS41M0MzLjk3LDEwLjg0IDQuNjksMTIuMjUgNiwxMi42OEM3LjMyLDEzLjEgOC43MywxMi4zOSA5LjE1LDExLjA3QzkuNTgsOS43NiA4Ljg2LDguMzUgNy41NSw3LjkyQzYuMjQsNy41IDQuODIsOC4yMSA0LjQsOS41M00xOS42MSw5LjVDMTkuMTgsOC4yMSAxNy43Nyw3LjUgMTYuNDYsNy45MkMxNS4xNCw4LjM0IDE0LjQyLDkuNzUgMTQuODUsMTEuMDdDMTUuMjgsMTIuMzggMTYuNjksMTMuMSAxOCwxMi42N0MxOS4zMSwxMi4yNSAyMC4wMywxMC44MyAxOS42MSw5LjVNNy4zMSwxOC40NkM4LjQyLDE5LjI4IDEwLDE5LjAzIDEwLjgsMTcuOTFDMTEuNjEsMTYuNzkgMTEuMzYsMTUuMjMgMTAuMjQsMTQuNDJDOS4xMywxMy42MSA3LjU2LDEzLjg2IDYuNzUsMTQuOTdDNS45NCwxNi4wOSA2LjE5LDE3LjY1IDcuMzEsMTguNDZNMTYuNywxOC40NkMxNy44MiwxNy42NSAxOC4wNywxNi4wOSAxNy4yNiwxNC45N0MxNi40NSwxMy44NSAxNC44OCwxMy42IDEzLjc3LDE0LjQyQzEyLjY1LDE1LjIzIDEyLjQsMTYuNzkgMTMuMjEsMTcuOTFDMTQsMTkuMDMgMTUuNTksMTkuMjcgMTYuNywxOC40Nk0xMiwxMC41QTEuNSwxLjUgMCAwLDAgMTAuNSwxMkExLjUsMS41IDAgMCwwIDEyLDEzLjVBMS41LDEuNSAwIDAsMCAxMy41LDEyQTEuNSwxLjUgMCAwLDAgMTIsMTAuNVoiIC8+PC9zdmc+)
-
--}
-movieRoll : IconShape
-movieRoll =
-    Material.Icons.Directory.M.movieRoll
-
-
 {-| The [`movie-search`](https://pictogrammers.com/library/mdi/icon/movie-search/) icon.
 
 ![movie-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjAzIDIwSDRDMi45IDIwIDIgMTkuMSAyIDE4TDIgNkMyIDQuOSAyLjkgNCA0IDRINUw3IDhIMTBMOCA0SDEwTDEyIDhIMTVMMTMgNEgxNUwxNyA4SDIwTDE4IDRIMjJWMTMuMDVDMjAuODUgMTEuMjIgMTguODIgMTAgMTYuNSAxMEMxMi45MiAxMCAxMCAxMi45MiAxMCAxNi41QzEwIDE3Ljc5IDEwLjM4IDE5IDExLjAzIDIwTTIzLjM5IDIyTDIyIDIzLjM5TDE4Ljg4IDIwLjMyQzE4LjE5IDIwLjc1IDE3LjM3IDIxIDE2LjUgMjFDMTQgMjEgMTIgMTkgMTIgMTYuNVMxNCAxMiAxNi41IDEyIDIxIDE0IDIxIDE2LjVDMjEgMTcuMzggMjAuNzUgMTguMjEgMjAuMzEgMTguOUwyMy4zOSAyMk0xOSAxNi41QzE5IDE1LjEyIDE3Ljg4IDE0IDE2LjUgMTRTMTQgMTUuMTIgMTQgMTYuNSAxNS4xMiAxOSAxNi41IDE5IDE5IDE3Ljg4IDE5IDE2LjVaIiAvPjwvc3ZnPg==)
@@ -845,6 +835,16 @@ movieRoll =
 movieSearch : IconShape
 movieSearch =
     Material.Icons.Directory.M.movieSearch
+
+
+{-| The [`movie-roll`](https://pictogrammers.com/library/mdi/icon/movie-roll/) icon.
+
+![movie-roll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTEyLDRBMi41LDIuNSAwIDAsMCA5LjUsNi41QTIuNSwyLjUgMCAwLDAgMTIsOUEyLjUsMi41IDAgMCwwIDE0LjUsNi41QTIuNSwyLjUgMCAwLDAgMTIsNE00LjQsOS41M0MzLjk3LDEwLjg0IDQuNjksMTIuMjUgNiwxMi42OEM3LjMyLDEzLjEgOC43MywxMi4zOSA5LjE1LDExLjA3QzkuNTgsOS43NiA4Ljg2LDguMzUgNy41NSw3LjkyQzYuMjQsNy41IDQuODIsOC4yMSA0LjQsOS41M00xOS42MSw5LjVDMTkuMTgsOC4yMSAxNy43Nyw3LjUgMTYuNDYsNy45MkMxNS4xNCw4LjM0IDE0LjQyLDkuNzUgMTQuODUsMTEuMDdDMTUuMjgsMTIuMzggMTYuNjksMTMuMSAxOCwxMi42N0MxOS4zMSwxMi4yNSAyMC4wMywxMC44MyAxOS42MSw5LjVNNy4zMSwxOC40NkM4LjQyLDE5LjI4IDEwLDE5LjAzIDEwLjgsMTcuOTFDMTEuNjEsMTYuNzkgMTEuMzYsMTUuMjMgMTAuMjQsMTQuNDJDOS4xMywxMy42MSA3LjU2LDEzLjg2IDYuNzUsMTQuOTdDNS45NCwxNi4wOSA2LjE5LDE3LjY1IDcuMzEsMTguNDZNMTYuNywxOC40NkMxNy44MiwxNy42NSAxOC4wNywxNi4wOSAxNy4yNiwxNC45N0MxNi40NSwxMy44NSAxNC44OCwxMy42IDEzLjc3LDE0LjQyQzEyLjY1LDE1LjIzIDEyLjQsMTYuNzkgMTMuMjEsMTcuOTFDMTQsMTkuMDMgMTUuNTksMTkuMjcgMTYuNywxOC40Nk0xMiwxMC41QTEuNSwxLjUgMCAwLDAgMTAuNSwxMkExLjUsMS41IDAgMCwwIDEyLDEzLjVBMS41LDEuNSAwIDAsMCAxMy41LDEyQTEuNSwxLjUgMCAwLDAgMTIsMTAuNVoiIC8+PC9zdmc+)
+
+-}
+movieRoll : IconShape
+movieRoll =
+    Material.Icons.Directory.M.movieRoll
 
 
 {-| The [`movie-search-outline`](https://pictogrammers.com/library/mdi/icon/movie-search-outline/) icon.
@@ -857,16 +857,6 @@ movieSearchOutline =
     Material.Icons.Directory.M.movieSearchOutline
 
 
-{-| The [`movie-settings`](https://pictogrammers.com/library/mdi/icon/movie-settings/) icon.
-
-![movie-settings](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDRWMThDMjIgMTkuMTEgMjEuMTEgMjAgMjAgMjBINEMyLjkgMjAgMiAxOS4xMSAyIDE4VjZDMiA0Ljg5IDIuOSA0IDQgNEg1TDcgOEgxMEw4IDRIMTBMMTIgOEgxNUwxMyA0SDE1TDE3IDhIMjBMMTggNEgyMk03IDI0SDlWMjJIN1YyNE0xMSAyNEgxM1YyMkgxMVYyNE0xNSAyNEgxN1YyMkgxNVYyNFoiIC8+PC9zdmc+)
-
--}
-movieSettings : IconShape
-movieSettings =
-    Material.Icons.Directory.M.movieSettings
-
-
 {-| The [`movie-settings-outline`](https://pictogrammers.com/library/mdi/icon/movie-settings-outline/) icon.
 
 ![movie-settings-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRMMjAgOEgxN0wxNSA0SDEzTDE1IDhIMTJMMTAgNEg4TDEwIDhIN0w1IDRINEMyLjkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi45IDIwIDQgMjBIMjBDMjEuMTEgMjAgMjIgMTkuMTEgMjIgMThWNEgxOE0yMCAxOEg0VjYuNDdMNS43NiAxMEgyMFYxOE0xMSAyMkgxM1YyNEgxMVYyMk03IDIySDlWMjRIN1YyMk0xNSAyMkgxN1YyNEgxNVYyMloiIC8+PC9zdmc+)
@@ -875,6 +865,16 @@ movieSettings =
 movieSettingsOutline : IconShape
 movieSettingsOutline =
     Material.Icons.Directory.M.movieSettingsOutline
+
+
+{-| The [`movie-settings`](https://pictogrammers.com/library/mdi/icon/movie-settings/) icon.
+
+![movie-settings](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDRWMThDMjIgMTkuMTEgMjEuMTEgMjAgMjAgMjBINEMyLjkgMjAgMiAxOS4xMSAyIDE4VjZDMiA0Ljg5IDIuOSA0IDQgNEg1TDcgOEgxMEw4IDRIMTBMMTIgOEgxNUwxMyA0SDE1TDE3IDhIMjBMMTggNEgyMk03IDI0SDlWMjJIN1YyNE0xMSAyNEgxM1YyMkgxMVYyNE0xNSAyNEgxN1YyMkgxNVYyNFoiIC8+PC9zdmc+)
+
+-}
+movieSettings : IconShape
+movieSettings =
+    Material.Icons.Directory.M.movieSettings
 
 
 {-| The [`movie-star`](https://pictogrammers.com/library/mdi/icon/movie-star/) icon.
@@ -967,16 +967,6 @@ standardDefinition =
     Material.Icons.Directory.S.standardDefinition
 
 
-{-| The [`television-speaker`](https://pictogrammers.com/library/mdi/icon/television-speaker/) icon.
-
-![television-speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM0MxLjkgMyAxIDMuOSAxIDVWMTdDMSAxOC4xIDEuOSAxOSAzIDE5SDhWMjFIMTJWMTdIM1Y1SDIxVjdIMjNWNUMyMyAzLjkgMjIuMSAzIDIxIDNIM00yMSA5SDE2QzE0LjkgOSAxNCA5LjkgMTQgMTFWMjBDMTQgMjEuMSAxNC45IDIyIDE2IDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFYxMUMyMyA5LjkgMjIuMSA5IDIxIDlNMTguNSAxMC41QzE5LjMgMTAuNSAyMCAxMS4yIDIwIDEyUzE5LjMgMTMuNSAxOC41IDEzLjUgMTcgMTIuOCAxNyAxMiAxNy43IDEwLjUgMTguNSAxMC41TTE4LjUgMjAuNUMxNi44IDIwLjUgMTUuNSAxOS4yIDE1LjUgMTcuNUMxNS41IDE1LjkgMTYuOCAxNC41IDE4LjQgMTQuNUgxOC41QzIwLjIgMTQuNSAyMS41IDE1LjggMjEuNSAxNy41UzIwLjIgMjAuNSAxOC41IDIwLjVNMTguNSAxNkMxNy43IDE2IDE3IDE2LjcgMTcgMTcuNVMxNy43IDE5IDE4LjUgMTkgMjAgMTguMyAyMCAxNy41IDE5LjMgMTYgMTguNSAxNloiIC8+PC9zdmc+)
-
--}
-televisionSpeaker : IconShape
-televisionSpeaker =
-    Material.Icons.Directory.T.televisionSpeaker
-
-
 {-| The [`television-speaker-off`](https://pictogrammers.com/library/mdi/icon/television-speaker-off/) icon.
 
 ![television-speaker-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDlIMTZDMTUgOSAxNC4xIDkuOCAxNCAxMC44TDE3LjggMTQuNkMxOCAxNC41IDE4LjIgMTQuNSAxOC41IDE0LjVIMTguNkMyMC4zIDE0LjUgMjEuNiAxNS44IDIxLjYgMTcuNUMyMS42IDE3LjcgMjEuNiAxOCAyMS41IDE4LjJMMjMuMSAxOS44VjExQzIzIDkuOSAyMi4xIDkgMjEgOU0xOC41IDEzLjVDMTcuNyAxMy41IDE3IDEyLjggMTcgMTJTMTcuNyAxMC41IDE4LjUgMTAuNSAyMCAxMS4yIDIwIDEyIDE5LjMgMTMuNSAxOC41IDEzLjVNMjMgNVY3SDIxVjVIOC4yTDYuMiAzSDIxQzIyLjEgMyAyMyAzLjkgMjMgNU0yLjQgMS43TDEuMSAzTDEuNiAzLjVDMS4zIDMuOSAxIDQuNCAxIDVWMTdDMSAxOC4xIDEuOSAxOSAzIDE5SDhWMjFIMTJWMTdIM1Y1SDMuMUwxNCAxNS45VjIwQzE0IDIxLjEgMTQuOSAyMiAxNiAyMkgyMC4xTDIwLjggMjIuN0wyMi4yIDIxLjVMMi40IDEuN00xOC41IDIwLjVDMTYuOCAyMC41IDE1LjUgMTkuMiAxNS41IDE3LjVWMTcuNEwxOC42IDIwLjVIMTguNVoiIC8+PC9zdmc+)
@@ -985,6 +975,16 @@ televisionSpeaker =
 televisionSpeakerOff : IconShape
 televisionSpeakerOff =
     Material.Icons.Directory.T.televisionSpeakerOff
+
+
+{-| The [`television-speaker`](https://pictogrammers.com/library/mdi/icon/television-speaker/) icon.
+
+![television-speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM0MxLjkgMyAxIDMuOSAxIDVWMTdDMSAxOC4xIDEuOSAxOSAzIDE5SDhWMjFIMTJWMTdIM1Y1SDIxVjdIMjNWNUMyMyAzLjkgMjIuMSAzIDIxIDNIM00yMSA5SDE2QzE0LjkgOSAxNCA5LjkgMTQgMTFWMjBDMTQgMjEuMSAxNC45IDIyIDE2IDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFYxMUMyMyA5LjkgMjIuMSA5IDIxIDlNMTguNSAxMC41QzE5LjMgMTAuNSAyMCAxMS4yIDIwIDEyUzE5LjMgMTMuNSAxOC41IDEzLjUgMTcgMTIuOCAxNyAxMiAxNy43IDEwLjUgMTguNSAxMC41TTE4LjUgMjAuNUMxNi44IDIwLjUgMTUuNSAxOS4yIDE1LjUgMTcuNUMxNS41IDE1LjkgMTYuOCAxNC41IDE4LjQgMTQuNUgxOC41QzIwLjIgMTQuNSAyMS41IDE1LjggMjEuNSAxNy41UzIwLjIgMjAuNSAxOC41IDIwLjVNMTguNSAxNkMxNy43IDE2IDE3IDE2LjcgMTcgMTcuNVMxNy43IDE5IDE4LjUgMTkgMjAgMTguMyAyMCAxNy41IDE5LjMgMTYgMTguNSAxNloiIC8+PC9zdmc+)
+
+-}
+televisionSpeaker : IconShape
+televisionSpeaker =
+    Material.Icons.Directory.T.televisionSpeaker
 
 
 {-| The [`ultra-high-definition`](https://pictogrammers.com/library/mdi/icon/ultra-high-definition/) icon.
@@ -1017,16 +1017,6 @@ video =
     Material.Icons.Directory.V.video
 
 
-{-| The [`video-2d`](https://pictogrammers.com/library/mdi/icon/video-2d/) icon.
-
-![video-2d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDdIMTZDMTcuNjYgNyAxOSA4LjM0IDE5IDEwVjE0QzE5IDE1LjY2IDE3LjY2IDE3IDE2IDE3SDEzVjdNMTYgMTVDMTYuNTUgMTUgMTcgMTQuNTUgMTcgMTRWMTBDMTcgOS40NSAxNi41NSA5IDE2IDlIMTVWMTVIMTZNNSA3SDlDMTAuMTEgNyAxMSA3LjkgMTEgOVYxMUMxMSAxMi4xMSAxMC4xMSAxMyA5IDEzSDdWMTVIMTFWMTdINVYxM0M1IDExLjkgNS45IDExIDcgMTFIOVY5SDVWN1oiIC8+PC9zdmc+)
-
--}
-video2d : IconShape
-video2d =
-    Material.Icons.Directory.V.video2d
-
-
 {-| The [`video-3d`](https://pictogrammers.com/library/mdi/icon/video-3d/) icon.
 
 ![video-3d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsN0g5QTIsMiAwIDAsMSAxMSw5VjE1QTIsMiAwIDAsMSA5LDE3SDVWMTVIOVYxM0g2VjExSDlWOUg1VjdNMTMsN0gxNkEzLDMgMCAwLDEgMTksMTBWMTRBMywzIDAgMCwxIDE2LDE3SDEzVjdNMTYsMTVBMSwxIDAgMCwwIDE3LDE0VjEwQTEsMSAwIDAsMCAxNiw5SDE1VjE1SDE2WiIgLz48L3N2Zz4=)
@@ -1035,6 +1025,16 @@ video2d =
 video3d : IconShape
 video3d =
     Material.Icons.Directory.V.video3d
+
+
+{-| The [`video-2d`](https://pictogrammers.com/library/mdi/icon/video-2d/) icon.
+
+![video-2d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDdIMTZDMTcuNjYgNyAxOSA4LjM0IDE5IDEwVjE0QzE5IDE1LjY2IDE3LjY2IDE3IDE2IDE3SDEzVjdNMTYgMTVDMTYuNTUgMTUgMTcgMTQuNTUgMTcgMTRWMTBDMTcgOS40NSAxNi41NSA5IDE2IDlIMTVWMTVIMTZNNSA3SDlDMTAuMTEgNyAxMSA3LjkgMTEgOVYxMUMxMSAxMi4xMSAxMC4xMSAxMyA5IDEzSDdWMTVIMTFWMTdINVYxM0M1IDExLjkgNS45IDExIDcgMTFIOVY5SDVWN1oiIC8+PC9zdmc+)
+
+-}
+video2d : IconShape
+video2d =
+    Material.Icons.Directory.V.video2d
 
 
 {-| The [`video-3d-off`](https://pictogrammers.com/library/mdi/icon/video-3d-off/) icon.
@@ -1067,16 +1067,6 @@ video4kBox =
     Material.Icons.Directory.V.video4kBox
 
 
-{-| The [`video-account`](https://pictogrammers.com/library/mdi/icon/video-account/) icon.
-
-![video-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDEwLjVMMjEsNi41VjE3LjVMMTcsMTMuNVYxN0ExLDEgMCAwLDEgMTYsMThINEExLDEgMCAwLDEgMywxN1Y3QTEsMSAwIDAsMSA0LDZIMTZBMSwxIDAgMCwxIDE3LDdWMTAuNU0xNCwxNlYxNUMxNCwxMy42NyAxMS4zMywxMyAxMCwxM0M4LjY3LDEzIDYsMTMuNjcgNiwxNVYxNkgxNE0xMCw4QTIsMiAwIDAsMCA4LDEwQTIsMiAwIDAsMCAxMCwxMkEyLDIgMCAwLDAgMTIsMTBBMiwyIDAgMCwwIDEwLDhaIiAvPjwvc3ZnPg==)
-
--}
-videoAccount : IconShape
-videoAccount =
-    Material.Icons.Directory.V.videoAccount
-
-
 {-| The [`video-box`](https://pictogrammers.com/library/mdi/icon/video-box/) icon.
 
 ![video-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDE2TDE0LDEyLjhWMTZINlY4SDE0VjExLjJMMTgsOE0yMCw0SDRBMiwyIDAgMCwwIDIsNlYxOEEyLDIgMCAwLDAgNCwyMEgyMEEyLDIgMCAwLDAgMjIsMThWNkMyMiw0Ljg5IDIxLjEsNCAyMCw0WiIgLz48L3N2Zz4=)
@@ -1085,6 +1075,16 @@ videoAccount =
 videoBox : IconShape
 videoBox =
     Material.Icons.Directory.V.videoBox
+
+
+{-| The [`video-account`](https://pictogrammers.com/library/mdi/icon/video-account/) icon.
+
+![video-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDEwLjVMMjEsNi41VjE3LjVMMTcsMTMuNVYxN0ExLDEgMCAwLDEgMTYsMThINEExLDEgMCAwLDEgMywxN1Y3QTEsMSAwIDAsMSA0LDZIMTZBMSwxIDAgMCwxIDE3LDdWMTAuNU0xNCwxNlYxNUMxNCwxMy42NyAxMS4zMywxMyAxMCwxM0M4LjY3LDEzIDYsMTMuNjcgNiwxNVYxNkgxNE0xMCw4QTIsMiAwIDAsMCA4LDEwQTIsMiAwIDAsMCAxMCwxMkEyLDIgMCAwLDAgMTIsMTBBMiwyIDAgMCwwIDEwLDhaIiAvPjwvc3ZnPg==)
+
+-}
+videoAccount : IconShape
+videoAccount =
+    Material.Icons.Directory.V.videoAccount
 
 
 {-| The [`video-box-off`](https://pictogrammers.com/library/mdi/icon/video-box-off/) icon.
@@ -1097,16 +1097,6 @@ videoBoxOff =
     Material.Icons.Directory.V.videoBoxOff
 
 
-{-| The [`video-check`](https://pictogrammers.com/library/mdi/icon/video-check/) icon.
-
-![video-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDEwLjVWN0MxNyA2LjQ1IDE2LjU1IDYgMTYgNkg0QzMuNDUgNiAzIDYuNDUgMyA3VjE3QzMgMTcuNTUgMy40NSAxOCA0IDE4SDE2QzE2LjU1IDE4IDE3IDE3LjU1IDE3IDE3VjEzLjVMMjEgMTcuNVY2LjVMMTcgMTAuNU04LjkzIDE1TDYgMTEuOEw3LjI0IDEwLjU2TDguOTMgMTIuMjZMMTIuNzYgOC40M0wxNCA5LjkzTDguOTMgMTVaIiAvPjwvc3ZnPg==)
-
--}
-videoCheck : IconShape
-videoCheck =
-    Material.Icons.Directory.V.videoCheck
-
-
 {-| The [`video-check-outline`](https://pictogrammers.com/library/mdi/icon/video-check-outline/) icon.
 
 ![video-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDhWMTZINVY4SDE1TTE2IDZINEMzLjQ1IDYgMyA2LjQ1IDMgN1YxN0MzIDE3LjU1IDMuNDUgMTggNCAxOEgxNkMxNi41NSAxOCAxNyAxNy41NSAxNyAxN1YxMy41TDIxIDE3LjVWNi41TDE3IDEwLjVWN0MxNyA2LjQ1IDE2LjU1IDYgMTYgNk02LjM1IDEyLjA4TDcuNSAxMC45NUw5IDEyLjVMMTIuNSA5TDEzLjY1IDEwLjM3TDkgMTVMNi4zNSAxMi4wOFoiIC8+PC9zdmc+)
@@ -1115,6 +1105,16 @@ videoCheck =
 videoCheckOutline : IconShape
 videoCheckOutline =
     Material.Icons.Directory.V.videoCheckOutline
+
+
+{-| The [`video-check`](https://pictogrammers.com/library/mdi/icon/video-check/) icon.
+
+![video-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDEwLjVWN0MxNyA2LjQ1IDE2LjU1IDYgMTYgNkg0QzMuNDUgNiAzIDYuNDUgMyA3VjE3QzMgMTcuNTUgMy40NSAxOCA0IDE4SDE2QzE2LjU1IDE4IDE3IDE3LjU1IDE3IDE3VjEzLjVMMjEgMTcuNVY2LjVMMTcgMTAuNU04LjkzIDE1TDYgMTEuOEw3LjI0IDEwLjU2TDguOTMgMTIuMjZMMTIuNzYgOC40M0wxNCA5LjkzTDguOTMgMTVaIiAvPjwvc3ZnPg==)
+
+-}
+videoCheck : IconShape
+videoCheck =
+    Material.Icons.Directory.V.videoCheck
 
 
 {-| The [`video-high-definition`](https://pictogrammers.com/library/mdi/icon/video-high-definition/) icon.
@@ -1297,16 +1297,6 @@ videoStandardDefinition =
     Material.Icons.Directory.V.videoStandardDefinition
 
 
-{-| The [`video-switch`](https://pictogrammers.com/library/mdi/icon/video-switch/) icon.
-
-![video-switch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE1LjVWMTNIN1YxNS41TDMuNSwxMkw3LDguNVYxMUgxM1Y4LjVMMTYuNSwxMk0xOCw5LjVWNkExLDEgMCAwLDAgMTcsNUgzQTEsMSAwIDAsMCAyLDZWMThBMSwxIDAgMCwwIDMsMTlIMTdBMSwxIDAgMCwwIDE4LDE4VjE0LjVMMjIsMTguNVY1LjVMMTgsOS41WiIgLz48L3N2Zz4=)
-
--}
-videoSwitch : IconShape
-videoSwitch =
-    Material.Icons.Directory.V.videoSwitch
-
-
 {-| The [`video-switch-outline`](https://pictogrammers.com/library/mdi/icon/video-switch-outline/) icon.
 
 ![video-switch-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTggMTNIMTJWMTVMMTUgMTJMMTIgOVYxMUg4VjlMNSAxMkw4IDE1VjEzTTE4IDkuNVY2QzE4IDUuNCAxNy41IDUgMTcgNUgzQzIuNSA1IDIgNS40IDIgNlYxOEMyIDE4LjUgMi41IDE5IDMgMTlIMTdDMTcuNSAxOSAxOCAxOC41IDE4IDE4VjE0LjVMMjIgMTguNVY1LjVMMTggOS41TTE2IDE3SDRWN0gxNlYxN1oiIC8+PC9zdmc+)
@@ -1325,6 +1315,16 @@ videoSwitchOutline =
 videoVintage : IconShape
 videoVintage =
     Material.Icons.Directory.V.videoVintage
+
+
+{-| The [`video-switch`](https://pictogrammers.com/library/mdi/icon/video-switch/) icon.
+
+![video-switch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE1LjVWMTNIN1YxNS41TDMuNSwxMkw3LDguNVYxMUgxM1Y4LjVMMTYuNSwxMk0xOCw5LjVWNkExLDEgMCAwLDAgMTcsNUgzQTEsMSAwIDAsMCAyLDZWMThBMSwxIDAgMCwwIDMsMTlIMTdBMSwxIDAgMCwwIDE4LDE4VjE0LjVMMjIsMTguNVY1LjVMMTgsOS41WiIgLz48L3N2Zz4=)
+
+-}
+videoSwitch : IconShape
+videoSwitch =
+    Material.Icons.Directory.V.videoSwitch
 
 
 {-| The [`video-wireless`](https://pictogrammers.com/library/mdi/icon/video-wireless/) icon.

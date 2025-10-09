@@ -15,8 +15,8 @@ module Material.Icons.Categories.Automotive exposing
     , arrowRightBoldOutline
     , battery
     , battery10
-    , battery20
     , battery30
+    , battery20
     , battery40
     , battery50
     , battery60
@@ -24,15 +24,15 @@ module Material.Icons.Categories.Automotive exposing
     , battery80
     , battery90
     , batteryCharging
-    , batteryCharging10
     , batteryCharging100
-    , batteryCharging20
+    , batteryCharging10
     , batteryCharging30
     , batteryCharging40
+    , batteryCharging20
     , batteryCharging50
     , batteryCharging60
-    , batteryCharging70
     , batteryCharging80
+    , batteryCharging70
     , batteryCharging90
     , batteryChargingOutline
     , batteryOutline
@@ -67,8 +67,8 @@ module Material.Icons.Categories.Automotive exposing
     , carDoorLock
     , carDoorLockOpen
     , carElectric
-    , carElectricOutline
     , carEmergency
+    , carElectricOutline
     , carEsp
     , carEstate
     , carHatchback
@@ -81,11 +81,11 @@ module Material.Icons.Categories.Automotive exposing
     , carLightHigh
     , carLimousine
     , carMultiple
-    , carOff
     , carOutline
+    , carOff
     , carParkingLights
-    , carPickup
     , carSearch
+    , carPickup
     , carSearchOutline
     , carSeat
     , carSeatCooler
@@ -94,8 +94,8 @@ module Material.Icons.Categories.Automotive exposing
     , carSettings
     , carShiftPattern
     , carSide
-    , carSpeedLimiter
     , carSports
+    , carSpeedLimiter
     , carTireAlert
     , carTractionControl
     , carTurbocharger
@@ -134,8 +134,8 @@ module Material.Icons.Categories.Automotive exposing
     , gaugeLow
     , hazardLights
     , hydraulicOilLevel
-    , hydraulicOilTemperature
     , hydrogenStation
+    , hydraulicOilTemperature
     , induction
     , key
     , keyChain
@@ -157,8 +157,8 @@ module Material.Icons.Categories.Automotive exposing
     , smoking
     , snowflake
     , speedometer
-    , speedometerSlow
     , speedometerMedium
+    , speedometerSlow
     , steering
     , steeringOff
     , thermometer
@@ -183,8 +183,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs arrowRightBoldOutline
 @docs battery
 @docs battery10
-@docs battery20
 @docs battery30
+@docs battery20
 @docs battery40
 @docs battery50
 @docs battery60
@@ -192,15 +192,15 @@ module Material.Icons.Categories.Automotive exposing
 @docs battery80
 @docs battery90
 @docs batteryCharging
-@docs batteryCharging10
 @docs batteryCharging100
-@docs batteryCharging20
+@docs batteryCharging10
 @docs batteryCharging30
 @docs batteryCharging40
+@docs batteryCharging20
 @docs batteryCharging50
 @docs batteryCharging60
-@docs batteryCharging70
 @docs batteryCharging80
+@docs batteryCharging70
 @docs batteryCharging90
 @docs batteryChargingOutline
 @docs batteryOutline
@@ -235,8 +235,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs carDoorLock
 @docs carDoorLockOpen
 @docs carElectric
-@docs carElectricOutline
 @docs carEmergency
+@docs carElectricOutline
 @docs carEsp
 @docs carEstate
 @docs carHatchback
@@ -249,11 +249,11 @@ module Material.Icons.Categories.Automotive exposing
 @docs carLightHigh
 @docs carLimousine
 @docs carMultiple
-@docs carOff
 @docs carOutline
+@docs carOff
 @docs carParkingLights
-@docs carPickup
 @docs carSearch
+@docs carPickup
 @docs carSearchOutline
 @docs carSeat
 @docs carSeatCooler
@@ -262,8 +262,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs carSettings
 @docs carShiftPattern
 @docs carSide
-@docs carSpeedLimiter
 @docs carSports
+@docs carSpeedLimiter
 @docs carTireAlert
 @docs carTractionControl
 @docs carTurbocharger
@@ -302,8 +302,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs gaugeLow
 @docs hazardLights
 @docs hydraulicOilLevel
-@docs hydraulicOilTemperature
 @docs hydrogenStation
+@docs hydraulicOilTemperature
 @docs induction
 @docs key
 @docs keyChain
@@ -325,8 +325,8 @@ module Material.Icons.Categories.Automotive exposing
 @docs smoking
 @docs snowflake
 @docs speedometer
-@docs speedometerSlow
 @docs speedometerMedium
+@docs speedometerSlow
 @docs steering
 @docs steeringOff
 @docs thermometer
@@ -477,16 +477,6 @@ battery10 =
     Material.Icons.Directory.B.battery10
 
 
-{-| The [`battery-20`](https://pictogrammers.com/library/mdi/icon/battery-20/) icon.
-
-![battery-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE3SDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
-
--}
-battery20 : IconShape
-battery20 =
-    Material.Icons.Directory.B.battery20
-
-
 {-| The [`battery-30`](https://pictogrammers.com/library/mdi/icon/battery-30/) icon.
 
 ![battery-30](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE1SDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
@@ -495,6 +485,16 @@ battery20 =
 battery30 : IconShape
 battery30 =
     Material.Icons.Directory.B.battery30
+
+
+{-| The [`battery-20`](https://pictogrammers.com/library/mdi/icon/battery-20/) icon.
+
+![battery-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE3SDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
+
+-}
+battery20 : IconShape
+battery20 =
+    Material.Icons.Directory.B.battery20
 
 
 {-| The [`battery-40`](https://pictogrammers.com/library/mdi/icon/battery-40/) icon.
@@ -567,16 +567,6 @@ batteryCharging =
     Material.Icons.Directory.B.batteryCharging
 
 
-{-| The [`battery-charging-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-10/) icon.
-
-![battery-charging-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIsMThINEw0LjA1LDZIMTIuMDVNMTIuNzIsNEgxMS4wNVYySDUuMDVWNEgzLjM4QTEuMzMsMS4zMyAwIDAsMCAyLjA1LDUuMzNWMjAuNjdDMi4wNSwyMS40IDIuNjUsMjIgMy4zOCwyMkgxMi43MkMxMy40NSwyMiAxNC4wNSwyMS40IDE0LjA1LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjcyLDRaIiAvPjwvc3ZnPg==)
-
--}
-batteryCharging10 : IconShape
-batteryCharging10 =
-    Material.Icons.Directory.B.batteryCharging10
-
-
 {-| The [`battery-charging-100`](https://pictogrammers.com/library/mdi/icon/battery-charging-100/) icon.
 
 ![battery-charging-100](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
@@ -587,14 +577,14 @@ batteryCharging100 =
     Material.Icons.Directory.B.batteryCharging100
 
 
-{-| The [`battery-charging-20`](https://pictogrammers.com/library/mdi/icon/battery-charging-20/) icon.
+{-| The [`battery-charging-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-10/) icon.
 
-![battery-charging-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIuMDUsMTdINC4wNVY2SDEyLjA1TTEyLjcyLDRIMTEuMDVWMkg1LjA1VjRIMy4zOEExLjMzLDEuMzMgMCAwLDAgMi4wNSw1LjMzVjIwLjY3QzIuMDUsMjEuNCAyLjY1LDIyIDMuMzgsMjJIMTIuNzJDMTMuNDUsMjIgMTQuMDUsMjEuNCAxNC4wNSwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi43Miw0WiIgLz48L3N2Zz4=)
+![battery-charging-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIsMThINEw0LjA1LDZIMTIuMDVNMTIuNzIsNEgxMS4wNVYySDUuMDVWNEgzLjM4QTEuMzMsMS4zMyAwIDAsMCAyLjA1LDUuMzNWMjAuNjdDMi4wNSwyMS40IDIuNjUsMjIgMy4zOCwyMkgxMi43MkMxMy40NSwyMiAxNC4wNSwyMS40IDE0LjA1LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjcyLDRaIiAvPjwvc3ZnPg==)
 
 -}
-batteryCharging20 : IconShape
-batteryCharging20 =
-    Material.Icons.Directory.B.batteryCharging20
+batteryCharging10 : IconShape
+batteryCharging10 =
+    Material.Icons.Directory.B.batteryCharging10
 
 
 {-| The [`battery-charging-30`](https://pictogrammers.com/library/mdi/icon/battery-charging-30/) icon.
@@ -617,6 +607,16 @@ batteryCharging40 =
     Material.Icons.Directory.B.batteryCharging40
 
 
+{-| The [`battery-charging-20`](https://pictogrammers.com/library/mdi/icon/battery-charging-20/) icon.
+
+![battery-charging-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIuMDUsMTdINC4wNVY2SDEyLjA1TTEyLjcyLDRIMTEuMDVWMkg1LjA1VjRIMy4zOEExLjMzLDEuMzMgMCAwLDAgMi4wNSw1LjMzVjIwLjY3QzIuMDUsMjEuNCAyLjY1LDIyIDMuMzgsMjJIMTIuNzJDMTMuNDUsMjIgMTQuMDUsMjEuNCAxNC4wNSwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi43Miw0WiIgLz48L3N2Zz4=)
+
+-}
+batteryCharging20 : IconShape
+batteryCharging20 =
+    Material.Icons.Directory.B.batteryCharging20
+
+
 {-| The [`battery-charging-50`](https://pictogrammers.com/library/mdi/icon/battery-charging-50/) icon.
 
 ![battery-charging-50](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsMTNINFY2SDEyTTEyLjY3LDRIMTFWMkg1VjRIMy4zM0ExLjMzLDEuMzMgMCAwLDAgMiw1LjMzVjIwLjY3QzIsMjEuNCAyLjYsMjIgMy4zMywyMkgxMi42N0MxMy40LDIyIDE0LDIxLjQgMTQsMjAuNjdWNS4zM0ExLjMzLDEuMzMgMCAwLDAgMTIuNjcsNFoiIC8+PC9zdmc+)
@@ -637,16 +637,6 @@ batteryCharging60 =
     Material.Icons.Directory.B.batteryCharging60
 
 
-{-| The [`battery-charging-70`](https://pictogrammers.com/library/mdi/icon/battery-charging-70/) icon.
-
-![battery-charging-70](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEwSDRWNkgxMk0xMi42Nyw0SDExVjJINVY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRNMjMsMTFIMjBWNEwxNSwxNEgxOFYyMkwyMywxMVoiIC8+PC9zdmc+)
-
--}
-batteryCharging70 : IconShape
-batteryCharging70 =
-    Material.Icons.Directory.B.batteryCharging70
-
-
 {-| The [`battery-charging-80`](https://pictogrammers.com/library/mdi/icon/battery-charging-80/) icon.
 
 ![battery-charging-80](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsOUg0VjZIMTJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
@@ -655,6 +645,16 @@ batteryCharging70 =
 batteryCharging80 : IconShape
 batteryCharging80 =
     Material.Icons.Directory.B.batteryCharging80
+
+
+{-| The [`battery-charging-70`](https://pictogrammers.com/library/mdi/icon/battery-charging-70/) icon.
+
+![battery-charging-70](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEwSDRWNkgxMk0xMi42Nyw0SDExVjJINVY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRNMjMsMTFIMjBWNEwxNSwxNEgxOFYyMkwyMywxMVoiIC8+PC9zdmc+)
+
+-}
+batteryCharging70 : IconShape
+batteryCharging70 =
+    Material.Icons.Directory.B.batteryCharging70
 
 
 {-| The [`battery-charging-90`](https://pictogrammers.com/library/mdi/icon/battery-charging-90/) icon.
@@ -997,16 +997,6 @@ carElectric =
     Material.Icons.Directory.C.carElectric
 
 
-{-| The [`car-electric-outline`](https://pictogrammers.com/library/mdi/icon/car-electric-outline/) icon.
-
-![car-electric-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjkyIDJDMTguNzIgMS40MiAxOC4xNiAxIDE3LjUgMUg2LjVDNS44NCAxIDUuMjkgMS40MiA1LjA4IDJMMyA4VjE2QzMgMTYuNTUgMy40NSAxNyA0IDE3SDVDNS41NSAxNyA2IDE2LjU1IDYgMTZWMTVIMThWMTZDMTggMTYuNTUgMTguNDUgMTcgMTkgMTdIMjBDMjAuNTUgMTcgMjEgMTYuNTUgMjEgMTZWOEwxOC45MiAyTTYuODUgM0gxNy4xNEwxOC4yMiA2LjExSDUuNzdMNi44NSAzTTE5IDEzSDVWOEgxOVYxM003LjUgOUM4LjMzIDkgOSA5LjY3IDkgMTAuNVM4LjMzIDEyIDcuNSAxMiA2IDExLjMzIDYgMTAuNSA2LjY3IDkgNy41IDlNMTYuNSA5QzE3LjMzIDkgMTggOS42NyAxOCAxMC41UzE3LjMzIDEyIDE2LjUgMTJDMTUuNjcgMTIgMTUgMTEuMzMgMTUgMTAuNVMxNS42NyA5IDE2LjUgOU03IDIwSDExVjE4TDE3IDIxSDEzVjIzTDcgMjBaIiAvPjwvc3ZnPg==)
-
--}
-carElectricOutline : IconShape
-carElectricOutline =
-    Material.Icons.Directory.C.carElectricOutline
-
-
 {-| The [`car-emergency`](https://pictogrammers.com/library/mdi/icon/car-emergency/) icon.
 
 ![car-emergency](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDBWM0gxM1YwSDExTTcuODggMS40Nkw2LjQ2IDIuODdMOC41OSA1TDEwIDMuNThMNy44OCAxLjQ2TTE2LjEyIDEuNDZMMTQgMy41OEwxNS40MSA1TDE3LjU0IDIuODhMMTYuMTIgMS40Nk0xMiA1QTIgMiAwIDAgMCAxMCA3VjhINi41QzUuODQgOCA1LjI4IDguNDIgNS4wOCA5TDMgMTVWMjNBMSAxIDAgMCAwIDQgMjRINUExIDEgMCAwIDAgNiAyM1YyMkgxOFYyM0ExIDEgMCAwIDAgMTkgMjRIMjBBMSAxIDAgMCAwIDIxIDIzVjE1TDE4LjkyIDlDMTguNzIgOC40MiAxOC4xNiA4IDE3LjUgOEgxNFY3QTIgMiAwIDAgMCAxMiA1TTYuNSA5LjVIMTcuNUwxOSAxNEg1TDYuNSA5LjVNNi41IDE2QTEuNSAxLjUgMCAwIDEgOCAxNy41QTEuNSAxLjUgMCAwIDEgNi41IDE5QTEuNSAxLjUgMCAwIDEgNSAxNy41QTEuNSAxLjUgMCAwIDEgNi41IDE2TTE3LjUgMTZBMS41IDEuNSAwIDAgMSAxOSAxNy41QTEuNSAxLjUgMCAwIDEgMTcuNSAxOUExLjUgMS41IDAgMCAxIDE2IDE3LjVBMS41IDEuNSAwIDAgMSAxNy41IDE2WiIgLz48L3N2Zz4=)
@@ -1015,6 +1005,16 @@ carElectricOutline =
 carEmergency : IconShape
 carEmergency =
     Material.Icons.Directory.C.carEmergency
+
+
+{-| The [`car-electric-outline`](https://pictogrammers.com/library/mdi/icon/car-electric-outline/) icon.
+
+![car-electric-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjkyIDJDMTguNzIgMS40MiAxOC4xNiAxIDE3LjUgMUg2LjVDNS44NCAxIDUuMjkgMS40MiA1LjA4IDJMMyA4VjE2QzMgMTYuNTUgMy40NSAxNyA0IDE3SDVDNS41NSAxNyA2IDE2LjU1IDYgMTZWMTVIMThWMTZDMTggMTYuNTUgMTguNDUgMTcgMTkgMTdIMjBDMjAuNTUgMTcgMjEgMTYuNTUgMjEgMTZWOEwxOC45MiAyTTYuODUgM0gxNy4xNEwxOC4yMiA2LjExSDUuNzdMNi44NSAzTTE5IDEzSDVWOEgxOVYxM003LjUgOUM4LjMzIDkgOSA5LjY3IDkgMTAuNVM4LjMzIDEyIDcuNSAxMiA2IDExLjMzIDYgMTAuNSA2LjY3IDkgNy41IDlNMTYuNSA5QzE3LjMzIDkgMTggOS42NyAxOCAxMC41UzE3LjMzIDEyIDE2LjUgMTJDMTUuNjcgMTIgMTUgMTEuMzMgMTUgMTAuNVMxNS42NyA5IDE2LjUgOU03IDIwSDExVjE4TDE3IDIxSDEzVjIzTDcgMjBaIiAvPjwvc3ZnPg==)
+
+-}
+carElectricOutline : IconShape
+carElectricOutline =
+    Material.Icons.Directory.C.carElectricOutline
 
 
 {-| The [`car-esp`](https://pictogrammers.com/library/mdi/icon/car-esp/) icon.
@@ -1137,16 +1137,6 @@ carMultiple =
     Material.Icons.Directory.C.carMultiple
 
 
-{-| The [`car-off`](https://pictogrammers.com/library/mdi/icon/car-off/) icon.
-
-![car-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjUsMTkuODVMNi40MSw1Ljc2TDIuNDEsMS43NkwxLjExLDNMNC41Nyw2LjQ2TDMsMTFWMTlBMSwxIDAgMCwwIDQsMjBINUExLDEgMCAwLDAgNiwxOVYxOEgxNi4xMUwyMC44NCwyMi43M0wyMi4xMSwyMS40NkwyMC41LDE5Ljg1TTYuNSwxNUExLjUsMS41IDAgMCwxIDUsMTMuNUExLjUsMS41IDAgMCwxIDYuNSwxMkExLjUsMS41IDAgMCwxIDgsMTMuNUExLjUsMS41IDAgMCwxIDYuNSwxNU01LDEwTDUuNzgsNy42N0w4LjExLDEwSDVNMTcuNSw1LjVMMTksMTBIMTMuMkwxNi4xMiwxMi45MkMxNi41LDEyLjE3IDE3LjM3LDExLjg2IDE4LjEyLDEyLjIxQzE4Ljg3LDEyLjU3IDE5LjE4LDEzLjQ3IDE4LjgzLDE0LjIxQzE4LjY4LDE0LjUgMTguNDMsMTQuNzcgMTguMTIsMTQuOTJMMjEsMTcuOFYxMUwxOC45Miw1QzE4LjcxLDQuNCAxOC4xNCw0IDE3LjUsNEg3LjJMOC43LDUuNUgxNy41WiIgLz48L3N2Zz4=)
-
--}
-carOff : IconShape
-carOff =
-    Material.Icons.Directory.C.carOff
-
-
 {-| The [`car-outline`](https://pictogrammers.com/library/mdi/icon/car-outline/) icon.
 
 ![car-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjkgNkMxOC43IDUuNCAxOC4xIDUgMTcuNSA1SDYuNUM1LjggNSA1LjMgNS40IDUuMSA2TDMgMTJWMjBDMyAyMC41IDMuNSAyMSA0IDIxSDVDNS42IDIxIDYgMjAuNSA2IDIwVjE5SDE4VjIwQzE4IDIwLjUgMTguNSAyMSAxOSAyMUgyMEMyMC41IDIxIDIxIDIwLjUgMjEgMjBWMTJMMTguOSA2TTYuOCA3SDE3LjFMMTguMiAxMEg1LjhMNi44IDdNMTkgMTdINVYxMkgxOVYxN003LjUgMTNDOC4zIDEzIDkgMTMuNyA5IDE0LjVTOC4zIDE2IDcuNSAxNiA2IDE1LjMgNiAxNC41IDYuNyAxMyA3LjUgMTNNMTYuNSAxM0MxNy4zIDEzIDE4IDEzLjcgMTggMTQuNVMxNy4zIDE2IDE2LjUgMTZDMTUuNyAxNiAxNSAxNS4zIDE1IDE0LjVTMTUuNyAxMyAxNi41IDEzWiIgLz48L3N2Zz4=)
@@ -1155,6 +1145,16 @@ carOff =
 carOutline : IconShape
 carOutline =
     Material.Icons.Directory.C.carOutline
+
+
+{-| The [`car-off`](https://pictogrammers.com/library/mdi/icon/car-off/) icon.
+
+![car-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjUsMTkuODVMNi40MSw1Ljc2TDIuNDEsMS43NkwxLjExLDNMNC41Nyw2LjQ2TDMsMTFWMTlBMSwxIDAgMCwwIDQsMjBINUExLDEgMCAwLDAgNiwxOVYxOEgxNi4xMUwyMC44NCwyMi43M0wyMi4xMSwyMS40NkwyMC41LDE5Ljg1TTYuNSwxNUExLjUsMS41IDAgMCwxIDUsMTMuNUExLjUsMS41IDAgMCwxIDYuNSwxMkExLjUsMS41IDAgMCwxIDgsMTMuNUExLjUsMS41IDAgMCwxIDYuNSwxNU01LDEwTDUuNzgsNy42N0w4LjExLDEwSDVNMTcuNSw1LjVMMTksMTBIMTMuMkwxNi4xMiwxMi45MkMxNi41LDEyLjE3IDE3LjM3LDExLjg2IDE4LjEyLDEyLjIxQzE4Ljg3LDEyLjU3IDE5LjE4LDEzLjQ3IDE4LjgzLDE0LjIxQzE4LjY4LDE0LjUgMTguNDMsMTQuNzcgMTguMTIsMTQuOTJMMjEsMTcuOFYxMUwxOC45Miw1QzE4LjcxLDQuNCAxOC4xNCw0IDE3LjUsNEg3LjJMOC43LDUuNUgxNy41WiIgLz48L3N2Zz4=)
+
+-}
+carOff : IconShape
+carOff =
+    Material.Icons.Directory.C.carOff
 
 
 {-| The [`car-parking-lights`](https://pictogrammers.com/library/mdi/icon/car-parking-lights/) icon.
@@ -1167,16 +1167,6 @@ carParkingLights =
     Material.Icons.Directory.C.carParkingLights
 
 
-{-| The [`car-pickup`](https://pictogrammers.com/library/mdi/icon/car-pickup/) icon.
-
-![car-pickup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDZIMTAuNVYxMEgxVjE1SDNBMywzIDAgMCwwIDYsMThBMywzIDAgMCwwIDksMTVIMTVBMywzIDAgMCwwIDE4LDE4QTMsMyAwIDAsMCAyMSwxNUgyM1YxMkMyMywxMC44OSAyMi4xMSwxMCAyMSwxMEgxOUwxNiw2TTEyLDcuNUgxNS41TDE3LjQ2LDEwSDEyVjcuNU02LDEzLjVBMS41LDEuNSAwIDAsMSA3LjUsMTVBMS41LDEuNSAwIDAsMSA2LDE2LjVBMS41LDEuNSAwIDAsMSA0LjUsMTVBMS41LDEuNSAwIDAsMSA2LDEzLjVNMTgsMTMuNUExLjUsMS41IDAgMCwxIDE5LjUsMTVBMS41LDEuNSAwIDAsMSAxOCwxNi41QTEuNSwxLjUgMCAwLDEgMTYuNSwxNUExLjUsMS41IDAgMCwxIDE4LDEzLjVaIiAvPjwvc3ZnPg==)
-
--}
-carPickup : IconShape
-carPickup =
-    Material.Icons.Directory.C.carPickup
-
-
 {-| The [`car-search`](https://pictogrammers.com/library/mdi/icon/car-search/) icon.
 
 ![car-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNjEgMTYuMTFDOS42MSAxNC4wMyAxMC41OSAxMi4xOSAxMi4xIDExSDVMNi41IDYuNUgxNy41TDE4LjcyIDEwLjE2QzE5LjU2IDEwLjUzIDIwLjMgMTEuMDcgMjAuOTEgMTEuNzRMMTguOTIgNkMxOC43MiA1LjQyIDE4LjE2IDUgMTcuNSA1SDYuNUM1Ljg0IDUgNS4yOCA1LjQyIDUuMDggNkwzIDEyVjIwQzMgMjAuNTUgMy40NSAyMSA0IDIxSDVDNS41NSAyMSA2IDIwLjU1IDYgMjBWMTlIMTAuMjlDOS44NiAxOC4xMyA5LjYxIDE3LjE1IDkuNjEgMTYuMTFNNi41IDE2QzUuNjcgMTYgNSAxNS4zMyA1IDE0LjVTNS42NyAxMyA2LjUgMTMgOCAxMy42NyA4IDE0LjUgNy4zMyAxNiA2LjUgMTZNMjAuNzEgMjAuN0wyMC43IDIwLjcxTDIwLjcxIDIwLjdNMTYuMTEgMTEuNjFDMTguNjEgMTEuNjEgMjAuNjEgMTMuNjEgMjAuNjEgMTYuMTFDMjAuNjEgMTcgMjAuMzYgMTcuODIgMTkuOTIgMTguNUwyMyAyMS42MUwyMS42MSAyM0wxOC41IDE5LjkzQzE3LjggMjAuMzYgMTcgMjAuNjEgMTYuMTEgMjAuNjFDMTMuNjEgMjAuNjEgMTEuNjEgMTguNjEgMTEuNjEgMTYuMTFTMTMuNjEgMTEuNjEgMTYuMTEgMTEuNjFNMTYuMTEgMTMuNjFDMTQuNzMgMTMuNjEgMTMuNjEgMTQuNzMgMTMuNjEgMTYuMTFTMTQuNzMgMTguNjEgMTYuMTEgMTguNjEgMTguNjEgMTcuNSAxOC42MSAxNi4xMSAxNy41IDEzLjYxIDE2LjExIDEzLjYxIiAvPjwvc3ZnPg==)
@@ -1185,6 +1175,16 @@ carPickup =
 carSearch : IconShape
 carSearch =
     Material.Icons.Directory.C.carSearch
+
+
+{-| The [`car-pickup`](https://pictogrammers.com/library/mdi/icon/car-pickup/) icon.
+
+![car-pickup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDZIMTAuNVYxMEgxVjE1SDNBMywzIDAgMCwwIDYsMThBMywzIDAgMCwwIDksMTVIMTVBMywzIDAgMCwwIDE4LDE4QTMsMyAwIDAsMCAyMSwxNUgyM1YxMkMyMywxMC44OSAyMi4xMSwxMCAyMSwxMEgxOUwxNiw2TTEyLDcuNUgxNS41TDE3LjQ2LDEwSDEyVjcuNU02LDEzLjVBMS41LDEuNSAwIDAsMSA3LjUsMTVBMS41LDEuNSAwIDAsMSA2LDE2LjVBMS41LDEuNSAwIDAsMSA0LjUsMTVBMS41LDEuNSAwIDAsMSA2LDEzLjVNMTgsMTMuNUExLjUsMS41IDAgMCwxIDE5LjUsMTVBMS41LDEuNSAwIDAsMSAxOCwxNi41QTEuNSwxLjUgMCAwLDEgMTYuNSwxNUExLjUsMS41IDAgMCwxIDE4LDEzLjVaIiAvPjwvc3ZnPg==)
+
+-}
+carPickup : IconShape
+carPickup =
+    Material.Icons.Directory.C.carPickup
 
 
 {-| The [`car-search-outline`](https://pictogrammers.com/library/mdi/icon/car-search-outline/) icon.
@@ -1267,16 +1267,6 @@ carSide =
     Material.Icons.Directory.C.carSide
 
 
-{-| The [`car-speed-limiter`](https://pictogrammers.com/library/mdi/icon/car-speed-limiter/) icon.
-
-![car-speed-limiter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE1QzE4IDE3LjYgMTYuOCAxOS45IDE0LjkgMjEuM0wxNC40IDIwLjhMMTIuMyAxOC43TDEzLjcgMTcuM0wxNC45IDE4LjVDMTUuNCAxNy44IDE1LjggMTYuOSAxNS45IDE2SDE0VjE0SDE1LjlDMTUuNyAxMy4xIDE1LjQgMTIuMyAxNC45IDExLjVMMTMuNyAxMi43TDEyLjMgMTEuM0wxMy41IDEwLjFDMTIuOCA5LjYgMTEuOSA5LjIgMTEgOS4xVjExSDlWOS4xQzguMSA5LjMgNy4zIDkuNiA2LjUgMTAuMUw5LjUgMTMuMUM5LjcgMTMuMSA5LjggMTMgMTAgMTNDMTEuMTEgMTMgMTIgMTMuOSAxMiAxNVMxMS4xMSAxNyAxMCAxNyA4IDE2LjExIDggMTVDOCAxNC44IDggMTQuNyA4LjEgMTQuNUw1LjEgMTEuNUM0LjYgMTIuMiA0LjIgMTMuMSA0LjEgMTRINlYxNkg0LjFDNC4zIDE2LjkgNC42IDE3LjcgNS4xIDE4LjVMNi4zIDE3LjNMNy43IDE4LjdMNS4xIDIxLjNDMy4yIDE5LjkgMiAxNy42IDIgMTVDMiAxMC41OCA1LjU4IDcgMTAgN1MxOCAxMC41OCAxOCAxNU0yMyA1QzIzIDMuMzQgMjEuNjYgMiAyMCAyUzE3IDMuMzQgMTcgNUMxNyA2LjMgMTcuODQgNy40IDE5IDcuODJWMTFIMjFWNy44MkMyMi4xNiA3LjQgMjMgNi4zIDIzIDVNMjAgNkMxOS40NSA2IDE5IDUuNTUgMTkgNVMxOS40NSA0IDIwIDQgMjEgNC40NSAyMSA1IDIwLjU1IDYgMjAgNloiIC8+PC9zdmc+)
-
--}
-carSpeedLimiter : IconShape
-carSpeedLimiter =
-    Material.Icons.Directory.C.carSpeedLimiter
-
-
 {-| The [`car-sports`](https://pictogrammers.com/library/mdi/icon/car-sports/) icon.
 
 ![car-sports](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDguNUg3TDQsMTFIM0MxLjg5LDExIDEsMTEuODkgMSwxM1YxNkgzLjE3QzMuNiwxNy4yIDQuNzMsMTggNiwxOEM3LjI3LDE4IDguNCwxNy4yIDguODIsMTZIMTUuMTdDMTUuNiwxNy4yIDE2LjczLDE4IDE4LDE4QzE5LjI3LDE4IDIwLjQsMTcuMiAyMC44MiwxNkgyM1YxNUMyMywxMy44OSAyMS45NywxMy41MyAyMSwxM0wxMiw4LjVNNS4yNSwxMkw3LjUsMTBIMTEuNUwxNS41LDEySDUuMjVNNiwxMy41QTEuNSwxLjUgMCAwLDEgNy41LDE1QTEuNSwxLjUgMCAwLDEgNiwxNi41QTEuNSwxLjUgMCAwLDEgNC41LDE1QTEuNSwxLjUgMCAwLDEgNiwxMy41TTE4LDEzLjVBMS41LDEuNSAwIDAsMSAxOS41LDE1QTEuNSwxLjUgMCAwLDEgMTgsMTYuNUExLjUsMS41IDAgMCwxIDE2LjUsMTVBMS41LDEuNSAwIDAsMSAxOCwxMy41WiIgLz48L3N2Zz4=)
@@ -1285,6 +1275,16 @@ carSpeedLimiter =
 carSports : IconShape
 carSports =
     Material.Icons.Directory.C.carSports
+
+
+{-| The [`car-speed-limiter`](https://pictogrammers.com/library/mdi/icon/car-speed-limiter/) icon.
+
+![car-speed-limiter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE1QzE4IDE3LjYgMTYuOCAxOS45IDE0LjkgMjEuM0wxNC40IDIwLjhMMTIuMyAxOC43TDEzLjcgMTcuM0wxNC45IDE4LjVDMTUuNCAxNy44IDE1LjggMTYuOSAxNS45IDE2SDE0VjE0SDE1LjlDMTUuNyAxMy4xIDE1LjQgMTIuMyAxNC45IDExLjVMMTMuNyAxMi43TDEyLjMgMTEuM0wxMy41IDEwLjFDMTIuOCA5LjYgMTEuOSA5LjIgMTEgOS4xVjExSDlWOS4xQzguMSA5LjMgNy4zIDkuNiA2LjUgMTAuMUw5LjUgMTMuMUM5LjcgMTMuMSA5LjggMTMgMTAgMTNDMTEuMTEgMTMgMTIgMTMuOSAxMiAxNVMxMS4xMSAxNyAxMCAxNyA4IDE2LjExIDggMTVDOCAxNC44IDggMTQuNyA4LjEgMTQuNUw1LjEgMTEuNUM0LjYgMTIuMiA0LjIgMTMuMSA0LjEgMTRINlYxNkg0LjFDNC4zIDE2LjkgNC42IDE3LjcgNS4xIDE4LjVMNi4zIDE3LjNMNy43IDE4LjdMNS4xIDIxLjNDMy4yIDE5LjkgMiAxNy42IDIgMTVDMiAxMC41OCA1LjU4IDcgMTAgN1MxOCAxMC41OCAxOCAxNU0yMyA1QzIzIDMuMzQgMjEuNjYgMiAyMCAyUzE3IDMuMzQgMTcgNUMxNyA2LjMgMTcuODQgNy40IDE5IDcuODJWMTFIMjFWNy44MkMyMi4xNiA3LjQgMjMgNi4zIDIzIDVNMjAgNkMxOS40NSA2IDE5IDUuNTUgMTkgNVMxOS40NSA0IDIwIDQgMjEgNC40NSAyMSA1IDIwLjU1IDYgMjAgNloiIC8+PC9zdmc+)
+
+-}
+carSpeedLimiter : IconShape
+carSpeedLimiter =
+    Material.Icons.Directory.C.carSpeedLimiter
 
 
 {-| The [`car-tire-alert`](https://pictogrammers.com/library/mdi/icon/car-tire-alert/) icon.
@@ -1667,16 +1667,6 @@ hydraulicOilLevel =
     Material.Icons.Directory.H.hydraulicOilLevel
 
 
-{-| The [`hydraulic-oil-temperature`](https://pictogrammers.com/library/mdi/icon/hydraulic-oil-temperature/) icon.
-
-![hydraulic-oil-temperature](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgMThDNy4zNCAxOCA2IDE2LjY2IDYgMTVDNiAxMyA5IDkuNjMgOSA5LjYzUzEyIDEzIDEyIDE1QzEyIDE2LjY2IDEwLjY2IDE4IDkgMThNMTQgNFYyMEg0VjRIMlYyMEMyIDIxLjExIDIuODkgMjIgNCAyMkgxNEMxNS4xMSAyMiAxNiAyMS4xMSAxNiAyMFY0SDE0TTEwIDZWMkg4VjZINVY4SDEzVjZIMTBNMjEgMTcuNVY1LjVDMjEgNC42NyAyMC4zMyA0IDE5LjUgNFMxOCA0LjY3IDE4IDUuNVYxNy41QzE3LjM3IDE3Ljk3IDE3IDE4LjcxIDE3IDE5LjVDMTcgMjAuODggMTguMTIgMjIgMTkuNSAyMlMyMiAyMC44OCAyMiAxOS41QzIyIDE4LjcxIDIxLjYzIDE4IDIxIDE3LjVNMjAgMTNIMTlWNkgyMFYxM1oiIC8+PC9zdmc+)
-
--}
-hydraulicOilTemperature : IconShape
-hydraulicOilTemperature =
-    Material.Icons.Directory.H.hydraulicOilTemperature
-
-
 {-| The [`hydrogen-station`](https://pictogrammers.com/library/mdi/icon/hydrogen-station/) icon.
 
 ![hydrogen-station](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgM0M0Ljg5IDMgNCAzLjkgNCA1VjIxSDE0VjEzLjVIMTUuNVYxOC41QzE1LjUgMTkuODggMTYuNjIgMjEgMTggMjFTMjAuNSAxOS44OCAyMC41IDE4LjVWOUMyMC41IDguMzEgMjAuMjIgNy42OCAxOS43NyA3LjIzTDE5Ljc4IDcuMjJMMTYuMDYgMy41TDE1IDQuNTZMMTcuMTEgNi42N0MxNi4xNyA3LjAzIDE1LjUgNy45MyAxNS41IDlDMTUuNSAxMC4zOCAxNi42MiAxMS41IDE4IDExLjVDMTguMzYgMTEuNSAxOC42OSAxMS40MiAxOSAxMS4yOVYxOC41QzE5IDE5LjA1IDE4LjU1IDE5LjUgMTggMTkuNVMxNyAxOS4wNSAxNyAxOC41VjE0QzE3IDEyLjkgMTYuMTEgMTIgMTUgMTJIMTRWNUMxNCAzLjkgMTMuMTEgMyAxMiAzSDZNNiA3SDhWMTFIMTBWN0gxMlYxN0gxMFYxM0g4VjE3SDZWN00xOCA4QzE4LjU1IDggMTkgOC40NSAxOSA5UzE4LjU1IDEwIDE4IDEwIDE3IDkuNTUgMTcgOSAxNy40NSA4IDE4IDhaIiAvPjwvc3ZnPg==)
@@ -1685,6 +1675,16 @@ hydraulicOilTemperature =
 hydrogenStation : IconShape
 hydrogenStation =
     Material.Icons.Directory.H.hydrogenStation
+
+
+{-| The [`hydraulic-oil-temperature`](https://pictogrammers.com/library/mdi/icon/hydraulic-oil-temperature/) icon.
+
+![hydraulic-oil-temperature](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgMThDNy4zNCAxOCA2IDE2LjY2IDYgMTVDNiAxMyA5IDkuNjMgOSA5LjYzUzEyIDEzIDEyIDE1QzEyIDE2LjY2IDEwLjY2IDE4IDkgMThNMTQgNFYyMEg0VjRIMlYyMEMyIDIxLjExIDIuODkgMjIgNCAyMkgxNEMxNS4xMSAyMiAxNiAyMS4xMSAxNiAyMFY0SDE0TTEwIDZWMkg4VjZINVY4SDEzVjZIMTBNMjEgMTcuNVY1LjVDMjEgNC42NyAyMC4zMyA0IDE5LjUgNFMxOCA0LjY3IDE4IDUuNVYxNy41QzE3LjM3IDE3Ljk3IDE3IDE4LjcxIDE3IDE5LjVDMTcgMjAuODggMTguMTIgMjIgMTkuNSAyMlMyMiAyMC44OCAyMiAxOS41QzIyIDE4LjcxIDIxLjYzIDE4IDIxIDE3LjVNMjAgMTNIMTlWNkgyMFYxM1oiIC8+PC9zdmc+)
+
+-}
+hydraulicOilTemperature : IconShape
+hydraulicOilTemperature =
+    Material.Icons.Directory.H.hydraulicOilTemperature
 
 
 {-| The [`induction`](https://pictogrammers.com/library/mdi/icon/induction/) icon.
@@ -1897,16 +1897,6 @@ speedometer =
     Material.Icons.Directory.S.speedometer
 
 
-{-| The [`speedometer-slow`](https://pictogrammers.com/library/mdi/icon/speedometer-slow/) icon.
-
-![speedometer-slow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDE2QzEzLjY2IDE2IDE1IDE0LjY2IDE1IDEzQzE1IDExLjg4IDE0LjM5IDEwLjkgMTMuNSAxMC4zOUwzLjc5IDQuNzdMOS4zMiAxNC4zNUM5LjgyIDE1LjMzIDEwLjgzIDE2IDEyIDE2TTEyIDNDMTAuMTkgMyA4LjUgMy41IDcuMDMgNC4zMkw5LjEzIDUuNTNDMTAgNS4xOSAxMSA1IDEyIDVDMTYuNDIgNSAyMCA4LjU4IDIwIDEzQzIwIDE1LjIxIDE5LjExIDE3LjIxIDE3LjY2IDE4LjY1SDE3LjY1QzE3LjI2IDE5LjA0IDE3LjI2IDE5LjY3IDE3LjY1IDIwLjA2QzE4LjA0IDIwLjQ1IDE4LjY4IDIwLjQ1IDE5LjA3IDIwLjA3QzIwLjg4IDE4LjI2IDIyIDE1Ljc2IDIyIDEzQzIyIDcuNSAxNy41IDMgMTIgM00yIDEzQzIgMTUuNzYgMy4xMiAxOC4yNiA0LjkzIDIwLjA3QzUuMzIgMjAuNDUgNS45NSAyMC40NSA2LjM0IDIwLjA2QzYuNzMgMTkuNjcgNi43MyAxOS4wNCA2LjM0IDE4LjY1QzQuODkgMTcuMiA0IDE1LjIxIDQgMTNDNCAxMiA0LjE5IDExIDQuNTQgMTAuMUwzLjMzIDhDMi41IDkuNSAyIDExLjE4IDIgMTNaIiAvPjwvc3ZnPg==)
-
--}
-speedometerSlow : IconShape
-speedometerSlow =
-    Material.Icons.Directory.S.speedometerSlow
-
-
 {-| The [`speedometer-medium`](https://pictogrammers.com/library/mdi/icon/speedometer-medium/) icon.
 
 ![speedometer-medium](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDEuMzhMOS4xNCAxMi4wNkM4LjggMTMuMSA5LjA0IDE0LjI5IDkuODYgMTUuMTJDMTEuMDQgMTYuMjkgMTIuOTQgMTYuMjkgMTQuMTEgMTUuMTJDMTQuOSAxNC4zMyAxNS4xNiAxMy4yIDE0Ljg5IDEyLjIxTTE0LjYgMy4zNUwxNS4yMiA1LjY4QzE4LjA0IDYuOTIgMjAgOS43MyAyMCAxM0MyMCAxNS4yMSAxOS4xMSAxNy4yMSAxNy42NiAxOC42NUgxNy42NUMxNy4yNiAxOS4wNCAxNy4yNiAxOS42NyAxNy42NSAyMC4wNkMxOC4wNCAyMC40NSAxOC42OCAyMC40NSAxOS4wNyAyMC4wN0MyMC44OCAxOC4yNiAyMiAxNS43NiAyMiAxM0MyMiA4LjM4IDE4Ljg2IDQuNSAxNC42IDMuMzVNOS40IDMuMzZDNS4xNSA0LjUgMiA4LjQgMiAxM0MyIDE1Ljc2IDMuMTIgMTguMjYgNC45MyAyMC4wN0M1LjMyIDIwLjQ1IDUuOTUgMjAuNDUgNi4zNCAyMC4wNkM2LjczIDE5LjY3IDYuNzMgMTkuMDQgNi4zNCAxOC42NUM0Ljg5IDE3LjIgNCAxNS4yMSA0IDEzQzQgOS42NSA1Ljk0IDYuODYgOC43OSA1LjY1IiAvPjwvc3ZnPg==)
@@ -1915,6 +1905,16 @@ speedometerSlow =
 speedometerMedium : IconShape
 speedometerMedium =
     Material.Icons.Directory.S.speedometerMedium
+
+
+{-| The [`speedometer-slow`](https://pictogrammers.com/library/mdi/icon/speedometer-slow/) icon.
+
+![speedometer-slow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDE2QzEzLjY2IDE2IDE1IDE0LjY2IDE1IDEzQzE1IDExLjg4IDE0LjM5IDEwLjkgMTMuNSAxMC4zOUwzLjc5IDQuNzdMOS4zMiAxNC4zNUM5LjgyIDE1LjMzIDEwLjgzIDE2IDEyIDE2TTEyIDNDMTAuMTkgMyA4LjUgMy41IDcuMDMgNC4zMkw5LjEzIDUuNTNDMTAgNS4xOSAxMSA1IDEyIDVDMTYuNDIgNSAyMCA4LjU4IDIwIDEzQzIwIDE1LjIxIDE5LjExIDE3LjIxIDE3LjY2IDE4LjY1SDE3LjY1QzE3LjI2IDE5LjA0IDE3LjI2IDE5LjY3IDE3LjY1IDIwLjA2QzE4LjA0IDIwLjQ1IDE4LjY4IDIwLjQ1IDE5LjA3IDIwLjA3QzIwLjg4IDE4LjI2IDIyIDE1Ljc2IDIyIDEzQzIyIDcuNSAxNy41IDMgMTIgM00yIDEzQzIgMTUuNzYgMy4xMiAxOC4yNiA0LjkzIDIwLjA3QzUuMzIgMjAuNDUgNS45NSAyMC40NSA2LjM0IDIwLjA2QzYuNzMgMTkuNjcgNi43MyAxOS4wNCA2LjM0IDE4LjY1QzQuODkgMTcuMiA0IDE1LjIxIDQgMTNDNCAxMiA0LjE5IDExIDQuNTQgMTAuMUwzLjMzIDhDMi41IDkuNSAyIDExLjE4IDIgMTNaIiAvPjwvc3ZnPg==)
+
+-}
+speedometerSlow : IconShape
+speedometerSlow =
+    Material.Icons.Directory.S.speedometerSlow
 
 
 {-| The [`steering`](https://pictogrammers.com/library/mdi/icon/steering/) icon.

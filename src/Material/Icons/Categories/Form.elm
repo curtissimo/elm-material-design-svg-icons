@@ -16,17 +16,17 @@ module Material.Icons.Categories.Form exposing
     , checkboxBlankCircle
     , checkboxBlankCircleOutline
     , checkboxBlankOff
-    , checkboxBlankOffOutline
     , checkboxBlankOutline
+    , checkboxBlankOffOutline
     , checkboxIntermediate
-    , checkboxIntermediateVariant
     , checkboxMarked
+    , checkboxIntermediateVariant
     , checkboxMarkedCircle
     , checkboxMarkedCircleAutoOutline
     , checkboxMarkedCircleMinusOutline
     , checkboxMarkedCircleOutline
-    , checkboxMarkedCirclePlusOutline
     , checkboxMarkedOutline
+    , checkboxMarkedCirclePlusOutline
     , checkboxMultipleBlank
     , checkboxMultipleBlankCircle
     , checkboxMultipleBlankCircleOutline
@@ -39,9 +39,9 @@ module Material.Icons.Categories.Form exposing
     , checkboxOutline
     , chevronDownBox
     , chevronDownBoxOutline
-    , closeBox
     , close
     , closeBoxMultiple
+    , closeBox
     , closeBoxMultipleOutline
     , closeBoxOutline
     , closeCircle
@@ -51,23 +51,23 @@ module Material.Icons.Categories.Form exposing
     , draw
     , drawPen
     , formDropdown
-    , formSelect
     , formTextarea
+    , formSelect
     , formTextbox
     , formTextboxLock
     , formTextboxPassword
     , gestureTapButton
-    , minusBox
     , minusBoxMultiple
+    , minusBox
     , minusBoxMultipleOutline
     , minusBoxOutline
     , minusCircle
-    , minusCircleMultiple
     , minusCircleMultipleOutline
+    , minusCircleMultiple
     , minusCircleOutline
     , radioboxBlank
-    , radioboxIndeterminateVariant
     , radioboxMarked
+    , radioboxIndeterminateVariant
     , signature
     , signatureFreehand
     , signatureImage
@@ -89,17 +89,17 @@ module Material.Icons.Categories.Form exposing
 @docs checkboxBlankCircle
 @docs checkboxBlankCircleOutline
 @docs checkboxBlankOff
-@docs checkboxBlankOffOutline
 @docs checkboxBlankOutline
+@docs checkboxBlankOffOutline
 @docs checkboxIntermediate
-@docs checkboxIntermediateVariant
 @docs checkboxMarked
+@docs checkboxIntermediateVariant
 @docs checkboxMarkedCircle
 @docs checkboxMarkedCircleAutoOutline
 @docs checkboxMarkedCircleMinusOutline
 @docs checkboxMarkedCircleOutline
-@docs checkboxMarkedCirclePlusOutline
 @docs checkboxMarkedOutline
+@docs checkboxMarkedCirclePlusOutline
 @docs checkboxMultipleBlank
 @docs checkboxMultipleBlankCircle
 @docs checkboxMultipleBlankCircleOutline
@@ -112,9 +112,9 @@ module Material.Icons.Categories.Form exposing
 @docs checkboxOutline
 @docs chevronDownBox
 @docs chevronDownBoxOutline
-@docs closeBox
 @docs close
 @docs closeBoxMultiple
+@docs closeBox
 @docs closeBoxMultipleOutline
 @docs closeBoxOutline
 @docs closeCircle
@@ -124,23 +124,23 @@ module Material.Icons.Categories.Form exposing
 @docs draw
 @docs drawPen
 @docs formDropdown
-@docs formSelect
 @docs formTextarea
+@docs formSelect
 @docs formTextbox
 @docs formTextboxLock
 @docs formTextboxPassword
 @docs gestureTapButton
-@docs minusBox
 @docs minusBoxMultiple
+@docs minusBox
 @docs minusBoxMultipleOutline
 @docs minusBoxOutline
 @docs minusCircle
-@docs minusCircleMultiple
 @docs minusCircleMultipleOutline
+@docs minusCircleMultiple
 @docs minusCircleOutline
 @docs radioboxBlank
-@docs radioboxIndeterminateVariant
 @docs radioboxMarked
+@docs radioboxIndeterminateVariant
 @docs signature
 @docs signatureFreehand
 @docs signatureImage
@@ -289,16 +289,6 @@ checkboxBlankOff =
     Material.Icons.Directory.C.checkboxBlankOff
 
 
-{-| The [`checkbox-blank-off-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-blank-off-outline/) icon.
-
-![checkbox-blank-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMMyA0LjlWMTlDMyAyMC4xMSAzLjkgMjEgNSAyMUgxOS4xTDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTUgMTlWNi44OUwxNy4xMSAxOUg1TTguMiA1TDYuMiAzSDE5QzIwLjEgMyAyMSAzLjg5IDIxIDVWMTcuOEwxOSAxNS44VjVIOC4yWiIgLz48L3N2Zz4=)
-
--}
-checkboxBlankOffOutline : IconShape
-checkboxBlankOffOutline =
-    Material.Icons.Directory.C.checkboxBlankOffOutline
-
-
 {-| The [`checkbox-blank-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-blank-outline/) icon.
 
 ![checkbox-blank-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDNINUMzLjg5LDMgMywzLjg5IDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUMyMSwzLjg5IDIwLjEsMyAxOSwzTTE5LDVWMTlINVY1SDE5WiIgLz48L3N2Zz4=)
@@ -307,6 +297,16 @@ checkboxBlankOffOutline =
 checkboxBlankOutline : IconShape
 checkboxBlankOutline =
     Material.Icons.Directory.C.checkboxBlankOutline
+
+
+{-| The [`checkbox-blank-off-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-blank-off-outline/) icon.
+
+![checkbox-blank-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMMyA0LjlWMTlDMyAyMC4xMSAzLjkgMjEgNSAyMUgxOS4xTDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTUgMTlWNi44OUwxNy4xMSAxOUg1TTguMiA1TDYuMiAzSDE5QzIwLjEgMyAyMSAzLjg5IDIxIDVWMTcuOEwxOSAxNS44VjVIOC4yWiIgLz48L3N2Zz4=)
+
+-}
+checkboxBlankOffOutline : IconShape
+checkboxBlankOffOutline =
+    Material.Icons.Directory.C.checkboxBlankOffOutline
 
 
 {-| The [`checkbox-intermediate`](https://pictogrammers.com/library/mdi/icon/checkbox-intermediate/) icon.
@@ -319,16 +319,6 @@ checkboxIntermediate =
     Material.Icons.Directory.C.checkboxIntermediate
 
 
-{-| The [`checkbox-intermediate-variant`](https://pictogrammers.com/library/mdi/icon/checkbox-intermediate-variant/) icon.
-
-![checkbox-intermediate-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDNINUMzLjkgMyAzIDMuOSAzIDVWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVY1QzIxIDMuOSAyMC4xIDMgMTkgM00xOSAxOUg1VjVIMTlWMTlNNyAxN1Y3SDE3IiAvPjwvc3ZnPg==)
-
--}
-checkboxIntermediateVariant : IconShape
-checkboxIntermediateVariant =
-    Material.Icons.Directory.C.checkboxIntermediateVariant
-
-
 {-| The [`checkbox-marked`](https://pictogrammers.com/library/mdi/icon/checkbox-marked/) icon.
 
 ![checkbox-marked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDE3TDUsMTJMNi40MSwxMC41OEwxMCwxNC4xN0wxNy41OSw2LjU4TDE5LDhNMTksM0g1QzMuODksMyAzLDMuODkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QzIxLDMuODkgMjAuMSwzIDE5LDNaIiAvPjwvc3ZnPg==)
@@ -337,6 +327,16 @@ checkboxIntermediateVariant =
 checkboxMarked : IconShape
 checkboxMarked =
     Material.Icons.Directory.C.checkboxMarked
+
+
+{-| The [`checkbox-intermediate-variant`](https://pictogrammers.com/library/mdi/icon/checkbox-intermediate-variant/) icon.
+
+![checkbox-intermediate-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDNINUMzLjkgMyAzIDMuOSAzIDVWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVY1QzIxIDMuOSAyMC4xIDMgMTkgM00xOSAxOUg1VjVIMTlWMTlNNyAxN1Y3SDE3IiAvPjwvc3ZnPg==)
+
+-}
+checkboxIntermediateVariant : IconShape
+checkboxIntermediateVariant =
+    Material.Icons.Directory.C.checkboxIntermediateVariant
 
 
 {-| The [`checkbox-marked-circle`](https://pictogrammers.com/library/mdi/icon/checkbox-marked-circle/) icon.
@@ -379,16 +379,6 @@ checkboxMarkedCircleOutline =
     Material.Icons.Directory.C.checkboxMarkedCircleOutline
 
 
-{-| The [`checkbox-marked-circle-plus-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-marked-circle-plus-outline/) icon.
-
-![checkbox-marked-circle-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjMgMjEuN0MxMy42IDIxLjkgMTIuOCAyMiAxMiAyMkM2LjUgMjIgMiAxNy41IDIgMTJTNi41IDIgMTIgMkMxMy4zIDIgMTQuNiAyLjMgMTUuOCAyLjdMMTQuMiA0LjNDMTMuNSA0LjEgMTIuOCA0IDEyIDRDNy42IDQgNCA3LjYgNCAxMlM3LjYgMjAgMTIgMjBDMTIuNCAyMCAxMi45IDIwIDEzLjMgMTkuOUMxMy41IDIwLjYgMTMuOSAyMS4yIDE0LjMgMjEuN003LjkgMTAuMUw2LjUgMTEuNUwxMSAxNkwyMSA2TDE5LjYgNC42TDExIDEzLjJMNy45IDEwLjFNMTggMTRWMTdIMTVWMTlIMThWMjJIMjBWMTlIMjNWMTdIMjBWMTRIMThaIiAvPjwvc3ZnPg==)
-
--}
-checkboxMarkedCirclePlusOutline : IconShape
-checkboxMarkedCirclePlusOutline =
-    Material.Icons.Directory.C.checkboxMarkedCirclePlusOutline
-
-
 {-| The [`checkbox-marked-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-marked-outline/) icon.
 
 ![checkbox-marked-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDE5SDVWNUgxNVYzSDVDMy44OSwzIDMsMy44OSAzLDVWMTlBMiwyIDAgMCwwIDUsMjFIMTlBMiwyIDAgMCwwIDIxLDE5VjExSDE5TTcuOTEsMTAuMDhMNi41LDExLjVMMTEsMTZMMjEsNkwxOS41OSw0LjU4TDExLDEzLjE3TDcuOTEsMTAuMDhaIiAvPjwvc3ZnPg==)
@@ -397,6 +387,16 @@ checkboxMarkedCirclePlusOutline =
 checkboxMarkedOutline : IconShape
 checkboxMarkedOutline =
     Material.Icons.Directory.C.checkboxMarkedOutline
+
+
+{-| The [`checkbox-marked-circle-plus-outline`](https://pictogrammers.com/library/mdi/icon/checkbox-marked-circle-plus-outline/) icon.
+
+![checkbox-marked-circle-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjMgMjEuN0MxMy42IDIxLjkgMTIuOCAyMiAxMiAyMkM2LjUgMjIgMiAxNy41IDIgMTJTNi41IDIgMTIgMkMxMy4zIDIgMTQuNiAyLjMgMTUuOCAyLjdMMTQuMiA0LjNDMTMuNSA0LjEgMTIuOCA0IDEyIDRDNy42IDQgNCA3LjYgNCAxMlM3LjYgMjAgMTIgMjBDMTIuNCAyMCAxMi45IDIwIDEzLjMgMTkuOUMxMy41IDIwLjYgMTMuOSAyMS4yIDE0LjMgMjEuN003LjkgMTAuMUw2LjUgMTEuNUwxMSAxNkwyMSA2TDE5LjYgNC42TDExIDEzLjJMNy45IDEwLjFNMTggMTRWMTdIMTVWMTlIMThWMjJIMjBWMTlIMjNWMTdIMjBWMTRIMThaIiAvPjwvc3ZnPg==)
+
+-}
+checkboxMarkedCirclePlusOutline : IconShape
+checkboxMarkedCirclePlusOutline =
+    Material.Icons.Directory.C.checkboxMarkedCirclePlusOutline
 
 
 {-| The [`checkbox-multiple-blank`](https://pictogrammers.com/library/mdi/icon/checkbox-multiple-blank/) icon.
@@ -519,16 +519,6 @@ chevronDownBoxOutline =
     Material.Icons.Directory.C.chevronDownBoxOutline
 
 
-{-| The [`close-box`](https://pictogrammers.com/library/mdi/icon/close-box/) icon.
-
-![close-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDNIMTYuM0g3LjdINUEyLDIgMCAwLDAgMyw1VjcuN1YxNi40VjE5QTIsMiAwIDAsMCA1LDIxSDcuN0gxNi40SDE5QTIsMiAwIDAsMCAyMSwxOVYxNi4zVjcuN1Y1QTIsMiAwIDAsMCAxOSwzTTE1LjYsMTdMMTIsMTMuNEw4LjQsMTdMNywxNS42TDEwLjYsMTJMNyw4LjRMOC40LDdMMTIsMTAuNkwxNS42LDdMMTcsOC40TDEzLjQsMTJMMTcsMTUuNkwxNS42LDE3WiIgLz48L3N2Zz4=)
-
--}
-closeBox : IconShape
-closeBox =
-    Material.Icons.Directory.C.closeBox
-
-
 {-| The [`close`](https://pictogrammers.com/library/mdi/icon/close/) icon.
 
 ![close](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDYuNDFMMTcuNTksNUwxMiwxMC41OUw2LjQxLDVMNSw2LjQxTDEwLjU5LDEyTDUsMTcuNTlMNi40MSwxOUwxMiwxMy40MUwxNy41OSwxOUwxOSwxNy41OUwxMy40MSwxMkwxOSw2LjQxWiIgLz48L3N2Zz4=)
@@ -547,6 +537,16 @@ close =
 closeBoxMultiple : IconShape
 closeBoxMultiple =
     Material.Icons.Directory.C.closeBoxMultiple
+
+
+{-| The [`close-box`](https://pictogrammers.com/library/mdi/icon/close-box/) icon.
+
+![close-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDNIMTYuM0g3LjdINUEyLDIgMCAwLDAgMyw1VjcuN1YxNi40VjE5QTIsMiAwIDAsMCA1LDIxSDcuN0gxNi40SDE5QTIsMiAwIDAsMCAyMSwxOVYxNi4zVjcuN1Y1QTIsMiAwIDAsMCAxOSwzTTE1LjYsMTdMMTIsMTMuNEw4LjQsMTdMNywxNS42TDEwLjYsMTJMNyw4LjRMOC40LDdMMTIsMTAuNkwxNS42LDdMMTcsOC40TDEzLjQsMTJMMTcsMTUuNkwxNS42LDE3WiIgLz48L3N2Zz4=)
+
+-}
+closeBox : IconShape
+closeBox =
+    Material.Icons.Directory.C.closeBox
 
 
 {-| The [`close-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/close-box-multiple-outline/) icon.
@@ -639,16 +639,6 @@ formDropdown =
     Material.Icons.Directory.F.formDropdown
 
 
-{-| The [`form-select`](https://pictogrammers.com/library/mdi/icon/form-select/) icon.
-
-![form-select](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDVIMThMMTYuNSA3TDE1IDVNNSAySDE5QzIwLjExIDIgMjEgMi45IDIxIDRWMjBDMjEgMjEuMTEgMjAuMTEgMjIgMTkgMjJINUMzLjkgMjIgMyAyMS4xMSAzIDIwVjRDMyAyLjkgMy45IDIgNSAyTTUgNFY4SDE5VjRINU01IDIwSDE5VjEwSDVWMjBNNyAxMkgxN1YxNEg3VjEyTTcgMTZIMTdWMThIN1YxNloiIC8+PC9zdmc+)
-
--}
-formSelect : IconShape
-formSelect =
-    Material.Icons.Directory.F.formSelect
-
-
 {-| The [`form-textarea`](https://pictogrammers.com/library/mdi/icon/form-textarea/) icon.
 
 ![form-textarea](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDlINFYyM0gyVjdIMTNNMjMgOVY3SDE3VjVBMSAxIDAgMCAxIDE4IDRIMjBWMkgxNy41QzE3IDIgMTYgMi40NSAxNiAzQzE2IDIuNDUgMTUuMDUgMiAxNC41IDJIMTJWNEgxNEExIDEgMCAwIDEgMTUgNVYxOUExIDEgMCAwIDEgMTQgMjBIMTJWMjJIMTQuNUMxNS4wNSAyMiAxNiAyMS41NSAxNiAyMUMxNiAyMS41NSAxNi45NSAyMiAxNy41IDIySDIwVjIwSDE4QTEgMSAwIDAgMSAxNyAxOVY5WiIgLz48L3N2Zz4=)
@@ -657,6 +647,16 @@ formSelect =
 formTextarea : IconShape
 formTextarea =
     Material.Icons.Directory.F.formTextarea
+
+
+{-| The [`form-select`](https://pictogrammers.com/library/mdi/icon/form-select/) icon.
+
+![form-select](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDVIMThMMTYuNSA3TDE1IDVNNSAySDE5QzIwLjExIDIgMjEgMi45IDIxIDRWMjBDMjEgMjEuMTEgMjAuMTEgMjIgMTkgMjJINUMzLjkgMjIgMyAyMS4xMSAzIDIwVjRDMyAyLjkgMy45IDIgNSAyTTUgNFY4SDE5VjRINU01IDIwSDE5VjEwSDVWMjBNNyAxMkgxN1YxNEg3VjEyTTcgMTZIMTdWMThIN1YxNloiIC8+PC9zdmc+)
+
+-}
+formSelect : IconShape
+formSelect =
+    Material.Icons.Directory.F.formSelect
 
 
 {-| The [`form-textbox`](https://pictogrammers.com/library/mdi/icon/form-textbox/) icon.
@@ -699,16 +699,6 @@ gestureTapButton =
     Material.Icons.Directory.G.gestureTapButton
 
 
-{-| The [`minus-box`](https://pictogrammers.com/library/mdi/icon/minus-box/) icon.
-
-![minus-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDEzSDdWMTFIMTdNMTksM0g1QzMuODksMyAzLDMuODkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QzIxLDMuODkgMjAuMSwzIDE5LDNaIiAvPjwvc3ZnPg==)
-
--}
-minusBox : IconShape
-minusBox =
-    Material.Icons.Directory.M.minusBox
-
-
 {-| The [`minus-box-multiple`](https://pictogrammers.com/library/mdi/icon/minus-box-multiple/) icon.
 
 ![minus-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDExSDlWOUgxOU0yMCAySDhDNi45IDIgNiAyLjkgNiA0VjE2QzYgMTcuMTEgNi45IDE4IDggMThIMjBDMjEuMTEgMTggMjIgMTcuMTEgMjIgMTZWNEMyMiAyLjkgMjEuMTEgMiAyMCAyTTQgNkgyVjIwQzIgMjEuMTEgMi45IDIyIDQgMjJIMThWMjBINFY2WiIgLz48L3N2Zz4=)
@@ -717,6 +707,16 @@ minusBox =
 minusBoxMultiple : IconShape
 minusBoxMultiple =
     Material.Icons.Directory.M.minusBoxMultiple
+
+
+{-| The [`minus-box`](https://pictogrammers.com/library/mdi/icon/minus-box/) icon.
+
+![minus-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDEzSDdWMTFIMTdNMTksM0g1QzMuODksMyAzLDMuODkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QzIxLDMuODkgMjAuMSwzIDE5LDNaIiAvPjwvc3ZnPg==)
+
+-}
+minusBox : IconShape
+minusBox =
+    Material.Icons.Directory.M.minusBox
 
 
 {-| The [`minus-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/minus-box-multiple-outline/) icon.
@@ -749,16 +749,6 @@ minusCircle =
     Material.Icons.Directory.M.minusCircle
 
 
-{-| The [`minus-circle-multiple`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple/) icon.
-
-![minus-circle-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMTJDMiA5LjIxIDMuNjQgNi44IDYgNS42OFYzLjVDMi41IDQuNzYgMCA4LjA5IDAgMTJTMi41IDE5LjI0IDYgMjAuNVYxOC4zMkMzLjY0IDE3LjIgMiAxNC43OSAyIDEyTTE1IDNDMTAuMDQgMyA2IDcuMDQgNiAxMlMxMC4wNCAyMSAxNSAyMSAyNCAxNi45NiAyNCAxMiAxOS45NiAzIDE1IDNNMjAgMTNIMTBWMTFIMjBWMTNaIiAvPjwvc3ZnPg==)
-
--}
-minusCircleMultiple : IconShape
-minusCircleMultiple =
-    Material.Icons.Directory.M.minusCircleMultiple
-
-
 {-| The [`minus-circle-multiple-outline`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple-outline/) icon.
 
 ![minus-circle-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDExVjEzSDE5VjExSDExTTIgMTJDMiA5LjIxIDMuNjQgNi44IDYgNS42OFYzLjVDMi41IDQuNzYgMCA4LjA5IDAgMTJTMi41IDE5LjI0IDYgMjAuNVYxOC4zMkMzLjY0IDE3LjIgMiAxNC43OSAyIDEyTTE1IDNDMTAuMDQgMyA2IDcuMDQgNiAxMlMxMC4wNCAyMSAxNSAyMSAyNCAxNi45NiAyNCAxMiAxOS45NiAzIDE1IDNNMTUgMTlDMTEuMTQgMTkgOCAxNS44NiA4IDEyUzExLjE0IDUgMTUgNSAyMiA4LjE0IDIyIDEyIDE4Ljg2IDE5IDE1IDE5WiIgLz48L3N2Zz4=)
@@ -767,6 +757,16 @@ minusCircleMultiple =
 minusCircleMultipleOutline : IconShape
 minusCircleMultipleOutline =
     Material.Icons.Directory.M.minusCircleMultipleOutline
+
+
+{-| The [`minus-circle-multiple`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple/) icon.
+
+![minus-circle-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMTJDMiA5LjIxIDMuNjQgNi44IDYgNS42OFYzLjVDMi41IDQuNzYgMCA4LjA5IDAgMTJTMi41IDE5LjI0IDYgMjAuNVYxOC4zMkMzLjY0IDE3LjIgMiAxNC43OSAyIDEyTTE1IDNDMTAuMDQgMyA2IDcuMDQgNiAxMlMxMC4wNCAyMSAxNSAyMSAyNCAxNi45NiAyNCAxMiAxOS45NiAzIDE1IDNNMjAgMTNIMTBWMTFIMjBWMTNaIiAvPjwvc3ZnPg==)
+
+-}
+minusCircleMultiple : IconShape
+minusCircleMultiple =
+    Material.Icons.Directory.M.minusCircleMultiple
 
 
 {-| The [`minus-circle-outline`](https://pictogrammers.com/library/mdi/icon/minus-circle-outline/) icon.
@@ -789,16 +789,6 @@ radioboxBlank =
     Material.Icons.Directory.R.radioboxBlank
 
 
-{-| The [`radiobox-indeterminate-variant`](https://pictogrammers.com/library/mdi/icon/radiobox-indeterminate-variant/) icon.
-
-![radiobox-indeterminate-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNDYgOC40NkM5LjQgNy41MyAxMC42NyA3IDEyIDdDMTMuMzMgNyAxNC42IDcuNTMgMTUuNTQgOC40Nkw4LjQ2IDE1LjU0QzcuNTMgMTQuNiA3IDEzLjMzIDcgMTJDNyAxMC42NyA3LjUzIDkuNCA4LjQ2IDguNDZNOC4xNyAyLjc2QzkuMzkgMi4yNiAxMC42OSAyIDEyIDJDMTMuMzEgMiAxNC42MSAyLjI2IDE1LjgzIDIuNzZDMTcuMDQgMy4yNiAxOC4xNCA0IDE5LjA3IDQuOTNDMjAgNS44NiAyMC43NCA2Ljk2IDIxLjI0IDguMTdDMjEuNzQgOS4zOSAyMiAxMC42OSAyMiAxMkMyMiAxNC42NSAyMC45NSAxNy4yIDE5LjA3IDE5LjA3QzE3LjIgMjAuOTUgMTQuNjUgMjIgMTIgMjJDMTAuNjkgMjIgOS4zOSAyMS43NCA4LjE3IDIxLjI0QzYuOTYgMjAuNzQgNS44NiAyMCA0LjkzIDE5LjA3QzMuMDUgMTcuMiAyIDE0LjY1IDIgMTJDMiA5LjM1IDMuMDUgNi44IDQuOTMgNC45M0M1Ljg2IDQgNi45NiAzLjI2IDguMTcgMi43Nk02LjM0IDE3LjY2QzcuODQgMTkuMTYgOS44OCAyMCAxMiAyMEMxNC4xMiAyMCAxNi4xNiAxOS4xNiAxNy42NiAxNy42NkMxOS4xNiAxNi4xNiAyMCAxNC4xMiAyMCAxMkMyMCA5Ljg4IDE5LjE2IDcuODQgMTcuNjYgNi4zNEMxNi4xNiA0Ljg0IDE0LjEyIDQgMTIgNEM5Ljg4IDQgNy44NCA0Ljg0IDYuMzQgNi4zNEM0Ljg0IDcuODQgNCA5Ljg4IDQgMTJDNCAxNC4xMiA0Ljg0IDE2LjE2IDYuMzQgMTcuNjZaIiAvPjwvc3ZnPg==)
-
--}
-radioboxIndeterminateVariant : IconShape
-radioboxIndeterminateVariant =
-    Material.Icons.Directory.R.radioboxIndeterminateVariant
-
-
 {-| The [`radiobox-marked`](https://pictogrammers.com/library/mdi/icon/radiobox-marked/) icon.
 
 ![radiobox-marked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIwQTgsOCAwIDAsMSA0LDEyQTgsOCAwIDAsMSAxMiw0QTgsOCAwIDAsMSAyMCwxMkE4LDggMCAwLDEgMTIsMjBNMTIsMkExMCwxMCAwIDAsMCAyLDEyQTEwLDEwIDAgMCwwIDEyLDIyQTEwLDEwIDAgMCwwIDIyLDEyQTEwLDEwIDAgMCwwIDEyLDJNMTIsN0E1LDUgMCAwLDAgNywxMkE1LDUgMCAwLDAgMTIsMTdBNSw1IDAgMCwwIDE3LDEyQTUsNSAwIDAsMCAxMiw3WiIgLz48L3N2Zz4=)
@@ -807,6 +797,16 @@ radioboxIndeterminateVariant =
 radioboxMarked : IconShape
 radioboxMarked =
     Material.Icons.Directory.R.radioboxMarked
+
+
+{-| The [`radiobox-indeterminate-variant`](https://pictogrammers.com/library/mdi/icon/radiobox-indeterminate-variant/) icon.
+
+![radiobox-indeterminate-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNDYgOC40NkM5LjQgNy41MyAxMC42NyA3IDEyIDdDMTMuMzMgNyAxNC42IDcuNTMgMTUuNTQgOC40Nkw4LjQ2IDE1LjU0QzcuNTMgMTQuNiA3IDEzLjMzIDcgMTJDNyAxMC42NyA3LjUzIDkuNCA4LjQ2IDguNDZNOC4xNyAyLjc2QzkuMzkgMi4yNiAxMC42OSAyIDEyIDJDMTMuMzEgMiAxNC42MSAyLjI2IDE1LjgzIDIuNzZDMTcuMDQgMy4yNiAxOC4xNCA0IDE5LjA3IDQuOTNDMjAgNS44NiAyMC43NCA2Ljk2IDIxLjI0IDguMTdDMjEuNzQgOS4zOSAyMiAxMC42OSAyMiAxMkMyMiAxNC42NSAyMC45NSAxNy4yIDE5LjA3IDE5LjA3QzE3LjIgMjAuOTUgMTQuNjUgMjIgMTIgMjJDMTAuNjkgMjIgOS4zOSAyMS43NCA4LjE3IDIxLjI0QzYuOTYgMjAuNzQgNS44NiAyMCA0LjkzIDE5LjA3QzMuMDUgMTcuMiAyIDE0LjY1IDIgMTJDMiA5LjM1IDMuMDUgNi44IDQuOTMgNC45M0M1Ljg2IDQgNi45NiAzLjI2IDguMTcgMi43Nk02LjM0IDE3LjY2QzcuODQgMTkuMTYgOS44OCAyMCAxMiAyMEMxNC4xMiAyMCAxNi4xNiAxOS4xNiAxNy42NiAxNy42NkMxOS4xNiAxNi4xNiAyMCAxNC4xMiAyMCAxMkMyMCA5Ljg4IDE5LjE2IDcuODQgMTcuNjYgNi4zNEMxNi4xNiA0Ljg0IDE0LjEyIDQgMTIgNEM5Ljg4IDQgNy44NCA0Ljg0IDYuMzQgNi4zNEM0Ljg0IDcuODQgNCA5Ljg4IDQgMTJDNCAxNC4xMiA0Ljg0IDE2LjE2IDYuMzQgMTcuNjZaIiAvPjwvc3ZnPg==)
+
+-}
+radioboxIndeterminateVariant : IconShape
+radioboxIndeterminateVariant =
+    Material.Icons.Directory.R.radioboxIndeterminateVariant
 
 
 {-| The [`signature`](https://pictogrammers.com/library/mdi/icon/signature/) icon.

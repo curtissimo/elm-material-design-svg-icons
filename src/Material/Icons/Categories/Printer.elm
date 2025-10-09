@@ -17,11 +17,11 @@ module Material.Icons.Categories.Printer exposing
     , printer3dNozzleHeatOutline
     , printer3dNozzleOff
     , printer3dNozzleOffOutline
-    , printer3dNozzleOutline
     , printer3dOff
+    , printer3dNozzleOutline
     , printerAlert
-    , printerCheck
     , printerEye
+    , printerCheck
     , printerOff
     , printerOffOutline
     , printerOutline
@@ -41,21 +41,21 @@ module Material.Icons.Categories.Printer exposing
     , printerPosNetwork
     , printerPosNetworkOutline
     , printerPosOff
-    , printerPosOffOutline
     , printerPosOutline
+    , printerPosOffOutline
     , printerPosPause
     , printerPosPauseOutline
     , printerPosPlay
-    , printerPosPlayOutline
     , printerPosPlus
     , printerPosPlusOutline
+    , printerPosPlayOutline
     , printerPosRefresh
-    , printerPosRefreshOutline
     , printerPosRemove
     , printerPosRemoveOutline
+    , printerPosRefreshOutline
     , printerPosStar
-    , printerPosStarOutline
     , printerPosStop
+    , printerPosStarOutline
     , printerPosStopOutline
     , printerPosSync
     , printerPosSyncOutline
@@ -82,11 +82,11 @@ module Material.Icons.Categories.Printer exposing
 @docs printer3dNozzleHeatOutline
 @docs printer3dNozzleOff
 @docs printer3dNozzleOffOutline
-@docs printer3dNozzleOutline
 @docs printer3dOff
+@docs printer3dNozzleOutline
 @docs printerAlert
-@docs printerCheck
 @docs printerEye
+@docs printerCheck
 @docs printerOff
 @docs printerOffOutline
 @docs printerOutline
@@ -106,21 +106,21 @@ module Material.Icons.Categories.Printer exposing
 @docs printerPosNetwork
 @docs printerPosNetworkOutline
 @docs printerPosOff
-@docs printerPosOffOutline
 @docs printerPosOutline
+@docs printerPosOffOutline
 @docs printerPosPause
 @docs printerPosPauseOutline
 @docs printerPosPlay
-@docs printerPosPlayOutline
 @docs printerPosPlus
 @docs printerPosPlusOutline
+@docs printerPosPlayOutline
 @docs printerPosRefresh
-@docs printerPosRefreshOutline
 @docs printerPosRemove
 @docs printerPosRemoveOutline
+@docs printerPosRefreshOutline
 @docs printerPosStar
-@docs printerPosStarOutline
 @docs printerPosStop
+@docs printerPosStarOutline
 @docs printerPosStopOutline
 @docs printerPosSync
 @docs printerPosSyncOutline
@@ -278,16 +278,6 @@ printer3dNozzleOffOutline =
     Material.Icons.Directory.P.printer3dNozzleOffOutline
 
 
-{-| The [`printer-3d-nozzle-outline`](https://pictogrammers.com/library/mdi/icon/printer-3d-nozzle-outline/) icon.
-
-![printer-3d-nozzle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMkgxN1Y3SDE5VjEzSDE2LjVMMTMsMTdIMTFMNy41LDEzSDVWN0g3VjJNMTAsMjJIMlYyMEgxMEExLDEgMCAwLDAgMTEsMTlWMThIMTNWMTlBMywzIDAgMCwxIDEwLDIyTTcsOVYxMUg4LjVMMTIsMTVMMTUuNSwxMUgxN1Y5SDE1VjRIOVY5SDdaIiAvPjwvc3ZnPg==)
-
--}
-printer3dNozzleOutline : IconShape
-printer3dNozzleOutline =
-    Material.Icons.Directory.P.printer3dNozzleOutline
-
-
 {-| The [`printer-3d-off`](https://pictogrammers.com/library/mdi/icon/printer-3d-off/) icon.
 
 ![printer-3d-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMyAyTDEgMy4zTDIuMSA0LjRDMiA0LjYgMiA0LjggMiA1VjExSDZWOC4zTDguNyAxMUw2LjUgMTIuMUM2LjIgMTIuMyA2IDEyLjYgNiAxM1YxOC4yQzYgMTguNiA2LjIgMTguOSA2LjUgMTkuMUwxMS40IDIxLjhDMTEuNiAyMS45IDExLjggMjIgMTIgMjJTMTIuNCAyMS45IDEyLjYgMjEuOEwxNy4xIDE5LjNMMjAuOCAyM0wyMi4xIDIxLjdMMi4zIDJNNC45IDJINC44TDkuOCA3SDE4VjExSDIyVjVDMjIgMy4zIDIwLjcgMiAxOSAySDQuOUM1IDIgNSAyIDQuOSAyTTE5IDRDMTkuNiA0IDIwIDQuNCAyMCA1UzE5LjYgNiAxOSA2IDE4IDUuNiAxOCA1IDE4LjQgNCAxOSA0TTEyLjQgOS42TDE4IDE1LjJWMTNDMTggMTIuNiAxNy44IDEyLjMgMTcuNSAxMi4xTDEyLjYgOS43QzEyLjUgOS43IDEyLjUgOS42IDEyLjQgOS42TTEwLjIgMTIuNUwxMi4yIDE0LjVMMTIgMTQuNkw5IDEzTDEwLjIgMTIuNU04IDE0LjdMMTEgMTYuM1YxOS4zTDggMTcuN1YxNC43TTEzLjcgMTZMMTUuNiAxNy45TDEzIDE5LjNWMTYuM0wxMy43IDE2WiIgLz48L3N2Zz4=)
@@ -296,6 +286,16 @@ printer3dNozzleOutline =
 printer3dOff : IconShape
 printer3dOff =
     Material.Icons.Directory.P.printer3dOff
+
+
+{-| The [`printer-3d-nozzle-outline`](https://pictogrammers.com/library/mdi/icon/printer-3d-nozzle-outline/) icon.
+
+![printer-3d-nozzle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMkgxN1Y3SDE5VjEzSDE2LjVMMTMsMTdIMTFMNy41LDEzSDVWN0g3VjJNMTAsMjJIMlYyMEgxMEExLDEgMCAwLDAgMTEsMTlWMThIMTNWMTlBMywzIDAgMCwxIDEwLDIyTTcsOVYxMUg4LjVMMTIsMTVMMTUuNSwxMUgxN1Y5SDE1VjRIOVY5SDdaIiAvPjwvc3ZnPg==)
+
+-}
+printer3dNozzleOutline : IconShape
+printer3dNozzleOutline =
+    Material.Icons.Directory.P.printer3dNozzleOutline
 
 
 {-| The [`printer-alert`](https://pictogrammers.com/library/mdi/icon/printer-alert/) icon.
@@ -308,16 +308,6 @@ printerAlert =
     Material.Icons.Directory.P.printerAlert
 
 
-{-| The [`printer-check`](https://pictogrammers.com/library/mdi/icon/printer-check/) icon.
-
-![printer-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDdINlYzSDE4VjdNNiAyMVYxN0gyVjExQzIgOS4zNCAzLjM0IDggNSA4SDE5QzIwLjY2IDggMjIgOS4zNCAyMiAxMVYxMy44MUMyMS4xMiAxMy4zIDIwLjEgMTMgMTkgMTNDMTcuNzcgMTMgMTYuNjQgMTMuMzcgMTUuNjkgMTRIOFYxOUgxM0MxMyAxOS43IDEzLjEzIDIwLjM3IDEzLjM1IDIxSDZNMTggMTFDMTggMTEuNTUgMTguNDUgMTIgMTkgMTJTMjAgMTEuNTUgMjAgMTEgMTkuNTUgMTAgMTkgMTAgMTggMTAuNDUgMTggMTFNMjMuNSAxN0wyMiAxNS41TDE4LjUgMTlMMTYuNSAxN0wxNSAxOC41TDE4LjUgMjJMMjMuNSAxNyIgLz48L3N2Zz4=)
-
--}
-printerCheck : IconShape
-printerCheck =
-    Material.Icons.Directory.P.printerCheck
-
-
 {-| The [`printer-eye`](https://pictogrammers.com/library/mdi/icon/printer-eye/) icon.
 
 ![printer-eye](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuOCAyMUM5LjYgMjAuNiA5LjMgMjAuMiA5LjIgMTkuN0w4LjggMTlIOFYxNEgxM0MxNC4yIDEzLjQgMTUuNiAxMyAxNyAxM0MxOC45IDEzIDIwLjYgMTMuNiAyMiAxNC42VjExQzIyIDkuMyAyMC43IDggMTkgOEg1QzMuMyA4IDIgOS4zIDIgMTFWMTdINlYyMUg5LjhNMTkgMTBDMTkuNiAxMCAyMCAxMC40IDIwIDExUzE5LjYgMTIgMTkgMTIgMTggMTEuNiAxOCAxMSAxOC40IDEwIDE5IDEwTTE4IDdINlYzSDE4VjdNMTcgMThDMTcuNiAxOCAxOCAxOC40IDE4IDE5UzE3LjYgMjAgMTcgMjAgMTYgMTkuNiAxNiAxOSAxNi40IDE4IDE3IDE4TTE3IDE1QzE0LjMgMTUgMTEuOSAxNi43IDExIDE5QzExLjkgMjEuMyAxNC4zIDIzIDE3IDIzUzIyLjEgMjEuMyAyMyAxOUMyMi4xIDE2LjcgMTkuNyAxNSAxNyAxNU0xNyAyMS41QzE1LjYgMjEuNSAxNC41IDIwLjQgMTQuNSAxOVMxNS42IDE2LjUgMTcgMTYuNSAxOS41IDE3LjYgMTkuNSAxOSAxOC40IDIxLjUgMTcgMjEuNVoiIC8+PC9zdmc+)
@@ -326,6 +316,16 @@ printerCheck =
 printerEye : IconShape
 printerEye =
     Material.Icons.Directory.P.printerEye
+
+
+{-| The [`printer-check`](https://pictogrammers.com/library/mdi/icon/printer-check/) icon.
+
+![printer-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDdINlYzSDE4VjdNNiAyMVYxN0gyVjExQzIgOS4zNCAzLjM0IDggNSA4SDE5QzIwLjY2IDggMjIgOS4zNCAyMiAxMVYxMy44MUMyMS4xMiAxMy4zIDIwLjEgMTMgMTkgMTNDMTcuNzcgMTMgMTYuNjQgMTMuMzcgMTUuNjkgMTRIOFYxOUgxM0MxMyAxOS43IDEzLjEzIDIwLjM3IDEzLjM1IDIxSDZNMTggMTFDMTggMTEuNTUgMTguNDUgMTIgMTkgMTJTMjAgMTEuNTUgMjAgMTEgMTkuNTUgMTAgMTkgMTAgMTggMTAuNDUgMTggMTFNMjMuNSAxN0wyMiAxNS41TDE4LjUgMTlMMTYuNSAxN0wxNSAxOC41TDE4LjUgMjJMMjMuNSAxNyIgLz48L3N2Zz4=)
+
+-}
+printerCheck : IconShape
+printerCheck =
+    Material.Icons.Directory.P.printerCheck
 
 
 {-| The [`printer-off`](https://pictogrammers.com/library/mdi/icon/printer-off/) icon.
@@ -518,16 +518,6 @@ printerPosOff =
     Material.Icons.Directory.P.printerPosOff
 
 
-{-| The [`printer-pos-off-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-off-outline/) icon.
-
-![printer-pos-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzkgMS43M0wxLjExIDNMNyA4Ljg5VjEwSDZDNC44OSAxMCA0IDEwLjkgNCAxMlYxOUgxNy4xMUwyMC44NCAyMi43M0wyMi4xMSAyMS40NkwyLjM5IDEuNzNNNiAxN1YxMkgxMC4xMUwxNS4xMSAxN0g2TTkuMiA2TDcuMiA0SDE3VjEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJWMTYuOEwxOCAxNC44VjEySDE1LjJMMTMuMiAxMEgxNVY2SDkuMk03IDEzSDExVjE1SDdWMTNaIiAvPjwvc3ZnPg==)
-
--}
-printerPosOffOutline : IconShape
-printerPosOffOutline =
-    Material.Icons.Directory.P.printerPosOffOutline
-
-
 {-| The [`printer-pos-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-outline/) icon.
 
 ![printer-pos-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEwSDE3VjRIN1YxMEg2QzQuODkgMTAgNCAxMC45IDQgMTJWMTlIMjBWMTJDMjAgMTAuOSAxOS4xMSAxMCAxOCAxME05IDZIMTVWMTBIOVY2TTE4IDE3SDZWMTJIMThWMTdNMTcgMTVIMTNWMTNIMTdWMTVaIiAvPjwvc3ZnPg==)
@@ -536,6 +526,16 @@ printerPosOffOutline =
 printerPosOutline : IconShape
 printerPosOutline =
     Material.Icons.Directory.P.printerPosOutline
+
+
+{-| The [`printer-pos-off-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-off-outline/) icon.
+
+![printer-pos-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzkgMS43M0wxLjExIDNMNyA4Ljg5VjEwSDZDNC44OSAxMCA0IDEwLjkgNCAxMlYxOUgxNy4xMUwyMC44NCAyMi43M0wyMi4xMSAyMS40NkwyLjM5IDEuNzNNNiAxN1YxMkgxMC4xMUwxNS4xMSAxN0g2TTkuMiA2TDcuMiA0SDE3VjEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJWMTYuOEwxOCAxNC44VjEySDE1LjJMMTMuMiAxMEgxNVY2SDkuMk03IDEzSDExVjE1SDdWMTNaIiAvPjwvc3ZnPg==)
+
+-}
+printerPosOffOutline : IconShape
+printerPosOffOutline =
+    Material.Icons.Directory.P.printerPosOffOutline
 
 
 {-| The [`printer-pos-pause`](https://pictogrammers.com/library/mdi/icon/printer-pos-pause/) icon.
@@ -568,16 +568,6 @@ printerPosPlay =
     Material.Icons.Directory.P.printerPosPlay
 
 
-{-| The [`printer-pos-play-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-play-outline/) icon.
-
-![printer-pos-play-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTVWMTNIMTFWMTVIN002IDE3SDEzLjM1QzEzLjEzIDE3LjYzIDEzIDE4LjMgMTMgMTlINFYxMkM0IDEwLjkgNC44OSAxMCA2IDEwSDdWNEgxN1YxMEgxOEMxOS4xMSAxMCAyMCAxMC45IDIwIDEyVjEzLjA5QzE5LjY3IDEzLjA0IDE5LjM0IDEzIDE5IDEzQzE4LjY2IDEzIDE4LjMzIDEzLjA0IDE4IDEzLjA5VjEySDZWMTdNOSAxMEgxNVY2SDlWMTBNMTcgMTZWMjJMMjIgMTlMMTcgMTZaIiAvPjwvc3ZnPg==)
-
--}
-printerPosPlayOutline : IconShape
-printerPosPlayOutline =
-    Material.Icons.Directory.P.printerPosPlayOutline
-
-
 {-| The [`printer-pos-plus`](https://pictogrammers.com/library/mdi/icon/printer-pos-plus/) icon.
 
 ![printer-pos-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlIN1Y0SDE3VjlNMTkgMTNDMTUuNjkgMTMgMTMgMTUuNjkgMTMgMTlINFYxMkM0IDEwLjkgNC44OSAxMCA2IDEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJWMTMuMDlDMTkuNjcgMTMuMDQgMTkuMzQgMTMgMTkgMTNNMTAgMTJINlYxNEgxMFYxMk0yMCAxOFYxNUgxOFYxOEgxNVYyMEgxOFYyM0gyMFYyMEgyM1YxOEgyMFoiIC8+PC9zdmc+)
@@ -598,6 +588,16 @@ printerPosPlusOutline =
     Material.Icons.Directory.P.printerPosPlusOutline
 
 
+{-| The [`printer-pos-play-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-play-outline/) icon.
+
+![printer-pos-play-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTVWMTNIMTFWMTVIN002IDE3SDEzLjM1QzEzLjEzIDE3LjYzIDEzIDE4LjMgMTMgMTlINFYxMkM0IDEwLjkgNC44OSAxMCA2IDEwSDdWNEgxN1YxMEgxOEMxOS4xMSAxMCAyMCAxMC45IDIwIDEyVjEzLjA5QzE5LjY3IDEzLjA0IDE5LjM0IDEzIDE5IDEzQzE4LjY2IDEzIDE4LjMzIDEzLjA0IDE4IDEzLjA5VjEySDZWMTdNOSAxMEgxNVY2SDlWMTBNMTcgMTZWMjJMMjIgMTlMMTcgMTZaIiAvPjwvc3ZnPg==)
+
+-}
+printerPosPlayOutline : IconShape
+printerPosPlayOutline =
+    Material.Icons.Directory.P.printerPosPlayOutline
+
+
 {-| The [`printer-pos-refresh`](https://pictogrammers.com/library/mdi/icon/printer-pos-refresh/) icon.
 
 ![printer-pos-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlIN1Y0SDE3VjlNMTIgMTguNUMxMiAxOC42NyAxMiAxOC44MyAxMi4wMyAxOUg0VjEyQzQgMTAuOSA0Ljg5IDEwIDYgMTBIMThDMTkuMTEgMTAgMjAgMTAuOSAyMCAxMlYxMi4xOEMxOS41IDEyLjA3IDE5IDEyIDE4LjUgMTJDMTQuOTEgMTIgMTIgMTQuOTEgMTIgMTguNU0xMCAxMkg2VjE0SDEwVjEyTTIyIDE4LjVWMTQuNUwyMC44MyAxNS42N0MyMC4xMSAxNC45NSAxOS4xMSAxNC41IDE4IDE0LjVDMTUuNzkgMTQuNSAxNCAxNi4yOSAxNCAxOC41UzE1Ljc5IDIyLjUgMTggMjIuNUMxOS42OCAyMi41IDIxLjEyIDIxLjQ3IDIxLjcxIDIwSDIwQzE5LjU0IDIwLjYxIDE4LjgyIDIxIDE4IDIxQzE2LjYyIDIxIDE1LjUgMTkuODggMTUuNSAxOC41UzE2LjYyIDE2IDE4IDE2QzE4LjY5IDE2IDE5LjMyIDE2LjI4IDE5Ljc3IDE2LjczTDE4IDE4LjVIMjJaIiAvPjwvc3ZnPg==)
@@ -606,16 +606,6 @@ printerPosPlusOutline =
 printerPosRefresh : IconShape
 printerPosRefresh =
     Material.Icons.Directory.P.printerPosRefresh
-
-
-{-| The [`printer-pos-refresh-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-refresh-outline/) icon.
-
-![printer-pos-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTVWMTNIMTFWMTVIN00yMiAxOC41VjE0LjVMMjAuODMgMTUuNjdDMjAuMTEgMTQuOTUgMTkuMTEgMTQuNSAxOCAxNC41QzE1Ljc5IDE0LjUgMTQgMTYuMjkgMTQgMTguNVMxNS43OSAyMi41IDE4IDIyLjVDMTkuNjggMjIuNSAyMS4xMiAyMS40NyAyMS43MSAyMEgyMEMxOS41NCAyMC42MSAxOC44MiAyMSAxOCAyMUMxNi42MiAyMSAxNS41IDE5Ljg4IDE1LjUgMTguNVMxNi42MiAxNiAxOCAxNkMxOC42OSAxNiAxOS4zMiAxNi4yOCAxOS43NyAxNi43M0wxOCAxOC41SDIyTTEyLjE4IDE3QzEyLjA3IDE3LjUgMTIgMTggMTIgMTguNUMxMiAxOC42NyAxMiAxOC44MyAxMi4wMyAxOUg0VjEyQzQgMTAuOSA0Ljg5IDEwIDYgMTBIN1Y0SDE3VjEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJINlYxN0gxMi4xOE05IDEwSDE1VjZIOVYxMFoiIC8+PC9zdmc+)
-
--}
-printerPosRefreshOutline : IconShape
-printerPosRefreshOutline =
-    Material.Icons.Directory.P.printerPosRefreshOutline
 
 
 {-| The [`printer-pos-remove`](https://pictogrammers.com/library/mdi/icon/printer-pos-remove/) icon.
@@ -638,6 +628,16 @@ printerPosRemoveOutline =
     Material.Icons.Directory.P.printerPosRemoveOutline
 
 
+{-| The [`printer-pos-refresh-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-refresh-outline/) icon.
+
+![printer-pos-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTVWMTNIMTFWMTVIN00yMiAxOC41VjE0LjVMMjAuODMgMTUuNjdDMjAuMTEgMTQuOTUgMTkuMTEgMTQuNSAxOCAxNC41QzE1Ljc5IDE0LjUgMTQgMTYuMjkgMTQgMTguNVMxNS43OSAyMi41IDE4IDIyLjVDMTkuNjggMjIuNSAyMS4xMiAyMS40NyAyMS43MSAyMEgyMEMxOS41NCAyMC42MSAxOC44MiAyMSAxOCAyMUMxNi42MiAyMSAxNS41IDE5Ljg4IDE1LjUgMTguNVMxNi42MiAxNiAxOCAxNkMxOC42OSAxNiAxOS4zMiAxNi4yOCAxOS43NyAxNi43M0wxOCAxOC41SDIyTTEyLjE4IDE3QzEyLjA3IDE3LjUgMTIgMTggMTIgMTguNUMxMiAxOC42NyAxMiAxOC44MyAxMi4wMyAxOUg0VjEyQzQgMTAuOSA0Ljg5IDEwIDYgMTBIN1Y0SDE3VjEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJINlYxN0gxMi4xOE05IDEwSDE1VjZIOVYxMFoiIC8+PC9zdmc+)
+
+-}
+printerPosRefreshOutline : IconShape
+printerPosRefreshOutline =
+    Material.Icons.Directory.P.printerPosRefreshOutline
+
+
 {-| The [`printer-pos-star`](https://pictogrammers.com/library/mdi/icon/printer-pos-star/) icon.
 
 ![printer-pos-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlIN1Y0SDE3VjlNMTkgMTNDMTUuNjkgMTMgMTMgMTUuNjkgMTMgMTlINFYxMkM0IDEwLjkgNC44OSAxMCA2IDEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJWMTMuMDlDMTkuNjcgMTMuMDQgMTkuMzQgMTMgMTkgMTNNMTAgMTJINlYxNEgxMFYxMk0yMyAxNy44OUwyMC4xMSAxNy42NEwxOSAxNUwxNy44NyAxNy42NEwxNSAxNy44OUwxNy4xOCAxOS43N0wxNi41IDIyLjU4TDE5IDIxLjA5TDIxLjQ1IDIyLjU4TDIwLjggMTkuNzdMMjMgMTcuODlaIiAvPjwvc3ZnPg==)
@@ -648,16 +648,6 @@ printerPosStar =
     Material.Icons.Directory.P.printerPosStar
 
 
-{-| The [`printer-pos-star-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-star-outline/) icon.
-
-![printer-pos-star-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgMTJIMThWMTMuMDlDMTguMzMgMTMuMDQgMTguNjYgMTMgMTkgMTNDMTkuMzQgMTMgMTkuNjcgMTMuMDQgMjAgMTMuMDlWMTJDMjAgMTAuOSAxOS4xMSAxMCAxOCAxMEgxN1Y0SDdWMTBINkM0Ljg5IDEwIDQgMTAuOSA0IDEyVjE5SDEzQzEzIDE4LjMgMTMuMTMgMTcuNjMgMTMuMzUgMTdINlYxMk05IDZIMTVWMTBIOVY2TTcgMTVWMTNIMTFWMTVIN00yMC44IDE5Ljc3TDIxLjQ1IDIyLjU4TDE5IDIxLjA5TDE2LjUgMjIuNThMMTcuMTggMTkuNzdMMTUgMTcuODlMMTcuODcgMTcuNjRMMTkgMTVMMjAuMTEgMTcuNjRMMjMgMTcuODlMMjAuOCAxOS43N1oiIC8+PC9zdmc+)
-
--}
-printerPosStarOutline : IconShape
-printerPosStarOutline =
-    Material.Icons.Directory.P.printerPosStarOutline
-
-
 {-| The [`printer-pos-stop`](https://pictogrammers.com/library/mdi/icon/printer-pos-stop/) icon.
 
 ![printer-pos-stop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlIN1Y0SDE3VjlNMTkgMTNDMTUuNjkgMTMgMTMgMTUuNjkgMTMgMTlINFYxMkM0IDEwLjkgNC44OSAxMCA2IDEwSDE4QzE5LjExIDEwIDIwIDEwLjkgMjAgMTJWMTMuMDlDMTkuNjcgMTMuMDQgMTkuMzQgMTMgMTkgMTNNMTAgMTJINlYxNEgxMFYxMk0xNiAxNlYyMkgyMlYxNkgxNloiIC8+PC9zdmc+)
@@ -666,6 +656,16 @@ printerPosStarOutline =
 printerPosStop : IconShape
 printerPosStop =
     Material.Icons.Directory.P.printerPosStop
+
+
+{-| The [`printer-pos-star-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-star-outline/) icon.
+
+![printer-pos-star-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgMTJIMThWMTMuMDlDMTguMzMgMTMuMDQgMTguNjYgMTMgMTkgMTNDMTkuMzQgMTMgMTkuNjcgMTMuMDQgMjAgMTMuMDlWMTJDMjAgMTAuOSAxOS4xMSAxMCAxOCAxMEgxN1Y0SDdWMTBINkM0Ljg5IDEwIDQgMTAuOSA0IDEyVjE5SDEzQzEzIDE4LjMgMTMuMTMgMTcuNjMgMTMuMzUgMTdINlYxMk05IDZIMTVWMTBIOVY2TTcgMTVWMTNIMTFWMTVIN00yMC44IDE5Ljc3TDIxLjQ1IDIyLjU4TDE5IDIxLjA5TDE2LjUgMjIuNThMMTcuMTggMTkuNzdMMTUgMTcuODlMMTcuODcgMTcuNjRMMTkgMTVMMjAuMTEgMTcuNjRMMjMgMTcuODlMMjAuOCAxOS43N1oiIC8+PC9zdmc+)
+
+-}
+printerPosStarOutline : IconShape
+printerPosStarOutline =
+    Material.Icons.Directory.P.printerPosStarOutline
 
 
 {-| The [`printer-pos-stop-outline`](https://pictogrammers.com/library/mdi/icon/printer-pos-stop-outline/) icon.

@@ -4,8 +4,8 @@
 
 module Material.Icons.Categories.Arrange exposing
     ( arrangeBringForward
-    , arrangeBringToFront
     , arrangeSendBackward
+    , arrangeBringToFront
     , arrangeSendToBack
     , flipHorizontal
     , flipToBack
@@ -18,8 +18,8 @@ module Material.Icons.Categories.Arrange exposing
 {-| This module contains icons in the Material.Icons.Categories.Arrange category.
 
 @docs arrangeBringForward
-@docs arrangeBringToFront
 @docs arrangeSendBackward
+@docs arrangeBringToFront
 @docs arrangeSendToBack
 @docs flipHorizontal
 @docs flipToBack
@@ -46,16 +46,6 @@ arrangeBringForward =
     Material.Icons.Directory.A.arrangeBringForward
 
 
-{-| The [`arrange-bring-to-front`](https://pictogrammers.com/library/mdi/icon/arrange-bring-to-front/) icon.
-
-![arrange-bring-to-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMkgxMVY2SDlWNEg0VjlINlYxMUgyVjJNMjIsMTNWMjJIMTNWMThIMTVWMjBIMjBWMTVIMThWMTNIMjJNOCw4SDE2VjE2SDhWOFoiIC8+PC9zdmc+)
-
--}
-arrangeBringToFront : IconShape
-arrangeBringToFront =
-    Material.Icons.Directory.A.arrangeBringToFront
-
-
 {-| The [`arrange-send-backward`](https://pictogrammers.com/library/mdi/icon/arrange-send-backward/) icon.
 
 ![arrange-send-backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMkgxNlYxNkgyVjJNMjIsOFYyMkg4VjE4SDE4VjhIMjJNNCw0VjE0SDE0VjRINFoiIC8+PC9zdmc+)
@@ -64,6 +54,16 @@ arrangeBringToFront =
 arrangeSendBackward : IconShape
 arrangeSendBackward =
     Material.Icons.Directory.A.arrangeSendBackward
+
+
+{-| The [`arrange-bring-to-front`](https://pictogrammers.com/library/mdi/icon/arrange-bring-to-front/) icon.
+
+![arrange-bring-to-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsMkgxMVY2SDlWNEg0VjlINlYxMUgyVjJNMjIsMTNWMjJIMTNWMThIMTVWMjBIMjBWMTVIMThWMTNIMjJNOCw4SDE2VjE2SDhWOFoiIC8+PC9zdmc+)
+
+-}
+arrangeBringToFront : IconShape
+arrangeBringToFront =
+    Material.Icons.Directory.A.arrangeBringToFront
 
 
 {-| The [`arrange-send-to-back`](https://pictogrammers.com/library/mdi/icon/arrange-send-to-back/) icon.

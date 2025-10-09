@@ -7,8 +7,8 @@ module Material.Icons.Categories.Color exposing
     , colorHelper
     , eyedropper
     , eyedropperVariant
-    , formatColorFill
     , formatColorHighlight
+    , formatColorFill
     , formatColorMarkerCancel
     , formatColorText
     , formatPaint
@@ -31,8 +31,8 @@ module Material.Icons.Categories.Color exposing
 @docs colorHelper
 @docs eyedropper
 @docs eyedropperVariant
-@docs formatColorFill
 @docs formatColorHighlight
+@docs formatColorFill
 @docs formatColorMarkerCancel
 @docs formatColorText
 @docs formatPaint
@@ -101,16 +101,6 @@ eyedropperVariant =
     Material.Icons.Directory.E.eyedropperVariant
 
 
-{-| The [`format-color-fill`](https://pictogrammers.com/library/mdi/icon/format-color-fill/) icon.
-
-![format-color-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDExLjVDMTksMTEuNSAxNywxMy42NyAxNywxNUEyLDIgMCAwLDAgMTksMTdBMiwyIDAgMCwwIDIxLDE1QzIxLDEzLjY3IDE5LDExLjUgMTksMTEuNU01LjIxLDEwTDEwLDUuMjFMMTQuNzksMTBNMTYuNTYsOC45NEw3LjYyLDBMNi4yMSwxLjQxTDguNTksMy43OUwzLjQ0LDguOTRDMi44NSw5LjUgMi44NSwxMC40NyAzLjQ0LDExLjA2TDguOTQsMTYuNTZDOS4yMywxNi44NSA5LjYyLDE3IDEwLDE3QzEwLjM4LDE3IDEwLjc3LDE2Ljg1IDExLjA2LDE2LjU2TDE2LjU2LDExLjA2QzE3LjE1LDEwLjQ3IDE3LjE1LDkuNSAxNi41Niw4Ljk0WiIgLz48L3N2Zz4=)
-
--}
-formatColorFill : IconShape
-formatColorFill =
-    Material.Icons.Directory.F.formatColorFill
-
-
 {-| The [`format-color-highlight`](https://pictogrammers.com/library/mdi/icon/format-color-highlight/) icon.
 
 ![format-color-highlight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMTdMNi43NSwxNC4yNUw2LjcyLDE0LjIzQzYuMTQsMTMuNjQgNi4xNCwxMi42OSA2LjcyLDEyLjExTDExLjQ2LDcuMzdMMTUuNywxMS42MUwxMC45NiwxNi4zNUMxMC4zOSwxNi45MyA5LjQ2LDE2LjkzIDguODcsMTYuMzdMOC4yNCwxN0g0TTE1LjkxLDIuOTFDMTYuNSwyLjMzIDE3LjQ1LDIuMzMgMTguMDMsMi45MUwyMC4xNiw1LjAzQzIwLjc0LDUuNjIgMjAuNzQsNi41NyAyMC4xNiw3LjE2TDE2Ljg2LDEwLjQ1TDEyLjYyLDYuMjFMMTUuOTEsMi45MVoiIC8+PC9zdmc+)
@@ -119,6 +109,16 @@ formatColorFill =
 formatColorHighlight : IconShape
 formatColorHighlight =
     Material.Icons.Directory.F.formatColorHighlight
+
+
+{-| The [`format-color-fill`](https://pictogrammers.com/library/mdi/icon/format-color-fill/) icon.
+
+![format-color-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDExLjVDMTksMTEuNSAxNywxMy42NyAxNywxNUEyLDIgMCAwLDAgMTksMTdBMiwyIDAgMCwwIDIxLDE1QzIxLDEzLjY3IDE5LDExLjUgMTksMTEuNU01LjIxLDEwTDEwLDUuMjFMMTQuNzksMTBNMTYuNTYsOC45NEw3LjYyLDBMNi4yMSwxLjQxTDguNTksMy43OUwzLjQ0LDguOTRDMi44NSw5LjUgMi44NSwxMC40NyAzLjQ0LDExLjA2TDguOTQsMTYuNTZDOS4yMywxNi44NSA5LjYyLDE3IDEwLDE3QzEwLjM4LDE3IDEwLjc3LDE2Ljg1IDExLjA2LDE2LjU2TDE2LjU2LDExLjA2QzE3LjE1LDEwLjQ3IDE3LjE1LDkuNSAxNi41Niw4Ljk0WiIgLz48L3N2Zz4=)
+
+-}
+formatColorFill : IconShape
+formatColorFill =
+    Material.Icons.Directory.F.formatColorFill
 
 
 {-| The [`format-color-marker-cancel`](https://pictogrammers.com/library/mdi/icon/format-color-marker-cancel/) icon.

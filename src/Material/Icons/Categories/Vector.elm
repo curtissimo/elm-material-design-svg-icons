@@ -4,27 +4,27 @@
 
 module Material.Icons.Categories.Vector exposing
     ( vectorArrangeAbove
-    , vectorBezier
     , vectorArrangeBelow
+    , vectorBezier
     , vectorCircle
     , vectorCircleVariant
     , vectorCombine
     , vectorCurve
-    , vectorDifference
     , vectorDifferenceAb
     , vectorDifferenceBa
+    , vectorDifference
     , vectorEllipse
     , vectorIntersection
     , vectorLine
     , vectorLink
     , vectorPoint
     , vectorPointEdit
-    , vectorPointPlus
     , vectorPointMinus
+    , vectorPointPlus
     , vectorPointSelect
     , vectorPolygon
-    , vectorPolygonVariant
     , vectorPolyline
+    , vectorPolygonVariant
     , vectorRadius
     , vectorRectangle
     , vectorSelection
@@ -42,27 +42,27 @@ module Material.Icons.Categories.Vector exposing
 {-| This module contains icons in the Material.Icons.Categories.Vector category.
 
 @docs vectorArrangeAbove
-@docs vectorBezier
 @docs vectorArrangeBelow
+@docs vectorBezier
 @docs vectorCircle
 @docs vectorCircleVariant
 @docs vectorCombine
 @docs vectorCurve
-@docs vectorDifference
 @docs vectorDifferenceAb
 @docs vectorDifferenceBa
+@docs vectorDifference
 @docs vectorEllipse
 @docs vectorIntersection
 @docs vectorLine
 @docs vectorLink
 @docs vectorPoint
 @docs vectorPointEdit
-@docs vectorPointPlus
 @docs vectorPointMinus
+@docs vectorPointPlus
 @docs vectorPointSelect
 @docs vectorPolygon
-@docs vectorPolygonVariant
 @docs vectorPolyline
+@docs vectorPolygonVariant
 @docs vectorRadius
 @docs vectorRectangle
 @docs vectorSelection
@@ -92,16 +92,6 @@ vectorArrangeAbove =
     Material.Icons.Directory.V.vectorArrangeAbove
 
 
-{-| The [`vector-bezier`](https://pictogrammers.com/library/mdi/icon/vector-bezier/) icon.
-
-![vector-bezier](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSw0QTEuNSwxLjUgMCAwLDAgNiw1LjVBMS41LDEuNSAwIDAsMCA3LjUsN0M4LjEzLDcgOC43LDYuNiA4LjkxLDZIMTNDMTMuNjcsNS4zMyAxNC4zMyw1IDE1LDVIOC45MUM4LjcsNC40IDguMTMsNCA3LjUsNE0xOSw1QzgsNSAxNCwxNyA1LDE3VjE5QzE2LDE5IDEwLDcgMTksN1Y1TTE2LjUsMTdDMTUuODcsMTcgMTUuMywxNy40IDE1LjA5LDE4SDExQzEwLjMzLDE4LjY3IDkuNjcsMTkgOSwxOUgxNS4wOUMxNS4zLDE5LjYgMTUuODcsMjAgMTYuNSwyMEExLjUsMS41IDAgMCwwIDE4LDE4LjVBMS41LDEuNSAwIDAsMCAxNi41LDE3WiIgLz48L3N2Zz4=)
-
--}
-vectorBezier : IconShape
-vectorBezier =
-    Material.Icons.Directory.V.vectorBezier
-
-
 {-| The [`vector-arrange-below`](https://pictogrammers.com/library/mdi/icon/vector-arrange-below/) icon.
 
 ![vector-arrange-below](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDIyQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdDMTYuMzMsNyAxMi42Nyw3IDksN0M3Ljg5LDcgNyw3Ljg5IDcsOUM3LDEyLjY3IDcsMTYuMzMgNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyME0yMCwyMEg5VjlIMjBWMjBNNSwxNlYxNEgzVjNIMTRWNUgxNlYzQzE2LDEuODkgMTUuMTEsMSAxNCwxSDNDMS44OSwxIDEsMS44OSAxLDNWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVoiIC8+PC9zdmc+)
@@ -110,6 +100,16 @@ vectorBezier =
 vectorArrangeBelow : IconShape
 vectorArrangeBelow =
     Material.Icons.Directory.V.vectorArrangeBelow
+
+
+{-| The [`vector-bezier`](https://pictogrammers.com/library/mdi/icon/vector-bezier/) icon.
+
+![vector-bezier](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSw0QTEuNSwxLjUgMCAwLDAgNiw1LjVBMS41LDEuNSAwIDAsMCA3LjUsN0M4LjEzLDcgOC43LDYuNiA4LjkxLDZIMTNDMTMuNjcsNS4zMyAxNC4zMyw1IDE1LDVIOC45MUM4LjcsNC40IDguMTMsNCA3LjUsNE0xOSw1QzgsNSAxNCwxNyA1LDE3VjE5QzE2LDE5IDEwLDcgMTksN1Y1TTE2LjUsMTdDMTUuODcsMTcgMTUuMywxNy40IDE1LjA5LDE4SDExQzEwLjMzLDE4LjY3IDkuNjcsMTkgOSwxOUgxNS4wOUMxNS4zLDE5LjYgMTUuODcsMjAgMTYuNSwyMEExLjUsMS41IDAgMCwwIDE4LDE4LjVBMS41LDEuNSAwIDAsMCAxNi41LDE3WiIgLz48L3N2Zz4=)
+
+-}
+vectorBezier : IconShape
+vectorBezier =
+    Material.Icons.Directory.V.vectorBezier
 
 
 {-| The [`vector-circle`](https://pictogrammers.com/library/mdi/icon/vector-circle/) icon.
@@ -152,16 +152,6 @@ vectorCurve =
     Material.Icons.Directory.V.vectorCurve
 
 
-{-| The [`vector-difference`](https://pictogrammers.com/library/mdi/icon/vector-difference/) icon.
-
-![vector-difference](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg1VjE0SDNWM0gxNFY1SDE2VjNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM005LDdDNy44OSw3IDcsNy44OSA3LDlWMTFIOVY5SDExVjdIOU0xMyw3VjlIMTRWMTBIMTZWN0gxM00xOCw3VjlIMjBWMjBIOVYxOEg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNMTQsMTJWMTRIMTJWMTZIMTRDMTUuMTEsMTYgMTYsMTUuMTEgMTYsMTRWMTJIMTRNNywxM1YxNkgxMFYxNEg5VjEzSDdaIiAvPjwvc3ZnPg==)
-
--}
-vectorDifference : IconShape
-vectorDifference =
-    Material.Icons.Directory.V.vectorDifference
-
-
 {-| The [`vector-difference-ab`](https://pictogrammers.com/library/mdi/icon/vector-difference-ab/) icon.
 
 ![vector-difference-ab](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1Y1SDNWM0g1VjFIM003LDFWM0gxMFYxSDdNMTIsMVYzSDE0VjVIMTZWM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgxMk0xLDdWMTBIM1Y3SDFNMTQsN0MxNCw3IDE0LDExLjY3IDE0LDE0QzExLjY3LDE0IDcsMTQgNywxNEM3LDE0IDcsMTggNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3QzE4LDcgMTQsNyAxNCw3TTE2LDlIMjBWMjBIOVYxNkgxNEMxNS4xMSwxNiAxNiwxNS4xMSAxNiwxNFY5TTEsMTJWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVYxNEgzVjEySDFaIiAvPjwvc3ZnPg==)
@@ -180,6 +170,16 @@ vectorDifferenceAb =
 vectorDifferenceBa : IconShape
 vectorDifferenceBa =
     Material.Icons.Directory.V.vectorDifferenceBa
+
+
+{-| The [`vector-difference`](https://pictogrammers.com/library/mdi/icon/vector-difference/) icon.
+
+![vector-difference](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg1VjE0SDNWM0gxNFY1SDE2VjNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM005LDdDNy44OSw3IDcsNy44OSA3LDlWMTFIOVY5SDExVjdIOU0xMyw3VjlIMTRWMTBIMTZWN0gxM00xOCw3VjlIMjBWMjBIOVYxOEg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNMTQsMTJWMTRIMTJWMTZIMTRDMTUuMTEsMTYgMTYsMTUuMTEgMTYsMTRWMTJIMTRNNywxM1YxNkgxMFYxNEg5VjEzSDdaIiAvPjwvc3ZnPg==)
+
+-}
+vectorDifference : IconShape
+vectorDifference =
+    Material.Icons.Directory.V.vectorDifference
 
 
 {-| The [`vector-ellipse`](https://pictogrammers.com/library/mdi/icon/vector-ellipse/) icon.
@@ -242,16 +242,6 @@ vectorPointEdit =
     Material.Icons.Directory.V.vectorPointEdit
 
 
-{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
-
-![vector-point-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMTggMTVWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBWMTVIMThaIiAvPjwvc3ZnPg==)
-
--}
-vectorPointPlus : IconShape
-vectorPointPlus =
-    Material.Icons.Directory.V.vectorPointPlus
-
-
 {-| The [`vector-point-minus`](https://pictogrammers.com/library/mdi/icon/vector-point-minus/) icon.
 
 ![vector-point-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMTUgMThWMjBIMjNWMThIMTVaIiAvPjwvc3ZnPg==)
@@ -260,6 +250,16 @@ vectorPointPlus =
 vectorPointMinus : IconShape
 vectorPointMinus =
     Material.Icons.Directory.V.vectorPointMinus
+
+
+{-| The [`vector-point-plus`](https://pictogrammers.com/library/mdi/icon/vector-point-plus/) icon.
+
+![vector-point-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOVYxNUgxNVY5SDlNMTEgMTFIMTNWMTNIMTFWMTFNMTggMTVWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBWMTVIMThaIiAvPjwvc3ZnPg==)
+
+-}
+vectorPointPlus : IconShape
+vectorPointPlus =
+    Material.Icons.Directory.V.vectorPointPlus
 
 
 {-| The [`vector-point-select`](https://pictogrammers.com/library/mdi/icon/vector-point-select/) icon.
@@ -282,16 +282,6 @@ vectorPolygon =
     Material.Icons.Directory.V.vectorPolygon
 
 
-{-| The [`vector-polygon-variant`](https://pictogrammers.com/library/mdi/icon/vector-polygon-variant/) icon.
-
-![vector-polygon-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMkgxNlY1LjhMMTQuNCA4SDkuNkw4IDUuOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyTTExIDEwSDEzVjEySDExVjEwTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE2IDE4SDhWMTZINlY4SDcuMUw5IDEwLjZWMTRIMTVWMTAuNkwxNi45IDhIMThWMTZIMTZWMThNMjAgMjBIMThWMThIMjBWMjBNMTggNlY0SDIwVjZIMThaIiAvPjwvc3ZnPg==)
-
--}
-vectorPolygonVariant : IconShape
-vectorPolygonVariant =
-    Material.Icons.Directory.V.vectorPolygonVariant
-
-
 {-| The [`vector-polyline`](https://pictogrammers.com/library/mdi/icon/vector-polyline/) icon.
 
 ![vector-polyline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgM1Y5SDQuOTVMNi45NSAxNUg2VjIxSDEyVjE2LjQxTDE3LjQxIDExSDIyVjVIMTZWOS41N0wxMC41OSAxNUg5LjA2TDcuMDYgOUg4VjNNNCA1SDZWN0g0TTE4IDdIMjBWOUgxOE04IDE3SDEwVjE5SDhaIiAvPjwvc3ZnPg==)
@@ -300,6 +290,16 @@ vectorPolygonVariant =
 vectorPolyline : IconShape
 vectorPolyline =
     Material.Icons.Directory.V.vectorPolyline
+
+
+{-| The [`vector-polygon-variant`](https://pictogrammers.com/library/mdi/icon/vector-polygon-variant/) icon.
+
+![vector-polygon-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMkgxNlY1LjhMMTQuNCA4SDkuNkw4IDUuOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyTTExIDEwSDEzVjEySDExVjEwTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE2IDE4SDhWMTZINlY4SDcuMUw5IDEwLjZWMTRIMTVWMTAuNkwxNi45IDhIMThWMTZIMTZWMThNMjAgMjBIMThWMThIMjBWMjBNMTggNlY0SDIwVjZIMThaIiAvPjwvc3ZnPg==)
+
+-}
+vectorPolygonVariant : IconShape
+vectorPolygonVariant =
+    Material.Icons.Directory.V.vectorPolygonVariant
 
 
 {-| The [`vector-radius`](https://pictogrammers.com/library/mdi/icon/vector-radius/) icon.

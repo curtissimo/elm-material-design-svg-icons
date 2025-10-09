@@ -52,13 +52,6 @@ zodiacAquarius =
     iconShape "M15,12.41L12,9.41L9,12.41L6,9.41L3.71,11.71L2.29,10.29L6,6.59L9,9.59L12,6.59L15,9.59L18,6.59L21.71,10.29L20.29,11.71L18,9.41L15,12.41M18,15.41L20.29,17.71L21.71,16.29L18,12.59L15,15.59L12,12.59L9,15.59L6,12.59L2.29,16.29L3.71,17.71L6,15.41L9,18.41L12,15.41L15,18.41L18,15.41Z"
 
 
-{-| The [`zodiac-aries`](https://pictogrammers.com/library/mdi/icon/zodiac-aries/) icon.
--}
-zodiacAries : IconShape
-zodiacAries =
-    iconShape "M16,2C14.95,2 13.91,2.27 13,2.81C12.64,3 12.3,3.26 12,3.54C11.7,3.26 11.36,3 11,2.81C10.09,2.27 9.05,2 8,2A6,6 0 0,0 2,8A6,6 0 0,0 8,14V12A4,4 0 0,1 4,8A4,4 0 0,1 8,4C9,4 10,4.39 10.75,5.1C10.84,5.18 10.92,5.27 11,5.36V22H13V5.36C13.08,5.27 13.16,5.18 13.25,5.1C14.85,3.58 17.38,3.64 18.91,5.25C20.43,6.85 20.36,9.38 18.76,10.9C18,11.61 17.03,12 16,12V14A6,6 0 0,0 22,8A6,6 0 0,0 16,2Z"
-
-
 {-| The [`zodiac-cancer`](https://pictogrammers.com/library/mdi/icon/zodiac-cancer/) icon.
 -}
 zodiacCancer : IconShape
@@ -71,6 +64,13 @@ zodiacCancer =
 zodiacCapricorn : IconShape
 zodiacCapricorn =
     iconShape "M15,13C14.3,13 13.61,13.19 13,13.55V6A3,3 0 0,0 10,3C9.25,3 8.55,3.29 8,3.78C7.45,3.28 6.74,3 6,3V5A1,1 0 0,1 7,6V16H9V6A1,1 0 0,1 10,5A1,1 0 0,1 11,6V17A2,2 0 0,1 9,19V21C10.15,21 11.25,20.5 12,19.62C13.45,21.29 15.97,21.47 17.64,20C19.31,18.58 19.5,16.05 18.04,14.38C17.28,13.5 16.17,13 15,13M15,19A2,2 0 0,1 13,17A2,2 0 0,1 15,15A2,2 0 0,1 17,17A2,2 0 0,1 15,19Z"
+
+
+{-| The [`zodiac-aries`](https://pictogrammers.com/library/mdi/icon/zodiac-aries/) icon.
+-}
+zodiacAries : IconShape
+zodiacAries =
+    iconShape "M16,2C14.95,2 13.91,2.27 13,2.81C12.64,3 12.3,3.26 12,3.54C11.7,3.26 11.36,3 11,2.81C10.09,2.27 9.05,2 8,2A6,6 0 0,0 2,8A6,6 0 0,0 8,14V12A4,4 0 0,1 4,8A4,4 0 0,1 8,4C9,4 10,4.39 10.75,5.1C10.84,5.18 10.92,5.27 11,5.36V22H13V5.36C13.08,5.27 13.16,5.18 13.25,5.1C14.85,3.58 17.38,3.64 18.91,5.25C20.43,6.85 20.36,9.38 18.76,10.9C18,11.61 17.03,12 16,12V14A6,6 0 0,0 22,8A6,6 0 0,0 16,2Z"
 
 
 {-| The [`zodiac-gemini`](https://pictogrammers.com/library/mdi/icon/zodiac-gemini/) icon.
@@ -150,14 +150,14 @@ lookup name =
         "zodiac-aquarius" ->
             Just zodiacAquarius
 
-        "zodiac-aries" ->
-            Just zodiacAries
-
         "zodiac-cancer" ->
             Just zodiacCancer
 
         "zodiac-capricorn" ->
             Just zodiacCapricorn
+
+        "zodiac-aries" ->
+            Just zodiacAries
 
         "zodiac-gemini" ->
             Just zodiacGemini

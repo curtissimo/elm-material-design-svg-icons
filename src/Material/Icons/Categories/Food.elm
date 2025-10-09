@@ -7,16 +7,16 @@ module Material.Icons.Categories.Food exposing
     , barley
     , beer
     , beerOutline
-    , blender
     , blenderOutline
+    , blender
     , bottleSoda
     , bottleSodaClassic
     , bottleSodaOutline
     , bottleWine
     , bottleWineOutline
-    , bowl
     , bowlMix
     , bowlMixOutline
+    , bowl
     , bowlOutline
     , breadSlice
     , breadSliceOutline
@@ -48,31 +48,31 @@ module Material.Icons.Categories.Food exposing
     , cookie
     , cookieAlert
     , cookieAlertOutline
-    , cookieCheck
     , cookieCheckOutline
-    , cookieClock
+    , cookieCheck
     , cookieClockOutline
+    , cookieClock
     , cookieCog
     , cookieCogOutline
     , cookieEdit
-    , cookieEditOutline
     , cookieLock
+    , cookieEditOutline
     , cookieLockOutline
     , cookieMinus
     , cookieMinusOutline
-    , cookieOff
     , cookieOffOutline
+    , cookieOff
     , cookieOutline
     , cookiePlus
     , cookiePlusOutline
-    , cookieRefresh
     , cookieRefreshOutline
-    , cookieRemove
+    , cookieRefresh
     , cookieRemoveOutline
+    , cookieRemove
     , cookieSettings
     , cookieSettingsOutline
-    , corn
     , cornOff
+    , corn
     , cowOff
     , cubeOffOutline
     , cubeOutline
@@ -84,50 +84,50 @@ module Material.Icons.Categories.Food exposing
     , cupcake
     , egg
     , eggFried
-    , eggOff
     , eggOffOutline
+    , eggOff
     , eggOutline
-    , fish
     , fishOff
+    , fish
     , food
-    , foodApple
     , foodAppleOutline
+    , foodApple
     , foodCroissant
     , foodDrumstick
+    , foodDrumstickOutline
     , foodDrumstickOff
     , foodDrumstickOffOutline
-    , foodDrumstickOutline
     , foodForkDrink
     , foodHalal
     , foodHotDog
     , foodKosher
-    , foodOff
     , foodOffOutline
-    , foodOutline
+    , foodOff
     , foodSteak
+    , foodOutline
     , foodSteakOff
     , foodTakeoutBox
-    , foodTakeoutBoxOutline
     , foodTurkey
-    , foodVariant
+    , foodTakeoutBoxOutline
     , foodVariantOff
+    , foodVariant
     , frenchFries
     , fruitCherries
     , fruitCherriesOff
     , fruitCitrus
+    , fruitGrapesOutline
     , fruitCitrusOff
     , fruitGrapes
-    , fruitGrapesOutline
     , fruitPear
     , fruitPineapple
     , fruitWatermelon
-    , glassCocktail
     , glassCocktailOff
+    , glassCocktail
     , glassFlute
+    , glassMug
     , glassFragile
     , glassMugOff
     , glassMugVariant
-    , glassMug
     , glassMugVariantOff
     , glassPintOutline
     , glassStange
@@ -137,23 +137,23 @@ module Material.Icons.Categories.Food exposing
     , grillOutline
     , hamburger
     , hamburgerCheck
-    , hamburgerMinus
     , hamburgerOff
-    , hamburgerPlus
+    , hamburgerMinus
     , hamburgerRemove
+    , hamburgerPlus
     , hops
     , iceCream
-    , iceCreamOff
     , icePop
-    , kettle
+    , iceCreamOff
     , keg
+    , kettle
     , kettleAlert
     , kettleAlertOutline
+    , kettleOutline
     , kettleOff
     , kettleOffOutline
-    , kettleOutline
-    , kettleSteam
     , kettleSteamOutline
+    , kettleSteam
     , leaf
     , leafOff
     , leek
@@ -175,8 +175,8 @@ module Material.Icons.Categories.Food exposing
     , popcorn
     , pot
     , potMix
-    , potMixOutline
     , potOutline
+    , potMixOutline
     , potSteam
     , potSteamOutline
     , pretzel
@@ -213,16 +213,16 @@ module Material.Icons.Categories.Food exposing
 @docs barley
 @docs beer
 @docs beerOutline
-@docs blender
 @docs blenderOutline
+@docs blender
 @docs bottleSoda
 @docs bottleSodaClassic
 @docs bottleSodaOutline
 @docs bottleWine
 @docs bottleWineOutline
-@docs bowl
 @docs bowlMix
 @docs bowlMixOutline
+@docs bowl
 @docs bowlOutline
 @docs breadSlice
 @docs breadSliceOutline
@@ -254,31 +254,31 @@ module Material.Icons.Categories.Food exposing
 @docs cookie
 @docs cookieAlert
 @docs cookieAlertOutline
-@docs cookieCheck
 @docs cookieCheckOutline
-@docs cookieClock
+@docs cookieCheck
 @docs cookieClockOutline
+@docs cookieClock
 @docs cookieCog
 @docs cookieCogOutline
 @docs cookieEdit
-@docs cookieEditOutline
 @docs cookieLock
+@docs cookieEditOutline
 @docs cookieLockOutline
 @docs cookieMinus
 @docs cookieMinusOutline
-@docs cookieOff
 @docs cookieOffOutline
+@docs cookieOff
 @docs cookieOutline
 @docs cookiePlus
 @docs cookiePlusOutline
-@docs cookieRefresh
 @docs cookieRefreshOutline
-@docs cookieRemove
+@docs cookieRefresh
 @docs cookieRemoveOutline
+@docs cookieRemove
 @docs cookieSettings
 @docs cookieSettingsOutline
-@docs corn
 @docs cornOff
+@docs corn
 @docs cowOff
 @docs cubeOffOutline
 @docs cubeOutline
@@ -290,50 +290,50 @@ module Material.Icons.Categories.Food exposing
 @docs cupcake
 @docs egg
 @docs eggFried
-@docs eggOff
 @docs eggOffOutline
+@docs eggOff
 @docs eggOutline
-@docs fish
 @docs fishOff
+@docs fish
 @docs food
-@docs foodApple
 @docs foodAppleOutline
+@docs foodApple
 @docs foodCroissant
 @docs foodDrumstick
+@docs foodDrumstickOutline
 @docs foodDrumstickOff
 @docs foodDrumstickOffOutline
-@docs foodDrumstickOutline
 @docs foodForkDrink
 @docs foodHalal
 @docs foodHotDog
 @docs foodKosher
-@docs foodOff
 @docs foodOffOutline
-@docs foodOutline
+@docs foodOff
 @docs foodSteak
+@docs foodOutline
 @docs foodSteakOff
 @docs foodTakeoutBox
-@docs foodTakeoutBoxOutline
 @docs foodTurkey
-@docs foodVariant
+@docs foodTakeoutBoxOutline
 @docs foodVariantOff
+@docs foodVariant
 @docs frenchFries
 @docs fruitCherries
 @docs fruitCherriesOff
 @docs fruitCitrus
+@docs fruitGrapesOutline
 @docs fruitCitrusOff
 @docs fruitGrapes
-@docs fruitGrapesOutline
 @docs fruitPear
 @docs fruitPineapple
 @docs fruitWatermelon
-@docs glassCocktail
 @docs glassCocktailOff
+@docs glassCocktail
 @docs glassFlute
+@docs glassMug
 @docs glassFragile
 @docs glassMugOff
 @docs glassMugVariant
-@docs glassMug
 @docs glassMugVariantOff
 @docs glassPintOutline
 @docs glassStange
@@ -343,23 +343,23 @@ module Material.Icons.Categories.Food exposing
 @docs grillOutline
 @docs hamburger
 @docs hamburgerCheck
-@docs hamburgerMinus
 @docs hamburgerOff
-@docs hamburgerPlus
+@docs hamburgerMinus
 @docs hamburgerRemove
+@docs hamburgerPlus
 @docs hops
 @docs iceCream
-@docs iceCreamOff
 @docs icePop
-@docs kettle
+@docs iceCreamOff
 @docs keg
+@docs kettle
 @docs kettleAlert
 @docs kettleAlertOutline
+@docs kettleOutline
 @docs kettleOff
 @docs kettleOffOutline
-@docs kettleOutline
-@docs kettleSteam
 @docs kettleSteamOutline
+@docs kettleSteam
 @docs leaf
 @docs leafOff
 @docs leek
@@ -381,8 +381,8 @@ module Material.Icons.Categories.Food exposing
 @docs popcorn
 @docs pot
 @docs potMix
-@docs potMixOutline
 @docs potOutline
+@docs potMixOutline
 @docs potSteam
 @docs potSteamOutline
 @docs pretzel
@@ -473,16 +473,6 @@ beerOutline =
     Material.Icons.Directory.B.beerOutline
 
 
-{-| The [`blender`](https://pictogrammers.com/library/mdi/icon/blender/) icon.
-
-![blender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjEzIDE1LjEzTDE4IDNIMTRWMkgxMFYzSDVDMy45IDMgMyAzLjkgMyA1VjlDMyAxMC4xIDMuOSAxMSA1IDExSDcuMjNMNy44NyAxNS4xM0M2Ljc0IDE2LjA1IDYgMTcuNDMgNiAxOVYyMEM2IDIxLjEgNi45IDIyIDggMjJIMTZDMTcuMSAyMiAxOCAyMS4xIDE4IDIwVjE5QzE4IDE3LjQzIDE3LjI2IDE2LjA1IDE2LjEzIDE1LjEzTTUgOVY1SDYuMzFMNi45MyA5SDVNMTIgMTlDMTEuNDUgMTkgMTEgMTguNTUgMTEgMThTMTEuNDUgMTcgMTIgMTcgMTMgMTcuNDUgMTMgMTggMTIuNTUgMTkgMTIgMTlNMTQuMjkgMTRIOS43Mkw4LjMzIDVIMTUuNjdMMTQuMjkgMTRaIiAvPjwvc3ZnPg==)
-
--}
-blender : IconShape
-blender =
-    Material.Icons.Directory.B.blender
-
-
 {-| The [`blender-outline`](https://pictogrammers.com/library/mdi/icon/blender-outline/) icon.
 
 ![blender-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjEzIDE1LjEzTDE4IDNIMTRWMkgxMFYzSDVDMy45IDMgMyAzLjkgMyA1VjlDMyAxMC4xIDMuOSAxMSA1IDExSDcuMjNMNy44NyAxNS4xM0M2Ljc0IDE2LjA1IDYgMTcuNDMgNiAxOVYyMEM2IDIxLjEgNi45IDIyIDggMjJIMTZDMTcuMSAyMiAxOCAyMS4xIDE4IDIwVjE5QzE4IDE3LjQzIDE3LjI2IDE2LjA1IDE2LjEzIDE1LjEzTTUgOVY1SDYuMzFMNi45MyA5SDVNMTUuNjcgNUwxNC4yOSAxNEg5LjcyTDguMzMgNUgxNS42N00xNiAyMEg4VjE5QzggMTcuMzUgOS4zNSAxNiAxMSAxNkgxM0MxNC42NSAxNiAxNiAxNy4zNSAxNiAxOVYyME0xMiAxN0MxMi41NSAxNyAxMyAxNy40NSAxMyAxOFMxMi41NSAxOSAxMiAxOSAxMSAxOC41NSAxMSAxOCAxMS40NSAxNyAxMiAxN1oiIC8+PC9zdmc+)
@@ -491,6 +481,16 @@ blender =
 blenderOutline : IconShape
 blenderOutline =
     Material.Icons.Directory.B.blenderOutline
+
+
+{-| The [`blender`](https://pictogrammers.com/library/mdi/icon/blender/) icon.
+
+![blender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjEzIDE1LjEzTDE4IDNIMTRWMkgxMFYzSDVDMy45IDMgMyAzLjkgMyA1VjlDMyAxMC4xIDMuOSAxMSA1IDExSDcuMjNMNy44NyAxNS4xM0M2Ljc0IDE2LjA1IDYgMTcuNDMgNiAxOVYyMEM2IDIxLjEgNi45IDIyIDggMjJIMTZDMTcuMSAyMiAxOCAyMS4xIDE4IDIwVjE5QzE4IDE3LjQzIDE3LjI2IDE2LjA1IDE2LjEzIDE1LjEzTTUgOVY1SDYuMzFMNi45MyA5SDVNMTIgMTlDMTEuNDUgMTkgMTEgMTguNTUgMTEgMThTMTEuNDUgMTcgMTIgMTcgMTMgMTcuNDUgMTMgMTggMTIuNTUgMTkgMTIgMTlNMTQuMjkgMTRIOS43Mkw4LjMzIDVIMTUuNjdMMTQuMjkgMTRaIiAvPjwvc3ZnPg==)
+
+-}
+blender : IconShape
+blender =
+    Material.Icons.Directory.B.blender
 
 
 {-| The [`bottle-soda`](https://pictogrammers.com/library/mdi/icon/bottle-soda/) icon.
@@ -543,16 +543,6 @@ bottleWineOutline =
     Material.Icons.Directory.B.bottleWineOutline
 
 
-{-| The [`bowl`](https://pictogrammers.com/library/mdi/icon/bowl/) icon.
-
-![bowl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE1QzIyIDE4LjkgMTguOSAyMiAxNSAyMkg5QzUuMSAyMiAyIDE4LjkgMiAxNVYxMkgyMlYxNVoiIC8+PC9zdmc+)
-
--}
-bowl : IconShape
-bowl =
-    Material.Icons.Directory.B.bowl
-
-
 {-| The [`bowl-mix`](https://pictogrammers.com/library/mdi/icon/bowl-mix/) icon.
 
 ![bowl-mix](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjIgMTFMMjAuMyA0LjVMMjIgNS41TDE4LjYgMTFIMTYuMk0xNS42IDEySDJWMTVDMiAxOC45IDUuMSAyMiA5IDIySDE1QzE4LjkgMjIgMjIgMTguOSAyMiAxNVYxMkgxNS42WiIgLz48L3N2Zz4=)
@@ -571,6 +561,16 @@ bowlMix =
 bowlMixOutline : IconShape
 bowlMixOutline =
     Material.Icons.Directory.B.bowlMixOutline
+
+
+{-| The [`bowl`](https://pictogrammers.com/library/mdi/icon/bowl/) icon.
+
+![bowl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE1QzIyIDE4LjkgMTguOSAyMiAxNSAyMkg5QzUuMSAyMiAyIDE4LjkgMiAxNVYxMkgyMlYxNVoiIC8+PC9zdmc+)
+
+-}
+bowl : IconShape
+bowl =
+    Material.Icons.Directory.B.bowl
 
 
 {-| The [`bowl-outline`](https://pictogrammers.com/library/mdi/icon/bowl-outline/) icon.
@@ -883,16 +883,6 @@ cookieAlertOutline =
     Material.Icons.Directory.C.cookieAlertOutline
 
 
-{-| The [`cookie-check`](https://pictogrammers.com/library/mdi/icon/cookie-check/) icon.
-
-![cookie-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE0LjUzQzE1IDE0LjUgMTUgMTQuNSAxNSAxNC41QzE1IDEzLjY3IDE1LjY3IDEzIDE2LjUgMTNDMTYuOCAxMyAxNy4wOCAxMy4wOSAxNy4zMiAxMy4yNEMxNy44NSAxMy4wOSAxOC40MiAxMyAxOSAxM0MxOS42NiAxMyAyMC4zIDEzLjEyIDIwLjg5IDEzLjMyQzIwLjk2IDEyLjg5IDIxIDEyLjQ1IDIxIDEyQzIxIDExLjUgMjAuOTYgMTEgMjAuODcgMTAuNUMyMC42IDEwIDIwIDEwIDIwIDEwSDE4VjlDMTggOCAxNyA4IDE3IDhIMTVWN0MxNSA2IDE0IDYgMTQgNkgxM1Y0QzEzIDMgMTIgMyAxMiAzQzcuMDMgMyAzIDcuMDMgMyAxMlM3LjAzIDIxIDEyIDIxQzEyLjQ1IDIxIDEyLjg5IDIwLjk2IDEzLjMyIDIwLjg5QzEzLjEyIDIwLjMgMTMgMTkuNjYgMTMgMTlDMTMgMTcuMjIgMTMuNzggMTUuNjMgMTUgMTQuNTNNNi41IDEzQzUuNjcgMTMgNSAxMi4zMyA1IDExLjVTNS42NyAxMCA2LjUgMTAgOCAxMC42NyA4IDExLjUgNy4zMyAxMyA2LjUgMTNNOCA3LjVDOCA2LjY3IDguNjcgNiA5LjUgNlMxMSA2LjY3IDExIDcuNSAxMC4zMyA5IDkuNSA5IDggOC4zMyA4IDcuNU0xMSAxOUMxMC4xNyAxOSA5LjUgMTguMzMgOS41IDE3LjVTMTAuMTcgMTYgMTEgMTYgMTIuNSAxNi42NyAxMi41IDE3LjUgMTEuODMgMTkgMTEgMTlNMTEuNSAxNEMxMC42NyAxNCAxMCAxMy4zMyAxMCAxMi41UzEwLjY3IDExIDExLjUgMTEgMTMgMTEuNjcgMTMgMTIuNSAxMi4zMyAxNCAxMS41IDE0TTIyLjUgMTcuMjVMMTcuNzUgMjJMMTUgMTlMMTYuMTYgMTcuODRMMTcuNzUgMTkuNDNMMjEuMzQgMTUuODRMMjIuNSAxNy4yNVoiIC8+PC9zdmc+)
-
--}
-cookieCheck : IconShape
-cookieCheck =
-    Material.Icons.Directory.C.cookieCheck
-
-
 {-| The [`cookie-check-outline`](https://pictogrammers.com/library/mdi/icon/cookie-check-outline/) icon.
 
 ![cookie-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDEwSDE0LjVDMTMuNjcgMTAgMTMgOS4zMyAxMyA4LjVWOEgxMi41QzExLjY3IDggMTEgNy4zMyAxMSA2LjVWNS4wN0M3LjkxIDUuNSA1LjQ3IDggNS4wNyAxMS4wOEM1LjI1IDEwLjQ2IDUuODIgMTAgNi41IDEwQzcuMzMgMTAgOCAxMC42NyA4IDExLjVTNy4zMyAxMyA2LjUgMTNDNS43MSAxMyA1LjA3IDEyLjM5IDUgMTEuNjJDNSAxMi4xMSA1IDEyLjYxIDUuMDkgMTMuMTJDNS41IDE1LjgxIDcuNTQgMTguMDQgMTAuMTYgMTguNzRDOS43NiAxOC40NyA5LjUgMTggOS41IDE3LjVDOS41IDE2LjY3IDEwLjE3IDE2IDExIDE2UzEyLjUgMTYuNjcgMTIuNSAxNy41QzEyLjUgMTguMjIgMTIgMTguODIgMTEuMzIgMTguOTZDMTEuOSAxOSAxMi40NiAxOSAxMyAxOC45MkMxMyAxOC45NSAxMyAxOC45NyAxMyAxOUMxMyAxOS42NiAxMy4xMiAyMC4zIDEzLjMyIDIwLjg5QzEyLjg5IDIwLjk2IDEyLjQ1IDIxIDEyIDIxQzcuMDMgMjEgMyAxNi45NyAzIDEyUzcuMDMgMyAxMiAzQzEyIDMgMTMgMyAxMyA0VjZIMTRDMTQgNiAxNSA2IDE1IDdWOEgxN0MxNyA4IDE4IDggMTggOVYxMEgyMEMyMCAxMCAyMC42IDEwIDIwLjg3IDEwLjVDMjAuOTYgMTEgMjEgMTEuNSAyMSAxMkMyMSAxMi40NSAyMC45NiAxMi44OSAyMC44OSAxMy4zMkMyMC4zIDEzLjEyIDE5LjY2IDEzIDE5IDEzQzE4Ljk3IDEzIDE4Ljk1IDEzIDE4LjkyIDEzQzE4Ljk3IDEyLjY4IDE5IDEyLjM0IDE5IDEySDE3LjVDMTYuNjcgMTIgMTYgMTEuMzMgMTYgMTAuNVYxMEgxNU0xNSAxNC41QzE1IDE0LjUgMTUgMTQuNSAxNSAxNC41M0MxNS42NiAxMy45NSAxNi40NSAxMy41IDE3LjMyIDEzLjI0QzE3LjA4IDEzLjA5IDE2LjggMTMgMTYuNSAxM0MxNS42NyAxMyAxNSAxMy42NyAxNSAxNC41TTExLjUgMTRDMTIuMzMgMTQgMTMgMTMuMzMgMTMgMTIuNVMxMi4zMyAxMSAxMS41IDExIDEwIDExLjY3IDEwIDEyLjUgMTAuNjcgMTQgMTEuNSAxNE0xMSA3LjVDMTEgNi42NyAxMC4zMyA2IDkuNSA2UzggNi42NyA4IDcuNSA4LjY3IDkgOS41IDkgMTEgOC4zMyAxMSA3LjVNMjEuMzQgMTUuODRMMTcuNzUgMTkuNDNMMTYuMTYgMTcuODRMMTUgMTlMMTcuNzUgMjJMMjIuNSAxNy4yNUwyMS4zNCAxNS44NFoiIC8+PC9zdmc+)
@@ -903,14 +893,14 @@ cookieCheckOutline =
     Material.Icons.Directory.C.cookieCheckOutline
 
 
-{-| The [`cookie-clock`](https://pictogrammers.com/library/mdi/icon/cookie-clock/) icon.
+{-| The [`cookie-check`](https://pictogrammers.com/library/mdi/icon/cookie-check/) icon.
 
-![cookie-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5Ljk3IDEwLjI0QzE5Ljk1IDEwIDE5LjkxIDkuNzQgMTkuODcgOS41QzE5LjYgOSAxOSA5IDE5IDlIMTdWOEMxNyA3IDE2IDcgMTYgN0gxNFY2QzE0IDUgMTMgNSAxMyA1SDEyVjNDMTIgMiAxMSAyIDExIDJDNi4wMyAyIDIgNi4wMyAyIDExQzIgMTUuNzEgNS42MiAxOS41NyAxMC4yMyAxOS45NkMxMS41IDIxLjggMTMuNjEgMjMgMTYgMjNDMTkuODcgMjMgMjMgMTkuODcgMjMgMTZDMjMgMTMuNjEgMjEuOCAxMS41IDE5Ljk3IDEwLjI0TTExLjY0IDEwLjUzQzEwLjg3IDExLjE1IDEwLjIzIDExLjkyIDkuNzggMTIuODFDOS4zMiAxMi41NSA5IDEyLjA2IDkgMTEuNUM5IDEwLjY3IDkuNjcgMTAgMTAuNSAxMEMxMC45NiAxMCAxMS4zNiAxMC4yMSAxMS42NCAxMC41M001LjUgMTJDNC42NyAxMiA0IDExLjMzIDQgMTAuNVM0LjY3IDkgNS41IDkgNyA5LjY3IDcgMTAuNSA2LjMzIDEyIDUuNSAxMk03IDYuNUM3IDUuNjcgNy42NyA1IDguNSA1UzEwIDUuNjcgMTAgNi41IDkuMzMgOCA4LjUgOCA3IDcuMzMgNyA2LjVNOC41IDE2LjVDOC41IDE2LjA0IDguNzEgMTUuNjQgOS4wMyAxNS4zNkM5IDE1LjU3IDkgMTUuNzkgOSAxNkM5IDE2LjYyIDkuMDkgMTcuMjIgOS4yNCAxNy43OUM4LjggMTcuNSA4LjUgMTcuMDUgOC41IDE2LjVNMTYgMjFDMTMuMjQgMjEgMTEgMTguNzYgMTEgMTZTMTMuMjQgMTEgMTYgMTEgMjEgMTMuMjQgMjEgMTYgMTguNzYgMjEgMTYgMjFNMTYuNSAxNi4yNUwxOS4zNiAxNy45NEwxOC42MSAxOS4xNkwxNSAxN1YxMkgxNi41VjE2LjI1WiIgLz48L3N2Zz4=)
+![cookie-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE0LjUzQzE1IDE0LjUgMTUgMTQuNSAxNSAxNC41QzE1IDEzLjY3IDE1LjY3IDEzIDE2LjUgMTNDMTYuOCAxMyAxNy4wOCAxMy4wOSAxNy4zMiAxMy4yNEMxNy44NSAxMy4wOSAxOC40MiAxMyAxOSAxM0MxOS42NiAxMyAyMC4zIDEzLjEyIDIwLjg5IDEzLjMyQzIwLjk2IDEyLjg5IDIxIDEyLjQ1IDIxIDEyQzIxIDExLjUgMjAuOTYgMTEgMjAuODcgMTAuNUMyMC42IDEwIDIwIDEwIDIwIDEwSDE4VjlDMTggOCAxNyA4IDE3IDhIMTVWN0MxNSA2IDE0IDYgMTQgNkgxM1Y0QzEzIDMgMTIgMyAxMiAzQzcuMDMgMyAzIDcuMDMgMyAxMlM3LjAzIDIxIDEyIDIxQzEyLjQ1IDIxIDEyLjg5IDIwLjk2IDEzLjMyIDIwLjg5QzEzLjEyIDIwLjMgMTMgMTkuNjYgMTMgMTlDMTMgMTcuMjIgMTMuNzggMTUuNjMgMTUgMTQuNTNNNi41IDEzQzUuNjcgMTMgNSAxMi4zMyA1IDExLjVTNS42NyAxMCA2LjUgMTAgOCAxMC42NyA4IDExLjUgNy4zMyAxMyA2LjUgMTNNOCA3LjVDOCA2LjY3IDguNjcgNiA5LjUgNlMxMSA2LjY3IDExIDcuNSAxMC4zMyA5IDkuNSA5IDggOC4zMyA4IDcuNU0xMSAxOUMxMC4xNyAxOSA5LjUgMTguMzMgOS41IDE3LjVTMTAuMTcgMTYgMTEgMTYgMTIuNSAxNi42NyAxMi41IDE3LjUgMTEuODMgMTkgMTEgMTlNMTEuNSAxNEMxMC42NyAxNCAxMCAxMy4zMyAxMCAxMi41UzEwLjY3IDExIDExLjUgMTEgMTMgMTEuNjcgMTMgMTIuNSAxMi4zMyAxNCAxMS41IDE0TTIyLjUgMTcuMjVMMTcuNzUgMjJMMTUgMTlMMTYuMTYgMTcuODRMMTcuNzUgMTkuNDNMMjEuMzQgMTUuODRMMjIuNSAxNy4yNVoiIC8+PC9zdmc+)
 
 -}
-cookieClock : IconShape
-cookieClock =
-    Material.Icons.Directory.C.cookieClock
+cookieCheck : IconShape
+cookieCheck =
+    Material.Icons.Directory.C.cookieCheck
 
 
 {-| The [`cookie-clock-outline`](https://pictogrammers.com/library/mdi/icon/cookie-clock-outline/) icon.
@@ -921,6 +911,16 @@ cookieClock =
 cookieClockOutline : IconShape
 cookieClockOutline =
     Material.Icons.Directory.C.cookieClockOutline
+
+
+{-| The [`cookie-clock`](https://pictogrammers.com/library/mdi/icon/cookie-clock/) icon.
+
+![cookie-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5Ljk3IDEwLjI0QzE5Ljk1IDEwIDE5LjkxIDkuNzQgMTkuODcgOS41QzE5LjYgOSAxOSA5IDE5IDlIMTdWOEMxNyA3IDE2IDcgMTYgN0gxNFY2QzE0IDUgMTMgNSAxMyA1SDEyVjNDMTIgMiAxMSAyIDExIDJDNi4wMyAyIDIgNi4wMyAyIDExQzIgMTUuNzEgNS42MiAxOS41NyAxMC4yMyAxOS45NkMxMS41IDIxLjggMTMuNjEgMjMgMTYgMjNDMTkuODcgMjMgMjMgMTkuODcgMjMgMTZDMjMgMTMuNjEgMjEuOCAxMS41IDE5Ljk3IDEwLjI0TTExLjY0IDEwLjUzQzEwLjg3IDExLjE1IDEwLjIzIDExLjkyIDkuNzggMTIuODFDOS4zMiAxMi41NSA5IDEyLjA2IDkgMTEuNUM5IDEwLjY3IDkuNjcgMTAgMTAuNSAxMEMxMC45NiAxMCAxMS4zNiAxMC4yMSAxMS42NCAxMC41M001LjUgMTJDNC42NyAxMiA0IDExLjMzIDQgMTAuNVM0LjY3IDkgNS41IDkgNyA5LjY3IDcgMTAuNSA2LjMzIDEyIDUuNSAxMk03IDYuNUM3IDUuNjcgNy42NyA1IDguNSA1UzEwIDUuNjcgMTAgNi41IDkuMzMgOCA4LjUgOCA3IDcuMzMgNyA2LjVNOC41IDE2LjVDOC41IDE2LjA0IDguNzEgMTUuNjQgOS4wMyAxNS4zNkM5IDE1LjU3IDkgMTUuNzkgOSAxNkM5IDE2LjYyIDkuMDkgMTcuMjIgOS4yNCAxNy43OUM4LjggMTcuNSA4LjUgMTcuMDUgOC41IDE2LjVNMTYgMjFDMTMuMjQgMjEgMTEgMTguNzYgMTEgMTZTMTMuMjQgMTEgMTYgMTEgMjEgMTMuMjQgMjEgMTYgMTguNzYgMjEgMTYgMjFNMTYuNSAxNi4yNUwxOS4zNiAxNy45NEwxOC42MSAxOS4xNkwxNSAxN1YxMkgxNi41VjE2LjI1WiIgLz48L3N2Zz4=)
+
+-}
+cookieClock : IconShape
+cookieClock =
+    Material.Icons.Directory.C.cookieClock
 
 
 {-| The [`cookie-cog`](https://pictogrammers.com/library/mdi/icon/cookie-cog/) icon.
@@ -953,16 +953,6 @@ cookieEdit =
     Material.Icons.Directory.C.cookieEdit
 
 
-{-| The [`cookie-edit-outline`](https://pictogrammers.com/library/mdi/icon/cookie-edit-outline/) icon.
-
-![cookie-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSA2QzEwLjMzIDYgMTEgNi42NyAxMSA3LjVTMTAuMzMgOSA5LjUgOSA4IDguMzMgOCA3LjUgOC42NyA2IDkuNSA2TTExLjUgMTFDMTAuNjcgMTEgMTAgMTEuNjcgMTAgMTIuNVMxMC42NyAxNCAxMS41IDE0IDEzIDEzLjMzIDEzIDEyLjUgMTIuMzMgMTEgMTEuNSAxMU0xMSAxNkMxMC4xNyAxNiA5LjUgMTYuNjcgOS41IDE3LjVDOS41IDE4IDkuNzYgMTguNDcgMTAuMTYgMTguNzRDNy41NCAxOC4wNCA1LjUgMTUuODEgNS4wOSAxMy4xMkM1IDEyLjYxIDUgMTIuMTEgNSAxMS42MkM1LjA3IDEyLjM5IDUuNzEgMTMgNi41IDEzQzcuMzMgMTMgOCAxMi4zMyA4IDExLjVTNy4zMyAxMCA2LjUgMTBDNS44MiAxMCA1LjI1IDEwLjQ2IDUuMDcgMTEuMDhDNS40NyA4IDcuOTEgNS41IDExIDUuMDdWNi41QzExIDcuMzMgMTEuNjcgOCAxMi41IDhIMTNWOC41QzEzIDkuMzMgMTMuNjcgMTAgMTQuNSAxMEgxNlYxMC41QzE2IDExLjMzIDE2LjY3IDEyIDE3LjUgMTJIMTguMTNMMTkuMzkgMTAuNzRDMTkuNjkgMTAuNDQgMjAuMDUgMTAuMjQgMjAuNDQgMTAuMTJDMjAuMjEgMTAgMjAgMTAgMjAgMTBIMThWOUMxOCA4IDE3IDggMTcgOEgxNVY3QzE1IDYgMTQgNiAxNCA2SDEzVjRDMTMgMyAxMiAzIDEyIDNDNy4wMyAzIDMgNy4wMyAzIDEyQzMgMTYuNjMgNi41IDIwLjQ0IDExIDIwLjk0VjE5LjEzTDEyLjQ3IDE3LjY2QzEyLjUgMTcuNiAxMi41IDE3LjU1IDEyLjUgMTcuNUMxMi41IDE2LjY3IDExLjgzIDE2IDExIDE2TTE1IDE0LjVDMTUgMTQuNjkgMTUuMDQgMTQuODYgMTUuMSAxNS4wM0wxNy4wMyAxMy4xQzE2Ljg2IDEzLjA0IDE2LjY5IDEzIDE2LjUgMTNDMTUuNjcgMTMgMTUgMTMuNjcgMTUgMTQuNU0yMi44NSAxMy40N0wyMS41MyAxMi4xNUMyMS4zMyAxMS45NSAyMSAxMS45NSAyMC44MSAxMi4xNUwxOS44MyAxMy4xM0wyMS44NyAxNS4xN0wyMi44NSAxNC4xOUMyMy4wNSAxNCAyMy4wNSAxMy42NyAyMi44NSAxMy40N00xMyAxOS45NlYyMkgxNS4wNEwyMS4xNyAxNS44OEwxOS4xMyAxMy44M0wxMyAxOS45NloiIC8+PC9zdmc+)
-
--}
-cookieEditOutline : IconShape
-cookieEditOutline =
-    Material.Icons.Directory.C.cookieEditOutline
-
-
 {-| The [`cookie-lock`](https://pictogrammers.com/library/mdi/icon/cookie-lock/) icon.
 
 ![cookie-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUgMTFDMTkuNDIgMTEgMjAuMjcgMTEuMjkgMjEgMTEuNzdDMjEgMTEuMzUgMjAuOTUgMTAuOTIgMjAuODcgMTAuNUMyMC42IDEwIDIwIDEwIDIwIDEwSDE4VjlDMTggOCAxNyA4IDE3IDhIMTVWN0MxNSA2IDE0IDYgMTQgNkgxM1Y0QzEzIDMgMTIgMyAxMiAzQzcuMDMgMyAzIDcuMDMgMyAxMlM3LjAzIDIxIDEyIDIxQzEyLjM0IDIxIDEyLjY3IDIxIDEzIDIwLjk0VjE3QzEzIDE2LjA4IDEzLjQyIDE1LjI2IDE0LjA3IDE0LjcxQzE0LjQ1IDEyLjYgMTYuMjkgMTEgMTguNSAxMU02LjUgMTNDNS42NyAxMyA1IDEyLjMzIDUgMTEuNVM1LjY3IDEwIDYuNSAxMCA4IDEwLjY3IDggMTEuNSA3LjMzIDEzIDYuNSAxM004IDcuNUM4IDYuNjcgOC42NyA2IDkuNSA2UzExIDYuNjcgMTEgNy41IDEwLjMzIDkgOS41IDkgOCA4LjMzIDggNy41TTExIDE5QzEwLjE3IDE5IDkuNSAxOC4zMyA5LjUgMTcuNVMxMC4xNyAxNiAxMSAxNiAxMi41IDE2LjY3IDEyLjUgMTcuNSAxMS44MyAxOSAxMSAxOU0xMS41IDE0QzEwLjY3IDE0IDEwIDEzLjMzIDEwIDEyLjVTMTAuNjcgMTEgMTEuNSAxMSAxMyAxMS42NyAxMyAxMi41IDEyLjMzIDE0IDExLjUgMTRNMjEgMTZWMTUuNUMyMSAxNC4xMiAxOS44OCAxMyAxOC41IDEzUzE2IDE0LjEyIDE2IDE1LjVWMTZDMTUuNDUgMTYgMTUgMTYuNDUgMTUgMTdWMjFDMTUgMjEuNTUgMTUuNDUgMjIgMTYgMjJIMjFDMjEuNTUgMjIgMjIgMjEuNTUgMjIgMjFWMTdDMjIgMTYuNDUgMjEuNTUgMTYgMjEgMTZNMjAgMTZIMTdWMTUuNUMxNyAxNC42NyAxNy42NyAxNCAxOC41IDE0UzIwIDE0LjY3IDIwIDE1LjVWMTZaIiAvPjwvc3ZnPg==)
@@ -971,6 +961,16 @@ cookieEditOutline =
 cookieLock : IconShape
 cookieLock =
     Material.Icons.Directory.C.cookieLock
+
+
+{-| The [`cookie-edit-outline`](https://pictogrammers.com/library/mdi/icon/cookie-edit-outline/) icon.
+
+![cookie-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSA2QzEwLjMzIDYgMTEgNi42NyAxMSA3LjVTMTAuMzMgOSA5LjUgOSA4IDguMzMgOCA3LjUgOC42NyA2IDkuNSA2TTExLjUgMTFDMTAuNjcgMTEgMTAgMTEuNjcgMTAgMTIuNVMxMC42NyAxNCAxMS41IDE0IDEzIDEzLjMzIDEzIDEyLjUgMTIuMzMgMTEgMTEuNSAxMU0xMSAxNkMxMC4xNyAxNiA5LjUgMTYuNjcgOS41IDE3LjVDOS41IDE4IDkuNzYgMTguNDcgMTAuMTYgMTguNzRDNy41NCAxOC4wNCA1LjUgMTUuODEgNS4wOSAxMy4xMkM1IDEyLjYxIDUgMTIuMTEgNSAxMS42MkM1LjA3IDEyLjM5IDUuNzEgMTMgNi41IDEzQzcuMzMgMTMgOCAxMi4zMyA4IDExLjVTNy4zMyAxMCA2LjUgMTBDNS44MiAxMCA1LjI1IDEwLjQ2IDUuMDcgMTEuMDhDNS40NyA4IDcuOTEgNS41IDExIDUuMDdWNi41QzExIDcuMzMgMTEuNjcgOCAxMi41IDhIMTNWOC41QzEzIDkuMzMgMTMuNjcgMTAgMTQuNSAxMEgxNlYxMC41QzE2IDExLjMzIDE2LjY3IDEyIDE3LjUgMTJIMTguMTNMMTkuMzkgMTAuNzRDMTkuNjkgMTAuNDQgMjAuMDUgMTAuMjQgMjAuNDQgMTAuMTJDMjAuMjEgMTAgMjAgMTAgMjAgMTBIMThWOUMxOCA4IDE3IDggMTcgOEgxNVY3QzE1IDYgMTQgNiAxNCA2SDEzVjRDMTMgMyAxMiAzIDEyIDNDNy4wMyAzIDMgNy4wMyAzIDEyQzMgMTYuNjMgNi41IDIwLjQ0IDExIDIwLjk0VjE5LjEzTDEyLjQ3IDE3LjY2QzEyLjUgMTcuNiAxMi41IDE3LjU1IDEyLjUgMTcuNUMxMi41IDE2LjY3IDExLjgzIDE2IDExIDE2TTE1IDE0LjVDMTUgMTQuNjkgMTUuMDQgMTQuODYgMTUuMSAxNS4wM0wxNy4wMyAxMy4xQzE2Ljg2IDEzLjA0IDE2LjY5IDEzIDE2LjUgMTNDMTUuNjcgMTMgMTUgMTMuNjcgMTUgMTQuNU0yMi44NSAxMy40N0wyMS41MyAxMi4xNUMyMS4zMyAxMS45NSAyMSAxMS45NSAyMC44MSAxMi4xNUwxOS44MyAxMy4xM0wyMS44NyAxNS4xN0wyMi44NSAxNC4xOUMyMy4wNSAxNCAyMy4wNSAxMy42NyAyMi44NSAxMy40N00xMyAxOS45NlYyMkgxNS4wNEwyMS4xNyAxNS44OEwxOS4xMyAxMy44M0wxMyAxOS45NloiIC8+PC9zdmc+)
+
+-}
+cookieEditOutline : IconShape
+cookieEditOutline =
+    Material.Icons.Directory.C.cookieEditOutline
 
 
 {-| The [`cookie-lock-outline`](https://pictogrammers.com/library/mdi/icon/cookie-lock-outline/) icon.
@@ -1003,16 +1003,6 @@ cookieMinusOutline =
     Material.Icons.Directory.C.cookieMinusOutline
 
 
-{-| The [`cookie-off`](https://pictogrammers.com/library/mdi/icon/cookie-off/) icon.
-
-![cookie-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuMjUgNi4wNUw3LjQ1IDQuMjVDOC43OSAzLjQ2IDEwLjM0IDMgMTIgM0MxMiAzIDEzIDMgMTMgNFY2SDE0QzE0IDYgMTUgNiAxNSA3VjhIMTdDMTcgOCAxOCA4IDE4IDlWMTBIMjBDMjAgMTAgMjAuNiAxMCAyMC44NyAxMC41QzIwLjk2IDExIDIxIDExLjUgMjEgMTJDMjEgMTMuNjYgMjAuNTQgMTUuMjIgMTkuNzUgMTYuNTVMMTcuOTUgMTQuNzVDMTcuOTcgMTQuNjcgMTggMTQuNTkgMTggMTQuNUMxOCAxMy42NyAxNy4zMyAxMyAxNi41IDEzQzE2LjQxIDEzIDE2LjMzIDEzLjAzIDE2LjI1IDEzLjA1TDEwLjk1IDcuNzVDMTAuOTcgNy42NyAxMSA3LjU5IDExIDcuNUMxMSA2LjY3IDEwLjMzIDYgOS41IDZDOS40MSA2IDkuMzMgNi4wMyA5LjI1IDYuMDVNMjIuMTEgMjEuNDZMMjAuODQgMjIuNzNMMTcuMzQgMTkuMjNDMTUuODUgMjAuMzQgMTQgMjEgMTIgMjFDNy4wMyAyMSAzIDE2Ljk3IDMgMTJDMyAxMCAzLjY2IDguMTUgNC43NyA2LjY2TDEuMTEgM0wyLjM5IDEuNzNMMjIuMTEgMjEuNDZNOCAxMS41QzggMTAuNjcgNy4zMyAxMCA2LjUgMTBTNSAxMC42NyA1IDExLjUgNS42NyAxMyA2LjUgMTMgOCAxMi4zMyA4IDExLjVNMTAgMTIuNUMxMCAxMy4zMyAxMC42NyAxNCAxMS41IDE0QzExLjY4IDE0IDExLjg1IDEzLjk2IDEyIDEzLjlMMTAuMSAxMkMxMC4wNCAxMi4xNSAxMCAxMi4zMiAxMCAxMi41TTEyLjUgMTcuNUMxMi41IDE2LjY3IDExLjgzIDE2IDExIDE2UzkuNSAxNi42NyA5LjUgMTcuNSAxMC4xNyAxOSAxMSAxOSAxMi41IDE4LjMzIDEyLjUgMTcuNVoiIC8+PC9zdmc+)
-
--}
-cookieOff : IconShape
-cookieOff =
-    Material.Icons.Directory.C.cookieOff
-
-
 {-| The [`cookie-off-outline`](https://pictogrammers.com/library/mdi/icon/cookie-off-outline/) icon.
 
 ![cookie-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguOTMgNS43M0w3LjQ1IDQuMjVDOC43OSAzLjQ2IDEwLjM0IDMgMTIgM0MxMiAzIDEzIDMgMTMgNFY2SDE0QzE0IDYgMTUgNiAxNSA3VjhIMTdDMTcgOCAxOCA4IDE4IDlWMTBIMjBDMjAgMTAgMjAuNiAxMCAyMC44NyAxMC41QzIwLjk2IDExIDIxIDExLjUgMjEgMTJDMjEgMTMuNjYgMjAuNTQgMTUuMjIgMTkuNzUgMTYuNTVMMTguMjggMTUuMDhDMTguNzQgMTQuMTUgMTkgMTMuMTEgMTkgMTJIMTcuNUMxNi42NyAxMiAxNiAxMS4zMyAxNiAxMC41VjEwSDE0LjVDMTMuNjcgMTAgMTMgOS4zMyAxMyA4LjVWOEgxMi41QzExLjY3IDggMTEgNy4zMyAxMSA2LjVWNS4wN0MxMC4yNiA1LjE4IDkuNTcgNS40MSA4LjkzIDUuNzNNOS4yNSA2LjA1TDEwLjk1IDcuNzVDMTAuOTcgNy42NyAxMSA3LjU5IDExIDcuNUMxMSA2LjY3IDEwLjMzIDYgOS41IDZDOS40MSA2IDkuMzMgNi4wMyA5LjI1IDYuMDVNMTYuMjUgMTMuMDVMMTcuOTUgMTQuNzVDMTcuOTcgMTQuNjcgMTggMTQuNTkgMTggMTQuNUMxOCAxMy42NyAxNy4zMyAxMyAxNi41IDEzQzE2LjQxIDEzIDE2LjMzIDEzLjAzIDE2LjI1IDEzLjA1TTIyLjExIDIxLjQ2TDIwLjg0IDIyLjczTDE3LjM0IDE5LjIzQzE1Ljg1IDIwLjM0IDE0IDIxIDEyIDIxQzcuMDMgMjEgMyAxNi45NyAzIDEyQzMgMTAgMy42NiA4LjE1IDQuNzcgNi42NkwxLjExIDNMMi4zOSAxLjczTDIyLjExIDIxLjQ2TTE1LjkgMTcuNzlMMTIgMTMuOUMxMS44NSAxMy45NiAxMS42OCAxNCAxMS41IDE0QzEwLjY3IDE0IDEwIDEzLjMzIDEwIDEyLjVDMTAgMTIuMzIgMTAuMDQgMTIuMTUgMTAuMSAxMkw2LjIxIDguMUM1LjYyIDkgNS4yMSAxMCA1LjA3IDExLjA4QzUuMjUgMTAuNDYgNS44MiAxMCA2LjUgMTBDNy4zMyAxMCA4IDEwLjY3IDggMTEuNVM3LjMzIDEzIDYuNSAxM0M1LjcxIDEzIDUuMDcgMTIuMzkgNSAxMS42MkM1IDEyLjExIDUgMTIuNjEgNS4wOSAxMy4xMkM1LjUgMTUuODEgNy41NCAxOC4wNCAxMC4xNiAxOC43NEM5Ljc2IDE4LjQ3IDkuNSAxOCA5LjUgMTcuNUM5LjUgMTYuNjcgMTAuMTcgMTYgMTEgMTZTMTIuNSAxNi42NyAxMi41IDE3LjVDMTIuNSAxOC4yMiAxMiAxOC44MiAxMS4zMiAxOC45NkMxMy4wMyAxOS4xMiAxNC42MSAxOC42NiAxNS45IDE3Ljc5WiIgLz48L3N2Zz4=)
@@ -1021,6 +1011,16 @@ cookieOff =
 cookieOffOutline : IconShape
 cookieOffOutline =
     Material.Icons.Directory.C.cookieOffOutline
+
+
+{-| The [`cookie-off`](https://pictogrammers.com/library/mdi/icon/cookie-off/) icon.
+
+![cookie-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuMjUgNi4wNUw3LjQ1IDQuMjVDOC43OSAzLjQ2IDEwLjM0IDMgMTIgM0MxMiAzIDEzIDMgMTMgNFY2SDE0QzE0IDYgMTUgNiAxNSA3VjhIMTdDMTcgOCAxOCA4IDE4IDlWMTBIMjBDMjAgMTAgMjAuNiAxMCAyMC44NyAxMC41QzIwLjk2IDExIDIxIDExLjUgMjEgMTJDMjEgMTMuNjYgMjAuNTQgMTUuMjIgMTkuNzUgMTYuNTVMMTcuOTUgMTQuNzVDMTcuOTcgMTQuNjcgMTggMTQuNTkgMTggMTQuNUMxOCAxMy42NyAxNy4zMyAxMyAxNi41IDEzQzE2LjQxIDEzIDE2LjMzIDEzLjAzIDE2LjI1IDEzLjA1TDEwLjk1IDcuNzVDMTAuOTcgNy42NyAxMSA3LjU5IDExIDcuNUMxMSA2LjY3IDEwLjMzIDYgOS41IDZDOS40MSA2IDkuMzMgNi4wMyA5LjI1IDYuMDVNMjIuMTEgMjEuNDZMMjAuODQgMjIuNzNMMTcuMzQgMTkuMjNDMTUuODUgMjAuMzQgMTQgMjEgMTIgMjFDNy4wMyAyMSAzIDE2Ljk3IDMgMTJDMyAxMCAzLjY2IDguMTUgNC43NyA2LjY2TDEuMTEgM0wyLjM5IDEuNzNMMjIuMTEgMjEuNDZNOCAxMS41QzggMTAuNjcgNy4zMyAxMCA2LjUgMTBTNSAxMC42NyA1IDExLjUgNS42NyAxMyA2LjUgMTMgOCAxMi4zMyA4IDExLjVNMTAgMTIuNUMxMCAxMy4zMyAxMC42NyAxNCAxMS41IDE0QzExLjY4IDE0IDExLjg1IDEzLjk2IDEyIDEzLjlMMTAuMSAxMkMxMC4wNCAxMi4xNSAxMCAxMi4zMiAxMCAxMi41TTEyLjUgMTcuNUMxMi41IDE2LjY3IDExLjgzIDE2IDExIDE2UzkuNSAxNi42NyA5LjUgMTcuNSAxMC4xNyAxOSAxMSAxOSAxMi41IDE4LjMzIDEyLjUgMTcuNVoiIC8+PC9zdmc+)
+
+-}
+cookieOff : IconShape
+cookieOff =
+    Material.Icons.Directory.C.cookieOff
 
 
 {-| The [`cookie-outline`](https://pictogrammers.com/library/mdi/icon/cookie-outline/) icon.
@@ -1053,16 +1053,6 @@ cookiePlusOutline =
     Material.Icons.Directory.C.cookiePlusOutline
 
 
-{-| The [`cookie-refresh`](https://pictogrammers.com/library/mdi/icon/cookie-refresh/) icon.
-
-![cookie-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE2QzExLjUzIDE2IDEyIDE2LjI4IDEyLjI2IDE2LjY5QzEzLjA0IDE0IDE1LjU0IDEyIDE4LjUgMTJDMTkuMzggMTIgMjAuMjEgMTIuMTggMjEgMTIuNUMyMSAxMi4zMyAyMSAxMi4xNyAyMSAxMkMyMSAxMS41IDIwLjk2IDExIDIwLjg3IDEwLjVDMjAuNiAxMCAyMCAxMCAyMCAxMEgxOFY5QzE4IDggMTcgOCAxNyA4SDE1VjdDMTUgNiAxNCA2IDE0IDZIMTNWNEMxMyAzIDEyIDMgMTIgM0M3LjAzIDMgMyA3LjAzIDMgMTJTNy4wMyAyMSAxMiAyMUMxMi4xNyAyMSAxMi4zMyAyMSAxMi41IDIxQzEyLjE5IDIwLjI0IDEyIDE5LjQ0IDEyIDE4LjYxQzExLjc0IDE4Ljg1IDExLjM5IDE5IDExIDE5QzEwLjE3IDE5IDkuNSAxOC4zMyA5LjUgMTcuNVMxMC4xNyAxNiAxMSAxNk0xMyAxMi41QzEzIDEzLjMzIDEyLjMzIDE0IDExLjUgMTRTMTAgMTMuMzMgMTAgMTIuNSAxMC42NyAxMSAxMS41IDExIDEzIDExLjY3IDEzIDEyLjVNNi41IDEzQzUuNjcgMTMgNSAxMi4zMyA1IDExLjVTNS42NyAxMCA2LjUgMTAgOCAxMC42NyA4IDExLjUgNy4zMyAxMyA2LjUgMTNNOCA3LjVDOCA2LjY3IDguNjcgNiA5LjUgNlMxMSA2LjY3IDExIDcuNSAxMC4zMyA5IDkuNSA5IDggOC4zMyA4IDcuNU0xOCAxOC41TDE5Ljc3IDE2LjczQzE5LjMyIDE2LjI4IDE4LjY5IDE2IDE4IDE2QzE2LjYyIDE2IDE1LjUgMTcuMTIgMTUuNSAxOC41UzE2LjYyIDIxIDE4IDIxQzE4LjgyIDIxIDE5LjU0IDIwLjYxIDIwIDIwSDIxLjcxQzIxLjEyIDIxLjQ3IDE5LjY4IDIyLjUgMTggMjIuNUMxNS43OSAyMi41IDE0IDIwLjcxIDE0IDE4LjVTMTUuNzkgMTQuNSAxOCAxNC41QzE5LjExIDE0LjUgMjAuMTEgMTQuOTUgMjAuODMgMTUuNjdMMjIgMTQuNVYxOC41SDE4WiIgLz48L3N2Zz4=)
-
--}
-cookieRefresh : IconShape
-cookieRefresh =
-    Material.Icons.Directory.C.cookieRefresh
-
-
 {-| The [`cookie-refresh-outline`](https://pictogrammers.com/library/mdi/icon/cookie-refresh-outline/) icon.
 
 ![cookie-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDEyLjVDMTMgMTMuMzMgMTIuMzMgMTQgMTEuNSAxNFMxMCAxMy4zMyAxMCAxMi41IDEwLjY3IDExIDExLjUgMTEgMTMgMTEuNjcgMTMgMTIuNU0xMSA3LjVDMTEgNi42NyAxMC4zMyA2IDkuNSA2UzggNi42NyA4IDcuNSA4LjY3IDkgOS41IDkgMTEgOC4zMyAxMSA3LjVNMTUgMTBIMTZWMTAuNUMxNiAxMS4zMyAxNi42NyAxMiAxNy41IDEySDE5TDE5IDEyLjAzQzE5LjY5IDEyLjA5IDIwLjM2IDEyLjI0IDIxIDEyLjVDMjEgMTIuMzMgMjEgMTIuMTcgMjEgMTJDMjEgMTEuNSAyMC45NiAxMSAyMC44NyAxMC41QzIwLjYgMTAgMjAgMTAgMjAgMTBIMThWOUMxOCA4IDE3IDggMTcgOEgxNVY3QzE1IDYgMTQgNiAxNCA2SDEzVjRDMTMgMyAxMiAzIDEyIDNDNy4wMyAzIDMgNy4wMyAzIDEyUzcuMDMgMjEgMTIgMjFDMTIuMTcgMjEgMTIuMzMgMjEgMTIuNSAyMUMxMi4yNCAyMC4zNiAxMi4wOSAxOS42OSAxMi4wMyAxOUMxMS44IDE5IDExLjU2IDE5IDExLjMyIDE4Ljk2QzExLjU5IDE4LjkgMTEuODEgMTguNzYgMTIgMTguNThDMTIgMTguNTUgMTIgMTguNTMgMTIgMTguNUMxMiAxNy44NyAxMi4xIDE3LjI3IDEyLjI2IDE2LjY5QzEyIDE2LjI4IDExLjUzIDE2IDExIDE2QzEwLjE3IDE2IDkuNSAxNi42NyA5LjUgMTcuNUM5LjUgMTggOS43NiAxOC40NyAxMC4xNiAxOC43NEM3LjU0IDE4LjA0IDUuNSAxNS44MSA1LjA5IDEzLjEyQzUgMTIuNjEgNSAxMi4xMSA1IDExLjYyQzUuMDcgMTIuMzkgNS43MSAxMyA2LjUgMTNDNy4zMyAxMyA4IDEyLjMzIDggMTEuNVM3LjMzIDEwIDYuNSAxMEM1LjgyIDEwIDUuMjUgMTAuNDYgNS4wNyAxMS4wOEM1LjQ3IDggNy45MSA1LjUgMTEgNS4wN1Y2LjVDMTEgNy4zMyAxMS42NyA4IDEyLjUgOEgxM1Y4LjVDMTMgOS4zMyAxMy42NyAxMCAxNC41IDEwSDE1TTIyIDE4LjVWMTQuNUwyMC44MyAxNS42N0MyMC4xMSAxNC45NSAxOS4xMSAxNC41IDE4IDE0LjVDMTUuNzkgMTQuNSAxNCAxNi4yOSAxNCAxOC41UzE1Ljc5IDIyLjUgMTggMjIuNUMxOS42OCAyMi41IDIxLjEyIDIxLjQ3IDIxLjcxIDIwSDIwQzE5LjU0IDIwLjYxIDE4LjgyIDIxIDE4IDIxQzE2LjYyIDIxIDE1LjUgMTkuODggMTUuNSAxOC41UzE2LjYyIDE2IDE4IDE2QzE4LjY5IDE2IDE5LjMyIDE2LjI4IDE5Ljc3IDE2LjczTDE4IDE4LjVIMjJaIiAvPjwvc3ZnPg==)
@@ -1073,14 +1063,14 @@ cookieRefreshOutline =
     Material.Icons.Directory.C.cookieRefreshOutline
 
 
-{-| The [`cookie-remove`](https://pictogrammers.com/library/mdi/icon/cookie-remove/) icon.
+{-| The [`cookie-refresh`](https://pictogrammers.com/library/mdi/icon/cookie-refresh/) icon.
 
-![cookie-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTNDMTYuOCAxMyAxNy4wOCAxMy4wOSAxNy4zMiAxMy4yNEMxNy44NSAxMy4wOSAxOC40MiAxMyAxOSAxM0MxOS42NiAxMyAyMC4zIDEzLjEyIDIwLjg5IDEzLjMyQzIwLjk2IDEyLjg5IDIxIDEyLjQ1IDIxIDEyQzIxIDExLjUgMjAuOTYgMTEgMjAuODcgMTAuNUMyMC42IDEwIDIwIDEwIDIwIDEwSDE4VjlDMTggOCAxNyA4IDE3IDhIMTVWN0MxNSA2IDE0IDYgMTQgNkgxM1Y0QzEzIDMgMTIgMyAxMiAzQzcuMDMgMyAzIDcuMDMgMyAxMlM3LjAzIDIxIDEyIDIxQzEyLjQ1IDIxIDEyLjg5IDIwLjk2IDEzLjMyIDIwLjg5QzEzLjEyIDIwLjMgMTMgMTkuNjYgMTMgMTlDMTMgMTcuMjIgMTMuNzggMTUuNjMgMTUgMTQuNTNDMTUgMTQuNSAxNSAxNC41IDE1IDE0LjVDMTUgMTMuNjcgMTUuNjcgMTMgMTYuNSAxM002LjUgMTNDNS42NyAxMyA1IDEyLjMzIDUgMTEuNVM1LjY3IDEwIDYuNSAxMCA4IDEwLjY3IDggMTEuNSA3LjMzIDEzIDYuNSAxM004IDcuNUM4IDYuNjcgOC42NyA2IDkuNSA2UzExIDYuNjcgMTEgNy41IDEwLjMzIDkgOS41IDkgOCA4LjMzIDggNy41TTExIDE5QzEwLjE3IDE5IDkuNSAxOC4zMyA5LjUgMTcuNVMxMC4xNyAxNiAxMSAxNiAxMi41IDE2LjY3IDEyLjUgMTcuNSAxMS44MyAxOSAxMSAxOU0xMS41IDE0QzEwLjY3IDE0IDEwIDEzLjMzIDEwIDEyLjVTMTAuNjcgMTEgMTEuNSAxMSAxMyAxMS42NyAxMyAxMi41IDEyLjMzIDE0IDExLjUgMTRNMjAuNDEgMTlMMjIuNTQgMjEuMTJMMjEuMTIgMjIuNTRMMTkgMjAuNDFMMTYuODggMjIuNTRMMTUuNDcgMjEuMTJMMTcuNTkgMTlMMTUuNDcgMTYuODhMMTYuODggMTUuNDdMMTkgMTcuNTlMMjEuMTIgMTUuNDdMMjIuNTQgMTYuODhMMjAuNDEgMTlaIiAvPjwvc3ZnPg==)
+![cookie-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE2QzExLjUzIDE2IDEyIDE2LjI4IDEyLjI2IDE2LjY5QzEzLjA0IDE0IDE1LjU0IDEyIDE4LjUgMTJDMTkuMzggMTIgMjAuMjEgMTIuMTggMjEgMTIuNUMyMSAxMi4zMyAyMSAxMi4xNyAyMSAxMkMyMSAxMS41IDIwLjk2IDExIDIwLjg3IDEwLjVDMjAuNiAxMCAyMCAxMCAyMCAxMEgxOFY5QzE4IDggMTcgOCAxNyA4SDE1VjdDMTUgNiAxNCA2IDE0IDZIMTNWNEMxMyAzIDEyIDMgMTIgM0M3LjAzIDMgMyA3LjAzIDMgMTJTNy4wMyAyMSAxMiAyMUMxMi4xNyAyMSAxMi4zMyAyMSAxMi41IDIxQzEyLjE5IDIwLjI0IDEyIDE5LjQ0IDEyIDE4LjYxQzExLjc0IDE4Ljg1IDExLjM5IDE5IDExIDE5QzEwLjE3IDE5IDkuNSAxOC4zMyA5LjUgMTcuNVMxMC4xNyAxNiAxMSAxNk0xMyAxMi41QzEzIDEzLjMzIDEyLjMzIDE0IDExLjUgMTRTMTAgMTMuMzMgMTAgMTIuNSAxMC42NyAxMSAxMS41IDExIDEzIDExLjY3IDEzIDEyLjVNNi41IDEzQzUuNjcgMTMgNSAxMi4zMyA1IDExLjVTNS42NyAxMCA2LjUgMTAgOCAxMC42NyA4IDExLjUgNy4zMyAxMyA2LjUgMTNNOCA3LjVDOCA2LjY3IDguNjcgNiA5LjUgNlMxMSA2LjY3IDExIDcuNSAxMC4zMyA5IDkuNSA5IDggOC4zMyA4IDcuNU0xOCAxOC41TDE5Ljc3IDE2LjczQzE5LjMyIDE2LjI4IDE4LjY5IDE2IDE4IDE2QzE2LjYyIDE2IDE1LjUgMTcuMTIgMTUuNSAxOC41UzE2LjYyIDIxIDE4IDIxQzE4LjgyIDIxIDE5LjU0IDIwLjYxIDIwIDIwSDIxLjcxQzIxLjEyIDIxLjQ3IDE5LjY4IDIyLjUgMTggMjIuNUMxNS43OSAyMi41IDE0IDIwLjcxIDE0IDE4LjVTMTUuNzkgMTQuNSAxOCAxNC41QzE5LjExIDE0LjUgMjAuMTEgMTQuOTUgMjAuODMgMTUuNjdMMjIgMTQuNVYxOC41SDE4WiIgLz48L3N2Zz4=)
 
 -}
-cookieRemove : IconShape
-cookieRemove =
-    Material.Icons.Directory.C.cookieRemove
+cookieRefresh : IconShape
+cookieRefresh =
+    Material.Icons.Directory.C.cookieRefresh
 
 
 {-| The [`cookie-remove-outline`](https://pictogrammers.com/library/mdi/icon/cookie-remove-outline/) icon.
@@ -1091,6 +1081,16 @@ cookieRemove =
 cookieRemoveOutline : IconShape
 cookieRemoveOutline =
     Material.Icons.Directory.C.cookieRemoveOutline
+
+
+{-| The [`cookie-remove`](https://pictogrammers.com/library/mdi/icon/cookie-remove/) icon.
+
+![cookie-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTNDMTYuOCAxMyAxNy4wOCAxMy4wOSAxNy4zMiAxMy4yNEMxNy44NSAxMy4wOSAxOC40MiAxMyAxOSAxM0MxOS42NiAxMyAyMC4zIDEzLjEyIDIwLjg5IDEzLjMyQzIwLjk2IDEyLjg5IDIxIDEyLjQ1IDIxIDEyQzIxIDExLjUgMjAuOTYgMTEgMjAuODcgMTAuNUMyMC42IDEwIDIwIDEwIDIwIDEwSDE4VjlDMTggOCAxNyA4IDE3IDhIMTVWN0MxNSA2IDE0IDYgMTQgNkgxM1Y0QzEzIDMgMTIgMyAxMiAzQzcuMDMgMyAzIDcuMDMgMyAxMlM3LjAzIDIxIDEyIDIxQzEyLjQ1IDIxIDEyLjg5IDIwLjk2IDEzLjMyIDIwLjg5QzEzLjEyIDIwLjMgMTMgMTkuNjYgMTMgMTlDMTMgMTcuMjIgMTMuNzggMTUuNjMgMTUgMTQuNTNDMTUgMTQuNSAxNSAxNC41IDE1IDE0LjVDMTUgMTMuNjcgMTUuNjcgMTMgMTYuNSAxM002LjUgMTNDNS42NyAxMyA1IDEyLjMzIDUgMTEuNVM1LjY3IDEwIDYuNSAxMCA4IDEwLjY3IDggMTEuNSA3LjMzIDEzIDYuNSAxM004IDcuNUM4IDYuNjcgOC42NyA2IDkuNSA2UzExIDYuNjcgMTEgNy41IDEwLjMzIDkgOS41IDkgOCA4LjMzIDggNy41TTExIDE5QzEwLjE3IDE5IDkuNSAxOC4zMyA5LjUgMTcuNVMxMC4xNyAxNiAxMSAxNiAxMi41IDE2LjY3IDEyLjUgMTcuNSAxMS44MyAxOSAxMSAxOU0xMS41IDE0QzEwLjY3IDE0IDEwIDEzLjMzIDEwIDEyLjVTMTAuNjcgMTEgMTEuNSAxMSAxMyAxMS42NyAxMyAxMi41IDEyLjMzIDE0IDExLjUgMTRNMjAuNDEgMTlMMjIuNTQgMjEuMTJMMjEuMTIgMjIuNTRMMTkgMjAuNDFMMTYuODggMjIuNTRMMTUuNDcgMjEuMTJMMTcuNTkgMTlMMTUuNDcgMTYuODhMMTYuODggMTUuNDdMMTkgMTcuNTlMMjEuMTIgMTUuNDdMMjIuNTQgMTYuODhMMjAuNDEgMTlaIiAvPjwvc3ZnPg==)
+
+-}
+cookieRemove : IconShape
+cookieRemove =
+    Material.Icons.Directory.C.cookieRemove
 
 
 {-| The [`cookie-settings`](https://pictogrammers.com/library/mdi/icon/cookie-settings/) icon.
@@ -1113,16 +1113,6 @@ cookieSettingsOutline =
     Material.Icons.Directory.C.cookieSettingsOutline
 
 
-{-| The [`corn`](https://pictogrammers.com/library/mdi/icon/corn/) icon.
-
-![corn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDEySDguODJDOS42MiwxMi41IDEwLjM1LDEzLjA3IDExLDEzLjY4VjEyTTcsMTFDNy4yNyw1Ljg4IDkuMzcsMiAxMiwyQzE0LjY2LDIgMTYuNzcsNS45NCAxNywxMS4xMkMxOC41LDEwLjQzIDIwLjE3LDEwIDIyLDEwQzE2LjI1LDEyLjU3IDE4LjI1LDIyIDEyLDIyQzYsMjIgNy45MywxMi41NyAyLDEwQzMuODIsMTAgNS41LDEwLjQgNywxMU0xMSwxMVY5SDguMjRMOC4wMywxMUgxMU0xMSw4VjZIOS4wNUM4LjgsNi42IDguNiw3LjI3IDguNDMsOEgxMU0xMSw1VjMuM0MxMC40NSwzLjYzIDkuOTUsNC4yMiA5LjUsNUgxMU0xMiwzVjVIMTNWNkgxMlY4SDE0VjlIMTJWMTFIMTVWMTJIMTJWMTRIMTRWMTVIMTIuMjNDMTMuNDIsMTYuNDUgMTQuMTUsMTggMTQuMzIsMTkuMjNDMTUuMzEsMTcuNTYgMTUuOTYsMTQuODQgMTYsMTEuNzZDMTUuOTQsNyAxNC4xMywzIDEyLDNaIiAvPjwvc3ZnPg==)
-
--}
-corn : IconShape
-corn =
-    Material.Icons.Directory.C.corn
-
-
 {-| The [`corn-off`](https://pictogrammers.com/library/mdi/icon/corn-off/) icon.
 
 ![corn-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjEgMjEuNUwyLjQgMS43TDEuMSAzTDcuMiA5LjFDNy4xIDkuNyA3IDEwLjMgNyAxMUM1LjUgMTAuNCAzLjggMTAgMiAxMEM3LjkgMTIuNiA2IDIyIDEyIDIyQzE0LjUgMjIgMTUuNyAyMC41IDE2LjYgMTguNUwyMC45IDIyLjhMMjIuMSAyMS41TTguMSAxMEw5LjEgMTFIOEw4LjEgMTBNOC44IDEySDEwLjFMMTEgMTIuOVYxMy43QzEwLjMgMTMuMSA5LjYgMTIuNSA4LjggMTJNMTQuMyAxOS4yQzE0LjEgMTggMTMuNCAxNi40IDEyLjIgMTVIMTMuMUwxNS4yIDE3LjFDMTUgMTcuOSAxNC43IDE4LjYgMTQuMyAxOS4yTTExIDZWNy44TDEyLjIgOUgxNFY4SDEyVjZIMTNWNUgxMlYzQzE0LjEgMyAxNS45IDcgMTYgMTEuOFYxMi44TDE4IDE0LjhDMTguOCAxMi44IDE5LjkgMTAuOSAyMiAxMEMyMC4yIDEwIDE4LjUgMTAuNCAxNyAxMS4xQzE2LjggNS45IDE0LjcgMiAxMiAyQzEwLjUgMiA5LjIgMy4yIDguMyA1LjFMOS4yIDZIMTFNMTEgMy4zVjVIOS41QzEwIDQuMiAxMC41IDMuNiAxMSAzLjNNMTUgMTEuOEwxNC4yIDExSDE1VjExLjhaIiAvPjwvc3ZnPg==)
@@ -1131,6 +1121,16 @@ corn =
 cornOff : IconShape
 cornOff =
     Material.Icons.Directory.C.cornOff
+
+
+{-| The [`corn`](https://pictogrammers.com/library/mdi/icon/corn/) icon.
+
+![corn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDEySDguODJDOS42MiwxMi41IDEwLjM1LDEzLjA3IDExLDEzLjY4VjEyTTcsMTFDNy4yNyw1Ljg4IDkuMzcsMiAxMiwyQzE0LjY2LDIgMTYuNzcsNS45NCAxNywxMS4xMkMxOC41LDEwLjQzIDIwLjE3LDEwIDIyLDEwQzE2LjI1LDEyLjU3IDE4LjI1LDIyIDEyLDIyQzYsMjIgNy45MywxMi41NyAyLDEwQzMuODIsMTAgNS41LDEwLjQgNywxMU0xMSwxMVY5SDguMjRMOC4wMywxMUgxMU0xMSw4VjZIOS4wNUM4LjgsNi42IDguNiw3LjI3IDguNDMsOEgxMU0xMSw1VjMuM0MxMC40NSwzLjYzIDkuOTUsNC4yMiA5LjUsNUgxMU0xMiwzVjVIMTNWNkgxMlY4SDE0VjlIMTJWMTFIMTVWMTJIMTJWMTRIMTRWMTVIMTIuMjNDMTMuNDIsMTYuNDUgMTQuMTUsMTggMTQuMzIsMTkuMjNDMTUuMzEsMTcuNTYgMTUuOTYsMTQuODQgMTYsMTEuNzZDMTUuOTQsNyAxNC4xMywzIDEyLDNaIiAvPjwvc3ZnPg==)
+
+-}
+corn : IconShape
+corn =
+    Material.Icons.Directory.C.corn
 
 
 {-| The [`cow-off`](https://pictogrammers.com/library/mdi/icon/cow-off/) icon.
@@ -1243,16 +1243,6 @@ eggFried =
     Material.Icons.Directory.E.eggFried
 
 
-{-| The [`egg-off`](https://pictogrammers.com/library/mdi/icon/egg-off/) icon.
-
-![egg-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjEgMjEuNUwyLjQgMS43TDEuMSAzTDYuMSA4QzUuMSAxMC4zIDQuNSAxMi44IDQuNSAxNC41QzQuNSAxOC42IDcuOSAyMiAxMiAyMkMxNC4yIDIyIDE2LjIgMjEgMTcuNiAxOS41TDIwLjggMjIuN0wyMi4xIDIxLjVNMTkuNSAxNC41QzE5LjUgMTAuNCAxNi4xIDIgMTIgMkMxMC41IDIgOS4xIDMuMSA3LjkgNC43TDE5LjMgMTYuMUMxOS40IDE1LjYgMTkuNSAxNS4xIDE5LjUgMTQuNVoiIC8+PC9zdmc+)
-
--}
-eggOff : IconShape
-eggOff =
-    Material.Icons.Directory.E.eggOff
-
-
 {-| The [`egg-off-outline`](https://pictogrammers.com/library/mdi/icon/egg-off-outline/) icon.
 
 ![egg-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMNi4xIDhDNS4xIDEwLjI4IDQuNSAxMi43NiA0LjUgMTQuNUM0LjUgMTguNjQgNy44NiAyMiAxMiAyMkMxNC4yMyAyMiAxNi4yMiAyMSAxNy41OSAxOS41TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTEyIDIwQzguOTcgMjAgNi41IDE3LjUzIDYuNSAxNC41QzYuNSAxMy4wOCA2Ljk1IDExLjI1IDcuNjMgOS41TDE2LjE3IDE4LjA2QzE1LjE2IDE5LjI0IDEzLjY3IDIwIDEyIDIwTTkuMzYgNi4xNkw3LjkyIDQuNzJDOS4xIDMuMTEgMTAuNSAyIDEyIDJDMTYuMTQgMiAxOS41IDEwLjM2IDE5LjUgMTQuNUMxOS41IDE1LjA2IDE5LjQzIDE1LjYgMTkuMzIgMTYuMTJMMTcuNSAxNC4yOUMxNy4zOCAxMC40NiAxNC4yOCA0IDEyIDRDMTEuMTcgNCAxMC4yMiA0Ljg3IDkuMzYgNi4xNloiIC8+PC9zdmc+)
@@ -1261,6 +1251,16 @@ eggOff =
 eggOffOutline : IconShape
 eggOffOutline =
     Material.Icons.Directory.E.eggOffOutline
+
+
+{-| The [`egg-off`](https://pictogrammers.com/library/mdi/icon/egg-off/) icon.
+
+![egg-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjEgMjEuNUwyLjQgMS43TDEuMSAzTDYuMSA4QzUuMSAxMC4zIDQuNSAxMi44IDQuNSAxNC41QzQuNSAxOC42IDcuOSAyMiAxMiAyMkMxNC4yIDIyIDE2LjIgMjEgMTcuNiAxOS41TDIwLjggMjIuN0wyMi4xIDIxLjVNMTkuNSAxNC41QzE5LjUgMTAuNCAxNi4xIDIgMTIgMkMxMC41IDIgOS4xIDMuMSA3LjkgNC43TDE5LjMgMTYuMUMxOS40IDE1LjYgMTkuNSAxNS4xIDE5LjUgMTQuNVoiIC8+PC9zdmc+)
+
+-}
+eggOff : IconShape
+eggOff =
+    Material.Icons.Directory.E.eggOff
 
 
 {-| The [`egg-outline`](https://pictogrammers.com/library/mdi/icon/egg-outline/) icon.
@@ -1273,16 +1273,6 @@ eggOutline =
     Material.Icons.Directory.E.eggOutline
 
 
-{-| The [`fish`](https://pictogrammers.com/library/mdi/icon/fish/) icon.
-
-![fish](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIwTDEyLjc2LDE3QzkuNSwxNi43OSA2LjU5LDE1LjQgNS43NSwxMy41OEM1LjY2LDE0LjA2IDUuNTMsMTQuNSA1LjMzLDE0LjgzQzQuNjcsMTYgMy4zMywxNiAyLDE2QzMuMSwxNiAzLjUsMTQuNDMgMy41LDEyLjVDMy41LDEwLjU3IDMuMSw5IDIsOUMzLjMzLDkgNC42Nyw5IDUuMzMsMTAuMTdDNS41MywxMC41IDUuNjYsMTAuOTQgNS43NSwxMS40MkM2LjQsMTAgOC4zMiw4Ljg1IDEwLjY2LDguMzJMOSw1QzExLDUgMTMsNSAxNC4zMyw1LjY3QzE1LjQ2LDYuMjMgMTYuMTEsNy4yNyAxNi42OSw4LjM4QzE5LjYxLDkuMDggMjIsMTAuNjYgMjIsMTIuNUMyMiwxNC4zOCAxOS41LDE2IDE2LjUsMTYuNjZDMTUuNjcsMTcuNzYgMTQuODYsMTguNzggMTQuMTcsMTkuMzNDMTMuMzMsMjAgMTIuNjcsMjAgMTIsMjBNMTcsMTFBMSwxIDAgMCwwIDE2LDEyQTEsMSAwIDAsMCAxNywxM0ExLDEgMCAwLDAgMTgsMTJBMSwxIDAgMCwwIDE3LDExWiIgLz48L3N2Zz4=)
-
--}
-fish : IconShape
-fish =
-    Material.Icons.Directory.F.fish
-
-
 {-| The [`fish-off`](https://pictogrammers.com/library/mdi/icon/fish-off/) icon.
 
 ![fish-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjggMjIuN0wxNS43IDE3LjZDMTUuMSAxOC4zIDE0LjYgMTguOSAxNC4xIDE5LjNDMTMuMyAyMCAxMi43IDIwIDEyIDIwTDEyLjggMTdDOS41IDE2LjggNi42IDE1LjQgNS44IDEzLjZDNS43IDE0LjEgNS42IDE0LjUgNS40IDE0LjhDNC43IDE2IDMuMyAxNiAyIDE2QzMuMSAxNiAzLjUgMTQuNCAzLjUgMTIuNVMzLjEgOSAyIDlDMy4zIDkgNC43IDkgNS4zIDEwLjJDNS41IDEwLjUgNS42IDExIDUuNyAxMS40QzYgMTAuNyA2LjcgMTAgNy42IDkuNUwxLjEgM0wyLjQgMS43TDIyLjEgMjEuNEwyMC44IDIyLjdNOS44IDYuNkw5IDVDMTEgNSAxMyA1IDE0LjMgNS43QzE1LjQgNi4zIDE2LjEgNy4zIDE2LjcgOC40QzE5LjYgOS4xIDIyIDEwLjcgMjIgMTIuNUMyMiAxMy44IDIwLjggMTUgMTkgMTUuOEw5LjggNi42TTE2IDEyQzE2IDEyLjYgMTYuNCAxMyAxNyAxM1MxOCAxMi42IDE4IDEyIDE3LjYgMTEgMTcgMTEgMTYgMTEuNCAxNiAxMloiIC8+PC9zdmc+)
@@ -1291,6 +1281,16 @@ fish =
 fishOff : IconShape
 fishOff =
     Material.Icons.Directory.F.fishOff
+
+
+{-| The [`fish`](https://pictogrammers.com/library/mdi/icon/fish/) icon.
+
+![fish](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIwTDEyLjc2LDE3QzkuNSwxNi43OSA2LjU5LDE1LjQgNS43NSwxMy41OEM1LjY2LDE0LjA2IDUuNTMsMTQuNSA1LjMzLDE0LjgzQzQuNjcsMTYgMy4zMywxNiAyLDE2QzMuMSwxNiAzLjUsMTQuNDMgMy41LDEyLjVDMy41LDEwLjU3IDMuMSw5IDIsOUMzLjMzLDkgNC42Nyw5IDUuMzMsMTAuMTdDNS41MywxMC41IDUuNjYsMTAuOTQgNS43NSwxMS40MkM2LjQsMTAgOC4zMiw4Ljg1IDEwLjY2LDguMzJMOSw1QzExLDUgMTMsNSAxNC4zMyw1LjY3QzE1LjQ2LDYuMjMgMTYuMTEsNy4yNyAxNi42OSw4LjM4QzE5LjYxLDkuMDggMjIsMTAuNjYgMjIsMTIuNUMyMiwxNC4zOCAxOS41LDE2IDE2LjUsMTYuNjZDMTUuNjcsMTcuNzYgMTQuODYsMTguNzggMTQuMTcsMTkuMzNDMTMuMzMsMjAgMTIuNjcsMjAgMTIsMjBNMTcsMTFBMSwxIDAgMCwwIDE2LDEyQTEsMSAwIDAsMCAxNywxM0ExLDEgMCAwLDAgMTgsMTJBMSwxIDAgMCwwIDE3LDExWiIgLz48L3N2Zz4=)
+
+-}
+fish : IconShape
+fish =
+    Material.Icons.Directory.F.fish
 
 
 {-| The [`food`](https://pictogrammers.com/library/mdi/icon/food/) icon.
@@ -1303,16 +1303,6 @@ food =
     Material.Icons.Directory.F.food
 
 
-{-| The [`food-apple`](https://pictogrammers.com/library/mdi/icon/food-apple/) icon.
-
-![food-apple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDEwQzIyLDEzIDE3LDIyIDE1LDIyQzEzLDIyIDEzLDIxIDEyLDIxQzExLDIxIDExLDIyIDksMjJDNywyMiAyLDEzIDQsMTBDNiw3IDksNyAxMSw4VjVDNS4zOCw4LjA3IDQuMTEsMy43OCA0LjExLDMuNzhDNC4xMSwzLjc4IDYuNzcsMC4xOSAxMSw1VjNIMTNWOEMxNSw3IDE4LDcgMjAsMTBaIiAvPjwvc3ZnPg==)
-
--}
-foodApple : IconShape
-foodApple =
-    Material.Icons.Directory.F.foodApple
-
-
 {-| The [`food-apple-outline`](https://pictogrammers.com/library/mdi/icon/food-apple-outline/) icon.
 
 ![food-apple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDEwQzE4LjU4LDcuNTcgMTUuNSw2LjY5IDEzLDhWM0gxMVY4QzguNSw2LjY5IDUuNDIsNy41NyA0LDEwQzIsMTMgNywyMiA5LDIyQzExLDIyIDExLDIxIDEyLDIxQzEzLDIxIDEzLDIyIDE1LDIyQzE3LDIyIDIyLDEzIDIwLDEwTTE4LjI1LDEzLjM4QzE3LjYzLDE1Ljg1IDE2LjQxLDE4LjEyIDE0LjcsMjBDMTQuNSwyMCAxNC4yNywxOS45IDE0LjEsMTkuNzVDMTIuODcsMTguNzYgMTEuMTMsMTguNzYgOS45LDE5Ljc1QzkuNzMsMTkuOSA5LjUsMjAgOS4zLDIwQzcuNTksMTguMTMgNi4zNiwxNS44NSA1Ljc1LDEzLjM5QzUuNSwxMi42NiA1LjQ1LDExLjg3IDUuNjYsMTEuMTJDNi4yNCwxMC4wOSA3LjMyLDkuNDMgOC41LDkuNEM5LjA2LDkuNDEgOS42MSw5LjU0IDEwLjExLDkuNzlMMTEsMTAuMjRIMTNMMTMuODksOS43OUMxNC4zOSw5LjU0IDE0Ljk0LDkuNDEgMTUuNSw5LjRDMTYuNjgsOS40MyAxNy43NiwxMC4wOCAxOC4zNCwxMS4xMUMxOC41NSwxMS44NiAxOC41LDEyLjY1IDE4LjI1LDEzLjM4TTExLDVDNS4zOCw4LjA3IDQuMTEsMy43OCA0LjExLDMuNzhDNC4xMSwzLjc4IDYuNzcsMC4xOSAxMSw1WiIgLz48L3N2Zz4=)
@@ -1321,6 +1311,16 @@ foodApple =
 foodAppleOutline : IconShape
 foodAppleOutline =
     Material.Icons.Directory.F.foodAppleOutline
+
+
+{-| The [`food-apple`](https://pictogrammers.com/library/mdi/icon/food-apple/) icon.
+
+![food-apple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDEwQzIyLDEzIDE3LDIyIDE1LDIyQzEzLDIyIDEzLDIxIDEyLDIxQzExLDIxIDExLDIyIDksMjJDNywyMiAyLDEzIDQsMTBDNiw3IDksNyAxMSw4VjVDNS4zOCw4LjA3IDQuMTEsMy43OCA0LjExLDMuNzhDNC4xMSwzLjc4IDYuNzcsMC4xOSAxMSw1VjNIMTNWOEMxNSw3IDE4LDcgMjAsMTBaIiAvPjwvc3ZnPg==)
+
+-}
+foodApple : IconShape
+foodApple =
+    Material.Icons.Directory.F.foodApple
 
 
 {-| The [`food-croissant`](https://pictogrammers.com/library/mdi/icon/food-croissant/) icon.
@@ -1343,6 +1343,16 @@ foodDrumstick =
     Material.Icons.Directory.F.foodDrumstick
 
 
+{-| The [`food-drumstick-outline`](https://pictogrammers.com/library/mdi/icon/food-drumstick-outline/) icon.
+
+![food-drumstick-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjcxIDRDMTYuNTQgNCAxNy4zMyA0LjIyIDE4IDQuNjZDMTkuMTQgNS40IDE5Ljg0IDYuNTMgMjAgNy44NEMyMC4xMSA5LjEzIDE5LjY2IDEwLjQgMTguNzUgMTEuMzFDMTguMDUgMTIgMTcuMTYgMTIuNDQgMTYuMTggMTIuNTRDMTQuMjcgMTIuNzQgMTIuNTkgMTMuNSAxMS4zNCAxNC43N0MxMS4xMyAxNC45NyAxMC45IDE1IDEwLjc3IDE1QzEwLjY1IDE1IDEwLjQyIDE0Ljk3IDEwLjIxIDE0Ljc3TDkuMjIgMTMuNzhDOS4wNCAxMy42IDkgMTMuMzkgOSAxMy4yNUM5IDEzIDkuMTEgMTIuNzggOS4zMiAxMi41N0MxMC41MyAxMS4zNSAxMS4yNyA5LjczIDExLjQ1IDcuODdDMTEuNTggNi41NCAxMi4yOSA1LjQgMTMuNDUgNC42NUMxNC4xMSA0LjIyIDE0Ljg5IDQgMTUuNzEgNE0xNS43MSAyQzE0LjU0IDIgMTMuMzcgMi4zMiAxMi4zNiAyLjk3QzEwLjYgNC4xIDkuNjMgNS44NiA5LjQ2IDcuNjhDOS4zMyA5IDguODMgMTAuMjMgNy45MSAxMS4xNUw3Ljg4IDExLjE4QzYuNzIgMTIuMzQgNi43MiAxNC4xMSA3LjgxIDE1LjE5TDguOCAxNi4xOEM5LjM1IDE2LjczIDEwLjA2IDE3IDEwLjc3IDE3UzEyLjIgMTYuNzMgMTIuNzUgMTYuMThDMTMuNzIgMTUuMjEgMTUgMTQuNjggMTYuMzkgMTQuNTNDMTcuNzYgMTQuMzggMTkuMSAxMy43OCAyMC4xNiAxMi43M0MyMi45MyA5Ljk2IDIyLjU3IDUuMjYgMTkuMDkgM0MxOC4wOCAyLjMzIDE2LjkgMiAxNS43MSAyTTYuMjYgMTkuODZDNi41MyAyMC40MiA2LjQ0IDIxLjEgNS45NyAyMS41NkM1LjM5IDIyLjE1IDQuNDQgMjIuMTUgMy44NSAyMS41NkMzLjU4IDIxLjI5IDMuNDQgMjAuOTQgMy40MiAyMC41OEMzLjA2IDIwLjU2IDIuNzEgMjAuNDIgMi40NCAyMC4xNUMxLjg1IDE5LjU2IDEuODUgMTguNjEgMi40NCAxOC4wM0MyLjkgMTcuNTcgMy41OSAxNy40NyA0LjE0IDE3Ljc0TDYuNjIgMTUuMzFDNi43NiAxNS41IDYuOTIgMTUuNzIgNy4xIDE1LjlMOC4wOSAxNi44OUM4LjMgMTcuMDkgOC41IDE3LjI2IDguNzYgMTcuNDFMNi4yNiAxOS44NloiIC8+PC9zdmc+)
+
+-}
+foodDrumstickOutline : IconShape
+foodDrumstickOutline =
+    Material.Icons.Directory.F.foodDrumstickOutline
+
+
 {-| The [`food-drumstick-off`](https://pictogrammers.com/library/mdi/icon/food-drumstick-off/) icon.
 
 ![food-drumstick-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjggMjIuN0wxMy42IDE1LjVDMTMuMyAxNS43IDEzIDE1LjkgMTIuNyAxNi4yQzExLjYgMTcuMyA5LjggMTcuMyA4LjcgMTYuMkw3LjcgMTUuMkM2LjYgMTQuMSA2LjYgMTIuMyA3LjggMTEuMkM4IDExIDguMiAxMC43IDguNCAxMC40TDEuMSAzTDIuNCAxLjdMMjIuMSAyMS40TDIwLjggMjIuN004LjEgMTYuOUw3LjEgMTUuOUM2LjkgMTUuNyA2LjggMTUuNSA2LjYgMTUuM0w0LjEgMTcuN0MzLjUgMTcuNCAyLjkgMTcuNSAyLjQgMThDMS44IDE4LjYgMS44IDE5LjUgMi40IDIwLjFDMi43IDIwLjQgMyAyMC41IDMuNCAyMC41QzMuNCAyMC45IDMuNiAyMS4yIDMuOCAyMS41QzQuNCAyMi4xIDUuMyAyMi4xIDUuOSAyMS41QzYuNCAyMSA2LjUgMjAuNCA2LjIgMTkuOEw4LjcgMTcuNEM4LjUgMTcuMyA4LjMgMTcuMSA4LjEgMTYuOU0yMC4yIDEyLjdDMjMgOS45IDIyLjYgNS4yIDE5LjEgM0MxNy4xIDEuNyAxNC40IDEuNyAxMi40IDNDMTEgMy45IDEwLjEgNS4xIDkuNyA2LjVMMTcuNSAxNC4zQzE4LjUgMTQgMTkuNCAxMy41IDIwLjIgMTIuN1oiIC8+PC9zdmc+)
@@ -1361,16 +1371,6 @@ foodDrumstickOff =
 foodDrumstickOffOutline : IconShape
 foodDrumstickOffOutline =
     Material.Icons.Directory.F.foodDrumstickOffOutline
-
-
-{-| The [`food-drumstick-outline`](https://pictogrammers.com/library/mdi/icon/food-drumstick-outline/) icon.
-
-![food-drumstick-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjcxIDRDMTYuNTQgNCAxNy4zMyA0LjIyIDE4IDQuNjZDMTkuMTQgNS40IDE5Ljg0IDYuNTMgMjAgNy44NEMyMC4xMSA5LjEzIDE5LjY2IDEwLjQgMTguNzUgMTEuMzFDMTguMDUgMTIgMTcuMTYgMTIuNDQgMTYuMTggMTIuNTRDMTQuMjcgMTIuNzQgMTIuNTkgMTMuNSAxMS4zNCAxNC43N0MxMS4xMyAxNC45NyAxMC45IDE1IDEwLjc3IDE1QzEwLjY1IDE1IDEwLjQyIDE0Ljk3IDEwLjIxIDE0Ljc3TDkuMjIgMTMuNzhDOS4wNCAxMy42IDkgMTMuMzkgOSAxMy4yNUM5IDEzIDkuMTEgMTIuNzggOS4zMiAxMi41N0MxMC41MyAxMS4zNSAxMS4yNyA5LjczIDExLjQ1IDcuODdDMTEuNTggNi41NCAxMi4yOSA1LjQgMTMuNDUgNC42NUMxNC4xMSA0LjIyIDE0Ljg5IDQgMTUuNzEgNE0xNS43MSAyQzE0LjU0IDIgMTMuMzcgMi4zMiAxMi4zNiAyLjk3QzEwLjYgNC4xIDkuNjMgNS44NiA5LjQ2IDcuNjhDOS4zMyA5IDguODMgMTAuMjMgNy45MSAxMS4xNUw3Ljg4IDExLjE4QzYuNzIgMTIuMzQgNi43MiAxNC4xMSA3LjgxIDE1LjE5TDguOCAxNi4xOEM5LjM1IDE2LjczIDEwLjA2IDE3IDEwLjc3IDE3UzEyLjIgMTYuNzMgMTIuNzUgMTYuMThDMTMuNzIgMTUuMjEgMTUgMTQuNjggMTYuMzkgMTQuNTNDMTcuNzYgMTQuMzggMTkuMSAxMy43OCAyMC4xNiAxMi43M0MyMi45MyA5Ljk2IDIyLjU3IDUuMjYgMTkuMDkgM0MxOC4wOCAyLjMzIDE2LjkgMiAxNS43MSAyTTYuMjYgMTkuODZDNi41MyAyMC40MiA2LjQ0IDIxLjEgNS45NyAyMS41NkM1LjM5IDIyLjE1IDQuNDQgMjIuMTUgMy44NSAyMS41NkMzLjU4IDIxLjI5IDMuNDQgMjAuOTQgMy40MiAyMC41OEMzLjA2IDIwLjU2IDIuNzEgMjAuNDIgMi40NCAyMC4xNUMxLjg1IDE5LjU2IDEuODUgMTguNjEgMi40NCAxOC4wM0MyLjkgMTcuNTcgMy41OSAxNy40NyA0LjE0IDE3Ljc0TDYuNjIgMTUuMzFDNi43NiAxNS41IDYuOTIgMTUuNzIgNy4xIDE1LjlMOC4wOSAxNi44OUM4LjMgMTcuMDkgOC41IDE3LjI2IDguNzYgMTcuNDFMNi4yNiAxOS44NloiIC8+PC9zdmc+)
-
--}
-foodDrumstickOutline : IconShape
-foodDrumstickOutline =
-    Material.Icons.Directory.F.foodDrumstickOutline
 
 
 {-| The [`food-fork-drink`](https://pictogrammers.com/library/mdi/icon/food-fork-drink/) icon.
@@ -1413,16 +1413,6 @@ foodKosher =
     Material.Icons.Directory.F.foodKosher
 
 
-{-| The [`food-off`](https://pictogrammers.com/library/mdi/icon/food-off/) icon.
-
-![food-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjM1IDguNUwxMSA1SDE2VjFIMThWNUgyM0wyMS42MiAxOC43OUwxMS4zNSA4LjVNMSAyMVYyMkMxIDIyLjU1IDEuNDUgMjMgMiAyM0gxNUMxNS41NSAyMyAxNiAyMi41NSAxNiAyMlYyMUgxTTIxLjkgMjEuOUwyLjEgMi4xTC42OSAzLjVMNi4zOSA5LjIxQzMuMjggOS44NyAxIDEyIDEgMTVIMTIuMTdMMTQuMTcgMTdIMVYxOUgxNlYxOC44M0wyMC41IDIzLjMyTDIxLjkgMjEuOVoiIC8+PC9zdmc+)
-
--}
-foodOff : IconShape
-foodOff =
-    Material.Icons.Directory.F.foodOff
-
-
 {-| The [`food-off-outline`](https://pictogrammers.com/library/mdi/icon/food-off-outline/) icon.
 
 ![food-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEgMjFIMTZWMjJDMTYgMjIuNTQgMTUuNTYgMjMgMTUgMjNIMkMxLjQ1IDIzIDEgMjIuNTQgMSAyMlYyMU0yMC41IDIzLjMxTDE2IDE4LjgzVjE5SDFWMTdIMTQuMTdMMTIuMTcgMTVIMUMxIDExLjc2IDMuNDYgOS44MyA2LjM4IDkuMjFMLjY4IDMuNUwyLjEgMi4xTDEzIDEzTDE1IDE1TDIxLjkgMjEuOUwyMC41IDIzLjMxTTEwLjE3IDEzTDguMTcgMTFDNi43NSAxMS4wNiA0LjY1IDExLjU2IDMuNjIgMTNIMTAuMTdNMjMgNUgxOFYxSDE2VjVIMTFMMTEuMjMgN0gyMC43OUwxOS43OSAxNi45N0wyMS42MiAxOC44TDIzIDVaIiAvPjwvc3ZnPg==)
@@ -1433,14 +1423,14 @@ foodOffOutline =
     Material.Icons.Directory.F.foodOffOutline
 
 
-{-| The [`food-outline`](https://pictogrammers.com/library/mdi/icon/food-outline/) icon.
+{-| The [`food-off`](https://pictogrammers.com/library/mdi/icon/food-off/) icon.
 
-![food-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEgMjJDMSAyMi41NCAxLjQ1IDIzIDIgMjNIMTVDMTUuNTYgMjMgMTYgMjIuNTQgMTYgMjJWMjFIMVYyMk04LjUgOUM0Ljc1IDkgMSAxMSAxIDE1SDE2QzE2IDExIDEyLjI1IDkgOC41IDlNMy42MiAxM0M0LjczIDExLjQ1IDcuMDkgMTEgOC41IDExUzEyLjI3IDExLjQ1IDEzLjM4IDEzSDMuNjJNMSAxN0gxNlYxOUgxVjE3TTE4IDVWMUgxNlY1SDExTDExLjIzIDdIMjAuNzlMMTkuMzkgMjFIMThWMjNIMTkuNzJDMjAuNTYgMjMgMjEuMjUgMjIuMzUgMjEuMzUgMjEuNTNMMjMgNUgxOFoiIC8+PC9zdmc+)
+![food-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjM1IDguNUwxMSA1SDE2VjFIMThWNUgyM0wyMS42MiAxOC43OUwxMS4zNSA4LjVNMSAyMVYyMkMxIDIyLjU1IDEuNDUgMjMgMiAyM0gxNUMxNS41NSAyMyAxNiAyMi41NSAxNiAyMlYyMUgxTTIxLjkgMjEuOUwyLjEgMi4xTC42OSAzLjVMNi4zOSA5LjIxQzMuMjggOS44NyAxIDEyIDEgMTVIMTIuMTdMMTQuMTcgMTdIMVYxOUgxNlYxOC44M0wyMC41IDIzLjMyTDIxLjkgMjEuOVoiIC8+PC9zdmc+)
 
 -}
-foodOutline : IconShape
-foodOutline =
-    Material.Icons.Directory.F.foodOutline
+foodOff : IconShape
+foodOff =
+    Material.Icons.Directory.F.foodOff
 
 
 {-| The [`food-steak`](https://pictogrammers.com/library/mdi/icon/food-steak/) icon.
@@ -1451,6 +1441,16 @@ foodOutline =
 foodSteak : IconShape
 foodSteak =
     Material.Icons.Directory.F.foodSteak
+
+
+{-| The [`food-outline`](https://pictogrammers.com/library/mdi/icon/food-outline/) icon.
+
+![food-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEgMjJDMSAyMi41NCAxLjQ1IDIzIDIgMjNIMTVDMTUuNTYgMjMgMTYgMjIuNTQgMTYgMjJWMjFIMVYyMk04LjUgOUM0Ljc1IDkgMSAxMSAxIDE1SDE2QzE2IDExIDEyLjI1IDkgOC41IDlNMy42MiAxM0M0LjczIDExLjQ1IDcuMDkgMTEgOC41IDExUzEyLjI3IDExLjQ1IDEzLjM4IDEzSDMuNjJNMSAxN0gxNlYxOUgxVjE3TTE4IDVWMUgxNlY1SDExTDExLjIzIDdIMjAuNzlMMTkuMzkgMjFIMThWMjNIMTkuNzJDMjAuNTYgMjMgMjEuMjUgMjIuMzUgMjEuMzUgMjEuNTNMMjMgNUgxOFoiIC8+PC9zdmc+)
+
+-}
+foodOutline : IconShape
+foodOutline =
+    Material.Icons.Directory.F.foodOutline
 
 
 {-| The [`food-steak-off`](https://pictogrammers.com/library/mdi/icon/food-steak-off/) icon.
@@ -1473,16 +1473,6 @@ foodTakeoutBox =
     Material.Icons.Directory.F.foodTakeoutBox
 
 
-{-| The [`food-takeout-box-outline`](https://pictogrammers.com/library/mdi/icon/food-takeout-box-outline/) icon.
-
-![food-takeout-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNzkgMThMNy4yOCAxMUgxNi43NEwxNi4yMyAxOEg3Ljc5TTkuODMgNUgxNC4xNkwxNi45NiA3LjczTDE2Ljg3IDlINy4xMkw3LjAzIDcuNzNMOS44MyA1TTIyIDcuNDZMMjAuNTkgNi4wNUwxOSA3LjYzTDE5LjAzIDcuMDdMMTUgM0g5TDQuOTcgNy4wN0w1IDcuNTdMMy40MSA2TDIgNy40NEw1LjIzIDEwLjU1TDUuOTMgMjBIMTguMDdMMTguNzcgMTAuNTZMMjIgNy40NloiIC8+PC9zdmc+)
-
--}
-foodTakeoutBoxOutline : IconShape
-foodTakeoutBoxOutline =
-    Material.Icons.Directory.F.foodTakeoutBoxOutline
-
-
 {-| The [`food-turkey`](https://pictogrammers.com/library/mdi/icon/food-turkey/) icon.
 
 ![food-turkey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuNDQgNy45Nkw1Ljk2IDcuNDNDNi41NCA2Ljg1IDcuNSA2Ljg1IDguMSA3LjQ3TDguMTIgNy41QzguNjEgOCA5LjI2IDguMjQgOS45NyA4LjMxQzEwLjk0IDguNCAxMS44OCA4LjkyIDEyLjUgOS44NkMxMy4xOCAxMC45NCAxMy4xNyAxMi4zOCAxMi40NiAxMy40NUMxMS4yNiAxNS4zIDguNzUgMTUuNSA3LjI4IDE0QzYuNzIgMTMuNDUgNi40IDEyLjc0IDYuMzIgMTJDNi4yNCAxMS4yNyA1Ljk1IDEwLjU4IDUuNDQgMTAuMDdDNC44NiA5LjUgNC44NiA4LjU0IDUuNDQgNy45Nk05LjY0IDE2QzguNDcgMTYgNy4zOCAxNS41NSA2LjU3IDE0LjcyQzUuODcgMTQgNS40MyAxMy4xIDUuMzIgMTIuMTJDNS4yOSAxMS44MiA1LjIgMTEuNDMgNC45NiAxMS4wN0M0LjM2IDExLjkgNCAxMi45IDQgMTRDNCAxNS42NCA0LjggMTcuMDkgNi4wMyAxOEgxOVYxN0MxOSAxMy40IDE2LjYxIDEwLjM1IDEzLjM0IDkuMzVDMTQuMjMgMTAuNzUgMTQuMjEgMTIuNjIgMTMuMyAxNEMxMi41IDE1LjI1IDExLjEyIDE2IDkuNjQgMTZNMTQuNzggNy41NkgxNi4wNUMxNi45MiA3LjU2IDE3LjY4IDguMTcgMTcuNjggOS4yNlYxMEgxOC45M1Y5QzE4LjkzIDcuNSAxNy42IDYuMzYgMTYuMDUgNi4zNkgxNC43OEMxMy45NSA2LjM2IDEzLjI0IDUuNTQgMTMuMjQgNC43UzEzLjk1IDMuMjQgMTQuNzggMy4yNFYyQzEzLjI0IDIgMTIgMy4yNCAxMiA0Ljc4UzEzLjI0IDcuNTYgMTQuNzggNy41Nk00LjUgNy41NUM0LjU2IDcuNDUgNC42NCA3LjM1IDQuNzMgNy4yNUw1LjI1IDYuNzNDNS4zNCA2LjY0IDUuNDQgNi41NyA1LjU0IDYuNUw0LjEzIDUuMDdDNC4yNyA0LjggNC4yMiA0LjQ1IDQgNC4yMkMzLjcgMy45MyAzLjIyIDMuOTMgMi45MyA0LjIyQzIuNzkgNC4zNiAyLjcyIDQuNTMgMi43MSA0LjcxQzIuNTMgNC43MiAyLjM2IDQuNzkgMi4yMiA0LjkzQzEuOTMgNS4yMiAxLjkzIDUuNyAyLjIyIDZDMi40NSA2LjIyIDIuNzkgNi4yNyAzLjA3IDYuMTNMNC41IDcuNTVNMTguMzkgNC4zOUMxOC45IDMuODggMTkuMjIgMy4xOSAxOS4yMiAyLjQySDE3Ljk3QzE3Ljk3IDMuMjUgMTcuMjcgMy45NSAxNi40NCAzLjk1VjUuMTlDMTguMyA1LjE5IDE5Ljc2IDYuNzEgMTkuNzYgOC41N1YxMUgyMVY4LjU3QzIxIDYuNzIgMTkuOTQgNS4xMyAxOC4zOSA0LjM5TTUgMjFIMTlDMjAuMTEgMjEgMjEgMjAuMTEgMjEgMTlIM0MzIDIwLjExIDMuOSAyMSA1IDIxWiIgLz48L3N2Zz4=)
@@ -1493,14 +1483,14 @@ foodTurkey =
     Material.Icons.Directory.F.foodTurkey
 
 
-{-| The [`food-variant`](https://pictogrammers.com/library/mdi/icon/food-variant/) icon.
+{-| The [`food-takeout-box-outline`](https://pictogrammers.com/library/mdi/icon/food-takeout-box-outline/) icon.
 
-![food-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE4QTQsNCAwIDAsMSAxOCwyMkgxNUE0LDQgMCAwLDEgMTEsMThWMTZIMTcuNzlMMjAuNTUsMTEuMjNMMjIuMTEsMTIuMTNMMTkuODcsMTZIMjJWMThNOSwyMkgyQzIsMTkgMiwxNiAyLjMzLDEyLjgzQzIuNiwxMC4zIDMuMDgsNy42NiAzLjYsNUgzVjNINEw3LDNIOFY1SDcuNEM3LjkyLDcuNjYgOC40LDEwLjMgOC42NywxMi44M0M5LDE2IDksMTkgOSwyMloiIC8+PC9zdmc+)
+![food-takeout-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNzkgMThMNy4yOCAxMUgxNi43NEwxNi4yMyAxOEg3Ljc5TTkuODMgNUgxNC4xNkwxNi45NiA3LjczTDE2Ljg3IDlINy4xMkw3LjAzIDcuNzNMOS44MyA1TTIyIDcuNDZMMjAuNTkgNi4wNUwxOSA3LjYzTDE5LjAzIDcuMDdMMTUgM0g5TDQuOTcgNy4wN0w1IDcuNTdMMy40MSA2TDIgNy40NEw1LjIzIDEwLjU1TDUuOTMgMjBIMTguMDdMMTguNzcgMTAuNTZMMjIgNy40NloiIC8+PC9zdmc+)
 
 -}
-foodVariant : IconShape
-foodVariant =
-    Material.Icons.Directory.F.foodVariant
+foodTakeoutBoxOutline : IconShape
+foodTakeoutBoxOutline =
+    Material.Icons.Directory.F.foodTakeoutBoxOutline
 
 
 {-| The [`food-variant-off`](https://pictogrammers.com/library/mdi/icon/food-variant-off/) icon.
@@ -1511,6 +1501,16 @@ foodVariant =
 foodVariantOff : IconShape
 foodVariantOff =
     Material.Icons.Directory.F.foodVariantOff
+
+
+{-| The [`food-variant`](https://pictogrammers.com/library/mdi/icon/food-variant/) icon.
+
+![food-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE4QTQsNCAwIDAsMSAxOCwyMkgxNUE0LDQgMCAwLDEgMTEsMThWMTZIMTcuNzlMMjAuNTUsMTEuMjNMMjIuMTEsMTIuMTNMMTkuODcsMTZIMjJWMThNOSwyMkgyQzIsMTkgMiwxNiAyLjMzLDEyLjgzQzIuNiwxMC4zIDMuMDgsNy42NiAzLjYsNUgzVjNINEw3LDNIOFY1SDcuNEM3LjkyLDcuNjYgOC40LDEwLjMgOC42NywxMi44M0M5LDE2IDksMTkgOSwyMloiIC8+PC9zdmc+)
+
+-}
+foodVariant : IconShape
+foodVariant =
+    Material.Icons.Directory.F.foodVariant
 
 
 {-| The [`french-fries`](https://pictogrammers.com/library/mdi/icon/french-fries/) icon.
@@ -1553,6 +1553,16 @@ fruitCitrus =
     Material.Icons.Directory.F.fruitCitrus
 
 
+{-| The [`fruit-grapes-outline`](https://pictogrammers.com/library/mdi/icon/fruit-grapes-outline/) icon.
+
+![fruit-grapes-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEyQzE5IDEwLjYxIDE4LjA1IDkuNDcgMTYuNzggOS4xMkMxNi45MiA4Ljc4IDE3IDguNCAxNyA4QzE3IDYuMzQgMTUuNjYgNSAxNCA1QzEzLjU3IDUgMTMuMTcgNS4xIDEyLjgxIDUuMjZDMTMgNC4xOSAxMy4zOSAyLjU5IDE0LjQgMi4yTDEzLjYgMUMxMS45IDEuNzcgMTEuNCA0LjA5IDExLjI2IDUuMjlDMTAuODcgNS4xMSAxMC40NSA1IDEwIDVDOC4zNCA1IDcgNi4zNCA3IDhDNyA4LjQgNy4wOCA4Ljc3IDcuMjIgOS4xMkM1Ljk0IDkuNDYgNSAxMC42MiA1IDEyQzUgMTMuMzkgNS45NSAxNC41NCA3LjIzIDE0Ljg4QzcuMDkgMTUuMjIgNyAxNS42IDcgMTZDNyAxNy4zOSA3Ljk0IDE4LjU0IDkuMjIgMTguODhDOS4wOCAxOS4yMyA5IDE5LjYxIDkgMjBDOSAyMS42NiAxMC4zNCAyMyAxMiAyM1MxNSAyMS42NiAxNSAyMEMxNSAxOS42MSAxNC45MiAxOS4yMyAxNC43OCAxOC44OEMxNi4wNiAxOC41NCAxNyAxNy4zOSAxNyAxNkMxNyAxNS42IDE2LjkyIDE1LjIzIDE2Ljc3IDE0Ljg4QzE4LjA1IDE0LjU0IDE5IDEzLjM5IDE5IDEyTTE2LjMxIDkuODhWOS45SDE2LjNMMTYuMzEgOS44OE0xNCA2LjVDMTQuODMgNi41IDE1LjUgNy4xNyAxNS41IDhTMTQuODMgOS41IDE0IDkuNSAxMi41IDguODMgMTIuNSA4IDEzLjE3IDYuNSAxNCA2LjVNMTMuNSAxMkMxMy41IDEyLjgzIDEyLjgzIDEzLjUgMTIgMTMuNVMxMC41IDEyLjgzIDEwLjUgMTIgMTEuMTcgMTAuNSAxMiAxMC41IDEzLjUgMTEuMTcgMTMuNSAxMk0xMCA2LjVDMTAuODMgNi41IDExLjUgNy4xNyAxMS41IDhTMTAuODMgOS41IDEwIDkuNSA4LjUgOC44MyA4LjUgOCA5LjE3IDYuNSAxMCA2LjVNNi41IDEyQzYuNSAxMS4xNyA3LjE3IDEwLjUgOCAxMC41UzkuNSAxMS4xNyA5LjUgMTIgOC44MyAxMy41IDggMTMuNSA2LjUgMTIuODMgNi41IDEyTTguNSAxNkM4LjUgMTUuMTcgOS4xNyAxNC41IDEwIDE0LjVTMTEuNSAxNS4xNyAxMS41IDE2IDEwLjgzIDE3LjUgMTAgMTcuNSA4LjUgMTYuODMgOC41IDE2TTEyIDIxLjVDMTEuMTcgMjEuNSAxMC41IDIwLjgzIDEwLjUgMjBTMTEuMTcgMTguNSAxMiAxOC41IDEzLjUgMTkuMTcgMTMuNSAyMCAxMi44MyAyMS41IDEyIDIxLjVNMTQgMTcuNUMxMy4xNyAxNy41IDEyLjUgMTYuODMgMTIuNSAxNlMxMy4xNyAxNC41IDE0IDE0LjUgMTUuNSAxNS4xNyAxNS41IDE2IDE0LjgzIDE3LjUgMTQgMTcuNU0xNiAxMy41QzE1LjE3IDEzLjUgMTQuNSAxMi44MyAxNC41IDEyUzE1LjE3IDEwLjUgMTYgMTAuNSAxNy41IDExLjE3IDE3LjUgMTIgMTYuODMgMTMuNSAxNiAxMy41WiIgLz48L3N2Zz4=)
+
+-}
+fruitGrapesOutline : IconShape
+fruitGrapesOutline =
+    Material.Icons.Directory.F.fruitGrapesOutline
+
+
 {-| The [`fruit-citrus-off`](https://pictogrammers.com/library/mdi/icon/fruit-citrus-off/) icon.
 
 ![fruit-citrus-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjEgMjEuNUwyLjQgMS43TDEuMSAzTDQuNCA2LjNDMy40IDcuNSAyLjkgOC45IDIuOCAxMC4yQzIuMSAxMC43IDEuOCAxMS41IDIuMSAxMi4zQzIuNCAxMy4xIDMuMiAxMy42IDQgMTMuNkM1LjEgMTQuOSA2LjkgMTUuNyA5IDE1LjlDOS4xIDE0LjUgOS42IDEzLjMgMTAuMyAxMi4yTDExLjggMTMuN0MxMS4zIDE0LjUgMTEgMTUuNSAxMSAxNi41QzExIDE5LjUgMTMuNSAyMiAxNi41IDIyQzE3LjUgMjIgMTguNSAyMS43IDE5LjMgMjEuMkwyMC44IDIyLjdMMjIuMSAyMS41TTEzIDE2LjVDMTMgMTYgMTMuMSAxNS42IDEzLjMgMTUuMUwxNSAxNi44TDEzLjMgMThDMTMuMSAxNy41IDEzIDE3IDEzIDE2LjVNMTMuOSAxOC44TDE1LjcgMTcuNkwxNiAxNy45VjIwQzE1LjIgMTkuOCAxNC40IDE5LjQgMTMuOSAxOC44TTE3IDE5LjlWMTguOUwxNy44IDE5LjdDMTcuNSAxOS44IDE3LjMgMTkuOSAxNyAxOS45TTIwIDE2LjhWMTYuNUMyMCAxNiAxOS45IDE1LjUgMTkuNyAxNUwxOC44IDE1LjZMMTguMSAxNC45TDE5LjEgMTQuMkMxOC42IDEzLjYgMTcuOCAxMy4yIDE3IDEzVjEzLjhMMTQuNiAxMS40QzE1LjIgMTEuMiAxNS45IDExIDE2LjUgMTFDMTkuNSAxMSAyMiAxMy41IDIyIDE2LjVDMjIgMTcuMiAyMS45IDE3LjggMjEuNiAxOC40TDIwIDE2LjhNMTMgOS44TDcuMSAzLjlDNy45IDMuNCA4LjggMyA5LjcgMi43QzEzLjggMS4zIDE4IDIuMSAyMCA0LjRDMjAuOCA0LjQgMjEuNiA0LjkgMjEuOSA1LjdDMjIuMiA2LjUgMjEuOSA3LjMgMjEuMiA3LjhDMjEuMiA4LjYgMjEgOS40IDIwLjYgMTAuMkMxOS40IDkuNSAxOCA5IDE2LjUgOUMxNS4zIDkgMTQuMSA5LjMgMTMgOS44WiIgLz48L3N2Zz4=)
@@ -1571,16 +1581,6 @@ fruitCitrusOff =
 fruitGrapes : IconShape
 fruitGrapes =
     Material.Icons.Directory.F.fruitGrapes
-
-
-{-| The [`fruit-grapes-outline`](https://pictogrammers.com/library/mdi/icon/fruit-grapes-outline/) icon.
-
-![fruit-grapes-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEyQzE5IDEwLjYxIDE4LjA1IDkuNDcgMTYuNzggOS4xMkMxNi45MiA4Ljc4IDE3IDguNCAxNyA4QzE3IDYuMzQgMTUuNjYgNSAxNCA1QzEzLjU3IDUgMTMuMTcgNS4xIDEyLjgxIDUuMjZDMTMgNC4xOSAxMy4zOSAyLjU5IDE0LjQgMi4yTDEzLjYgMUMxMS45IDEuNzcgMTEuNCA0LjA5IDExLjI2IDUuMjlDMTAuODcgNS4xMSAxMC40NSA1IDEwIDVDOC4zNCA1IDcgNi4zNCA3IDhDNyA4LjQgNy4wOCA4Ljc3IDcuMjIgOS4xMkM1Ljk0IDkuNDYgNSAxMC42MiA1IDEyQzUgMTMuMzkgNS45NSAxNC41NCA3LjIzIDE0Ljg4QzcuMDkgMTUuMjIgNyAxNS42IDcgMTZDNyAxNy4zOSA3Ljk0IDE4LjU0IDkuMjIgMTguODhDOS4wOCAxOS4yMyA5IDE5LjYxIDkgMjBDOSAyMS42NiAxMC4zNCAyMyAxMiAyM1MxNSAyMS42NiAxNSAyMEMxNSAxOS42MSAxNC45MiAxOS4yMyAxNC43OCAxOC44OEMxNi4wNiAxOC41NCAxNyAxNy4zOSAxNyAxNkMxNyAxNS42IDE2LjkyIDE1LjIzIDE2Ljc3IDE0Ljg4QzE4LjA1IDE0LjU0IDE5IDEzLjM5IDE5IDEyTTE2LjMxIDkuODhWOS45SDE2LjNMMTYuMzEgOS44OE0xNCA2LjVDMTQuODMgNi41IDE1LjUgNy4xNyAxNS41IDhTMTQuODMgOS41IDE0IDkuNSAxMi41IDguODMgMTIuNSA4IDEzLjE3IDYuNSAxNCA2LjVNMTMuNSAxMkMxMy41IDEyLjgzIDEyLjgzIDEzLjUgMTIgMTMuNVMxMC41IDEyLjgzIDEwLjUgMTIgMTEuMTcgMTAuNSAxMiAxMC41IDEzLjUgMTEuMTcgMTMuNSAxMk0xMCA2LjVDMTAuODMgNi41IDExLjUgNy4xNyAxMS41IDhTMTAuODMgOS41IDEwIDkuNSA4LjUgOC44MyA4LjUgOCA5LjE3IDYuNSAxMCA2LjVNNi41IDEyQzYuNSAxMS4xNyA3LjE3IDEwLjUgOCAxMC41UzkuNSAxMS4xNyA5LjUgMTIgOC44MyAxMy41IDggMTMuNSA2LjUgMTIuODMgNi41IDEyTTguNSAxNkM4LjUgMTUuMTcgOS4xNyAxNC41IDEwIDE0LjVTMTEuNSAxNS4xNyAxMS41IDE2IDEwLjgzIDE3LjUgMTAgMTcuNSA4LjUgMTYuODMgOC41IDE2TTEyIDIxLjVDMTEuMTcgMjEuNSAxMC41IDIwLjgzIDEwLjUgMjBTMTEuMTcgMTguNSAxMiAxOC41IDEzLjUgMTkuMTcgMTMuNSAyMCAxMi44MyAyMS41IDEyIDIxLjVNMTQgMTcuNUMxMy4xNyAxNy41IDEyLjUgMTYuODMgMTIuNSAxNlMxMy4xNyAxNC41IDE0IDE0LjUgMTUuNSAxNS4xNyAxNS41IDE2IDE0LjgzIDE3LjUgMTQgMTcuNU0xNiAxMy41QzE1LjE3IDEzLjUgMTQuNSAxMi44MyAxNC41IDEyUzE1LjE3IDEwLjUgMTYgMTAuNSAxNy41IDExLjE3IDE3LjUgMTIgMTYuODMgMTMuNSAxNiAxMy41WiIgLz48L3N2Zz4=)
-
--}
-fruitGrapesOutline : IconShape
-fruitGrapesOutline =
-    Material.Icons.Directory.F.fruitGrapesOutline
 
 
 {-| The [`fruit-pear`](https://pictogrammers.com/library/mdi/icon/fruit-pear/) icon.
@@ -1613,16 +1613,6 @@ fruitWatermelon =
     Material.Icons.Directory.F.fruitWatermelon
 
 
-{-| The [`glass-cocktail`](https://pictogrammers.com/library/mdi/icon/glass-cocktail/) icon.
-
-![glass-cocktail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSw3TDUuNSw1SDE4LjVMMTYuNSw3TTExLDEzVjE5SDZWMjFIMThWMTlIMTNWMTNMMjEsNVYzSDNWNUwxMSwxM1oiIC8+PC9zdmc+)
-
--}
-glassCocktail : IconShape
-glassCocktail =
-    Material.Icons.Directory.G.glassCocktail
-
-
 {-| The [`glass-cocktail-off`](https://pictogrammers.com/library/mdi/icon/glass-cocktail-off/) icon.
 
 ![glass-cocktail-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjMzIDEyLjY3TDcuNjYgN0w2LjEzIDUuNDdMMi4zOSAxLjczTDEuMTEgM0wzIDQuODlWNUwxMSAxM1YxOUg2VjIxSDE4VjE5Ljg5TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TDEzLjMzIDEyLjY3TTEzIDE5VjE0Ljg5TDE3LjExIDE5SDEzTTguMiA1TDYuMiAzSDIxVjVMMTQuNiAxMS40TDEwLjIgN0gxNi41TDE4LjUgNUg4LjJaIiAvPjwvc3ZnPg==)
@@ -1633,6 +1623,16 @@ glassCocktailOff =
     Material.Icons.Directory.G.glassCocktailOff
 
 
+{-| The [`glass-cocktail`](https://pictogrammers.com/library/mdi/icon/glass-cocktail/) icon.
+
+![glass-cocktail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuNSw3TDUuNSw1SDE4LjVMMTYuNSw3TTExLDEzVjE5SDZWMjFIMThWMTlIMTNWMTNMMjEsNVYzSDNWNUwxMSwxM1oiIC8+PC9zdmc+)
+
+-}
+glassCocktail : IconShape
+glassCocktail =
+    Material.Icons.Directory.G.glassCocktail
+
+
 {-| The [`glass-flute`](https://pictogrammers.com/library/mdi/icon/glass-flute/) icon.
 
 ![glass-flute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTgsMkgxNkMxNS42Nyw1IDE1LjMzLDggMTQuNzUsOS44M0MxNC4xNywxMS42NyAxMy4zMywxMi4zMyAxMi45MiwxNC4wOEMxMi41LDE1LjgzIDEyLjUsMTguNjcgMTMuMDgsMjBDMTMuNjcsMjEuMzMgMTQuODMsMjEuMTcgMTUuNDIsMjEuMjVDMTYsMjEuMzMgMTYsMjEuNjcgMTYsMjJIOEM4LDIxLjY3IDgsMjEuMzMgOC41OCwyMS4yNUM5LjE3LDIxLjE3IDEwLjMzLDIxLjMzIDEwLjkyLDIwQzExLjUsMTguNjcgMTEuNSwxNS44MyAxMS4wOCwxNC4wOEMxMC42NywxMi4zMyA5LjgzLDExLjY3IDkuMjUsOS44M0M4LjY3LDggOC4zMyw1IDgsMk0xMCw0QzEwLjA3LDUuMDMgMTAuMTUsNi4wNyAxMC4yNCw3SDEzLjc2QzEzLjg1LDYuMDcgMTMuOTMsNS4wMyAxNCw0SDEwWiIgLz48L3N2Zz4=)
@@ -1641,6 +1641,16 @@ glassCocktailOff =
 glassFlute : IconShape
 glassFlute =
     Material.Icons.Directory.G.glassFlute
+
+
+{-| The [`glass-mug`](https://pictogrammers.com/library/mdi/icon/glass-mug/) icon.
+
+![glass-mug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDRWN0gxOFY0SDEwTTgsMkgyMEwyMSwyVjNMMjAsNFYyMEwyMSwyMVYyMkgyMEw4LDIySDdWMjFMOCwyMFYxOC42TDQuMiwxNi44M0MzLjUsMTYuNSAzLDE1LjgyIDMsMTVWOEEyLDIgMCAwLDEgNSw2SDhWNEw3LDNWMkg4TTUsMTVMOCwxNi4zOVY4SDVWMTVaIiAvPjwvc3ZnPg==)
+
+-}
+glassMug : IconShape
+glassMug =
+    Material.Icons.Directory.G.glassMug
 
 
 {-| The [`glass-fragile`](https://pictogrammers.com/library/mdi/icon/glass-fragile/) icon.
@@ -1671,16 +1681,6 @@ glassMugOff =
 glassMugVariant : IconShape
 glassMugVariant =
     Material.Icons.Directory.G.glassMugVariant
-
-
-{-| The [`glass-mug`](https://pictogrammers.com/library/mdi/icon/glass-mug/) icon.
-
-![glass-mug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDRWN0gxOFY0SDEwTTgsMkgyMEwyMSwyVjNMMjAsNFYyMEwyMSwyMVYyMkgyMEw4LDIySDdWMjFMOCwyMFYxOC42TDQuMiwxNi44M0MzLjUsMTYuNSAzLDE1LjgyIDMsMTVWOEEyLDIgMCAwLDEgNSw2SDhWNEw3LDNWMkg4TTUsMTVMOCwxNi4zOVY4SDVWMTVaIiAvPjwvc3ZnPg==)
-
--}
-glassMug : IconShape
-glassMug =
-    Material.Icons.Directory.G.glassMug
 
 
 {-| The [`glass-mug-variant-off`](https://pictogrammers.com/library/mdi/icon/glass-mug-variant-off/) icon.
@@ -1773,16 +1773,6 @@ hamburgerCheck =
     Material.Icons.Directory.H.hamburgerCheck
 
 
-{-| The [`hamburger-minus`](https://pictogrammers.com/library/mdi/icon/hamburger-minus/) icon.
-
-![hamburger-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDlIM0MzIDkgMyAzIDEyIDNTMjEgOSAyMSA5TTEzLjM1IDE3SDNWMThDMyAxOS42NiA0LjM0IDIxIDYgMjFIMTMuMzVDMTMuMTMgMjAuMzcgMTMgMTkuNyAxMyAxOUMxMyAxOC4zIDEzLjEzIDE3LjYzIDEzLjM1IDE3TTIxLjg2IDEzLjczQzIxLjk1IDEzLjUgMjIgMTMuMjYgMjIgMTNDMjIgMTEuOSAyMS4xMSAxMSAyMCAxMUgxMUw4LjUgMTNMNiAxMUg0QzIuOSAxMSAyIDExLjkgMiAxM1MyLjkgMTUgNCAxNUgxNC41NEMxNS42NCAxMy43OCAxNy4yMyAxMyAxOSAxM0MyMC4wNCAxMyAyMSAxMy4yNiAyMS44NiAxMy43M00xNSAxOFYyMEgyM1YxOEgxNVoiIC8+PC9zdmc+)
-
--}
-hamburgerMinus : IconShape
-hamburgerMinus =
-    Material.Icons.Directory.H.hamburgerMinus
-
-
 {-| The [`hamburger-off`](https://pictogrammers.com/library/mdi/icon/hamburger-off/) icon.
 
 ![hamburger-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDExQzIxLjExIDExIDIyIDExLjkgMjIgMTNTMjEuMTEgMTUgMjAgMTVIMTguMkwxNC4yIDExSDIwTTIwLjQyIDE5Ljc3TDIwLjQyIDE5Ljc2TDE3LjY2IDE3SDE3LjY1TDE1LjY1IDE1SDE1LjY2TDExLjY2IDExSDExLjY2TDkuNjYgOUg5LjY2TDIuMzkgMS43M0wxLjExIDNMNC4xMiA2QzMgNy41IDMgOSAzIDlINy4xMUw5LjExIDExSDRDMi45IDExIDIgMTEuOSAyIDEzUzIuOSAxNSA0IDE1SDEzLjExTDE1LjExIDE3SDNWMThDMyAxOS42NiA0LjM0IDIxIDYgMjFIMThDMTguMzMgMjEgMTguNjUgMjAuOTMgMTguOTQgMjAuODNMMjAuODQgMjIuNzNMMjIuMTEgMjEuNDZMMjAuNDIgMTkuNzdNMjEgOUMyMSA5IDIxIDMgMTIgM0M5Ljg4IDMgOC4yOCAzLjM0IDcuMDUgMy44NUwxMi4yIDlIMjFaIiAvPjwvc3ZnPg==)
@@ -1793,14 +1783,14 @@ hamburgerOff =
     Material.Icons.Directory.H.hamburgerOff
 
 
-{-| The [`hamburger-plus`](https://pictogrammers.com/library/mdi/icon/hamburger-plus/) icon.
+{-| The [`hamburger-minus`](https://pictogrammers.com/library/mdi/icon/hamburger-minus/) icon.
 
-![hamburger-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDlIM0MzIDkgMyAzIDEyIDNTMjEgOSAyMSA5TTEzLjM1IDE3SDNWMThDMyAxOS42NiA0LjM0IDIxIDYgMjFIMTMuMzVDMTMuMTMgMjAuMzcgMTMgMTkuNyAxMyAxOUMxMyAxOC4zIDEzLjEzIDE3LjYzIDEzLjM1IDE3TTIxLjg2IDEzLjczQzIxLjk1IDEzLjUgMjIgMTMuMjYgMjIgMTNDMjIgMTEuOSAyMS4xMSAxMSAyMCAxMUgxMUw4LjUgMTNMNiAxMUg0QzIuOSAxMSAyIDExLjkgMiAxM1MyLjkgMTUgNCAxNUgxNC41NEMxNS42NCAxMy43OCAxNy4yMyAxMyAxOSAxM0MyMC4wNCAxMyAyMSAxMy4yNiAyMS44NiAxMy43M00yMCAxOFYxNUgxOFYxOEgxNVYyMEgxOFYyM0gyMFYyMEgyM1YxOEgyMFoiIC8+PC9zdmc+)
+![hamburger-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDlIM0MzIDkgMyAzIDEyIDNTMjEgOSAyMSA5TTEzLjM1IDE3SDNWMThDMyAxOS42NiA0LjM0IDIxIDYgMjFIMTMuMzVDMTMuMTMgMjAuMzcgMTMgMTkuNyAxMyAxOUMxMyAxOC4zIDEzLjEzIDE3LjYzIDEzLjM1IDE3TTIxLjg2IDEzLjczQzIxLjk1IDEzLjUgMjIgMTMuMjYgMjIgMTNDMjIgMTEuOSAyMS4xMSAxMSAyMCAxMUgxMUw4LjUgMTNMNiAxMUg0QzIuOSAxMSAyIDExLjkgMiAxM1MyLjkgMTUgNCAxNUgxNC41NEMxNS42NCAxMy43OCAxNy4yMyAxMyAxOSAxM0MyMC4wNCAxMyAyMSAxMy4yNiAyMS44NiAxMy43M00xNSAxOFYyMEgyM1YxOEgxNVoiIC8+PC9zdmc+)
 
 -}
-hamburgerPlus : IconShape
-hamburgerPlus =
-    Material.Icons.Directory.H.hamburgerPlus
+hamburgerMinus : IconShape
+hamburgerMinus =
+    Material.Icons.Directory.H.hamburgerMinus
 
 
 {-| The [`hamburger-remove`](https://pictogrammers.com/library/mdi/icon/hamburger-remove/) icon.
@@ -1811,6 +1801,16 @@ hamburgerPlus =
 hamburgerRemove : IconShape
 hamburgerRemove =
     Material.Icons.Directory.H.hamburgerRemove
+
+
+{-| The [`hamburger-plus`](https://pictogrammers.com/library/mdi/icon/hamburger-plus/) icon.
+
+![hamburger-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDlIM0MzIDkgMyAzIDEyIDNTMjEgOSAyMSA5TTEzLjM1IDE3SDNWMThDMyAxOS42NiA0LjM0IDIxIDYgMjFIMTMuMzVDMTMuMTMgMjAuMzcgMTMgMTkuNyAxMyAxOUMxMyAxOC4zIDEzLjEzIDE3LjYzIDEzLjM1IDE3TTIxLjg2IDEzLjczQzIxLjk1IDEzLjUgMjIgMTMuMjYgMjIgMTNDMjIgMTEuOSAyMS4xMSAxMSAyMCAxMUgxMUw4LjUgMTNMNiAxMUg0QzIuOSAxMSAyIDExLjkgMiAxM1MyLjkgMTUgNCAxNUgxNC41NEMxNS42NCAxMy43OCAxNy4yMyAxMyAxOSAxM0MyMC4wNCAxMyAyMSAxMy4yNiAyMS44NiAxMy43M00yMCAxOFYxNUgxOFYxOEgxNVYyMEgxOFYyM0gyMFYyMEgyM1YxOEgyMFoiIC8+PC9zdmc+)
+
+-}
+hamburgerPlus : IconShape
+hamburgerPlus =
+    Material.Icons.Directory.H.hamburgerPlus
 
 
 {-| The [`hops`](https://pictogrammers.com/library/mdi/icon/hops/) icon.
@@ -1833,16 +1833,6 @@ iceCream =
     Material.Icons.Directory.I.iceCream
 
 
-{-| The [`ice-cream-off`](https://pictogrammers.com/library/mdi/icon/ice-cream-off/) icon.
-
-![ice-cream-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMNC45NSA2Ljg0QzQuMzcgNy4zOCA0IDguMTQgNCA5QzQgMTAuNjYgNS4zNCAxMiA3IDEyTDEyIDIyTDE0LjcgMTYuNTlMMjAuODQgMjIuNzNMMjIuMTEgMjEuNDZNMTIgMTcuNTNMOC44OSAxMS4zMUM4Ljk1IDExLjI2IDkgMTEuMjEgOS4wOCAxMS4xNkM5LjIxIDExLjI0IDkuMzUgMTEuMyA5LjUgMTEuMzdMMTMuMjEgMTUuMUwxMiAxNy41M003LjE1IDMuOTVDOC4wNyAyLjIgOS44OSAxIDEyIDFDMTQuODkgMSAxNy4yNSAzLjIyIDE3LjUgNi4wNUMxOC45MSA2LjI4IDIwIDcuNSAyMCA5QzIwIDEwLjY2IDE4LjY2IDEyIDE3IDEyTDE2LjQgMTMuMkw3LjE1IDMuOTVaIiAvPjwvc3ZnPg==)
-
--}
-iceCreamOff : IconShape
-iceCreamOff =
-    Material.Icons.Directory.I.iceCreamOff
-
-
 {-| The [`ice-pop`](https://pictogrammers.com/library/mdi/icon/ice-pop/) icon.
 
 ![ice-pop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjE1IDE0Ljk2TDkuOTUgMTguNjVMNS44NSA5LjY1QzcuMjEgOS4xMyA4LjEyIDcuODIgOC4xNSA2LjM2QzguMTQgNSA3LjM2IDMuNzYgNi4xNSAzLjE1QzYuNTQgMi44IDcgMi41IDcuNDUgMi4yNUM5LjcxIDEuMjUgMTIuMzcgMi4yMyAxMy40NSA0LjQ2TTEzLjE1IDE4LjM2TDE0Ljc1IDIxLjg2TDE3LjQ1IDIwLjY1TDE1Ljg1IDE3LjE1IiAvPjwvc3ZnPg==)
@@ -1853,14 +1843,14 @@ icePop =
     Material.Icons.Directory.I.icePop
 
 
-{-| The [`kettle`](https://pictogrammers.com/library/mdi/icon/kettle/) icon.
+{-| The [`ice-cream-off`](https://pictogrammers.com/library/mdi/icon/ice-cream-off/) icon.
 
-![kettle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUsM0M3LjgxLDMgNCw1LjY5IDQsOVY5QzQsMTAuMTkgNC41LDExLjM0IDUuNDQsMTIuMzNDNC41MywxMy41IDQsMTQuOTYgNCwxNi41QzQsMTcuNjQgNCwxOC44MyA0LDIwQzQsMjEuMTEgNC44OSwyMiA2LDIySDE5QzIwLjExLDIyIDIxLDIxLjExIDIxLDIwQzIxLDE4Ljg1IDIxLDE3LjYxIDIxLDE2LjVDMjEsMTUuMjggMjAuNjYsMTQuMDcgMjAsMTNMMjIsMTFMMTksOEwxNi45LDEwLjFDMTUuNTgsOS4zOCAxNC4wNSw5IDEyLjUsOUMxMC42NSw5IDguOTUsOS41MyA3LjU1LDEwLjQxQzcuMTksOS45NyA3LDkuNSA3LDlDNyw3LjIxIDkuNDYsNS43NSAxMi41LDUuNzVWNS43NUMxMy45Myw1Ljc1IDE1LjMsNi4wOCAxNi4zMyw2LjY3TDE4LjM1LDQuNjVDMTYuNzcsMy41OSAxNC42OCwzIDEyLjUsM00xMi41LDExQzEyLjg0LDExIDEzLjE3LDExLjA0IDEzLjUsMTEuMDlDMTAuMzksMTEuNTcgOCwxNC4yNSA4LDE3LjVWMjBINlYxNy41QTYuNSw2LjUgMCAwLDEgMTIuNSwxMVoiIC8+PC9zdmc+)
+![ice-cream-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMNC45NSA2Ljg0QzQuMzcgNy4zOCA0IDguMTQgNCA5QzQgMTAuNjYgNS4zNCAxMiA3IDEyTDEyIDIyTDE0LjcgMTYuNTlMMjAuODQgMjIuNzNMMjIuMTEgMjEuNDZNMTIgMTcuNTNMOC44OSAxMS4zMUM4Ljk1IDExLjI2IDkgMTEuMjEgOS4wOCAxMS4xNkM5LjIxIDExLjI0IDkuMzUgMTEuMyA5LjUgMTEuMzdMMTMuMjEgMTUuMUwxMiAxNy41M003LjE1IDMuOTVDOC4wNyAyLjIgOS44OSAxIDEyIDFDMTQuODkgMSAxNy4yNSAzLjIyIDE3LjUgNi4wNUMxOC45MSA2LjI4IDIwIDcuNSAyMCA5QzIwIDEwLjY2IDE4LjY2IDEyIDE3IDEyTDE2LjQgMTMuMkw3LjE1IDMuOTVaIiAvPjwvc3ZnPg==)
 
 -}
-kettle : IconShape
-kettle =
-    Material.Icons.Directory.K.kettle
+iceCreamOff : IconShape
+iceCreamOff =
+    Material.Icons.Directory.I.iceCreamOff
 
 
 {-| The [`keg`](https://pictogrammers.com/library/mdi/icon/keg/) icon.
@@ -1871,6 +1861,16 @@ kettle =
 keg : IconShape
 keg =
     Material.Icons.Directory.K.keg
+
+
+{-| The [`kettle`](https://pictogrammers.com/library/mdi/icon/kettle/) icon.
+
+![kettle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUsM0M3LjgxLDMgNCw1LjY5IDQsOVY5QzQsMTAuMTkgNC41LDExLjM0IDUuNDQsMTIuMzNDNC41MywxMy41IDQsMTQuOTYgNCwxNi41QzQsMTcuNjQgNCwxOC44MyA0LDIwQzQsMjEuMTEgNC44OSwyMiA2LDIySDE5QzIwLjExLDIyIDIxLDIxLjExIDIxLDIwQzIxLDE4Ljg1IDIxLDE3LjYxIDIxLDE2LjVDMjEsMTUuMjggMjAuNjYsMTQuMDcgMjAsMTNMMjIsMTFMMTksOEwxNi45LDEwLjFDMTUuNTgsOS4zOCAxNC4wNSw5IDEyLjUsOUMxMC42NSw5IDguOTUsOS41MyA3LjU1LDEwLjQxQzcuMTksOS45NyA3LDkuNSA3LDlDNyw3LjIxIDkuNDYsNS43NSAxMi41LDUuNzVWNS43NUMxMy45Myw1Ljc1IDE1LjMsNi4wOCAxNi4zMyw2LjY3TDE4LjM1LDQuNjVDMTYuNzcsMy41OSAxNC42OCwzIDEyLjUsM00xMi41LDExQzEyLjg0LDExIDEzLjE3LDExLjA0IDEzLjUsMTEuMDlDMTAuMzksMTEuNTcgOCwxNC4yNSA4LDE3LjVWMjBINlYxNy41QTYuNSw2LjUgMCAwLDEgMTIuNSwxMVoiIC8+PC9zdmc+)
+
+-}
+kettle : IconShape
+kettle =
+    Material.Icons.Directory.K.kettle
 
 
 {-| The [`kettle-alert`](https://pictogrammers.com/library/mdi/icon/kettle-alert/) icon.
@@ -1893,6 +1893,16 @@ kettleAlertOutline =
     Material.Icons.Directory.K.kettleAlertOutline
 
 
+{-| The [`kettle-outline`](https://pictogrammers.com/library/mdi/icon/kettle-outline/) icon.
+
+![kettle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUgM0M3LjggMyA0IDUuNyA0IDlDNCAxMC4yIDQuNSAxMS4zIDUuNCAxMi4zQTYuOCA2LjggMCAwIDAgNCAxNi41VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOUEyIDIgMCAwIDAgMjEgMjBWMTYuNUMyMSAxNS4zIDIwLjcgMTQuMSAyMCAxM0wyMiAxMUwxOSA4TDE2LjkgMTAuMUE5LjIgOS4yIDAgMCAwIDcuNiAxMC40QTIgMiAwIDAgMSA3IDlDNyA3LjIgOS41IDUuNyAxMi41IDUuN0MxMy45IDUuNyAxNS4zIDYuMSAxNi4zIDYuN0wxOC4zIDQuN0ExMCAxMCAwIDAgMCAxMi41IDNNMTIuNSAxMUMxNiAxMSAxOSAxNCAxOSAxNi41VjIwSDZWMTYuNUM2IDE0IDkgMTEgMTIuNSAxMU0xMyAxMi41QzEwIDEyLjUgOCAxNCA4IDE3VjE4SDEwVjE3QzEwIDE2IDEwIDEzLjUgMTMgMTIuNVoiIC8+PC9zdmc+)
+
+-}
+kettleOutline : IconShape
+kettleOutline =
+    Material.Icons.Directory.K.kettleOutline
+
+
 {-| The [`kettle-off`](https://pictogrammers.com/library/mdi/icon/kettle-off/) icon.
 
 ![kettle-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjEgMjEuNUwyLjQgMS43TDEuMSAzTDQuNyA2LjZDNC4zIDcuMyA0IDguMSA0IDlDNCAxMC4yIDQuNSAxMS4zIDUuNCAxMi4zQzQuNSAxMy41IDQgMTUgNCAxNi41VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOUMxOS4zIDIyIDE5LjYgMjEuOSAxOS45IDIxLjhMMjAuOCAyMi43TDIyLjEgMjEuNU04LjIgMTAuMUw3LjYgMTAuNEM3LjIgMTAgNyA5LjUgNyA5VjguOUw4LjIgMTAuMU04IDE3LjVWMjBINlYxNy41QzYgMTQuOSA3LjUgMTIuNyA5LjcgMTEuNkwxMC41IDEyLjRDOSAxMy42IDggMTUuNCA4IDE3LjVNMTYuOSAxMC4xTDE5IDhMMjIgMTFMMjAgMTNDMjAuNyAxNC4xIDIxIDE1LjMgMjEgMTYuNVYxNy44TDEyLjIgOUgxMi41QzE0IDkgMTUuNiA5LjQgMTYuOSAxMC4xTTkuNSA2LjNMNy40IDQuMkM4LjggMy41IDEwLjYgMyAxMi41IDNDMTQuNyAzIDE2LjggMy42IDE4LjMgNC43TDE2LjMgNi43QzE1LjMgNi4xIDEzLjkgNS44IDEyLjUgNS44QzExLjQgNS44IDEwLjQgNS45IDkuNSA2LjNaIiAvPjwvc3ZnPg==)
@@ -1913,14 +1923,14 @@ kettleOffOutline =
     Material.Icons.Directory.K.kettleOffOutline
 
 
-{-| The [`kettle-outline`](https://pictogrammers.com/library/mdi/icon/kettle-outline/) icon.
+{-| The [`kettle-steam-outline`](https://pictogrammers.com/library/mdi/icon/kettle-steam-outline/) icon.
 
-![kettle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjUgM0M3LjggMyA0IDUuNyA0IDlDNCAxMC4yIDQuNSAxMS4zIDUuNCAxMi4zQTYuOCA2LjggMCAwIDAgNCAxNi41VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOUEyIDIgMCAwIDAgMjEgMjBWMTYuNUMyMSAxNS4zIDIwLjcgMTQuMSAyMCAxM0wyMiAxMUwxOSA4TDE2LjkgMTAuMUE5LjIgOS4yIDAgMCAwIDcuNiAxMC40QTIgMiAwIDAgMSA3IDlDNyA3LjIgOS41IDUuNyAxMi41IDUuN0MxMy45IDUuNyAxNS4zIDYuMSAxNi4zIDYuN0wxOC4zIDQuN0ExMCAxMCAwIDAgMCAxMi41IDNNMTIuNSAxMUMxNiAxMSAxOSAxNCAxOSAxNi41VjIwSDZWMTYuNUM2IDE0IDkgMTEgMTIuNSAxMU0xMyAxMi41QzEwIDEyLjUgOCAxNCA4IDE3VjE4SDEwVjE3QzEwIDE2IDEwIDEzLjUgMTMgMTIuNVoiIC8+PC9zdmc+)
+![kettle-steam-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSAzQzQuOCAzIDEgNS43IDEgOUMxIDEwLjIgMS41IDExLjMgMi40IDEyLjNDMS41IDEzLjUgLjk4NSAxNSAxIDE2LjVWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDE2QzE3LjExIDIyIDE4IDIxLjExIDE4IDIwVjE2LjVDMTggMTUuMyAxNy43IDE0LjEgMTcgMTNMMTkgMTFMMTYgOEwxMy45IDEwLjFDMTAuOTcgOC41IDcuNDIgOC42MyA0LjYgMTAuNEM0LjIyIDEwLjAzIDQgOS41MyA0IDlDNCA3LjIgNi41IDUuNyA5LjUgNS43QzEwLjkgNS43IDEyLjMgNi4xIDEzLjMgNi43TDE1LjMgNC43QzEzLjU5IDMuNTUgMTEuNTYgMi45NiA5LjUgM005LjUgMTFDMTMgMTEgMTYgMTQgMTYgMTYuNVYyMEgzVjE2LjVDMyAxNCA2IDExIDkuNSAxMU0xMCAxMi41QzcgMTIuNSA1IDE0IDUgMTdWMThIN1YxN0M3IDE2IDcgMTMuNSAxMCAxMi41TTIzIDcuM0MyMyA4LjkzIDIxLjkxIDEwLjYgMjAuMzggMTAuOTdMMTkuNzEgMTAuMjlMMTkgOS42SDE5Ljc1QzIwLjc1IDkuNiAyMS41IDguMjIgMjEuNSA3LjJDMjEuNSA2LjE4IDIwLjY1IDUuMTQgMTkuNjUgNS4xNFYzLjY0QzIxLjUgMy42NCAyMyA1LjQ1IDIzIDcuM00xNy42NSA2LjczQzE3LjAzIDYuMTIgMTYuNjUgNS4yOCAxNi42NSA0LjM1QzE2LjY1IDIuNSAxOC4xNSAxIDIwIDFWMi41QzE5IDIuNSAxOC4xNSAzLjMzIDE4LjE1IDQuMzVDMTguMTUgNS4zNyAxOSA2LjIgMjAgNi4yVjcuN0MxOS4xOCA3LjcgMTguNDIgNy45NSAxNy43OSA4LjM4TDE2LjcyIDcuMzFDMTcgNy4wOSAxNy4zMiA2Ljg5IDE3LjY1IDYuNzNaIiAvPjwvc3ZnPg==)
 
 -}
-kettleOutline : IconShape
-kettleOutline =
-    Material.Icons.Directory.K.kettleOutline
+kettleSteamOutline : IconShape
+kettleSteamOutline =
+    Material.Icons.Directory.K.kettleSteamOutline
 
 
 {-| The [`kettle-steam`](https://pictogrammers.com/library/mdi/icon/kettle-steam/) icon.
@@ -1931,16 +1941,6 @@ kettleOutline =
 kettleSteam : IconShape
 kettleSteam =
     Material.Icons.Directory.K.kettleSteam
-
-
-{-| The [`kettle-steam-outline`](https://pictogrammers.com/library/mdi/icon/kettle-steam-outline/) icon.
-
-![kettle-steam-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSAzQzQuOCAzIDEgNS43IDEgOUMxIDEwLjIgMS41IDExLjMgMi40IDEyLjNDMS41IDEzLjUgLjk4NSAxNSAxIDE2LjVWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDE2QzE3LjExIDIyIDE4IDIxLjExIDE4IDIwVjE2LjVDMTggMTUuMyAxNy43IDE0LjEgMTcgMTNMMTkgMTFMMTYgOEwxMy45IDEwLjFDMTAuOTcgOC41IDcuNDIgOC42MyA0LjYgMTAuNEM0LjIyIDEwLjAzIDQgOS41MyA0IDlDNCA3LjIgNi41IDUuNyA5LjUgNS43QzEwLjkgNS43IDEyLjMgNi4xIDEzLjMgNi43TDE1LjMgNC43QzEzLjU5IDMuNTUgMTEuNTYgMi45NiA5LjUgM005LjUgMTFDMTMgMTEgMTYgMTQgMTYgMTYuNVYyMEgzVjE2LjVDMyAxNCA2IDExIDkuNSAxMU0xMCAxMi41QzcgMTIuNSA1IDE0IDUgMTdWMThIN1YxN0M3IDE2IDcgMTMuNSAxMCAxMi41TTIzIDcuM0MyMyA4LjkzIDIxLjkxIDEwLjYgMjAuMzggMTAuOTdMMTkuNzEgMTAuMjlMMTkgOS42SDE5Ljc1QzIwLjc1IDkuNiAyMS41IDguMjIgMjEuNSA3LjJDMjEuNSA2LjE4IDIwLjY1IDUuMTQgMTkuNjUgNS4xNFYzLjY0QzIxLjUgMy42NCAyMyA1LjQ1IDIzIDcuM00xNy42NSA2LjczQzE3LjAzIDYuMTIgMTYuNjUgNS4yOCAxNi42NSA0LjM1QzE2LjY1IDIuNSAxOC4xNSAxIDIwIDFWMi41QzE5IDIuNSAxOC4xNSAzLjMzIDE4LjE1IDQuMzVDMTguMTUgNS4zNyAxOSA2LjIgMjAgNi4yVjcuN0MxOS4xOCA3LjcgMTguNDIgNy45NSAxNy43OSA4LjM4TDE2LjcyIDcuMzFDMTcgNy4wOSAxNy4zMiA2Ljg5IDE3LjY1IDYuNzNaIiAvPjwvc3ZnPg==)
-
--}
-kettleSteamOutline : IconShape
-kettleSteamOutline =
-    Material.Icons.Directory.K.kettleSteamOutline
 
 
 {-| The [`leaf`](https://pictogrammers.com/library/mdi/icon/leaf/) icon.
@@ -2153,16 +2153,6 @@ potMix =
     Material.Icons.Directory.P.potMix
 
 
-{-| The [`pot-mix-outline`](https://pictogrammers.com/library/mdi/icon/pot-mix-outline/) icon.
-
-![pot-mix-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjYgOUwxOCAzLjFMMTkuNyA0LjFMMTYuOSA5SDE0LjZNMTYuMyAxMEgyMVYxMkgxOVYxOUMxOSAyMC4xIDE4LjEgMjEgMTcgMjFIN0M1LjkgMjEgNSAyMC4xIDUgMTlWMTJIM1YxMEgxNi4zTTE3IDEySDdWMTlIMTdWMTJaIiAvPjwvc3ZnPg==)
-
--}
-potMixOutline : IconShape
-potMixOutline =
-    Material.Icons.Directory.P.potMixOutline
-
-
 {-| The [`pot-outline`](https://pictogrammers.com/library/mdi/icon/pot-outline/) icon.
 
 ![pot-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMTBWMTJINVYxOUM1IDIwLjEgNS45IDIxIDcgMjFIMTdDMTguMSAyMSAxOSAyMC4xIDE5IDE5VjEySDIxVjEwSDNNNyAxMkgxN1YxOUg3VjEyWiIgLz48L3N2Zz4=)
@@ -2171,6 +2161,16 @@ potMixOutline =
 potOutline : IconShape
 potOutline =
     Material.Icons.Directory.P.potOutline
+
+
+{-| The [`pot-mix-outline`](https://pictogrammers.com/library/mdi/icon/pot-mix-outline/) icon.
+
+![pot-mix-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjYgOUwxOCAzLjFMMTkuNyA0LjFMMTYuOSA5SDE0LjZNMTYuMyAxMEgyMVYxMkgxOVYxOUMxOSAyMC4xIDE4LjEgMjEgMTcgMjFIN0M1LjkgMjEgNSAyMC4xIDUgMTlWMTJIM1YxMEgxNi4zTTE3IDEySDdWMTlIMTdWMTJaIiAvPjwvc3ZnPg==)
+
+-}
+potMixOutline : IconShape
+potMixOutline =
+    Material.Icons.Directory.P.potMixOutline
 
 
 {-| The [`pot-steam`](https://pictogrammers.com/library/mdi/icon/pot-steam/) icon.

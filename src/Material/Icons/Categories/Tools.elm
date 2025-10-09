@@ -12,8 +12,8 @@ module Material.Icons.Categories.Tools exposing
     , dumpTruck
     , excavator
     , fireExtinguisher
-    , hammer
     , hammerScrewdriver
+    , hammer
     , hammerWrench
     , handSaw
     , hardHat
@@ -69,8 +69,8 @@ module Material.Icons.Categories.Tools exposing
 @docs dumpTruck
 @docs excavator
 @docs fireExtinguisher
-@docs hammer
 @docs hammerScrewdriver
+@docs hammer
 @docs hammerWrench
 @docs handSaw
 @docs hardHat
@@ -224,16 +224,6 @@ fireExtinguisher =
     Material.Icons.Directory.F.fireExtinguisher
 
 
-{-| The [`hammer`](https://pictogrammers.com/library/mdi/icon/hammer/) icon.
-
-![hammer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMTkuNjNMMTMuNDMgOC4yTDEyLjcyIDcuNUwxNC4xNCA2LjA3TDEyIDMuODlDMTMuMiAyLjcgMTUuMDkgMi43IDE2LjI3IDMuODlMMTkuODcgNy41TDE4LjQ1IDguOTFIMjEuMjlMMjIgOS42MkwxOC40NSAxMy4yMUwxNy43NCAxMi41VjkuNjJMMTYuMjcgMTEuMDRMMTUuNTYgMTAuMzNMNC4xMyAyMS43NkwyIDE5LjYzWiIgLz48L3N2Zz4=)
-
--}
-hammer : IconShape
-hammer =
-    Material.Icons.Directory.H.hammer
-
-
 {-| The [`hammer-screwdriver`](https://pictogrammers.com/library/mdi/icon/hammer-screwdriver/) icon.
 
 ![hammer-screwdriver](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjA2IDEzLjA5TDIxLjY5IDE4LjY4TDE4LjM3IDIxLjk2TDEyLjc4IDE2LjM3VjE1LjQ1TDE1LjE0IDEzLjA5SDE2LjA2TTE2Ljk3IDEwLjU2TDE2IDkuNkwxMS4yMSAxNC40VjE2LjM3TDUuNTggMjJMMi4zIDE4LjY4TDcuODkgMTMuMDlIOS44NkwxMC42NCAxMi4zMUw2LjggOC40Nkg1LjVMMi42OSA1LjYyTDUuMzEgM0w4LjExIDUuOFY3LjExTDEyIDEwLjk1TDE0LjY2IDguMjlMMTMuNyA3LjI4TDE1IDUuOTdIMTIuMzRMMTEuNjkgNS4zMkwxNSAyTDE1LjY2IDIuNjZWNS4zMkwxNi45NyA0TDIwLjI1IDcuMjhDMjEuMzQgOC4zOCAyMS4zNCAxMC4xNyAyMC4yNSAxMS4yNkwxOC4yOCA5LjI1TDE2Ljk3IDEwLjU2WiIgLz48L3N2Zz4=)
@@ -242,6 +232,16 @@ hammer =
 hammerScrewdriver : IconShape
 hammerScrewdriver =
     Material.Icons.Directory.H.hammerScrewdriver
+
+
+{-| The [`hammer`](https://pictogrammers.com/library/mdi/icon/hammer/) icon.
+
+![hammer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMTkuNjNMMTMuNDMgOC4yTDEyLjcyIDcuNUwxNC4xNCA2LjA3TDEyIDMuODlDMTMuMiAyLjcgMTUuMDkgMi43IDE2LjI3IDMuODlMMTkuODcgNy41TDE4LjQ1IDguOTFIMjEuMjlMMjIgOS42MkwxOC40NSAxMy4yMUwxNy43NCAxMi41VjkuNjJMMTYuMjcgMTEuMDRMMTUuNTYgMTAuMzNMNC4xMyAyMS43NkwyIDE5LjYzWiIgLz48L3N2Zz4=)
+
+-}
+hammer : IconShape
+hammer =
+    Material.Icons.Directory.H.hammer
 
 
 {-| The [`hammer-wrench`](https://pictogrammers.com/library/mdi/icon/hammer-wrench/) icon.

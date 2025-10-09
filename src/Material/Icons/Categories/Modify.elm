@@ -51,8 +51,8 @@ module Material.Icons.Categories.Modify exposing
     , movieEditOutline
     , movieOpenEdit
     , movieOpenEditOutline
-    , noteEdit
     , noteEditOutline
+    , noteEdit
     , notebookEdit
     , notebookEditOutline
     , pencil
@@ -63,8 +63,8 @@ module Material.Icons.Categories.Modify exposing
     , puzzleEdit
     , puzzleEditOutline
     , qrcodeEdit
-    , rename
     , renameBox
+    , rename
     , renameBoxOutline
     , renameOutline
     , shieldEdit
@@ -84,8 +84,8 @@ module Material.Icons.Categories.Modify exposing
     , vectorPointEdit
     , vectorPolylineEdit
     , vectorSquareEdit
-    , viewDashboardEdit
     , viewDashboardEditOutline
+    , viewDashboardEdit
     )
 
 {-| This module contains icons in the Material.Icons.Categories.Modify category.
@@ -138,8 +138,8 @@ module Material.Icons.Categories.Modify exposing
 @docs movieEditOutline
 @docs movieOpenEdit
 @docs movieOpenEditOutline
-@docs noteEdit
 @docs noteEditOutline
+@docs noteEdit
 @docs notebookEdit
 @docs notebookEditOutline
 @docs pencil
@@ -150,8 +150,8 @@ module Material.Icons.Categories.Modify exposing
 @docs puzzleEdit
 @docs puzzleEditOutline
 @docs qrcodeEdit
-@docs rename
 @docs renameBox
+@docs rename
 @docs renameBoxOutline
 @docs renameOutline
 @docs shieldEdit
@@ -171,8 +171,8 @@ module Material.Icons.Categories.Modify exposing
 @docs vectorPointEdit
 @docs vectorPolylineEdit
 @docs vectorSquareEdit
-@docs viewDashboardEdit
 @docs viewDashboardEditOutline
+@docs viewDashboardEdit
 
 -}
 
@@ -676,16 +676,6 @@ movieOpenEditOutline =
     Material.Icons.Directory.M.movieOpenEditOutline
 
 
-{-| The [`note-edit`](https://pictogrammers.com/library/mdi/icon/note-edit/) icon.
-
-![note-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEwVjlMMTUgM0g1QzMuODkgMyAzIDMuODkgMyA1VjE5QzMgMjAuMTEgMy45IDIxIDUgMjFIMTFWMTkuMTNMMTkuMzkgMTAuNzRDMTkuODMgMTAuMyAyMC4zOSAxMC4wNiAyMSAxME0xNCA0LjVMMTkuNSAxMEgxNFY0LjVNMjIuODUgMTQuMTlMMjEuODcgMTUuMTdMMTkuODMgMTMuMTNMMjAuODEgMTIuMTVDMjEgMTEuOTUgMjEuMzMgMTEuOTUgMjEuNTMgMTIuMTVMMjIuODUgMTMuNDdDMjMuMDUgMTMuNjcgMjMuMDUgMTQgMjIuODUgMTQuMTlNMTkuMTMgMTMuODNMMjEuMTcgMTUuODdMMTUuMDQgMjJIMTNWMTkuOTZMMTkuMTMgMTMuODNaIiAvPjwvc3ZnPg==)
-
--}
-noteEdit : IconShape
-noteEdit =
-    Material.Icons.Directory.N.noteEdit
-
-
 {-| The [`note-edit-outline`](https://pictogrammers.com/library/mdi/icon/note-edit-outline/) icon.
 
 ![note-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjEzIDEyTDE5LjM5IDEwLjc0QzE5LjgzIDEwLjMgMjAuMzkgMTAuMDYgMjEgMTBWOUwxNSAzSDVDMy44OSAzIDMgMy44OSAzIDVWMTlDMyAyMC4xIDMuODkgMjEgNSAyMUgxMVYxOS4xM0wxMS4xMyAxOUg1VjVIMTJWMTJIMTguMTNNMTQgNC41TDE5LjUgMTBIMTRWNC41TTE5LjEzIDEzLjgzTDIxLjE3IDE1Ljg3TDE1LjA0IDIySDEzVjE5Ljk2TDE5LjEzIDEzLjgzTTIyLjg1IDE0LjE5TDIxLjg3IDE1LjE3TDE5LjgzIDEzLjEzTDIwLjgxIDEyLjE1QzIxIDExLjk1IDIxLjMzIDExLjk1IDIxLjUzIDEyLjE1TDIyLjg1IDEzLjQ3QzIzLjA1IDEzLjY3IDIzLjA1IDE0IDIyLjg1IDE0LjE5WiIgLz48L3N2Zz4=)
@@ -694,6 +684,16 @@ noteEdit =
 noteEditOutline : IconShape
 noteEditOutline =
     Material.Icons.Directory.N.noteEditOutline
+
+
+{-| The [`note-edit`](https://pictogrammers.com/library/mdi/icon/note-edit/) icon.
+
+![note-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEwVjlMMTUgM0g1QzMuODkgMyAzIDMuODkgMyA1VjE5QzMgMjAuMTEgMy45IDIxIDUgMjFIMTFWMTkuMTNMMTkuMzkgMTAuNzRDMTkuODMgMTAuMyAyMC4zOSAxMC4wNiAyMSAxME0xNCA0LjVMMTkuNSAxMEgxNFY0LjVNMjIuODUgMTQuMTlMMjEuODcgMTUuMTdMMTkuODMgMTMuMTNMMjAuODEgMTIuMTVDMjEgMTEuOTUgMjEuMzMgMTEuOTUgMjEuNTMgMTIuMTVMMjIuODUgMTMuNDdDMjMuMDUgMTMuNjcgMjMuMDUgMTQgMjIuODUgMTQuMTlNMTkuMTMgMTMuODNMMjEuMTcgMTUuODdMMTUuMDQgMjJIMTNWMTkuOTZMMTkuMTMgMTMuODNaIiAvPjwvc3ZnPg==)
+
+-}
+noteEdit : IconShape
+noteEdit =
+    Material.Icons.Directory.N.noteEdit
 
 
 {-| The [`notebook-edit`](https://pictogrammers.com/library/mdi/icon/notebook-edit/) icon.
@@ -796,16 +796,6 @@ qrcodeEdit =
     Material.Icons.Directory.Q.qrcodeEdit
 
 
-{-| The [`rename`](https://pictogrammers.com/library/mdi/icon/rename/) icon.
-
-![rename](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE2TDExIDIwSDIxVjE2SDE1TTEyLjA2IDcuMTlMMyAxNi4yNVYyMEg2Ljc1TDE1LjgxIDEwLjk0TDEyLjA2IDcuMTlNMTguNzEgOC4wNEMxOS4xIDcuNjUgMTkuMSA3IDE4LjcxIDYuNjNMMTYuMzcgNC4yOUMxNi4xNyA0LjA5IDE1LjkyIDQgMTUuNjYgNEMxNS40MSA0IDE1LjE1IDQuMSAxNC45NiA0LjI5TDEzLjEzIDYuMTJMMTYuODggOS44N0wxOC43MSA4LjA0WiIgLz48L3N2Zz4=)
-
--}
-rename : IconShape
-rename =
-    Material.Icons.Directory.R.rename
-
-
 {-| The [`rename-box`](https://pictogrammers.com/library/mdi/icon/rename-box/) icon.
 
 ![rename-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDE3SDEwLjVMMTIuNSwxNUgxOE02LDE3VjE0LjVMMTMuODgsNi42NUMxNC4wNyw2LjQ1IDE0LjM5LDYuNDUgMTQuNTksNi42NUwxNi4zNSw4LjQxQzE2LjU1LDguNjEgMTYuNTUsOC45MiAxNi4zNSw5LjEyTDguNDcsMTdNMTksM0g1QzMuODksMyAzLDMuODkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QzIxLDMuODkgMjAuMSwzIDE5LDNaIiAvPjwvc3ZnPg==)
@@ -814,6 +804,16 @@ rename =
 renameBox : IconShape
 renameBox =
     Material.Icons.Directory.R.renameBox
+
+
+{-| The [`rename`](https://pictogrammers.com/library/mdi/icon/rename/) icon.
+
+![rename](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE2TDExIDIwSDIxVjE2SDE1TTEyLjA2IDcuMTlMMyAxNi4yNVYyMEg2Ljc1TDE1LjgxIDEwLjk0TDEyLjA2IDcuMTlNMTguNzEgOC4wNEMxOS4xIDcuNjUgMTkuMSA3IDE4LjcxIDYuNjNMMTYuMzcgNC4yOUMxNi4xNyA0LjA5IDE1LjkyIDQgMTUuNjYgNEMxNS40MSA0IDE1LjE1IDQuMSAxNC45NiA0LjI5TDEzLjEzIDYuMTJMMTYuODggOS44N0wxOC43MSA4LjA0WiIgLz48L3N2Zz4=)
+
+-}
+rename : IconShape
+rename =
+    Material.Icons.Directory.R.rename
 
 
 {-| The [`rename-box-outline`](https://pictogrammers.com/library/mdi/icon/rename-box-outline/) icon.
@@ -1006,16 +1006,6 @@ vectorSquareEdit =
     Material.Icons.Directory.V.vectorSquareEdit
 
 
-{-| The [`view-dashboard-edit`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit/) icon.
-
-![view-dashboard-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgOUgxM1YzSDIxVjlNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTMgMTguMDZNMTEgMTNIM1YzSDExVjEzTTExIDIxSDNWMTVIMTFWMjFaIiAvPjwvc3ZnPg==)
-
--}
-viewDashboardEdit : IconShape
-viewDashboardEdit =
-    Material.Icons.Directory.V.viewDashboardEdit
-
-
 {-| The [`view-dashboard-edit-outline`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit-outline/) icon.
 
 ![view-dashboard-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgM0gxM1Y5SDIxVjNNMTkgN0gxNVY1SDE5VjdNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTguMDcgMTNIMTVWMTYuMDdMMTMgMTguMDZNMTEgM0gzVjEzSDExVjNNOSAxMUg1VjVIOVYxMU0xMSAyMC4wNlYxNUgzVjIxSDExVjIwLjA2TTkgMTlINVYxN0g5VjE5WiIgLz48L3N2Zz4=)
@@ -1024,3 +1014,13 @@ viewDashboardEdit =
 viewDashboardEditOutline : IconShape
 viewDashboardEditOutline =
     Material.Icons.Directory.V.viewDashboardEditOutline
+
+
+{-| The [`view-dashboard-edit`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit/) icon.
+
+![view-dashboard-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgOUgxM1YzSDIxVjlNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTMgMTguMDZNMTEgMTNIM1YzSDExVjEzTTExIDIxSDNWMTVIMTFWMjFaIiAvPjwvc3ZnPg==)
+
+-}
+viewDashboardEdit : IconShape
+viewDashboardEdit =
+    Material.Icons.Directory.V.viewDashboardEdit

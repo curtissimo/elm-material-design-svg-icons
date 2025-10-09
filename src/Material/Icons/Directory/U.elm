@@ -57,18 +57,18 @@ ufo =
     iconShape "M15.94 10.28C15.66 7.87 14 6 12 6S8.34 7.87 8.06 10.28C4.5 10.82 2 12.06 2 13.5C2 15.43 6.5 17 12 17S22 15.43 22 13.5C22 12.06 19.5 10.82 15.94 10.28Z"
 
 
-{-| The [`ufo-outline`](https://pictogrammers.com/library/mdi/icon/ufo-outline/) icon.
--}
-ufoOutline : IconShape
-ufoOutline =
-    iconShape "M17 10.54C16.78 7.44 14.63 5 12 5S7.22 7.44 7 10.54C4 11.23 2 12.5 2 14C2 16.21 6.5 18 12 18S22 16.21 22 14C22 12.5 20 11.23 17 10.54M14.93 11.84C13.03 12.05 10.97 12.05 9.07 11.84C9.03 11.56 9 11.28 9 11C9 8.8 10.35 7 12 7S15 8.8 15 11C15 11.28 15 11.56 14.93 11.84Z"
-
-
 {-| The [`ultra-high-definition`](https://pictogrammers.com/library/mdi/icon/ultra-high-definition/) icon.
 -}
 ultraHighDefinition : IconShape
 ultraHighDefinition =
     iconShape "M9,7H11V11H13V7H15V17H13V13H11V17H9V7M17,7H20A3,3 0 0,1 23,10V14A3,3 0 0,1 20,17H17V7M20,15A1,1 0 0,0 21,14V10A1,1 0 0,0 20,9H19V15H20M7,14A3,3 0 0,1 4,17A3,3 0 0,1 1,14V7H3V14A1,1 0 0,0 4,15A1,1 0 0,0 5,14V7H7V14Z"
+
+
+{-| The [`ufo-outline`](https://pictogrammers.com/library/mdi/icon/ufo-outline/) icon.
+-}
+ufoOutline : IconShape
+ufoOutline =
+    iconShape "M17 10.54C16.78 7.44 14.63 5 12 5S7.22 7.44 7 10.54C4 11.23 2 12.5 2 14C2 16.21 6.5 18 12 18S22 16.21 22 14C22 12.5 20 11.23 17 10.54M14.93 11.84C13.03 12.05 10.97 12.05 9.07 11.84C9.03 11.56 9 11.28 9 11C9 8.8 10.35 7 12 7S15 8.8 15 11C15 11.28 15 11.56 14.93 11.84Z"
 
 
 {-| The [`umbrella`](https://pictogrammers.com/library/mdi/icon/umbrella/) icon.
@@ -85,18 +85,18 @@ umbrellaBeach =
     iconShape "M13.13 14.56L14.56 13.13L21 19.57L19.57 21L13.13 14.56M17.42 8.83L20.28 5.97C16.33 2 9.93 2 6 5.95C9.91 4.65 14.29 5.7 17.42 8.83M5.95 6C2 9.93 2 16.33 5.97 20.28L8.83 17.42C5.7 14.29 4.65 9.91 5.95 6M5.97 5.96L5.96 5.97C5.58 9 7.13 12.85 10.26 16L16 10.26C12.86 7.13 9 5.58 5.97 5.96Z"
 
 
-{-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
--}
-umbrellaBeachOutline : IconShape
-umbrellaBeachOutline =
-    iconShape "M21 19.57L19.57 21L13.13 14.56L14.56 13.13L21 19.57M13.12 3C10.54 3 7.96 4 6 5.95L5.97 5.96C2 9.91 2 16.32 5.97 20.27L20.27 5.96C18.3 4 15.71 3 13.12 3M6.14 17.27C5.4 16.03 5 14.61 5 13.12C5 12.19 5.16 11.3 5.46 10.45C5.65 12.36 6.35 14.24 7.53 15.89L6.14 17.27M9 14.43C7.63 12.38 7.12 9.93 7.6 7.6C8.18 7.5 8.76 7.42 9.35 7.42C11.15 7.42 12.9 7.97 14.43 9L9 14.43M10.45 5.46C11.3 5.16 12.19 5 13.12 5C14.61 5 16.03 5.4 17.27 6.14L15.88 7.53C14.23 6.35 12.36 5.65 10.45 5.46Z"
-
-
 {-| The [`umbrella-closed`](https://pictogrammers.com/library/mdi/icon/umbrella-closed/) icon.
 -}
 umbrellaClosed : IconShape
 umbrellaClosed =
     iconShape "M12 2C11.6 2 11.3 2.2 11.1 2.6L6.5 15H11V19C11 19.6 10.6 20 10 20C9.4 20 9 19.6 9 19V18H7V19C7 20.7 8.3 22 10 22S13 20.7 13 19V15H17.5L12.9 2.6C12.7 2.2 12.4 2 12 2Z"
+
+
+{-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
+-}
+umbrellaBeachOutline : IconShape
+umbrellaBeachOutline =
+    iconShape "M21 19.57L19.57 21L13.13 14.56L14.56 13.13L21 19.57M13.12 3C10.54 3 7.96 4 6 5.95L5.97 5.96C2 9.91 2 16.32 5.97 20.27L20.27 5.96C18.3 4 15.71 3 13.12 3M6.14 17.27C5.4 16.03 5 14.61 5 13.12C5 12.19 5.16 11.3 5.46 10.45C5.65 12.36 6.35 14.24 7.53 15.89L6.14 17.27M9 14.43C7.63 12.38 7.12 9.93 7.6 7.6C8.18 7.5 8.76 7.42 9.35 7.42C11.15 7.42 12.9 7.97 14.43 9L9 14.43M10.45 5.46C11.3 5.16 12.19 5 13.12 5C14.61 5 16.03 5.4 17.27 6.14L15.88 7.53C14.23 6.35 12.36 5.65 10.45 5.46Z"
 
 
 {-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
@@ -127,18 +127,18 @@ underwearOutline =
     iconShape "M3 4C2.45 4 2 4.45 2 5V10C2 15.5 6.5 20 12 20C17.5 20 22 15.5 22 10V5C22 4.45 21.55 4 21 4H3M20 6V8H4V6H20M4 10H20C20 10.34 20 10.67 19.94 11C16.12 11.03 13.03 14.12 13 17.94C12.67 18 12.34 18 12 18C11.66 18 11.33 18 11 17.94C10.97 14.12 7.88 11.03 4.06 11C4 10.67 4 10.34 4 10M15.04 17.4C15.31 15.12 17.12 13.31 19.41 13.04C18.59 15 17 16.59 15.03 17.41M4.6 13.04C6.88 13.31 8.7 15.12 8.97 17.41C7 16.59 5.41 15 4.6 13.03Z"
 
 
-{-| The [`undo`](https://pictogrammers.com/library/mdi/icon/undo/) icon.
--}
-undo : IconShape
-undo =
-    iconShape "M12.5,8C9.85,8 7.45,9 5.6,10.6L2,7V16H11L7.38,12.38C8.77,11.22 10.54,10.5 12.5,10.5C16.04,10.5 19.05,12.81 20.1,16L22.47,15.22C21.08,11.03 17.15,8 12.5,8Z"
-
-
 {-| The [`undo-variant`](https://pictogrammers.com/library/mdi/icon/undo-variant/) icon.
 -}
 undoVariant : IconShape
 undoVariant =
     iconShape "M13.5,7A6.5,6.5 0 0,1 20,13.5A6.5,6.5 0 0,1 13.5,20H10V18H13.5C16,18 18,16 18,13.5C18,11 16,9 13.5,9H7.83L10.91,12.09L9.5,13.5L4,8L9.5,2.5L10.92,3.91L7.83,7H13.5M6,18H8V20H6V18Z"
+
+
+{-| The [`undo`](https://pictogrammers.com/library/mdi/icon/undo/) icon.
+-}
+undo : IconShape
+undo =
+    iconShape "M12.5,8C9.85,8 7.45,9 5.6,10.6L2,7V16H11L7.38,12.38C8.77,11.22 10.54,10.5 12.5,10.5C16.04,10.5 19.05,12.81 20.1,16L22.47,15.22C21.08,11.03 17.15,8 12.5,8Z"
 
 
 {-| The [`unfold-less-horizontal`](https://pictogrammers.com/library/mdi/icon/unfold-less-horizontal/) icon.
@@ -148,18 +148,18 @@ unfoldLessHorizontal =
     iconShape "M16.59,5.41L15.17,4L12,7.17L8.83,4L7.41,5.41L12,10M7.41,18.59L8.83,20L12,16.83L15.17,20L16.58,18.59L12,14L7.41,18.59Z"
 
 
-{-| The [`unfold-less-vertical`](https://pictogrammers.com/library/mdi/icon/unfold-less-vertical/) icon.
--}
-unfoldLessVertical : IconShape
-unfoldLessVertical =
-    iconShape "M5.41,7.41L10,12L5.41,16.59L4,15.17L7.17,12L4,8.83L5.41,7.41M18.59,16.59L14,12L18.59,7.42L20,8.83L16.83,12L20,15.17L18.59,16.59Z"
-
-
 {-| The [`unfold-more-horizontal`](https://pictogrammers.com/library/mdi/icon/unfold-more-horizontal/) icon.
 -}
 unfoldMoreHorizontal : IconShape
 unfoldMoreHorizontal =
     iconShape "M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
+
+
+{-| The [`unfold-less-vertical`](https://pictogrammers.com/library/mdi/icon/unfold-less-vertical/) icon.
+-}
+unfoldLessVertical : IconShape
+unfoldLessVertical =
+    iconShape "M5.41,7.41L10,12L5.41,16.59L4,15.17L7.17,12L4,8.83L5.41,7.41M18.59,16.59L14,12L18.59,7.42L20,8.83L16.83,12L20,15.17L18.59,16.59Z"
 
 
 {-| The [`unfold-more-vertical`](https://pictogrammers.com/library/mdi/icon/unfold-more-vertical/) icon.
@@ -197,18 +197,18 @@ unicycle =
     iconShape "M13 9.09V5H14C14.55 5 15 4.55 15 4S14.55 3 14 3H10C9.45 3 9 3.45 9 4S9.45 5 10 5H11V9.09C8.16 9.57 6 12.03 6 15C6 18.31 8.69 21 12 21S18 18.31 18 15C18 12.03 15.84 9.57 13 9.09M12 19C9.79 19 8 17.21 8 15C8 13.14 9.28 11.59 11 11.14V16H13V11.14C14.72 11.59 16 13.14 16 15C16 17.21 14.21 19 12 19Z"
 
 
-{-| The [`update`](https://pictogrammers.com/library/mdi/icon/update/) icon.
--}
-update : IconShape
-update =
-    iconShape "M21,10.12H14.22L16.96,7.3C14.23,4.6 9.81,4.5 7.08,7.2C4.35,9.91 4.35,14.28 7.08,17C9.81,19.7 14.23,19.7 16.96,17C18.32,15.65 19,14.08 19,12.1H21C21,14.08 20.12,16.65 18.36,18.39C14.85,21.87 9.15,21.87 5.64,18.39C2.14,14.92 2.11,9.28 5.62,5.81C9.13,2.34 14.76,2.34 18.27,5.81L21,3V10.12M12.5,8V12.25L16,14.33L15.28,15.54L11,13V8H12.5Z"
-
-
 {-| The [`upload`](https://pictogrammers.com/library/mdi/icon/upload/) icon.
 -}
 upload : IconShape
 upload =
     iconShape "M9,16V10H5L12,3L19,10H15V16H9M5,20V18H19V20H5Z"
+
+
+{-| The [`update`](https://pictogrammers.com/library/mdi/icon/update/) icon.
+-}
+update : IconShape
+update =
+    iconShape "M21,10.12H14.22L16.96,7.3C14.23,4.6 9.81,4.5 7.08,7.2C4.35,9.91 4.35,14.28 7.08,17C9.81,19.7 14.23,19.7 16.96,17C18.32,15.65 19,14.08 19,12.1H21C21,14.08 20.12,16.65 18.36,18.39C14.85,21.87 9.15,21.87 5.64,18.39C2.14,14.92 2.11,9.28 5.62,5.81C9.13,2.34 14.76,2.34 18.27,5.81L21,3V10.12M12.5,8V12.25L16,14.33L15.28,15.54L11,13V8H12.5Z"
 
 
 {-| The [`upload-box`](https://pictogrammers.com/library/mdi/icon/upload-box/) icon.
@@ -260,18 +260,18 @@ uploadMultiple =
     iconShape "M9,14V8H5L12,1L19,8H15V14H9M5,18V16H19V18H5M19,20H5V22H19V20Z"
 
 
-{-| The [`upload-multiple-outline`](https://pictogrammers.com/library/mdi/icon/upload-multiple-outline/) icon.
--}
-uploadMultipleOutline : IconShape
-uploadMultipleOutline =
-    iconShape "M19 8H15V14H9V8H5L12 1L19 8M14.17 6L12 3.83L9.83 6H11V12H13V6H14.17M5 16V18H19V16H5M19 20V22H5V20H19Z"
-
-
 {-| The [`upload-network`](https://pictogrammers.com/library/mdi/icon/upload-network/) icon.
 -}
 uploadNetwork : IconShape
 uploadNetwork =
     iconShape "M17,3A2,2 0 0,1 19,5V15A2,2 0 0,1 17,17H13V19H14A1,1 0 0,1 15,20H22V22H15A1,1 0 0,1 14,23H10A1,1 0 0,1 9,22H2V20H9A1,1 0 0,1 10,19H11V17H7C5.89,17 5,16.1 5,15V5A2,2 0 0,1 7,3H17M12,5.5L7.5,10H11V14H13V10H16.5L12,5.5Z"
+
+
+{-| The [`upload-multiple-outline`](https://pictogrammers.com/library/mdi/icon/upload-multiple-outline/) icon.
+-}
+uploadMultipleOutline : IconShape
+uploadMultipleOutline =
+    iconShape "M19 8H15V14H9V8H5L12 1L19 8M14.17 6L12 3.83L9.83 6H11V12H13V6H14.17M5 16V18H19V16H5M19 20V22H5V20H19Z"
 
 
 {-| The [`upload-network-outline`](https://pictogrammers.com/library/mdi/icon/upload-network-outline/) icon.
@@ -349,11 +349,11 @@ lookup name =
         "ufo" ->
             Just ufo
 
-        "ufo-outline" ->
-            Just ufoOutline
-
         "ultra-high-definition" ->
             Just ultraHighDefinition
+
+        "ufo-outline" ->
+            Just ufoOutline
 
         "umbrella" ->
             Just umbrella
@@ -361,11 +361,11 @@ lookup name =
         "umbrella-beach" ->
             Just umbrellaBeach
 
-        "umbrella-beach-outline" ->
-            Just umbrellaBeachOutline
-
         "umbrella-closed" ->
             Just umbrellaClosed
+
+        "umbrella-beach-outline" ->
+            Just umbrellaBeachOutline
 
         "umbrella-closed-outline" ->
             Just umbrellaClosedOutline
@@ -379,20 +379,20 @@ lookup name =
         "underwear-outline" ->
             Just underwearOutline
 
-        "undo" ->
-            Just undo
-
         "undo-variant" ->
             Just undoVariant
+
+        "undo" ->
+            Just undo
 
         "unfold-less-horizontal" ->
             Just unfoldLessHorizontal
 
-        "unfold-less-vertical" ->
-            Just unfoldLessVertical
-
         "unfold-more-horizontal" ->
             Just unfoldMoreHorizontal
+
+        "unfold-less-vertical" ->
+            Just unfoldLessVertical
 
         "unfold-more-vertical" ->
             Just unfoldMoreVertical
@@ -409,11 +409,11 @@ lookup name =
         "unicycle" ->
             Just unicycle
 
-        "update" ->
-            Just update
-
         "upload" ->
             Just upload
+
+        "update" ->
+            Just update
 
         "upload-box" ->
             Just uploadBox
@@ -436,11 +436,11 @@ lookup name =
         "upload-multiple" ->
             Just uploadMultiple
 
-        "upload-multiple-outline" ->
-            Just uploadMultipleOutline
-
         "upload-network" ->
             Just uploadNetwork
+
+        "upload-multiple-outline" ->
+            Just uploadMultipleOutline
 
         "upload-network-outline" ->
             Just uploadNetworkOutline

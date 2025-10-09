@@ -32,20 +32,20 @@ module Material.Icons.Categories.Currency exposing
     , currencyBdt
     , currencyBrl
     , currencyBtc
-    , currencyCny
     , currencyEth
-    , currencyEur
+    , currencyCny
     , currencyEurOff
+    , currencyEur
     , currencyFra
     , currencyGbp
     , currencyIls
     , currencyInr
     , currencyJpy
     , currencyKrw
-    , currencyKzt
     , currencyMnt
-    , currencyNgn
+    , currencyKzt
     , currencyPhp
+    , currencyNgn
     , currencyRial
     , currencyRub
     , currencyRupee
@@ -91,20 +91,20 @@ module Material.Icons.Categories.Currency exposing
 @docs currencyBdt
 @docs currencyBrl
 @docs currencyBtc
-@docs currencyCny
 @docs currencyEth
-@docs currencyEur
+@docs currencyCny
 @docs currencyEurOff
+@docs currencyEur
 @docs currencyFra
 @docs currencyGbp
 @docs currencyIls
 @docs currencyInr
 @docs currencyJpy
 @docs currencyKrw
-@docs currencyKzt
 @docs currencyMnt
-@docs currencyNgn
+@docs currencyKzt
 @docs currencyPhp
+@docs currencyNgn
 @docs currencyRial
 @docs currencyRub
 @docs currencyRupee
@@ -416,16 +416,6 @@ currencyBtc =
     Material.Icons.Directory.C.currencyBtc
 
 
-{-| The [`currency-cny`](https://pictogrammers.com/library/mdi/icon/currency-cny/) icon.
-
-![currency-cny](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjI4IDEySDE4VjE0SDEzVjIxSDExVjE0SDZWMTJIMTAuNzJMNSAzSDcuMzdMMTIgMTAuMjlMMTYuNjMgM0gxOUwxMy4yOCAxMloiIC8+PC9zdmc+)
-
--}
-currencyCny : IconShape
-currencyCny =
-    Material.Icons.Directory.C.currencyCny
-
-
 {-| The [`currency-eth`](https://pictogrammers.com/library/mdi/icon/currency-eth/) icon.
 
 ![currency-eth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsNUgxOFY3SDZNNywxMUgxN1YxM0g3TTUuNSwxN0gxOC41VjE5SDUuNSIgLz48L3N2Zz4=)
@@ -436,14 +426,14 @@ currencyEth =
     Material.Icons.Directory.C.currencyEth
 
 
-{-| The [`currency-eur`](https://pictogrammers.com/library/mdi/icon/currency-eur/) icon.
+{-| The [`currency-cny`](https://pictogrammers.com/library/mdi/icon/currency-cny/) icon.
 
-![currency-eur](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE4LjVDMTIuNSAxOC41IDEwLjMyIDE3LjA4IDkuMjQgMTVIMTVMMTYgMTNIOC41OEM4LjUzIDEyLjY3IDguNSAxMi4zNCA4LjUgMTJTOC41MyAxMS4zMyA4LjU4IDExSDE1TDE2IDlIOS4yNEMxMC4zMiA2LjkyIDEyLjUgNS41IDE1IDUuNUMxNi42MSA1LjUgMTguMDkgNi4wOSAxOS4yMyA3LjA3TDIxIDUuM0MxOS40MSAzLjg3IDE3LjMgMyAxNSAzQzExLjA4IDMgNy43NiA1LjUgNi41IDlIM0wyIDExSDYuMDZDNiAxMS4zMyA2IDExLjY2IDYgMTJTNiAxMi42NyA2LjA2IDEzSDNMMiAxNUg2LjVDNy43NiAxOC41IDExLjA4IDIxIDE1IDIxQzE3LjMxIDIxIDE5LjQxIDIwLjEzIDIxIDE4LjdMMTkuMjIgMTYuOTNDMTguMDkgMTcuOTEgMTYuNjIgMTguNSAxNSAxOC41WiIgLz48L3N2Zz4=)
+![currency-cny](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjI4IDEySDE4VjE0SDEzVjIxSDExVjE0SDZWMTJIMTAuNzJMNSAzSDcuMzdMMTIgMTAuMjlMMTYuNjMgM0gxOUwxMy4yOCAxMloiIC8+PC9zdmc+)
 
 -}
-currencyEur : IconShape
-currencyEur =
-    Material.Icons.Directory.C.currencyEur
+currencyCny : IconShape
+currencyCny =
+    Material.Icons.Directory.C.currencyCny
 
 
 {-| The [`currency-eur-off`](https://pictogrammers.com/library/mdi/icon/currency-eur-off/) icon.
@@ -454,6 +444,16 @@ currencyEur =
 currencyEurOff : IconShape
 currencyEurOff =
     Material.Icons.Directory.C.currencyEurOff
+
+
+{-| The [`currency-eur`](https://pictogrammers.com/library/mdi/icon/currency-eur/) icon.
+
+![currency-eur](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE4LjVDMTIuNSAxOC41IDEwLjMyIDE3LjA4IDkuMjQgMTVIMTVMMTYgMTNIOC41OEM4LjUzIDEyLjY3IDguNSAxMi4zNCA4LjUgMTJTOC41MyAxMS4zMyA4LjU4IDExSDE1TDE2IDlIOS4yNEMxMC4zMiA2LjkyIDEyLjUgNS41IDE1IDUuNUMxNi42MSA1LjUgMTguMDkgNi4wOSAxOS4yMyA3LjA3TDIxIDUuM0MxOS40MSAzLjg3IDE3LjMgMyAxNSAzQzExLjA4IDMgNy43NiA1LjUgNi41IDlIM0wyIDExSDYuMDZDNiAxMS4zMyA2IDExLjY2IDYgMTJTNiAxMi42NyA2LjA2IDEzSDNMMiAxNUg2LjVDNy43NiAxOC41IDExLjA4IDIxIDE1IDIxQzE3LjMxIDIxIDE5LjQxIDIwLjEzIDIxIDE4LjdMMTkuMjIgMTYuOTNDMTguMDkgMTcuOTEgMTYuNjIgMTguNSAxNSAxOC41WiIgLz48L3N2Zz4=)
+
+-}
+currencyEur : IconShape
+currencyEur =
+    Material.Icons.Directory.C.currencyEur
 
 
 {-| The [`currency-fra`](https://pictogrammers.com/library/mdi/icon/currency-fra/) icon.
@@ -516,16 +516,6 @@ currencyKrw =
     Material.Icons.Directory.C.currencyKrw
 
 
-{-| The [`currency-kzt`](https://pictogrammers.com/library/mdi/icon/currency-kzt/) icon.
-
-![currency-kzt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsM0gxOVY1SDVWM001LDZIMTlWOEgxM1YyMUgxMVY4SDVWNloiIC8+PC9zdmc+)
-
--}
-currencyKzt : IconShape
-currencyKzt =
-    Material.Icons.Directory.C.currencyKzt
-
-
 {-| The [`currency-mnt`](https://pictogrammers.com/library/mdi/icon/currency-mnt/) icon.
 
 ![currency-mnt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDVWOC42MkwxNyA3LjE3VjkuMjlMMTMgMTAuNzRWMTIuNUwxNyAxMS4wN1YxMy4yTDEzIDE0LjY1VjIxSDExVjE1LjM4TDcgMTYuODRWMTQuNzFMMTEgMTMuMjRWMTEuNDdMNyAxMi45MlYxMC44TDExIDkuMzVWNUg1VjNIMTlWNUgxM1oiIC8+PC9zdmc+)
@@ -536,14 +526,14 @@ currencyMnt =
     Material.Icons.Directory.C.currencyMnt
 
 
-{-| The [`currency-ngn`](https://pictogrammers.com/library/mdi/icon/currency-ngn/) icon.
+{-| The [`currency-kzt`](https://pictogrammers.com/library/mdi/icon/currency-kzt/) icon.
 
-![currency-ngn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsOUg2VjNIOEwxMS40Miw5SDE2VjNIMThWOUgyMFYxMUgxOFYxM0gyMFYxNUgxOFYyMUgxNkwxMi41NywxNUg4VjIxSDZWMTVINFYxM0g2VjExSDRWOU04LDlIOS4xM0w4LDcuMDNWOU04LDExVjEzSDExLjQyTDEwLjI4LDExSDhNMTYsMTdWMTVIMTQuODVMMTYsMTdNMTIuNTYsMTFMMTMuNzEsMTNIMTZWMTFIMTIuNTZaIiAvPjwvc3ZnPg==)
+![currency-kzt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsM0gxOVY1SDVWM001LDZIMTlWOEgxM1YyMUgxMVY4SDVWNloiIC8+PC9zdmc+)
 
 -}
-currencyNgn : IconShape
-currencyNgn =
-    Material.Icons.Directory.C.currencyNgn
+currencyKzt : IconShape
+currencyKzt =
+    Material.Icons.Directory.C.currencyKzt
 
 
 {-| The [`currency-php`](https://pictogrammers.com/library/mdi/icon/currency-php/) icon.
@@ -554,6 +544,16 @@ currencyNgn =
 currencyPhp : IconShape
 currencyPhp =
     Material.Icons.Directory.C.currencyPhp
+
+
+{-| The [`currency-ngn`](https://pictogrammers.com/library/mdi/icon/currency-ngn/) icon.
+
+![currency-ngn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsOUg2VjNIOEwxMS40Miw5SDE2VjNIMThWOUgyMFYxMUgxOFYxM0gyMFYxNUgxOFYyMUgxNkwxMi41NywxNUg4VjIxSDZWMTVINFYxM0g2VjExSDRWOU04LDlIOS4xM0w4LDcuMDNWOU04LDExVjEzSDExLjQyTDEwLjI4LDExSDhNMTYsMTdWMTVIMTQuODVMMTYsMTdNMTIuNTYsMTFMMTMuNzEsMTNIMTZWMTFIMTIuNTZaIiAvPjwvc3ZnPg==)
+
+-}
+currencyNgn : IconShape
+currencyNgn =
+    Material.Icons.Directory.C.currencyNgn
 
 
 {-| The [`currency-rial`](https://pictogrammers.com/library/mdi/icon/currency-rial/) icon.

@@ -9,15 +9,15 @@ module Material.Icons.Categories.Banking exposing
     , accountCreditCardOutline
     , bank
     , bankCheck
-    , bankCircle
-    , bankCircleOutline
     , bankMinus
-    , bankOff
+    , bankCircleOutline
+    , bankCircle
     , bankOffOutline
+    , bankOff
     , bankOutline
     , bankPlus
-    , bankRemove
     , bankTransfer
+    , bankRemove
     , bankTransferIn
     , bankTransferOut
     , cash
@@ -42,70 +42,70 @@ module Material.Icons.Categories.Banking exposing
     , checkbookArrowRight
     , circleMultiple
     , circleMultipleOutline
+    , creditCardCheckOutline
     , creditCard
     , creditCardCheck
-    , creditCardCheckOutline
     , creditCardChip
-    , creditCardChipOutline
     , creditCardClock
+    , creditCardChipOutline
     , creditCardClockOutline
     , creditCardEdit
     , creditCardEditOutline
-    , creditCardFast
     , creditCardFastOutline
+    , creditCardFast
     , creditCardLock
     , creditCardLockOutline
     , creditCardMarker
-    , creditCardMarkerOutline
     , creditCardMinus
+    , creditCardMarkerOutline
     , creditCardMinusOutline
     , creditCardMultiple
     , creditCardMultipleOutline
-    , creditCardOff
     , creditCardOffOutline
-    , creditCardOutline
+    , creditCardOff
     , creditCardPlus
+    , creditCardOutline
     , creditCardPlusOutline
     , creditCardRefresh
-    , creditCardRefreshOutline
     , creditCardRefund
     , creditCardRefundOutline
+    , creditCardRefreshOutline
     , creditCardRemove
     , creditCardRemoveOutline
-    , creditCardScan
     , creditCardScanOutline
-    , creditCardSearch
+    , creditCardScan
     , creditCardSearchOutline
+    , creditCardSearch
     , creditCardSettings
     , creditCardSettingsOutline
     , creditCardSync
-    , creditCardSyncOutline
     , creditCardWireless
+    , creditCardSyncOutline
     , creditCardWirelessOff
     , creditCardWirelessOffOutline
     , creditCardWirelessOutline
     , currencyBdt
     , currencyBrl
     , currencyBtc
-    , currencyCny
     , currencyEth
-    , currencyEur
+    , currencyCny
     , currencyEurOff
+    , currencyEur
     , currencyFra
     , currencyGbp
     , currencyIls
     , currencyInr
     , currencyJpy
     , currencyKrw
-    , currencyKzt
     , currencyMnt
-    , currencyNgn
+    , currencyKzt
     , currencyPhp
+    , currencyNgn
     , currencyRial
     , currencyRub
+    , currencyThb
     , currencyRupee
     , currencySign
-    , currencyThb
     , currencyTry
     , currencyTwd
     , currencyUah
@@ -119,14 +119,14 @@ module Material.Icons.Categories.Banking exposing
     , invoice
     , invoiceArrowLeft
     , invoiceArrowRight
-    , invoiceArrowRightOutline
     , invoiceCheck
+    , invoiceArrowRightOutline
     , invoiceCheckOutline
     , invoiceClock
     , invoiceClockOutline
+    , invoiceEditOutline
     , invoiceEdit
     , invoiceExportOutline
-    , invoiceEditOutline
     , invoiceFast
     , invoiceFastOutline
     , invoiceImport
@@ -134,43 +134,43 @@ module Material.Icons.Categories.Banking exposing
     , invoiceList
     , invoiceListOutline
     , invoiceMinus
-    , invoiceMinusOutline
     , invoiceMultiple
-    , invoiceMultipleOutline
+    , invoiceMinusOutline
     , invoiceOutline
     , invoicePlus
     , invoicePlusOutline
-    , invoiceRemove
+    , invoiceMultipleOutline
     , invoiceRemoveOutline
+    , invoiceRemove
     , invoiceSend
     , invoiceSendOutline
+    , invoiceTextArrowLeftOutline
     , invoiceText
     , invoiceTextArrowLeft
-    , invoiceTextArrowLeftOutline
     , invoiceTextArrowRight
-    , invoiceTextArrowRightOutline
     , invoiceTextCheck
+    , invoiceTextArrowRightOutline
     , invoiceTextCheckOutline
     , invoiceTextClock
     , invoiceTextClockOutline
-    , invoiceTextEdit
-    , invoiceTextFast
     , invoiceTextEditOutline
-    , invoiceTextMinus
+    , invoiceTextEdit
     , invoiceTextFastOutline
+    , invoiceTextFast
+    , invoiceTextMinus
     , invoiceTextMinusOutline
     , invoiceTextMultiple
-    , invoiceTextOutline
     , invoiceTextMultipleOutline
+    , invoiceTextOutline
     , invoiceTextPlus
-    , invoiceTextRemoveOutline
     , invoiceTextRemove
     , invoiceTextPlusOutline
-    , invoiceTextSend
+    , invoiceTextRemoveOutline
     , invoiceTextSendOutline
+    , invoiceTextSend
     , networkPos
-    , piggyBank
     , piggyBankOutline
+    , piggyBank
     , receipt
     , receiptOutline
     , receiptText
@@ -187,8 +187,8 @@ module Material.Icons.Categories.Banking exposing
     , receiptTextMinus
     , receiptTextMinusOutline
     , receiptTextOutline
-    , receiptTextPlus
     , receiptTextPlusOutline
+    , receiptTextPlus
     , receiptTextRemove
     , receiptTextRemoveOutline
     , receiptTextSend
@@ -212,15 +212,15 @@ module Material.Icons.Categories.Banking exposing
 @docs accountCreditCardOutline
 @docs bank
 @docs bankCheck
-@docs bankCircle
-@docs bankCircleOutline
 @docs bankMinus
-@docs bankOff
+@docs bankCircleOutline
+@docs bankCircle
 @docs bankOffOutline
+@docs bankOff
 @docs bankOutline
 @docs bankPlus
-@docs bankRemove
 @docs bankTransfer
+@docs bankRemove
 @docs bankTransferIn
 @docs bankTransferOut
 @docs cash
@@ -245,70 +245,70 @@ module Material.Icons.Categories.Banking exposing
 @docs checkbookArrowRight
 @docs circleMultiple
 @docs circleMultipleOutline
+@docs creditCardCheckOutline
 @docs creditCard
 @docs creditCardCheck
-@docs creditCardCheckOutline
 @docs creditCardChip
-@docs creditCardChipOutline
 @docs creditCardClock
+@docs creditCardChipOutline
 @docs creditCardClockOutline
 @docs creditCardEdit
 @docs creditCardEditOutline
-@docs creditCardFast
 @docs creditCardFastOutline
+@docs creditCardFast
 @docs creditCardLock
 @docs creditCardLockOutline
 @docs creditCardMarker
-@docs creditCardMarkerOutline
 @docs creditCardMinus
+@docs creditCardMarkerOutline
 @docs creditCardMinusOutline
 @docs creditCardMultiple
 @docs creditCardMultipleOutline
-@docs creditCardOff
 @docs creditCardOffOutline
-@docs creditCardOutline
+@docs creditCardOff
 @docs creditCardPlus
+@docs creditCardOutline
 @docs creditCardPlusOutline
 @docs creditCardRefresh
-@docs creditCardRefreshOutline
 @docs creditCardRefund
 @docs creditCardRefundOutline
+@docs creditCardRefreshOutline
 @docs creditCardRemove
 @docs creditCardRemoveOutline
-@docs creditCardScan
 @docs creditCardScanOutline
-@docs creditCardSearch
+@docs creditCardScan
 @docs creditCardSearchOutline
+@docs creditCardSearch
 @docs creditCardSettings
 @docs creditCardSettingsOutline
 @docs creditCardSync
-@docs creditCardSyncOutline
 @docs creditCardWireless
+@docs creditCardSyncOutline
 @docs creditCardWirelessOff
 @docs creditCardWirelessOffOutline
 @docs creditCardWirelessOutline
 @docs currencyBdt
 @docs currencyBrl
 @docs currencyBtc
-@docs currencyCny
 @docs currencyEth
-@docs currencyEur
+@docs currencyCny
 @docs currencyEurOff
+@docs currencyEur
 @docs currencyFra
 @docs currencyGbp
 @docs currencyIls
 @docs currencyInr
 @docs currencyJpy
 @docs currencyKrw
-@docs currencyKzt
 @docs currencyMnt
-@docs currencyNgn
+@docs currencyKzt
 @docs currencyPhp
+@docs currencyNgn
 @docs currencyRial
 @docs currencyRub
+@docs currencyThb
 @docs currencyRupee
 @docs currencySign
-@docs currencyThb
 @docs currencyTry
 @docs currencyTwd
 @docs currencyUah
@@ -322,14 +322,14 @@ module Material.Icons.Categories.Banking exposing
 @docs invoice
 @docs invoiceArrowLeft
 @docs invoiceArrowRight
-@docs invoiceArrowRightOutline
 @docs invoiceCheck
+@docs invoiceArrowRightOutline
 @docs invoiceCheckOutline
 @docs invoiceClock
 @docs invoiceClockOutline
+@docs invoiceEditOutline
 @docs invoiceEdit
 @docs invoiceExportOutline
-@docs invoiceEditOutline
 @docs invoiceFast
 @docs invoiceFastOutline
 @docs invoiceImport
@@ -337,43 +337,43 @@ module Material.Icons.Categories.Banking exposing
 @docs invoiceList
 @docs invoiceListOutline
 @docs invoiceMinus
-@docs invoiceMinusOutline
 @docs invoiceMultiple
-@docs invoiceMultipleOutline
+@docs invoiceMinusOutline
 @docs invoiceOutline
 @docs invoicePlus
 @docs invoicePlusOutline
-@docs invoiceRemove
+@docs invoiceMultipleOutline
 @docs invoiceRemoveOutline
+@docs invoiceRemove
 @docs invoiceSend
 @docs invoiceSendOutline
+@docs invoiceTextArrowLeftOutline
 @docs invoiceText
 @docs invoiceTextArrowLeft
-@docs invoiceTextArrowLeftOutline
 @docs invoiceTextArrowRight
-@docs invoiceTextArrowRightOutline
 @docs invoiceTextCheck
+@docs invoiceTextArrowRightOutline
 @docs invoiceTextCheckOutline
 @docs invoiceTextClock
 @docs invoiceTextClockOutline
-@docs invoiceTextEdit
-@docs invoiceTextFast
 @docs invoiceTextEditOutline
-@docs invoiceTextMinus
+@docs invoiceTextEdit
 @docs invoiceTextFastOutline
+@docs invoiceTextFast
+@docs invoiceTextMinus
 @docs invoiceTextMinusOutline
 @docs invoiceTextMultiple
-@docs invoiceTextOutline
 @docs invoiceTextMultipleOutline
+@docs invoiceTextOutline
 @docs invoiceTextPlus
-@docs invoiceTextRemoveOutline
 @docs invoiceTextRemove
 @docs invoiceTextPlusOutline
-@docs invoiceTextSend
+@docs invoiceTextRemoveOutline
 @docs invoiceTextSendOutline
+@docs invoiceTextSend
 @docs networkPos
-@docs piggyBank
 @docs piggyBankOutline
+@docs piggyBank
 @docs receipt
 @docs receiptOutline
 @docs receiptText
@@ -390,8 +390,8 @@ module Material.Icons.Categories.Banking exposing
 @docs receiptTextMinus
 @docs receiptTextMinusOutline
 @docs receiptTextOutline
-@docs receiptTextPlus
 @docs receiptTextPlusOutline
+@docs receiptTextPlus
 @docs receiptTextRemove
 @docs receiptTextRemoveOutline
 @docs receiptTextSend
@@ -483,14 +483,14 @@ bankCheck =
     Material.Icons.Directory.B.bankCheck
 
 
-{-| The [`bank-circle`](https://pictogrammers.com/library/mdi/icon/bank-circle/) icon.
+{-| The [`bank-minus`](https://pictogrammers.com/library/mdi/icon/bank-minus/) icon.
 
-![bank-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDNi41IDIgMiA2LjUgMiAxMlM2LjUgMjIgMTIgMjIgMjIgMTcuNSAyMiAxMiAxNy41IDIgMTIgMk0xNyAxN0g3VjE1SDE3VjE3TTggMTRWMTFIMTBWMTRIOE0xMSAxNFYxMUgxM1YxNEgxMU0xNCAxNFYxMUgxNlYxNEgxNE0xNyAxMEg3VjguNUwxMiA2TDE3IDguNVYxMFoiIC8+PC9zdmc+)
+![bank-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDE3SDIyVjE5SDE0VjE3TTExLjUsMUwyMSw2VjhIMlY2TDExLjUsMU0xNiwxMEgxOVYxMi4wOEwxOCwxMkMxNy4zLDEyIDE2LjYzLDEyLjEyIDE2LDEyLjM0VjEwTTIsMjJWMTlIMTIuMDhDMTIuMjcsMjAuMTQgMTIuNzksMjEuMTcgMTMuNTMsMjJIMk0xMCwxMEgxM1YxNC42OEMxMi41NCwxNS4zNyAxMi4yMiwxNi4xNSAxMi4wOCwxN0gxMFYxME00LDEwSDdWMTdINFYxMFoiIC8+PC9zdmc+)
 
 -}
-bankCircle : IconShape
-bankCircle =
-    Material.Icons.Directory.B.bankCircle
+bankMinus : IconShape
+bankMinus =
+    Material.Icons.Directory.B.bankMinus
 
 
 {-| The [`bank-circle-outline`](https://pictogrammers.com/library/mdi/icon/bank-circle-outline/) icon.
@@ -503,24 +503,14 @@ bankCircleOutline =
     Material.Icons.Directory.B.bankCircleOutline
 
 
-{-| The [`bank-minus`](https://pictogrammers.com/library/mdi/icon/bank-minus/) icon.
+{-| The [`bank-circle`](https://pictogrammers.com/library/mdi/icon/bank-circle/) icon.
 
-![bank-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDE3SDIyVjE5SDE0VjE3TTExLjUsMUwyMSw2VjhIMlY2TDExLjUsMU0xNiwxMEgxOVYxMi4wOEwxOCwxMkMxNy4zLDEyIDE2LjYzLDEyLjEyIDE2LDEyLjM0VjEwTTIsMjJWMTlIMTIuMDhDMTIuMjcsMjAuMTQgMTIuNzksMjEuMTcgMTMuNTMsMjJIMk0xMCwxMEgxM1YxNC42OEMxMi41NCwxNS4zNyAxMi4yMiwxNi4xNSAxMi4wOCwxN0gxMFYxME00LDEwSDdWMTdINFYxMFoiIC8+PC9zdmc+)
-
--}
-bankMinus : IconShape
-bankMinus =
-    Material.Icons.Directory.B.bankMinus
-
-
-{-| The [`bank-off`](https://pictogrammers.com/library/mdi/icon/bank-off/) icon.
-
-![bank-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjggMjIuN0wyMC4xIDIySDJWMTlIMTcuMUwxMyAxNC45VjE3SDEwVjExLjlMNi4xIDhIMlY2TDMuNCA1LjNMMS4xIDNMMi40IDEuN0wyMi4xIDIxLjRMMjAuOCAyMi43TTQgMTBWMTdIN1YxMEg0TTIxIDhWNkwxMS41IDFMNi43IDMuNUwxMS4yIDhIMjFNMTkgMTUuOFYxMEgxNlYxMi44TDE5IDE1LjhaIiAvPjwvc3ZnPg==)
+![bank-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDNi41IDIgMiA2LjUgMiAxMlM2LjUgMjIgMTIgMjIgMjIgMTcuNSAyMiAxMiAxNy41IDIgMTIgMk0xNyAxN0g3VjE1SDE3VjE3TTggMTRWMTFIMTBWMTRIOE0xMSAxNFYxMUgxM1YxNEgxMU0xNCAxNFYxMUgxNlYxNEgxNE0xNyAxMEg3VjguNUwxMiA2TDE3IDguNVYxMFoiIC8+PC9zdmc+)
 
 -}
-bankOff : IconShape
-bankOff =
-    Material.Icons.Directory.B.bankOff
+bankCircle : IconShape
+bankCircle =
+    Material.Icons.Directory.B.bankCircle
 
 
 {-| The [`bank-off-outline`](https://pictogrammers.com/library/mdi/icon/bank-off-outline/) icon.
@@ -531,6 +521,16 @@ bankOff =
 bankOffOutline : IconShape
 bankOffOutline =
     Material.Icons.Directory.B.bankOffOutline
+
+
+{-| The [`bank-off`](https://pictogrammers.com/library/mdi/icon/bank-off/) icon.
+
+![bank-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjggMjIuN0wyMC4xIDIySDJWMTlIMTcuMUwxMyAxNC45VjE3SDEwVjExLjlMNi4xIDhIMlY2TDMuNCA1LjNMMS4xIDNMMi40IDEuN0wyMi4xIDIxLjRMMjAuOCAyMi43TTQgMTBWMTdIN1YxMEg0TTIxIDhWNkwxMS41IDFMNi43IDMuNUwxMS4yIDhIMjFNMTkgMTUuOFYxMEgxNlYxMi44TDE5IDE1LjhaIiAvPjwvc3ZnPg==)
+
+-}
+bankOff : IconShape
+bankOff =
+    Material.Icons.Directory.B.bankOff
 
 
 {-| The [`bank-outline`](https://pictogrammers.com/library/mdi/icon/bank-outline/) icon.
@@ -553,16 +553,6 @@ bankPlus =
     Material.Icons.Directory.B.bankPlus
 
 
-{-| The [`bank-remove`](https://pictogrammers.com/library/mdi/icon/bank-remove/) icon.
-
-![bank-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjQ2LDE1Ljg4TDE1Ljg4LDE0LjQ2TDE4LDE2LjU5TDIwLjEyLDE0LjQ2TDIxLjU0LDE1Ljg4TDE5LjQxLDE4TDIxLjU0LDIwLjEyTDIwLjEyLDIxLjU0TDE4LDE5LjQxTDE1Ljg4LDIxLjU0TDE0LjQ2LDIwLjEyTDE2LjU5LDE4TDE0LjQ2LDE1Ljg4TTExLjUsMUwyMSw2VjhIMlY2TDExLjUsMU0xNiwxMEgxOVYxMi4wOEwxOCwxMkMxNy4zLDEyIDE2LjYzLDEyLjEyIDE2LDEyLjM0VjEwTTIsMjJWMTlIMTIuMDhDMTIuMjcsMjAuMTQgMTIuNzksMjEuMTcgMTMuNTMsMjJIMk0xMCwxMEgxM1YxNC42OEMxMi41NCwxNS4zNyAxMi4yMiwxNi4xNSAxMi4wOCwxN0gxMFYxME00LDEwSDdWMTdINFYxMFoiIC8+PC9zdmc+)
-
--}
-bankRemove : IconShape
-bankRemove =
-    Material.Icons.Directory.B.bankRemove
-
-
 {-| The [`bank-transfer`](https://pictogrammers.com/library/mdi/icon/bank-transfer/) icon.
 
 ![bank-transfer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE0VjExSDE4VjlMMjIsMTIuNUwxOCwxNlYxNEgxNU0xNCw3LjdWOUgyVjcuN0w4LDRMMTQsNy43TTcsMTBIOVYxNUg3VjEwTTMsMTBINVYxNUgzVjEwTTEzLDEwVjEyLjVMMTEsMTQuM1YxMEgxM005LjEsMTZMOC41LDE2LjVMMTAuMiwxOEgyVjE2SDkuMU0xNywxNVYxOEgxNFYyMEwxMCwxNi41TDE0LDEzVjE1SDE3WiIgLz48L3N2Zz4=)
@@ -571,6 +561,16 @@ bankRemove =
 bankTransfer : IconShape
 bankTransfer =
     Material.Icons.Directory.B.bankTransfer
+
+
+{-| The [`bank-remove`](https://pictogrammers.com/library/mdi/icon/bank-remove/) icon.
+
+![bank-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjQ2LDE1Ljg4TDE1Ljg4LDE0LjQ2TDE4LDE2LjU5TDIwLjEyLDE0LjQ2TDIxLjU0LDE1Ljg4TDE5LjQxLDE4TDIxLjU0LDIwLjEyTDIwLjEyLDIxLjU0TDE4LDE5LjQxTDE1Ljg4LDIxLjU0TDE0LjQ2LDIwLjEyTDE2LjU5LDE4TDE0LjQ2LDE1Ljg4TTExLjUsMUwyMSw2VjhIMlY2TDExLjUsMU0xNiwxMEgxOVYxMi4wOEwxOCwxMkMxNy4zLDEyIDE2LjYzLDEyLjEyIDE2LDEyLjM0VjEwTTIsMjJWMTlIMTIuMDhDMTIuMjcsMjAuMTQgMTIuNzksMjEuMTcgMTMuNTMsMjJIMk0xMCwxMEgxM1YxNC42OEMxMi41NCwxNS4zNyAxMi4yMiwxNi4xNSAxMi4wOCwxN0gxMFYxME00LDEwSDdWMTdINFYxMFoiIC8+PC9zdmc+)
+
+-}
+bankRemove : IconShape
+bankRemove =
+    Material.Icons.Directory.B.bankRemove
 
 
 {-| The [`bank-transfer-in`](https://pictogrammers.com/library/mdi/icon/bank-transfer-in/) icon.
@@ -813,6 +813,16 @@ circleMultipleOutline =
     Material.Icons.Directory.C.circleMultipleOutline
 
 
+{-| The [`credit-card-check-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-check-outline/) icon.
+
+![credit-card-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE4LjY2IDEzLjA0IDE4LjMzIDEzLjA5IDE4SDNWMTJIMTlWMTNDMTkuNyAxMyAyMC4zNyAxMy4xMyAyMSAxMy4zNVY2QzIxIDQuODkgMjAuMTEgNCAxOSA0SDNDMS44OSA0IDEgNC44OSAxIDZWMThDMSAxOS4xIDEuODkgMjAgMyAyMEgxMy4wOUMxMy4wNCAxOS42NyAxMyAxOS4zNCAxMyAxOU0zIDZIMTlWOEgzVjZNMTcuNzUgMjJMMTUgMTlMMTYuMTYgMTcuODRMMTcuNzUgMTkuNDNMMjEuMzQgMTUuODRMMjIuNSAxNy4yNUwxNy43NSAyMiIgLz48L3N2Zz4=)
+
+-}
+creditCardCheckOutline : IconShape
+creditCardCheckOutline =
+    Material.Icons.Directory.C.creditCardCheckOutline
+
+
 {-| The [`credit-card`](https://pictogrammers.com/library/mdi/icon/credit-card/) icon.
 
 ![credit-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRINEEyIDIgMCAwIDAgMiA2VjE4QTIgMiAwIDAgMCA0IDIwSDIwQTIgMiAwIDAgMCAyMiAxOFY2QTIgMiAwIDAgMCAyMCA0TTIwIDExSDRWOEgyMFoiIC8+PC9zdmc+)
@@ -833,16 +843,6 @@ creditCardCheck =
     Material.Icons.Directory.C.creditCardCheck
 
 
-{-| The [`credit-card-check-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-check-outline/) icon.
-
-![credit-card-check-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE4LjY2IDEzLjA0IDE4LjMzIDEzLjA5IDE4SDNWMTJIMTlWMTNDMTkuNyAxMyAyMC4zNyAxMy4xMyAyMSAxMy4zNVY2QzIxIDQuODkgMjAuMTEgNCAxOSA0SDNDMS44OSA0IDEgNC44OSAxIDZWMThDMSAxOS4xIDEuODkgMjAgMyAyMEgxMy4wOUMxMy4wNCAxOS42NyAxMyAxOS4zNCAxMyAxOU0zIDZIMTlWOEgzVjZNMTcuNzUgMjJMMTUgMTlMMTYuMTYgMTcuODRMMTcuNzUgMTkuNDNMMjEuMzQgMTUuODRMMjIuNSAxNy4yNUwxNy43NSAyMiIgLz48L3N2Zz4=)
-
--}
-creditCardCheckOutline : IconShape
-creditCardCheckOutline =
-    Material.Icons.Directory.C.creditCardCheckOutline
-
-
 {-| The [`credit-card-chip`](https://pictogrammers.com/library/mdi/icon/credit-card-chip/) icon.
 
 ![credit-card-chip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRINEMyLjg5IDQgMiA0Ljg5IDIgNlYxOEMyIDE5LjExIDIuODkgMjAgNCAyMEgyMEMyMS4xMSAyMCAyMiAxOS4xMSAyMiAxOFY2QzIyIDQuODkgMjEuMTEgNCAyMCA0TTEwIDE0SDVWMTBIMTBWMTRaIiAvPjwvc3ZnPg==)
@@ -853,16 +853,6 @@ creditCardChip =
     Material.Icons.Directory.C.creditCardChip
 
 
-{-| The [`credit-card-chip-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-chip-outline/) icon.
-
-![credit-card-chip-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZMMjAgMThMNCAxOEw0IDZIMjBNMjAgNEg0QzIuODkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi44OSAyMCA0IDIwSDIwQzIxLjExIDIwIDIyIDE5LjExIDIyIDE4VjZDMjIgNC44OSAyMS4xMSA0IDIwIDRNMTEgMTBINlYxNEgxMVYxMFoiIC8+PC9zdmc+)
-
--}
-creditCardChipOutline : IconShape
-creditCardChipOutline =
-    Material.Icons.Directory.C.creditCardChipOutline
-
-
 {-| The [`credit-card-clock`](https://pictogrammers.com/library/mdi/icon/credit-card-clock/) icon.
 
 ![credit-card-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE0SDE3LjVWMTYuODJMMTkuOTQsMTguMjNMMTkuMTksMTkuNTNMMTYsMTcuNjlWMTRNMjQsMTdBNyw3IDAgMCwxIDE3LDI0QzE0LjIxLDI0IDExLjgsMjIuMzYgMTAuNjcsMjBINEMyLjg5LDIwIDIsMTkuMSAyLDE4VjZDMiw0Ljg5IDIuODksNCA0LDRIMjBBMiwyIDAgMCwxIDIyLDZWMTIuMUMyMy4yNCwxMy4zNiAyNCwxNS4wOSAyNCwxN00xNywxMkE1LDUgMCAwLDAgMTIsMTdBNSw1IDAgMCwwIDE3LDIyQTUsNSAwIDAsMCAyMiwxN0E1LDUgMCAwLDAgMTcsMTJNMjAsMTBWN0g0VjEwSDIwWiIgLz48L3N2Zz4=)
@@ -871,6 +861,16 @@ creditCardChipOutline =
 creditCardClock : IconShape
 creditCardClock =
     Material.Icons.Directory.C.creditCardClock
+
+
+{-| The [`credit-card-chip-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-chip-outline/) icon.
+
+![credit-card-chip-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZMMjAgMThMNCAxOEw0IDZIMjBNMjAgNEg0QzIuODkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi44OSAyMCA0IDIwSDIwQzIxLjExIDIwIDIyIDE5LjExIDIyIDE4VjZDMjIgNC44OSAyMS4xMSA0IDIwIDRNMTEgMTBINlYxNEgxMVYxMFoiIC8+PC9zdmc+)
+
+-}
+creditCardChipOutline : IconShape
+creditCardChipOutline =
+    Material.Icons.Directory.C.creditCardChipOutline
 
 
 {-| The [`credit-card-clock-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-clock-outline/) icon.
@@ -903,16 +903,6 @@ creditCardEditOutline =
     Material.Icons.Directory.C.creditCardEditOutline
 
 
-{-| The [`credit-card-fast`](https://pictogrammers.com/library/mdi/icon/credit-card-fast/) icon.
-
-![credit-card-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgOEMyLjQ1IDggMiA3LjU1IDIgN1MyLjQ1IDYgMyA2SDUuNTRDNS4xOSA2LjYgNSA3LjI5IDUgOEgzTTUgMTNIMkMxLjQ1IDEzIDEgMTIuNTUgMSAxMlMxLjQ1IDExIDIgMTFINVYxM00xIDE4Qy40NDggMTggMCAxNy41NSAwIDE3Uy40NDggMTYgMSAxNkg1QzUgMTYuNzEgNS4xOSAxNy40IDUuNTQgMThIMU0yMSA2SDlDNy44OSA2IDcgNi44OSA3IDhWMTZDNyAxNy4xMSA3Ljg5IDE4IDkgMThIMjFDMjIuMTEgMTggMjMgMTcuMTEgMjMgMTZWOEMyMyA2Ljg5IDIyLjExIDYgMjEgNk0yMSAxMkg5VjlIMjFWMTJaIiAvPjwvc3ZnPg==)
-
--}
-creditCardFast : IconShape
-creditCardFast =
-    Material.Icons.Directory.C.creditCardFast
-
-
 {-| The [`credit-card-fast-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-fast-outline/) icon.
 
 ![credit-card-fast-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgOEMyLjQ1IDggMiA3LjU1IDIgN1MyLjQ1IDYgMyA2SDUuNTRDNS4xOSA2LjYgNSA3LjI5IDUgOEgzTTUgMTNIMkMxLjQ1IDEzIDEgMTIuNTUgMSAxMlMxLjQ1IDExIDIgMTFINVYxM00xIDE4Qy40NDggMTggMCAxNy41NSAwIDE3Uy40NDggMTYgMSAxNkg1QzUgMTYuNzEgNS4xOSAxNy40IDUuNTQgMThIMU0yMSA2SDlDNy44OSA2IDcgNi44OSA3IDhWMTZDNyAxNy4xMSA3Ljg5IDE4IDkgMThIMjFDMjIuMTEgMTggMjMgMTcuMTEgMjMgMTZWOEMyMyA2Ljg5IDIyLjExIDYgMjEgNk0yMSA4VjlIOVY4SDIxTTkgMTZMOSAxMkgyMUwyMSAxNkw5IDE2WiIgLz48L3N2Zz4=)
@@ -921,6 +911,16 @@ creditCardFast =
 creditCardFastOutline : IconShape
 creditCardFastOutline =
     Material.Icons.Directory.C.creditCardFastOutline
+
+
+{-| The [`credit-card-fast`](https://pictogrammers.com/library/mdi/icon/credit-card-fast/) icon.
+
+![credit-card-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgOEMyLjQ1IDggMiA3LjU1IDIgN1MyLjQ1IDYgMyA2SDUuNTRDNS4xOSA2LjYgNSA3LjI5IDUgOEgzTTUgMTNIMkMxLjQ1IDEzIDEgMTIuNTUgMSAxMlMxLjQ1IDExIDIgMTFINVYxM00xIDE4Qy40NDggMTggMCAxNy41NSAwIDE3Uy40NDggMTYgMSAxNkg1QzUgMTYuNzEgNS4xOSAxNy40IDUuNTQgMThIMU0yMSA2SDlDNy44OSA2IDcgNi44OSA3IDhWMTZDNyAxNy4xMSA3Ljg5IDE4IDkgMThIMjFDMjIuMTEgMTggMjMgMTcuMTEgMjMgMTZWOEMyMyA2Ljg5IDIyLjExIDYgMjEgNk0yMSAxMkg5VjlIMjFWMTJaIiAvPjwvc3ZnPg==)
+
+-}
+creditCardFast : IconShape
+creditCardFast =
+    Material.Icons.Directory.C.creditCardFast
 
 
 {-| The [`credit-card-lock`](https://pictogrammers.com/library/mdi/icon/credit-card-lock/) icon.
@@ -953,16 +953,6 @@ creditCardMarker =
     Material.Icons.Directory.C.creditCardMarker
 
 
-{-| The [`credit-card-marker-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-marker-outline/) icon.
-
-![credit-card-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjUsMThINFYxMkgxNC4zQzE1LjMsMTAuOCAxNi44LDEwIDE4LjUsMTBDMTkuOCwxMCAyMSwxMC41IDIyLDExLjNWNkEyLDIgMCAwLDAgMjAsNEg0QTIsMiAwIDAsMCAyLDZWMThBMiwyIDAgMCwwIDQsMjBIMTQuNkMxNC4yLDE5LjQgMTMuOCwxOC43IDEzLjUsMThNNCw2SDIwVjhINFY2TTE4LjUsMTJDMTYuNiwxMiAxNSwxMy42IDE1LDE1LjVDMTUsMTguMSAxOC41LDIyIDE4LjUsMjJDMTguNSwyMiAyMiwxOC4xIDIyLDE1LjVDMjIsMTMuNiAyMC40LDEyIDE4LjUsMTJNMTguNSwxNi44QzE3LjgsMTYuOCAxNy4zLDE2LjIgMTcuMywxNS42QzE3LjMsMTQuOSAxNy45LDE0LjQgMTguNSwxNC40QzE5LjEsMTQuNCAxOS43LDE1IDE5LjcsMTUuNkMxOS44LDE2LjIgMTkuMiwxNi44IDE4LjUsMTYuOFoiIC8+PC9zdmc+)
-
--}
-creditCardMarkerOutline : IconShape
-creditCardMarkerOutline =
-    Material.Icons.Directory.C.creditCardMarkerOutline
-
-
 {-| The [`credit-card-minus`](https://pictogrammers.com/library/mdi/icon/credit-card-minus/) icon.
 
 ![credit-card-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRINEMyLjkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi45IDIwIDQgMjBIMTMuMDlDMTMuMDMgMTkuNjcgMTMgMTkuMzQgMTMgMTlDMTMgMTUuNjkgMTUuNjkgMTMgMTkgMTNDMjAuMDYgMTMgMjEuMDkgMTMuMjggMjIgMTMuODFWNkMyMiA0Ljg5IDIxLjExIDQgMjAgNE0yMCAxMUg0VjhIMjBNMjMgMThWMjBIMTVWMThIMjNaIiAvPjwvc3ZnPg==)
@@ -971,6 +961,16 @@ creditCardMarkerOutline =
 creditCardMinus : IconShape
 creditCardMinus =
     Material.Icons.Directory.C.creditCardMinus
+
+
+{-| The [`credit-card-marker-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-marker-outline/) icon.
+
+![credit-card-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjUsMThINFYxMkgxNC4zQzE1LjMsMTAuOCAxNi44LDEwIDE4LjUsMTBDMTkuOCwxMCAyMSwxMC41IDIyLDExLjNWNkEyLDIgMCAwLDAgMjAsNEg0QTIsMiAwIDAsMCAyLDZWMThBMiwyIDAgMCwwIDQsMjBIMTQuNkMxNC4yLDE5LjQgMTMuOCwxOC43IDEzLjUsMThNNCw2SDIwVjhINFY2TTE4LjUsMTJDMTYuNiwxMiAxNSwxMy42IDE1LDE1LjVDMTUsMTguMSAxOC41LDIyIDE4LjUsMjJDMTguNSwyMiAyMiwxOC4xIDIyLDE1LjVDMjIsMTMuNiAyMC40LDEyIDE4LjUsMTJNMTguNSwxNi44QzE3LjgsMTYuOCAxNy4zLDE2LjIgMTcuMywxNS42QzE3LjMsMTQuOSAxNy45LDE0LjQgMTguNSwxNC40QzE5LjEsMTQuNCAxOS43LDE1IDE5LjcsMTUuNkMxOS44LDE2LjIgMTkuMiwxNi44IDE4LjUsMTYuOFoiIC8+PC9zdmc+)
+
+-}
+creditCardMarkerOutline : IconShape
+creditCardMarkerOutline =
+    Material.Icons.Directory.C.creditCardMarkerOutline
 
 
 {-| The [`credit-card-minus-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-minus-outline/) icon.
@@ -1003,16 +1003,6 @@ creditCardMultipleOutline =
     Material.Icons.Directory.C.creditCardMultipleOutline
 
 
-{-| The [`credit-card-off`](https://pictogrammers.com/library/mdi/icon/credit-card-off/) icon.
-
-![credit-card-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjIgOEw3LjIgNEgyMEEyIDIgMCAwIDEgMjIgNlYxOEExLjkxIDEuOTEgMCAwIDEgMjEuODggMTguNjhMMTQuMiAxMUgyMFY4TTIwLjg0IDIyLjczTDE4LjExIDIwSDRBMiAyIDAgMCAxIDIgMThWNkEyIDIgMCAwIDEgMi42NSA0LjU0TDEuMTEgM0wyLjM5IDEuNzNMMjIuMTEgMjEuNDZNOS4xMSAxMUw2LjExIDhINFYxMVoiIC8+PC9zdmc+)
-
--}
-creditCardOff : IconShape
-creditCardOff =
-    Material.Icons.Directory.C.creditCardOff
-
-
 {-| The [`credit-card-off-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-off-outline/) icon.
 
 ![credit-card-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTAuOTMsNC4yTDIuMjEsMi45M0wyMCwyMC43MkwxOC43MywyMkwxNi43MywyMEg0QzIuODksMjAgMiwxOS4xIDIsMThWNkMyLDUuNzggMi4wNCw1LjU3IDIuMTEsNS4zOEwwLjkzLDQuMk0yMCw4VjZINy44Mkw1LjgyLDRIMjBBMiwyIDAgMCwxIDIyLDZWMThDMjIsMTguNiAyMS43NCwxOS4xMyAyMS4zMiwxOS41TDE5LjgyLDE4SDIwVjEySDEzLjgyTDkuODIsOEgyME00LDhINC43M0w0LDcuMjdWOE00LDEyVjE4SDE0LjczTDguNzMsMTJINFoiIC8+PC9zdmc+)
@@ -1023,14 +1013,14 @@ creditCardOffOutline =
     Material.Icons.Directory.C.creditCardOffOutline
 
 
-{-| The [`credit-card-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-outline/) icon.
+{-| The [`credit-card-off`](https://pictogrammers.com/library/mdi/icon/credit-card-off/) icon.
 
-![credit-card-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDhINFY2SDIwTTIwLDE4SDRWMTJIMjBNMjAsNEg0QzIuODksNCAyLDQuODkgMiw2VjE4QTIsMiAwIDAsMCA0LDIwSDIwQTIsMiAwIDAsMCAyMiwxOFY2QzIyLDQuODkgMjEuMSw0IDIwLDRaIiAvPjwvc3ZnPg==)
+![credit-card-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjIgOEw3LjIgNEgyMEEyIDIgMCAwIDEgMjIgNlYxOEExLjkxIDEuOTEgMCAwIDEgMjEuODggMTguNjhMMTQuMiAxMUgyMFY4TTIwLjg0IDIyLjczTDE4LjExIDIwSDRBMiAyIDAgMCAxIDIgMThWNkEyIDIgMCAwIDEgMi42NSA0LjU0TDEuMTEgM0wyLjM5IDEuNzNMMjIuMTEgMjEuNDZNOS4xMSAxMUw2LjExIDhINFYxMVoiIC8+PC9zdmc+)
 
 -}
-creditCardOutline : IconShape
-creditCardOutline =
-    Material.Icons.Directory.C.creditCardOutline
+creditCardOff : IconShape
+creditCardOff =
+    Material.Icons.Directory.C.creditCardOff
 
 
 {-| The [`credit-card-plus`](https://pictogrammers.com/library/mdi/icon/credit-card-plus/) icon.
@@ -1041,6 +1031,16 @@ creditCardOutline =
 creditCardPlus : IconShape
 creditCardPlus =
     Material.Icons.Directory.C.creditCardPlus
+
+
+{-| The [`credit-card-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-outline/) icon.
+
+![credit-card-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDhINFY2SDIwTTIwLDE4SDRWMTJIMjBNMjAsNEg0QzIuODksNCAyLDQuODkgMiw2VjE4QTIsMiAwIDAsMCA0LDIwSDIwQTIsMiAwIDAsMCAyMiwxOFY2QzIyLDQuODkgMjEuMSw0IDIwLDRaIiAvPjwvc3ZnPg==)
+
+-}
+creditCardOutline : IconShape
+creditCardOutline =
+    Material.Icons.Directory.C.creditCardOutline
 
 
 {-| The [`credit-card-plus-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-plus-outline/) icon.
@@ -1063,16 +1063,6 @@ creditCardRefresh =
     Material.Icons.Directory.C.creditCardRefresh
 
 
-{-| The [`credit-card-refresh-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-refresh-outline/) icon.
-
-![credit-card-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRINEMyLjg5IDQgMiA0Ljg5IDIgNlYxOEMyIDE5LjExIDIuOSAyMCA0IDIwSDExLjY4QzExLjU3IDE5LjUgMTEuNSAxOSAxMS41IDE4LjVDMTEuNSAxOC4zMyAxMS41IDE4LjE3IDExLjUzIDE4SDRWMTJIMjBWMTIuMzJDMjAuNzQgMTIuNTYgMjEuNDEgMTIuOTMgMjIgMTMuNFY2QzIyIDQuODkgMjEuMSA0IDIwIDRNMjAgOEg0VjZIMjBWOE0yMC44MyAxNS42N0wyMiAxNC41VjE4LjVIMThMMTkuNzcgMTYuNzNDMTkuMzIgMTYuMjggMTguNjkgMTYgMTggMTZDMTYuNjIgMTYgMTUuNSAxNy4xMiAxNS41IDE4LjVTMTYuNjIgMjEgMTggMjFDMTguODIgMjEgMTkuNTQgMjAuNjEgMjAgMjBIMjEuNzFDMjEuMTIgMjEuNDcgMTkuNjggMjIuNSAxOCAyMi41QzE1Ljc5IDIyLjUgMTQgMjAuNzEgMTQgMTguNVMxNS43OSAxNC41IDE4IDE0LjVDMTkuMTEgMTQuNSAyMC4xMSAxNC45NSAyMC44MyAxNS42N1oiIC8+PC9zdmc+)
-
--}
-creditCardRefreshOutline : IconShape
-creditCardRefreshOutline =
-    Material.Icons.Directory.C.creditCardRefreshOutline
-
-
 {-| The [`credit-card-refund`](https://pictogrammers.com/library/mdi/icon/credit-card-refund/) icon.
 
 ![credit-card-refund](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDExSDZBMiAyIDAgMCAwIDQgMTNWMjFBMiAyIDAgMCAwIDYgMjNIMThBMiAyIDAgMCAwIDIwIDIxVjEzQTIgMiAwIDAgMCAxOCAxMU0xOCAxN0g2VjE0SDE4TTE3IDVWMTBIMTUuNVY2LjVIOS44OEwxMi4zIDguOTNMMTEuMjQgMTBMNyA1Ljc1TDExLjI0IDEuNUwxMi4zIDIuNTdMOS44OCA1WiIgLz48L3N2Zz4=)
@@ -1091,6 +1081,16 @@ creditCardRefund =
 creditCardRefundOutline : IconShape
 creditCardRefundOutline =
     Material.Icons.Directory.C.creditCardRefundOutline
+
+
+{-| The [`credit-card-refresh-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-refresh-outline/) icon.
+
+![credit-card-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRINEMyLjg5IDQgMiA0Ljg5IDIgNlYxOEMyIDE5LjExIDIuOSAyMCA0IDIwSDExLjY4QzExLjU3IDE5LjUgMTEuNSAxOSAxMS41IDE4LjVDMTEuNSAxOC4zMyAxMS41IDE4LjE3IDExLjUzIDE4SDRWMTJIMjBWMTIuMzJDMjAuNzQgMTIuNTYgMjEuNDEgMTIuOTMgMjIgMTMuNFY2QzIyIDQuODkgMjEuMSA0IDIwIDRNMjAgOEg0VjZIMjBWOE0yMC44MyAxNS42N0wyMiAxNC41VjE4LjVIMThMMTkuNzcgMTYuNzNDMTkuMzIgMTYuMjggMTguNjkgMTYgMTggMTZDMTYuNjIgMTYgMTUuNSAxNy4xMiAxNS41IDE4LjVTMTYuNjIgMjEgMTggMjFDMTguODIgMjEgMTkuNTQgMjAuNjEgMjAgMjBIMjEuNzFDMjEuMTIgMjEuNDcgMTkuNjggMjIuNSAxOCAyMi41QzE1Ljc5IDIyLjUgMTQgMjAuNzEgMTQgMTguNVMxNS43OSAxNC41IDE4IDE0LjVDMTkuMTEgMTQuNSAyMC4xMSAxNC45NSAyMC44MyAxNS42N1oiIC8+PC9zdmc+)
+
+-}
+creditCardRefreshOutline : IconShape
+creditCardRefreshOutline =
+    Material.Icons.Directory.C.creditCardRefreshOutline
 
 
 {-| The [`credit-card-remove`](https://pictogrammers.com/library/mdi/icon/credit-card-remove/) icon.
@@ -1113,16 +1113,6 @@ creditCardRemoveOutline =
     Material.Icons.Directory.C.creditCardRemoveOutline
 
 
-{-| The [`credit-card-scan`](https://pictogrammers.com/library/mdi/icon/credit-card-scan/) icon.
-
-![credit-card-scan](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDZINkEyIDIgMCAwIDAgNCA4VjE2QTIgMiAwIDAgMCA2IDE4SDE4QTIgMiAwIDAgMCAyMCAxNlY4QTIgMiAwIDAgMCAxOCA2TTE4IDEySDZWOUgxOE0yIDRINlYySDJBMiAyIDAgMCAwIDAgNFY4SDJWNE0yMiAySDE4VjRIMjJWOEgyNFY0QTIgMiAwIDAgMCAyMiAyTTIgMTZIMFYyMEEyIDIgMCAwIDAgMiAyMkg2VjIwSDJWMTZNMjIgMjBIMThWMjJIMjJBMiAyIDAgMCAwIDI0IDIwVjE2SDIyVjIwIiAvPjwvc3ZnPg==)
-
--}
-creditCardScan : IconShape
-creditCardScan =
-    Material.Icons.Directory.C.creditCardScan
-
-
 {-| The [`credit-card-scan-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-scan-outline/) icon.
 
 ![credit-card-scan-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNEg2VjJIMkEyLDIgMCAwLDAgMCw0VjhIMlY0TTIyLDJIMThWNEgyMlY4SDI0VjRBMiwyIDAgMCwwIDIyLDJNMiwxNkgwVjIwQTIsMiAwIDAsMCAyLDIySDZWMjBIMlYxNk0yMiwyMEgxOFYyMkgyMkEyLDIgMCAwLDAgMjQsMjBWMTZIMjJWMjBNNCw4VjE2QTIsMiAwIDAsMCA2LDE4SDE4QTIsMiAwIDAsMCAyMCwxNlY4QTIsMiAwIDAsMCAxOCw2SDZBMiwyIDAgMCwwIDQsOE02LDE2VjEySDE4VjE2SDZNMTgsOFYxMEg2VjhIMThaIiAvPjwvc3ZnPg==)
@@ -1133,14 +1123,14 @@ creditCardScanOutline =
     Material.Icons.Directory.C.creditCardScanOutline
 
 
-{-| The [`credit-card-search`](https://pictogrammers.com/library/mdi/icon/credit-card-search/) icon.
+{-| The [`credit-card-scan`](https://pictogrammers.com/library/mdi/icon/credit-card-scan/) icon.
 
-![credit-card-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjgyIDExQzkuNCAxMy41IDkuNCAxNy41IDExLjgyIDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRIMjBDMjEuMTEgNCAyMiA0Ljg5IDIyIDZWMTIuMDZDMjEuNzQgMTEuNjUgMjEuNDUgMTEuMjYgMjEuMSAxMC45QzIwLjc2IDEwLjU3IDIwLjM5IDEwLjI3IDIwIDEwLjAzVjhINFYxMUgxMS44Mk0yMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMSAyMSAxMyAyMSAxNS41QzIxIDE2LjM4IDIwLjc1IDE3LjIxIDIwLjMxIDE3LjlMMjMuMzkgMjFNMTkgMTUuNUMxOSAxNC4xMiAxNy44OCAxMyAxNi41IDEzUzE0IDE0LjEyIDE0IDE1LjUgMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41WiIgLz48L3N2Zz4=)
+![credit-card-scan](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDZINkEyIDIgMCAwIDAgNCA4VjE2QTIgMiAwIDAgMCA2IDE4SDE4QTIgMiAwIDAgMCAyMCAxNlY4QTIgMiAwIDAgMCAxOCA2TTE4IDEySDZWOUgxOE0yIDRINlYySDJBMiAyIDAgMCAwIDAgNFY4SDJWNE0yMiAySDE4VjRIMjJWOEgyNFY0QTIgMiAwIDAgMCAyMiAyTTIgMTZIMFYyMEEyIDIgMCAwIDAgMiAyMkg2VjIwSDJWMTZNMjIgMjBIMThWMjJIMjJBMiAyIDAgMCAwIDI0IDIwVjE2SDIyVjIwIiAvPjwvc3ZnPg==)
 
 -}
-creditCardSearch : IconShape
-creditCardSearch =
-    Material.Icons.Directory.C.creditCardSearch
+creditCardScan : IconShape
+creditCardScan =
+    Material.Icons.Directory.C.creditCardScan
 
 
 {-| The [`credit-card-search-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-search-outline/) icon.
@@ -1151,6 +1141,16 @@ creditCardSearch =
 creditCardSearchOutline : IconShape
 creditCardSearchOutline =
     Material.Icons.Directory.C.creditCardSearchOutline
+
+
+{-| The [`credit-card-search`](https://pictogrammers.com/library/mdi/icon/credit-card-search/) icon.
+
+![credit-card-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjgyIDExQzkuNCAxMy41IDkuNCAxNy41IDExLjgyIDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRIMjBDMjEuMTEgNCAyMiA0Ljg5IDIyIDZWMTIuMDZDMjEuNzQgMTEuNjUgMjEuNDUgMTEuMjYgMjEuMSAxMC45QzIwLjc2IDEwLjU3IDIwLjM5IDEwLjI3IDIwIDEwLjAzVjhINFYxMUgxMS44Mk0yMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMSAyMSAxMyAyMSAxNS41QzIxIDE2LjM4IDIwLjc1IDE3LjIxIDIwLjMxIDE3LjlMMjMuMzkgMjFNMTkgMTUuNUMxOSAxNC4xMiAxNy44OCAxMyAxNi41IDEzUzE0IDE0LjEyIDE0IDE1LjUgMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41WiIgLz48L3N2Zz4=)
+
+-}
+creditCardSearch : IconShape
+creditCardSearch =
+    Material.Icons.Directory.C.creditCardSearch
 
 
 {-| The [`credit-card-settings`](https://pictogrammers.com/library/mdi/icon/credit-card-settings/) icon.
@@ -1183,16 +1183,6 @@ creditCardSync =
     Material.Icons.Directory.C.creditCardSync
 
 
-{-| The [`credit-card-sync-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-sync-outline/) icon.
-
-![credit-card-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgMThWMTJIMTYuMDVDMTcuMDUgMTEuMzcgMTguMjMgMTEgMTkuNSAxMUMyMC4zOSAxMSAyMS4yMyAxMS4xOCAyMiAxMS41VjZDMjIgNC44OSAyMS4xIDQgMjAgNEg0QzIuODkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi45IDIwIDQgMjBIMTMuNUMxMy4yNCAxOS4zOCAxMy4wOCAxOC43IDEzLjAzIDE4SDRNNCA2SDIwVjhINFY2TTIzIDE3LjVDMjMgMTguMzIgMjIuNzUgMTkuMDggMjIuMzMgMTkuNzFMMjEuMjQgMTguNjJDMjEuNDEgMTguMjggMjEuNSAxNy45IDIxLjUgMTcuNUMyMS41IDE2LjEyIDIwLjM4IDE1IDE5IDE1VjE2LjVMMTYuNzUgMTQuMjVMMTkgMTJWMTMuNUMyMS4yMSAxMy41IDIzIDE1LjI5IDIzIDE3LjVNMTkgMTguNUwyMS4yNSAyMC43NUwxOSAyM1YyMS41QzE2Ljc5IDIxLjUgMTUgMTkuNzEgMTUgMTcuNUMxNSAxNi42OCAxNS4yNSAxNS45MiAxNS42NyAxNS4yOUwxNi43NiAxNi4zOEMxNi41OSAxNi43MiAxNi41IDE3LjEgMTYuNSAxNy41QzE2LjUgMTguODggMTcuNjIgMjAgMTkgMjBWMTguNVoiIC8+PC9zdmc+)
-
--}
-creditCardSyncOutline : IconShape
-creditCardSyncOutline =
-    Material.Icons.Directory.C.creditCardSyncOutline
-
-
 {-| The [`credit-card-wireless`](https://pictogrammers.com/library/mdi/icon/credit-card-wireless/) icon.
 
 ![credit-card-wireless](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQuOTMgNC45Mkw2LjM0IDYuMzNDOS40NiAzLjIgMTQuNTMgMy4yIDE3LjY2IDYuMzNMMTkuMDcgNC45MkMxNS4xNyAxIDguODQgMSA0LjkzIDQuOTJNNy43NiA3Ljc1TDkuMTcgOS4xNkMxMC43MyA3LjYgMTMuMjYgNy42IDE0LjgzIDkuMTZMMTYuMjQgNy43NUMxMy45IDUuNDEgMTAuMSA1LjQxIDcuNzYgNy43NU0xOCAxMUg2QzQuODkgMTEgNCAxMS45IDQgMTNWMjFDNCAyMi4xMSA0Ljg5IDIzIDYgMjNIMThDMTkuMTEgMjMgMjAgMjIuMTEgMjAgMjFWMTNDMjAgMTEuOSAxOS4xMSAxMSAxOCAxMU0xOCAxN0g2VjE0SDE4VjE3WiIgLz48L3N2Zz4=)
@@ -1201,6 +1191,16 @@ creditCardSyncOutline =
 creditCardWireless : IconShape
 creditCardWireless =
     Material.Icons.Directory.C.creditCardWireless
+
+
+{-| The [`credit-card-sync-outline`](https://pictogrammers.com/library/mdi/icon/credit-card-sync-outline/) icon.
+
+![credit-card-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgMThWMTJIMTYuMDVDMTcuMDUgMTEuMzcgMTguMjMgMTEgMTkuNSAxMUMyMC4zOSAxMSAyMS4yMyAxMS4xOCAyMiAxMS41VjZDMjIgNC44OSAyMS4xIDQgMjAgNEg0QzIuODkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMTEgMi45IDIwIDQgMjBIMTMuNUMxMy4yNCAxOS4zOCAxMy4wOCAxOC43IDEzLjAzIDE4SDRNNCA2SDIwVjhINFY2TTIzIDE3LjVDMjMgMTguMzIgMjIuNzUgMTkuMDggMjIuMzMgMTkuNzFMMjEuMjQgMTguNjJDMjEuNDEgMTguMjggMjEuNSAxNy45IDIxLjUgMTcuNUMyMS41IDE2LjEyIDIwLjM4IDE1IDE5IDE1VjE2LjVMMTYuNzUgMTQuMjVMMTkgMTJWMTMuNUMyMS4yMSAxMy41IDIzIDE1LjI5IDIzIDE3LjVNMTkgMTguNUwyMS4yNSAyMC43NUwxOSAyM1YyMS41QzE2Ljc5IDIxLjUgMTUgMTkuNzEgMTUgMTcuNUMxNSAxNi42OCAxNS4yNSAxNS45MiAxNS42NyAxNS4yOUwxNi43NiAxNi4zOEMxNi41OSAxNi43MiAxNi41IDE3LjEgMTYuNSAxNy41QzE2LjUgMTguODggMTcuNjIgMjAgMTkgMjBWMTguNVoiIC8+PC9zdmc+)
+
+-}
+creditCardSyncOutline : IconShape
+creditCardSyncOutline =
+    Material.Icons.Directory.C.creditCardSyncOutline
 
 
 {-| The [`credit-card-wireless-off`](https://pictogrammers.com/library/mdi/icon/credit-card-wireless-off/) icon.
@@ -1263,16 +1263,6 @@ currencyBtc =
     Material.Icons.Directory.C.currencyBtc
 
 
-{-| The [`currency-cny`](https://pictogrammers.com/library/mdi/icon/currency-cny/) icon.
-
-![currency-cny](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjI4IDEySDE4VjE0SDEzVjIxSDExVjE0SDZWMTJIMTAuNzJMNSAzSDcuMzdMMTIgMTAuMjlMMTYuNjMgM0gxOUwxMy4yOCAxMloiIC8+PC9zdmc+)
-
--}
-currencyCny : IconShape
-currencyCny =
-    Material.Icons.Directory.C.currencyCny
-
-
 {-| The [`currency-eth`](https://pictogrammers.com/library/mdi/icon/currency-eth/) icon.
 
 ![currency-eth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsNUgxOFY3SDZNNywxMUgxN1YxM0g3TTUuNSwxN0gxOC41VjE5SDUuNSIgLz48L3N2Zz4=)
@@ -1283,14 +1273,14 @@ currencyEth =
     Material.Icons.Directory.C.currencyEth
 
 
-{-| The [`currency-eur`](https://pictogrammers.com/library/mdi/icon/currency-eur/) icon.
+{-| The [`currency-cny`](https://pictogrammers.com/library/mdi/icon/currency-cny/) icon.
 
-![currency-eur](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE4LjVDMTIuNSAxOC41IDEwLjMyIDE3LjA4IDkuMjQgMTVIMTVMMTYgMTNIOC41OEM4LjUzIDEyLjY3IDguNSAxMi4zNCA4LjUgMTJTOC41MyAxMS4zMyA4LjU4IDExSDE1TDE2IDlIOS4yNEMxMC4zMiA2LjkyIDEyLjUgNS41IDE1IDUuNUMxNi42MSA1LjUgMTguMDkgNi4wOSAxOS4yMyA3LjA3TDIxIDUuM0MxOS40MSAzLjg3IDE3LjMgMyAxNSAzQzExLjA4IDMgNy43NiA1LjUgNi41IDlIM0wyIDExSDYuMDZDNiAxMS4zMyA2IDExLjY2IDYgMTJTNiAxMi42NyA2LjA2IDEzSDNMMiAxNUg2LjVDNy43NiAxOC41IDExLjA4IDIxIDE1IDIxQzE3LjMxIDIxIDE5LjQxIDIwLjEzIDIxIDE4LjdMMTkuMjIgMTYuOTNDMTguMDkgMTcuOTEgMTYuNjIgMTguNSAxNSAxOC41WiIgLz48L3N2Zz4=)
+![currency-cny](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjI4IDEySDE4VjE0SDEzVjIxSDExVjE0SDZWMTJIMTAuNzJMNSAzSDcuMzdMMTIgMTAuMjlMMTYuNjMgM0gxOUwxMy4yOCAxMloiIC8+PC9zdmc+)
 
 -}
-currencyEur : IconShape
-currencyEur =
-    Material.Icons.Directory.C.currencyEur
+currencyCny : IconShape
+currencyCny =
+    Material.Icons.Directory.C.currencyCny
 
 
 {-| The [`currency-eur-off`](https://pictogrammers.com/library/mdi/icon/currency-eur-off/) icon.
@@ -1301,6 +1291,16 @@ currencyEur =
 currencyEurOff : IconShape
 currencyEurOff =
     Material.Icons.Directory.C.currencyEurOff
+
+
+{-| The [`currency-eur`](https://pictogrammers.com/library/mdi/icon/currency-eur/) icon.
+
+![currency-eur](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDE4LjVDMTIuNSAxOC41IDEwLjMyIDE3LjA4IDkuMjQgMTVIMTVMMTYgMTNIOC41OEM4LjUzIDEyLjY3IDguNSAxMi4zNCA4LjUgMTJTOC41MyAxMS4zMyA4LjU4IDExSDE1TDE2IDlIOS4yNEMxMC4zMiA2LjkyIDEyLjUgNS41IDE1IDUuNUMxNi42MSA1LjUgMTguMDkgNi4wOSAxOS4yMyA3LjA3TDIxIDUuM0MxOS40MSAzLjg3IDE3LjMgMyAxNSAzQzExLjA4IDMgNy43NiA1LjUgNi41IDlIM0wyIDExSDYuMDZDNiAxMS4zMyA2IDExLjY2IDYgMTJTNiAxMi42NyA2LjA2IDEzSDNMMiAxNUg2LjVDNy43NiAxOC41IDExLjA4IDIxIDE1IDIxQzE3LjMxIDIxIDE5LjQxIDIwLjEzIDIxIDE4LjdMMTkuMjIgMTYuOTNDMTguMDkgMTcuOTEgMTYuNjIgMTguNSAxNSAxOC41WiIgLz48L3N2Zz4=)
+
+-}
+currencyEur : IconShape
+currencyEur =
+    Material.Icons.Directory.C.currencyEur
 
 
 {-| The [`currency-fra`](https://pictogrammers.com/library/mdi/icon/currency-fra/) icon.
@@ -1363,16 +1363,6 @@ currencyKrw =
     Material.Icons.Directory.C.currencyKrw
 
 
-{-| The [`currency-kzt`](https://pictogrammers.com/library/mdi/icon/currency-kzt/) icon.
-
-![currency-kzt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsM0gxOVY1SDVWM001LDZIMTlWOEgxM1YyMUgxMVY4SDVWNloiIC8+PC9zdmc+)
-
--}
-currencyKzt : IconShape
-currencyKzt =
-    Material.Icons.Directory.C.currencyKzt
-
-
 {-| The [`currency-mnt`](https://pictogrammers.com/library/mdi/icon/currency-mnt/) icon.
 
 ![currency-mnt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDVWOC42MkwxNyA3LjE3VjkuMjlMMTMgMTAuNzRWMTIuNUwxNyAxMS4wN1YxMy4yTDEzIDE0LjY1VjIxSDExVjE1LjM4TDcgMTYuODRWMTQuNzFMMTEgMTMuMjRWMTEuNDdMNyAxMi45MlYxMC44TDExIDkuMzVWNUg1VjNIMTlWNUgxM1oiIC8+PC9zdmc+)
@@ -1383,14 +1373,14 @@ currencyMnt =
     Material.Icons.Directory.C.currencyMnt
 
 
-{-| The [`currency-ngn`](https://pictogrammers.com/library/mdi/icon/currency-ngn/) icon.
+{-| The [`currency-kzt`](https://pictogrammers.com/library/mdi/icon/currency-kzt/) icon.
 
-![currency-ngn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsOUg2VjNIOEwxMS40Miw5SDE2VjNIMThWOUgyMFYxMUgxOFYxM0gyMFYxNUgxOFYyMUgxNkwxMi41NywxNUg4VjIxSDZWMTVINFYxM0g2VjExSDRWOU04LDlIOS4xM0w4LDcuMDNWOU04LDExVjEzSDExLjQyTDEwLjI4LDExSDhNMTYsMTdWMTVIMTQuODVMMTYsMTdNMTIuNTYsMTFMMTMuNzEsMTNIMTZWMTFIMTIuNTZaIiAvPjwvc3ZnPg==)
+![currency-kzt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsM0gxOVY1SDVWM001LDZIMTlWOEgxM1YyMUgxMVY4SDVWNloiIC8+PC9zdmc+)
 
 -}
-currencyNgn : IconShape
-currencyNgn =
-    Material.Icons.Directory.C.currencyNgn
+currencyKzt : IconShape
+currencyKzt =
+    Material.Icons.Directory.C.currencyKzt
 
 
 {-| The [`currency-php`](https://pictogrammers.com/library/mdi/icon/currency-php/) icon.
@@ -1401,6 +1391,16 @@ currencyNgn =
 currencyPhp : IconShape
 currencyPhp =
     Material.Icons.Directory.C.currencyPhp
+
+
+{-| The [`currency-ngn`](https://pictogrammers.com/library/mdi/icon/currency-ngn/) icon.
+
+![currency-ngn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsOUg2VjNIOEwxMS40Miw5SDE2VjNIMThWOUgyMFYxMUgxOFYxM0gyMFYxNUgxOFYyMUgxNkwxMi41NywxNUg4VjIxSDZWMTVINFYxM0g2VjExSDRWOU04LDlIOS4xM0w4LDcuMDNWOU04LDExVjEzSDExLjQyTDEwLjI4LDExSDhNMTYsMTdWMTVIMTQuODVMMTYsMTdNMTIuNTYsMTFMMTMuNzEsMTNIMTZWMTFIMTIuNTZaIiAvPjwvc3ZnPg==)
+
+-}
+currencyNgn : IconShape
+currencyNgn =
+    Material.Icons.Directory.C.currencyNgn
 
 
 {-| The [`currency-rial`](https://pictogrammers.com/library/mdi/icon/currency-rial/) icon.
@@ -1423,6 +1423,16 @@ currencyRub =
     Material.Icons.Directory.C.currencyRub
 
 
+{-| The [`currency-thb`](https://pictogrammers.com/library/mdi/icon/currency-thb/) icon.
+
+![currency-thb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjEgMTEuNkMxNi43IDEwLjkgMTcgMTAgMTcgOUMxNyA3LjEgMTUuNyA1LjYgMTQgNS4xTDEzIDVWM0gxMVY1SDdWMTlIMTFWMjFIMTNWMTlIMTRDMTYuMiAxOSAxOCAxNy4yIDE4IDE1QzE4IDEzLjUgMTcuMiAxMi4zIDE2LjEgMTEuNk0xNSA5QzE1IDEwLjEgMTQuMSAxMSAxMyAxMVY3QzE0LjEgNyAxNSA3LjkgMTUgOU05IDdIMTFWMTFIOVY3TTkgMTdWMTNIMTFWMTdIOU0xNCAxN0gxM1YxM0gxNEMxNS4xIDEzIDE2IDEzLjkgMTYgMTVTMTUuMSAxNyAxNCAxN1oiIC8+PC9zdmc+)
+
+-}
+currencyThb : IconShape
+currencyThb =
+    Material.Icons.Directory.C.currencyThb
+
+
 {-| The [`currency-rupee`](https://pictogrammers.com/library/mdi/icon/currency-rupee/) icon.
 
 ![currency-rupee](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjY2IDdDMTMuMSA1LjgyIDExLjkgNSAxMC41IDVINlYzSDE4VjVIMTQuNzRDMTUuMjIgNS41OCAxNS41OCA2LjI2IDE1Ljc5IDdIMThWOUgxNkMxNS43MyAxMS44IDEzLjM3IDE0IDEwLjUgMTRIOS43N0wxNi41IDIxSDEzLjczTDcgMTRWMTJIMTAuNUMxMi4yNiAxMiAxMy43MiAxMC43IDEzLjk2IDlINlY3SDEzLjY2WiIgLz48L3N2Zz4=)
@@ -1441,16 +1451,6 @@ currencyRupee =
 currencySign : IconShape
 currencySign =
     Material.Icons.Directory.C.currencySign
-
-
-{-| The [`currency-thb`](https://pictogrammers.com/library/mdi/icon/currency-thb/) icon.
-
-![currency-thb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjEgMTEuNkMxNi43IDEwLjkgMTcgMTAgMTcgOUMxNyA3LjEgMTUuNyA1LjYgMTQgNS4xTDEzIDVWM0gxMVY1SDdWMTlIMTFWMjFIMTNWMTlIMTRDMTYuMiAxOSAxOCAxNy4yIDE4IDE1QzE4IDEzLjUgMTcuMiAxMi4zIDE2LjEgMTEuNk0xNSA5QzE1IDEwLjEgMTQuMSAxMSAxMyAxMVY3QzE0LjEgNyAxNSA3LjkgMTUgOU05IDdIMTFWMTFIOVY3TTkgMTdWMTNIMTFWMTdIOU0xNCAxN0gxM1YxM0gxNEMxNS4xIDEzIDE2IDEzLjkgMTYgMTVTMTUuMSAxNyAxNCAxN1oiIC8+PC9zdmc+)
-
--}
-currencyThb : IconShape
-currencyThb =
-    Material.Icons.Directory.C.currencyThb
 
 
 {-| The [`currency-try`](https://pictogrammers.com/library/mdi/icon/currency-try/) icon.
@@ -1583,16 +1583,6 @@ invoiceArrowRight =
     Material.Icons.Directory.I.invoiceArrowRight
 
 
-{-| The [`invoice-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/invoice-arrow-right-outline/) icon.
-
-![invoice-arrow-right-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjM0QzIwLjM3IDEzLjEyIDE5LjcgMTMgMTkgMTNWNUg1VjE4LjI2TDYgMTcuNkw5IDE5LjZMMTIgMTcuNkwxMy4wNCAxOC4yOUMxMyAxOC41IDEzIDE4Ljc2IDEzIDE5QzEzIDE5LjY1IDEzLjEgMjAuMjggMTMuMyAyMC44NkwxMiAyMEw5IDIyTDYgMjBMMyAyMlYzSDIxVjEzLjM0TTE5IDIyVjIwSDE1VjE4SDE5VjE2TDIyIDE5TDE5IDIyWiIgLz48L3N2Zz4=)
-
--}
-invoiceArrowRightOutline : IconShape
-invoiceArrowRightOutline =
-    Material.Icons.Directory.I.invoiceArrowRightOutline
-
-
 {-| The [`invoice-check`](https://pictogrammers.com/library/mdi/icon/invoice-check/) icon.
 
 ![invoice-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzVjIyTDYgMjBMOSAyMkwxMiAyMEwxMy4zIDIwLjg2QzEzLjEgMjAuMjggMTMgMTkuNjUgMTMgMTlDMTMgMTUuNjkgMTUuNjkgMTMgMTkgMTNNMTUuNSAxOUwxOC4yNSAyMkwyMyAxNy4yM0wyMS44NCAxNS44MkwxOC4yNSAxOS40MUwxNi42NiAxNy44MkwxNS41IDE5WiIgLz48L3N2Zz4=)
@@ -1601,6 +1591,16 @@ invoiceArrowRightOutline =
 invoiceCheck : IconShape
 invoiceCheck =
     Material.Icons.Directory.I.invoiceCheck
+
+
+{-| The [`invoice-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/invoice-arrow-right-outline/) icon.
+
+![invoice-arrow-right-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjM0QzIwLjM3IDEzLjEyIDE5LjcgMTMgMTkgMTNWNUg1VjE4LjI2TDYgMTcuNkw5IDE5LjZMMTIgMTcuNkwxMy4wNCAxOC4yOUMxMyAxOC41IDEzIDE4Ljc2IDEzIDE5QzEzIDE5LjY1IDEzLjEgMjAuMjggMTMuMyAyMC44NkwxMiAyMEw5IDIyTDYgMjBMMyAyMlYzSDIxVjEzLjM0TTE5IDIyVjIwSDE1VjE4SDE5VjE2TDIyIDE5TDE5IDIyWiIgLz48L3N2Zz4=)
+
+-}
+invoiceArrowRightOutline : IconShape
+invoiceArrowRightOutline =
+    Material.Icons.Directory.I.invoiceArrowRightOutline
 
 
 {-| The [`invoice-check-outline`](https://pictogrammers.com/library/mdi/icon/invoice-check-outline/) icon.
@@ -1633,6 +1633,16 @@ invoiceClockOutline =
     Material.Icons.Directory.I.invoiceClockOutline
 
 
+{-| The [`invoice-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-edit-outline/) icon.
+
+![invoice-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjM3IDkuOTMgMTkuNjQgOS45MyAxOSAxMC4yMlY1SDVWMTguMjZMNiAxNy42TDkgMTkuNkw5Ljg2IDE5VjIxLjQzTTExLjg2IDE5Ljk2TDE4IDEzLjgzTDIwLjAzIDE1Ljg3TDEzLjkgMjJIMTEuODZWMTkuOTZNMjAuNzMgMTUuMTdMMjEuNzEgMTQuMTlDMjEuOTEgMTQgMjEuOTEgMTMuNjcgMjEuNzEgMTMuNDdMMjAuMzkgMTIuMTVDMjAuMzcgMTIuMTMgMjAuMzQgMTIuMSAyMC4zMSAxMi4wOUMyMC4xMiAxMS45NiAxOS44NiAxMS45NyAxOS42OSAxMi4xM0wxOS42NyAxMi4xNUwxOC42OSAxMy4xM0wyMC43MyAxNS4xN1oiIC8+PC9zdmc+)
+
+-}
+invoiceEditOutline : IconShape
+invoiceEditOutline =
+    Material.Icons.Directory.I.invoiceEditOutline
+
+
 {-| The [`invoice-edit`](https://pictogrammers.com/library/mdi/icon/invoice-edit/) icon.
 
 ![invoice-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjEgOS44MiAxOSAxMCAxOC4yNCAxMC43NUw5Ljg2IDE5LjEzVjIxLjQzTTExLjg2IDE5Ljk2TDE4IDEzLjgzTDIwLjAzIDE1Ljg3TDEzLjkgMjJIMTEuODZWMTkuOTZNMjAuMzkgMTIuMTVDMjAuMzcgMTIuMTMgMjAuMzQgMTIuMSAyMC4zMSAxMi4wOUMyMC4xMiAxMS45NiAxOS44NiAxMS45NyAxOS42OSAxMi4xM0wxOS42NyAxMi4xNUwxOC42OSAxMy4xM0wyMC43MyAxNS4xN0wyMS43MSAxNC4xOUMyMS45MSAxNCAyMS45MSAxMy42NyAyMS43MSAxMy40N0wyMC4zOSAxMi4xNVoiIC8+PC9zdmc+)
@@ -1651,16 +1661,6 @@ invoiceEdit =
 invoiceExportOutline : IconShape
 invoiceExportOutline =
     Material.Icons.Directory.I.invoiceExportOutline
-
-
-{-| The [`invoice-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-edit-outline/) icon.
-
-![invoice-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjM3IDkuOTMgMTkuNjQgOS45MyAxOSAxMC4yMlY1SDVWMTguMjZMNiAxNy42TDkgMTkuNkw5Ljg2IDE5VjIxLjQzTTExLjg2IDE5Ljk2TDE4IDEzLjgzTDIwLjAzIDE1Ljg3TDEzLjkgMjJIMTEuODZWMTkuOTZNMjAuNzMgMTUuMTdMMjEuNzEgMTQuMTlDMjEuOTEgMTQgMjEuOTEgMTMuNjcgMjEuNzEgMTMuNDdMMjAuMzkgMTIuMTVDMjAuMzcgMTIuMTMgMjAuMzQgMTIuMSAyMC4zMSAxMi4wOUMyMC4xMiAxMS45NiAxOS44NiAxMS45NyAxOS42OSAxMi4xM0wxOS42NyAxMi4xNUwxOC42OSAxMy4xM0wyMC43MyAxNS4xN1oiIC8+PC9zdmc+)
-
--}
-invoiceEditOutline : IconShape
-invoiceEditOutline =
-    Material.Icons.Directory.I.invoiceEditOutline
 
 
 {-| The [`invoice-fast`](https://pictogrammers.com/library/mdi/icon/invoice-fast/) icon.
@@ -1733,16 +1733,6 @@ invoiceMinus =
     Material.Icons.Directory.I.invoiceMinus
 
 
-{-| The [`invoice-minus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-minus-outline/) icon.
-
-![invoice-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjM0QzIwLjM3IDEzLjEyIDE5LjcgMTMgMTkgMTNWNUg1VjE4LjI2TDYgMTcuNkw5IDE5LjZMMTIgMTcuNkwxMy4wNCAxOC4yOUMxMyAxOC41IDEzIDE4Ljc2IDEzIDE5QzEzIDE5LjY1IDEzLjEgMjAuMjggMTMuMyAyMC44NkwxMiAyMEw5IDIyTDYgMjBMMyAyMlYzSDIxVjEzLjM0TTE1IDE4VjIwSDIzVjE4SDE1WiIgLz48L3N2Zz4=)
-
--}
-invoiceMinusOutline : IconShape
-invoiceMinusOutline =
-    Material.Icons.Directory.I.invoiceMinusOutline
-
-
 {-| The [`invoice-multiple`](https://pictogrammers.com/library/mdi/icon/invoice-multiple/) icon.
 
 ![invoice-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDJIMlYxN0g0VjRIMTdWMk0yMSAyMkwxOC41IDIwLjMyTDE2IDIyTDEzLjUgMjAuMzJMMTEgMjJMOC41IDIwLjMyTDYgMjJWNkgyMVYyMloiIC8+PC9zdmc+)
@@ -1753,14 +1743,14 @@ invoiceMultiple =
     Material.Icons.Directory.I.invoiceMultiple
 
 
-{-| The [`invoice-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-multiple-outline/) icon.
+{-| The [`invoice-minus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-minus-outline/) icon.
 
-![invoice-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMlYxN0g0VjRIMTdWMkgyTTE4LjUgMjAuMzJMMjEgMjJWNkg2VjIyTDguNSAyMC4zMkwxMSAyMkwxMy41IDIwLjMyTDE2IDIyTDE4LjUgMjAuMzJNMTkgOFYxNy41N0wxNiAxOS41OUwxMy41IDE3LjlMMTEgMTkuNTlMOCAxNy41N1Y4SDE5WiIgLz48L3N2Zz4=)
+![invoice-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjM0QzIwLjM3IDEzLjEyIDE5LjcgMTMgMTkgMTNWNUg1VjE4LjI2TDYgMTcuNkw5IDE5LjZMMTIgMTcuNkwxMy4wNCAxOC4yOUMxMyAxOC41IDEzIDE4Ljc2IDEzIDE5QzEzIDE5LjY1IDEzLjEgMjAuMjggMTMuMyAyMC44NkwxMiAyMEw5IDIyTDYgMjBMMyAyMlYzSDIxVjEzLjM0TTE1IDE4VjIwSDIzVjE4SDE1WiIgLz48L3N2Zz4=)
 
 -}
-invoiceMultipleOutline : IconShape
-invoiceMultipleOutline =
-    Material.Icons.Directory.I.invoiceMultipleOutline
+invoiceMinusOutline : IconShape
+invoiceMinusOutline =
+    Material.Icons.Directory.I.invoiceMinusOutline
 
 
 {-| The [`invoice-outline`](https://pictogrammers.com/library/mdi/icon/invoice-outline/) icon.
@@ -1793,14 +1783,14 @@ invoicePlusOutline =
     Material.Icons.Directory.I.invoicePlusOutline
 
 
-{-| The [`invoice-remove`](https://pictogrammers.com/library/mdi/icon/invoice-remove/) icon.
+{-| The [`invoice-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-multiple-outline/) icon.
 
-![invoice-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzVjIyTDYgMjBMOSAyMkwxMiAyMEwxMy4zIDIwLjg2QzEzLjEgMjAuMjggMTMgMTkuNjUgMTMgMTlDMTMgMTUuNjkgMTUuNjkgMTMgMTkgMTNNMTkgMTcuNkwxNi45IDE1LjVMMTUuNSAxNi45TDE3LjYgMTlMMTUuNSAyMS4xTDE2LjkgMjIuNUwxOSAyMC40TDIxLjEgMjIuNUwyMi41IDIxLjFMMjAuNCAxOUwyMi41IDE2LjlMMjEuMSAxNS41TDE5IDE3LjZaIiAvPjwvc3ZnPg==)
+![invoice-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMlYxN0g0VjRIMTdWMkgyTTE4LjUgMjAuMzJMMjEgMjJWNkg2VjIyTDguNSAyMC4zMkwxMSAyMkwxMy41IDIwLjMyTDE2IDIyTDE4LjUgMjAuMzJNMTkgOFYxNy41N0wxNiAxOS41OUwxMy41IDE3LjlMMTEgMTkuNTlMOCAxNy41N1Y4SDE5WiIgLz48L3N2Zz4=)
 
 -}
-invoiceRemove : IconShape
-invoiceRemove =
-    Material.Icons.Directory.I.invoiceRemove
+invoiceMultipleOutline : IconShape
+invoiceMultipleOutline =
+    Material.Icons.Directory.I.invoiceMultipleOutline
 
 
 {-| The [`invoice-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-remove-outline/) icon.
@@ -1811,6 +1801,16 @@ invoiceRemove =
 invoiceRemoveOutline : IconShape
 invoiceRemoveOutline =
     Material.Icons.Directory.I.invoiceRemoveOutline
+
+
+{-| The [`invoice-remove`](https://pictogrammers.com/library/mdi/icon/invoice-remove/) icon.
+
+![invoice-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzVjIyTDYgMjBMOSAyMkwxMiAyMEwxMy4zIDIwLjg2QzEzLjEgMjAuMjggMTMgMTkuNjUgMTMgMTlDMTMgMTUuNjkgMTUuNjkgMTMgMTkgMTNNMTkgMTcuNkwxNi45IDE1LjVMMTUuNSAxNi45TDE3LjYgMTlMMTUuNSAyMS4xTDE2LjkgMjIuNUwxOSAyMC40TDIxLjEgMjIuNUwyMi41IDIxLjFMMjAuNCAxOUwyMi41IDE2LjlMMjEuMSAxNS41TDE5IDE3LjZaIiAvPjwvc3ZnPg==)
+
+-}
+invoiceRemove : IconShape
+invoiceRemove =
+    Material.Icons.Directory.I.invoiceRemove
 
 
 {-| The [`invoice-send`](https://pictogrammers.com/library/mdi/icon/invoice-send/) icon.
@@ -1833,6 +1833,16 @@ invoiceSendOutline =
     Material.Icons.Directory.I.invoiceSendOutline
 
 
+{-| The [`invoice-text-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-left-outline/) icon.
+
+![invoice-text-arrow-left-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjMgMjAuODZMMTIgMjBMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMy4zNEMyMC4zNyAxMy4xMiAxOS43IDEzIDE5IDEzVjVINVYxOC4yNkw2IDE3LjZMOSAxOS42TDEyIDE3LjZMMTMuMDQgMTguMjlDMTMgMTguNSAxMyAxOC43NiAxMyAxOUMxMyAxOS42NSAxMy4xIDIwLjI4IDEzLjMgMjAuODZNMTcgN1Y5SDdWN0gxN00xNSAxMVYxM0g3VjExSDE1TTE4IDE4VjE2TDE1IDE5TDE4IDIyVjIwSDIyVjE4SDE4WiIgLz48L3N2Zz4=)
+
+-}
+invoiceTextArrowLeftOutline : IconShape
+invoiceTextArrowLeftOutline =
+    Material.Icons.Directory.I.invoiceTextArrowLeftOutline
+
+
 {-| The [`invoice-text`](https://pictogrammers.com/library/mdi/icon/invoice-text/) icon.
 
 ![invoice-text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBMMTUgMjJMMTggMjBMMjEgMjJWM0gzTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNVoiIC8+PC9zdmc+)
@@ -1853,16 +1863,6 @@ invoiceTextArrowLeft =
     Material.Icons.Directory.I.invoiceTextArrowLeft
 
 
-{-| The [`invoice-text-arrow-left-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-left-outline/) icon.
-
-![invoice-text-arrow-left-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjMgMjAuODZMMTIgMjBMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMy4zNEMyMC4zNyAxMy4xMiAxOS43IDEzIDE5IDEzVjVINVYxOC4yNkw2IDE3LjZMOSAxOS42TDEyIDE3LjZMMTMuMDQgMTguMjlDMTMgMTguNSAxMyAxOC43NiAxMyAxOUMxMyAxOS42NSAxMy4xIDIwLjI4IDEzLjMgMjAuODZNMTcgN1Y5SDdWN0gxN00xNSAxMVYxM0g3VjExSDE1TTE4IDE4VjE2TDE1IDE5TDE4IDIyVjIwSDIyVjE4SDE4WiIgLz48L3N2Zz4=)
-
--}
-invoiceTextArrowLeftOutline : IconShape
-invoiceTextArrowLeftOutline =
-    Material.Icons.Directory.I.invoiceTextArrowLeftOutline
-
-
 {-| The [`invoice-text-arrow-right`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-right/) icon.
 
 ![invoice-text-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMjJWM0gyMVYxMy4zNEMyMC4zNyAxMy4xMiAxOS43IDEzIDE5IDEzQzE1LjY5IDEzIDEzIDE1LjY5IDEzIDE5QzEzIDE5LjY1IDEzLjEgMjAuMjggMTMuMyAyMC44NkwxMiAyMEw5IDIyTDYgMjBMMyAyMk0xNyA5VjdIN1Y5SDE3TTE1IDEzVjExSDdWMTNIMTVNMTkgMjJWMjBIMTVWMThIMTlWMTZMMjIgMTlMMTkgMjJaIiAvPjwvc3ZnPg==)
@@ -1873,16 +1873,6 @@ invoiceTextArrowRight =
     Material.Icons.Directory.I.invoiceTextArrowRight
 
 
-{-| The [`invoice-text-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-right-outline/) icon.
-
-![invoice-text-arrow-right-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjMgMjAuODZMMTIgMjBMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMy4zNEMyMC4zNyAxMy4xMiAxOS43IDEzIDE5IDEzVjVINVYxOC4yNkw2IDE3LjZMOSAxOS42TDEyIDE3LjZMMTMuMDQgMTguMjlDMTMgMTguNSAxMyAxOC43NiAxMyAxOUMxMyAxOS42NSAxMy4xIDIwLjI4IDEzLjMgMjAuODZNMTcgN1Y5SDdWN0gxN00xNSAxMVYxM0g3VjExSDE1TTE5IDIyVjIwSDE1VjE4SDE5VjE2TDIyIDE5TDE5IDIyWiIgLz48L3N2Zz4=)
-
--}
-invoiceTextArrowRightOutline : IconShape
-invoiceTextArrowRightOutline =
-    Material.Icons.Directory.I.invoiceTextArrowRightOutline
-
-
 {-| The [`invoice-text-check`](https://pictogrammers.com/library/mdi/icon/invoice-text-check/) icon.
 
 ![invoice-text-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBMMTMuMyAyMC44NkMxMy4xIDIwLjI4IDEzIDE5LjY1IDEzIDE5QzEzIDE1LjY5IDE1LjY5IDEzIDE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNU0xNS41IDE5TDE4LjI1IDIyTDIzIDE3LjIzTDIxLjg0IDE1LjgyTDE4LjI1IDE5LjQxTDE2LjY2IDE3LjgyTDE1LjUgMTlaIiAvPjwvc3ZnPg==)
@@ -1891,6 +1881,16 @@ invoiceTextArrowRightOutline =
 invoiceTextCheck : IconShape
 invoiceTextCheck =
     Material.Icons.Directory.I.invoiceTextCheck
+
+
+{-| The [`invoice-text-arrow-right-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-arrow-right-outline/) icon.
+
+![invoice-text-arrow-right-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjMgMjAuODZMMTIgMjBMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMy4zNEMyMC4zNyAxMy4xMiAxOS43IDEzIDE5IDEzVjVINVYxOC4yNkw2IDE3LjZMOSAxOS42TDEyIDE3LjZMMTMuMDQgMTguMjlDMTMgMTguNSAxMyAxOC43NiAxMyAxOUMxMyAxOS42NSAxMy4xIDIwLjI4IDEzLjMgMjAuODZNMTcgN1Y5SDdWN0gxN00xNSAxMVYxM0g3VjExSDE1TTE5IDIyVjIwSDE1VjE4SDE5VjE2TDIyIDE5TDE5IDIyWiIgLz48L3N2Zz4=)
+
+-}
+invoiceTextArrowRightOutline : IconShape
+invoiceTextArrowRightOutline =
+    Material.Icons.Directory.I.invoiceTextArrowRightOutline
 
 
 {-| The [`invoice-text-check-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-check-outline/) icon.
@@ -1923,6 +1923,16 @@ invoiceTextClockOutline =
     Material.Icons.Directory.I.invoiceTextClockOutline
 
 
+{-| The [`invoice-text-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-edit-outline/) icon.
+
+![invoice-text-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjM3IDkuOTMgMTkuNjQgOS45MyAxOSAxMC4yMlY1SDVWMTguMjZMNiAxNy42TDkgMTkuNkw5Ljg2IDE5VjIxLjQzTTExLjg2IDE5Ljk2TDE4IDEzLjgzTDIwLjAzIDE1Ljg3TDEzLjkgMjJIMTEuODZWMTkuOTZNMjEuNzEgMTQuMTlMMjAuNzMgMTUuMTdMMTguNjkgMTMuMTNMMTkuNjcgMTIuMTVMMTkuNjggMTIuMTRMMTkuNjkgMTIuMTNDMTkuODYgMTEuOTcgMjAuMTIgMTEuOTYgMjAuMzEgMTIuMDlDMjAuMzQgMTIuMSAyMC4zNyAxMi4xMyAyMC4zOSAxMi4xNUwyMS43MSAxMy40N0MyMS45MSAxMy42NyAyMS45MSAxNCAyMS43MSAxNC4xOU0xNyA5VjdIN1Y5SDE3TTE1IDEzVjExSDdWMTNIMTVaIiAvPjwvc3ZnPg==)
+
+-}
+invoiceTextEditOutline : IconShape
+invoiceTextEditOutline =
+    Material.Icons.Directory.I.invoiceTextEditOutline
+
+
 {-| The [`invoice-text-edit`](https://pictogrammers.com/library/mdi/icon/invoice-text-edit/) icon.
 
 ![invoice-text-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjEgOS44MiAxOSAxMCAxOC4yNCAxMC43NUw5Ljg2IDE5LjEzVjIxLjQzTTE3IDdIN1Y5SDE3VjdNMTUgMTFIN1YxM0gxNVYxMU0xMS44NiAxOS45NlYyMkgxMy45TDIwLjAzIDE1Ljg3TDE4IDEzLjgzTDExLjg2IDE5Ljk2TTIxLjcxIDEzLjQ3TDIwLjM5IDEyLjE1QzIwLjM3IDEyLjEzIDIwLjM0IDEyLjEgMjAuMzEgMTIuMDlDMjAuMTIgMTEuOTYgMTkuODYgMTEuOTcgMTkuNjkgMTIuMTNMMTkuNjcgMTIuMTVMMTguNjkgMTMuMTNMMjAuNzMgMTUuMTdMMjEuNzEgMTQuMTlDMjEuOTEgMTQgMjEuOTEgMTMuNjcgMjEuNzEgMTMuNDdaIiAvPjwvc3ZnPg==)
@@ -1931,6 +1941,16 @@ invoiceTextClockOutline =
 invoiceTextEdit : IconShape
 invoiceTextEdit =
     Material.Icons.Directory.I.invoiceTextEdit
+
+
+{-| The [`invoice-text-fast-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast-outline/) icon.
+
+![invoice-text-fast-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDlIMTFWMTFIMThWOU0xMSAxM0gxNlYxNUgxMVYxM00yMiAyMUwxOS41IDE5LjMyTDE3IDIxTDE0LjUgMTkuMzJMMTIgMjFMOS41IDE5LjMyTDcgMjFWNUgyMlYyMU0yMCAxNi41N1Y3SDlWMTYuNTdMMTIgMTguNTlMMTQuNSAxNi45TDE3IDE4LjU5TDIwIDE2LjU3TTMgN0MyLjQgNyAyIDcuNCAyIDhDMiA4LjYgMi40IDkgMyA5SDVWN0gzTTIgMTFDMS40IDExIDEgMTEuNCAxIDEyQzEgMTIuNiAxLjQgMTMgMiAxM0g1VjExSDJNMSAxNUMuNCAxNSAwIDE1LjQgMCAxNkMwIDE2LjYgLjQgMTcgMSAxN0g1VjE1SDFaIiAvPjwvc3ZnPg==)
+
+-}
+invoiceTextFastOutline : IconShape
+invoiceTextFastOutline =
+    Material.Icons.Directory.I.invoiceTextFastOutline
 
 
 {-| The [`invoice-text-fast`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast/) icon.
@@ -1943,16 +1963,6 @@ invoiceTextFast =
     Material.Icons.Directory.I.invoiceTextFast
 
 
-{-| The [`invoice-text-edit-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-edit-outline/) icon.
-
-![invoice-text-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODYgMjEuNDNMOSAyMkw2IDIwTDMgMjJWM0gyMVYxMC4yQzIwLjM3IDkuOTMgMTkuNjQgOS45MyAxOSAxMC4yMlY1SDVWMTguMjZMNiAxNy42TDkgMTkuNkw5Ljg2IDE5VjIxLjQzTTExLjg2IDE5Ljk2TDE4IDEzLjgzTDIwLjAzIDE1Ljg3TDEzLjkgMjJIMTEuODZWMTkuOTZNMjEuNzEgMTQuMTlMMjAuNzMgMTUuMTdMMTguNjkgMTMuMTNMMTkuNjcgMTIuMTVMMTkuNjggMTIuMTRMMTkuNjkgMTIuMTNDMTkuODYgMTEuOTcgMjAuMTIgMTEuOTYgMjAuMzEgMTIuMDlDMjAuMzQgMTIuMSAyMC4zNyAxMi4xMyAyMC4zOSAxMi4xNUwyMS43MSAxMy40N0MyMS45MSAxMy42NyAyMS45MSAxNCAyMS43MSAxNC4xOU0xNyA5VjdIN1Y5SDE3TTE1IDEzVjExSDdWMTNIMTVaIiAvPjwvc3ZnPg==)
-
--}
-invoiceTextEditOutline : IconShape
-invoiceTextEditOutline =
-    Material.Icons.Directory.I.invoiceTextEditOutline
-
-
 {-| The [`invoice-text-minus`](https://pictogrammers.com/library/mdi/icon/invoice-text-minus/) icon.
 
 ![invoice-text-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBMMTMuMyAyMC44NkMxMy4xIDIwLjI4IDEzIDE5LjY1IDEzIDE5QzEzIDE1LjY5IDE1LjY5IDEzIDE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNU0xNSAxOFYyMEgyM1YxOEgxNVoiIC8+PC9zdmc+)
@@ -1961,16 +1971,6 @@ invoiceTextEditOutline =
 invoiceTextMinus : IconShape
 invoiceTextMinus =
     Material.Icons.Directory.I.invoiceTextMinus
-
-
-{-| The [`invoice-text-fast-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-fast-outline/) icon.
-
-![invoice-text-fast-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDlIMTFWMTFIMThWOU0xMSAxM0gxNlYxNUgxMVYxM00yMiAyMUwxOS41IDE5LjMyTDE3IDIxTDE0LjUgMTkuMzJMMTIgMjFMOS41IDE5LjMyTDcgMjFWNUgyMlYyMU0yMCAxNi41N1Y3SDlWMTYuNTdMMTIgMTguNTlMMTQuNSAxNi45TDE3IDE4LjU5TDIwIDE2LjU3TTMgN0MyLjQgNyAyIDcuNCAyIDhDMiA4LjYgMi40IDkgMyA5SDVWN0gzTTIgMTFDMS40IDExIDEgMTEuNCAxIDEyQzEgMTIuNiAxLjQgMTMgMiAxM0g1VjExSDJNMSAxNUMuNCAxNSAwIDE1LjQgMCAxNkMwIDE2LjYgLjQgMTcgMSAxN0g1VjE1SDFaIiAvPjwvc3ZnPg==)
-
--}
-invoiceTextFastOutline : IconShape
-invoiceTextFastOutline =
-    Material.Icons.Directory.I.invoiceTextFastOutline
 
 
 {-| The [`invoice-text-minus-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-minus-outline/) icon.
@@ -1993,16 +1993,6 @@ invoiceTextMultiple =
     Material.Icons.Directory.I.invoiceTextMultiple
 
 
-{-| The [`invoice-text-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-outline/) icon.
-
-![invoice-text-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNU0xOCAyMEwyMSAyMlYzSDNWMjJMNiAyMEw5IDIyTDEyIDIwTDE1IDIyTDE4IDIwTTE5IDVWMTguMjZMMTggMTcuNkwxNSAxOS42TDEyIDE3LjZMOSAxOS42TDYgMTcuNkw1IDE4LjI2VjVIMTlaIiAvPjwvc3ZnPg==)
-
--}
-invoiceTextOutline : IconShape
-invoiceTextOutline =
-    Material.Icons.Directory.I.invoiceTextOutline
-
-
 {-| The [`invoice-text-multiple-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-multiple-outline/) icon.
 
 ![invoice-text-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMlYxN0g0VjRIMTdWMkgyTTEwIDEwSDE3VjEySDEwVjEwTTE1IDE0SDEwVjE2SDE1VjE0TTE4LjUgMjAuMzJMMjEgMjJWNkg2VjIyTDguNSAyMC4zMkwxMSAyMkwxMy41IDIwLjMyTDE2IDIyTDE4LjUgMjAuMzJNMTkgOFYxNy41N0wxNiAxOS41OUwxMy41IDE3LjlMMTEgMTkuNTlMOCAxNy41N1Y4SDE5WiIgLz48L3N2Zz4=)
@@ -2013,6 +2003,16 @@ invoiceTextMultipleOutline =
     Material.Icons.Directory.I.invoiceTextMultipleOutline
 
 
+{-| The [`invoice-text-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-outline/) icon.
+
+![invoice-text-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNU0xOCAyMEwyMSAyMlYzSDNWMjJMNiAyMEw5IDIyTDEyIDIwTDE1IDIyTDE4IDIwTTE5IDVWMTguMjZMMTggMTcuNkwxNSAxOS42TDEyIDE3LjZMOSAxOS42TDYgMTcuNkw1IDE4LjI2VjVIMTlaIiAvPjwvc3ZnPg==)
+
+-}
+invoiceTextOutline : IconShape
+invoiceTextOutline =
+    Material.Icons.Directory.I.invoiceTextOutline
+
+
 {-| The [`invoice-text-plus`](https://pictogrammers.com/library/mdi/icon/invoice-text-plus/) icon.
 
 ![invoice-text-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBMMTMuMyAyMC44NkMxMy4xIDIwLjI4IDEzIDE5LjY1IDEzIDE5QzEzIDE1LjY5IDE1LjY5IDEzIDE5IDEzQzE5LjcgMTMgMjAuMzcgMTMuMTIgMjEgMTMuMzRWM0gzTTE3IDdWOUg3VjdIMTdNMTUgMTFWMTNIN1YxMUgxNU0xOCAxNVYxOEgxNVYyMEgxOFYyM0gyMFYyMEgyM1YxOEgyMFYxNUgxOFoiIC8+PC9zdmc+)
@@ -2021,16 +2021,6 @@ invoiceTextMultipleOutline =
 invoiceTextPlus : IconShape
 invoiceTextPlus =
     Material.Icons.Directory.I.invoiceTextPlus
-
-
-{-| The [`invoice-text-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove-outline/) icon.
-
-![invoice-text-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwTDEzLjMgMjAuODZDMTMuMSAyMC4yOCAxMyAxOS42NSAxMyAxOUMxMyAxOC43NiAxMyAxOC41IDEzLjA0IDE4LjI5TDEyIDE3LjZMOSAxOS42TDYgMTcuNkw1IDE4LjI2VjVIMTlWMTNDMTkuNyAxMyAyMC4zNyAxMy4xMiAyMSAxMy4zNFYzSDNWMjJMNiAyMEw5IDIyTDEyIDIwTTE3IDlWN0g3VjlIMTdNMTUgMTNWMTFIN1YxM0gxNU0xOSAxNy42TDE2LjkgMTUuNUwxNS41IDE2LjlMMTcuNiAxOUwxNS41IDIxLjFMMTYuOSAyMi41TDE5IDIwLjRMMjEuMSAyMi41TDIyLjUgMjEuMUwyMC40IDE5TDIyLjUgMTYuOUwyMS4xIDE1LjVMMTkgMTcuNloiIC8+PC9zdmc+)
-
--}
-invoiceTextRemoveOutline : IconShape
-invoiceTextRemoveOutline =
-    Material.Icons.Directory.I.invoiceTextRemoveOutline
 
 
 {-| The [`invoice-text-remove`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove/) icon.
@@ -2053,14 +2043,14 @@ invoiceTextPlusOutline =
     Material.Icons.Directory.I.invoiceTextPlusOutline
 
 
-{-| The [`invoice-text-send`](https://pictogrammers.com/library/mdi/icon/invoice-text-send/) icon.
+{-| The [`invoice-text-remove-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-remove-outline/) icon.
 
-![invoice-text-send](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBWMTNIN1YxMUgxNC40N0wyMSAxNC4yNlYzSDNNMTcgOUg3VjdIMTdWOU0xNCAyM1YxOUwxOCAxOEwxNCAxN1YxM0wyNCAxOEwxNCAyM1oiIC8+PC9zdmc+)
+![invoice-text-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwTDEzLjMgMjAuODZDMTMuMSAyMC4yOCAxMyAxOS42NSAxMyAxOUMxMyAxOC43NiAxMyAxOC41IDEzLjA0IDE4LjI5TDEyIDE3LjZMOSAxOS42TDYgMTcuNkw1IDE4LjI2VjVIMTlWMTNDMTkuNyAxMyAyMC4zNyAxMy4xMiAyMSAxMy4zNFYzSDNWMjJMNiAyMEw5IDIyTDEyIDIwTTE3IDlWN0g3VjlIMTdNMTUgMTNWMTFIN1YxM0gxNU0xOSAxNy42TDE2LjkgMTUuNUwxNS41IDE2LjlMMTcuNiAxOUwxNS41IDIxLjFMMTYuOSAyMi41TDE5IDIwLjRMMjEuMSAyMi41TDIyLjUgMjEuMUwyMC40IDE5TDIyLjUgMTYuOUwyMS4xIDE1LjVMMTkgMTcuNloiIC8+PC9zdmc+)
 
 -}
-invoiceTextSend : IconShape
-invoiceTextSend =
-    Material.Icons.Directory.I.invoiceTextSend
+invoiceTextRemoveOutline : IconShape
+invoiceTextRemoveOutline =
+    Material.Icons.Directory.I.invoiceTextRemoveOutline
 
 
 {-| The [`invoice-text-send-outline`](https://pictogrammers.com/library/mdi/icon/invoice-text-send-outline/) icon.
@@ -2073,6 +2063,16 @@ invoiceTextSendOutline =
     Material.Icons.Directory.I.invoiceTextSendOutline
 
 
+{-| The [`invoice-text-send`](https://pictogrammers.com/library/mdi/icon/invoice-text-send/) icon.
+
+![invoice-text-send](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgM1YyMkw2IDIwTDkgMjJMMTIgMjBWMTNIN1YxMUgxNC40N0wyMSAxNC4yNlYzSDNNMTcgOUg3VjdIMTdWOU0xNCAyM1YxOUwxOCAxOEwxNCAxN1YxM0wyNCAxOEwxNCAyM1oiIC8+PC9zdmc+)
+
+-}
+invoiceTextSend : IconShape
+invoiceTextSend =
+    Material.Icons.Directory.I.invoiceTextSend
+
+
 {-| The [`network-pos`](https://pictogrammers.com/library/mdi/icon/network-pos/) icon.
 
 ![network-pos](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlIOFY3SDE3VjlNNyA3SDVWOUg3VjdNNyA0SDVWNkg3VjRNMTAgNEg4VjZIMTBWNE0xMyAxN1YxOUgxNEMxNC41NSAxOSAxNSAxOS40NSAxNSAyMEgyMlYyMkgxNUMxNSAyMi41NSAxNC41NSAyMyAxNCAyM0gxMEM5LjQ1IDIzIDkgMjIuNTUgOSAyMkgyVjIwSDlDOSAxOS40NSA5LjQ1IDE5IDEwIDE5SDExVjE3SDRDMi44OSAxNyAyIDE2LjExIDIgMTVMMiAzQzIgMS44OSAyLjkgMSA0IDFIMjBDMjEuMTEgMSAyMiAxLjg5IDIyIDNMMjIgMTVDMjIgMTYuMTEgMjEuMTEgMTcgMjAgMTdIMTNNMjAgMTVWM0g0VjE1TDIwIDE1TTExIDZIMTlWNEgxMVY2TTUgMTJIMTFWMTBINVYxMk0xMyAxNEgxOVYxMkgxM1YxNFoiIC8+PC9zdmc+)
@@ -2083,16 +2083,6 @@ networkPos =
     Material.Icons.Directory.N.networkPos
 
 
-{-| The [`piggy-bank`](https://pictogrammers.com/library/mdi/icon/piggy-bank/) icon.
-
-![piggy-bank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjgzIDcuNUwxNy41NiA1LjIzQzE3LjYzIDQuODEgMTcuNzQgNC40MiAxNy44OCA0LjA4QzE3Ljk2IDMuOSAxOCAzLjcxIDE4IDMuNUMxOCAyLjY3IDE3LjMzIDIgMTYuNSAyQzE0Ljg2IDIgMTMuNDEgMi43OSAxMi41IDRINy41QzQuNDYgNCAyIDYuNDYgMiA5LjVTNC41IDIxIDQuNSAyMUgxMFYxOUgxMlYyMUgxNy41TDE5LjE4IDE1LjQxTDIyIDE0LjQ3VjcuNUgxOS44M00xMyA5SDhWN0gxM1Y5TTE2IDExQzE1LjQ1IDExIDE1IDEwLjU1IDE1IDEwUzE1LjQ1IDkgMTYgOUMxNi41NSA5IDE3IDkuNDUgMTcgMTBTMTYuNTUgMTEgMTYgMTFaIiAvPjwvc3ZnPg==)
-
--}
-piggyBank : IconShape
-piggyBank =
-    Material.Icons.Directory.P.piggyBank
-
-
 {-| The [`piggy-bank-outline`](https://pictogrammers.com/library/mdi/icon/piggy-bank-outline/) icon.
 
 ![piggy-bank-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDEwQzE1IDkuNDUgMTUuNDUgOSAxNiA5QzE2LjU1IDkgMTcgOS40NSAxNyAxMFMxNi41NSAxMSAxNiAxMSAxNSAxMC41NSAxNSAxME04IDlIMTNWN0g4VjlNMjIgNy41VjE0LjQ3TDE5LjE4IDE1LjQxTDE3LjUgMjFIMTJWMTlIMTBWMjFINC41QzQuNSAyMSAyIDEyLjU0IDIgOS41UzQuNDYgNCA3LjUgNEgxMi41QzEzLjQxIDIuNzkgMTQuODYgMiAxNi41IDJDMTcuMzMgMiAxOCAyLjY3IDE4IDMuNUMxOCAzLjcxIDE3Ljk2IDMuOSAxNy44OCA0LjA4QzE3Ljc0IDQuNDIgMTcuNjIgNC44MSAxNy41NiA1LjIzTDE5LjgzIDcuNUgyMk0yMCA5LjVIMTlMMTUuNSA2QzE1LjUgNS4zNSAxNS41OSA0LjcxIDE1Ljc2IDQuMDlDMTQuNzkgNC4zNCAxNCA1LjA2IDEzLjY3IDZINy41QzUuNTcgNiA0IDcuNTcgNCA5LjVDNCAxMS4zOCA1LjIyIDE2LjE1IDYgMTlIOFYxN0gxNFYxOUgxNkwxNy41NiAxMy44NUwyMCAxMy4wM1Y5LjVaIiAvPjwvc3ZnPg==)
@@ -2101,6 +2091,16 @@ piggyBank =
 piggyBankOutline : IconShape
 piggyBankOutline =
     Material.Icons.Directory.P.piggyBankOutline
+
+
+{-| The [`piggy-bank`](https://pictogrammers.com/library/mdi/icon/piggy-bank/) icon.
+
+![piggy-bank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjgzIDcuNUwxNy41NiA1LjIzQzE3LjYzIDQuODEgMTcuNzQgNC40MiAxNy44OCA0LjA4QzE3Ljk2IDMuOSAxOCAzLjcxIDE4IDMuNUMxOCAyLjY3IDE3LjMzIDIgMTYuNSAyQzE0Ljg2IDIgMTMuNDEgMi43OSAxMi41IDRINy41QzQuNDYgNCAyIDYuNDYgMiA5LjVTNC41IDIxIDQuNSAyMUgxMFYxOUgxMlYyMUgxNy41TDE5LjE4IDE1LjQxTDIyIDE0LjQ3VjcuNUgxOS44M00xMyA5SDhWN0gxM1Y5TTE2IDExQzE1LjQ1IDExIDE1IDEwLjU1IDE1IDEwUzE1LjQ1IDkgMTYgOUMxNi41NSA5IDE3IDkuNDUgMTcgMTBTMTYuNTUgMTEgMTYgMTFaIiAvPjwvc3ZnPg==)
+
+-}
+piggyBank : IconShape
+piggyBank =
+    Material.Icons.Directory.P.piggyBank
 
 
 {-| The [`receipt`](https://pictogrammers.com/library/mdi/icon/receipt/) icon.
@@ -2263,16 +2263,6 @@ receiptTextOutline =
     Material.Icons.Directory.R.receiptTextOutline
 
 
-{-| The [`receipt-text-plus`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus/) icon.
-
-![receipt-text-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE1VjE4SDE1VjIwSDE4VjIzSDIwVjIwSDIzVjE4SDIwVjE1SDE4TTE5LjUgMy41TDE4IDJMMTYuNSAzLjVMMTUgMkwxMy41IDMuNUwxMiAyTDEwLjUgMy41TDkgMkw3LjUgMy41TDYgMkw0LjUgMy41TDMgMlYyMkw0LjUgMjAuNUw2IDIyTDcuNSAyMC41TDkgMjJMMTAuNSAyMC41TDEyIDIyTDEzLjI2IDIwLjc0QzEzLjA5IDIwLjE4IDEzIDE5LjU5IDEzIDE5QzEzIDE4LjMyIDEzLjEyIDE3LjY0IDEzLjM0IDE3SDZWMTVIMTQuNTNDMTUuNjcgMTMuNzMgMTcuMjkgMTMgMTkgMTNDMTkuNjggMTMgMjAuMzYgMTMuMTIgMjEgMTMuMzRWMkwxOS41IDMuNU0xOCAxM0g2VjExSDE4VjEzTTE4IDlINlY3SDE4VjlaIiAvPjwvc3ZnPg==)
-
--}
-receiptTextPlus : IconShape
-receiptTextPlus =
-    Material.Icons.Directory.R.receiptTextPlus
-
-
 {-| The [`receipt-text-plus-outline`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus-outline/) icon.
 
 ![receipt-text-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE1VjE4SDE1VjIwSDE4VjIzSDIwVjIwSDIzVjE4SDIwVjE1SDE4TTEzLjI2IDIwLjc0TDEyIDIyTDEwLjUgMjAuNUw5IDIyTDcuNSAyMC41TDYgMjJMNC41IDIwLjVMMyAyMlYyTDQuNSAzLjVMNiAyTDcuNSAzLjVMOSAyTDEwLjUgMy41TDEyIDJMMTMuNSAzLjVMMTUgMkwxNi41IDMuNUwxOCAyTDE5LjUgMy41TDIxIDJWMTMuMzVDMjAuMzcgMTMuMTMgMTkuNyAxMyAxOSAxM1Y1SDVWMTlIMTNDMTMgMTkuNTcgMTMuMSAyMC4yMiAxMy4yNiAyMC43NE0xNC41NCAxNUMxNCAxNS41OCAxMy42MSAxNi4yNSAxMy4zNSAxN0g2VjE1SDE0LjU0TTYgMTFIMThWMTNINlYxMU02IDdIMThWOUg2VjdaIiAvPjwvc3ZnPg==)
@@ -2281,6 +2271,16 @@ receiptTextPlus =
 receiptTextPlusOutline : IconShape
 receiptTextPlusOutline =
     Material.Icons.Directory.R.receiptTextPlusOutline
+
+
+{-| The [`receipt-text-plus`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus/) icon.
+
+![receipt-text-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE1VjE4SDE1VjIwSDE4VjIzSDIwVjIwSDIzVjE4SDIwVjE1SDE4TTE5LjUgMy41TDE4IDJMMTYuNSAzLjVMMTUgMkwxMy41IDMuNUwxMiAyTDEwLjUgMy41TDkgMkw3LjUgMy41TDYgMkw0LjUgMy41TDMgMlYyMkw0LjUgMjAuNUw2IDIyTDcuNSAyMC41TDkgMjJMMTAuNSAyMC41TDEyIDIyTDEzLjI2IDIwLjc0QzEzLjA5IDIwLjE4IDEzIDE5LjU5IDEzIDE5QzEzIDE4LjMyIDEzLjEyIDE3LjY0IDEzLjM0IDE3SDZWMTVIMTQuNTNDMTUuNjcgMTMuNzMgMTcuMjkgMTMgMTkgMTNDMTkuNjggMTMgMjAuMzYgMTMuMTIgMjEgMTMuMzRWMkwxOS41IDMuNU0xOCAxM0g2VjExSDE4VjEzTTE4IDlINlY3SDE4VjlaIiAvPjwvc3ZnPg==)
+
+-}
+receiptTextPlus : IconShape
+receiptTextPlus =
+    Material.Icons.Directory.R.receiptTextPlus
 
 
 {-| The [`receipt-text-remove`](https://pictogrammers.com/library/mdi/icon/receipt-text-remove/) icon.

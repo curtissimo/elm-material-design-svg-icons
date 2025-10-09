@@ -43,8 +43,8 @@ module Material.Icons.Categories.Weather exposing
     , cloudRefreshVariant
     , cloudRefreshVariantOutline
     , cloudRemoveOutline
-    , cloudSearch
     , cloudSearchOutline
+    , cloudSearch
     , cloudSync
     , cloudSyncOutline
     , cloudUpload
@@ -60,14 +60,14 @@ module Material.Icons.Categories.Weather exposing
     , lightningBoltCircle
     , lightningBoltOutline
     , looks
-    , moonFirstQuarter
     , moonFull
+    , moonFirstQuarter
     , moonLastQuarter
     , moonNew
     , moonWaningCrescent
     , moonWaningGibbous
-    , moonWaxingGibbous
     , moonWaxingCrescent
+    , moonWaxingGibbous
     , shieldSun
     , shieldSunOutline
     , snowflake
@@ -109,8 +109,8 @@ module Material.Icons.Categories.Weather exposing
     , tsunami
     , umbrella
     , umbrellaBeach
-    , umbrellaBeachOutline
     , umbrellaClosed
+    , umbrellaBeachOutline
     , umbrellaClosedOutline
     , umbrellaClosedVariant
     , umbrellaOutline
@@ -120,19 +120,19 @@ module Material.Icons.Categories.Weather exposing
     , waterPercent
     , waterThermometer
     , waterThermometerOutline
-    , waves
     , wavesArrowLeft
+    , waves
     , wavesArrowRight
-    , wavesArrowUp
     , weatherCloudy
     , weatherCloudyAlert
+    , wavesArrowUp
     , weatherCloudyArrowRight
     , weatherCloudyClock
     , weatherDust
     , weatherFog
     , weatherHail
-    , weatherHazy
     , weatherHurricane
+    , weatherHazy
     , weatherHurricaneOutline
     , weatherLightning
     , weatherLightningRainy
@@ -158,8 +158,8 @@ module Material.Icons.Categories.Weather exposing
     , weatherSunsetDown
     , weatherSunsetUp
     , weatherTornado
-    , weatherWindy
     , weatherWindyVariant
+    , weatherWindy
     , whiteBalanceSunny
     , windsock
     )
@@ -206,8 +206,8 @@ module Material.Icons.Categories.Weather exposing
 @docs cloudRefreshVariant
 @docs cloudRefreshVariantOutline
 @docs cloudRemoveOutline
-@docs cloudSearch
 @docs cloudSearchOutline
+@docs cloudSearch
 @docs cloudSync
 @docs cloudSyncOutline
 @docs cloudUpload
@@ -223,14 +223,14 @@ module Material.Icons.Categories.Weather exposing
 @docs lightningBoltCircle
 @docs lightningBoltOutline
 @docs looks
-@docs moonFirstQuarter
 @docs moonFull
+@docs moonFirstQuarter
 @docs moonLastQuarter
 @docs moonNew
 @docs moonWaningCrescent
 @docs moonWaningGibbous
-@docs moonWaxingGibbous
 @docs moonWaxingCrescent
+@docs moonWaxingGibbous
 @docs shieldSun
 @docs shieldSunOutline
 @docs snowflake
@@ -272,8 +272,8 @@ module Material.Icons.Categories.Weather exposing
 @docs tsunami
 @docs umbrella
 @docs umbrellaBeach
-@docs umbrellaBeachOutline
 @docs umbrellaClosed
+@docs umbrellaBeachOutline
 @docs umbrellaClosedOutline
 @docs umbrellaClosedVariant
 @docs umbrellaOutline
@@ -283,19 +283,19 @@ module Material.Icons.Categories.Weather exposing
 @docs waterPercent
 @docs waterThermometer
 @docs waterThermometerOutline
-@docs waves
 @docs wavesArrowLeft
+@docs waves
 @docs wavesArrowRight
-@docs wavesArrowUp
 @docs weatherCloudy
 @docs weatherCloudyAlert
+@docs wavesArrowUp
 @docs weatherCloudyArrowRight
 @docs weatherCloudyClock
 @docs weatherDust
 @docs weatherFog
 @docs weatherHail
-@docs weatherHazy
 @docs weatherHurricane
+@docs weatherHazy
 @docs weatherHurricaneOutline
 @docs weatherLightning
 @docs weatherLightningRainy
@@ -321,8 +321,8 @@ module Material.Icons.Categories.Weather exposing
 @docs weatherSunsetDown
 @docs weatherSunsetUp
 @docs weatherTornado
-@docs weatherWindy
 @docs weatherWindyVariant
+@docs weatherWindy
 @docs whiteBalanceSunny
 @docs windsock
 
@@ -742,16 +742,6 @@ cloudRemoveOutline =
     Material.Icons.Directory.C.cloudRemoveOutline
 
 
-{-| The [`cloud-search`](https://pictogrammers.com/library/mdi/icon/cloud-search/) icon.
-
-![cloud-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjg2IDEyLjVDMjEuMSAxMS42MyAyMC4xNSAxMS4xMyAxOSAxMUMxOSA5LjA1IDE4LjMyIDcuNCAxNi45NiA2LjA0QzE1LjYgNC42OCAxMy45NSA0IDEyIDRDMTAuNDIgNCA5IDQuNDcgNy43NSA1LjQzUzUuNjcgNy42MiA1LjI1IDkuMTVDNCA5LjQzIDIuOTYgMTAuMDggMi4xNyAxMS4xUzEgMTMuMjggMSAxNC41OEMxIDE2LjA5IDEuNTQgMTcuMzggMi42MSAxOC40M0MzLjY5IDE5LjUgNSAyMCA2LjUgMjBIMTguNUMxOS43NSAyMCAyMC44MSAxOS41NiAyMS42OSAxOC42OUMyMi41NiAxNy44MSAyMyAxNi43NSAyMyAxNS41QzIzIDE0LjM1IDIyLjYyIDEzLjM1IDIxLjg2IDEyLjVNMTYuNTcgMThMMTQgMTUuNDNDMTMuNDMgMTUuNzkgMTIuNzQgMTYgMTIgMTZDOS43OSAxNiA4IDE0LjIxIDggMTJTOS43OSA4IDEyIDggMTYgOS43OSAxNiAxMkMxNiAxMi43NCAxNS43OSAxMy40MyAxNS40MyAxNEwxOCAxNi41N0wxNi41NyAxOE0xNCAxMkMxNCAxMy4xMSAxMy4xMSAxNCAxMiAxNFMxMCAxMy4xMSAxMCAxMiAxMC45IDEwIDEyIDEwIDE0IDEwLjkgMTQgMTJaIiAvPjwvc3ZnPg==)
-
--}
-cloudSearch : IconShape
-cloudSearch =
-    Material.Icons.Directory.C.cloudSearch
-
-
 {-| The [`cloud-search-outline`](https://pictogrammers.com/library/mdi/icon/cloud-search-outline/) icon.
 
 ![cloud-search-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjg2IDEyLjVDMjEuMSAxMS42MyAyMC4xNSAxMS4xMyAxOSAxMUMxOSA5LjA1IDE4LjMyIDcuNCAxNi45NiA2LjA0QzE1LjYgNC42OCAxMy45NSA0IDEyIDRDMTAuNDIgNCA5IDQuNDcgNy43NSA1LjQzUzUuNjcgNy42MiA1LjI1IDkuMTVDNCA5LjQzIDIuOTYgMTAuMDggMi4xNyAxMS4xUzEgMTMuMjggMSAxNC41OEMxIDE2LjA5IDEuNTQgMTcuMzggMi42MSAxOC40M0MzLjY5IDE5LjUgNSAyMCA2LjUgMjBIMTguNUMxOS43NSAyMCAyMC44MSAxOS41NiAyMS42OSAxOC42OUMyMi41NiAxNy44MSAyMyAxNi43NSAyMyAxNS41QzIzIDE0LjM1IDIyLjYyIDEzLjM1IDIxLjg2IDEyLjVNMjAuMjcgMTcuMjdDMTkuNzkgMTcuNzYgMTkuMiAxOCAxOC41IDE4SDYuNUM1LjUzIDE4IDQuNzEgMTcuNjYgNC4wMyAxN0MzLjM0IDE2LjI5IDMgMTUuNDcgMyAxNC41UzMuMzQgMTIuNzEgNC4wMyAxMi4wM0M0LjcxIDExLjM0IDUuNTMgMTEgNi41IDExSDdDNyA5LjYyIDcuNSA4LjQ0IDguNDYgNy40NkM5LjQ0IDYuNSAxMC42MiA2IDEyIDZTMTQuNTYgNi41IDE1LjU0IDcuNDZDMTYuNSA4LjQ0IDE3IDkuNjIgMTcgMTFWMTNIMTguNUMxOS4yIDEzIDE5Ljc5IDEzLjI0IDIwLjI3IDEzLjczUzIxIDE0LjggMjEgMTUuNSAyMC43NiAxNi43OSAyMC4yNyAxNy4yN00xNiAxMkMxNiA5Ljc5IDE0LjIxIDggMTIgOFM4IDkuNzkgOCAxMiA5Ljc5IDE2IDEyIDE2QzEyLjc0IDE2IDEzLjQzIDE1Ljc5IDE0IDE1LjQzTDE2LjU3IDE4TDE4IDE2LjU3TDE1LjQzIDE0QzE1Ljc5IDEzLjQzIDE2IDEyLjc0IDE2IDEyTTEyIDE0QzEwLjkgMTQgMTAgMTMuMTEgMTAgMTJTMTAuOSAxMCAxMiAxMCAxNCAxMC45IDE0IDEyIDEzLjExIDE0IDEyIDE0WiIgLz48L3N2Zz4=)
@@ -760,6 +750,16 @@ cloudSearch =
 cloudSearchOutline : IconShape
 cloudSearchOutline =
     Material.Icons.Directory.C.cloudSearchOutline
+
+
+{-| The [`cloud-search`](https://pictogrammers.com/library/mdi/icon/cloud-search/) icon.
+
+![cloud-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjg2IDEyLjVDMjEuMSAxMS42MyAyMC4xNSAxMS4xMyAxOSAxMUMxOSA5LjA1IDE4LjMyIDcuNCAxNi45NiA2LjA0QzE1LjYgNC42OCAxMy45NSA0IDEyIDRDMTAuNDIgNCA5IDQuNDcgNy43NSA1LjQzUzUuNjcgNy42MiA1LjI1IDkuMTVDNCA5LjQzIDIuOTYgMTAuMDggMi4xNyAxMS4xUzEgMTMuMjggMSAxNC41OEMxIDE2LjA5IDEuNTQgMTcuMzggMi42MSAxOC40M0MzLjY5IDE5LjUgNSAyMCA2LjUgMjBIMTguNUMxOS43NSAyMCAyMC44MSAxOS41NiAyMS42OSAxOC42OUMyMi41NiAxNy44MSAyMyAxNi43NSAyMyAxNS41QzIzIDE0LjM1IDIyLjYyIDEzLjM1IDIxLjg2IDEyLjVNMTYuNTcgMThMMTQgMTUuNDNDMTMuNDMgMTUuNzkgMTIuNzQgMTYgMTIgMTZDOS43OSAxNiA4IDE0LjIxIDggMTJTOS43OSA4IDEyIDggMTYgOS43OSAxNiAxMkMxNiAxMi43NCAxNS43OSAxMy40MyAxNS40MyAxNEwxOCAxNi41N0wxNi41NyAxOE0xNCAxMkMxNCAxMy4xMSAxMy4xMSAxNCAxMiAxNFMxMCAxMy4xMSAxMCAxMiAxMC45IDEwIDEyIDEwIDE0IDEwLjkgMTQgMTJaIiAvPjwvc3ZnPg==)
+
+-}
+cloudSearch : IconShape
+cloudSearch =
+    Material.Icons.Directory.C.cloudSearch
 
 
 {-| The [`cloud-sync`](https://pictogrammers.com/library/mdi/icon/cloud-sync/) icon.
@@ -912,16 +912,6 @@ looks =
     Material.Icons.Directory.L.looks
 
 
-{-| The [`moon-first-quarter`](https://pictogrammers.com/library/mdi/icon/moon-first-quarter/) icon.
-
-![moon-first-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJWMjJBMTAgMTAgMCAwIDAgMTIgMloiIC8+PC9zdmc+)
-
--}
-moonFirstQuarter : IconShape
-moonFirstQuarter =
-    Material.Icons.Directory.M.moonFirstQuarter
-
-
 {-| The [`moon-full`](https://pictogrammers.com/library/mdi/icon/moon-full/) icon.
 
 ![moon-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJBMTAgMTAgMCAxIDEgMiAxMkExMCAxMCAwIDAgMSAxMiAyWiIgLz48L3N2Zz4=)
@@ -930,6 +920,16 @@ moonFirstQuarter =
 moonFull : IconShape
 moonFull =
     Material.Icons.Directory.M.moonFull
+
+
+{-| The [`moon-first-quarter`](https://pictogrammers.com/library/mdi/icon/moon-first-quarter/) icon.
+
+![moon-first-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJWMjJBMTAgMTAgMCAwIDAgMTIgMloiIC8+PC9zdmc+)
+
+-}
+moonFirstQuarter : IconShape
+moonFirstQuarter =
+    Material.Icons.Directory.M.moonFirstQuarter
 
 
 {-| The [`moon-last-quarter`](https://pictogrammers.com/library/mdi/icon/moon-last-quarter/) icon.
@@ -972,16 +972,6 @@ moonWaningGibbous =
     Material.Icons.Directory.M.moonWaningGibbous
 
 
-{-| The [`moon-waxing-gibbous`](https://pictogrammers.com/library/mdi/icon/moon-waxing-gibbous/) icon.
-
-![moon-waxing-gibbous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgMTJDNiA3LjUgNy45MyAzLjI2IDEyIDJBMTAgMTAgMCAwIDEgMTIgMjJDNy45MyAyMC43NCA2IDE2LjUgNiAxMloiIC8+PC9zdmc+)
-
--}
-moonWaxingGibbous : IconShape
-moonWaxingGibbous =
-    Material.Icons.Directory.M.moonWaxingGibbous
-
-
 {-| The [`moon-waxing-crescent`](https://pictogrammers.com/library/mdi/icon/moon-waxing-crescent/) icon.
 
 ![moon-waxing-crescent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJBOS45MSA5LjkxIDAgMCAwIDkgMi40NkExMCAxMCAwIDAgMSA5IDIxLjU0QTEwIDEwIDAgMSAwIDEyIDJaIiAvPjwvc3ZnPg==)
@@ -990,6 +980,16 @@ moonWaxingGibbous =
 moonWaxingCrescent : IconShape
 moonWaxingCrescent =
     Material.Icons.Directory.M.moonWaxingCrescent
+
+
+{-| The [`moon-waxing-gibbous`](https://pictogrammers.com/library/mdi/icon/moon-waxing-gibbous/) icon.
+
+![moon-waxing-gibbous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgMTJDNiA3LjUgNy45MyAzLjI2IDEyIDJBMTAgMTAgMCAwIDEgMTIgMjJDNy45MyAyMC43NCA2IDE2LjUgNiAxMloiIC8+PC9zdmc+)
+
+-}
+moonWaxingGibbous : IconShape
+moonWaxingGibbous =
+    Material.Icons.Directory.M.moonWaxingGibbous
 
 
 {-| The [`shield-sun`](https://pictogrammers.com/library/mdi/icon/shield-sun/) icon.
@@ -1402,16 +1402,6 @@ umbrellaBeach =
     Material.Icons.Directory.U.umbrellaBeach
 
 
-{-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
-
-![umbrella-beach-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE5LjU3TDE5LjU3IDIxTDEzLjEzIDE0LjU2TDE0LjU2IDEzLjEzTDIxIDE5LjU3TTEzLjEyIDNDMTAuNTQgMyA3Ljk2IDQgNiA1Ljk1TDUuOTcgNS45NkMyIDkuOTEgMiAxNi4zMiA1Ljk3IDIwLjI3TDIwLjI3IDUuOTZDMTguMyA0IDE1LjcxIDMgMTMuMTIgM002LjE0IDE3LjI3QzUuNCAxNi4wMyA1IDE0LjYxIDUgMTMuMTJDNSAxMi4xOSA1LjE2IDExLjMgNS40NiAxMC40NUM1LjY1IDEyLjM2IDYuMzUgMTQuMjQgNy41MyAxNS44OUw2LjE0IDE3LjI3TTkgMTQuNDNDNy42MyAxMi4zOCA3LjEyIDkuOTMgNy42IDcuNkM4LjE4IDcuNSA4Ljc2IDcuNDIgOS4zNSA3LjQyQzExLjE1IDcuNDIgMTIuOSA3Ljk3IDE0LjQzIDlMOSAxNC40M00xMC40NSA1LjQ2QzExLjMgNS4xNiAxMi4xOSA1IDEzLjEyIDVDMTQuNjEgNSAxNi4wMyA1LjQgMTcuMjcgNi4xNEwxNS44OCA3LjUzQzE0LjIzIDYuMzUgMTIuMzYgNS42NSAxMC40NSA1LjQ2WiIgLz48L3N2Zz4=)
-
--}
-umbrellaBeachOutline : IconShape
-umbrellaBeachOutline =
-    Material.Icons.Directory.U.umbrellaBeachOutline
-
-
 {-| The [`umbrella-closed`](https://pictogrammers.com/library/mdi/icon/umbrella-closed/) icon.
 
 ![umbrella-closed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDMTEuNiAyIDExLjMgMi4yIDExLjEgMi42TDYuNSAxNUgxMVYxOUMxMSAxOS42IDEwLjYgMjAgMTAgMjBDOS40IDIwIDkgMTkuNiA5IDE5VjE4SDdWMTlDNyAyMC43IDguMyAyMiAxMCAyMlMxMyAyMC43IDEzIDE5VjE1SDE3LjVMMTIuOSAyLjZDMTIuNyAyLjIgMTIuNCAyIDEyIDJaIiAvPjwvc3ZnPg==)
@@ -1420,6 +1410,16 @@ umbrellaBeachOutline =
 umbrellaClosed : IconShape
 umbrellaClosed =
     Material.Icons.Directory.U.umbrellaClosed
+
+
+{-| The [`umbrella-beach-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-beach-outline/) icon.
+
+![umbrella-beach-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE5LjU3TDE5LjU3IDIxTDEzLjEzIDE0LjU2TDE0LjU2IDEzLjEzTDIxIDE5LjU3TTEzLjEyIDNDMTAuNTQgMyA3Ljk2IDQgNiA1Ljk1TDUuOTcgNS45NkMyIDkuOTEgMiAxNi4zMiA1Ljk3IDIwLjI3TDIwLjI3IDUuOTZDMTguMyA0IDE1LjcxIDMgMTMuMTIgM002LjE0IDE3LjI3QzUuNCAxNi4wMyA1IDE0LjYxIDUgMTMuMTJDNSAxMi4xOSA1LjE2IDExLjMgNS40NiAxMC40NUM1LjY1IDEyLjM2IDYuMzUgMTQuMjQgNy41MyAxNS44OUw2LjE0IDE3LjI3TTkgMTQuNDNDNy42MyAxMi4zOCA3LjEyIDkuOTMgNy42IDcuNkM4LjE4IDcuNSA4Ljc2IDcuNDIgOS4zNSA3LjQyQzExLjE1IDcuNDIgMTIuOSA3Ljk3IDE0LjQzIDlMOSAxNC40M00xMC40NSA1LjQ2QzExLjMgNS4xNiAxMi4xOSA1IDEzLjEyIDVDMTQuNjEgNSAxNi4wMyA1LjQgMTcuMjcgNi4xNEwxNS44OCA3LjUzQzE0LjIzIDYuMzUgMTIuMzYgNS42NSAxMC40NSA1LjQ2WiIgLz48L3N2Zz4=)
+
+-}
+umbrellaBeachOutline : IconShape
+umbrellaBeachOutline =
+    Material.Icons.Directory.U.umbrellaBeachOutline
 
 
 {-| The [`umbrella-closed-outline`](https://pictogrammers.com/library/mdi/icon/umbrella-closed-outline/) icon.
@@ -1512,16 +1512,6 @@ waterThermometerOutline =
     Material.Icons.Directory.W.waterThermometerOutline
 
 
-{-| The [`waves`](https://pictogrammers.com/library/mdi/icon/waves/) icon.
-
-![waves](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDEySDIyVjE0SDIwQzE4LjYyLDE0IDE3LjI2LDEzLjY1IDE2LDEzQzEzLjUsMTQuMyAxMC41LDE0LjMgOCwxM0M2Ljc0LDEzLjY1IDUuMzcsMTQgNCwxNEgyVjEySDRDNS4zOSwxMiA2Ljc4LDExLjUzIDgsMTAuNjdDMTAuNDQsMTIuMzggMTMuNTYsMTIuMzggMTYsMTAuNjdDMTcuMjIsMTEuNTMgMTguNjEsMTIgMjAsMTJNMjAsNkgyMlY4SDIwQzE4LjYyLDggMTcuMjYsNy42NSAxNiw3QzEzLjUsOC4zIDEwLjUsOC4zIDgsN0M2Ljc0LDcuNjUgNS4zNyw4IDQsOEgyVjZINEM1LjM5LDYgNi43OCw1LjUzIDgsNC42N0MxMC40NCw2LjM4IDEzLjU2LDYuMzggMTYsNC42N0MxNy4yMiw1LjUzIDE4LjYxLDYgMjAsNk0yMCwxOEgyMlYyMEgyMEMxOC42MiwyMCAxNy4yNiwxOS42NSAxNiwxOUMxMy41LDIwLjMgMTAuNSwyMC4zIDgsMTlDNi43NCwxOS42NSA1LjM3LDIwIDQsMjBIMlYxOEg0QzUuMzksMTggNi43OCwxNy41MyA4LDE2LjY3QzEwLjQ0LDE4LjM4IDEzLjU2LDE4LjM4IDE2LDE2LjY3QzE3LjIyLDE3LjUzIDE4LjYxLDE4IDIwLDE4WiIgLz48L3N2Zz4=)
-
--}
-waves : IconShape
-waves =
-    Material.Icons.Directory.W.waves
-
-
 {-| The [`waves-arrow-left`](https://pictogrammers.com/library/mdi/icon/waves-arrow-left/) icon.
 
 ![waves-arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgMTRDNS4zOSAxNCA2Ljc4IDEzLjUzIDggMTIuNjdDMTAuNDQgMTQuMzggMTMuNTYgMTQuMzggMTYgMTIuNjdDMTcuMjIgMTMuNTMgMTguNjEgMTQgMjAgMTRIMjJWMTZIMjBDMTguNjMgMTYgMTcuMjYgMTUuNjUgMTYgMTVDMTMuNSAxNi4zIDEwLjUgMTYuMyA4IDE1QzYuNzQgMTUuNjUgNS4zOCAxNiA0IDE2SDJWMTRINE04IDE4LjY3QzEwLjQ0IDIwLjM4IDEzLjU2IDIwLjM4IDE2IDE4LjY3QzE3LjIyIDE5LjUzIDE4LjYxIDIwIDIwIDIwSDIyVjIySDIwQzE4LjYzIDIyIDE3LjI2IDIxLjY1IDE2IDIxQzEzLjUgMjIuMyAxMC41IDIyLjMgOCAyMUM2Ljc0IDIxLjY1IDUuMzggMjIgNCAyMkgyVjIwSDRDNS4zOSAyMCA2Ljc4IDE5LjUzIDggMTguNjdNNiAxMFY3SDExVjVINlYyTDIgNiIgLz48L3N2Zz4=)
@@ -1532,6 +1522,16 @@ wavesArrowLeft =
     Material.Icons.Directory.W.wavesArrowLeft
 
 
+{-| The [`waves`](https://pictogrammers.com/library/mdi/icon/waves/) icon.
+
+![waves](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDEySDIyVjE0SDIwQzE4LjYyLDE0IDE3LjI2LDEzLjY1IDE2LDEzQzEzLjUsMTQuMyAxMC41LDE0LjMgOCwxM0M2Ljc0LDEzLjY1IDUuMzcsMTQgNCwxNEgyVjEySDRDNS4zOSwxMiA2Ljc4LDExLjUzIDgsMTAuNjdDMTAuNDQsMTIuMzggMTMuNTYsMTIuMzggMTYsMTAuNjdDMTcuMjIsMTEuNTMgMTguNjEsMTIgMjAsMTJNMjAsNkgyMlY4SDIwQzE4LjYyLDggMTcuMjYsNy42NSAxNiw3QzEzLjUsOC4zIDEwLjUsOC4zIDgsN0M2Ljc0LDcuNjUgNS4zNyw4IDQsOEgyVjZINEM1LjM5LDYgNi43OCw1LjUzIDgsNC42N0MxMC40NCw2LjM4IDEzLjU2LDYuMzggMTYsNC42N0MxNy4yMiw1LjUzIDE4LjYxLDYgMjAsNk0yMCwxOEgyMlYyMEgyMEMxOC42MiwyMCAxNy4yNiwxOS42NSAxNiwxOUMxMy41LDIwLjMgMTAuNSwyMC4zIDgsMTlDNi43NCwxOS42NSA1LjM3LDIwIDQsMjBIMlYxOEg0QzUuMzksMTggNi43OCwxNy41MyA4LDE2LjY3QzEwLjQ0LDE4LjM4IDEzLjU2LDE4LjM4IDE2LDE2LjY3QzE3LjIyLDE3LjUzIDE4LjYxLDE4IDIwLDE4WiIgLz48L3N2Zz4=)
+
+-}
+waves : IconShape
+waves =
+    Material.Icons.Directory.W.waves
+
+
 {-| The [`waves-arrow-right`](https://pictogrammers.com/library/mdi/icon/waves-arrow-right/) icon.
 
 ![waves-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE0SDIyVjE2SDIwQzE4LjYyIDE2IDE3LjI2IDE1LjY1IDE2IDE1QzEzLjUgMTYuMyAxMC41IDE2LjMgOCAxNUM2Ljc0IDE1LjY1IDUuMzcgMTYgNCAxNkgyVjE0SDRDNS4zOSAxNCA2Ljc4IDEzLjUzIDggMTIuNjdDMTAuNDQgMTQuMzggMTMuNTYgMTQuMzggMTYgMTIuNjdDMTcuMjIgMTMuNTMgMTguNjEgMTQgMjAgMTRNMjAgMjBIMjJWMjJIMjBDMTguNjIgMjIgMTcuMjYgMjEuNjUgMTYgMjFDMTMuNSAyMi4zIDEwLjUgMjIuMyA4IDIxQzYuNzQgMjEuNjUgNS4zNyAyMiA0IDIySDJWMjBINEM1LjM5IDIwIDYuNzggMTkuNTMgOCAxOC42N0MxMC40NCAyMC4zOCAxMy41NiAyMC4zOCAxNiAxOC42N0MxNy4yMiAxOS41MyAxOC42MSAyMCAyMCAyME0yMiA2TDE4IDJWNUgxM1Y3SDE4VjEwIiAvPjwvc3ZnPg==)
@@ -1540,16 +1540,6 @@ wavesArrowLeft =
 wavesArrowRight : IconShape
 wavesArrowRight =
     Material.Icons.Directory.W.wavesArrowRight
-
-
-{-| The [`waves-arrow-up`](https://pictogrammers.com/library/mdi/icon/waves-arrow-up/) icon.
-
-![waves-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE0SDIyVjE2SDIwQzE4LjYyIDE2IDE3LjI2IDE1LjY1IDE2IDE1QzEzLjUgMTYuMyAxMC41IDE2LjMgOCAxNUM2Ljc0IDE1LjY1IDUuMzcgMTYgNCAxNkgyVjE0SDRDNS4zOSAxNCA2Ljc4IDEzLjUzIDggMTIuNjdDMTAuNDQgMTQuMzggMTMuNTYgMTQuMzggMTYgMTIuNjdDMTcuMjIgMTMuNTMgMTguNjEgMTQgMjAgMTRNMjAgMjBIMjJWMjJIMjBDMTguNjIgMjIgMTcuMjYgMjEuNjUgMTYgMjFDMTMuNSAyMi4zIDEwLjUgMjIuMyA4IDIxQzYuNzQgMjEuNjUgNS4zNyAyMiA0IDIySDJWMjBINEM1LjM5IDIwIDYuNzggMTkuNTMgOCAxOC42N0MxMC40NCAyMC4zOCAxMy41NiAyMC4zOCAxNiAxOC42N0MxNy4yMiAxOS41MyAxOC42MSAyMCAyMCAyME03IDJMMyA2SDZWMTFIOFY2SDExTTE3IDJMMTMgNkgxNlYxMUgxOFY2SDIxIiAvPjwvc3ZnPg==)
-
--}
-wavesArrowUp : IconShape
-wavesArrowUp =
-    Material.Icons.Directory.W.wavesArrowUp
 
 
 {-| The [`weather-cloudy`](https://pictogrammers.com/library/mdi/icon/weather-cloudy/) icon.
@@ -1570,6 +1560,16 @@ weatherCloudy =
 weatherCloudyAlert : IconShape
 weatherCloudyAlert =
     Material.Icons.Directory.W.weatherCloudyAlert
+
+
+{-| The [`waves-arrow-up`](https://pictogrammers.com/library/mdi/icon/waves-arrow-up/) icon.
+
+![waves-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE0SDIyVjE2SDIwQzE4LjYyIDE2IDE3LjI2IDE1LjY1IDE2IDE1QzEzLjUgMTYuMyAxMC41IDE2LjMgOCAxNUM2Ljc0IDE1LjY1IDUuMzcgMTYgNCAxNkgyVjE0SDRDNS4zOSAxNCA2Ljc4IDEzLjUzIDggMTIuNjdDMTAuNDQgMTQuMzggMTMuNTYgMTQuMzggMTYgMTIuNjdDMTcuMjIgMTMuNTMgMTguNjEgMTQgMjAgMTRNMjAgMjBIMjJWMjJIMjBDMTguNjIgMjIgMTcuMjYgMjEuNjUgMTYgMjFDMTMuNSAyMi4zIDEwLjUgMjIuMyA4IDIxQzYuNzQgMjEuNjUgNS4zNyAyMiA0IDIySDJWMjBINEM1LjM5IDIwIDYuNzggMTkuNTMgOCAxOC42N0MxMC40NCAyMC4zOCAxMy41NiAyMC4zOCAxNiAxOC42N0MxNy4yMiAxOS41MyAxOC42MSAyMCAyMCAyME03IDJMMyA2SDZWMTFIOFY2SDExTTE3IDJMMTMgNkgxNlYxMUgxOFY2SDIxIiAvPjwvc3ZnPg==)
+
+-}
+wavesArrowUp : IconShape
+wavesArrowUp =
+    Material.Icons.Directory.W.wavesArrowUp
 
 
 {-| The [`weather-cloudy-arrow-right`](https://pictogrammers.com/library/mdi/icon/weather-cloudy-arrow-right/) icon.
@@ -1622,16 +1622,6 @@ weatherHail =
     Material.Icons.Directory.W.weatherHail
 
 
-{-| The [`weather-hazy`](https://pictogrammers.com/library/mdi/icon/weather-hazy/) icon.
-
-![weather-hazy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJMMTQuMzksNS40MkMxMy42NSw1LjE1IDEyLjg0LDUgMTIsNUMxMS4xNiw1IDEwLjM1LDUuMTUgOS42MSw1LjQyTDEyLDJNMy4zNCw3TDcuNSw2LjY1QzYuOSw3LjE2IDYuMzYsNy43OCA1Ljk0LDguNUM1LjUsOS4yNCA1LjI1LDEwIDUuMTEsMTAuNzlMMy4zNCw3TTIwLjY1LDdMMTguODgsMTAuNzlDMTguNzQsMTAgMTguNDcsOS4yMyAxOC4wNSw4LjVDMTcuNjMsNy43OCAxNy4xLDcuMTUgMTYuNSw2LjY0TTE0LDE1QTEsMSAwIDAsMCAxMywxNEgzQTEsMSAwIDAsMCAyLDE1QTEsMSAwIDAsMCAzLDE2SDEzQTEsMSAwIDAsMCAxNCwxNU0yMiwxNUExLDEgMCAwLDAgMjEsMTRIMTdBMSwxIDAgMCwwIDE2LDE1QTEsMSAwIDAsMCAxNywxNkgyMUExLDEgMCAwLDAgMjIsMTVNMTAsMTlBMSwxIDAgMCwwIDExLDIwSDIwQTEsMSAwIDAsMCAyMSwxOUExLDEgMCAwLDAgMjAsMThIMTFBMSwxIDAgMCwwIDEwLDE5TTMsMTlBMSwxIDAgMCwwIDQsMjBIN0ExLDEgMCAwLDAgOCwxOUExLDEgMCAwLDAgNywxOEg0QTEsMSAwIDAsMCAzLDE5TTEyLDlBMywzIDAgMCwxIDE1LDEySDE3QTUsNSAwIDAsMCAxMiw3QTUsNSAwIDAsMCA3LDEySDlBMywzIDAgMCwxIDEyLDlaIiAvPjwvc3ZnPg==)
-
--}
-weatherHazy : IconShape
-weatherHazy =
-    Material.Icons.Directory.W.weatherHazy
-
-
 {-| The [`weather-hurricane`](https://pictogrammers.com/library/mdi/icon/weather-hurricane/) icon.
 
 ![weather-hurricane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDYuNzlDMTYuODYsNy44NiAxOCw5Ljg1IDE4LDEyQzE4LDIyIDYsMjIgNiwyMkM3LjI1LDIxLjA2IDguMzgsMTkuOTUgOS4zNCwxOC43MUM5LjM4LDE4LjY2IDkuNDEsMTguNjEgOS40NCwxOC41NUM5LjY5LDE4LjA2IDkuNSwxNy40NiA5LDE3LjIxQzcuMTQsMTYuMTQgNiwxNC4xNSA2LDEyQzYsMiAxOCwyIDE4LDJDMTYuNzUsMi45NCAxNS42Miw0LjA1IDE0LjY2LDUuMjlDMTQuNjIsNS4zNCAxNC41OSw1LjM5IDE0LjU2LDUuNDVDMTQuMzEsNS45NCAxNC41LDYuNTQgMTUsNi43OU0xMiwxNEEyLDIgMCAwLDAgMTQsMTJBMiwyIDAgMCwwIDEyLDEwQTIsMiAwIDAsMCAxMCwxMkEyLDIgMCAwLDAgMTIsMTRaIiAvPjwvc3ZnPg==)
@@ -1640,6 +1630,16 @@ weatherHazy =
 weatherHurricane : IconShape
 weatherHurricane =
     Material.Icons.Directory.W.weatherHurricane
+
+
+{-| The [`weather-hazy`](https://pictogrammers.com/library/mdi/icon/weather-hazy/) icon.
+
+![weather-hazy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJMMTQuMzksNS40MkMxMy42NSw1LjE1IDEyLjg0LDUgMTIsNUMxMS4xNiw1IDEwLjM1LDUuMTUgOS42MSw1LjQyTDEyLDJNMy4zNCw3TDcuNSw2LjY1QzYuOSw3LjE2IDYuMzYsNy43OCA1Ljk0LDguNUM1LjUsOS4yNCA1LjI1LDEwIDUuMTEsMTAuNzlMMy4zNCw3TTIwLjY1LDdMMTguODgsMTAuNzlDMTguNzQsMTAgMTguNDcsOS4yMyAxOC4wNSw4LjVDMTcuNjMsNy43OCAxNy4xLDcuMTUgMTYuNSw2LjY0TTE0LDE1QTEsMSAwIDAsMCAxMywxNEgzQTEsMSAwIDAsMCAyLDE1QTEsMSAwIDAsMCAzLDE2SDEzQTEsMSAwIDAsMCAxNCwxNU0yMiwxNUExLDEgMCAwLDAgMjEsMTRIMTdBMSwxIDAgMCwwIDE2LDE1QTEsMSAwIDAsMCAxNywxNkgyMUExLDEgMCAwLDAgMjIsMTVNMTAsMTlBMSwxIDAgMCwwIDExLDIwSDIwQTEsMSAwIDAsMCAyMSwxOUExLDEgMCAwLDAgMjAsMThIMTFBMSwxIDAgMCwwIDEwLDE5TTMsMTlBMSwxIDAgMCwwIDQsMjBIN0ExLDEgMCAwLDAgOCwxOUExLDEgMCAwLDAgNywxOEg0QTEsMSAwIDAsMCAzLDE5TTEyLDlBMywzIDAgMCwxIDE1LDEySDE3QTUsNSAwIDAsMCAxMiw3QTUsNSAwIDAsMCA3LDEySDlBMywzIDAgMCwxIDEyLDlaIiAvPjwvc3ZnPg==)
+
+-}
+weatherHazy : IconShape
+weatherHazy =
+    Material.Icons.Directory.W.weatherHazy
 
 
 {-| The [`weather-hurricane-outline`](https://pictogrammers.com/library/mdi/icon/weather-hurricane-outline/) icon.
@@ -1892,16 +1892,6 @@ weatherTornado =
     Material.Icons.Directory.W.weatherTornado
 
 
-{-| The [`weather-windy`](https://pictogrammers.com/library/mdi/icon/weather-windy/) icon.
-
-![weather-windy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMTBBMSwxIDAgMCwxIDMsOUExLDEgMCAwLDEgNCw4SDEyQTIsMiAwIDAsMCAxNCw2QTIsMiAwIDAsMCAxMiw0QzExLjQ1LDQgMTAuOTUsNC4yMiAxMC41OSw0LjU5QzEwLjIsNSA5LjU2LDUgOS4xNyw0LjU5QzguNzgsNC4yIDguNzgsMy41NiA5LjE3LDMuMTdDOS45LDIuNDUgMTAuOSwyIDEyLDJBNCw0IDAgMCwxIDE2LDZBNCw0IDAgMCwxIDEyLDEwSDRNMTksMTJBMSwxIDAgMCwwIDIwLDExQTEsMSAwIDAsMCAxOSwxMEMxOC43MiwxMCAxOC40NywxMC4xMSAxOC4yOSwxMC4yOUMxNy45LDEwLjY4IDE3LjI3LDEwLjY4IDE2Ljg4LDEwLjI5QzE2LjUsOS45IDE2LjUsOS4yNyAxNi44OCw4Ljg4QzE3LjQyLDguMzQgMTguMTcsOCAxOSw4QTMsMyAwIDAsMSAyMiwxMUEzLDMgMCAwLDEgMTksMTRINUExLDEgMCAwLDEgNCwxM0ExLDEgMCAwLDEgNSwxMkgxOU0xOCwxOEg0QTEsMSAwIDAsMSAzLDE3QTEsMSAwIDAsMSA0LDE2SDE4QTMsMyAwIDAsMSAyMSwxOUEzLDMgMCAwLDEgMTgsMjJDMTcuMTcsMjIgMTYuNDIsMjEuNjYgMTUuODgsMjEuMTJDMTUuNSwyMC43MyAxNS41LDIwLjEgMTUuODgsMTkuNzFDMTYuMjcsMTkuMzIgMTYuOSwxOS4zMiAxNy4yOSwxOS43MUMxNy40NywxOS44OSAxNy43MiwyMCAxOCwyMEExLDEgMCAwLDAgMTksMTlBMSwxIDAgMCwwIDE4LDE4WiIgLz48L3N2Zz4=)
-
--}
-weatherWindy : IconShape
-weatherWindy =
-    Material.Icons.Directory.W.weatherWindy
-
-
 {-| The [`weather-windy-variant`](https://pictogrammers.com/library/mdi/icon/weather-windy-variant/) icon.
 
 ![weather-windy-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsNkw2LjY5LDYuMDZDNy4zMiwzLjcyIDkuNDYsMiAxMiwyQTUuNSw1LjUgMCAwLDEgMTcuNSw3LjVMMTcuNDIsOC40NUMxNy44OCw4LjE2IDE4LjQyLDggMTksOEEzLDMgMCAwLDEgMjIsMTFBMywzIDAgMCwxIDE5LDE0SDZBNCw0IDAgMCwxIDIsMTBBNCw0IDAgMCwxIDYsNk02LDhBMiwyIDAgMCwwIDQsMTBBMiwyIDAgMCwwIDYsMTJIMTlBMSwxIDAgMCwwIDIwLDExQTEsMSAwIDAsMCAxOSwxMEgxNS41VjcuNUEzLjUsMy41IDAgMCwwIDEyLDRBMy41LDMuNSAwIDAsMCA4LjUsNy41VjhINk0xOCwxOEg0QTEsMSAwIDAsMSAzLDE3QTEsMSAwIDAsMSA0LDE2SDE4QTMsMyAwIDAsMSAyMSwxOUEzLDMgMCAwLDEgMTgsMjJDMTcuMTcsMjIgMTYuNDIsMjEuNjYgMTUuODgsMjEuMTJDMTUuNSwyMC43MyAxNS41LDIwLjEgMTUuODgsMTkuNzFDMTYuMjcsMTkuMzIgMTYuOSwxOS4zMiAxNy4yOSwxOS43MUMxNy40NywxOS44OSAxNy43MiwyMCAxOCwyMEExLDEgMCAwLDAgMTksMTlBMSwxIDAgMCwwIDE4LDE4WiIgLz48L3N2Zz4=)
@@ -1910,6 +1900,16 @@ weatherWindy =
 weatherWindyVariant : IconShape
 weatherWindyVariant =
     Material.Icons.Directory.W.weatherWindyVariant
+
+
+{-| The [`weather-windy`](https://pictogrammers.com/library/mdi/icon/weather-windy/) icon.
+
+![weather-windy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMTBBMSwxIDAgMCwxIDMsOUExLDEgMCAwLDEgNCw4SDEyQTIsMiAwIDAsMCAxNCw2QTIsMiAwIDAsMCAxMiw0QzExLjQ1LDQgMTAuOTUsNC4yMiAxMC41OSw0LjU5QzEwLjIsNSA5LjU2LDUgOS4xNyw0LjU5QzguNzgsNC4yIDguNzgsMy41NiA5LjE3LDMuMTdDOS45LDIuNDUgMTAuOSwyIDEyLDJBNCw0IDAgMCwxIDE2LDZBNCw0IDAgMCwxIDEyLDEwSDRNMTksMTJBMSwxIDAgMCwwIDIwLDExQTEsMSAwIDAsMCAxOSwxMEMxOC43MiwxMCAxOC40NywxMC4xMSAxOC4yOSwxMC4yOUMxNy45LDEwLjY4IDE3LjI3LDEwLjY4IDE2Ljg4LDEwLjI5QzE2LjUsOS45IDE2LjUsOS4yNyAxNi44OCw4Ljg4QzE3LjQyLDguMzQgMTguMTcsOCAxOSw4QTMsMyAwIDAsMSAyMiwxMUEzLDMgMCAwLDEgMTksMTRINUExLDEgMCAwLDEgNCwxM0ExLDEgMCAwLDEgNSwxMkgxOU0xOCwxOEg0QTEsMSAwIDAsMSAzLDE3QTEsMSAwIDAsMSA0LDE2SDE4QTMsMyAwIDAsMSAyMSwxOUEzLDMgMCAwLDEgMTgsMjJDMTcuMTcsMjIgMTYuNDIsMjEuNjYgMTUuODgsMjEuMTJDMTUuNSwyMC43MyAxNS41LDIwLjEgMTUuODgsMTkuNzFDMTYuMjcsMTkuMzIgMTYuOSwxOS4zMiAxNy4yOSwxOS43MUMxNy40NywxOS44OSAxNy43MiwyMCAxOCwyMEExLDEgMCAwLDAgMTksMTlBMSwxIDAgMCwwIDE4LDE4WiIgLz48L3N2Zz4=)
+
+-}
+weatherWindy : IconShape
+weatherWindy =
+    Material.Icons.Directory.W.weatherWindy
 
 
 {-| The [`white-balance-sunny`](https://pictogrammers.com/library/mdi/icon/white-balance-sunny/) icon.

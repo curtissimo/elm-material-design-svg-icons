@@ -5,81 +5,80 @@
 module Material.Icons.Categories.Arrow exposing
     ( arrowAll
     , arrowBottomLeft
-    , arrowBottomLeftBoldBox
     , arrowBottomLeftBoldBoxOutline
+    , arrowBottomLeftBoldBox
     , arrowBottomLeftBoldOutline
     , arrowBottomLeftThick
     , arrowBottomLeftThin
     , arrowBottomLeftThinCircleOutline
     , arrowBottomRight
+    , arrowBottomRightBoldOutline
     , arrowBottomRightBoldBox
     , arrowBottomRightBoldBoxOutline
-    , arrowBottomRightBoldOutline
     , arrowBottomRightThick
     , arrowBottomRightThin
-    , arrowBottomRightThinCircleOutline
     , arrowCollapse
+    , arrowBottomRightThinCircleOutline
     , arrowCollapseAll
     , arrowCollapseDown
-    , arrowCollapseHorizontal
     , arrowCollapseLeft
+    , arrowCollapseHorizontal
     , arrowCollapseRight
     , arrowCollapseUp
     , arrowCollapseVertical
     , arrowDecision
-    , arrowDecisionOutline
     , arrowDown
+    , arrowDecisionOutline
     , arrowDownBold
     , arrowDownBoldBox
-    , arrowDownBoldBoxOutline
     , arrowDownBoldCircle
     , arrowDownBoldCircleOutline
-    , arrowDownBoldHexagonOutline
-    , arrowDownBoldOutline
     , arrowDownBox
+    , arrowDownBoldOutline
+    , arrowDownBoldHexagonOutline
     , arrowDownCircle
-    , arrowDownCircleOutline
     , arrowDownDropCircle
     , arrowDownDropCircleOutline
+    , arrowDownCircleOutline
     , arrowDownLeft
-    , arrowDownLeftBold
-    , arrowDownRight
     , arrowDownRightBold
+    , arrowDownLeftBold
     , arrowDownThick
-    , arrowDownThin
+    , arrowDownRight
     , arrowDownThinCircleOutline
+    , arrowDownThin
     , arrowExpand
-    , arrowExpandAll
     , arrowExpandDown
-    , arrowExpandHorizontal
+    , arrowExpandAll
     , arrowExpandLeft
-    , arrowExpandRight
+    , arrowExpandHorizontal
     , arrowExpandUp
+    , arrowExpandRight
     , arrowExpandVertical
     , arrowHorizontalLock
+    , arrowLeftBoldBox
     , arrowLeft
     , arrowLeftBold
-    , arrowLeftBoldBox
     , arrowLeftBoldBoxOutline
+    , arrowLeftBoldHexagonOutline
     , arrowLeftBoldCircle
     , arrowLeftBoldCircleOutline
-    , arrowLeftBoldHexagonOutline
     , arrowLeftBoldOutline
     , arrowLeftBox
     , arrowLeftCircle
+    , arrowLeftDropCircleOutline
     , arrowLeftCircleOutline
     , arrowLeftDropCircle
-    , arrowLeftDropCircleOutline
-    , arrowLeftRight
     , arrowLeftRightBold
+    , arrowLeftRight
     , arrowLeftRightBoldOutline
     , arrowLeftThick
     , arrowLeftThin
     , arrowLeftThinCircleOutline
     , arrowRight
     , arrowRightBold
-    , arrowRightBoldBox
     , arrowRightBoldBoxOutline
+    , arrowRightBoldBox
     , arrowRightBoldCircle
     , arrowRightBoldCircleOutline
     , arrowRightBoldHexagonOutline
@@ -93,57 +92,58 @@ module Material.Icons.Categories.Arrow exposing
     , arrowRightThin
     , arrowRightThinCircleOutline
     , arrowSplitHorizontal
-    , arrowSplitVertical
     , arrowTopLeft
     , arrowTopLeftBoldBox
+    , arrowSplitVertical
     , arrowTopLeftBoldBoxOutline
-    , arrowTopLeftBoldOutline
     , arrowTopLeftBottomRight
-    , arrowTopLeftBottomRightBold
+    , arrowTopLeftBoldOutline
     , arrowTopLeftThick
-    , arrowTopLeftThin
     , arrowTopLeftThinCircleOutline
+    , arrowTopLeftBottomRightBold
+    , arrowTopLeftThin
     , arrowTopRight
+    , arrowTopRightBottomLeft
     , arrowTopRightBoldBox
     , arrowTopRightBoldBoxOutline
     , arrowTopRightBoldOutline
-    , arrowTopRightBottomLeft
     , arrowTopRightBottomLeftBold
-    , arrowTopRightThick
     , arrowTopRightThin
+    , arrowTopRightThick
     , arrowTopRightThinCircleOutline
     , arrowUp
     , arrowUpBold
+    , arrowUpBoldCircle
     , arrowUpBoldBox
     , arrowUpBoldBoxOutline
-    , arrowUpBoldCircle
-    , arrowUpBoldCircleOutline
-    , arrowUpBoldHexagonOutline
     , arrowUpBoldOutline
+    , arrowUpBoldCircleOutline
     , arrowUpBox
-    , arrowUpCircle
+    , arrowUpBoldHexagonOutline
     , arrowUpCircleOutline
     , arrowUpDown
+    , arrowUpCircle
     , arrowUpDownBold
     , arrowUpDownBoldOutline
     , arrowUpDropCircle
     , arrowUpDropCircleOutline
-    , arrowUpThick
-    , arrowUpThin
     , arrowUpThinCircleOutline
+    , arrowUpThick
     , arrowVerticalLock
+    , arrowUpThin
     , autorenew
     , autorenewOff
     , axisArrow
     , axisArrowInfo
     , axisArrowLock
-    , axisXArrow
     , axisXArrowLock
+    , axisXArrow
     , axisXYArrowLock
-    , axisYArrow
     , axisYArrowLock
+    , axisYArrow
     , axisZArrow
     , axisZArrowLock
+    , arrowDownBoldBoxOutline
     , cached
     , callMade
     , callMerge
@@ -183,9 +183,9 @@ module Material.Icons.Categories.Arrow exposing
     , menuDownOutline
     , menuLeft
     , menuRight
-    , menuSwap
     , menuSwapOutline
     , menuUp
+    , menuSwap
     , menuUpOutline
     , middleware
     , middlewareOutline
@@ -196,8 +196,8 @@ module Material.Icons.Categories.Arrow exposing
     , repeat
     , repeatVariant
     , reply
-    , replyAll
     , replyAllOutline
+    , replyAll
     , replyCircle
     , replyOutline
     , restore
@@ -210,12 +210,12 @@ module Material.Icons.Categories.Arrow exposing
     , shareOffOutline
     , shareOutline
     , shuffle
-    , shuffleVariant
     , shuffleDisabled
+    , shuffleVariant
     , stretchToPage
+    , stretchToPageOutline
     , subdirectoryArrowLeft
     , subdirectoryArrowRight
-    , stretchToPageOutline
     , swapHorizontal
     , swapHorizontalBold
     , swapHorizontalCircle
@@ -239,81 +239,80 @@ module Material.Icons.Categories.Arrow exposing
 
 @docs arrowAll
 @docs arrowBottomLeft
-@docs arrowBottomLeftBoldBox
 @docs arrowBottomLeftBoldBoxOutline
+@docs arrowBottomLeftBoldBox
 @docs arrowBottomLeftBoldOutline
 @docs arrowBottomLeftThick
 @docs arrowBottomLeftThin
 @docs arrowBottomLeftThinCircleOutline
 @docs arrowBottomRight
+@docs arrowBottomRightBoldOutline
 @docs arrowBottomRightBoldBox
 @docs arrowBottomRightBoldBoxOutline
-@docs arrowBottomRightBoldOutline
 @docs arrowBottomRightThick
 @docs arrowBottomRightThin
-@docs arrowBottomRightThinCircleOutline
 @docs arrowCollapse
+@docs arrowBottomRightThinCircleOutline
 @docs arrowCollapseAll
 @docs arrowCollapseDown
-@docs arrowCollapseHorizontal
 @docs arrowCollapseLeft
+@docs arrowCollapseHorizontal
 @docs arrowCollapseRight
 @docs arrowCollapseUp
 @docs arrowCollapseVertical
 @docs arrowDecision
-@docs arrowDecisionOutline
 @docs arrowDown
+@docs arrowDecisionOutline
 @docs arrowDownBold
 @docs arrowDownBoldBox
-@docs arrowDownBoldBoxOutline
 @docs arrowDownBoldCircle
 @docs arrowDownBoldCircleOutline
-@docs arrowDownBoldHexagonOutline
-@docs arrowDownBoldOutline
 @docs arrowDownBox
+@docs arrowDownBoldOutline
+@docs arrowDownBoldHexagonOutline
 @docs arrowDownCircle
-@docs arrowDownCircleOutline
 @docs arrowDownDropCircle
 @docs arrowDownDropCircleOutline
+@docs arrowDownCircleOutline
 @docs arrowDownLeft
-@docs arrowDownLeftBold
-@docs arrowDownRight
 @docs arrowDownRightBold
+@docs arrowDownLeftBold
 @docs arrowDownThick
-@docs arrowDownThin
+@docs arrowDownRight
 @docs arrowDownThinCircleOutline
+@docs arrowDownThin
 @docs arrowExpand
-@docs arrowExpandAll
 @docs arrowExpandDown
-@docs arrowExpandHorizontal
+@docs arrowExpandAll
 @docs arrowExpandLeft
-@docs arrowExpandRight
+@docs arrowExpandHorizontal
 @docs arrowExpandUp
+@docs arrowExpandRight
 @docs arrowExpandVertical
 @docs arrowHorizontalLock
+@docs arrowLeftBoldBox
 @docs arrowLeft
 @docs arrowLeftBold
-@docs arrowLeftBoldBox
 @docs arrowLeftBoldBoxOutline
+@docs arrowLeftBoldHexagonOutline
 @docs arrowLeftBoldCircle
 @docs arrowLeftBoldCircleOutline
-@docs arrowLeftBoldHexagonOutline
 @docs arrowLeftBoldOutline
 @docs arrowLeftBox
 @docs arrowLeftCircle
+@docs arrowLeftDropCircleOutline
 @docs arrowLeftCircleOutline
 @docs arrowLeftDropCircle
-@docs arrowLeftDropCircleOutline
-@docs arrowLeftRight
 @docs arrowLeftRightBold
+@docs arrowLeftRight
 @docs arrowLeftRightBoldOutline
 @docs arrowLeftThick
 @docs arrowLeftThin
 @docs arrowLeftThinCircleOutline
 @docs arrowRight
 @docs arrowRightBold
-@docs arrowRightBoldBox
 @docs arrowRightBoldBoxOutline
+@docs arrowRightBoldBox
 @docs arrowRightBoldCircle
 @docs arrowRightBoldCircleOutline
 @docs arrowRightBoldHexagonOutline
@@ -327,57 +326,58 @@ module Material.Icons.Categories.Arrow exposing
 @docs arrowRightThin
 @docs arrowRightThinCircleOutline
 @docs arrowSplitHorizontal
-@docs arrowSplitVertical
 @docs arrowTopLeft
 @docs arrowTopLeftBoldBox
+@docs arrowSplitVertical
 @docs arrowTopLeftBoldBoxOutline
-@docs arrowTopLeftBoldOutline
 @docs arrowTopLeftBottomRight
-@docs arrowTopLeftBottomRightBold
+@docs arrowTopLeftBoldOutline
 @docs arrowTopLeftThick
-@docs arrowTopLeftThin
 @docs arrowTopLeftThinCircleOutline
+@docs arrowTopLeftBottomRightBold
+@docs arrowTopLeftThin
 @docs arrowTopRight
+@docs arrowTopRightBottomLeft
 @docs arrowTopRightBoldBox
 @docs arrowTopRightBoldBoxOutline
 @docs arrowTopRightBoldOutline
-@docs arrowTopRightBottomLeft
 @docs arrowTopRightBottomLeftBold
-@docs arrowTopRightThick
 @docs arrowTopRightThin
+@docs arrowTopRightThick
 @docs arrowTopRightThinCircleOutline
 @docs arrowUp
 @docs arrowUpBold
+@docs arrowUpBoldCircle
 @docs arrowUpBoldBox
 @docs arrowUpBoldBoxOutline
-@docs arrowUpBoldCircle
-@docs arrowUpBoldCircleOutline
-@docs arrowUpBoldHexagonOutline
 @docs arrowUpBoldOutline
+@docs arrowUpBoldCircleOutline
 @docs arrowUpBox
-@docs arrowUpCircle
+@docs arrowUpBoldHexagonOutline
 @docs arrowUpCircleOutline
 @docs arrowUpDown
+@docs arrowUpCircle
 @docs arrowUpDownBold
 @docs arrowUpDownBoldOutline
 @docs arrowUpDropCircle
 @docs arrowUpDropCircleOutline
-@docs arrowUpThick
-@docs arrowUpThin
 @docs arrowUpThinCircleOutline
+@docs arrowUpThick
 @docs arrowVerticalLock
+@docs arrowUpThin
 @docs autorenew
 @docs autorenewOff
 @docs axisArrow
 @docs axisArrowInfo
 @docs axisArrowLock
-@docs axisXArrow
 @docs axisXArrowLock
+@docs axisXArrow
 @docs axisXYArrowLock
-@docs axisYArrow
 @docs axisYArrowLock
+@docs axisYArrow
 @docs axisZArrow
 @docs axisZArrowLock
+@docs arrowDownBoldBoxOutline
 @docs cached
 @docs callMade
 @docs callMerge
@@ -417,9 +417,9 @@ module Material.Icons.Categories.Arrow exposing
 @docs menuDownOutline
 @docs menuLeft
 @docs menuRight
-@docs menuSwap
 @docs menuSwapOutline
 @docs menuUp
+@docs menuSwap
 @docs menuUpOutline
 @docs middleware
 @docs middlewareOutline
@@ -430,8 +430,8 @@ module Material.Icons.Categories.Arrow exposing
 @docs repeat
 @docs repeatVariant
 @docs reply
-@docs replyAll
 @docs replyAllOutline
+@docs replyAll
 @docs replyCircle
 @docs replyOutline
 @docs restore
@@ -444,12 +444,12 @@ module Material.Icons.Categories.Arrow exposing
 @docs shareOffOutline
 @docs shareOutline
 @docs shuffle
-@docs shuffleVariant
 @docs shuffleDisabled
+@docs shuffleVariant
 @docs stretchToPage
+@docs stretchToPageOutline
 @docs subdirectoryArrowLeft
 @docs subdirectoryArrowRight
-@docs stretchToPageOutline
 @docs swapHorizontal
 @docs swapHorizontalBold
 @docs swapHorizontalCircle
@@ -501,16 +501,6 @@ arrowBottomLeft =
     Material.Icons.Directory.A.arrowBottomLeft
 
 
-{-| The [`arrow-bottom-left-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-left-bold-box/) icon.
-
-![arrow-bottom-left-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUgMjFDMy45IDIxIDMgMjAuMSAzIDE5VjVDMyAzLjkgMy45IDMgNSAzSDE5QzIwLjEgMyAyMSAzLjkgMjEgNVYxOUMyMSAyMC4xIDIwLjEgMjEgMTkgMjFINU0xNS4zIDE2TDEzLjIgMTMuOUwxNyAxMEwxNC4yIDcuMkwxMC40IDExLjFMOC4yIDguOVYxNkgxNS4zWiIgLz48L3N2Zz4=)
-
--}
-arrowBottomLeftBoldBox : IconShape
-arrowBottomLeftBoldBox =
-    Material.Icons.Directory.A.arrowBottomLeftBoldBox
-
-
 {-| The [`arrow-bottom-left-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-left-bold-box-outline/) icon.
 
 ![arrow-bottom-left-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTggMTZWOC45TDEwLjEgMTFMMTQuMiA3LjFMMTcgMTBMMTIuOSAxMy45TDE1IDE2SDhNMjEgMTlWNUMyMSAzLjkgMjAuMSAzIDE5IDNINUMzLjkgMyAzIDMuOSAzIDVWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOU0xOSAxOUg1VjVIMTlWMTlaIiAvPjwvc3ZnPg==)
@@ -519,6 +509,16 @@ arrowBottomLeftBoldBox =
 arrowBottomLeftBoldBoxOutline : IconShape
 arrowBottomLeftBoldBoxOutline =
     Material.Icons.Directory.A.arrowBottomLeftBoldBoxOutline
+
+
+{-| The [`arrow-bottom-left-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-left-bold-box/) icon.
+
+![arrow-bottom-left-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUgMjFDMy45IDIxIDMgMjAuMSAzIDE5VjVDMyAzLjkgMy45IDMgNSAzSDE5QzIwLjEgMyAyMSAzLjkgMjEgNVYxOUMyMSAyMC4xIDIwLjEgMjEgMTkgMjFINU0xNS4zIDE2TDEzLjIgMTMuOUwxNyAxMEwxNC4yIDcuMkwxMC40IDExLjFMOC4yIDguOVYxNkgxNS4zWiIgLz48L3N2Zz4=)
+
+-}
+arrowBottomLeftBoldBox : IconShape
+arrowBottomLeftBoldBox =
+    Material.Icons.Directory.A.arrowBottomLeftBoldBox
 
 
 {-| The [`arrow-bottom-left-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-left-bold-outline/) icon.
@@ -571,6 +571,16 @@ arrowBottomRight =
     Material.Icons.Directory.A.arrowBottomRight
 
 
+{-| The [`arrow-bottom-right-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-bold-outline/) icon.
+
+![arrow-bottom-right-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODgsMTUuNTRMNC4yMiw5Ljg4TDkuODgsNC4yMkwxNS41NCw5Ljg4TDE5Ljc4LDUuNjRWMTkuNzhINS42NEw5Ljg4LDE1LjU0TTE3LjY2LDEwLjU5TDE1LjU0LDEyLjcxTDkuODgsNy4wNUw3LjA1LDkuODhMMTIuNzEsMTUuNTRMMTAuNTksMTcuNjZIMTcuNjZWMTAuNTlaIiAvPjwvc3ZnPg==)
+
+-}
+arrowBottomRightBoldOutline : IconShape
+arrowBottomRightBoldOutline =
+    Material.Icons.Directory.A.arrowBottomRightBoldOutline
+
+
 {-| The [`arrow-bottom-right-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-bold-box/) icon.
 
 ![arrow-bottom-right-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDIxSDVDMy45IDIxIDMgMjAuMSAzIDE5VjVDMyAzLjkgMy45IDMgNSAzSDE5QzIwLjEgMyAyMSAzLjkgMjEgNVYxOUMyMSAyMC4xIDIwLjEgMjEgMTkgMjFNMTUuOCAxNlY4LjlMMTMuNyAxMUw5LjggNy4yTDcgMTBMMTAuOCAxMy45TDguNyAxNkgxNS44WiIgLz48L3N2Zz4=)
@@ -589,16 +599,6 @@ arrowBottomRightBoldBox =
 arrowBottomRightBoldBoxOutline : IconShape
 arrowBottomRightBoldBoxOutline =
     Material.Icons.Directory.A.arrowBottomRightBoldBoxOutline
-
-
-{-| The [`arrow-bottom-right-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-bold-outline/) icon.
-
-![arrow-bottom-right-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuODgsMTUuNTRMNC4yMiw5Ljg4TDkuODgsNC4yMkwxNS41NCw5Ljg4TDE5Ljc4LDUuNjRWMTkuNzhINS42NEw5Ljg4LDE1LjU0TTE3LjY2LDEwLjU5TDE1LjU0LDEyLjcxTDkuODgsNy4wNUw3LjA1LDkuODhMMTIuNzEsMTUuNTRMMTAuNTksMTcuNjZIMTcuNjZWMTAuNTlaIiAvPjwvc3ZnPg==)
-
--}
-arrowBottomRightBoldOutline : IconShape
-arrowBottomRightBoldOutline =
-    Material.Icons.Directory.A.arrowBottomRightBoldOutline
 
 
 {-| The [`arrow-bottom-right-thick`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-thick/) icon.
@@ -621,16 +621,6 @@ arrowBottomRightThin =
     Material.Icons.Directory.A.arrowBottomRightThin
 
 
-{-| The [`arrow-bottom-right-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-thin-circle-outline/) icon.
-
-![arrow-bottom-right-thin-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwLjAzQzcuNTkgMjAuMDMgMy45NyAxNi40MSAzLjk3IDEyQzMuOTcgNy41OSA3LjU5IDMuOTcgMTIgMy45N0MxNi40MSAzLjk3IDIwLjAzIDcuNTkgMjAuMDMgMTJDMjAuMDMgMTYuNDEgMTYuNDEgMjAuMDMgMTIgMjAuMDNNMTIgMjJDMTcuNTQgMjIgMjIgMTcuNTQgMjIgMTJDMjIgNi40NiAxNy41NCAyIDEyIDJDNi40NiAyIDIgNi40NiAyIDEyQzIgMTcuNTQgNi40NiAyMiAxMiAyMk0xMy44OCAxMi40N0wxNiAxMC4zNlYxNkgxMC4zNkwxMi40NyAxMy44OEw3LjUgOC45TDguOSA3LjUiIC8+PC9zdmc+)
-
--}
-arrowBottomRightThinCircleOutline : IconShape
-arrowBottomRightThinCircleOutline =
-    Material.Icons.Directory.A.arrowBottomRightThinCircleOutline
-
-
 {-| The [`arrow-collapse`](https://pictogrammers.com/library/mdi/icon/arrow-collapse/) icon.
 
 ![arrow-collapse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsMy4wOUwxNSw3LjU5VjRIMTNWMTFIMjBWOUgxNi40MUwyMC45MSw0LjVMMTkuNSwzLjA5TTQsMTNWMTVINy41OUwzLjA5LDE5LjVMNC41LDIwLjkxTDksMTYuNDFWMjBIMTFWMTNINFoiIC8+PC9zdmc+)
@@ -639,6 +629,16 @@ arrowBottomRightThinCircleOutline =
 arrowCollapse : IconShape
 arrowCollapse =
     Material.Icons.Directory.A.arrowCollapse
+
+
+{-| The [`arrow-bottom-right-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-bottom-right-thin-circle-outline/) icon.
+
+![arrow-bottom-right-thin-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwLjAzQzcuNTkgMjAuMDMgMy45NyAxNi40MSAzLjk3IDEyQzMuOTcgNy41OSA3LjU5IDMuOTcgMTIgMy45N0MxNi40MSAzLjk3IDIwLjAzIDcuNTkgMjAuMDMgMTJDMjAuMDMgMTYuNDEgMTYuNDEgMjAuMDMgMTIgMjAuMDNNMTIgMjJDMTcuNTQgMjIgMjIgMTcuNTQgMjIgMTJDMjIgNi40NiAxNy41NCAyIDEyIDJDNi40NiAyIDIgNi40NiAyIDEyQzIgMTcuNTQgNi40NiAyMiAxMiAyMk0xMy44OCAxMi40N0wxNiAxMC4zNlYxNkgxMC4zNkwxMi40NyAxMy44OEw3LjUgOC45TDguOSA3LjUiIC8+PC9zdmc+)
+
+-}
+arrowBottomRightThinCircleOutline : IconShape
+arrowBottomRightThinCircleOutline =
+    Material.Icons.Directory.A.arrowBottomRightThinCircleOutline
 
 
 {-| The [`arrow-collapse-all`](https://pictogrammers.com/library/mdi/icon/arrow-collapse-all/) icon.
@@ -661,16 +661,6 @@ arrowCollapseDown =
     Material.Icons.Directory.A.arrowCollapseDown
 
 
-{-| The [`arrow-collapse-horizontal`](https://pictogrammers.com/library/mdi/icon/arrow-collapse-horizontal/) icon.
-
-![arrow-collapse-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDIwVjRIMTUuMDNWMjBIMTNNMTAsMjBWNEgxMi4wM1YyMEgxME01LDhMOS4wMywxMkw1LDE2VjEzSDJWMTFINVY4TTIwLDE2TDE2LDEyTDIwLDhWMTFIMjNWMTNIMjBWMTZaIiAvPjwvc3ZnPg==)
-
--}
-arrowCollapseHorizontal : IconShape
-arrowCollapseHorizontal =
-    Material.Icons.Directory.A.arrowCollapseHorizontal
-
-
 {-| The [`arrow-collapse-left`](https://pictogrammers.com/library/mdi/icon/arrow-collapse-left/) icon.
 
 ![arrow-collapse-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjkyLDE5LjkyTDQsMTJMMTEuOTIsNC4wOEwxMy4zMyw1LjVMNy44MywxMUgyMlYxM0g3LjgzTDEzLjM0LDE4LjVMMTEuOTIsMTkuOTJNNCwxMlYySDJWMjJINFYxMloiIC8+PC9zdmc+)
@@ -679,6 +669,16 @@ arrowCollapseHorizontal =
 arrowCollapseLeft : IconShape
 arrowCollapseLeft =
     Material.Icons.Directory.A.arrowCollapseLeft
+
+
+{-| The [`arrow-collapse-horizontal`](https://pictogrammers.com/library/mdi/icon/arrow-collapse-horizontal/) icon.
+
+![arrow-collapse-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDIwVjRIMTUuMDNWMjBIMTNNMTAsMjBWNEgxMi4wM1YyMEgxME01LDhMOS4wMywxMkw1LDE2VjEzSDJWMTFINVY4TTIwLDE2TDE2LDEyTDIwLDhWMTFIMjNWMTNIMjBWMTZaIiAvPjwvc3ZnPg==)
+
+-}
+arrowCollapseHorizontal : IconShape
+arrowCollapseHorizontal =
+    Material.Icons.Directory.A.arrowCollapseHorizontal
 
 
 {-| The [`arrow-collapse-right`](https://pictogrammers.com/library/mdi/icon/arrow-collapse-right/) icon.
@@ -721,16 +721,6 @@ arrowDecision =
     Material.Icons.Directory.A.arrowDecision
 
 
-{-| The [`arrow-decision-outline`](https://pictogrammers.com/library/mdi/icon/arrow-decision-outline/) icon.
-
-![arrow-decision-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNjQsMTMuNEM4LjYzLDEyLjUgNy4zNCwxMi4wMyA2LDEyVjE1TDIsMTFMNiw3VjEwQzcuNjcsMTAgOS4zLDEwLjU3IDEwLjYzLDExLjU5QzEwLjIyLDEyLjE1IDkuODksMTIuNzYgOS42NCwxMy40TTE4LDE1VjEyQzE3LjUsMTIgMTMuNSwxMi4xNiAxMy4wNSwxNi4yQzE0LjYxLDE2Ljc1IDE1LjQzLDE4LjQ3IDE0Ljg4LDIwLjAzQzE0LjMzLDIxLjU5IDEyLjYxLDIyLjQxIDExLjA1LDIxLjg2QzkuNSwyMS4zIDguNjcsMTkuNTkgOS4yMiwxOC4wM0M5LjUsMTcuMTcgMTAuMiwxNi41IDExLjA1LDE2LjJDMTEuMzQsMTIuNjEgMTQuNCw5Ljg4IDE4LDEwVjdMMjIsMTFMMTgsMTVNMTMsMTlBMSwxIDAgMCwwIDEyLDE4QTEsMSAwIDAsMCAxMSwxOUExLDEgMCAwLDAgMTIsMjBBMSwxIDAgMCwwIDEzLDE5TTExLDExLjEyQzExLjU4LDEwLjQ2IDEyLjI1LDkuODkgMTMsOS40M1Y1SDE2TDEyLDFMOCw1SDExVjExLjEyWiIgLz48L3N2Zz4=)
-
--}
-arrowDecisionOutline : IconShape
-arrowDecisionOutline =
-    Material.Icons.Directory.A.arrowDecisionOutline
-
-
 {-| The [`arrow-down`](https://pictogrammers.com/library/mdi/icon/arrow-down/) icon.
 
 ![arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDRIMTNWMTZMMTguNSwxMC41TDE5LjkyLDExLjkyTDEyLDE5Ljg0TDQuMDgsMTEuOTJMNS41LDEwLjVMMTEsMTZWNFoiIC8+PC9zdmc+)
@@ -739,6 +729,16 @@ arrowDecisionOutline =
 arrowDown : IconShape
 arrowDown =
     Material.Icons.Directory.A.arrowDown
+
+
+{-| The [`arrow-decision-outline`](https://pictogrammers.com/library/mdi/icon/arrow-decision-outline/) icon.
+
+![arrow-decision-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNjQsMTMuNEM4LjYzLDEyLjUgNy4zNCwxMi4wMyA2LDEyVjE1TDIsMTFMNiw3VjEwQzcuNjcsMTAgOS4zLDEwLjU3IDEwLjYzLDExLjU5QzEwLjIyLDEyLjE1IDkuODksMTIuNzYgOS42NCwxMy40TTE4LDE1VjEyQzE3LjUsMTIgMTMuNSwxMi4xNiAxMy4wNSwxNi4yQzE0LjYxLDE2Ljc1IDE1LjQzLDE4LjQ3IDE0Ljg4LDIwLjAzQzE0LjMzLDIxLjU5IDEyLjYxLDIyLjQxIDExLjA1LDIxLjg2QzkuNSwyMS4zIDguNjcsMTkuNTkgOS4yMiwxOC4wM0M5LjUsMTcuMTcgMTAuMiwxNi41IDExLjA1LDE2LjJDMTEuMzQsMTIuNjEgMTQuNCw5Ljg4IDE4LDEwVjdMMjIsMTFMMTgsMTVNMTMsMTlBMSwxIDAgMCwwIDEyLDE4QTEsMSAwIDAsMCAxMSwxOUExLDEgMCAwLDAgMTIsMjBBMSwxIDAgMCwwIDEzLDE5TTExLDExLjEyQzExLjU4LDEwLjQ2IDEyLjI1LDkuODkgMTMsOS40M1Y1SDE2TDEyLDFMOCw1SDExVjExLjEyWiIgLz48L3N2Zz4=)
+
+-}
+arrowDecisionOutline : IconShape
+arrowDecisionOutline =
+    Material.Icons.Directory.A.arrowDecisionOutline
 
 
 {-| The [`arrow-down-bold`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold/) icon.
@@ -761,16 +761,6 @@ arrowDownBoldBox =
     Material.Icons.Directory.A.arrowDownBoldBox
 
 
-{-| The [`arrow-down-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-box-outline/) icon.
-
-![arrow-down-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDcsMTJIMTBWOEgxNFYxMkgxN0wxMiwxN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
-
--}
-arrowDownBoldBoxOutline : IconShape
-arrowDownBoldBoxOutline =
-    Material.Icons.Directory.A.arrowDownBoldBoxOutline
-
-
 {-| The [`arrow-down-bold-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-circle/) icon.
 
 ![arrow-down-bold-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTEyLDE3TDE3LDEySDE0VjhIMTBWMTJIN0wxMiwxN1oiIC8+PC9zdmc+)
@@ -791,14 +781,14 @@ arrowDownBoldCircleOutline =
     Material.Icons.Directory.A.arrowDownBoldCircleOutline
 
 
-{-| The [`arrow-down-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-hexagon-outline/) icon.
+{-| The [`arrow-down-box`](https://pictogrammers.com/library/mdi/icon/arrow-down-box/) icon.
 
-![arrow-down-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDcsMTJIMTBWOEgxNFYxMkgxN0wxMiwxN00yMSwxNi41QzIxLDE2Ljg4IDIwLjc5LDE3LjIxIDIwLjQ3LDE3LjM4TDEyLjU3LDIxLjgyQzEyLjQxLDIxLjk0IDEyLjIxLDIyIDEyLDIyQzExLjc5LDIyIDExLjU5LDIxLjk0IDExLjQzLDIxLjgyTDMuNTMsMTcuMzhDMy4yMSwxNy4yMSAzLDE2Ljg4IDMsMTYuNVY3LjVDMyw3LjEyIDMuMjEsNi43OSAzLjUzLDYuNjJMMTEuNDMsMi4xOEMxMS41OSwyLjA2IDExLjc5LDIgMTIsMkMxMi4yMSwyIDEyLjQxLDIuMDYgMTIuNTcsMi4xOEwyMC40Nyw2LjYyQzIwLjc5LDYuNzkgMjEsNy4xMiAyMSw3LjVWMTYuNU0xMiw0LjE1TDUsOC4wOVYxNS45MUwxMiwxOS44NUwxOSwxNS45MVY4LjA5TDEyLDQuMTVaIiAvPjwvc3ZnPg==)
+![arrow-down-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QzMuODksMjEgMywyMC4xIDMsMTlWNU0xMSw2VjE0LjVMNy41LDExTDYuMDgsMTIuNDJMMTIsMTguMzRMMTcuOTIsMTIuNDJMMTYuNSwxMUwxMywxNC41VjZIMTFaIiAvPjwvc3ZnPg==)
 
 -}
-arrowDownBoldHexagonOutline : IconShape
-arrowDownBoldHexagonOutline =
-    Material.Icons.Directory.A.arrowDownBoldHexagonOutline
+arrowDownBox : IconShape
+arrowDownBox =
+    Material.Icons.Directory.A.arrowDownBox
 
 
 {-| The [`arrow-down-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-outline/) icon.
@@ -811,14 +801,14 @@ arrowDownBoldOutline =
     Material.Icons.Directory.A.arrowDownBoldOutline
 
 
-{-| The [`arrow-down-box`](https://pictogrammers.com/library/mdi/icon/arrow-down-box/) icon.
+{-| The [`arrow-down-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-hexagon-outline/) icon.
 
-![arrow-down-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QzMuODksMjEgMywyMC4xIDMsMTlWNU0xMSw2VjE0LjVMNy41LDExTDYuMDgsMTIuNDJMMTIsMTguMzRMMTcuOTIsMTIuNDJMMTYuNSwxMUwxMywxNC41VjZIMTFaIiAvPjwvc3ZnPg==)
+![arrow-down-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDcsMTJIMTBWOEgxNFYxMkgxN0wxMiwxN00yMSwxNi41QzIxLDE2Ljg4IDIwLjc5LDE3LjIxIDIwLjQ3LDE3LjM4TDEyLjU3LDIxLjgyQzEyLjQxLDIxLjk0IDEyLjIxLDIyIDEyLDIyQzExLjc5LDIyIDExLjU5LDIxLjk0IDExLjQzLDIxLjgyTDMuNTMsMTcuMzhDMy4yMSwxNy4yMSAzLDE2Ljg4IDMsMTYuNVY3LjVDMyw3LjEyIDMuMjEsNi43OSAzLjUzLDYuNjJMMTEuNDMsMi4xOEMxMS41OSwyLjA2IDExLjc5LDIgMTIsMkMxMi4yMSwyIDEyLjQxLDIuMDYgMTIuNTcsMi4xOEwyMC40Nyw2LjYyQzIwLjc5LDYuNzkgMjEsNy4xMiAyMSw3LjVWMTYuNU0xMiw0LjE1TDUsOC4wOVYxNS45MUwxMiwxOS44NUwxOSwxNS45MVY4LjA5TDEyLDQuMTVaIiAvPjwvc3ZnPg==)
 
 -}
-arrowDownBox : IconShape
-arrowDownBox =
-    Material.Icons.Directory.A.arrowDownBox
+arrowDownBoldHexagonOutline : IconShape
+arrowDownBoldHexagonOutline =
+    Material.Icons.Directory.A.arrowDownBoldHexagonOutline
 
 
 {-| The [`arrow-down-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle/) icon.
@@ -829,16 +819,6 @@ arrowDownBox =
 arrowDownCircle : IconShape
 arrowDownCircle =
     Material.Icons.Directory.A.arrowDownCircle
-
-
-{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
-
-![arrow-down-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDZIMTNWMTRMMTYuNSwxMC41TDE3LjkyLDExLjkyTDEyLDE3Ljg0TDYuMDgsMTEuOTJMNy41LDEwLjVMMTEsMTRWNk0xMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJNMTIsMjBBOCw4IDAgMCwwIDIwLDEyQTgsOCAwIDAsMCAxMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMFoiIC8+PC9zdmc+)
-
--}
-arrowDownCircleOutline : IconShape
-arrowDownCircleOutline =
-    Material.Icons.Directory.A.arrowDownCircleOutline
 
 
 {-| The [`arrow-down-drop-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-drop-circle/) icon.
@@ -861,6 +841,16 @@ arrowDownDropCircleOutline =
     Material.Icons.Directory.A.arrowDownDropCircleOutline
 
 
+{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
+
+![arrow-down-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDZIMTNWMTRMMTYuNSwxMC41TDE3LjkyLDExLjkyTDEyLDE3Ljg0TDYuMDgsMTEuOTJMNy41LDEwLjVMMTEsMTRWNk0xMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJNMTIsMjBBOCw4IDAgMCwwIDIwLDEyQTgsOCAwIDAsMCAxMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMFoiIC8+PC9zdmc+)
+
+-}
+arrowDownCircleOutline : IconShape
+arrowDownCircleOutline =
+    Material.Icons.Directory.A.arrowDownCircleOutline
+
+
 {-| The [`arrow-down-left`](https://pictogrammers.com/library/mdi/icon/arrow-down-left/) icon.
 
 ![arrow-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRWNkgxMy41QzExIDYgOSA4IDkgMTAuNVYxNi4xN0wxMi4wOSAxMy4wOUwxMy41IDE0LjVMOCAyMEwyLjUgMTQuNUwzLjkxIDEzLjA4TDcgMTYuMTdWMTAuNUM3IDYuOTEgOS45MSA0IDEzLjUgNEgyMFoiIC8+PC9zdmc+)
@@ -869,26 +859,6 @@ arrowDownDropCircleOutline =
 arrowDownLeft : IconShape
 arrowDownLeft =
     Material.Icons.Directory.A.arrowDownLeft
-
-
-{-| The [`arrow-down-left-bold`](https://pictogrammers.com/library/mdi/icon/arrow-down-left-bold/) icon.
-
-![arrow-down-left-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDNWN0gxMy41QzExLjU3IDcgMTAgOC41NyAxMCAxMC41VjEzSDE0TDggMjBMMiAxM0g2VjEwLjVDNiA2LjM2IDkuMzYgMyAxMy41IDNIMjFaIiAvPjwvc3ZnPg==)
-
--}
-arrowDownLeftBold : IconShape
-arrowDownLeftBold =
-    Material.Icons.Directory.A.arrowDownLeftBold
-
-
-{-| The [`arrow-down-right`](https://pictogrammers.com/library/mdi/icon/arrow-down-right/) icon.
-
-![arrow-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjUgMTQuNUwxNiAyMEwxMC41IDE0LjVMMTEuOTEgMTMuMDlMMTUgMTYuMTdWMTAuNUMxNSA4IDEzIDYgMTAuNSA2SDRWNEgxMC41QzE0LjA5IDQgMTcgNi45MSAxNyAxMC41VjE2LjE3TDIwLjA5IDEzLjA4TDIxLjUgMTQuNVoiIC8+PC9zdmc+)
-
--}
-arrowDownRight : IconShape
-arrowDownRight =
-    Material.Icons.Directory.A.arrowDownRight
 
 
 {-| The [`arrow-down-right-bold`](https://pictogrammers.com/library/mdi/icon/arrow-down-right-bold/) icon.
@@ -901,6 +871,16 @@ arrowDownRightBold =
     Material.Icons.Directory.A.arrowDownRightBold
 
 
+{-| The [`arrow-down-left-bold`](https://pictogrammers.com/library/mdi/icon/arrow-down-left-bold/) icon.
+
+![arrow-down-left-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDNWN0gxMy41QzExLjU3IDcgMTAgOC41NyAxMCAxMC41VjEzSDE0TDggMjBMMiAxM0g2VjEwLjVDNiA2LjM2IDkuMzYgMyAxMy41IDNIMjFaIiAvPjwvc3ZnPg==)
+
+-}
+arrowDownLeftBold : IconShape
+arrowDownLeftBold =
+    Material.Icons.Directory.A.arrowDownLeftBold
+
+
 {-| The [`arrow-down-thick`](https://pictogrammers.com/library/mdi/icon/arrow-down-thick/) icon.
 
 ![arrow-down-thick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDRIMTRWMTNMMTcuNSw5LjVMMTkuOTIsMTEuOTJMMTIsMTkuODRMNC4wOCwxMS45Mkw2LjUsOS41TDEwLDEzVjRaIiAvPjwvc3ZnPg==)
@@ -911,14 +891,14 @@ arrowDownThick =
     Material.Icons.Directory.A.arrowDownThick
 
 
-{-| The [`arrow-down-thin`](https://pictogrammers.com/library/mdi/icon/arrow-down-thin/) icon.
+{-| The [`arrow-down-right`](https://pictogrammers.com/library/mdi/icon/arrow-down-right/) icon.
 
-![arrow-down-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuMDMgMTMuOTJIMTEuMDNWNUwxMy4wNCA0Ljk3VjEzLjkySDE3LjAzTDEyLjAzIDE4LjkyWiIgLz48L3N2Zz4=)
+![arrow-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjUgMTQuNUwxNiAyMEwxMC41IDE0LjVMMTEuOTEgMTMuMDlMMTUgMTYuMTdWMTAuNUMxNSA4IDEzIDYgMTAuNSA2SDRWNEgxMC41QzE0LjA5IDQgMTcgNi45MSAxNyAxMC41VjE2LjE3TDIwLjA5IDEzLjA4TDIxLjUgMTQuNVoiIC8+PC9zdmc+)
 
 -}
-arrowDownThin : IconShape
-arrowDownThin =
-    Material.Icons.Directory.A.arrowDownThin
+arrowDownRight : IconShape
+arrowDownRight =
+    Material.Icons.Directory.A.arrowDownRight
 
 
 {-| The [`arrow-down-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-thin-circle-outline/) icon.
@@ -931,6 +911,16 @@ arrowDownThinCircleOutline =
     Material.Icons.Directory.A.arrowDownThinCircleOutline
 
 
+{-| The [`arrow-down-thin`](https://pictogrammers.com/library/mdi/icon/arrow-down-thin/) icon.
+
+![arrow-down-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuMDMgMTMuOTJIMTEuMDNWNUwxMy4wNCA0Ljk3VjEzLjkySDE3LjAzTDEyLjAzIDE4LjkyWiIgLz48L3N2Zz4=)
+
+-}
+arrowDownThin : IconShape
+arrowDownThin =
+    Material.Icons.Directory.A.arrowDownThin
+
+
 {-| The [`arrow-expand`](https://pictogrammers.com/library/mdi/icon/arrow-expand/) icon.
 
 ![arrow-expand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxVjE5SDYuNDFMMTAuOTEsMTQuNUw5LjUsMTMuMDlMNSwxNy41OVYxNEgzVjIxSDEwTTE0LjUsMTAuOTFMMTksNi40MVYxMEgyMVYzSDE0VjVIMTcuNTlMMTMuMDksOS41TDE0LjUsMTAuOTFaIiAvPjwvc3ZnPg==)
@@ -939,16 +929,6 @@ arrowDownThinCircleOutline =
 arrowExpand : IconShape
 arrowExpand =
     Material.Icons.Directory.A.arrowExpand
-
-
-{-| The [`arrow-expand-all`](https://pictogrammers.com/library/mdi/icon/arrow-expand-all/) icon.
-
-![arrow-expand-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSwxMy4wOUwxMC45MSwxNC41TDYuNDEsMTlIMTBWMjFIM1YxNEg1VjE3LjU5TDkuNSwxMy4wOU0xMC45MSw5LjVMOS41LDEwLjkxTDUsNi40MVYxMEgzVjNIMTBWNUg2LjQxTDEwLjkxLDkuNU0xNC41LDEzLjA5TDE5LDE3LjU5VjE0SDIxVjIxSDE0VjE5SDE3LjU5TDEzLjA5LDE0LjVMMTQuNSwxMy4wOU0xMy4wOSw5LjVMMTcuNTksNUgxNFYzSDIxVjEwSDE5VjYuNDFMMTQuNSwxMC45MUwxMy4wOSw5LjVaIiAvPjwvc3ZnPg==)
-
--}
-arrowExpandAll : IconShape
-arrowExpandAll =
-    Material.Icons.Directory.A.arrowExpandAll
 
 
 {-| The [`arrow-expand-down`](https://pictogrammers.com/library/mdi/icon/arrow-expand-down/) icon.
@@ -961,14 +941,14 @@ arrowExpandDown =
     Material.Icons.Directory.A.arrowExpandDown
 
 
-{-| The [`arrow-expand-horizontal`](https://pictogrammers.com/library/mdi/icon/arrow-expand-horizontal/) icon.
+{-| The [`arrow-expand-all`](https://pictogrammers.com/library/mdi/icon/arrow-expand-all/) icon.
 
-![arrow-expand-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTFIMTVWOEwxOSwxMkwxNSwxNlYxM0g5VjE2TDUsMTJMOSw4VjExTTIsMjBWNEg0VjIwSDJNMjAsMjBWNEgyMlYyMEgyMFoiIC8+PC9zdmc+)
+![arrow-expand-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNSwxMy4wOUwxMC45MSwxNC41TDYuNDEsMTlIMTBWMjFIM1YxNEg1VjE3LjU5TDkuNSwxMy4wOU0xMC45MSw5LjVMOS41LDEwLjkxTDUsNi40MVYxMEgzVjNIMTBWNUg2LjQxTDEwLjkxLDkuNU0xNC41LDEzLjA5TDE5LDE3LjU5VjE0SDIxVjIxSDE0VjE5SDE3LjU5TDEzLjA5LDE0LjVMMTQuNSwxMy4wOU0xMy4wOSw5LjVMMTcuNTksNUgxNFYzSDIxVjEwSDE5VjYuNDFMMTQuNSwxMC45MUwxMy4wOSw5LjVaIiAvPjwvc3ZnPg==)
 
 -}
-arrowExpandHorizontal : IconShape
-arrowExpandHorizontal =
-    Material.Icons.Directory.A.arrowExpandHorizontal
+arrowExpandAll : IconShape
+arrowExpandAll =
+    Material.Icons.Directory.A.arrowExpandAll
 
 
 {-| The [`arrow-expand-left`](https://pictogrammers.com/library/mdi/icon/arrow-expand-left/) icon.
@@ -981,14 +961,14 @@ arrowExpandLeft =
     Material.Icons.Directory.A.arrowExpandLeft
 
 
-{-| The [`arrow-expand-right`](https://pictogrammers.com/library/mdi/icon/arrow-expand-right/) icon.
+{-| The [`arrow-expand-horizontal`](https://pictogrammers.com/library/mdi/icon/arrow-expand-horizontal/) icon.
 
-![arrow-expand-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMkgyVjIySDRWMTNIMTguMTdMMTIuNjcsMTguNUwxNC4wOCwxOS45MkwyMiwxMkwxNC4wOCw0LjA4TDEyLjY3LDUuNUwxOC4xNywxMUg0VjJaIiAvPjwvc3ZnPg==)
+![arrow-expand-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTFIMTVWOEwxOSwxMkwxNSwxNlYxM0g5VjE2TDUsMTJMOSw4VjExTTIsMjBWNEg0VjIwSDJNMjAsMjBWNEgyMlYyMEgyMFoiIC8+PC9zdmc+)
 
 -}
-arrowExpandRight : IconShape
-arrowExpandRight =
-    Material.Icons.Directory.A.arrowExpandRight
+arrowExpandHorizontal : IconShape
+arrowExpandHorizontal =
+    Material.Icons.Directory.A.arrowExpandHorizontal
 
 
 {-| The [`arrow-expand-up`](https://pictogrammers.com/library/mdi/icon/arrow-expand-up/) icon.
@@ -999,6 +979,16 @@ arrowExpandRight =
 arrowExpandUp : IconShape
 arrowExpandUp =
     Material.Icons.Directory.A.arrowExpandUp
+
+
+{-| The [`arrow-expand-right`](https://pictogrammers.com/library/mdi/icon/arrow-expand-right/) icon.
+
+![arrow-expand-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMkgyVjIySDRWMTNIMTguMTdMMTIuNjcsMTguNUwxNC4wOCwxOS45MkwyMiwxMkwxNC4wOCw0LjA4TDEyLjY3LDUuNUwxOC4xNywxMUg0VjJaIiAvPjwvc3ZnPg==)
+
+-}
+arrowExpandRight : IconShape
+arrowExpandRight =
+    Material.Icons.Directory.A.arrowExpandRight
 
 
 {-| The [`arrow-expand-vertical`](https://pictogrammers.com/library/mdi/icon/arrow-expand-vertical/) icon.
@@ -1021,6 +1011,16 @@ arrowHorizontalLock =
     Material.Icons.Directory.A.arrowHorizontalLock
 
 
+{-| The [`arrow-left-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-box/) icon.
+
+![arrow-left-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1TTcsMTJMMTIsMTdWMTRIMTZWMTBIMTJWN0w3LDEyWiIgLz48L3N2Zz4=)
+
+-}
+arrowLeftBoldBox : IconShape
+arrowLeftBoldBox =
+    Material.Icons.Directory.A.arrowLeftBoldBox
+
+
 {-| The [`arrow-left`](https://pictogrammers.com/library/mdi/icon/arrow-left/) icon.
 
 ![arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDExVjEzSDhMMTMuNSwxOC41TDEyLjA4LDE5LjkyTDQuMTYsMTJMMTIuMDgsNC4wOEwxMy41LDUuNUw4LDExSDIwWiIgLz48L3N2Zz4=)
@@ -1041,16 +1041,6 @@ arrowLeftBold =
     Material.Icons.Directory.A.arrowLeftBold
 
 
-{-| The [`arrow-left-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-box/) icon.
-
-![arrow-left-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1TTcsMTJMMTIsMTdWMTRIMTZWMTBIMTJWN0w3LDEyWiIgLz48L3N2Zz4=)
-
--}
-arrowLeftBoldBox : IconShape
-arrowLeftBoldBox =
-    Material.Icons.Directory.A.arrowLeftBoldBox
-
-
 {-| The [`arrow-left-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-box-outline/) icon.
 
 ![arrow-left-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMTJMMTIsN1YxMEgxNlYxNEgxMlYxN0w3LDEyTTIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1TTE5LDVINVYxOUgxOVY1WiIgLz48L3N2Zz4=)
@@ -1059,6 +1049,16 @@ arrowLeftBoldBox =
 arrowLeftBoldBoxOutline : IconShape
 arrowLeftBoldBoxOutline =
     Material.Icons.Directory.A.arrowLeftBoldBoxOutline
+
+
+{-| The [`arrow-left-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-hexagon-outline/) icon.
+
+![arrow-left-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMTJMMTIsN1YxMEgxNlYxNEgxMlYxN0w3LDEyTTIxLDE2LjVDMjEsMTYuODggMjAuNzksMTcuMjEgMjAuNDcsMTcuMzhMMTIuNTcsMjEuODJDMTIuNDEsMjEuOTQgMTIuMjEsMjIgMTIsMjJDMTEuNzksMjIgMTEuNTksMjEuOTQgMTEuNDMsMjEuODJMMy41MywxNy4zOEMzLjIxLDE3LjIxIDMsMTYuODggMywxNi41VjcuNUMzLDcuMTIgMy4yMSw2Ljc5IDMuNTMsNi42MkwxMS40MywyLjE4QzExLjU5LDIuMDYgMTEuNzksMiAxMiwyQzEyLjIxLDIgMTIuNDEsMi4wNiAxMi41NywyLjE4TDIwLjQ3LDYuNjJDMjAuNzksNi43OSAyMSw3LjEyIDIxLDcuNVYxNi41TTEyLDQuMTVMNSw4LjA5VjE1LjkxTDEyLDE5Ljg1TDE5LDE1LjkxVjguMDlMMTIsNC4xNVoiIC8+PC9zdmc+)
+
+-}
+arrowLeftBoldHexagonOutline : IconShape
+arrowLeftBoldHexagonOutline =
+    Material.Icons.Directory.A.arrowLeftBoldHexagonOutline
 
 
 {-| The [`arrow-left-bold-circle`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-circle/) icon.
@@ -1079,16 +1079,6 @@ arrowLeftBoldCircle =
 arrowLeftBoldCircleOutline : IconShape
 arrowLeftBoldCircleOutline =
     Material.Icons.Directory.A.arrowLeftBoldCircleOutline
-
-
-{-| The [`arrow-left-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-hexagon-outline/) icon.
-
-![arrow-left-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcsMTJMMTIsN1YxMEgxNlYxNEgxMlYxN0w3LDEyTTIxLDE2LjVDMjEsMTYuODggMjAuNzksMTcuMjEgMjAuNDcsMTcuMzhMMTIuNTcsMjEuODJDMTIuNDEsMjEuOTQgMTIuMjEsMjIgMTIsMjJDMTEuNzksMjIgMTEuNTksMjEuOTQgMTEuNDMsMjEuODJMMy41MywxNy4zOEMzLjIxLDE3LjIxIDMsMTYuODggMywxNi41VjcuNUMzLDcuMTIgMy4yMSw2Ljc5IDMuNTMsNi42MkwxMS40MywyLjE4QzExLjU5LDIuMDYgMTEuNzksMiAxMiwyQzEyLjIxLDIgMTIuNDEsMi4wNiAxMi41NywyLjE4TDIwLjQ3LDYuNjJDMjAuNzksNi43OSAyMSw3LjEyIDIxLDcuNVYxNi41TTEyLDQuMTVMNSw4LjA5VjE1LjkxTDEyLDE5Ljg1TDE5LDE1LjkxVjguMDlMMTIsNC4xNVoiIC8+PC9zdmc+)
-
--}
-arrowLeftBoldHexagonOutline : IconShape
-arrowLeftBoldHexagonOutline =
-    Material.Icons.Directory.A.arrowLeftBoldHexagonOutline
 
 
 {-| The [`arrow-left-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-bold-outline/) icon.
@@ -1121,6 +1111,16 @@ arrowLeftCircle =
     Material.Icons.Directory.A.arrowLeftCircle
 
 
+{-| The [`arrow-left-drop-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-drop-circle-outline/) icon.
+
+![arrow-left-drop-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDEyQTEwLDEwIDAgMCwwIDEyLDJBMTAsMTAgMCAwLDAgMiwxMkExMCwxMCAwIDAsMCAxMiwyMkExMCwxMCAwIDAsMCAyMiwxMk0yMCwxMkE4LDggMCAwLDEgMTIsMjBBOCw4IDAgMCwxIDQsMTJBOCw4IDAgMCwxIDEyLDRBOCw4IDAgMCwxIDIwLDEyTTE0LDdMOSwxMkwxNCwxN1Y3WiIgLz48L3N2Zz4=)
+
+-}
+arrowLeftDropCircleOutline : IconShape
+arrowLeftDropCircleOutline =
+    Material.Icons.Directory.A.arrowLeftDropCircleOutline
+
+
 {-| The [`arrow-left-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-circle-outline/) icon.
 
 ![arrow-left-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDExVjEzSDEwTDEzLjUsMTYuNUwxMi4wOCwxNy45Mkw2LjE2LDEyTDEyLjA4LDYuMDhMMTMuNSw3LjVMMTAsMTFIMThNMiwxMkExMCwxMCAwIDAsMSAxMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJNNCwxMkE4LDggMCAwLDAgMTIsMjBBOCw4IDAgMCwwIDIwLDEyQTgsOCAwIDAsMCAxMiw0QTgsOCAwIDAsMCA0LDEyWiIgLz48L3N2Zz4=)
@@ -1141,14 +1141,14 @@ arrowLeftDropCircle =
     Material.Icons.Directory.A.arrowLeftDropCircle
 
 
-{-| The [`arrow-left-drop-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-drop-circle-outline/) icon.
+{-| The [`arrow-left-right-bold`](https://pictogrammers.com/library/mdi/icon/arrow-left-right-bold/) icon.
 
-![arrow-left-drop-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDEyQTEwLDEwIDAgMCwwIDEyLDJBMTAsMTAgMCAwLDAgMiwxMkExMCwxMCAwIDAsMCAxMiwyMkExMCwxMCAwIDAsMCAyMiwxMk0yMCwxMkE4LDggMCAwLDEgMTIsMjBBOCw4IDAgMCwxIDQsMTJBOCw4IDAgMCwxIDEyLDRBOCw4IDAgMCwxIDIwLDEyTTE0LDdMOSwxMkwxNCwxN1Y3WiIgLz48L3N2Zz4=)
+![arrow-left-right-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTgsMTRWMThMMiwxMkw4LDZWMTBIMTZWNkwyMiwxMkwxNiwxOFYxNEg4WiIgLz48L3N2Zz4=)
 
 -}
-arrowLeftDropCircleOutline : IconShape
-arrowLeftDropCircleOutline =
-    Material.Icons.Directory.A.arrowLeftDropCircleOutline
+arrowLeftRightBold : IconShape
+arrowLeftRightBold =
+    Material.Icons.Directory.A.arrowLeftRightBold
 
 
 {-| The [`arrow-left-right`](https://pictogrammers.com/library/mdi/icon/arrow-left-right/) icon.
@@ -1159,16 +1159,6 @@ arrowLeftDropCircleOutline =
 arrowLeftRight : IconShape
 arrowLeftRight =
     Material.Icons.Directory.A.arrowLeftRight
-
-
-{-| The [`arrow-left-right-bold`](https://pictogrammers.com/library/mdi/icon/arrow-left-right-bold/) icon.
-
-![arrow-left-right-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTgsMTRWMThMMiwxMkw4LDZWMTBIMTZWNkwyMiwxMkwxNiwxOFYxNEg4WiIgLz48L3N2Zz4=)
-
--}
-arrowLeftRightBold : IconShape
-arrowLeftRightBold =
-    Material.Icons.Directory.A.arrowLeftRightBold
 
 
 {-| The [`arrow-left-right-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-left-right-bold-outline/) icon.
@@ -1231,16 +1221,6 @@ arrowRightBold =
     Material.Icons.Directory.A.arrowRightBold
 
 
-{-| The [`arrow-right-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-right-bold-box/) icon.
-
-![arrow-right-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5TTE3LDEyTDEyLDdWMTBIOFYxNEgxMlYxN0wxNywxMloiIC8+PC9zdmc+)
-
--}
-arrowRightBoldBox : IconShape
-arrowRightBoldBox =
-    Material.Icons.Directory.A.arrowRightBoldBox
-
-
 {-| The [`arrow-right-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-right-bold-box-outline/) icon.
 
 ![arrow-right-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDEyTDEyLDE3VjE0SDhWMTBIMTJWN0wxNywxMk0zLDE5VjVBMiwyIDAgMCwxIDUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOU01LDE5SDE5VjVINVYxOVoiIC8+PC9zdmc+)
@@ -1249,6 +1229,16 @@ arrowRightBoldBox =
 arrowRightBoldBoxOutline : IconShape
 arrowRightBoldBoxOutline =
     Material.Icons.Directory.A.arrowRightBoldBoxOutline
+
+
+{-| The [`arrow-right-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-right-bold-box/) icon.
+
+![arrow-right-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5TTE3LDEyTDEyLDdWMTBIOFYxNEgxMlYxN0wxNywxMloiIC8+PC9zdmc+)
+
+-}
+arrowRightBoldBox : IconShape
+arrowRightBoldBox =
+    Material.Icons.Directory.A.arrowRightBoldBox
 
 
 {-| The [`arrow-right-bold-circle`](https://pictogrammers.com/library/mdi/icon/arrow-right-bold-circle/) icon.
@@ -1381,16 +1371,6 @@ arrowSplitHorizontal =
     Material.Icons.Directory.A.arrowSplitHorizontal
 
 
-{-| The [`arrow-split-vertical`](https://pictogrammers.com/library/mdi/icon/arrow-split-vertical/) icon.
-
-![arrow-split-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDE2VjEzSDE1VjIySDEzVjJIMTVWMTFIMThWOEwyMiwxMkwxOCwxNk0yLDEyTDYsMTZWMTNIOVYyMkgxMVYySDlWMTFINlY4TDIsMTJaIiAvPjwvc3ZnPg==)
-
--}
-arrowSplitVertical : IconShape
-arrowSplitVertical =
-    Material.Icons.Directory.A.arrowSplitVertical
-
-
 {-| The [`arrow-top-left`](https://pictogrammers.com/library/mdi/icon/arrow-top-left/) icon.
 
 ![arrow-top-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDE3LjU5TDE3LjU5LDE5TDcsOC40MVYxNUg1VjVIMTVWN0g4LjQxTDE5LDE3LjU5WiIgLz48L3N2Zz4=)
@@ -1411,6 +1391,16 @@ arrowTopLeftBoldBox =
     Material.Icons.Directory.A.arrowTopLeftBoldBox
 
 
+{-| The [`arrow-split-vertical`](https://pictogrammers.com/library/mdi/icon/arrow-split-vertical/) icon.
+
+![arrow-split-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDE2VjEzSDE1VjIySDEzVjJIMTVWMTFIMThWOEwyMiwxMkwxOCwxNk0yLDEyTDYsMTZWMTNIOVYyMkgxMVYySDlWMTFINlY4TDIsMTJaIiAvPjwvc3ZnPg==)
+
+-}
+arrowSplitVertical : IconShape
+arrowSplitVertical =
+    Material.Icons.Directory.A.arrowSplitVertical
+
+
 {-| The [`arrow-top-left-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bold-box-outline/) icon.
 
 ![arrow-top-left-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTggOEgxNS4xTDEzIDEwLjFMMTcgMTRMMTQuMiAxNi44TDEwLjEgMTIuOUw4IDE1LjFWOE0xOSAzSDVDMy45IDMgMyAzLjkgMyA1VjE5QzMgMjAuMSAzLjkgMjEgNSAyMUgxOUMyMC4xIDIxIDIxIDIwLjEgMjEgMTlWNUMyMSAzLjkgMjAuMSAzIDE5IDNNMTkgMTlINVY1SDE5VjE5WiIgLz48L3N2Zz4=)
@@ -1419,16 +1409,6 @@ arrowTopLeftBoldBox =
 arrowTopLeftBoldBoxOutline : IconShape
 arrowTopLeftBoldBoxOutline =
     Material.Icons.Directory.A.arrowTopLeftBoldBoxOutline
-
-
-{-| The [`arrow-top-left-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bold-outline/) icon.
-
-![arrow-top-left-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjEyLDguNDZMMTkuNzgsMTQuMTJMMTQuMTIsMTkuNzhMOC40NiwxNC4xMkw0LjIyLDE4LjM2VjQuMjJIMTguMzZMMTQuMTIsOC40Nk02LjM0LDEzLjQxTDguNDYsMTEuMjlMMTQuMTIsMTYuOTVMMTYuOTUsMTQuMTJMMTEuMjksOC40N0wxMy40MSw2LjM0SDYuMzRWMTMuNDFaIiAvPjwvc3ZnPg==)
-
--}
-arrowTopLeftBoldOutline : IconShape
-arrowTopLeftBoldOutline =
-    Material.Icons.Directory.A.arrowTopLeftBoldOutline
 
 
 {-| The [`arrow-top-left-bottom-right`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bottom-right/) icon.
@@ -1441,14 +1421,14 @@ arrowTopLeftBottomRight =
     Material.Icons.Directory.A.arrowTopLeftBottomRight
 
 
-{-| The [`arrow-top-left-bottom-right-bold`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bottom-right-bold/) icon.
+{-| The [`arrow-top-left-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bold-outline/) icon.
 
-![arrow-top-left-bottom-right-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuODMsOC42NkwzLDExLjVWM0gxMS41TDguNjYsNS44M0wxOC4xNywxNS4zNEwyMSwxMi41VjIxSDEyLjVMMTUuMzQsMTguMTdMNS44Myw4LjY2WiIgLz48L3N2Zz4=)
+![arrow-top-left-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjEyLDguNDZMMTkuNzgsMTQuMTJMMTQuMTIsMTkuNzhMOC40NiwxNC4xMkw0LjIyLDE4LjM2VjQuMjJIMTguMzZMMTQuMTIsOC40Nk02LjM0LDEzLjQxTDguNDYsMTEuMjlMMTQuMTIsMTYuOTVMMTYuOTUsMTQuMTJMMTEuMjksOC40N0wxMy40MSw2LjM0SDYuMzRWMTMuNDFaIiAvPjwvc3ZnPg==)
 
 -}
-arrowTopLeftBottomRightBold : IconShape
-arrowTopLeftBottomRightBold =
-    Material.Icons.Directory.A.arrowTopLeftBottomRightBold
+arrowTopLeftBoldOutline : IconShape
+arrowTopLeftBoldOutline =
+    Material.Icons.Directory.A.arrowTopLeftBoldOutline
 
 
 {-| The [`arrow-top-left-thick`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-thick/) icon.
@@ -1461,16 +1441,6 @@ arrowTopLeftThick =
     Material.Icons.Directory.A.arrowTopLeftThick
 
 
-{-| The [`arrow-top-left-thin`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-thin/) icon.
-
-![arrow-top-left-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjA3IDVMOS4yNCA3LjgzTDE5IDE3LjU5TDE3LjU4IDE5TDcuODIgOS4yNUw1IDEyLjA3VjVaIiAvPjwvc3ZnPg==)
-
--}
-arrowTopLeftThin : IconShape
-arrowTopLeftThin =
-    Material.Icons.Directory.A.arrowTopLeftThin
-
-
 {-| The [`arrow-top-left-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-thin-circle-outline/) icon.
 
 ![arrow-top-left-thin-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDMuOTdDMTYuNDEgMy45NyAyMC4wMyA3LjU5IDIwLjAzIDEyQzIwLjAzIDE2LjQxIDE2LjQxIDIwLjAzIDEyIDIwLjAzQzcuNTkgMjAuMDMgMy45NyAxNi40MSAzLjk3IDEyQzMuOTcgNy41OSA3LjU5IDMuOTcgMTIgMy45N00xMiAyQzYuNDYgMiAyIDYuNDYgMiAxMkMyIDE3LjU0IDYuNDYgMjIgMTIgMjJDMTcuNTQgMjIgMjIgMTcuNTQgMjIgMTJDMjIgNi40NiAxNy41NCAyIDEyIDJNMTAuMTIgMTEuNTNMOCAxMy42NFY4SDEzLjY0TDExLjUzIDEwLjEyTDE2LjUgMTUuMUwxNS4xIDE2LjUiIC8+PC9zdmc+)
@@ -1481,6 +1451,26 @@ arrowTopLeftThinCircleOutline =
     Material.Icons.Directory.A.arrowTopLeftThinCircleOutline
 
 
+{-| The [`arrow-top-left-bottom-right-bold`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-bottom-right-bold/) icon.
+
+![arrow-top-left-bottom-right-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuODMsOC42NkwzLDExLjVWM0gxMS41TDguNjYsNS44M0wxOC4xNywxNS4zNEwyMSwxMi41VjIxSDEyLjVMMTUuMzQsMTguMTdMNS44Myw4LjY2WiIgLz48L3N2Zz4=)
+
+-}
+arrowTopLeftBottomRightBold : IconShape
+arrowTopLeftBottomRightBold =
+    Material.Icons.Directory.A.arrowTopLeftBottomRightBold
+
+
+{-| The [`arrow-top-left-thin`](https://pictogrammers.com/library/mdi/icon/arrow-top-left-thin/) icon.
+
+![arrow-top-left-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLjA3IDVMOS4yNCA3LjgzTDE5IDE3LjU5TDE3LjU4IDE5TDcuODIgOS4yNUw1IDEyLjA3VjVaIiAvPjwvc3ZnPg==)
+
+-}
+arrowTopLeftThin : IconShape
+arrowTopLeftThin =
+    Material.Icons.Directory.A.arrowTopLeftThin
+
+
 {-| The [`arrow-top-right`](https://pictogrammers.com/library/mdi/icon/arrow-top-right/) icon.
 
 ![arrow-top-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTcuNTlMMTUuNTksN0g5VjVIMTlWMTVIMTdWOC40MUw2LjQxLDE5TDUsMTcuNTlaIiAvPjwvc3ZnPg==)
@@ -1489,6 +1479,16 @@ arrowTopLeftThinCircleOutline =
 arrowTopRight : IconShape
 arrowTopRight =
     Material.Icons.Directory.A.arrowTopRight
+
+
+{-| The [`arrow-top-right-bottom-left`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-bottom-left/) icon.
+
+![arrow-top-right-bottom-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDIxSDNWMTNINVYxNy41OUwxNy41OSw1SDEzVjNIMjFWMTFIMTlWNi40MUw2LjQxLDE5SDExVjIxWiIgLz48L3N2Zz4=)
+
+-}
+arrowTopRightBottomLeft : IconShape
+arrowTopRightBottomLeft =
+    Material.Icons.Directory.A.arrowTopRightBottomLeft
 
 
 {-| The [`arrow-top-right-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-bold-box/) icon.
@@ -1521,16 +1521,6 @@ arrowTopRightBoldOutline =
     Material.Icons.Directory.A.arrowTopRightBoldOutline
 
 
-{-| The [`arrow-top-right-bottom-left`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-bottom-left/) icon.
-
-![arrow-top-right-bottom-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDIxSDNWMTNINVYxNy41OUwxNy41OSw1SDEzVjNIMjFWMTFIMTlWNi40MUw2LjQxLDE5SDExVjIxWiIgLz48L3N2Zz4=)
-
--}
-arrowTopRightBottomLeft : IconShape
-arrowTopRightBottomLeft =
-    Material.Icons.Directory.A.arrowTopRightBottomLeft
-
-
 {-| The [`arrow-top-right-bottom-left-bold`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-bottom-left-bold/) icon.
 
 ![arrow-top-right-bottom-left-bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjE3LDguNjZMMjEsMTEuNVYzSDEyLjVMMTUuMzQsNS44M0w1LjgzLDE1LjM0TDMsMTIuNVYyMUgxMS41TDguNjYsMTguMTdMMTguMTcsOC42NloiIC8+PC9zdmc+)
@@ -1541,16 +1531,6 @@ arrowTopRightBottomLeftBold =
     Material.Icons.Directory.A.arrowTopRightBottomLeftBold
 
 
-{-| The [`arrow-top-right-thick`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-thick/) icon.
-
-![arrow-top-right-thick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNSwxOC4zMUw1LjY5LDE1LjVMMTIuMDYsOS4xMkg3LjExVjUuNjlIMTguMzFWMTYuODlIMTQuODlWMTEuOTRMOC41LDE4LjMxWiIgLz48L3N2Zz4=)
-
--}
-arrowTopRightThick : IconShape
-arrowTopRightThick =
-    Material.Icons.Directory.A.arrowTopRightThick
-
-
 {-| The [`arrow-top-right-thin`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-thin/) icon.
 
 ![arrow-top-right-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjkzIDVMMTQuNzYgNy44M0w1IDE3LjU5TDYuNDIgMTlMMTYuMTggOS4yNUwxOSAxMi4wN1Y1SDExLjkzWiIgLz48L3N2Zz4=)
@@ -1559,6 +1539,16 @@ arrowTopRightThick =
 arrowTopRightThin : IconShape
 arrowTopRightThin =
     Material.Icons.Directory.A.arrowTopRightThin
+
+
+{-| The [`arrow-top-right-thick`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-thick/) icon.
+
+![arrow-top-right-thick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNSwxOC4zMUw1LjY5LDE1LjVMMTIuMDYsOS4xMkg3LjExVjUuNjlIMTguMzFWMTYuODlIMTQuODlWMTEuOTRMOC41LDE4LjMxWiIgLz48L3N2Zz4=)
+
+-}
+arrowTopRightThick : IconShape
+arrowTopRightThick =
+    Material.Icons.Directory.A.arrowTopRightThick
 
 
 {-| The [`arrow-top-right-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-top-right-thin-circle-outline/) icon.
@@ -1591,6 +1581,16 @@ arrowUpBold =
     Material.Icons.Directory.A.arrowUpBold
 
 
+{-| The [`arrow-up-bold-circle`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-circle/) icon.
+
+![arrow-up-bold-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMk0xMiw3TDcsMTJIMTBWMTZIMTRWMTJIMTdMMTIsN1oiIC8+PC9zdmc+)
+
+-}
+arrowUpBoldCircle : IconShape
+arrowUpBoldCircle =
+    Material.Icons.Directory.A.arrowUpBoldCircle
+
+
 {-| The [`arrow-up-bold-box`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-box/) icon.
 
 ![arrow-up-bold-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMU0xMiw3TDcsMTJIMTBWMTZIMTRWMTJIMTdMMTIsN1oiIC8+PC9zdmc+)
@@ -1611,14 +1611,14 @@ arrowUpBoldBoxOutline =
     Material.Icons.Directory.A.arrowUpBoldBoxOutline
 
 
-{-| The [`arrow-up-bold-circle`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-circle/) icon.
+{-| The [`arrow-up-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-outline/) icon.
 
-![arrow-up-bold-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMk0xMiw3TDcsMTJIMTBWMTZIMTRWMTJIMTdMMTIsN1oiIC8+PC9zdmc+)
+![arrow-up-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDEzVjIxSDhWMTNIMkwxMiwzTDIyLDEzSDE2TTcsMTFIMTBWMTlIMTRWMTFIMTdMMTIsNkw3LDExWiIgLz48L3N2Zz4=)
 
 -}
-arrowUpBoldCircle : IconShape
-arrowUpBoldCircle =
-    Material.Icons.Directory.A.arrowUpBoldCircle
+arrowUpBoldOutline : IconShape
+arrowUpBoldOutline =
+    Material.Icons.Directory.A.arrowUpBoldOutline
 
 
 {-| The [`arrow-up-bold-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-circle-outline/) icon.
@@ -1631,26 +1631,6 @@ arrowUpBoldCircleOutline =
     Material.Icons.Directory.A.arrowUpBoldCircleOutline
 
 
-{-| The [`arrow-up-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-hexagon-outline/) icon.
-
-![arrow-up-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDdMMTcsMTJIMTRWMTZIMTBWMTJIN0wxMiw3TTIxLDE2LjVDMjEsMTYuODggMjAuNzksMTcuMjEgMjAuNDcsMTcuMzhMMTIuNTcsMjEuODJDMTIuNDEsMjEuOTQgMTIuMjEsMjIgMTIsMjJDMTEuNzksMjIgMTEuNTksMjEuOTQgMTEuNDMsMjEuODJMMy41MywxNy4zOEMzLjIxLDE3LjIxIDMsMTYuODggMywxNi41VjcuNUMzLDcuMTIgMy4yMSw2Ljc5IDMuNTMsNi42MkwxMS40MywyLjE4QzExLjU5LDIuMDYgMTEuNzksMiAxMiwyQzEyLjIxLDIgMTIuNDEsMi4wNiAxMi41NywyLjE4TDIwLjQ3LDYuNjJDMjAuNzksNi43OSAyMSw3LjEyIDIxLDcuNVYxNi41TTEyLDQuMTVMNSw4LjA5VjE1LjkxTDEyLDE5Ljg1TDE5LDE1LjkxVjguMDlMMTIsNC4xNVoiIC8+PC9zdmc+)
-
--}
-arrowUpBoldHexagonOutline : IconShape
-arrowUpBoldHexagonOutline =
-    Material.Icons.Directory.A.arrowUpBoldHexagonOutline
-
-
-{-| The [`arrow-up-bold-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-outline/) icon.
-
-![arrow-up-bold-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDEzVjIxSDhWMTNIMkwxMiwzTDIyLDEzSDE2TTcsMTFIMTBWMTlIMTRWMTFIMTdMMTIsNkw3LDExWiIgLz48L3N2Zz4=)
-
--}
-arrowUpBoldOutline : IconShape
-arrowUpBoldOutline =
-    Material.Icons.Directory.A.arrowUpBoldOutline
-
-
 {-| The [`arrow-up-box`](https://pictogrammers.com/library/mdi/icon/arrow-up-box/) icon.
 
 ![arrow-up-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM0gxOUMyMC4xMSwzIDIxLDMuOSAyMSw1VjE5TTEzLDE4VjkuNUwxNi41LDEzTDE3LjkyLDExLjU4TDEyLDUuNjZMNi4wOCwxMS41OEw3LjUsMTNMMTEsOS41VjE4SDEzWiIgLz48L3N2Zz4=)
@@ -1661,14 +1641,14 @@ arrowUpBox =
     Material.Icons.Directory.A.arrowUpBox
 
 
-{-| The [`arrow-up-circle`](https://pictogrammers.com/library/mdi/icon/arrow-up-circle/) icon.
+{-| The [`arrow-up-bold-hexagon-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-bold-hexagon-outline/) icon.
 
-![arrow-up-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE4VjEwTDE2LjUsMTMuNUwxNy45MiwxMi4wOEwxMiw2LjE2TDYuMDgsMTIuMDhMNy41LDEzLjVMMTEsMTBWMThIMTNNMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJaIiAvPjwvc3ZnPg==)
+![arrow-up-bold-hexagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDdMMTcsMTJIMTRWMTZIMTBWMTJIN0wxMiw3TTIxLDE2LjVDMjEsMTYuODggMjAuNzksMTcuMjEgMjAuNDcsMTcuMzhMMTIuNTcsMjEuODJDMTIuNDEsMjEuOTQgMTIuMjEsMjIgMTIsMjJDMTEuNzksMjIgMTEuNTksMjEuOTQgMTEuNDMsMjEuODJMMy41MywxNy4zOEMzLjIxLDE3LjIxIDMsMTYuODggMywxNi41VjcuNUMzLDcuMTIgMy4yMSw2Ljc5IDMuNTMsNi42MkwxMS40MywyLjE4QzExLjU5LDIuMDYgMTEuNzksMiAxMiwyQzEyLjIxLDIgMTIuNDEsMi4wNiAxMi41NywyLjE4TDIwLjQ3LDYuNjJDMjAuNzksNi43OSAyMSw3LjEyIDIxLDcuNVYxNi41TTEyLDQuMTVMNSw4LjA5VjE1LjkxTDEyLDE5Ljg1TDE5LDE1LjkxVjguMDlMMTIsNC4xNVoiIC8+PC9zdmc+)
 
 -}
-arrowUpCircle : IconShape
-arrowUpCircle =
-    Material.Icons.Directory.A.arrowUpCircle
+arrowUpBoldHexagonOutline : IconShape
+arrowUpBoldHexagonOutline =
+    Material.Icons.Directory.A.arrowUpBoldHexagonOutline
 
 
 {-| The [`arrow-up-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-circle-outline/) icon.
@@ -1689,6 +1669,16 @@ arrowUpCircleOutline =
 arrowUpDown : IconShape
 arrowUpDown =
     Material.Icons.Directory.A.arrowUpDown
+
+
+{-| The [`arrow-up-circle`](https://pictogrammers.com/library/mdi/icon/arrow-up-circle/) icon.
+
+![arrow-up-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE4VjEwTDE2LjUsMTMuNUwxNy45MiwxMi4wOEwxMiw2LjE2TDYuMDgsMTIuMDhMNy41LDEzLjVMMTEsMTBWMThIMTNNMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJaIiAvPjwvc3ZnPg==)
+
+-}
+arrowUpCircle : IconShape
+arrowUpCircle =
+    Material.Icons.Directory.A.arrowUpCircle
 
 
 {-| The [`arrow-up-down-bold`](https://pictogrammers.com/library/mdi/icon/arrow-up-down-bold/) icon.
@@ -1731,26 +1721,6 @@ arrowUpDropCircleOutline =
     Material.Icons.Directory.A.arrowUpDropCircleOutline
 
 
-{-| The [`arrow-up-thick`](https://pictogrammers.com/library/mdi/icon/arrow-up-thick/) icon.
-
-![arrow-up-thick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDIwSDEwVjExTDYuNSwxNC41TDQuMDgsMTIuMDhMMTIsNC4xNkwxOS45MiwxMi4wOEwxNy41LDE0LjVMMTQsMTFWMjBaIiAvPjwvc3ZnPg==)
-
--}
-arrowUpThick : IconShape
-arrowUpThick =
-    Material.Icons.Directory.A.arrowUpThick
-
-
-{-| The [`arrow-up-thin`](https://pictogrammers.com/library/mdi/icon/arrow-up-thin/) icon.
-
-![arrow-up-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuMDMgOS45N0gxMS4wM1YxOC44OUwxMy4wNCAxOC45MlY5Ljk3SDE3LjAzTDEyLjAzIDQuOTdaIiAvPjwvc3ZnPg==)
-
--}
-arrowUpThin : IconShape
-arrowUpThin =
-    Material.Icons.Directory.A.arrowUpThin
-
-
 {-| The [`arrow-up-thin-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-up-thin-circle-outline/) icon.
 
 ![arrow-up-thin-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDMuOTdDNy41OSAzLjk3IDMuOTcgNy41OSAzLjk3IDEyQzMuOTcgMTYuNDEgNy41OSAyMC4wMyAxMiAyMC4wM0MxNi40MSAyMC4wMyAyMC4wMyAxNi40MSAyMC4wMyAxMkMyMC4wMyA3LjU5IDE2LjQxIDMuOTcgMTIgMy45N00xMiAyQzE3LjU0IDIgMjIgNi40NiAyMiAxMkMyMiAxNy41NCAxNy41NCAyMiAxMiAyMkM2LjQ2IDIyIDIgMTcuNTQgMiAxMkMyIDYuNDYgNi40NiAyIDEyIDJNMTMgMTAuNDZIMTZMMTIgNi41TDggMTAuNDZIMTFWMTcuNUgxMyIgLz48L3N2Zz4=)
@@ -1761,6 +1731,16 @@ arrowUpThinCircleOutline =
     Material.Icons.Directory.A.arrowUpThinCircleOutline
 
 
+{-| The [`arrow-up-thick`](https://pictogrammers.com/library/mdi/icon/arrow-up-thick/) icon.
+
+![arrow-up-thick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDIwSDEwVjExTDYuNSwxNC41TDQuMDgsMTIuMDhMMTIsNC4xNkwxOS45MiwxMi4wOEwxNy41LDE0LjVMMTQsMTFWMjBaIiAvPjwvc3ZnPg==)
+
+-}
+arrowUpThick : IconShape
+arrowUpThick =
+    Material.Icons.Directory.A.arrowUpThick
+
+
 {-| The [`arrow-vertical-lock`](https://pictogrammers.com/library/mdi/icon/arrow-vertical-lock/) icon.
 
 ![arrow-vertical-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjggMTFWOS41QzE4LjggOC4xIDE3LjQgNyAxNiA3UzEzLjIgOC4xIDEzLjIgOS41VjExQzEyLjYgMTEgMTIgMTEuNiAxMiAxMi4yVjE1LjdDMTIgMTYuNCAxMi42IDE3IDEzLjIgMTdIMTguN0MxOS40IDE3IDIwIDE2LjQgMjAgMTUuOFYxMi4zQzIwIDExLjYgMTkuNCAxMSAxOC44IDExTTE3LjUgMTFIMTQuNVY5LjVDMTQuNSA4LjcgMTUuMiA4LjIgMTYgOC4yQzE2LjggOC4yIDE3LjUgOC43IDE3LjUgOS41VjExTTkgNkgxMkw4IDJMNCA2SDdWMThINEw4IDIyTDEyIDE4SDlWNloiIC8+PC9zdmc+)
@@ -1769,6 +1749,16 @@ arrowUpThinCircleOutline =
 arrowVerticalLock : IconShape
 arrowVerticalLock =
     Material.Icons.Directory.A.arrowVerticalLock
+
+
+{-| The [`arrow-up-thin`](https://pictogrammers.com/library/mdi/icon/arrow-up-thin/) icon.
+
+![arrow-up-thin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcuMDMgOS45N0gxMS4wM1YxOC44OUwxMy4wNCAxOC45MlY5Ljk3SDE3LjAzTDEyLjAzIDQuOTdaIiAvPjwvc3ZnPg==)
+
+-}
+arrowUpThin : IconShape
+arrowUpThin =
+    Material.Icons.Directory.A.arrowUpThin
 
 
 {-| The [`autorenew`](https://pictogrammers.com/library/mdi/icon/autorenew/) icon.
@@ -1821,16 +1811,6 @@ axisArrowLock =
     Material.Icons.Directory.A.axisArrowLock
 
 
-{-| The [`axis-x-arrow`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow/) icon.
-
-![axis-x-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuNSwyMC41TDMsMTUuMDNMNC40NiwxNy42TDExLDEzLjgyVjNIMTNWMTMuODJMMjIuMzksMTkuMjVMMjEuMzksMjFMMTIsMTUuNTZMNS40NiwxOS4zM0w3LDIxLjk2TDEuNSwyMC41WiIgLz48L3N2Zz4=)
-
--}
-axisXArrow : IconShape
-axisXArrow =
-    Material.Icons.Directory.A.axisXArrow
-
-
 {-| The [`axis-x-arrow-lock`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow-lock/) icon.
 
 ![axis-x-arrow-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLjgsNUMyMi40LDUgMjMsNS42IDIzLDYuM1Y5LjhDMjMsMTAuNCAyMi40LDExIDIxLjcsMTFIMTYuMkMxNS42LDExIDE1LDEwLjQgMTUsOS43VjYuMkMxNSw1LjYgMTUuNiw1IDE2LjIsNVYzLjVDMTYuMiwyLjEgMTcuNiwxIDE5LDFDMjAuNCwxIDIxLjgsMi4xIDIxLjgsMy41VjVNMjAuNSw1VjMuNUMyMC41LDIuNyAxOS44LDIuMiAxOSwyLjJDMTguMzEsMi4yIDE3LjY5LDIuNTggMTcuNTQsMy4yQzE3LjUsMy4yOSAxNy41LDMuMzkgMTcuNSwzLjVWNUgyMC41TTEuNzQsMTkuMjVMMy4yMSwxMy43OUw0LjY3LDE2LjMyTDksMTMuODJWM0gxMVYxMy44MkwyMC4zOSwxOS4yNUwxOS4zOSwyMUwxMCwxNS41Nkw1LjY3LDE4LjA2TDcuMjEsMjAuNzFMMS43NCwxOS4yNVoiIC8+PC9zdmc+)
@@ -1839,6 +1819,16 @@ axisXArrow =
 axisXArrowLock : IconShape
 axisXArrowLock =
     Material.Icons.Directory.A.axisXArrowLock
+
+
+{-| The [`axis-x-arrow`](https://pictogrammers.com/library/mdi/icon/axis-x-arrow/) icon.
+
+![axis-x-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuNSwyMC41TDMsMTUuMDNMNC40NiwxNy42TDExLDEzLjgyVjNIMTNWMTMuODJMMjIuMzksMTkuMjVMMjEuMzksMjFMMTIsMTUuNTZMNS40NiwxOS4zM0w3LDIxLjk2TDEuNSwyMC41WiIgLz48L3N2Zz4=)
+
+-}
+axisXArrow : IconShape
+axisXArrow =
+    Material.Icons.Directory.A.axisXArrow
 
 
 {-| The [`axis-x-y-arrow-lock`](https://pictogrammers.com/library/mdi/icon/axis-x-y-arrow-lock/) icon.
@@ -1851,16 +1841,6 @@ axisXYArrowLock =
     Material.Icons.Directory.A.axisXYArrowLock
 
 
-{-| The [`axis-y-arrow`](https://pictogrammers.com/library/mdi/icon/axis-y-arrow/) icon.
-
-![axis-y-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjUsMjAuNUwxNywyMS45NkwxOC41MywxOS4zNUwxMiwxNS41OEwyLjYxLDIxTDEuNjEsMTkuMjdMMTEsMTMuODVWM0gxM1YxMy44NUwxOS41MywxNy42MUwyMSwxNS4wM0wyMi41LDIwLjVaIiAvPjwvc3ZnPg==)
-
--}
-axisYArrow : IconShape
-axisYArrow =
-    Material.Icons.Directory.A.axisYArrow
-
-
 {-| The [`axis-y-arrow-lock`](https://pictogrammers.com/library/mdi/icon/axis-y-arrow-lock/) icon.
 
 ![axis-y-arrow-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDEzLjgyTDE4LDE3Ljg4TDE5LjUsMTUuMjhMMjEsMjAuNzRMMTUuNSwyMi4yMUwxNywxOS42MUwxMCwxNS41NkwzLjE3LDE5LjVMMi4xNywxNy43N0w5LDEzLjgyVjNIMTFWMTMuODJNMjEuOCw1QzIyLjQsNSAyMyw1LjYgMjMsNi4zVjkuOEMyMywxMC40IDIyLjQsMTEgMjEuNywxMUgxNi4yQzE1LjYsMTEgMTUsMTAuNCAxNSw5LjdWNi4yQzE1LDUuNiAxNS42LDUgMTYuMiw1VjMuNUMxNi4yLDIuMSAxNy42LDEgMTksMUMyMC40LDEgMjEuOCwyLjEgMjEuOCwzLjVWNU0yMC41LDVWMy41QzIwLjUsMi43IDE5LjgsMi4yIDE5LDIuMkMxOC4yLDIuMiAxNy41LDIuNyAxNy41LDMuNVY1SDIwLjVaIiAvPjwvc3ZnPg==)
@@ -1869,6 +1849,16 @@ axisYArrow =
 axisYArrowLock : IconShape
 axisYArrowLock =
     Material.Icons.Directory.A.axisYArrowLock
+
+
+{-| The [`axis-y-arrow`](https://pictogrammers.com/library/mdi/icon/axis-y-arrow/) icon.
+
+![axis-y-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjUsMjAuNUwxNywyMS45NkwxOC41MywxOS4zNUwxMiwxNS41OEwyLjYxLDIxTDEuNjEsMTkuMjdMMTEsMTMuODVWM0gxM1YxMy44NUwxOS41MywxNy42MUwyMSwxNS4wM0wyMi41LDIwLjVaIiAvPjwvc3ZnPg==)
+
+-}
+axisYArrow : IconShape
+axisYArrow =
+    Material.Icons.Directory.A.axisYArrow
 
 
 {-| The [`axis-z-arrow`](https://pictogrammers.com/library/mdi/icon/axis-z-arrow/) icon.
@@ -1889,6 +1879,16 @@ axisZArrow =
 axisZArrowLock : IconShape
 axisZArrowLock =
     Material.Icons.Directory.A.axisZArrowLock
+
+
+{-| The [`arrow-down-bold-box-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-bold-box-outline/) icon.
+
+![arrow-down-bold-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDcsMTJIMTBWOEgxNFYxMkgxN0wxMiwxN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
+
+-}
+arrowDownBoldBoxOutline : IconShape
+arrowDownBoldBoxOutline =
+    Material.Icons.Directory.A.arrowDownBoldBoxOutline
 
 
 {-| The [`cached`](https://pictogrammers.com/library/mdi/icon/cached/) icon.
@@ -2281,16 +2281,6 @@ menuRight =
     Material.Icons.Directory.M.menuRight
 
 
-{-| The [`menu-swap`](https://pictogrammers.com/library/mdi/icon/menu-swap/) icon.
-
-![menu-swap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDZMNywxMUgxN0wxMiw2TTcsMTNMMTIsMThMMTcsMTNIN1oiIC8+PC9zdmc+)
-
--}
-menuSwap : IconShape
-menuSwap =
-    Material.Icons.Directory.M.menuSwap
-
-
 {-| The [`menu-swap-outline`](https://pictogrammers.com/library/mdi/icon/menu-swap-outline/) icon.
 
 ![menu-swap-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDMuNUw2LDkuNVYxMUgxOFY5LjVMMTIsMy41TTEyLDYuMzNMMTQuNjcsOUg5LjMzTDEyLDYuMzNNNiwxM1YxNC41TDEyLDIwLjVMMTgsMTQuNVYxM0g2TTkuMzMsMTVIMTQuNjdMMTIsMTcuNjdMOS4zMywxNVoiIC8+PC9zdmc+)
@@ -2309,6 +2299,16 @@ menuSwapOutline =
 menuUp : IconShape
 menuUp =
     Material.Icons.Directory.M.menuUp
+
+
+{-| The [`menu-swap`](https://pictogrammers.com/library/mdi/icon/menu-swap/) icon.
+
+![menu-swap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDZMNywxMUgxN0wxMiw2TTcsMTNMMTIsMThMMTcsMTNIN1oiIC8+PC9zdmc+)
+
+-}
+menuSwap : IconShape
+menuSwap =
+    Material.Icons.Directory.M.menuSwap
 
 
 {-| The [`menu-up-outline`](https://pictogrammers.com/library/mdi/icon/menu-up-outline/) icon.
@@ -2411,16 +2411,6 @@ reply =
     Material.Icons.Directory.R.reply
 
 
-{-| The [`reply-all`](https://pictogrammers.com/library/mdi/icon/reply-all/) icon.
-
-![reply-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDlWNUw2LDEyTDEzLDE5VjE0LjlDMTgsMTQuOSAyMS41LDE2LjUgMjQsMjBDMjMsMTUgMjAsMTAgMTMsOU03LDhWNUwwLDEyTDcsMTlWMTZMMywxMkw3LDhaIiAvPjwvc3ZnPg==)
-
--}
-replyAll : IconShape
-replyAll =
-    Material.Icons.Directory.R.replyAll
-
-
 {-| The [`reply-all-outline`](https://pictogrammers.com/library/mdi/icon/reply-all-outline/) icon.
 
 ![reply-all-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDkuOFYxMC43TDEyLjcsMTAuOUMxNS4zLDExLjMgMTcuMiwxMi4zIDE4LjYsMTMuNkMxNi45LDEzLjEgMTUuMSwxMi44IDEzLDEyLjhIMTFWMTQuMUw4LjgsMTJMMTEsOS44TTEzLDVMNiwxMkwxMywxOVYxNC45QzE4LDE0LjkgMjEuNSwxNi41IDI0LDIwQzIzLDE1IDIwLDEwIDEzLDlNNyw4VjVMMCwxMkw3LDE5VjE2TDMsMTIiIC8+PC9zdmc+)
@@ -2429,6 +2419,16 @@ replyAll =
 replyAllOutline : IconShape
 replyAllOutline =
     Material.Icons.Directory.R.replyAllOutline
+
+
+{-| The [`reply-all`](https://pictogrammers.com/library/mdi/icon/reply-all/) icon.
+
+![reply-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDlWNUw2LDEyTDEzLDE5VjE0LjlDMTgsMTQuOSAyMS41LDE2LjUgMjQsMjBDMjMsMTUgMjAsMTAgMTMsOU03LDhWNUwwLDEyTDcsMTlWMTZMMywxMkw3LDhaIiAvPjwvc3ZnPg==)
+
+-}
+replyAll : IconShape
+replyAll =
+    Material.Icons.Directory.R.replyAll
 
 
 {-| The [`reply-circle`](https://pictogrammers.com/library/mdi/icon/reply-circle/) icon.
@@ -2551,16 +2551,6 @@ shuffle =
     Material.Icons.Directory.S.shuffle
 
 
-{-| The [`shuffle-variant`](https://pictogrammers.com/library/mdi/icon/shuffle-variant/) icon.
-
-![shuffle-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDNMMjIuMjUsNy41TDE3LDEyTDIyLjI1LDE2LjVMMTcsMjFWMThIMTQuMjZMMTEuNDQsMTUuMThMMTMuNTYsMTMuMDZMMTUuNSwxNUgxN1YxMkwxNyw5SDE1LjVMNi41LDE4SDJWMTVINS4yNkwxNC4yNiw2SDE3VjNNMiw2SDYuNUw5LjMyLDguODJMNy4yLDEwLjk0TDUuMjYsOUgyVjZaIiAvPjwvc3ZnPg==)
-
--}
-shuffleVariant : IconShape
-shuffleVariant =
-    Material.Icons.Directory.S.shuffleVariant
-
-
 {-| The [`shuffle-disabled`](https://pictogrammers.com/library/mdi/icon/shuffle-disabled/) icon.
 
 ![shuffle-disabled](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDQuNVY3SDVWOUgxNlYxMS41TDE5LjUsOE0xNiwxMi41VjE1SDVWMTdIMTZWMTkuNUwxOS41LDE2IiAvPjwvc3ZnPg==)
@@ -2571,6 +2561,16 @@ shuffleDisabled =
     Material.Icons.Directory.S.shuffleDisabled
 
 
+{-| The [`shuffle-variant`](https://pictogrammers.com/library/mdi/icon/shuffle-variant/) icon.
+
+![shuffle-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDNMMjIuMjUsNy41TDE3LDEyTDIyLjI1LDE2LjVMMTcsMjFWMThIMTQuMjZMMTEuNDQsMTUuMThMMTMuNTYsMTMuMDZMMTUuNSwxNUgxN1YxMkwxNyw5SDE1LjVMNi41LDE4SDJWMTVINS4yNkwxNC4yNiw2SDE3VjNNMiw2SDYuNUw5LjMyLDguODJMNy4yLDEwLjk0TDUuMjYsOUgyVjZaIiAvPjwvc3ZnPg==)
+
+-}
+shuffleVariant : IconShape
+shuffleVariant =
+    Material.Icons.Directory.S.shuffleVariant
+
+
 {-| The [`stretch-to-page`](https://pictogrammers.com/library/mdi/icon/stretch-to-page/) icon.
 
 ![stretch-to-page](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDJINEMyLjg5LDIgMiwyLjg5IDIsNFYyMEMyLDIxLjExIDIuODksMjIgNCwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY0QzIyLDIuODkgMjEuMTEsMiAyMCwyTTksMTlINVYxNUw2LjI5LDE2LjI5TDcuODMsMTQuNzVMOS4yNSwxNi4xN0w3LjcxLDE3LjcxTTcuODMsOS4yNUw2LjI5LDcuNzFMNSw5VjVIOUw3LjcxLDYuMjlMOS4yNSw3LjgzTTE5LDE5SDE1TDE2LjI5LDE3LjcxTDE0Ljc1LDE2LjE3TDE2LjE3LDE0Ljc1TDE3LjcxLDE2LjI5TDE5LDE1TTE5LDlMMTcuNzEsNy43MUwxNi4xNyw5LjI1TDE0Ljc1LDcuODNMMTYuMjksNi4yOUwxNSw1SDE5IiAvPjwvc3ZnPg==)
@@ -2579,6 +2579,16 @@ shuffleDisabled =
 stretchToPage : IconShape
 stretchToPage =
     Material.Icons.Directory.S.stretchToPage
+
+
+{-| The [`stretch-to-page-outline`](https://pictogrammers.com/library/mdi/icon/stretch-to-page-outline/) icon.
+
+![stretch-to-page-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDJINEMyLjg5LDIgMiwyLjg5IDIsNFYyMEMyLDIxLjExIDIuODksMjIgNCwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY0QzIyLDIuODkgMjEuMTEsMiAyMCwyTTIwLDIwSDRWNEgyME04LjgzLDEwLjI1TDcuMjksOC43MUw2LDEwVjZIMTBMOC43MSw3LjI5TDEwLjI1LDguODNNMTMuNzUsOC44M0wxNS4yOSw3LjI5TDE0LDZIMThWMTBMMTYuNzEsOC43MUwxNS4xNywxMC4yNU0xNS4xNywxMy43NUwxNi43MSwxNS4yOUwxOCwxNFYxOEgxNEwxNS4yOSwxNi43MUwxMy43NSwxNS4xN00xMC4yNSwxNS4xN0w4LjcxLDE2LjcxTDEwLDE4SDZWMTRMNy4yOSwxNS4yOUw4LjgzLDEzLjc1IiAvPjwvc3ZnPg==)
+
+-}
+stretchToPageOutline : IconShape
+stretchToPageOutline =
+    Material.Icons.Directory.S.stretchToPageOutline
 
 
 {-| The [`subdirectory-arrow-left`](https://pictogrammers.com/library/mdi/icon/subdirectory-arrow-left/) icon.
@@ -2599,16 +2609,6 @@ subdirectoryArrowLeft =
 subdirectoryArrowRight : IconShape
 subdirectoryArrowRight =
     Material.Icons.Directory.S.subdirectoryArrowRight
-
-
-{-| The [`stretch-to-page-outline`](https://pictogrammers.com/library/mdi/icon/stretch-to-page-outline/) icon.
-
-![stretch-to-page-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDJINEMyLjg5LDIgMiwyLjg5IDIsNFYyMEMyLDIxLjExIDIuODksMjIgNCwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY0QzIyLDIuODkgMjEuMTEsMiAyMCwyTTIwLDIwSDRWNEgyME04LjgzLDEwLjI1TDcuMjksOC43MUw2LDEwVjZIMTBMOC43MSw3LjI5TDEwLjI1LDguODNNMTMuNzUsOC44M0wxNS4yOSw3LjI5TDE0LDZIMThWMTBMMTYuNzEsOC43MUwxNS4xNywxMC4yNU0xNS4xNywxMy43NUwxNi43MSwxNS4yOUwxOCwxNFYxOEgxNEwxNS4yOSwxNi43MUwxMy43NSwxNS4xN00xMC4yNSwxNS4xN0w4LjcxLDE2LjcxTDEwLDE4SDZWMTRMNy4yOSwxNS4yOUw4LjgzLDEzLjc1IiAvPjwvc3ZnPg==)
-
--}
-stretchToPageOutline : IconShape
-stretchToPageOutline =
-    Material.Icons.Directory.S.stretchToPageOutline
 
 
 {-| The [`swap-horizontal`](https://pictogrammers.com/library/mdi/icon/swap-horizontal/) icon.
