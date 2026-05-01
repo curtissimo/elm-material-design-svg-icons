@@ -3,8 +3,8 @@
 
 
 module Material.Icons.Categories.Alpha exposing
-    ( abjadArabic
-    , abjadHebrew
+    ( abjadHebrew
+    , abjadArabic
     , abugidaDevanagari
     , abugidaThai
     , alpha
@@ -15,18 +15,20 @@ module Material.Icons.Categories.Alpha exposing
     , alphaACircleOutline
     , alphaB
     , alphaBBox
-    , alphaBCircle
     , alphaBBoxOutline
+    , alphaBCircle
     , alphaBCircleOutline
     , alphaC
     , alphaCBox
-    , alphaD
+    , alphaCBoxOutline
+    , alphaCCircle
     , alphaCCircleOutline
+    , alphaD
     , alphaDBox
     , alphaDBoxOutline
     , alphaDCircle
-    , alphaE
     , alphaDCircleOutline
+    , alphaE
     , alphaEBox
     , alphaEBoxOutline
     , alphaECircle
@@ -34,25 +36,24 @@ module Material.Icons.Categories.Alpha exposing
     , alphaF
     , alphaFBox
     , alphaFBoxOutline
-    , alphaFCircleOutline
     , alphaFCircle
+    , alphaFCircleOutline
     , alphaG
     , alphaGBox
     , alphaGBoxOutline
-    , alphaGCircleOutline
     , alphaGCircle
+    , alphaGCircleOutline
     , alphaH
     , alphaHBox
-    , alphaCCircle
     , alphaHBoxOutline
     , alphaHCircle
     , alphaHCircleOutline
-    , alphaIBox
     , alphaI
-    , alphaICircle
+    , alphaIBox
     , alphaIBoxOutline
-    , alphaJ
+    , alphaICircle
     , alphaICircleOutline
+    , alphaJ
     , alphaJBox
     , alphaJBoxOutline
     , alphaJCircle
@@ -62,92 +63,91 @@ module Material.Icons.Categories.Alpha exposing
     , alphaKBoxOutline
     , alphaKCircle
     , alphaKCircleOutline
-    , alphaLBox
     , alphaL
+    , alphaLBox
     , alphaLBoxOutline
     , alphaLCircle
     , alphaLCircleOutline
     , alphaM
     , alphaMBox
-    , alphaMCircle
     , alphaMBoxOutline
+    , alphaMCircle
     , alphaMCircleOutline
     , alphaN
     , alphaNBox
-    , alphaNCircle
     , alphaNBoxOutline
+    , alphaNCircle
     , alphaNCircleOutline
-    , alphaOBox
     , alphaO
+    , alphaOBox
     , alphaOBoxOutline
     , alphaOCircle
     , alphaOCircleOutline
     , alphaP
-    , alphaPBoxOutline
     , alphaPBox
-    , alphaPCircleOutline
+    , alphaPBoxOutline
     , alphaPCircle
+    , alphaPCircleOutline
     , alphaQ
     , alphaQBox
     , alphaQBoxOutline
     , alphaQCircle
     , alphaQCircleOutline
+    , alphaR
     , alphaRBox
     , alphaRBoxOutline
-    , alphaR
-    , alphaS
-    , alphaRCircleOutline
     , alphaRCircle
-    , alphaSBoxOutline
+    , alphaRCircleOutline
+    , alphaS
     , alphaSBox
+    , alphaSBoxOutline
     , alphaSCircle
     , alphaSCircleOutline
     , alphaT
     , alphaTBox
     , alphaTBoxOutline
-    , alphaU
     , alphaTCircle
     , alphaTCircleOutline
+    , alphaU
     , alphaUBox
     , alphaUBoxOutline
     , alphaUCircle
-    , alphaV
     , alphaUCircleOutline
+    , alphaV
     , alphaVBox
-    , alphaVCircle
     , alphaVBoxOutline
+    , alphaVCircle
     , alphaVCircleOutline
     , alphaW
+    , alphaWBox
     , alphaWBoxOutline
     , alphaWCircle
-    , alphaWBox
     , alphaWCircleOutline
     , alphaX
     , alphaXBox
-    , alphaXCircle
     , alphaXBoxOutline
+    , alphaXCircle
     , alphaXCircleOutline
     , alphaY
+    , alphaYBox
     , alphaYBoxOutline
     , alphaYCircle
-    , alphaYBox
     , alphaYCircleOutline
     , alphaZ
     , alphaZBox
-    , alphaZCircle
     , alphaZBoxOutline
-    , alphabetAurebesh
+    , alphaZCircle
     , alphaZCircleOutline
+    , alphabetAurebesh
     , alphabetCyrillic
     , alphabetGreek
     , alphabetLatin
-    , alphabetTengwar
     , alphabetPiqad
+    , alphabetTengwar
     , alphabetical
     , alphabeticalOff
     , alphabeticalVariant
     , alphabeticalVariantOff
-    , alphaCBoxOutline
     , beta
     , delta
     , epsilon
@@ -169,16 +169,16 @@ module Material.Icons.Categories.Alpha exposing
     , numeric1BoxOutline
     , numeric1Circle
     , numeric1CircleOutline
-    , numeric10Box
     , numeric10
+    , numeric10Box
     , numeric10BoxMultiple
     , numeric10BoxMultipleOutline
     , numeric10BoxOutline
     , numeric10Circle
     , numeric10CircleOutline
+    , numeric2
     , numeric2Box
     , numeric2BoxMultiple
-    , numeric2
     , numeric2BoxMultipleOutline
     , numeric2BoxOutline
     , numeric2Circle
@@ -188,12 +188,12 @@ module Material.Icons.Categories.Alpha exposing
     , numeric3BoxMultiple
     , numeric3BoxMultipleOutline
     , numeric3BoxOutline
-    , numeric3CircleOutline
     , numeric3Circle
+    , numeric3CircleOutline
     , numeric4
+    , numeric4Box
     , numeric4BoxMultiple
     , numeric4BoxMultipleOutline
-    , numeric4Box
     , numeric4BoxOutline
     , numeric4Circle
     , numeric4CircleOutline
@@ -207,15 +207,15 @@ module Material.Icons.Categories.Alpha exposing
     , numeric6
     , numeric6Box
     , numeric6BoxMultiple
-    , numeric6BoxOutline
     , numeric6BoxMultipleOutline
+    , numeric6BoxOutline
     , numeric6Circle
     , numeric6CircleOutline
-    , numeric7Box
     , numeric7
+    , numeric7Box
     , numeric7BoxMultiple
-    , numeric7BoxOutline
     , numeric7BoxMultipleOutline
+    , numeric7BoxOutline
     , numeric7Circle
     , numeric7CircleOutline
     , numeric8
@@ -233,8 +233,8 @@ module Material.Icons.Categories.Alpha exposing
     , numeric9Circle
     , numeric9CircleOutline
     , numeric9Plus
-    , numeric9PlusBoxMultiple
     , numeric9PlusBox
+    , numeric9PlusBoxMultiple
     , numeric9PlusBoxMultipleOutline
     , numeric9PlusBoxOutline
     , numeric9PlusCircle
@@ -250,8 +250,8 @@ module Material.Icons.Categories.Alpha exposing
     , romanNumeral5
     , romanNumeral6
     , romanNumeral7
-    , romanNumeral9
     , romanNumeral8
+    , romanNumeral9
     , syllabaryHangul
     , syllabaryHiragana
     , syllabaryKatakana
@@ -260,8 +260,8 @@ module Material.Icons.Categories.Alpha exposing
 
 {-| This module contains icons in the Material.Icons.Categories.Alpha category.
 
-@docs abjadArabic
 @docs abjadHebrew
+@docs abjadArabic
 @docs abugidaDevanagari
 @docs abugidaThai
 @docs alpha
@@ -272,18 +272,20 @@ module Material.Icons.Categories.Alpha exposing
 @docs alphaACircleOutline
 @docs alphaB
 @docs alphaBBox
-@docs alphaBCircle
 @docs alphaBBoxOutline
+@docs alphaBCircle
 @docs alphaBCircleOutline
 @docs alphaC
 @docs alphaCBox
-@docs alphaD
+@docs alphaCBoxOutline
+@docs alphaCCircle
 @docs alphaCCircleOutline
+@docs alphaD
 @docs alphaDBox
 @docs alphaDBoxOutline
 @docs alphaDCircle
-@docs alphaE
 @docs alphaDCircleOutline
+@docs alphaE
 @docs alphaEBox
 @docs alphaEBoxOutline
 @docs alphaECircle
@@ -291,25 +293,24 @@ module Material.Icons.Categories.Alpha exposing
 @docs alphaF
 @docs alphaFBox
 @docs alphaFBoxOutline
-@docs alphaFCircleOutline
 @docs alphaFCircle
+@docs alphaFCircleOutline
 @docs alphaG
 @docs alphaGBox
 @docs alphaGBoxOutline
-@docs alphaGCircleOutline
 @docs alphaGCircle
+@docs alphaGCircleOutline
 @docs alphaH
 @docs alphaHBox
-@docs alphaCCircle
 @docs alphaHBoxOutline
 @docs alphaHCircle
 @docs alphaHCircleOutline
-@docs alphaIBox
 @docs alphaI
-@docs alphaICircle
+@docs alphaIBox
 @docs alphaIBoxOutline
-@docs alphaJ
+@docs alphaICircle
 @docs alphaICircleOutline
+@docs alphaJ
 @docs alphaJBox
 @docs alphaJBoxOutline
 @docs alphaJCircle
@@ -319,92 +320,91 @@ module Material.Icons.Categories.Alpha exposing
 @docs alphaKBoxOutline
 @docs alphaKCircle
 @docs alphaKCircleOutline
-@docs alphaLBox
 @docs alphaL
+@docs alphaLBox
 @docs alphaLBoxOutline
 @docs alphaLCircle
 @docs alphaLCircleOutline
 @docs alphaM
 @docs alphaMBox
-@docs alphaMCircle
 @docs alphaMBoxOutline
+@docs alphaMCircle
 @docs alphaMCircleOutline
 @docs alphaN
 @docs alphaNBox
-@docs alphaNCircle
 @docs alphaNBoxOutline
+@docs alphaNCircle
 @docs alphaNCircleOutline
-@docs alphaOBox
 @docs alphaO
+@docs alphaOBox
 @docs alphaOBoxOutline
 @docs alphaOCircle
 @docs alphaOCircleOutline
 @docs alphaP
-@docs alphaPBoxOutline
 @docs alphaPBox
-@docs alphaPCircleOutline
+@docs alphaPBoxOutline
 @docs alphaPCircle
+@docs alphaPCircleOutline
 @docs alphaQ
 @docs alphaQBox
 @docs alphaQBoxOutline
 @docs alphaQCircle
 @docs alphaQCircleOutline
+@docs alphaR
 @docs alphaRBox
 @docs alphaRBoxOutline
-@docs alphaR
-@docs alphaS
-@docs alphaRCircleOutline
 @docs alphaRCircle
-@docs alphaSBoxOutline
+@docs alphaRCircleOutline
+@docs alphaS
 @docs alphaSBox
+@docs alphaSBoxOutline
 @docs alphaSCircle
 @docs alphaSCircleOutline
 @docs alphaT
 @docs alphaTBox
 @docs alphaTBoxOutline
-@docs alphaU
 @docs alphaTCircle
 @docs alphaTCircleOutline
+@docs alphaU
 @docs alphaUBox
 @docs alphaUBoxOutline
 @docs alphaUCircle
-@docs alphaV
 @docs alphaUCircleOutline
+@docs alphaV
 @docs alphaVBox
-@docs alphaVCircle
 @docs alphaVBoxOutline
+@docs alphaVCircle
 @docs alphaVCircleOutline
 @docs alphaW
+@docs alphaWBox
 @docs alphaWBoxOutline
 @docs alphaWCircle
-@docs alphaWBox
 @docs alphaWCircleOutline
 @docs alphaX
 @docs alphaXBox
-@docs alphaXCircle
 @docs alphaXBoxOutline
+@docs alphaXCircle
 @docs alphaXCircleOutline
 @docs alphaY
+@docs alphaYBox
 @docs alphaYBoxOutline
 @docs alphaYCircle
-@docs alphaYBox
 @docs alphaYCircleOutline
 @docs alphaZ
 @docs alphaZBox
-@docs alphaZCircle
 @docs alphaZBoxOutline
-@docs alphabetAurebesh
+@docs alphaZCircle
 @docs alphaZCircleOutline
+@docs alphabetAurebesh
 @docs alphabetCyrillic
 @docs alphabetGreek
 @docs alphabetLatin
-@docs alphabetTengwar
 @docs alphabetPiqad
+@docs alphabetTengwar
 @docs alphabetical
 @docs alphabeticalOff
 @docs alphabeticalVariant
 @docs alphabeticalVariantOff
-@docs alphaCBoxOutline
 @docs beta
 @docs delta
 @docs epsilon
@@ -426,16 +426,16 @@ module Material.Icons.Categories.Alpha exposing
 @docs numeric1BoxOutline
 @docs numeric1Circle
 @docs numeric1CircleOutline
-@docs numeric10Box
 @docs numeric10
+@docs numeric10Box
 @docs numeric10BoxMultiple
 @docs numeric10BoxMultipleOutline
 @docs numeric10BoxOutline
 @docs numeric10Circle
 @docs numeric10CircleOutline
+@docs numeric2
 @docs numeric2Box
 @docs numeric2BoxMultiple
-@docs numeric2
 @docs numeric2BoxMultipleOutline
 @docs numeric2BoxOutline
 @docs numeric2Circle
@@ -445,12 +445,12 @@ module Material.Icons.Categories.Alpha exposing
 @docs numeric3BoxMultiple
 @docs numeric3BoxMultipleOutline
 @docs numeric3BoxOutline
-@docs numeric3CircleOutline
 @docs numeric3Circle
+@docs numeric3CircleOutline
 @docs numeric4
+@docs numeric4Box
 @docs numeric4BoxMultiple
 @docs numeric4BoxMultipleOutline
-@docs numeric4Box
 @docs numeric4BoxOutline
 @docs numeric4Circle
 @docs numeric4CircleOutline
@@ -464,15 +464,15 @@ module Material.Icons.Categories.Alpha exposing
 @docs numeric6
 @docs numeric6Box
 @docs numeric6BoxMultiple
-@docs numeric6BoxOutline
 @docs numeric6BoxMultipleOutline
+@docs numeric6BoxOutline
 @docs numeric6Circle
 @docs numeric6CircleOutline
-@docs numeric7Box
 @docs numeric7
+@docs numeric7Box
 @docs numeric7BoxMultiple
-@docs numeric7BoxOutline
 @docs numeric7BoxMultipleOutline
+@docs numeric7BoxOutline
 @docs numeric7Circle
 @docs numeric7CircleOutline
 @docs numeric8
@@ -490,8 +490,8 @@ module Material.Icons.Categories.Alpha exposing
 @docs numeric9Circle
 @docs numeric9CircleOutline
 @docs numeric9Plus
-@docs numeric9PlusBoxMultiple
 @docs numeric9PlusBox
+@docs numeric9PlusBoxMultiple
 @docs numeric9PlusBoxMultipleOutline
 @docs numeric9PlusBoxOutline
 @docs numeric9PlusCircle
@@ -507,8 +507,8 @@ module Material.Icons.Categories.Alpha exposing
 @docs romanNumeral5
 @docs romanNumeral6
 @docs romanNumeral7
-@docs romanNumeral9
 @docs romanNumeral8
+@docs romanNumeral9
 @docs syllabaryHangul
 @docs syllabaryHiragana
 @docs syllabaryKatakana
@@ -528,16 +528,6 @@ import Material.Icons.Directory.R
 import Material.Icons.Directory.S
 
 
-{-| The [`abjad-arabic`](https://pictogrammers.com/library/mdi/icon/abjad-arabic/) icon.
-
-![abjad-arabic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTAuMDggNCA4LjUgNS41OCA4LjUgNy41QzguNSA4LjQzIDguODggOS4yOCA5LjUgOS45MUM3Ljk3IDEwLjkxIDcgMTIuNjIgNyAxNC41QzcgMTcuNTMgOS40NyAyMCAxMi41IDIwQzE0LjI2IDIwIDE2IDE5LjU0IDE3LjUgMTguNjZMMTYuNSAxNi45M0MxNS4yOCAxNy42MyAxMy45IDE4IDEyLjUgMThDMTAuNTYgMTggOSAxNi40NSA5IDE0LjVDOSAxMi45MSAxMC4wNiAxMS41MyAxMS41OSAxMS4xMkwxNi44IDkuNzJMMTYuMjggNy43OUwxMS44MyA5QzExLjA4IDguOSAxMC41IDguMjggMTAuNSA3LjVDMTAuNSA2LjY2IDExLjE2IDYgMTIgNkMxMi4yNiA2IDEyLjUgNi4wNyAxMi43NSA2LjJMMTMuNzUgNC40N0MxMy4yMiA0LjE2IDEyLjYxIDQgMTIgNFoiIC8+PC9zdmc+)
-
--}
-abjadArabic : IconShape
-abjadArabic =
-    Material.Icons.Directory.A.abjadArabic
-
-
 {-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
 
 ![abjad-hebrew](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMuOSA0TDkgMTAuMDNDNy41OCAxMC4xNyA2LjM2IDExLjE4IDYgMTIuNTlMNCAyMEg2LjA3TDcuOTIgMTMuMTFDOC4wOSAxMi40NiA4LjY5IDEyIDkuMzYgMTJIMTAuNjlMMTcuNDcgMjBIMjAuMUwxNSAxMy45N0MxNi40MiAxMy44MyAxNy42NCAxMi44MiAxOCAxMS40MUwyMCA0SDE3LjkzTDE2LjA4IDEwLjg5QzE1LjkxIDExLjU0IDE1LjMxIDEyIDE0LjY0IDEySDEzLjMxTDYuNTMgNFoiIC8+PC9zdmc+)
@@ -546,6 +536,16 @@ abjadArabic =
 abjadHebrew : IconShape
 abjadHebrew =
     Material.Icons.Directory.A.abjadHebrew
+
+
+{-| The [`abjad-arabic`](https://pictogrammers.com/library/mdi/icon/abjad-arabic/) icon.
+
+![abjad-arabic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDRDMTAuMDggNCA4LjUgNS41OCA4LjUgNy41QzguNSA4LjQzIDguODggOS4yOCA5LjUgOS45MUM3Ljk3IDEwLjkxIDcgMTIuNjIgNyAxNC41QzcgMTcuNTMgOS40NyAyMCAxMi41IDIwQzE0LjI2IDIwIDE2IDE5LjU0IDE3LjUgMTguNjZMMTYuNSAxNi45M0MxNS4yOCAxNy42MyAxMy45IDE4IDEyLjUgMThDMTAuNTYgMTggOSAxNi40NSA5IDE0LjVDOSAxMi45MSAxMC4wNiAxMS41MyAxMS41OSAxMS4xMkwxNi44IDkuNzJMMTYuMjggNy43OUwxMS44MyA5QzExLjA4IDguOSAxMC41IDguMjggMTAuNSA3LjVDMTAuNSA2LjY2IDExLjE2IDYgMTIgNkMxMi4yNiA2IDEyLjUgNi4wNyAxMi43NSA2LjJMMTMuNzUgNC40N0MxMy4yMiA0LjE2IDEyLjYxIDQgMTIgNFoiIC8+PC9zdmc+)
+
+-}
+abjadArabic : IconShape
+abjadArabic =
+    Material.Icons.Directory.A.abjadArabic
 
 
 {-| The [`abugida-devanagari`](https://pictogrammers.com/library/mdi/icon/abugida-devanagari/) icon.
@@ -648,16 +648,6 @@ alphaBBox =
     Material.Icons.Directory.A.alphaBBox
 
 
-{-| The [`alpha-b-circle`](https://pictogrammers.com/library/mdi/icon/alpha-b-circle/) icon.
-
-![alpha-b-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE1LDEwLjVWOUEyLDIgMCAwLDAgMTMsN0g5VjE3SDEzQTIsMiAwIDAsMCAxNSwxNVYxMy41QzE1LDEyLjcgMTQuMywxMiAxMy41LDEyQzE0LjMsMTIgMTUsMTEuMyAxNSwxMC41TTEzLDE1SDExVjEzSDEzVjE1TTEzLDExSDExVjlIMTNWMTFaIiAvPjwvc3ZnPg==)
-
--}
-alphaBCircle : IconShape
-alphaBCircle =
-    Material.Icons.Directory.A.alphaBCircle
-
-
 {-| The [`alpha-b-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-b-box-outline/) icon.
 
 ![alpha-b-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDEwLjVDMTUsMTEuMyAxNC4zLDEyIDEzLjUsMTJDMTQuMywxMiAxNSwxMi43IDE1LDEzLjVWMTVBMiwyIDAgMCwxIDEzLDE3SDlWN0gxM0EyLDIgMCAwLDEgMTUsOVYxMC41TTEzLDE1VjEzSDExVjE1SDEzTTEzLDExVjlIMTFWMTFIMTNNMyw1QTIsMiAwIDAsMSA1LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVDMy44OSwyMSAzLDIwLjEgMywxOVY1TTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -666,6 +656,16 @@ alphaBCircle =
 alphaBBoxOutline : IconShape
 alphaBBoxOutline =
     Material.Icons.Directory.A.alphaBBoxOutline
+
+
+{-| The [`alpha-b-circle`](https://pictogrammers.com/library/mdi/icon/alpha-b-circle/) icon.
+
+![alpha-b-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE1LDEwLjVWOUEyLDIgMCAwLDAgMTMsN0g5VjE3SDEzQTIsMiAwIDAsMCAxNSwxNVYxMy41QzE1LDEyLjcgMTQuMywxMiAxMy41LDEyQzE0LjMsMTIgMTUsMTEuMyAxNSwxMC41TTEzLDE1SDExVjEzSDEzVjE1TTEzLDExSDExVjlIMTNWMTFaIiAvPjwvc3ZnPg==)
+
+-}
+alphaBCircle : IconShape
+alphaBCircle =
+    Material.Icons.Directory.A.alphaBCircle
 
 
 {-| The [`alpha-b-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-b-circle-outline/) icon.
@@ -698,14 +698,24 @@ alphaCBox =
     Material.Icons.Directory.A.alphaCBox
 
 
-{-| The [`alpha-d`](https://pictogrammers.com/library/mdi/icon/alpha-d/) icon.
+{-| The [`alpha-c-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-c-box-outline/) icon.
 
-![alpha-d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxM0EyLDIgMCAwLDAgMTUsMTVWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTVIMTFWOVoiIC8+PC9zdmc+)
+![alpha-c-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QzMuODksMjEgMywyMC4xIDMsMTlWNU01LDVWMTlIMTlWNUg1TTExLDdIMTNBMiwyIDAgMCwxIDE1LDlWMTBIMTNWOUgxMVYxNUgxM1YxNEgxNVYxNUEyLDIgMCAwLDEgMTMsMTdIMTFBMiwyIDAgMCwxIDksMTVWOUEyLDIgMCAwLDEgMTEsN1oiIC8+PC9zdmc+)
 
 -}
-alphaD : IconShape
-alphaD =
-    Material.Icons.Directory.A.alphaD
+alphaCBoxOutline : IconShape
+alphaCBoxOutline =
+    Material.Icons.Directory.A.alphaCBoxOutline
+
+
+{-| The [`alpha-c-circle`](https://pictogrammers.com/library/mdi/icon/alpha-c-circle/) icon.
+
+![alpha-c-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjE0SDEzVjE1SDExVjlIMTNWMTBIMTVWOUEyLDIgMCAwLDAgMTMsN0gxMVoiIC8+PC9zdmc+)
+
+-}
+alphaCCircle : IconShape
+alphaCCircle =
+    Material.Icons.Directory.A.alphaCCircle
 
 
 {-| The [`alpha-c-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-c-circle-outline/) icon.
@@ -716,6 +726,16 @@ alphaD =
 alphaCCircleOutline : IconShape
 alphaCCircleOutline =
     Material.Icons.Directory.A.alphaCCircleOutline
+
+
+{-| The [`alpha-d`](https://pictogrammers.com/library/mdi/icon/alpha-d/) icon.
+
+![alpha-d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxM0EyLDIgMCAwLDAgMTUsMTVWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTVIMTFWOVoiIC8+PC9zdmc+)
+
+-}
+alphaD : IconShape
+alphaD =
+    Material.Icons.Directory.A.alphaD
 
 
 {-| The [`alpha-d-box`](https://pictogrammers.com/library/mdi/icon/alpha-d-box/) icon.
@@ -748,16 +768,6 @@ alphaDCircle =
     Material.Icons.Directory.A.alphaDCircle
 
 
-{-| The [`alpha-e`](https://pictogrammers.com/library/mdi/icon/alpha-e/) icon.
-
-![alpha-e](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxNVYxNUgxMVYxM0gxNVYxMUgxMVY5SDE1VjdIOVoiIC8+PC9zdmc+)
-
--}
-alphaE : IconShape
-alphaE =
-    Material.Icons.Directory.A.alphaE
-
-
 {-| The [`alpha-d-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-d-circle-outline/) icon.
 
 ![alpha-d-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxM0EyLDIgMCAwLDEgMTUsOVYxNUEyLDIgMCAwLDEgMTMsMTdIOVY3TTExLDlWMTVIMTNWOUgxMU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
@@ -766,6 +776,16 @@ alphaE =
 alphaDCircleOutline : IconShape
 alphaDCircleOutline =
     Material.Icons.Directory.A.alphaDCircleOutline
+
+
+{-| The [`alpha-e`](https://pictogrammers.com/library/mdi/icon/alpha-e/) icon.
+
+![alpha-e](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxNVYxNUgxMVYxM0gxNVYxMUgxMVY5SDE1VjdIOVoiIC8+PC9zdmc+)
+
+-}
+alphaE : IconShape
+alphaE =
+    Material.Icons.Directory.A.alphaE
 
 
 {-| The [`alpha-e-box`](https://pictogrammers.com/library/mdi/icon/alpha-e-box/) icon.
@@ -838,16 +858,6 @@ alphaFBoxOutline =
     Material.Icons.Directory.A.alphaFBoxOutline
 
 
-{-| The [`alpha-f-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-f-circle-outline/) icon.
-
-![alpha-f-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxNVY5SDExVjExSDE0VjEzSDExVjE3SDlWN00xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
-
--}
-alphaFCircleOutline : IconShape
-alphaFCircleOutline =
-    Material.Icons.Directory.A.alphaFCircleOutline
-
-
 {-| The [`alpha-f-circle`](https://pictogrammers.com/library/mdi/icon/alpha-f-circle/) icon.
 
 ![alpha-f-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTksN1YxN0gxMVYxM0gxNFYxMUgxMVY5SDE1VjdIOVoiIC8+PC9zdmc+)
@@ -856,6 +866,16 @@ alphaFCircleOutline =
 alphaFCircle : IconShape
 alphaFCircle =
     Material.Icons.Directory.A.alphaFCircle
+
+
+{-| The [`alpha-f-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-f-circle-outline/) icon.
+
+![alpha-f-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxNVY5SDExVjExSDE0VjEzSDExVjE3SDlWN00xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+alphaFCircleOutline : IconShape
+alphaFCircleOutline =
+    Material.Icons.Directory.A.alphaFCircleOutline
 
 
 {-| The [`alpha-g`](https://pictogrammers.com/library/mdi/icon/alpha-g/) icon.
@@ -888,16 +908,6 @@ alphaGBoxOutline =
     Material.Icons.Directory.A.alphaGBoxOutline
 
 
-{-| The [`alpha-g-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-g-circle-outline/) icon.
-
-![alpha-g-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdIMTVWOUgxMVYxNUgxM1YxMUgxNVYxNUEyLDIgMCAwLDEgMTMsMTdIMTFBMiwyIDAgMCwxIDksMTVWOUEyLDIgMCAwLDEgMTEsN00xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
-
--}
-alphaGCircleOutline : IconShape
-alphaGCircleOutline =
-    Material.Icons.Directory.A.alphaGCircleOutline
-
-
 {-| The [`alpha-g-circle`](https://pictogrammers.com/library/mdi/icon/alpha-g-circle/) icon.
 
 ![alpha-g-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjExSDEzVjE1SDExVjlIMTVWN0gxMVoiIC8+PC9zdmc+)
@@ -906,6 +916,16 @@ alphaGCircleOutline =
 alphaGCircle : IconShape
 alphaGCircle =
     Material.Icons.Directory.A.alphaGCircle
+
+
+{-| The [`alpha-g-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-g-circle-outline/) icon.
+
+![alpha-g-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdIMTVWOUgxMVYxNUgxM1YxMUgxNVYxNUEyLDIgMCAwLDEgMTMsMTdIMTFBMiwyIDAgMCwxIDksMTVWOUEyLDIgMCAwLDEgMTEsN00xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+alphaGCircleOutline : IconShape
+alphaGCircleOutline =
+    Material.Icons.Directory.A.alphaGCircleOutline
 
 
 {-| The [`alpha-h`](https://pictogrammers.com/library/mdi/icon/alpha-h/) icon.
@@ -926,16 +946,6 @@ alphaH =
 alphaHBox : IconShape
 alphaHBox =
     Material.Icons.Directory.A.alphaHBox
-
-
-{-| The [`alpha-c-circle`](https://pictogrammers.com/library/mdi/icon/alpha-c-circle/) icon.
-
-![alpha-c-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjE0SDEzVjE1SDExVjlIMTNWMTBIMTVWOUEyLDIgMCAwLDAgMTMsN0gxMVoiIC8+PC9zdmc+)
-
--}
-alphaCCircle : IconShape
-alphaCCircle =
-    Material.Icons.Directory.A.alphaCCircle
 
 
 {-| The [`alpha-h-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-h-box-outline/) icon.
@@ -968,16 +978,6 @@ alphaHCircleOutline =
     Material.Icons.Directory.A.alphaHCircleOutline
 
 
-{-| The [`alpha-i-box`](https://pictogrammers.com/library/mdi/icon/alpha-i-box/) icon.
-
-![alpha-i-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDdIMTBWOUgxMVYxNUgxMFYxN0gxNFYxNUgxM1Y5SDE0VjdNNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM1oiIC8+PC9zdmc+)
-
--}
-alphaIBox : IconShape
-alphaIBox =
-    Material.Icons.Directory.A.alphaIBox
-
-
 {-| The [`alpha-i`](https://pictogrammers.com/library/mdi/icon/alpha-i/) icon.
 
 ![alpha-i](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDdWOUgxM1YxNUgxNFYxN0gxMFYxNUgxMVY5SDEwVjdIMTRaIiAvPjwvc3ZnPg==)
@@ -988,14 +988,14 @@ alphaI =
     Material.Icons.Directory.A.alphaI
 
 
-{-| The [`alpha-i-circle`](https://pictogrammers.com/library/mdi/icon/alpha-i-circle/) icon.
+{-| The [`alpha-i-box`](https://pictogrammers.com/library/mdi/icon/alpha-i-box/) icon.
 
-![alpha-i-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE0LDdIMTBWOUgxMVYxNUgxMFYxN0gxNFYxNUgxM1Y5SDE0VjdaIiAvPjwvc3ZnPg==)
+![alpha-i-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDdIMTBWOUgxMVYxNUgxMFYxN0gxNFYxNUgxM1Y5SDE0VjdNNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM1oiIC8+PC9zdmc+)
 
 -}
-alphaICircle : IconShape
-alphaICircle =
-    Material.Icons.Directory.A.alphaICircle
+alphaIBox : IconShape
+alphaIBox =
+    Material.Icons.Directory.A.alphaIBox
 
 
 {-| The [`alpha-i-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-i-box-outline/) icon.
@@ -1008,14 +1008,14 @@ alphaIBoxOutline =
     Material.Icons.Directory.A.alphaIBoxOutline
 
 
-{-| The [`alpha-j`](https://pictogrammers.com/library/mdi/icon/alpha-j/) icon.
+{-| The [`alpha-i-circle`](https://pictogrammers.com/library/mdi/icon/alpha-i-circle/) icon.
 
-![alpha-j](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDdWMTVIMTFWMTRIOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjdIMTNaIiAvPjwvc3ZnPg==)
+![alpha-i-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE0LDdIMTBWOUgxMVYxNUgxMFYxN0gxNFYxNUgxM1Y5SDE0VjdaIiAvPjwvc3ZnPg==)
 
 -}
-alphaJ : IconShape
-alphaJ =
-    Material.Icons.Directory.A.alphaJ
+alphaICircle : IconShape
+alphaICircle =
+    Material.Icons.Directory.A.alphaICircle
 
 
 {-| The [`alpha-i-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-i-circle-outline/) icon.
@@ -1026,6 +1026,16 @@ alphaJ =
 alphaICircleOutline : IconShape
 alphaICircleOutline =
     Material.Icons.Directory.A.alphaICircleOutline
+
+
+{-| The [`alpha-j`](https://pictogrammers.com/library/mdi/icon/alpha-j/) icon.
+
+![alpha-j](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDdWMTVIMTFWMTRIOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjdIMTNaIiAvPjwvc3ZnPg==)
+
+-}
+alphaJ : IconShape
+alphaJ =
+    Material.Icons.Directory.A.alphaJ
 
 
 {-| The [`alpha-j-box`](https://pictogrammers.com/library/mdi/icon/alpha-j-box/) icon.
@@ -1118,16 +1128,6 @@ alphaKCircleOutline =
     Material.Icons.Directory.A.alphaKCircleOutline
 
 
-{-| The [`alpha-l-box`](https://pictogrammers.com/library/mdi/icon/alpha-l-box/) icon.
-
-![alpha-l-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxNVYxNUgxMVY3SDlNNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM1oiIC8+PC9zdmc+)
-
--}
-alphaLBox : IconShape
-alphaLBox =
-    Material.Icons.Directory.A.alphaLBox
-
-
 {-| The [`alpha-l`](https://pictogrammers.com/library/mdi/icon/alpha-l/) icon.
 
 ![alpha-l](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxNVYxNUgxMVY3SDlaIiAvPjwvc3ZnPg==)
@@ -1136,6 +1136,16 @@ alphaLBox =
 alphaL : IconShape
 alphaL =
     Material.Icons.Directory.A.alphaL
+
+
+{-| The [`alpha-l-box`](https://pictogrammers.com/library/mdi/icon/alpha-l-box/) icon.
+
+![alpha-l-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxNVYxNUgxMVY3SDlNNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM1oiIC8+PC9zdmc+)
+
+-}
+alphaLBox : IconShape
+alphaLBox =
+    Material.Icons.Directory.A.alphaLBox
 
 
 {-| The [`alpha-l-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-l-box-outline/) icon.
@@ -1188,16 +1198,6 @@ alphaMBox =
     Material.Icons.Directory.A.alphaMBox
 
 
-{-| The [`alpha-m-circle`](https://pictogrammers.com/library/mdi/icon/alpha-m-circle/) icon.
-
-![alpha-m-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0EyLDIgMCAwLDAgNyw5VjE3SDlWOUgxMVYxNkgxM1Y5SDE1VjE3SDE3VjlBMiwyIDAgMCwwIDE1LDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
-
--}
-alphaMCircle : IconShape
-alphaMCircle =
-    Material.Icons.Directory.A.alphaMCircle
-
-
 {-| The [`alpha-m-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-m-box-outline/) icon.
 
 ![alpha-m-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxNUEyLDIgMCAwLDEgMTcsOVYxN0gxNVY5SDEzVjE2SDExVjlIOVYxN0g3VjlBMiwyIDAgMCwxIDksN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -1206,6 +1206,16 @@ alphaMCircle =
 alphaMBoxOutline : IconShape
 alphaMBoxOutline =
     Material.Icons.Directory.A.alphaMBoxOutline
+
+
+{-| The [`alpha-m-circle`](https://pictogrammers.com/library/mdi/icon/alpha-m-circle/) icon.
+
+![alpha-m-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0EyLDIgMCAwLDAgNyw5VjE3SDlWOUgxMVYxNkgxM1Y5SDE1VjE3SDE3VjlBMiwyIDAgMCwwIDE1LDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
+
+-}
+alphaMCircle : IconShape
+alphaMCircle =
+    Material.Icons.Directory.A.alphaMCircle
 
 
 {-| The [`alpha-m-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-m-circle-outline/) icon.
@@ -1238,16 +1248,6 @@ alphaNBox =
     Material.Icons.Directory.A.alphaNBox
 
 
-{-| The [`alpha-n-circle`](https://pictogrammers.com/library/mdi/icon/alpha-n-circle/) icon.
-
-![alpha-n-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxMkwxMywxN0gxNVY3SDEzVjEyTDExLDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
-
--}
-alphaNCircle : IconShape
-alphaNCircle =
-    Material.Icons.Directory.A.alphaNCircle
-
-
 {-| The [`alpha-n-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-n-box-outline/) icon.
 
 ![alpha-n-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxMUwxMywxMlY3SDE1VjE3SDEzTDExLDEyVjE3SDlWN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -1256,6 +1256,16 @@ alphaNCircle =
 alphaNBoxOutline : IconShape
 alphaNBoxOutline =
     Material.Icons.Directory.A.alphaNBoxOutline
+
+
+{-| The [`alpha-n-circle`](https://pictogrammers.com/library/mdi/icon/alpha-n-circle/) icon.
+
+![alpha-n-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxMkwxMywxN0gxNVY3SDEzVjEyTDExLDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
+
+-}
+alphaNCircle : IconShape
+alphaNCircle =
+    Material.Icons.Directory.A.alphaNCircle
 
 
 {-| The [`alpha-n-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-n-circle-outline/) icon.
@@ -1268,16 +1278,6 @@ alphaNCircleOutline =
     Material.Icons.Directory.A.alphaNCircleOutline
 
 
-{-| The [`alpha-o-box`](https://pictogrammers.com/library/mdi/icon/alpha-o-box/) icon.
-
-![alpha-o-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjlBMiwyIDAgMCwwIDEzLDdIMTFNMTEsOUgxM1YxNUgxMVY5TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNaIiAvPjwvc3ZnPg==)
-
--}
-alphaOBox : IconShape
-alphaOBox =
-    Material.Icons.Directory.A.alphaOBox
-
-
 {-| The [`alpha-o`](https://pictogrammers.com/library/mdi/icon/alpha-o/) icon.
 
 ![alpha-o](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjlBMiwyIDAgMCwwIDEzLDdIMTFNMTEsOUgxM1YxNUgxMVY5WiIgLz48L3N2Zz4=)
@@ -1286,6 +1286,16 @@ alphaOBox =
 alphaO : IconShape
 alphaO =
     Material.Icons.Directory.A.alphaO
+
+
+{-| The [`alpha-o-box`](https://pictogrammers.com/library/mdi/icon/alpha-o-box/) icon.
+
+![alpha-o-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdBMiwyIDAgMCwwIDksOVYxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjlBMiwyIDAgMCwwIDEzLDdIMTFNMTEsOUgxM1YxNUgxMVY5TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNaIiAvPjwvc3ZnPg==)
+
+-}
+alphaOBox : IconShape
+alphaOBox =
+    Material.Icons.Directory.A.alphaOBox
 
 
 {-| The [`alpha-o-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-o-box-outline/) icon.
@@ -1328,16 +1338,6 @@ alphaP =
     Material.Icons.Directory.A.alphaP
 
 
-{-| The [`alpha-p-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-p-box-outline/) icon.
-
-![alpha-p-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxM0EyLDIgMCAwLDEgMTUsOVYxMUEyLDIgMCAwLDEgMTMsMTNIMTFWMTdIOVY3TTExLDlWMTFIMTNWOUgxMU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
-
--}
-alphaPBoxOutline : IconShape
-alphaPBoxOutline =
-    Material.Icons.Directory.A.alphaPBoxOutline
-
-
 {-| The [`alpha-p-box`](https://pictogrammers.com/library/mdi/icon/alpha-p-box/) icon.
 
 ![alpha-p-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxM0EyLDIgMCAwLDAgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
@@ -1348,14 +1348,14 @@ alphaPBox =
     Material.Icons.Directory.A.alphaPBox
 
 
-{-| The [`alpha-p-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-p-circle-outline/) icon.
+{-| The [`alpha-p-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-p-box-outline/) icon.
 
-![alpha-p-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxM0EyLDIgMCAwLDEgMTUsOVYxMUEyLDIgMCAwLDEgMTMsMTNIMTFWMTdIOVY3TTExLDlWMTFIMTNWOUgxMU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+![alpha-p-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxM0EyLDIgMCAwLDEgMTUsOVYxMUEyLDIgMCAwLDEgMTMsMTNIMTFWMTdIOVY3TTExLDlWMTFIMTNWOUgxMU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
 
 -}
-alphaPCircleOutline : IconShape
-alphaPCircleOutline =
-    Material.Icons.Directory.A.alphaPCircleOutline
+alphaPBoxOutline : IconShape
+alphaPBoxOutline =
+    Material.Icons.Directory.A.alphaPBoxOutline
 
 
 {-| The [`alpha-p-circle`](https://pictogrammers.com/library/mdi/icon/alpha-p-circle/) icon.
@@ -1366,6 +1366,16 @@ alphaPCircleOutline =
 alphaPCircle : IconShape
 alphaPCircle =
     Material.Icons.Directory.A.alphaPCircle
+
+
+{-| The [`alpha-p-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-p-circle-outline/) icon.
+
+![alpha-p-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxM0EyLDIgMCAwLDEgMTUsOVYxMUEyLDIgMCAwLDEgMTMsMTNIMTFWMTdIOVY3TTExLDlWMTFIMTNWOUgxMU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+alphaPCircleOutline : IconShape
+alphaPCircleOutline =
+    Material.Icons.Directory.A.alphaPCircleOutline
 
 
 {-| The [`alpha-q`](https://pictogrammers.com/library/mdi/icon/alpha-q/) icon.
@@ -1418,6 +1428,16 @@ alphaQCircleOutline =
     Material.Icons.Directory.A.alphaQCircleOutline
 
 
+{-| The [`alpha-r`](https://pictogrammers.com/library/mdi/icon/alpha-r/) icon.
+
+![alpha-r](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxMS44TDEzLDE3SDE1TDEzLjc2LDEyLjg1QzE0LjUsMTIuNTUgMTUsMTEuODQgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOVoiIC8+PC9zdmc+)
+
+-}
+alphaR : IconShape
+alphaR =
+    Material.Icons.Directory.A.alphaR
+
+
 {-| The [`alpha-r-box`](https://pictogrammers.com/library/mdi/icon/alpha-r-box/) icon.
 
 ![alpha-r-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxMS44TDEzLDE3SDE1TDEzLjc2LDEyLjg1QzE0LjUsMTIuNTUgMTUsMTEuODQgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
@@ -1438,24 +1458,14 @@ alphaRBoxOutline =
     Material.Icons.Directory.A.alphaRBoxOutline
 
 
-{-| The [`alpha-r`](https://pictogrammers.com/library/mdi/icon/alpha-r/) icon.
+{-| The [`alpha-r-circle`](https://pictogrammers.com/library/mdi/icon/alpha-r-circle/) icon.
 
-![alpha-r](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxMS44TDEzLDE3SDE1TDEzLjc2LDEyLjg1QzE0LjUsMTIuNTUgMTUsMTEuODQgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOVoiIC8+PC9zdmc+)
-
--}
-alphaR : IconShape
-alphaR =
-    Material.Icons.Directory.A.alphaR
-
-
-{-| The [`alpha-s`](https://pictogrammers.com/library/mdi/icon/alpha-s/) icon.
-
-![alpha-s](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdBMiwyIDAgMCwwIDksOVYxMUEyLDIgMCAwLDAgMTEsMTNIMTNWMTVIOVYxN0gxM0EyLDIgMCAwLDAgMTUsMTVWMTNBMiwyIDAgMCwwIDEzLDExSDExVjlIMTVWN0gxMVoiIC8+PC9zdmc+)
+![alpha-r-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxMS44TDEzLDE3SDE1TDEzLjc2LDEyLjg1QzE0LjUsMTIuNTUgMTUsMTEuODQgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
 
 -}
-alphaS : IconShape
-alphaS =
-    Material.Icons.Directory.A.alphaS
+alphaRCircle : IconShape
+alphaRCircle =
+    Material.Icons.Directory.A.alphaRCircle
 
 
 {-| The [`alpha-r-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-r-circle-outline/) icon.
@@ -1468,24 +1478,14 @@ alphaRCircleOutline =
     Material.Icons.Directory.A.alphaRCircleOutline
 
 
-{-| The [`alpha-r-circle`](https://pictogrammers.com/library/mdi/icon/alpha-r-circle/) icon.
+{-| The [`alpha-s`](https://pictogrammers.com/library/mdi/icon/alpha-s/) icon.
 
-![alpha-r-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxN0gxMVYxM0gxMS44TDEzLDE3SDE1TDEzLjc2LDEyLjg1QzE0LjUsMTIuNTUgMTUsMTEuODQgMTUsMTFWOUEyLDIgMCAwLDAgMTMsN0g5TTExLDlIMTNWMTFIMTFWOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
-
--}
-alphaRCircle : IconShape
-alphaRCircle =
-    Material.Icons.Directory.A.alphaRCircle
-
-
-{-| The [`alpha-s-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-s-box-outline/) icon.
-
-![alpha-s-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdIMTVWOUgxMVYxMUgxM0EyLDIgMCAwLDEgMTUsMTNWMTVBMiwyIDAgMCwxIDEzLDE3SDlWMTVIMTNWMTNIMTFBMiwyIDAgMCwxIDksMTFWOUEyLDIgMCAwLDEgMTEsN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
+![alpha-s](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdBMiwyIDAgMCwwIDksOVYxMUEyLDIgMCAwLDAgMTEsMTNIMTNWMTVIOVYxN0gxM0EyLDIgMCAwLDAgMTUsMTVWMTNBMiwyIDAgMCwwIDEzLDExSDExVjlIMTVWN0gxMVoiIC8+PC9zdmc+)
 
 -}
-alphaSBoxOutline : IconShape
-alphaSBoxOutline =
-    Material.Icons.Directory.A.alphaSBoxOutline
+alphaS : IconShape
+alphaS =
+    Material.Icons.Directory.A.alphaS
 
 
 {-| The [`alpha-s-box`](https://pictogrammers.com/library/mdi/icon/alpha-s-box/) icon.
@@ -1496,6 +1496,16 @@ alphaSBoxOutline =
 alphaSBox : IconShape
 alphaSBox =
     Material.Icons.Directory.A.alphaSBox
+
+
+{-| The [`alpha-s-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-s-box-outline/) icon.
+
+![alpha-s-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDdIMTVWOUgxMVYxMUgxM0EyLDIgMCAwLDEgMTUsMTNWMTVBMiwyIDAgMCwxIDEzLDE3SDlWMTVIMTNWMTNIMTFBMiwyIDAgMCwxIDksMTFWOUEyLDIgMCAwLDEgMTEsN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
+
+-}
+alphaSBoxOutline : IconShape
+alphaSBoxOutline =
+    Material.Icons.Directory.A.alphaSBoxOutline
 
 
 {-| The [`alpha-s-circle`](https://pictogrammers.com/library/mdi/icon/alpha-s-circle/) icon.
@@ -1548,16 +1558,6 @@ alphaTBoxOutline =
     Material.Icons.Directory.A.alphaTBoxOutline
 
 
-{-| The [`alpha-u`](https://pictogrammers.com/library/mdi/icon/alpha-u/) icon.
-
-![alpha-u](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjdIMTNWMTVIMTFWN0g5WiIgLz48L3N2Zz4=)
-
--}
-alphaU : IconShape
-alphaU =
-    Material.Icons.Directory.A.alphaU
-
-
 {-| The [`alpha-t-circle`](https://pictogrammers.com/library/mdi/icon/alpha-t-circle/) icon.
 
 ![alpha-t-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1Y5SDExVjE3SDEzVjlIMTVWN0g5TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyWiIgLz48L3N2Zz4=)
@@ -1576,6 +1576,16 @@ alphaTCircle =
 alphaTCircleOutline : IconShape
 alphaTCircleOutline =
     Material.Icons.Directory.A.alphaTCircleOutline
+
+
+{-| The [`alpha-u`](https://pictogrammers.com/library/mdi/icon/alpha-u/) icon.
+
+![alpha-u](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxNUEyLDIgMCAwLDAgMTEsMTdIMTNBMiwyIDAgMCwwIDE1LDE1VjdIMTNWMTVIMTFWN0g5WiIgLz48L3N2Zz4=)
+
+-}
+alphaU : IconShape
+alphaU =
+    Material.Icons.Directory.A.alphaU
 
 
 {-| The [`alpha-u-box`](https://pictogrammers.com/library/mdi/icon/alpha-u-box/) icon.
@@ -1608,16 +1618,6 @@ alphaUCircle =
     Material.Icons.Directory.A.alphaUCircle
 
 
-{-| The [`alpha-v`](https://pictogrammers.com/library/mdi/icon/alpha-v/) icon.
-
-![alpha-v](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxN0gxM0wxNSw3SDEzTDEyLDEyTDExLDdIOVoiIC8+PC9zdmc+)
-
--}
-alphaV : IconShape
-alphaV =
-    Material.Icons.Directory.A.alphaV
-
-
 {-| The [`alpha-u-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-u-circle-outline/) icon.
 
 ![alpha-u-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxMVYxNUgxM1Y3SDE1VjE1QTIsMiAwIDAsMSAxMywxN0gxMUEyLDIgMCAwLDEgOSwxNVY3TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTEyLDRBOCw4IDAgMCwwIDQsMTJBOCw4IDAgMCwwIDEyLDIwQTgsOCAwIDAsMCAyMCwxMkE4LDggMCAwLDAgMTIsNFoiIC8+PC9zdmc+)
@@ -1626,6 +1626,16 @@ alphaV =
 alphaUCircleOutline : IconShape
 alphaUCircleOutline =
     Material.Icons.Directory.A.alphaUCircleOutline
+
+
+{-| The [`alpha-v`](https://pictogrammers.com/library/mdi/icon/alpha-v/) icon.
+
+![alpha-v](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxN0gxM0wxNSw3SDEzTDEyLDEyTDExLDdIOVoiIC8+PC9zdmc+)
+
+-}
+alphaV : IconShape
+alphaV =
+    Material.Icons.Directory.A.alphaV
 
 
 {-| The [`alpha-v-box`](https://pictogrammers.com/library/mdi/icon/alpha-v-box/) icon.
@@ -1638,16 +1648,6 @@ alphaVBox =
     Material.Icons.Directory.A.alphaVBox
 
 
-{-| The [`alpha-v-circle`](https://pictogrammers.com/library/mdi/icon/alpha-v-circle/) icon.
-
-![alpha-v-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxN0gxM0wxNSw3SDEzTDEyLDEyTDExLDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
-
--}
-alphaVCircle : IconShape
-alphaVCircle =
-    Material.Icons.Directory.A.alphaVCircle
-
-
 {-| The [`alpha-v-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-v-box-outline/) icon.
 
 ![alpha-v-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxMUwxMiwxMkwxMyw3SDE1TDEzLDE3SDExTDksN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -1656,6 +1656,16 @@ alphaVCircle =
 alphaVBoxOutline : IconShape
 alphaVBoxOutline =
     Material.Icons.Directory.A.alphaVBoxOutline
+
+
+{-| The [`alpha-v-circle`](https://pictogrammers.com/library/mdi/icon/alpha-v-circle/) icon.
+
+![alpha-v-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxN0gxM0wxNSw3SDEzTDEyLDEyTDExLDdIOU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMloiIC8+PC9zdmc+)
+
+-}
+alphaVCircle : IconShape
+alphaVCircle =
+    Material.Icons.Directory.A.alphaVCircle
 
 
 {-| The [`alpha-v-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-v-circle-outline/) icon.
@@ -1678,6 +1688,16 @@ alphaW =
     Material.Icons.Directory.A.alphaW
 
 
+{-| The [`alpha-w-box`](https://pictogrammers.com/library/mdi/icon/alpha-w-box/) icon.
+
+![alpha-w-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTdIMTVBMiwyIDAgMCwwIDE3LDE1VjdIMTVWMTVIMTNWOEgxMVYxNUg5VjdIN1YxNUEyLDIgMCAwLDAgOSwxN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
+
+-}
+alphaWBox : IconShape
+alphaWBox =
+    Material.Icons.Directory.A.alphaWBox
+
+
 {-| The [`alpha-w-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-w-box-outline/) icon.
 
 ![alpha-w-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTdBMiwyIDAgMCwxIDcsMTVWN0g5VjE1SDExVjhIMTNWMTVIMTVWN0gxN1YxNUEyLDIgMCAwLDEgMTUsMTdIOU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -1696,16 +1716,6 @@ alphaWBoxOutline =
 alphaWCircle : IconShape
 alphaWCircle =
     Material.Icons.Directory.A.alphaWCircle
-
-
-{-| The [`alpha-w-box`](https://pictogrammers.com/library/mdi/icon/alpha-w-box/) icon.
-
-![alpha-w-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTdIMTVBMiwyIDAgMCwwIDE3LDE1VjdIMTVWMTVIMTNWOEgxMVYxNUg5VjdIN1YxNUEyLDIgMCAwLDAgOSwxN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
-
--}
-alphaWBox : IconShape
-alphaWBox =
-    Material.Icons.Directory.A.alphaWBox
 
 
 {-| The [`alpha-w-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-w-circle-outline/) icon.
@@ -1738,16 +1748,6 @@ alphaXBox =
     Material.Icons.Directory.A.alphaXBox
 
 
-{-| The [`alpha-x-circle`](https://pictogrammers.com/library/mdi/icon/alpha-x-circle/) icon.
-
-![alpha-x-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxMkw5LDE3SDExTDEyLDE0LjVMMTMsMTdIMTVMMTMsMTJMMTUsN0gxM0wxMiw5LjVMMTEsN0g5TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyWiIgLz48L3N2Zz4=)
-
--}
-alphaXCircle : IconShape
-alphaXCircle =
-    Material.Icons.Directory.A.alphaXCircle
-
-
 {-| The [`alpha-x-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-x-box-outline/) icon.
 
 ![alpha-x-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxMUwxMiw5LjVMMTMsN0gxNUwxMywxMkwxNSwxN0gxM0wxMiwxNC41TDExLDE3SDlMMTEsMTJMOSw3TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNNNSw1VjE5SDE5VjVINVoiIC8+PC9zdmc+)
@@ -1756,6 +1756,16 @@ alphaXCircle =
 alphaXBoxOutline : IconShape
 alphaXBoxOutline =
     Material.Icons.Directory.A.alphaXBoxOutline
+
+
+{-| The [`alpha-x-circle`](https://pictogrammers.com/library/mdi/icon/alpha-x-circle/) icon.
+
+![alpha-x-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxMkw5LDE3SDExTDEyLDE0LjVMMTMsMTdIMTVMMTMsMTJMMTUsN0gxM0wxMiw5LjVMMTEsN0g5TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyWiIgLz48L3N2Zz4=)
+
+-}
+alphaXCircle : IconShape
+alphaXCircle =
+    Material.Icons.Directory.A.alphaXCircle
 
 
 {-| The [`alpha-x-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-x-circle-outline/) icon.
@@ -1778,6 +1788,16 @@ alphaY =
     Material.Icons.Directory.A.alphaY
 
 
+{-| The [`alpha-y-box`](https://pictogrammers.com/library/mdi/icon/alpha-y-box/) icon.
+
+![alpha-y-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxM1YxN0gxM1YxM0wxNSw3SDEzTDEyLDEwTDExLDdIOU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
+
+-}
+alphaYBox : IconShape
+alphaYBox =
+    Material.Icons.Directory.A.alphaYBox
+
+
 {-| The [`alpha-y-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-y-box-outline/) icon.
 
 ![alpha-y-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxMUwxMiwxMEwxMyw3SDE1TDEzLDEzVjE3SDExVjEzTDksN001LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzTTUsNVYxOUgxOVY1SDVaIiAvPjwvc3ZnPg==)
@@ -1796,16 +1816,6 @@ alphaYBoxOutline =
 alphaYCircle : IconShape
 alphaYCircle =
     Material.Icons.Directory.A.alphaYCircle
-
-
-{-| The [`alpha-y-box`](https://pictogrammers.com/library/mdi/icon/alpha-y-box/) icon.
-
-![alpha-y-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0wxMSwxM1YxN0gxM1YxM0wxNSw3SDEzTDEyLDEwTDExLDdIOU01LDNIMTlBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzWiIgLz48L3N2Zz4=)
-
--}
-alphaYBox : IconShape
-alphaYBox =
-    Material.Icons.Directory.A.alphaYBox
 
 
 {-| The [`alpha-y-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-y-circle-outline/) icon.
@@ -1838,16 +1848,6 @@ alphaZBox =
     Material.Icons.Directory.A.alphaZBox
 
 
-{-| The [`alpha-z-circle`](https://pictogrammers.com/library/mdi/icon/alpha-z-circle/) icon.
-
-![alpha-z-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1Y5SDEzTDksMTVWMTdIMTVWMTVIMTFMMTUsOVY3SDlNMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJaIiAvPjwvc3ZnPg==)
-
--}
-alphaZCircle : IconShape
-alphaZCircle =
-    Material.Icons.Directory.A.alphaZCircle
-
-
 {-| The [`alpha-z-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-z-box-outline/) icon.
 
 ![alpha-z-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN0gxNVY5TDExLDE1SDE1VjE3SDlWMTVMMTMsOUg5VjdNNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM001LDVWMTlIMTlWNUg1WiIgLz48L3N2Zz4=)
@@ -1858,14 +1858,14 @@ alphaZBoxOutline =
     Material.Icons.Directory.A.alphaZBoxOutline
 
 
-{-| The [`alphabet-aurebesh`](https://pictogrammers.com/library/mdi/icon/alphabet-aurebesh/) icon.
+{-| The [`alpha-z-circle`](https://pictogrammers.com/library/mdi/icon/alpha-z-circle/) icon.
 
-![alphabet-aurebesh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgNFYxMUgxNC4yM0wyMiA0SDE5TDEzLjQ2IDlINVY0SDNNMyAxM1YyMEg1VjE1SDEzLjQ2TDE5IDIwSDIyTDE0LjIzIDEzSDNaIiAvPjwvc3ZnPg==)
+![alpha-z-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1Y5SDEzTDksMTVWMTdIMTVWMTVIMTFMMTUsOVY3SDlNMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJaIiAvPjwvc3ZnPg==)
 
 -}
-alphabetAurebesh : IconShape
-alphabetAurebesh =
-    Material.Icons.Directory.A.alphabetAurebesh
+alphaZCircle : IconShape
+alphaZCircle =
+    Material.Icons.Directory.A.alphaZCircle
 
 
 {-| The [`alpha-z-circle-outline`](https://pictogrammers.com/library/mdi/icon/alpha-z-circle-outline/) icon.
@@ -1876,6 +1876,16 @@ alphabetAurebesh =
 alphaZCircleOutline : IconShape
 alphaZCircleOutline =
     Material.Icons.Directory.A.alphaZCircleOutline
+
+
+{-| The [`alphabet-aurebesh`](https://pictogrammers.com/library/mdi/icon/alphabet-aurebesh/) icon.
+
+![alphabet-aurebesh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgNFYxMUgxNC4yM0wyMiA0SDE5TDEzLjQ2IDlINVY0SDNNMyAxM1YyMEg1VjE1SDEzLjQ2TDE5IDIwSDIyTDE0LjIzIDEzSDNaIiAvPjwvc3ZnPg==)
+
+-}
+alphabetAurebesh : IconShape
+alphabetAurebesh =
+    Material.Icons.Directory.A.alphabetAurebesh
 
 
 {-| The [`alphabet-cyrillic`](https://pictogrammers.com/library/mdi/icon/alphabet-cyrillic/) icon.
@@ -1908,16 +1918,6 @@ alphabetLatin =
     Material.Icons.Directory.A.alphabetLatin
 
 
-{-| The [`alphabet-tengwar`](https://pictogrammers.com/library/mdi/icon/alphabet-tengwar/) icon.
-
-![alphabet-tengwar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDdMMTIuNSAzSDE1TDExIDdIMTBNMTIuNSA5QzExLjk2IDkgMTEuNDYgOS4xMyAxMSA5LjM1VjlIOFYxMUg5VjIxSDExVjEyLjVDMTEgMTEuNjcgMTEuNjcgMTEgMTIuNSAxMUMxMy4zMyAxMSAxNCAxMS42NyAxNCAxMi41VjE0LjVDMTQgMTUuMzMgMTMuMzMgMTYgMTIuNSAxNkgxMlYxOEgxMi41QzE0LjQzIDE4IDE2IDE2LjQzIDE2IDE0LjVWMTIuNUMxNiAxMC41NyAxNC40MyA5IDEyLjUgOVoiIC8+PC9zdmc+)
-
--}
-alphabetTengwar : IconShape
-alphabetTengwar =
-    Material.Icons.Directory.A.alphabetTengwar
-
-
 {-| The [`alphabet-piqad`](https://pictogrammers.com/library/mdi/icon/alphabet-piqad/) icon.
 
 ![alphabet-piqad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjA0IDRMNi41NCAxNy44NUM2LjIxIDE4LjU1IDUuNSAxOSA0LjczIDE5SDRWMjBIMTZDMTcuMiAyMCAxOC4yNyAyMC41NCAxOSAyMS4zOUgyMEMxOS4wNSAxOS4zMiAxNyAxOCAxNC43IDE4SDEyQzExLjI5IDE4IDEwLjYyIDE3LjYzIDEwLjI0IDE3LjAzQzkuODUgMTYuNDMgOS44IDE1LjY4IDEwLjEgMTUuMDNMMTAuNTggMTRIMTlWMTNIMTcuNUMxNS4yOSAxMyAxMy41IDExLjIxIDEzLjUgOUMxMy41IDYuNzkgMTUuMjkgNSAxNy41IDVIMjBWNFoiIC8+PC9zdmc+)
@@ -1926,6 +1926,16 @@ alphabetTengwar =
 alphabetPiqad : IconShape
 alphabetPiqad =
     Material.Icons.Directory.A.alphabetPiqad
+
+
+{-| The [`alphabet-tengwar`](https://pictogrammers.com/library/mdi/icon/alphabet-tengwar/) icon.
+
+![alphabet-tengwar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDdMMTIuNSAzSDE1TDExIDdIMTBNMTIuNSA5QzExLjk2IDkgMTEuNDYgOS4xMyAxMSA5LjM1VjlIOFYxMUg5VjIxSDExVjEyLjVDMTEgMTEuNjcgMTEuNjcgMTEgMTIuNSAxMUMxMy4zMyAxMSAxNCAxMS42NyAxNCAxMi41VjE0LjVDMTQgMTUuMzMgMTMuMzMgMTYgMTIuNSAxNkgxMlYxOEgxMi41QzE0LjQzIDE4IDE2IDE2LjQzIDE2IDE0LjVWMTIuNUMxNiAxMC41NyAxNC40MyA5IDEyLjUgOVoiIC8+PC9zdmc+)
+
+-}
+alphabetTengwar : IconShape
+alphabetTengwar =
+    Material.Icons.Directory.A.alphabetTengwar
 
 
 {-| The [`alphabetical`](https://pictogrammers.com/library/mdi/icon/alphabetical/) icon.
@@ -1966,16 +1976,6 @@ alphabeticalVariant =
 alphabeticalVariantOff : IconShape
 alphabeticalVariantOff =
     Material.Icons.Directory.A.alphabeticalVariantOff
-
-
-{-| The [`alpha-c-box-outline`](https://pictogrammers.com/library/mdi/icon/alpha-c-box-outline/) icon.
-
-![alpha-c-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1VjE5QTIsMiAwIDAsMSAxOSwyMUg1QzMuODksMjEgMywyMC4xIDMsMTlWNU01LDVWMTlIMTlWNUg1TTExLDdIMTNBMiwyIDAgMCwxIDE1LDlWMTBIMTNWOUgxMVYxNUgxM1YxNEgxNVYxNUEyLDIgMCAwLDEgMTMsMTdIMTFBMiwyIDAgMCwxIDksMTVWOUEyLDIgMCAwLDEgMTEsN1oiIC8+PC9zdmc+)
-
--}
-alphaCBoxOutline : IconShape
-alphaCBoxOutline =
-    Material.Icons.Directory.A.alphaCBoxOutline
 
 
 {-| The [`beta`](https://pictogrammers.com/library/mdi/icon/beta/) icon.
@@ -2188,16 +2188,6 @@ numeric1CircleOutline =
     Material.Icons.Directory.N.numeric1CircleOutline
 
 
-{-| The [`numeric-10-box`](https://pictogrammers.com/library/mdi/icon/numeric-10-box/) icon.
-
-![numeric-10-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDlIMTZWMTVIMTRWOU0yMSw1VjE5QzIxLDIwLjExIDIwLjExLDIxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QzIwLjExLDMgMjEsMy45IDIxLDVNMTAsN0g2VjlIOFYxN0gxMFY3TTE4LDlBMiwyIDAgMCwwIDE2LDdIMTRBMiwyIDAgMCwwIDEyLDlWMTVDMTIsMTYuMTEgMTIuOSwxNyAxNCwxN0gxNkMxNy4xMSwxNyAxOCwxNi4xMSAxOCwxNVY5WiIgLz48L3N2Zz4=)
-
--}
-numeric10Box : IconShape
-numeric10Box =
-    Material.Icons.Directory.N.numeric10Box
-
-
 {-| The [`numeric-10`](https://pictogrammers.com/library/mdi/icon/numeric-10/) icon.
 
 ![numeric-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDdINlY5SDhWMTdIMTBWN00xNiA3SDE0QzEyLjkgNyAxMiA3LjkgMTIgOVYxNUMxMiAxNi4xMSAxMi45IDE3IDE0IDE3SDE2QzE3LjExIDE3IDE4IDE2LjExIDE4IDE1VjlDMTggNy45IDE3LjExIDcgMTYgN00xNiAxNUgxNFY5SDE2VjE1WiIgLz48L3N2Zz4=)
@@ -2206,6 +2196,16 @@ numeric10Box =
 numeric10 : IconShape
 numeric10 =
     Material.Icons.Directory.N.numeric10
+
+
+{-| The [`numeric-10-box`](https://pictogrammers.com/library/mdi/icon/numeric-10-box/) icon.
+
+![numeric-10-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDlIMTZWMTVIMTRWOU0yMSw1VjE5QzIxLDIwLjExIDIwLjExLDIxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QzIwLjExLDMgMjEsMy45IDIxLDVNMTAsN0g2VjlIOFYxN0gxMFY3TTE4LDlBMiwyIDAgMCwwIDE2LDdIMTRBMiwyIDAgMCwwIDEyLDlWMTVDMTIsMTYuMTEgMTIuOSwxNyAxNCwxN0gxNkMxNy4xMSwxNyAxOCwxNi4xMSAxOCwxNVY5WiIgLz48L3N2Zz4=)
+
+-}
+numeric10Box : IconShape
+numeric10Box =
+    Material.Icons.Directory.N.numeric10Box
 
 
 {-| The [`numeric-10-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-10-box-multiple/) icon.
@@ -2258,6 +2258,16 @@ numeric10CircleOutline =
     Material.Icons.Directory.N.numeric10CircleOutline
 
 
+{-| The [`numeric-2`](https://pictogrammers.com/library/mdi/icon/numeric-2/) icon.
+
+![numeric-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1Y5SDEzVjExSDExQTIsMiAwIDAsMCA5LDEzVjE3SDExTDE1LDE3VjE1SDExVjEzSDEzQTIsMiAwIDAsMCAxNSwxMVY5QTIsMiAwIDAsMCAxMyw3SDlaIiAvPjwvc3ZnPg==)
+
+-}
+numeric2 : IconShape
+numeric2 =
+    Material.Icons.Directory.N.numeric2
+
+
 {-| The [`numeric-2-box`](https://pictogrammers.com/library/mdi/icon/numeric-2-box/) icon.
 
 ![numeric-2-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDExQzE1LDEyLjExIDE0LjEsMTMgMTMsMTNIMTFWMTVIMTVWMTdIOVYxM0M5LDExLjg5IDkuOSwxMSAxMSwxMUgxM1Y5SDlWN0gxM0EyLDIgMCAwLDEgMTUsOU0xOSwzSDVBMiwyIDAgMCwwIDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUEyLDIgMCAwLDAgMTksM1oiIC8+PC9zdmc+)
@@ -2276,16 +2286,6 @@ numeric2Box =
 numeric2BoxMultiple : IconShape
 numeric2BoxMultiple =
     Material.Icons.Directory.N.numeric2BoxMultiple
-
-
-{-| The [`numeric-2`](https://pictogrammers.com/library/mdi/icon/numeric-2/) icon.
-
-![numeric-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1Y5SDEzVjExSDExQTIsMiAwIDAsMCA5LDEzVjE3SDExTDE1LDE3VjE1SDExVjEzSDEzQTIsMiAwIDAsMCAxNSwxMVY5QTIsMiAwIDAsMCAxMyw3SDlaIiAvPjwvc3ZnPg==)
-
--}
-numeric2 : IconShape
-numeric2 =
-    Material.Icons.Directory.N.numeric2
 
 
 {-| The [`numeric-2-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-2-box-multiple-outline/) icon.
@@ -2378,16 +2378,6 @@ numeric3BoxOutline =
     Material.Icons.Directory.N.numeric3BoxOutline
 
 
-{-| The [`numeric-3-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle-outline/) icon.
-
-![numeric-3-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE1QTIsMiAwIDAsMSAxMywxN0g5VjE1SDEzVjEzSDExVjExSDEzVjlIOVY3SDEzQTIsMiAwIDAsMSAxNSw5VjEwLjVBMS41LDEuNSAwIDAsMSAxMy41LDEyQTEuNSwxLjUgMCAwLDEgMTUsMTMuNVYxNU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
-
--}
-numeric3CircleOutline : IconShape
-numeric3CircleOutline =
-    Material.Icons.Directory.N.numeric3CircleOutline
-
-
 {-| The [`numeric-3-circle`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle/) icon.
 
 ![numeric-3-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE1VjEzLjVBMS41LDEuNSAwIDAsMCAxMy41LDEyQTEuNSwxLjUgMCAwLDAgMTUsMTAuNVY5QzE1LDcuODkgMTQuMSw3IDEzLDdIOVY5SDEzVjExSDExVjEzSDEzVjE1SDlWMTdIMTNBMiwyIDAgMCwwIDE1LDE1TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyWiIgLz48L3N2Zz4=)
@@ -2398,6 +2388,16 @@ numeric3Circle =
     Material.Icons.Directory.N.numeric3Circle
 
 
+{-| The [`numeric-3-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle-outline/) icon.
+
+![numeric-3-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE1QTIsMiAwIDAsMSAxMywxN0g5VjE1SDEzVjEzSDExVjExSDEzVjlIOVY3SDEzQTIsMiAwIDAsMSAxNSw5VjEwLjVBMS41LDEuNSAwIDAsMSAxMy41LDEyQTEuNSwxLjUgMCAwLDEgMTUsMTMuNVYxNU0xMiwyQTEwLDEwIDAgMCwxIDIyLDEyQTEwLDEwIDAgMCwxIDEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMk0xMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMEE4LDggMCAwLDAgMjAsMTJBOCw4IDAgMCwwIDEyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+numeric3CircleOutline : IconShape
+numeric3CircleOutline =
+    Material.Icons.Directory.N.numeric3CircleOutline
+
+
 {-| The [`numeric-4`](https://pictogrammers.com/library/mdi/icon/numeric-4/) icon.
 
 ![numeric-4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksN1YxM0gxM1YxN0gxNVY3SDEzVjExSDExVjdIOVoiIC8+PC9zdmc+)
@@ -2406,6 +2406,16 @@ numeric3Circle =
 numeric4 : IconShape
 numeric4 =
     Material.Icons.Directory.N.numeric4
+
+
+{-| The [`numeric-4-box`](https://pictogrammers.com/library/mdi/icon/numeric-4-box/) icon.
+
+![numeric-4-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE3SDEzVjEzSDlWN0gxMVYxMUgxM1Y3SDE1TTE5LDNINUEyLDIgMCAwLDAgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QTIsMiAwIDAsMCAxOSwzWiIgLz48L3N2Zz4=)
+
+-}
+numeric4Box : IconShape
+numeric4Box =
+    Material.Icons.Directory.N.numeric4Box
 
 
 {-| The [`numeric-4-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-4-box-multiple/) icon.
@@ -2426,16 +2436,6 @@ numeric4BoxMultiple =
 numeric4BoxMultipleOutline : IconShape
 numeric4BoxMultipleOutline =
     Material.Icons.Directory.N.numeric4BoxMultipleOutline
-
-
-{-| The [`numeric-4-box`](https://pictogrammers.com/library/mdi/icon/numeric-4-box/) icon.
-
-![numeric-4-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDE3SDEzVjEzSDlWN0gxMVYxMUgxM1Y3SDE1TTE5LDNINUEyLDIgMCAwLDAgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QTIsMiAwIDAsMCAxOSwzWiIgLz48L3N2Zz4=)
-
--}
-numeric4Box : IconShape
-numeric4Box =
-    Material.Icons.Directory.N.numeric4Box
 
 
 {-| The [`numeric-4-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-4-box-outline/) icon.
@@ -2568,16 +2568,6 @@ numeric6BoxMultiple =
     Material.Icons.Directory.N.numeric6BoxMultiple
 
 
-{-| The [`numeric-6-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-outline/) icon.
-
-![numeric-6-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDEzSDEzVjE1SDExTTExLDE3SDEzQTIsMiAwIDAsMCAxNSwxNVYxM0MxNSwxMS44OSAxNC4xLDExIDEzLDExSDExVjlIMTVWN0gxMUEyLDIgMCAwLDAgOSw5VjE1QzksMTYuMTEgOS45LDE3IDExLDE3TTE5LDE5SDVWNUgxOU0xOSwzSDVBMiwyIDAgMCwwIDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUEyLDIgMCAwLDAgMTksM1oiIC8+PC9zdmc+)
-
--}
-numeric6BoxOutline : IconShape
-numeric6BoxOutline =
-    Material.Icons.Directory.N.numeric6BoxOutline
-
-
 {-| The [`numeric-6-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-multiple-outline/) icon.
 
 ![numeric-6-box-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDExSDE1VjEzSDEzTTEzLDE1SDE1QTIsMiAwIDAsMCAxNywxM1YxMUMxNyw5Ljg5IDE2LjEsOSAxNSw5SDEzVjdIMTdWNUgxM0EyLDIgMCAwLDAgMTEsN1YxM0MxMSwxNC4xMSAxMS45LDE1IDEzLDE1TTIxLDE3SDdWM0gyMU0yMSwxSDdBMiwyIDAgMCwwIDUsM1YxN0EyLDIgMCAwLDAgNywxOUgyMUEyLDIgMCAwLDAgMjMsMTdWM0EyLDIgMCAwLDAgMjEsMU0zLDVIMVYyMUEyLDIgMCAwLDAgMywyM0gxOVYyMUgzVjVaIiAvPjwvc3ZnPg==)
@@ -2586,6 +2576,16 @@ numeric6BoxOutline =
 numeric6BoxMultipleOutline : IconShape
 numeric6BoxMultipleOutline =
     Material.Icons.Directory.N.numeric6BoxMultipleOutline
+
+
+{-| The [`numeric-6-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-outline/) icon.
+
+![numeric-6-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDEzSDEzVjE1SDExTTExLDE3SDEzQTIsMiAwIDAsMCAxNSwxNVYxM0MxNSwxMS44OSAxNC4xLDExIDEzLDExSDExVjlIMTVWN0gxMUEyLDIgMCAwLDAgOSw5VjE1QzksMTYuMTEgOS45LDE3IDExLDE3TTE5LDE5SDVWNUgxOU0xOSwzSDVBMiwyIDAgMCwwIDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUEyLDIgMCAwLDAgMTksM1oiIC8+PC9zdmc+)
+
+-}
+numeric6BoxOutline : IconShape
+numeric6BoxOutline =
+    Material.Icons.Directory.N.numeric6BoxOutline
 
 
 {-| The [`numeric-6-circle`](https://pictogrammers.com/library/mdi/icon/numeric-6-circle/) icon.
@@ -2608,16 +2608,6 @@ numeric6CircleOutline =
     Material.Icons.Directory.N.numeric6CircleOutline
 
 
-{-| The [`numeric-7-box`](https://pictogrammers.com/library/mdi/icon/numeric-7-box/) icon.
-
-![numeric-7-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDNBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5TTExLDE3TDE1LDlWN0g5VjlIMTNMOSwxN0gxMVoiIC8+PC9zdmc+)
-
--}
-numeric7Box : IconShape
-numeric7Box =
-    Material.Icons.Directory.N.numeric7Box
-
-
 {-| The [`numeric-7`](https://pictogrammers.com/library/mdi/icon/numeric-7/) icon.
 
 ![numeric-7](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE3TDE1LDlWN0g5VjlIMTNMOSwxNyIgLz48L3N2Zz4=)
@@ -2626,6 +2616,16 @@ numeric7Box =
 numeric7 : IconShape
 numeric7 =
     Material.Icons.Directory.N.numeric7
+
+
+{-| The [`numeric-7-box`](https://pictogrammers.com/library/mdi/icon/numeric-7-box/) icon.
+
+![numeric-7-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDNBMiwyIDAgMCwxIDIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5TTExLDE3TDE1LDlWN0g5VjlIMTNMOSwxN0gxMVoiIC8+PC9zdmc+)
+
+-}
+numeric7Box : IconShape
+numeric7Box =
+    Material.Icons.Directory.N.numeric7Box
 
 
 {-| The [`numeric-7-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-multiple/) icon.
@@ -2638,16 +2638,6 @@ numeric7BoxMultiple =
     Material.Icons.Directory.N.numeric7BoxMultiple
 
 
-{-| The [`numeric-7-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-outline/) icon.
-
-![numeric-7-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE3TDE1LDlWN0g5VjlIMTNMOSwxN00xOSwxOUg1VjVIMTlNMTksM0g1QTIsMiAwIDAsMCAzLDVWMTlBMiwyIDAgMCwwIDUsMjFIMTlBMiwyIDAgMCwwIDIxLDE5VjVBMiwyIDAgMCwwIDE5LDNaIiAvPjwvc3ZnPg==)
-
--}
-numeric7BoxOutline : IconShape
-numeric7BoxOutline =
-    Material.Icons.Directory.N.numeric7BoxOutline
-
-
 {-| The [`numeric-7-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-multiple-outline/) icon.
 
 ![numeric-7-box-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE1TDE3LDdWNUgxMVY3SDE1TDExLDE1TTIxLDE3SDdWM0gyMU0yMSwxSDdBMiwyIDAgMCwwIDUsM1YxN0EyLDIgMCAwLDAgNywxOUgyMUEyLDIgMCAwLDAgMjMsMTdWM0EyLDIgMCAwLDAgMjEsMU0zLDVIMVYyMUEyLDIgMCAwLDAgMywyM0gxOVYyMUgzVjVaIiAvPjwvc3ZnPg==)
@@ -2656,6 +2646,16 @@ numeric7BoxOutline =
 numeric7BoxMultipleOutline : IconShape
 numeric7BoxMultipleOutline =
     Material.Icons.Directory.N.numeric7BoxMultipleOutline
+
+
+{-| The [`numeric-7-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-outline/) icon.
+
+![numeric-7-box-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE3TDE1LDlWN0g5VjlIMTNMOSwxN00xOSwxOUg1VjVIMTlNMTksM0g1QTIsMiAwIDAsMCAzLDVWMTlBMiwyIDAgMCwwIDUsMjFIMTlBMiwyIDAgMCwwIDIxLDE5VjVBMiwyIDAgMCwwIDE5LDNaIiAvPjwvc3ZnPg==)
+
+-}
+numeric7BoxOutline : IconShape
+numeric7BoxOutline =
+    Material.Icons.Directory.N.numeric7BoxOutline
 
 
 {-| The [`numeric-7-circle`](https://pictogrammers.com/library/mdi/icon/numeric-7-circle/) icon.
@@ -2828,16 +2828,6 @@ numeric9Plus =
     Material.Icons.Directory.N.numeric9Plus
 
 
-{-| The [`numeric-9-plus-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple/) icon.
-
-![numeric-9-plus-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDlWOEgxMlY5SDExTTIxLDFBMiwyIDAgMCwxIDIzLDNWMTdBMiwyIDAgMCwxIDIxLDE5SDdBMiwyIDAgMCwxIDUsMTdWM0EyLDIgMCAwLDEgNywxSDIxTTMsNVYyMUgxOVYyM0gzQTIsMiAwIDAsMSAxLDIxVjVIM00xNSw5VjExSDE3VjEzSDE5VjExSDIxVjlIMTlWN0gxN1Y5SDE1TTE0LDEyVjhDMTQsNi44OSAxMy4xLDYgMTIsNkgxMUEyLDIgMCAwLDAgOSw4VjlDOSwxMC4xMSA5LjksMTEgMTEsMTFIMTJWMTJIOVYxNEgxMkEyLDIgMCAwLDAgMTQsMTJaIiAvPjwvc3ZnPg==)
-
--}
-numeric9PlusBoxMultiple : IconShape
-numeric9PlusBoxMultiple =
-    Material.Icons.Directory.N.numeric9PlusBoxMultiple
-
-
 {-| The [`numeric-9-plus-box`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box/) icon.
 
 ![numeric-9-plus-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDVWMTlBMiwyIDAgMCwxIDE5LDIxSDVBMiwyIDAgMCwxIDMsMTlWNUEyLDIgMCAwLDEgNSwzSDE5QTIsMiAwIDAsMSAyMSw1TTE5LDExSDE3VjlIMTVWMTFIMTNWMTNIMTVWMTVIMTdWMTNIMTlWMTFNMTAsN0g4QTIsMiAwIDAsMCA2LDlWMTFDNiwxMi4xMSA2LjksMTMgOCwxM0gxMFYxNUg2VjE3SDEwQTIsMiAwIDAsMCAxMiwxNVY5QzEyLDcuODkgMTEuMSw3IDEwLDdNOCw5SDEwVjExSDhWOVoiIC8+PC9zdmc+)
@@ -2846,6 +2836,16 @@ numeric9PlusBoxMultiple =
 numeric9PlusBox : IconShape
 numeric9PlusBox =
     Material.Icons.Directory.N.numeric9PlusBox
+
+
+{-| The [`numeric-9-plus-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple/) icon.
+
+![numeric-9-plus-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDlWOEgxMlY5SDExTTIxLDFBMiwyIDAgMCwxIDIzLDNWMTdBMiwyIDAgMCwxIDIxLDE5SDdBMiwyIDAgMCwxIDUsMTdWM0EyLDIgMCAwLDEgNywxSDIxTTMsNVYyMUgxOVYyM0gzQTIsMiAwIDAsMSAxLDIxVjVIM00xNSw5VjExSDE3VjEzSDE5VjExSDIxVjlIMTlWN0gxN1Y5SDE1TTE0LDEyVjhDMTQsNi44OSAxMy4xLDYgMTIsNkgxMUEyLDIgMCAwLDAgOSw4VjlDOSwxMC4xMSA5LjksMTEgMTEsMTFIMTJWMTJIOVYxNEgxMkEyLDIgMCAwLDAgMTQsMTJaIiAvPjwvc3ZnPg==)
+
+-}
+numeric9PlusBoxMultiple : IconShape
+numeric9PlusBoxMultiple =
+    Material.Icons.Directory.N.numeric9PlusBoxMultiple
 
 
 {-| The [`numeric-9-plus-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple-outline/) icon.
@@ -2998,16 +2998,6 @@ romanNumeral7 =
     Material.Icons.Directory.R.romanNumeral7
 
 
-{-| The [`roman-numeral-9`](https://pictogrammers.com/library/mdi/icon/roman-numeral-9/) icon.
-
-![roman-numeral-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDdWOUgxMFYxNUgxMVYxN0g3VjE1SDhWOUg3VjdIMTFNMTIgN0wxNCAxMkwxMiAxN0gxNEwxNSAxNC41TDE2IDE3SDE4TDE2IDEyTDE4IDdIMTZMMTUgOS41TDE0IDdIMTJaIiAvPjwvc3ZnPg==)
-
--}
-romanNumeral9 : IconShape
-romanNumeral9 =
-    Material.Icons.Directory.R.romanNumeral9
-
-
 {-| The [`roman-numeral-8`](https://pictogrammers.com/library/mdi/icon/roman-numeral-8/) icon.
 
 ![roman-numeral-8](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEgN0wzIDE3SDVMNyA3SDVMNCAxMkwzIDdIMU0xMiA3VjlIMTFWMTVIMTJWMTdIOFYxNUg5VjlIOFY3SDEyTTE3IDdWOUgxNlYxNUgxN1YxN0gxM1YxNUgxNFY5SDEzVjdIMTdNMjIgN1Y5SDIxVjE1SDIyVjE3SDE4VjE1SDE5VjlIMThWN0gyMloiIC8+PC9zdmc+)
@@ -3016,6 +3006,16 @@ romanNumeral9 =
 romanNumeral8 : IconShape
 romanNumeral8 =
     Material.Icons.Directory.R.romanNumeral8
+
+
+{-| The [`roman-numeral-9`](https://pictogrammers.com/library/mdi/icon/roman-numeral-9/) icon.
+
+![roman-numeral-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDdWOUgxMFYxNUgxMVYxN0g3VjE1SDhWOUg3VjdIMTFNMTIgN0wxNCAxMkwxMiAxN0gxNEwxNSAxNC41TDE2IDE3SDE4TDE2IDEyTDE4IDdIMTZMMTUgOS41TDE0IDdIMTJaIiAvPjwvc3ZnPg==)
+
+-}
+romanNumeral9 : IconShape
+romanNumeral9 =
+    Material.Icons.Directory.R.romanNumeral9
 
 
 {-| The [`syllabary-hangul`](https://pictogrammers.com/library/mdi/icon/syllabary-hangul/) icon.

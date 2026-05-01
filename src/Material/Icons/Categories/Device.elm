@@ -33,21 +33,21 @@ module Material.Icons.Categories.Device exposing
     , headset
     , headsetOff
     , hydroPower
+    , laptop
     , laptopAccount
     , laptopOff
-    , laptop
     , monitor
     , monitorAccount
     , monitorArrowDown
-    , monitorCellphone
     , monitorArrowDownVariant
+    , monitorCellphone
     , monitorCellphoneStar
     , monitorDashboard
     , monitorLock
     , monitorMultiple
     , monitorOff
-    , monitorShimmer
     , monitorScreenshot
+    , monitorShimmer
     , monitorSmall
     , monitorSpeaker
     , monitorSpeakerOff
@@ -68,13 +68,13 @@ module Material.Icons.Categories.Device exposing
     , tabletCellphone
     , tabletDashboard
     , television
-    , televisionClassicOff
-    , televisionClassic
     , televisionGuide
+    , televisionClassic
+    , televisionClassicOff
     , televisionOff
-    , televisionShimmer
     , televisionPause
     , televisionPlay
+    , televisionShimmer
     , televisionStop
     , thermostat
     , thermostatBox
@@ -121,21 +121,21 @@ module Material.Icons.Categories.Device exposing
 @docs headset
 @docs headsetOff
 @docs hydroPower
+@docs laptop
 @docs laptopAccount
 @docs laptopOff
-@docs laptop
 @docs monitor
 @docs monitorAccount
 @docs monitorArrowDown
-@docs monitorCellphone
 @docs monitorArrowDownVariant
+@docs monitorCellphone
 @docs monitorCellphoneStar
 @docs monitorDashboard
 @docs monitorLock
 @docs monitorMultiple
 @docs monitorOff
-@docs monitorShimmer
 @docs monitorScreenshot
+@docs monitorShimmer
 @docs monitorSmall
 @docs monitorSpeaker
 @docs monitorSpeakerOff
@@ -156,13 +156,13 @@ module Material.Icons.Categories.Device exposing
 @docs tabletCellphone
 @docs tabletDashboard
 @docs television
-@docs televisionClassicOff
-@docs televisionClassic
 @docs televisionGuide
+@docs televisionClassic
+@docs televisionClassicOff
 @docs televisionOff
-@docs televisionShimmer
 @docs televisionPause
 @docs televisionPlay
+@docs televisionShimmer
 @docs televisionStop
 @docs thermostat
 @docs thermostatBox
@@ -491,6 +491,16 @@ hydroPower =
     Material.Icons.Directory.H.hydroPower
 
 
+{-| The [`laptop`](https://pictogrammers.com/library/mdi/icon/laptop/) icon.
+
+![laptop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyMFYxNkg0TTIwLDE4QTIsMiAwIDAsMCAyMiwxNlY2QzIyLDQuODkgMjEuMSw0IDIwLDRINEMyLjg5LDQgMiw0Ljg5IDIsNlYxNkEyLDIgMCAwLDAgNCwxOEgwVjIwSDI0VjE4SDIwWiIgLz48L3N2Zz4=)
+
+-}
+laptop : IconShape
+laptop =
+    Material.Icons.Directory.L.laptop
+
+
 {-| The [`laptop-account`](https://pictogrammers.com/library/mdi/icon/laptop-account/) icon.
 
 ![laptop-account](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDRDMjEuMSA0IDIyIDQuODkgMjIgNlYxNkMyMiAxNy4xMSAyMS4xMSAxOCAyMCAxOEgyNFYyMEgwVjE4SDRDMi45IDE4IDIgMTcuMTEgMiAxNlY2QzIgNC44OSAyLjg5IDQgNCA0SDIwTTIwIDZINFYxNkgyMFY2TTEyIDEyQzE0LjIxIDEyIDE2IDEyLjkgMTYgMTRWMTVIOFYxNEM4IDEyLjkgOS43OSAxMiAxMiAxMk0xMiA3QzEzLjExIDcgMTQgNy45IDE0IDlTMTMuMTEgMTEgMTIgMTEgMTAgMTAuMTEgMTAgOSAxMC45IDcgMTIgN1oiIC8+PC9zdmc+)
@@ -509,16 +519,6 @@ laptopAccount =
 laptopOff : IconShape
 laptopOff =
     Material.Icons.Directory.L.laptopOff
-
-
-{-| The [`laptop`](https://pictogrammers.com/library/mdi/icon/laptop/) icon.
-
-![laptop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyMFYxNkg0TTIwLDE4QTIsMiAwIDAsMCAyMiwxNlY2QzIyLDQuODkgMjEuMSw0IDIwLDRINEMyLjg5LDQgMiw0Ljg5IDIsNlYxNkEyLDIgMCAwLDAgNCwxOEgwVjIwSDI0VjE4SDIwWiIgLz48L3N2Zz4=)
-
--}
-laptop : IconShape
-laptop =
-    Material.Icons.Directory.L.laptop
 
 
 {-| The [`monitor`](https://pictogrammers.com/library/mdi/icon/monitor/) icon.
@@ -551,16 +551,6 @@ monitorArrowDown =
     Material.Icons.Directory.M.monitorArrowDown
 
 
-{-| The [`monitor-cellphone`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone/) icon.
-
-![monitor-cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDE4QTEsMSAwIDAsMCAxNywxMlYyMUExLDEgMCAwLDAgMTgsMjJIMjNBMSwxIDAgMCwwIDI0LDIxVjEyQTEsMSAwIDAsMCAyMywxMU0yMywyMEgxOFYxM0gyM1YyME0yMCwySDJDMC44OSwyIDAsMi44OSAwLDRWMTZBMiwyIDAgMCwwIDIsMThIOVYyMEg3VjIySDE1VjIwSDEzVjE4SDE1VjE2SDJWNEgyMFY5SDIyVjRDMjIsMi44OSAyMS4xLDIgMjAsMloiIC8+PC9zdmc+)
-
--}
-monitorCellphone : IconShape
-monitorCellphone =
-    Material.Icons.Directory.M.monitorCellphone
-
-
 {-| The [`monitor-arrow-down-variant`](https://pictogrammers.com/library/mdi/icon/monitor-arrow-down-variant/) icon.
 
 ![monitor-arrow-down-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDE0TDIyIDlMMjAuNiA3LjZMMTggMTAuMlYzSDE2VjEwLjJMMTMuNCA3LjZMMTIgOUwxNyAxNE0yMyAxNFYxNkMyMyAxNy4xIDIyLjEgMTggMjEgMThIMTRWMjBIMTZWMjJIOFYyMEgxMFYxOEgzQzEuOSAxOCAxIDE3LjEgMSAxNlY0QzEgMi45IDEuOSAyIDMgMkgxMlY0SDNWMTZIMjFWMTRIMjNaIiAvPjwvc3ZnPg==)
@@ -569,6 +559,16 @@ monitorCellphone =
 monitorArrowDownVariant : IconShape
 monitorArrowDownVariant =
     Material.Icons.Directory.M.monitorArrowDownVariant
+
+
+{-| The [`monitor-cellphone`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone/) icon.
+
+![monitor-cellphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDE4QTEsMSAwIDAsMCAxNywxMlYyMUExLDEgMCAwLDAgMTgsMjJIMjNBMSwxIDAgMCwwIDI0LDIxVjEyQTEsMSAwIDAsMCAyMywxMU0yMywyMEgxOFYxM0gyM1YyME0yMCwySDJDMC44OSwyIDAsMi44OSAwLDRWMTZBMiwyIDAgMCwwIDIsMThIOVYyMEg3VjIySDE1VjIwSDEzVjE4SDE1VjE2SDJWNEgyMFY5SDIyVjRDMjIsMi44OSAyMS4xLDIgMjAsMloiIC8+PC9zdmc+)
+
+-}
+monitorCellphone : IconShape
+monitorCellphone =
+    Material.Icons.Directory.M.monitorCellphone
 
 
 {-| The [`monitor-cellphone-star`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone-star/) icon.
@@ -621,16 +621,6 @@ monitorOff =
     Material.Icons.Directory.M.monitorOff
 
 
-{-| The [`monitor-shimmer`](https://pictogrammers.com/library/mdi/icon/monitor-shimmer/) icon.
-
-![monitor-shimmer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE2SDNWNEgyMU0yMSAySDNDMS44OSAyIDEgMi44OSAxIDRWMTZDMSAxNy4xMSAxLjkgMTggMyAxOEgxMFYyMEg4VjIySDE2VjIwSDE0VjE4SDIxQzIyLjExIDE4IDIzIDE3LjExIDIzIDE2VjRDMjMgMi44OSAyMi4xIDIgMjEgMk0xNSA1LjVMMTQuMzggNi44N0wxMyA3LjVMMTQuMzggOC4xM0wxNSA5LjVMMTUuNjMgOC4xM0wxNyA3LjVMMTUuNjMgNi44N0wxNSA1LjVNMTAuNSA3LjVMOS40MSA5LjkxTDcgMTFMOS40MSAxMi4wOUwxMC41IDE0LjVMMTEuNiAxMi4wOUwxNCAxMUwxMS42IDkuOTFMMTAuNSA3LjUiIC8+PC9zdmc+)
-
--}
-monitorShimmer : IconShape
-monitorShimmer =
-    Material.Icons.Directory.M.monitorShimmer
-
-
 {-| The [`monitor-screenshot`](https://pictogrammers.com/library/mdi/icon/monitor-screenshot/) icon.
 
 ![monitor-screenshot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksNkg1VjEwSDdWOEg5TTE5LDEwSDE3VjEySDE1VjE0SDE5TTIxLDE2SDNWNEgyMU0yMSwySDNDMS44OSwyIDEsMi44OSAxLDRWMTZBMiwyIDAgMCwwIDMsMThIMTBWMjBIOFYyMkgxNlYyMEgxNFYxOEgyMUEyLDIgMCAwLDAgMjMsMTZWNEMyMywyLjg5IDIyLjEsMiAyMSwyIiAvPjwvc3ZnPg==)
@@ -639,6 +629,16 @@ monitorShimmer =
 monitorScreenshot : IconShape
 monitorScreenshot =
     Material.Icons.Directory.M.monitorScreenshot
+
+
+{-| The [`monitor-shimmer`](https://pictogrammers.com/library/mdi/icon/monitor-shimmer/) icon.
+
+![monitor-shimmer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE2SDNWNEgyMU0yMSAySDNDMS44OSAyIDEgMi44OSAxIDRWMTZDMSAxNy4xMSAxLjkgMTggMyAxOEgxMFYyMEg4VjIySDE2VjIwSDE0VjE4SDIxQzIyLjExIDE4IDIzIDE3LjExIDIzIDE2VjRDMjMgMi44OSAyMi4xIDIgMjEgMk0xNSA1LjVMMTQuMzggNi44N0wxMyA3LjVMMTQuMzggOC4xM0wxNSA5LjVMMTUuNjMgOC4xM0wxNyA3LjVMMTUuNjMgNi44N0wxNSA1LjVNMTAuNSA3LjVMOS40MSA5LjkxTDcgMTFMOS40MSAxMi4wOUwxMC41IDE0LjVMMTEuNiAxMi4wOUwxNCAxMUwxMS42IDkuOTFMMTAuNSA3LjUiIC8+PC9zdmc+)
+
+-}
+monitorShimmer : IconShape
+monitorShimmer =
+    Material.Icons.Directory.M.monitorShimmer
 
 
 {-| The [`monitor-small`](https://pictogrammers.com/library/mdi/icon/monitor-small/) icon.
@@ -841,14 +841,14 @@ television =
     Material.Icons.Directory.T.television
 
 
-{-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
 
-![television-classic-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjEsMjEuNzJMMTkuNzMsMjNMMTcuNzMsMjFINEMyLjg5LDIxIDIsMjAuMTEgMiwxOVY5QzIsOCAyLjc2LDcuMTQgMy43NSw3TDIsNS4yN004LjE2LDNMMTIsNi44NEwxNS44NCwzTDE3LjI1LDQuNDFMMTQuNjYsN0gyMEMyMS4xMSw3IDIyLDcuODkgMjIsOVYxOUMyMiwxOS4zNCAyMS45MiwxOS42NiAyMS43NywxOS45NEwxNywxNS4xOFY5SDEwLjgyTDguODIsN0g5LjM0TDYuNzUsNC40MUw4LjE2LDNNNCw5VjE5SDE1LjczTDUuNzMsOUg0TTE5LjUsOUExLDEgMCAwLDAgMTguNSwxMEExLDEgMCAwLDAgMTkuNSwxMUExLDEgMCAwLDAgMjAuNSwxMEExLDEgMCAwLDAgMTkuNSw5TTE5LjUsMTJBMSwxIDAgMCwwIDE4LjUsMTNBMSwxIDAgMCwwIDE5LjUsMTRBMSwxIDAgMCwwIDIwLjUsMTNBMSwxIDAgMCwwIDE5LjUsMTJaIiAvPjwvc3ZnPg==)
+![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
 
 -}
-televisionClassicOff : IconShape
-televisionClassicOff =
-    Material.Icons.Directory.T.televisionClassicOff
+televisionGuide : IconShape
+televisionGuide =
+    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
@@ -861,14 +861,14 @@ televisionClassic =
     Material.Icons.Directory.T.televisionClassic
 
 
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+{-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
 
-![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
+![television-classic-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjEsMjEuNzJMMTkuNzMsMjNMMTcuNzMsMjFINEMyLjg5LDIxIDIsMjAuMTEgMiwxOVY5QzIsOCAyLjc2LDcuMTQgMy43NSw3TDIsNS4yN004LjE2LDNMMTIsNi44NEwxNS44NCwzTDE3LjI1LDQuNDFMMTQuNjYsN0gyMEMyMS4xMSw3IDIyLDcuODkgMjIsOVYxOUMyMiwxOS4zNCAyMS45MiwxOS42NiAyMS43NywxOS45NEwxNywxNS4xOFY5SDEwLjgyTDguODIsN0g5LjM0TDYuNzUsNC40MUw4LjE2LDNNNCw5VjE5SDE1LjczTDUuNzMsOUg0TTE5LjUsOUExLDEgMCAwLDAgMTguNSwxMEExLDEgMCAwLDAgMTkuNSwxMUExLDEgMCAwLDAgMjAuNSwxMEExLDEgMCAwLDAgMTkuNSw5TTE5LjUsMTJBMSwxIDAgMCwwIDE4LjUsMTNBMSwxIDAgMCwwIDE5LjUsMTRBMSwxIDAgMCwwIDIwLjUsMTNBMSwxIDAgMCwwIDE5LjUsMTJaIiAvPjwvc3ZnPg==)
 
 -}
-televisionGuide : IconShape
-televisionGuide =
-    Material.Icons.Directory.T.televisionGuide
+televisionClassicOff : IconShape
+televisionClassicOff =
+    Material.Icons.Directory.T.televisionClassicOff
 
 
 {-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
@@ -879,16 +879,6 @@ televisionGuide =
 televisionOff : IconShape
 televisionOff =
     Material.Icons.Directory.T.televisionOff
-
-
-{-| The [`television-shimmer`](https://pictogrammers.com/library/mdi/icon/television-shimmer/) icon.
-
-![television-shimmer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE3SDNWNUgyMU0yMSAzSDNDMS45IDMgMSAzLjkgMSA1VjE3QzEgMTguMTEgMS45IDE5IDMgMTlIOFYyMUgxNlYxOUgyMUMyMi4xMSAxOSAyMyAxOC4xMSAyMyAxN1Y1QzIzIDMuOSAyMi4xMSAzIDIxIDNNMTUgNi41TDE0LjM4IDcuODdMMTMgOC41TDE0LjM4IDkuMTNMMTUgMTAuNUwxNS42MyA5LjEzTDE3IDguNUwxNS42MyA3Ljg3TDE1IDYuNU0xMC41IDguNUw5LjQxIDEwLjkxTDcgMTJMOS40MSAxMy4wOUwxMC41IDE1LjVMMTEuNiAxMy4wOUwxNCAxMkwxMS42IDEwLjkxTDEwLjUgOC41IiAvPjwvc3ZnPg==)
-
--}
-televisionShimmer : IconShape
-televisionShimmer =
-    Material.Icons.Directory.T.televisionShimmer
 
 
 {-| The [`television-pause`](https://pictogrammers.com/library/mdi/icon/television-pause/) icon.
@@ -909,6 +899,16 @@ televisionPause =
 televisionPlay : IconShape
 televisionPlay =
     Material.Icons.Directory.T.televisionPlay
+
+
+{-| The [`television-shimmer`](https://pictogrammers.com/library/mdi/icon/television-shimmer/) icon.
+
+![television-shimmer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE3SDNWNUgyMU0yMSAzSDNDMS45IDMgMSAzLjkgMSA1VjE3QzEgMTguMTEgMS45IDE5IDMgMTlIOFYyMUgxNlYxOUgyMUMyMi4xMSAxOSAyMyAxOC4xMSAyMyAxN1Y1QzIzIDMuOSAyMi4xMSAzIDIxIDNNMTUgNi41TDE0LjM4IDcuODdMMTMgOC41TDE0LjM4IDkuMTNMMTUgMTAuNUwxNS42MyA5LjEzTDE3IDguNUwxNS42MyA3Ljg3TDE1IDYuNU0xMC41IDguNUw5LjQxIDEwLjkxTDcgMTJMOS40MSAxMy4wOUwxMC41IDE1LjVMMTEuNiAxMy4wOUwxNCAxMkwxMS42IDEwLjkxTDEwLjUgOC41IiAvPjwvc3ZnPg==)
+
+-}
+televisionShimmer : IconShape
+televisionShimmer =
+    Material.Icons.Directory.T.televisionShimmer
 
 
 {-| The [`television-stop`](https://pictogrammers.com/library/mdi/icon/television-stop/) icon.

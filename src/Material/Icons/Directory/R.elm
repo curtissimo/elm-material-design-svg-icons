@@ -284,18 +284,18 @@ rabbitVariant =
     iconShape "M16.84 14.5C16.58 14.33 16.22 13.89 16.05 13.68C17.24 12 19 8.87 19 5C19 3.05 18.26 2 17 2C15.46 2 13.04 4.06 12 7.97C10.96 4.06 8.54 2 7 2C5.74 2 5 3.05 5 5C5 8.87 6.76 12 7.95 13.68C7.78 13.89 7.42 14.33 7.16 14.5C6.66 14.93 5.5 15.89 5.5 17.5C5.5 19.71 7.29 21.5 9.5 21.5C11.05 21.5 12 20.94 12 20.94S12.95 21.5 14.5 21.5C16.71 21.5 18.5 19.71 18.5 17.5C18.5 15.89 17.34 14.93 16.84 14.5M9.35 12.2C8.34 10.7 7 8.12 7 5C7 4.5 7.06 4.2 7.12 4.03C8.06 4.34 10.36 6.74 10.5 11.67C10.03 11.79 9.66 11.97 9.35 12.2M10.5 16.75C10.22 16.75 10 16.41 10 16S10.22 15.25 10.5 15.25 11 15.59 11 16 10.78 16.75 10.5 16.75M12 19.5C11.45 19.5 11 18.78 11 18.5S11.45 18 12 18 13 18.22 13 18.5 12.55 19.5 12 19.5M13.5 16.75C13.22 16.75 13 16.41 13 16S13.22 15.25 13.5 15.25 14 15.59 14 16 13.78 16.75 13.5 16.75M13.5 11.67C13.64 6.74 15.94 4.34 16.88 4.03C16.94 4.2 17 4.5 17 5C17 8.12 15.66 10.7 14.65 12.2C14.34 11.97 13.97 11.79 13.5 11.67Z"
 
 
-{-| The [`racing-helmet`](https://pictogrammers.com/library/mdi/icon/racing-helmet/) icon.
--}
-racingHelmet : IconShape
-racingHelmet =
-    iconShape "M2.2,11.2C2,13.6 2.7,15.6 4.2,17.4C5.7,19.2 7.7,20 10.1,20H20.1C20.6,20 21.1,19.8 21.5,19.4C21.9,19 22.1,18.5 22.1,18V17.2C22.1,16.6 22,15.9 21.9,15H13.7C12.7,15 11.9,14.6 11.2,13.9C10.5,13.2 10.1,12.3 10.1,11.4C10.1,9.8 10.8,8.7 12.3,8.1L17.1,6C15.4,4.8 13.4,4.1 11.1,4C8.9,3.8 6.9,4.5 5.1,5.9C3.3,7.3 2.4,9 2.2,11.2M12.1,11.4C12.1,11.8 12.3,12.2 12.6,12.5C12.9,12.8 13.3,13 13.7,13H21.5C20.9,10.8 20,9 18.7,7.6L13.1,9.9C12.4,10.1 12.1,10.6 12.1,11.4Z"
-
-
 {-| The [`rabbit-variant-outline`](https://pictogrammers.com/library/mdi/icon/rabbit-variant-outline/) icon.
 -}
 rabbitVariantOutline : IconShape
 rabbitVariantOutline =
     iconShape "M17 14C16.76 13.76 16.56 13.5 16.35 13.25C17.5 11.5 19 8.56 19 5C19 3.05 18.26 2 17 2C15.46 2 13.04 4.06 12 7.97C10.96 4.06 8.54 2 7 2C5.74 2 5 3.05 5 5C5 8.56 6.5 11.5 7.65 13.25C7.44 13.5 7.24 13.76 7 14C6.75 14.25 5 15.39 5 17.5C5 20 7 22 9.5 22C11 22 12 21.5 12 21.5S13 22 14.5 22C17 22 19 20 19 17.5C19 15.39 17.25 14.25 17 14M16.88 4.03C16.94 4.2 17 4.5 17 5C17 7.84 15.89 10.24 14.93 11.78C14.55 11.5 14.1 11.3 13.53 11.16C13.77 6.64 15.97 4.33 16.88 4.03M7 5C7 4.5 7.06 4.2 7.12 4.03C8.03 4.33 10.23 6.64 10.5 11.16C9.9 11.3 9.45 11.5 9.08 11.78C8.11 10.24 7 7.84 7 5M14.5 20C13.5 20 12.7 19.67 12.28 19.44C12.7 19.26 13 18.73 13 18.5C13 18.22 12.55 18 12 18S11 18.22 11 18.5C11 18.73 11.3 19.26 11.72 19.44C11.3 19.67 10.5 20 9.5 20C8.12 20 7 18.88 7 17.5C7 16.8 7.43 16.26 8 15.77C8.44 15.41 8.61 15.25 9.3 14.4C10.06 13.45 10.39 13 12 13S13.94 13.45 14.7 14.4C15.39 15.25 15.56 15.41 16 15.77C16.57 16.26 17 16.8 17 17.5C17 18.88 15.88 20 14.5 20M14 16C14 16.41 13.78 16.75 13.5 16.75S13 16.41 13 16 13.22 15.25 13.5 15.25 14 15.59 14 16M11 16C11 16.41 10.78 16.75 10.5 16.75S10 16.41 10 16 10.22 15.25 10.5 15.25 11 15.59 11 16Z"
+
+
+{-| The [`racing-helmet`](https://pictogrammers.com/library/mdi/icon/racing-helmet/) icon.
+-}
+racingHelmet : IconShape
+racingHelmet =
+    iconShape "M2.2,11.2C2,13.6 2.7,15.6 4.2,17.4C5.7,19.2 7.7,20 10.1,20H20.1C20.6,20 21.1,19.8 21.5,19.4C21.9,19 22.1,18.5 22.1,18V17.2C22.1,16.6 22,15.9 21.9,15H13.7C12.7,15 11.9,14.6 11.2,13.9C10.5,13.2 10.1,12.3 10.1,11.4C10.1,9.8 10.8,8.7 12.3,8.1L17.1,6C15.4,4.8 13.4,4.1 11.1,4C8.9,3.8 6.9,4.5 5.1,5.9C3.3,7.3 2.4,9 2.2,11.2M12.1,11.4C12.1,11.8 12.3,12.2 12.6,12.5C12.9,12.8 13.3,13 13.7,13H21.5C20.9,10.8 20,9 18.7,7.6L13.1,9.9C12.4,10.1 12.1,10.6 12.1,11.4Z"
 
 
 {-| The [`racquetball`](https://pictogrammers.com/library/mdi/icon/racquetball/) icon.
@@ -410,18 +410,18 @@ radioboxBlank =
     iconShape "M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
 
 
-{-| The [`radiobox-marked`](https://pictogrammers.com/library/mdi/icon/radiobox-marked/) icon.
--}
-radioboxMarked : IconShape
-radioboxMarked =
-    iconShape "M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z"
-
-
 {-| The [`radiobox-indeterminate-variant`](https://pictogrammers.com/library/mdi/icon/radiobox-indeterminate-variant/) icon.
 -}
 radioboxIndeterminateVariant : IconShape
 radioboxIndeterminateVariant =
     iconShape "M8.46 8.46C9.4 7.53 10.67 7 12 7C13.33 7 14.6 7.53 15.54 8.46L8.46 15.54C7.53 14.6 7 13.33 7 12C7 10.67 7.53 9.4 8.46 8.46M8.17 2.76C9.39 2.26 10.69 2 12 2C13.31 2 14.61 2.26 15.83 2.76C17.04 3.26 18.14 4 19.07 4.93C20 5.86 20.74 6.96 21.24 8.17C21.74 9.39 22 10.69 22 12C22 14.65 20.95 17.2 19.07 19.07C17.2 20.95 14.65 22 12 22C10.69 22 9.39 21.74 8.17 21.24C6.96 20.74 5.86 20 4.93 19.07C3.05 17.2 2 14.65 2 12C2 9.35 3.05 6.8 4.93 4.93C5.86 4 6.96 3.26 8.17 2.76M6.34 17.66C7.84 19.16 9.88 20 12 20C14.12 20 16.16 19.16 17.66 17.66C19.16 16.16 20 14.12 20 12C20 9.88 19.16 7.84 17.66 6.34C16.16 4.84 14.12 4 12 4C9.88 4 7.84 4.84 6.34 6.34C4.84 7.84 4 9.88 4 12C4 14.12 4.84 16.16 6.34 17.66Z"
+
+
+{-| The [`radiobox-marked`](https://pictogrammers.com/library/mdi/icon/radiobox-marked/) icon.
+-}
+radioboxMarked : IconShape
+radioboxMarked =
+    iconShape "M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z"
 
 
 {-| The [`radiology-box`](https://pictogrammers.com/library/mdi/icon/radiology-box/) icon.
@@ -431,18 +431,18 @@ radiologyBox =
     iconShape "M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M17.1 13H13V14H17C17 14 16.94 17 15.5 17C14.15 17 14.5 15.47 13 15V17C13 17.55 12.55 18 12 18S11 17.55 11 17V15C9.5 15.47 9.85 17 8.5 17C7.06 17 7 14 7 14H11V13H6.9C6.85 12.69 6.84 12.35 6.8 12H11V11H6.81C6.83 10.67 6.91 10.33 7 10H11V9H7.34C7.5 8.65 7.65 8.31 7.83 8H11V7C11 6.45 11.45 6 12 6S13 6.45 13 7V8H16.17C16.35 8.31 16.5 8.65 16.66 9H13V10H17C17.1 10.33 17.17 10.67 17.19 11H13V12H17.2C17.16 12.35 17.15 12.69 17.1 13Z"
 
 
-{-| The [`radius`](https://pictogrammers.com/library/mdi/icon/radius/) icon.
--}
-radius : IconShape
-radius =
-    iconShape "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,15V13H13.72C13.36,13.62 12.71,14 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10C12.71,10 13.36,10.38 13.72,11H17V9L20,12L17,15Z"
-
-
 {-| The [`radiology-box-outline`](https://pictogrammers.com/library/mdi/icon/radiology-box-outline/) icon.
 -}
 radiologyBoxOutline : IconShape
 radiologyBoxOutline =
     iconShape "M19 5V19H5V5H19M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M12 6C12.55 6 13 6.45 13 7V8H16.17C16.35 8.31 16.5 8.65 16.66 9H13V10H17C17.1 10.33 17.17 10.67 17.19 11H13V12H17.2C17.16 12.35 17.15 12.69 17.1 13H13V14H17C17 14 16.94 17 15.5 17C14.15 17 14.5 15.47 13 15V17C13 17.55 12.55 18 12 18S11 17.55 11 17V15C9.5 15.47 9.85 17 8.5 17C7.06 17 7 14 7 14H11V13H6.9C6.85 12.69 6.84 12.35 6.8 12H11V11H6.81C6.83 10.67 6.91 10.33 7 10H11V9H7.34C7.5 8.65 7.65 8.31 7.83 8H11V7C11 6.45 11.45 6 12 6Z"
+
+
+{-| The [`radius`](https://pictogrammers.com/library/mdi/icon/radius/) icon.
+-}
+radius : IconShape
+radius =
+    iconShape "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,15V13H13.72C13.36,13.62 12.71,14 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10C12.71,10 13.36,10.38 13.72,11H17V9L20,12L17,15Z"
 
 
 {-| The [`radius-outline`](https://pictogrammers.com/library/mdi/icon/radius-outline/) icon.
@@ -543,18 +543,18 @@ razorDoubleEdge =
     iconShape "M20 8C19.45 8 19 7.55 19 7C19 6.45 19.45 6 20 6V5H4V6C4.55 6 5 6.45 5 7C5 7.55 4.55 8 4 8H2V15H4C4.55 15 5 15.45 5 16C5 16.55 4.55 17 4 17V18H20V17C19.45 17 19 16.55 19 16C19 15.45 19.45 15 20 15H22V8H20M20 12H19V13H17V12H13.41C13.2 12.58 12.65 13 12 13S10.8 12.58 10.59 12H7V13H5V12H4V11H5V10H7V11H10.59C10.8 10.42 11.35 10 12 10S13.2 10.42 13.41 11H17V10H19V11H20V12Z"
 
 
-{-| The [`razor-single-edge`](https://pictogrammers.com/library/mdi/icon/razor-single-edge/) icon.
--}
-razorSingleEdge : IconShape
-razorSingleEdge =
-    iconShape "M22 5V8H2V5H22M22 13V18H2V13H3.5C4.33 13 5 12.33 5 11.5S4.33 10 3.5 10L2 10V9H22V10H20.5C19.67 10 19 10.67 19 11.5S19.67 13 20.5 13H22M13 11C13 10.45 12.55 10 12 10S11 10.45 11 11V13C11 13.55 11.45 14 12 14S13 13.55 13 13V11Z"
-
-
 {-| The [`read`](https://pictogrammers.com/library/mdi/icon/read/) icon.
 -}
 read : IconShape
 read =
     iconShape "M21.59,11.59L23,13L13.5,22.5L8.42,17.41L9.83,16L13.5,19.68L21.59,11.59M4,16V3H6L9,3A4,4 0 0,1 13,7C13,8.54 12.13,9.88 10.85,10.55L14,16H12L9.11,11H6V16H4M6,9H9A2,2 0 0,0 11,7A2,2 0 0,0 9,5H6V9Z"
+
+
+{-| The [`razor-single-edge`](https://pictogrammers.com/library/mdi/icon/razor-single-edge/) icon.
+-}
+razorSingleEdge : IconShape
+razorSingleEdge =
+    iconShape "M22 5V8H2V5H22M22 13V18H2V13H3.5C4.33 13 5 12.33 5 11.5S4.33 10 3.5 10L2 10V9H22V10H20.5C19.67 10 19 10.67 19 11.5S19.67 13 20.5 13H22M13 11C13 10.45 12.55 10 12 10S11 10.45 11 11V13C11 13.55 11.45 14 12 14S13 13.55 13 13V11Z"
 
 
 {-| The [`receipt`](https://pictogrammers.com/library/mdi/icon/receipt/) icon.
@@ -697,18 +697,18 @@ receiptTextOutline =
     iconShape "M19.5 3.5L18 2L16.5 3.5L15 2L13.5 3.5L12 2L10.5 3.5L9 2L7.5 3.5L6 2L4.5 3.5L3 2V22L4.5 20.5L6 22L7.5 20.5L9 22L10.5 20.5L12 22L13.5 20.5L15 22L16.5 20.5L18 22L19.5 20.5L21 22V2L19.5 3.5M19 19H5V5H19V19M6 15H18V17H6M6 11H18V13H6M6 7H18V9H6V7Z"
 
 
-{-| The [`receipt-text-plus-outline`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus-outline/) icon.
--}
-receiptTextPlusOutline : IconShape
-receiptTextPlusOutline =
-    iconShape "M18 15V18H15V20H18V23H20V20H23V18H20V15H18M13.26 20.74L12 22L10.5 20.5L9 22L7.5 20.5L6 22L4.5 20.5L3 22V2L4.5 3.5L6 2L7.5 3.5L9 2L10.5 3.5L12 2L13.5 3.5L15 2L16.5 3.5L18 2L19.5 3.5L21 2V13.35C20.37 13.13 19.7 13 19 13V5H5V19H13C13 19.57 13.1 20.22 13.26 20.74M14.54 15C14 15.58 13.61 16.25 13.35 17H6V15H14.54M6 11H18V13H6V11M6 7H18V9H6V7Z"
-
-
 {-| The [`receipt-text-plus`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus/) icon.
 -}
 receiptTextPlus : IconShape
 receiptTextPlus =
     iconShape "M18 15V18H15V20H18V23H20V20H23V18H20V15H18M19.5 3.5L18 2L16.5 3.5L15 2L13.5 3.5L12 2L10.5 3.5L9 2L7.5 3.5L6 2L4.5 3.5L3 2V22L4.5 20.5L6 22L7.5 20.5L9 22L10.5 20.5L12 22L13.26 20.74C13.09 20.18 13 19.59 13 19C13 18.32 13.12 17.64 13.34 17H6V15H14.53C15.67 13.73 17.29 13 19 13C19.68 13 20.36 13.12 21 13.34V2L19.5 3.5M18 13H6V11H18V13M18 9H6V7H18V9Z"
+
+
+{-| The [`receipt-text-plus-outline`](https://pictogrammers.com/library/mdi/icon/receipt-text-plus-outline/) icon.
+-}
+receiptTextPlusOutline : IconShape
+receiptTextPlusOutline =
+    iconShape "M18 15V18H15V20H18V23H20V20H23V18H20V15H18M13.26 20.74L12 22L10.5 20.5L9 22L7.5 20.5L6 22L4.5 20.5L3 22V2L4.5 3.5L6 2L7.5 3.5L9 2L10.5 3.5L12 2L13.5 3.5L15 2L16.5 3.5L18 2L19.5 3.5L21 2V13.35C20.37 13.13 19.7 13 19 13V5H5V19H13C13 19.57 13.1 20.22 13.26 20.74M14.54 15C14 15.58 13.61 16.25 13.35 17H6V15H14.54M6 11H18V13H6V11M6 7H18V9H6V7Z"
 
 
 {-| The [`receipt-text-remove`](https://pictogrammers.com/library/mdi/icon/receipt-text-remove/) icon.
@@ -935,18 +935,18 @@ relationOneOrManyToOneOrMany =
     iconShape "M22 13V19H21L19 17V19H17V17H11V9H7V11H5V9L3 11H2V5H3L5 7V5H7V7H13V15H17V13H19V15L21 13Z"
 
 
-{-| The [`relation-one-or-many-to-zero-or-many`](https://pictogrammers.com/library/mdi/icon/relation-one-or-many-to-zero-or-many/) icon.
--}
-relationOneOrManyToZeroOrMany : IconShape
-relationOneOrManyToZeroOrMany =
-    iconShape "M21 13L19 15H18.79A2.5 2.5 0 0 0 14.21 15H13V7H7V5H5V7L3 5H2V11H3L5 9V11H7V9H11V17H14.21A2.5 2.5 0 0 0 18.79 17H19L21 19H22V13M16.5 17A1 1 0 1 1 17.5 16A1 1 0 0 1 16.5 17Z"
-
-
 {-| The [`relation-one-or-many-to-only-one`](https://pictogrammers.com/library/mdi/icon/relation-one-or-many-to-only-one/) icon.
 -}
 relationOneOrManyToOnlyOne : IconShape
 relationOneOrManyToOnlyOne =
     iconShape "M22 15V17H21V19H19V17H18V19H16V17H11V9H7V11H5V9L3 11H2V5H3L5 7V5H7V7H13V15H16V13H18V15H19V13H21V15Z"
+
+
+{-| The [`relation-one-or-many-to-zero-or-many`](https://pictogrammers.com/library/mdi/icon/relation-one-or-many-to-zero-or-many/) icon.
+-}
+relationOneOrManyToZeroOrMany : IconShape
+relationOneOrManyToZeroOrMany =
+    iconShape "M21 13L19 15H18.79A2.5 2.5 0 0 0 14.21 15H13V7H7V5H5V7L3 5H2V11H3L5 9V11H7V9H11V17H14.21A2.5 2.5 0 0 0 18.79 17H19L21 19H22V13M16.5 17A1 1 0 1 1 17.5 16A1 1 0 0 1 16.5 17Z"
 
 
 {-| The [`relation-one-or-many-to-zero-or-one`](https://pictogrammers.com/library/mdi/icon/relation-one-or-many-to-zero-or-one/) icon.
@@ -1047,6 +1047,13 @@ relationZeroOrManyToMany =
     iconShape "M21 13L19 15H13V7H9.79A2.5 2.5 0 0 0 5.21 7H5L3 5H2V11H3L5 9H5.21A2.5 2.5 0 0 0 9.79 9H11V17H19L21 19H22V13M7.5 9A1 1 0 1 1 8.5 8A1 1 0 0 1 7.5 9Z"
 
 
+{-| The [`relation-zero-or-many-to-one`](https://pictogrammers.com/library/mdi/icon/relation-zero-or-many-to-one/) icon.
+-}
+relationZeroOrManyToOne : IconShape
+relationZeroOrManyToOne =
+    iconShape "M19 15V13H17V15H13V7H9.79A2.5 2.5 0 0 0 5.21 7H5L3 5H2V11H3L5 9H5.21A2.5 2.5 0 0 0 9.79 9H11V17H17V19H19V17H22V15M7.5 9A1 1 0 1 1 8.5 8A1 1 0 0 1 7.5 9Z"
+
+
 {-| The [`relation-zero-or-many-to-one-or-many`](https://pictogrammers.com/library/mdi/icon/relation-zero-or-many-to-one-or-many/) icon.
 -}
 relationZeroOrManyToOneOrMany : IconShape
@@ -1059,13 +1066,6 @@ relationZeroOrManyToOneOrMany =
 relationZeroOrManyToOnlyOne : IconShape
 relationZeroOrManyToOnlyOne =
     iconShape "M21 15V13H19V15H18V13H16V15H13V7H9.79A2.5 2.5 0 0 0 5.21 7H5L3 5H2V11H3L5 9H5.21A2.5 2.5 0 0 0 9.79 9H11V17H16V19H18V17H19V19H21V17H22V15M7.5 9A1 1 0 1 1 8.5 8A1 1 0 0 1 7.5 9Z"
-
-
-{-| The [`relation-zero-or-many-to-one`](https://pictogrammers.com/library/mdi/icon/relation-zero-or-many-to-one/) icon.
--}
-relationZeroOrManyToOne : IconShape
-relationZeroOrManyToOne =
-    iconShape "M19 15V13H17V15H13V7H9.79A2.5 2.5 0 0 0 5.21 7H5L3 5H2V11H3L5 9H5.21A2.5 2.5 0 0 0 9.79 9H11V17H17V19H19V17H22V15M7.5 9A1 1 0 1 1 8.5 8A1 1 0 0 1 7.5 9Z"
 
 
 {-| The [`relation-zero-or-many-to-zero-or-many`](https://pictogrammers.com/library/mdi/icon/relation-zero-or-many-to-zero-or-many/) icon.
@@ -1152,18 +1152,18 @@ reminder =
     iconShape "M7.25,3C7.9,3 8.5,3.21 9,3.56V3A2,2 0 0,1 11,1A2,2 0 0,1 13,3V3.57C13.5,3.22 14.1,3 14.75,3A3,3 0 0,1 17.75,6C17.75,7.58 16.54,8.87 15,9H13V10H14.24L14.72,10.13L19.31,12.42C20.13,12.73 20.53,13.34 20.53,14.25L20.5,14.39V14.53L19.5,21.28C19.44,21.75 19.22,22.16 18.84,22.5C18.47,22.84 18.05,23 17.58,23H10C9.45,23 9,22.81 8.58,22.41L2,15.84L3.05,14.77C3.33,14.5 3.69,14.34 4.13,14.34H4.45L9,15.33V10L9,9H7V9C5.46,8.86 4.25,7.57 4.25,6A3,3 0 0,1 7.25,3M9,6A1.75,1.75 0 0,0 7.25,4.25A1.75,1.75 0 0,0 5.5,6C5.5,6.88 6.15,7.61 7,7.73V7.75H9V6M15,7.75V7.74C15.85,7.62 16.5,6.89 16.5,6C16.5,5.04 15.72,4.26 14.75,4.26C13.78,4.26 13,5.04 13,6V7.75H15Z"
 
 
-{-| The [`remote-desktop`](https://pictogrammers.com/library/mdi/icon/remote-desktop/) icon.
--}
-remoteDesktop : IconShape
-remoteDesktop =
-    iconShape "M3,2A2,2 0 0,0 1,4V16C1,17.11 1.9,18 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4A2,2 0 0,0 21,2M3,4H21V16H3M15,5L11.5,8.5L15,12L16.4,10.6L14.3,8.5L16.4,6.4M9,8L7.6,9.4L9.7,11.5L7.6,13.6L9,15L12.5,11.5"
-
-
 {-| The [`remote`](https://pictogrammers.com/library/mdi/icon/remote/) icon.
 -}
 remote : IconShape
 remote =
     iconShape "M12,0C8.96,0 6.21,1.23 4.22,3.22L5.63,4.63C7.26,3 9.5,2 12,2C14.5,2 16.74,3 18.36,4.64L19.77,3.23C17.79,1.23 15.04,0 12,0M7.05,6.05L8.46,7.46C9.37,6.56 10.62,6 12,6C13.38,6 14.63,6.56 15.54,7.46L16.95,6.05C15.68,4.78 13.93,4 12,4C10.07,4 8.32,4.78 7.05,6.05M12,15A2,2 0 0,1 10,13A2,2 0 0,1 12,11A2,2 0 0,1 14,13A2,2 0 0,1 12,15M15,9H9A1,1 0 0,0 8,10V22A1,1 0 0,0 9,23H15A1,1 0 0,0 16,22V10A1,1 0 0,0 15,9Z"
+
+
+{-| The [`remote-desktop`](https://pictogrammers.com/library/mdi/icon/remote-desktop/) icon.
+-}
+remoteDesktop : IconShape
+remoteDesktop =
+    iconShape "M3,2A2,2 0 0,0 1,4V16C1,17.11 1.9,18 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4A2,2 0 0,0 21,2M3,4H21V16H3M15,5L11.5,8.5L15,12L16.4,10.6L14.3,8.5L16.4,6.4M9,8L7.6,9.4L9.7,11.5L7.6,13.6L9,15L12.5,11.5"
 
 
 {-| The [`remote-off`](https://pictogrammers.com/library/mdi/icon/remote-off/) icon.
@@ -1180,11 +1180,11 @@ remoteTv =
     iconShape "M9,2C7.89,2 7,2.89 7,4V20C7,21.11 7.89,22 9,22H15C16.11,22 17,21.11 17,20V4C17,2.89 16.11,2 15,2H13V4H11V2H9M11,6H13V8H15V10H13V12H11V10H9V8H11V6M9,14H11V16H9V14M13,14H15V16H13V14M9,18H11V20H9V18M13,18H15V20H13V18Z"
 
 
-{-| The [`rename-box`](https://pictogrammers.com/library/mdi/icon/rename-box/) icon.
+{-| The [`remote-tv-off`](https://pictogrammers.com/library/mdi/icon/remote-tv-off/) icon.
 -}
-renameBox : IconShape
-renameBox =
-    iconShape "M18,17H10.5L12.5,15H18M6,17V14.5L13.88,6.65C14.07,6.45 14.39,6.45 14.59,6.65L16.35,8.41C16.55,8.61 16.55,8.92 16.35,9.12L8.47,17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
+remoteTvOff : IconShape
+remoteTvOff =
+    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L17,20.25C16.86,21.24 16,22 15,22H9A2,2 0 0,1 7,20V10.27L2,5.27M9,2H11V4H13V2H15A2,2 0 0,1 17,4V15.18L13,11.18V10H15V8H13V6H11V8H9.82L7,5.18V4A2,2 0 0,1 9,2M9,20H11V18H9V20M13,20H15V18.27L14.73,18H13V20M9,14V16H11V14.27L10.73,14H9Z"
 
 
 {-| The [`rename`](https://pictogrammers.com/library/mdi/icon/rename/) icon.
@@ -1194,11 +1194,11 @@ rename =
     iconShape "M15 16L11 20H21V16H15M12.06 7.19L3 16.25V20H6.75L15.81 10.94L12.06 7.19M18.71 8.04C19.1 7.65 19.1 7 18.71 6.63L16.37 4.29C16.17 4.09 15.92 4 15.66 4C15.41 4 15.15 4.1 14.96 4.29L13.13 6.12L16.88 9.87L18.71 8.04Z"
 
 
-{-| The [`remote-tv-off`](https://pictogrammers.com/library/mdi/icon/remote-tv-off/) icon.
+{-| The [`rename-box`](https://pictogrammers.com/library/mdi/icon/rename-box/) icon.
 -}
-remoteTvOff : IconShape
-remoteTvOff =
-    iconShape "M2,5.27L3.28,4L20,20.72L18.73,22L17,20.25C16.86,21.24 16,22 15,22H9A2,2 0 0,1 7,20V10.27L2,5.27M9,2H11V4H13V2H15A2,2 0 0,1 17,4V15.18L13,11.18V10H15V8H13V6H11V8H9.82L7,5.18V4A2,2 0 0,1 9,2M9,20H11V18H9V20M13,20H15V18.27L14.73,18H13V20M9,14V16H11V14.27L10.73,14H9Z"
+renameBox : IconShape
+renameBox =
+    iconShape "M18,17H10.5L12.5,15H18M6,17V14.5L13.88,6.65C14.07,6.45 14.39,6.45 14.59,6.65L16.35,8.41C16.55,8.61 16.55,8.92 16.35,9.12L8.47,17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
 
 
 {-| The [`rename-box-outline`](https://pictogrammers.com/library/mdi/icon/rename-box-outline/) icon.
@@ -1271,18 +1271,18 @@ reply =
     iconShape "M10,9V5L3,12L10,19V14.9C15,14.9 18.5,16.5 21,20C20,15 17,10 10,9Z"
 
 
-{-| The [`reply-all-outline`](https://pictogrammers.com/library/mdi/icon/reply-all-outline/) icon.
--}
-replyAllOutline : IconShape
-replyAllOutline =
-    iconShape "M11,9.8V10.7L12.7,10.9C15.3,11.3 17.2,12.3 18.6,13.6C16.9,13.1 15.1,12.8 13,12.8H11V14.1L8.8,12L11,9.8M13,5L6,12L13,19V14.9C18,14.9 21.5,16.5 24,20C23,15 20,10 13,9M7,8V5L0,12L7,19V16L3,12"
-
-
 {-| The [`reply-all`](https://pictogrammers.com/library/mdi/icon/reply-all/) icon.
 -}
 replyAll : IconShape
 replyAll =
     iconShape "M13,9V5L6,12L13,19V14.9C18,14.9 21.5,16.5 24,20C23,15 20,10 13,9M7,8V5L0,12L7,19V16L3,12L7,8Z"
+
+
+{-| The [`reply-all-outline`](https://pictogrammers.com/library/mdi/icon/reply-all-outline/) icon.
+-}
+replyAllOutline : IconShape
+replyAllOutline =
+    iconShape "M11,9.8V10.7L12.7,10.9C15.3,11.3 17.2,12.3 18.6,13.6C16.9,13.1 15.1,12.8 13,12.8H11V14.1L8.8,12L11,9.8M13,5L6,12L13,19V14.9C18,14.9 21.5,16.5 24,20C23,15 20,10 13,9M7,8V5L0,12L7,19V16L3,12"
 
 
 {-| The [`reply-circle`](https://pictogrammers.com/library/mdi/icon/reply-circle/) icon.
@@ -1320,13 +1320,6 @@ resistorNodes =
     iconShape "M2,11H3.67C4.08,9.83 5.19,9 6.5,9A3,3 0 0,1 9.5,12C9.5,12.65 9.29,13.25 8.94,13.74L10.07,15.35L13.11,4L14.61,6.13L16.7,9.11L17.5,9C18.81,9 19.92,9.83 20.33,11H22V13H20.33C19.92,14.17 18.81,15 17.5,15A3,3 0 0,1 14.5,12C14.5,11.35 14.71,10.75 15.06,10.26L13.93,8.65L10.89,20L7.3,14.89C7.05,14.96 6.78,15 6.5,15C5.19,15 4.08,14.17 3.67,13H2V11M17.5,10.5A1.5,1.5 0 0,0 16,12A1.5,1.5 0 0,0 17.5,13.5A1.5,1.5 0 0,0 19,12A1.5,1.5 0 0,0 17.5,10.5M6.5,10.5A1.5,1.5 0 0,0 5,12A1.5,1.5 0 0,0 6.5,13.5A1.5,1.5 0 0,0 8,12A1.5,1.5 0 0,0 6.5,10.5Z"
 
 
-{-| The [`responsive`](https://pictogrammers.com/library/mdi/icon/responsive/) icon.
--}
-responsive : IconShape
-responsive =
-    iconShape "M4,6V16H9V12A2,2 0 0,1 11,10H16A2,2 0 0,1 18,12V16H20V6H4M0,20V18H4A2,2 0 0,1 2,16V6A2,2 0 0,1 4,4H20A2,2 0 0,1 22,6V16A2,2 0 0,1 20,18H24V20H18V20C18,21.11 17.1,22 16,22H11A2,2 0 0,1 9,20H9L0,20M11.5,20A0.5,0.5 0 0,0 11,20.5A0.5,0.5 0 0,0 11.5,21A0.5,0.5 0 0,0 12,20.5A0.5,0.5 0 0,0 11.5,20M15.5,20A0.5,0.5 0 0,0 15,20.5A0.5,0.5 0 0,0 15.5,21A0.5,0.5 0 0,0 16,20.5A0.5,0.5 0 0,0 15.5,20M13,20V21H14V20H13M11,12V19H16V12H11Z"
-
-
 {-| The [`resize`](https://pictogrammers.com/library/mdi/icon/resize/) icon.
 -}
 resize : IconShape
@@ -1341,6 +1334,13 @@ resizeBottomRight =
     iconShape "M22,22H20V20H22V22M22,18H20V16H22V18M18,22H16V20H18V22M18,18H16V16H18V18M14,22H12V20H14V22M22,14H20V12H22V14Z"
 
 
+{-| The [`responsive`](https://pictogrammers.com/library/mdi/icon/responsive/) icon.
+-}
+responsive : IconShape
+responsive =
+    iconShape "M4,6V16H9V12A2,2 0 0,1 11,10H16A2,2 0 0,1 18,12V16H20V6H4M0,20V18H4A2,2 0 0,1 2,16V6A2,2 0 0,1 4,4H20A2,2 0 0,1 22,6V16A2,2 0 0,1 20,18H24V20H18V20C18,21.11 17.1,22 16,22H11A2,2 0 0,1 9,20H9L0,20M11.5,20A0.5,0.5 0 0,0 11,20.5A0.5,0.5 0 0,0 11.5,21A0.5,0.5 0 0,0 12,20.5A0.5,0.5 0 0,0 11.5,20M15.5,20A0.5,0.5 0 0,0 15,20.5A0.5,0.5 0 0,0 15.5,21A0.5,0.5 0 0,0 16,20.5A0.5,0.5 0 0,0 15.5,20M13,20V21H14V20H13M11,12V19H16V12H11Z"
+
+
 {-| The [`restart`](https://pictogrammers.com/library/mdi/icon/restart/) icon.
 -}
 restart : IconShape
@@ -1348,18 +1348,18 @@ restart =
     iconShape "M12,4C14.1,4 16.1,4.8 17.6,6.3C20.7,9.4 20.7,14.5 17.6,17.6C15.8,19.5 13.3,20.2 10.9,19.9L11.4,17.9C13.1,18.1 14.9,17.5 16.2,16.2C18.5,13.9 18.5,10.1 16.2,7.7C15.1,6.6 13.5,6 12,6V10.6L7,5.6L12,0.6V4M6.3,17.6C3.7,15 3.3,11 5.1,7.9L6.6,9.4C5.5,11.6 5.9,14.4 7.8,16.2C8.3,16.7 8.9,17.1 9.6,17.4L9,19.4C8,19 7.1,18.4 6.3,17.6Z"
 
 
-{-| The [`restart-off`](https://pictogrammers.com/library/mdi/icon/restart-off/) icon.
--}
-restartOff : IconShape
-restartOff =
-    iconShape "M20.8,22.7L16.6,18.5C14.9,19.7 12.9,20.2 10.9,19.9L11.4,17.9C12.7,18 14,17.7 15.1,17L1.1,3L2.4,1.7L16.5,15.8L17.9,17.2L22.1,21.4L20.8,22.7M12,6C13.5,6 15.1,6.6 16.2,7.8C18,9.6 18.4,12.2 17.5,14.4L19,15.9C20.7,12.9 20.2,9 17.6,6.4C16.1,4.8 14,4 12,4V0.7L7.9,4.7L12,8.8V6M6.6,9.4L5.1,7.9C3.3,11 3.7,15 6.3,17.7C7.1,18.4 8,19 9,19.4L9.5,17.4C8.9,17.1 8.3,16.7 7.7,16.2C5.9,14.4 5.5,11.6 6.6,9.4Z"
-
-
 {-| The [`restart-alert`](https://pictogrammers.com/library/mdi/icon/restart-alert/) icon.
 -}
 restartAlert : IconShape
 restartAlert =
     iconShape "M10 4.03V.633L5 5.63L10 10.63V6.03C11.5 6.03 13.11 6.63 14.21 7.73C16.5 10.13 16.5 13.93 14.21 16.23C12.91 17.53 11.11 18.13 9.4 17.93L8.9 19.93C11.31 20.23 13.81 19.53 15.61 17.63C18.7 14.53 18.7 9.43 15.61 6.33C14.11 4.83 12.11 4.03 10 4.03M4.31 17.63C5.11 18.43 6 19.03 7 19.43L7.61 17.43C6.91 17.13 6.31 16.73 5.81 16.23C3.91 14.43 3.5 11.63 4.61 9.43L3.11 7.93C1.31 11.03 1.71 15.03 4.31 17.63M20 13H22V7H20V13M20 17H22V15H20V17Z"
+
+
+{-| The [`restart-off`](https://pictogrammers.com/library/mdi/icon/restart-off/) icon.
+-}
+restartOff : IconShape
+restartOff =
+    iconShape "M20.8,22.7L16.6,18.5C14.9,19.7 12.9,20.2 10.9,19.9L11.4,17.9C12.7,18 14,17.7 15.1,17L1.1,3L2.4,1.7L16.5,15.8L17.9,17.2L22.1,21.4L20.8,22.7M12,6C13.5,6 15.1,6.6 16.2,7.8C18,9.6 18.4,12.2 17.5,14.4L19,15.9C20.7,12.9 20.2,9 17.6,6.4C16.1,4.8 14,4 12,4V0.7L7.9,4.7L12,8.8V6M6.6,9.4L5.1,7.9C3.3,11 3.7,15 6.3,17.7C7.1,18.4 8,19 9,19.4L9.5,17.4C8.9,17.1 8.3,16.7 7.7,16.2C5.9,14.4 5.5,11.6 6.6,9.4Z"
 
 
 {-| The [`restore`](https://pictogrammers.com/library/mdi/icon/restore/) icon.
@@ -1453,18 +1453,18 @@ rhombusMediumOutline =
     iconShape "M12 6.46C11.72 6.46 11.44 6.56 11.22 6.78L6.78 11.22C6.35 11.65 6.35 12.35 6.78 12.78L11.22 17.22C11.65 17.65 12.35 17.65 12.78 17.22L17.22 12.78C17.65 12.35 17.65 11.65 17.22 11.22L12.78 6.78C12.56 6.56 12.28 6.46 12 6.46M12 8.83L15.17 12L12 15.17L8.83 12L12 8.83Z"
 
 
-{-| The [`rhombus-split`](https://pictogrammers.com/library/mdi/icon/rhombus-split/) icon.
--}
-rhombusSplit : IconShape
-rhombusSplit =
-    iconShape "M12 2C11.5 2 11 2.19 10.59 2.59L7.29 5.88L12 10.58L16.71 5.88L13.41 2.59C13 2.19 12.5 2 12 2M5.88 7.29L2.59 10.59C1.8 11.37 1.8 12.63 2.59 13.41L5.88 16.71L10.58 12L5.88 7.29M18.12 7.29L13.42 12L18.12 16.71L21.41 13.41C22.2 12.63 22.2 11.37 21.41 10.59L18.12 7.29M12 13.42L7.29 18.12L10.59 21.41C11.37 22.2 12.63 22.2 13.41 21.41L16.71 18.12L12 13.42Z"
-
-
 {-| The [`rhombus-outline`](https://pictogrammers.com/library/mdi/icon/rhombus-outline/) icon.
 -}
 rhombusOutline : IconShape
 rhombusOutline =
     iconShape "M12 2C11.5 2 11 2.19 10.59 2.59L2.59 10.59C1.8 11.37 1.8 12.63 2.59 13.41L10.59 21.41C11.37 22.2 12.63 22.2 13.41 21.41L21.41 13.41C22.2 12.63 22.2 11.37 21.41 10.59L13.41 2.59C13 2.19 12.5 2 12 2M12 4L20 12L12 20L4 12Z"
+
+
+{-| The [`rhombus-split`](https://pictogrammers.com/library/mdi/icon/rhombus-split/) icon.
+-}
+rhombusSplit : IconShape
+rhombusSplit =
+    iconShape "M12 2C11.5 2 11 2.19 10.59 2.59L7.29 5.88L12 10.58L16.71 5.88L13.41 2.59C13 2.19 12.5 2 12 2M5.88 7.29L2.59 10.59C1.8 11.37 1.8 12.63 2.59 13.41L5.88 16.71L10.58 12L5.88 7.29M18.12 7.29L13.42 12L18.12 16.71L21.41 13.41C22.2 12.63 22.2 11.37 21.41 10.59L18.12 7.29M12 13.42L7.29 18.12L10.59 21.41C11.37 22.2 12.63 22.2 13.41 21.41L16.71 18.12L12 13.42Z"
 
 
 {-| The [`rhombus-split-outline`](https://pictogrammers.com/library/mdi/icon/rhombus-split-outline/) icon.
@@ -1523,18 +1523,18 @@ road =
     iconShape "M11,16H13V20H11M11,10H13V14H11M11,4H13V8H11M4,22H20V2H4V22Z"
 
 
-{-| The [`robber`](https://pictogrammers.com/library/mdi/icon/robber/) icon.
--}
-robber : IconShape
-robber =
-    iconShape "M10.7 12.5C10.7 12.8 9.4 13.2 8.4 13.2S6.3 12.5 6.3 12.3C6.3 12 7 11.1 8.6 11C9.5 10.9 10.5 11.5 10.7 12.5M15.4 11C14.4 10.9 13.5 11.5 13.3 12.5C13.3 12.8 14.5 13.2 15.6 13.2C16.7 13.2 17.7 12.5 17.7 12.3S17 11.1 15.4 11M22 12C22 17.5 17.5 22 12 22S2 17.5 2 12 6.5 2 12 2 22 6.5 22 12M20 11.2C20 9.2 19.3 8.5 16.7 8.5C14.1 8.5 13.3 9.6 12 9.6S10 8.5 7.3 8.5 4 9.1 4 11.2C4 14.6 5.5 16.5 7.6 16.5C9.2 16.5 10.4 14.5 12 14.5S14.7 16.5 16.4 16.5C18.5 16.5 20 14.6 20 11.2Z"
-
-
 {-| The [`road-variant`](https://pictogrammers.com/library/mdi/icon/road-variant/) icon.
 -}
 roadVariant : IconShape
 roadVariant =
     iconShape "M18.1,4.8C18,4.3 17.6,4 17.1,4H13L13.2,7H10.8L11,4H6.8C6.3,4 5.9,4.4 5.8,4.8L3.1,18.8C3,19.4 3.5,20 4.1,20H10L10.3,15H13.7L14,20H19.8C20.4,20 20.9,19.4 20.8,18.8L18.1,4.8M10.4,13L10.6,9H13.2L13.4,13H10.4Z"
+
+
+{-| The [`robber`](https://pictogrammers.com/library/mdi/icon/robber/) icon.
+-}
+robber : IconShape
+robber =
+    iconShape "M10.7 12.5C10.7 12.8 9.4 13.2 8.4 13.2S6.3 12.5 6.3 12.3C6.3 12 7 11.1 8.6 11C9.5 10.9 10.5 11.5 10.7 12.5M15.4 11C14.4 10.9 13.5 11.5 13.3 12.5C13.3 12.8 14.5 13.2 15.6 13.2C16.7 13.2 17.7 12.5 17.7 12.3S17 11.1 15.4 11M22 12C22 17.5 17.5 22 12 22S2 17.5 2 12 6.5 2 12 2 22 6.5 22 12M20 11.2C20 9.2 19.3 8.5 16.7 8.5C14.1 8.5 13.3 9.6 12 9.6S10 8.5 7.3 8.5 4 9.1 4 11.2C4 14.6 5.5 16.5 7.6 16.5C9.2 16.5 10.4 14.5 12 14.5S14.7 16.5 16.4 16.5C18.5 16.5 20 14.6 20 11.2Z"
 
 
 {-| The [`robot`](https://pictogrammers.com/library/mdi/icon/robot/) icon.
@@ -1803,18 +1803,18 @@ rolodex =
     iconShape "M19.89 5H18.5V7C18.5 8.38 17.38 9.5 16 9.5S13.5 8.38 13.5 7V5.25C13.5 5.11 13.39 5 13.25 5H10.75C10.61 5 10.5 5.11 10.5 5.25V7C10.5 8.38 9.38 9.5 8 9.5S5.5 8.38 5.5 7V5H4.11C3 4.97 2.03 5.87 2 7V19C2.03 20.13 3 21.03 4.11 21H19.89C21 21.03 21.97 20.13 22 19V7C21.97 5.87 21 4.97 19.89 5M7 18H5V16H7V18M7 14H5V12H7V14M11 18H9V16H11V18M11 14H9V12H11V14M15 18H13V16H15V18M15 14H13V12H15V14M19 18H17V16H19V18M19 14H17V12H19V14M16 8C15.45 8 15 7.55 15 7V4C15 3.45 15.45 3 16 3C16.55 3 17 3.45 17 4V7C17 7.55 16.55 8 16 8M8 8C7.45 8 7 7.55 7 7V4C7 3.45 7.45 3 8 3C8.55 3 9 3.45 9 4V7C9 7.55 8.55 8 8 8Z"
 
 
-{-| The [`roman-numeral-1`](https://pictogrammers.com/library/mdi/icon/roman-numeral-1/) icon.
--}
-romanNumeral1 : IconShape
-romanNumeral1 =
-    iconShape "M14 7V9H13V15H14V17H10V15H11V9H10V7H14Z"
-
-
 {-| The [`rolodex-outline`](https://pictogrammers.com/library/mdi/icon/rolodex-outline/) icon.
 -}
 rolodexOutline : IconShape
 rolodexOutline =
     iconShape "M7 18H5V16H7V18M7 14H5V12H7V14M11 18H9V16H11V18M11 14H9V12H11V14M15 18H13V16H15V18M15 14H13V12H15V14M19 18H17V16H19V18M19 14H17V12H19V14M16 8C15.45 8 15 7.55 15 7V4C15 3.45 15.45 3 16 3C16.55 3 17 3.45 17 4V7C17 7.55 16.55 8 16 8M8 8C7.45 8 7 7.55 7 7V4C7 3.45 7.45 3 8 3C8.55 3 9 3.45 9 4V7C9 7.55 8.55 8 8 8M19.89 5H18.5V7C18.5 8.38 17.38 9.5 16 9.5S13.5 8.38 13.5 7V5.25C13.5 5.11 13.39 5 13.25 5H10.75C10.61 5 10.5 5.11 10.5 5.25V7C10.5 8.38 9.38 9.5 8 9.5S5.5 8.38 5.5 7V5H4.11C3 4.97 2.03 5.87 2 7V19C2.03 20.13 3 21.03 4.11 21H19.89C21 21.03 21.97 20.13 22 19V7C21.97 5.87 21 4.97 19.89 5M20 19H4V11H20V19Z"
+
+
+{-| The [`roman-numeral-1`](https://pictogrammers.com/library/mdi/icon/roman-numeral-1/) icon.
+-}
+romanNumeral1 : IconShape
+romanNumeral1 =
+    iconShape "M14 7V9H13V15H14V17H10V15H11V9H10V7H14Z"
 
 
 {-| The [`roman-numeral-10`](https://pictogrammers.com/library/mdi/icon/roman-numeral-10/) icon.
@@ -1866,18 +1866,18 @@ romanNumeral7 =
     iconShape "M4 7L6 17H8L10 7H8L7 12L6 7H4M15 7V9H14V15H15V17H11V15H12V9H11V7H15M20 7V9H19V15H20V17H16V15H17V9H16V7H20Z"
 
 
-{-| The [`roman-numeral-9`](https://pictogrammers.com/library/mdi/icon/roman-numeral-9/) icon.
--}
-romanNumeral9 : IconShape
-romanNumeral9 =
-    iconShape "M11 7V9H10V15H11V17H7V15H8V9H7V7H11M12 7L14 12L12 17H14L15 14.5L16 17H18L16 12L18 7H16L15 9.5L14 7H12Z"
-
-
 {-| The [`roman-numeral-8`](https://pictogrammers.com/library/mdi/icon/roman-numeral-8/) icon.
 -}
 romanNumeral8 : IconShape
 romanNumeral8 =
     iconShape "M1 7L3 17H5L7 7H5L4 12L3 7H1M12 7V9H11V15H12V17H8V15H9V9H8V7H12M17 7V9H16V15H17V17H13V15H14V9H13V7H17M22 7V9H21V15H22V17H18V15H19V9H18V7H22Z"
+
+
+{-| The [`roman-numeral-9`](https://pictogrammers.com/library/mdi/icon/roman-numeral-9/) icon.
+-}
+romanNumeral9 : IconShape
+romanNumeral9 =
+    iconShape "M11 7V9H10V15H11V17H7V15H8V9H7V7H11M12 7L14 12L12 17H14L15 14.5L16 17H18L16 12L18 7H16L15 9.5L14 7H12Z"
 
 
 {-| The [`room-service`](https://pictogrammers.com/library/mdi/icon/room-service/) icon.
@@ -1887,18 +1887,18 @@ roomService =
     iconShape "M12,5A2,2 0 0,1 14,7C14,7.24 13.96,7.47 13.88,7.69C17.95,8.5 21,11.91 21,16H3C3,11.91 6.05,8.5 10.12,7.69C10.04,7.47 10,7.24 10,7A2,2 0 0,1 12,5M22,19H2V17H22V19Z"
 
 
-{-| The [`rotate-360`](https://pictogrammers.com/library/mdi/icon/rotate-360/) icon.
--}
-rotate360 : IconShape
-rotate360 =
-    iconShape "M12 7C6.5 7 2 9.2 2 12C2 14.2 4.9 16.1 9 16.8V20L13 16L9 12V14.7C5.8 14.1 4 12.8 4 12C4 10.9 7 9 12 9S20 10.9 20 12C20 12.7 18.5 13.9 16 14.5V16.6C19.5 15.8 22 14.1 22 12C22 9.2 17.5 7 12 7Z"
-
-
 {-| The [`room-service-outline`](https://pictogrammers.com/library/mdi/icon/room-service-outline/) icon.
 -}
 roomServiceOutline : IconShape
 roomServiceOutline =
     iconShape "M12,5A2,2 0 0,1 14,7C14,7.24 13.96,7.47 13.88,7.69C17.95,8.5 21,11.91 21,16H3C3,11.91 6.05,8.5 10.12,7.69C10.04,7.47 10,7.24 10,7A2,2 0 0,1 12,5M22,19H2V17H22V19M12,9.5C8.89,9.5 6.25,11.39 5.34,14H18.66C17.75,11.39 15.11,9.5 12,9.5Z"
+
+
+{-| The [`rotate-360`](https://pictogrammers.com/library/mdi/icon/rotate-360/) icon.
+-}
+rotate360 : IconShape
+rotate360 =
+    iconShape "M12 7C6.5 7 2 9.2 2 12C2 14.2 4.9 16.1 9 16.8V20L13 16L9 12V14.7C5.8 14.1 4 12.8 4 12C4 10.9 7 9 12 9S20 10.9 20 12C20 12.7 18.5 13.9 16 14.5V16.6C19.5 15.8 22 14.1 22 12C22 9.2 17.5 7 12 7Z"
 
 
 {-| The [`rotate-3d`](https://pictogrammers.com/library/mdi/icon/rotate-3d/) icon.
@@ -2041,13 +2041,6 @@ rssOff =
     iconShape "M2.5,3.77L3.78,2.5L21.5,20.22L20.23,21.5L18.73,20H16.73C16.73,19.25 16.67,18.5 16.54,17.81L6.19,7.46C5.5,7.33 4.75,7.27 4,7.27V5.27L2.5,3.77M6.18,15.64A2.18,2.18 0 0,1 8.36,17.82C8.36,19 7.38,20 6.18,20C5,20 4,19 4,17.82A2.18,2.18 0 0,1 6.18,15.64M4,10.1A9.9,9.9 0 0,1 13.9,20H11.07A7.07,7.07 0 0,0 4,12.93V10.1M9.13,5.31C13.59,6.87 17.13,10.41 18.69,14.87L9.13,5.31Z"
 
 
-{-| The [`rugby`](https://pictogrammers.com/library/mdi/icon/rugby/) icon.
--}
-rugby : IconShape
-rugby =
-    iconShape "M16.22,16.22C18.25,14.19 19.33,11.5 19.45,8.2C18.36,10.61 16.81,12.81 14.81,14.81C12.81,16.81 10.61,18.36 8.2,19.45C11.5,19.36 14.16,18.28 16.22,16.22M7.78,7.78C5.75,9.81 4.67,12.5 4.55,15.8C5,14.8 5.7,13.65 6.61,12.35C7.5,11.05 8.38,10 9.19,9.19C11.19,7.19 13.39,5.64 15.8,4.55C12.5,4.64 9.84,5.72 7.78,7.78M20.5,3.5C21,4.05 21.34,5.11 21.47,6.7C21.59,8.3 21.35,10.16 20.74,12.3C20.13,14.45 19.11,16.23 17.67,17.67C16.36,19 14.8,19.95 13,20.55C11.21,21.16 9.44,21.47 7.69,21.47C5.56,21.47 4.17,21.14 3.5,20.5C3,19.95 2.66,18.89 2.53,17.3C2.41,15.7 2.65,13.84 3.26,11.7C3.87,9.55 4.89,7.77 6.33,6.33C7.64,5 9.2,4.05 11,3.45C12.79,2.84 14.56,2.53 16.31,2.53C18.44,2.53 19.83,2.86 20.5,3.5Z"
-
-
 {-| The [`rug`](https://pictogrammers.com/library/mdi/icon/rug/) icon.
 -}
 rug : IconShape
@@ -2055,11 +2048,11 @@ rug =
     iconShape "M12 14C10.9 14 10 13.11 10 12S10.9 10 12 10 14 10.9 14 12 13.11 14 12 14M23 19H1V17H4V15H1V13H4V11H1V9H4V7H1V5H23V7H20V9H23V11H20V13H23V15H20V17H23V19M12 15.92C12.62 16.62 13.66 16.81 14.5 16.33C15.34 15.85 15.69 14.84 15.4 13.96C16.31 13.78 17 12.97 17 12S16.31 10.22 15.4 10.04C15.69 9.16 15.34 8.15 14.5 7.67C13.66 7.19 12.62 7.38 12 8.08C11.38 7.38 10.34 7.19 9.5 7.67C8.66 8.15 8.31 9.16 8.61 10.04C7.69 10.22 7 11.03 7 12S7.69 13.78 8.61 13.96C8.31 14.84 8.66 15.85 9.5 16.33C10.34 16.82 11.38 16.62 12 15.92Z"
 
 
-{-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
+{-| The [`rugby`](https://pictogrammers.com/library/mdi/icon/rugby/) icon.
 -}
-ruler : IconShape
-ruler =
-    iconShape "M1.39,18.36L3.16,16.6L4.58,18L5.64,16.95L4.22,15.54L5.64,14.12L8.11,16.6L9.17,15.54L6.7,13.06L8.11,11.65L9.53,13.06L10.59,12L9.17,10.59L10.59,9.17L13.06,11.65L14.12,10.59L11.65,8.11L13.06,6.7L14.47,8.11L15.54,7.05L14.12,5.64L15.54,4.22L18,6.7L19.07,5.64L16.6,3.16L18.36,1.39L22.61,5.64L5.64,22.61L1.39,18.36Z"
+rugby : IconShape
+rugby =
+    iconShape "M16.22,16.22C18.25,14.19 19.33,11.5 19.45,8.2C18.36,10.61 16.81,12.81 14.81,14.81C12.81,16.81 10.61,18.36 8.2,19.45C11.5,19.36 14.16,18.28 16.22,16.22M7.78,7.78C5.75,9.81 4.67,12.5 4.55,15.8C5,14.8 5.7,13.65 6.61,12.35C7.5,11.05 8.38,10 9.19,9.19C11.19,7.19 13.39,5.64 15.8,4.55C12.5,4.64 9.84,5.72 7.78,7.78M20.5,3.5C21,4.05 21.34,5.11 21.47,6.7C21.59,8.3 21.35,10.16 20.74,12.3C20.13,14.45 19.11,16.23 17.67,17.67C16.36,19 14.8,19.95 13,20.55C11.21,21.16 9.44,21.47 7.69,21.47C5.56,21.47 4.17,21.14 3.5,20.5C3,19.95 2.66,18.89 2.53,17.3C2.41,15.7 2.65,13.84 3.26,11.7C3.87,9.55 4.89,7.77 6.33,6.33C7.64,5 9.2,4.05 11,3.45C12.79,2.84 14.56,2.53 16.31,2.53C18.44,2.53 19.83,2.86 20.5,3.5Z"
 
 
 {-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
@@ -2067,6 +2060,13 @@ ruler =
 rulerSquare : IconShape
 rulerSquare =
     iconShape "M3,5V21H9V19.5H7V18H9V16.5H5V15H9V13.5H7V12H9V10.5H5V9H9V5H10.5V9H12V7H13.5V9H15V5H16.5V9H18V7H19.5V9H21V3H5A2,2 0 0,0 3,5M6,7A1,1 0 0,1 5,6A1,1 0 0,1 6,5A1,1 0 0,1 7,6A1,1 0 0,1 6,7Z"
+
+
+{-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
+-}
+ruler : IconShape
+ruler =
+    iconShape "M1.39,18.36L3.16,16.6L4.58,18L5.64,16.95L4.22,15.54L5.64,14.12L8.11,16.6L9.17,15.54L6.7,13.06L8.11,11.65L9.53,13.06L10.59,12L9.17,10.59L10.59,9.17L13.06,11.65L14.12,10.59L11.65,8.11L13.06,6.7L14.47,8.11L15.54,7.05L14.12,5.64L15.54,4.22L18,6.7L19.07,5.64L16.6,3.16L18.36,1.39L22.61,5.64L5.64,22.61L1.39,18.36Z"
 
 
 {-| The [`ruler-square-compass`](https://pictogrammers.com/library/mdi/icon/ruler-square-compass/) icon.
@@ -2083,18 +2083,18 @@ run =
     iconShape "M13.5,5.5C14.59,5.5 15.5,4.58 15.5,3.5C15.5,2.38 14.59,1.5 13.5,1.5C12.39,1.5 11.5,2.38 11.5,3.5C11.5,4.58 12.39,5.5 13.5,5.5M9.89,19.38L10.89,15L13,17V23H15V15.5L12.89,13.5L13.5,10.5C14.79,12 16.79,13 19,13V11C17.09,11 15.5,10 14.69,8.58L13.69,7C13.29,6.38 12.69,6 12,6C11.69,6 11.5,6.08 11.19,6.08L6,8.28V13H8V9.58L9.79,8.88L8.19,17L3.29,16L2.89,18L9.89,19.38Z"
 
 
-{-| The [`rv-truck`](https://pictogrammers.com/library/mdi/icon/rv-truck/) icon.
--}
-rvTruck : IconShape
-rvTruck =
-    iconShape "M20 8H22V6L20 4H3A2 2 0 0 0 1 6V15A2 2 0 0 0 3 17H4A3 3 0 0 0 7 20A3 3 0 0 0 10 17H15A3 3 0 0 0 21 17H23V12M7 18.5A1.5 1.5 0 0 1 7 15.5A1.5 1.5 0 0 1 7 18.5M9 12H3V9H9M14 15H11V9H14M18 18.5A1.5 1.5 0 1 1 19.5 17A1.54 1.54 0 0 1 18 18.5M17 12V9.5H19.5L21.5 12Z"
-
-
 {-| The [`run-fast`](https://pictogrammers.com/library/mdi/icon/run-fast/) icon.
 -}
 runFast : IconShape
 runFast =
     iconShape "M16.5,5.5A2,2 0 0,0 18.5,3.5A2,2 0 0,0 16.5,1.5A2,2 0 0,0 14.5,3.5A2,2 0 0,0 16.5,5.5M12.9,19.4L13.9,15L16,17V23H18V15.5L15.9,13.5L16.5,10.5C17.89,12.09 19.89,13 22,13V11C20.24,11.03 18.6,10.11 17.7,8.6L16.7,7C16.34,6.4 15.7,6 15,6C14.7,6 14.5,6.1 14.2,6.1L9,8.3V13H11V9.6L12.8,8.9L11.2,17L6.3,16L5.9,18L12.9,19.4M4,9A1,1 0 0,1 3,8A1,1 0 0,1 4,7H7V9H4M5,5A1,1 0 0,1 4,4A1,1 0 0,1 5,3H10V5H5M3,13A1,1 0 0,1 2,12A1,1 0 0,1 3,11H7V13H3Z"
+
+
+{-| The [`rv-truck`](https://pictogrammers.com/library/mdi/icon/rv-truck/) icon.
+-}
+rvTruck : IconShape
+rvTruck =
+    iconShape "M20 8H22V6L20 4H3A2 2 0 0 0 1 6V15A2 2 0 0 0 3 17H4A3 3 0 0 0 7 20A3 3 0 0 0 10 17H15A3 3 0 0 0 21 17H23V12M7 18.5A1.5 1.5 0 0 1 7 15.5A1.5 1.5 0 0 1 7 18.5M9 12H3V9H9M14 15H11V9H14M18 18.5A1.5 1.5 0 1 1 19.5 17A1.54 1.54 0 0 1 18 18.5M17 12V9.5H19.5L21.5 12Z"
 
 
 {-| Look up an icon (which has the first letter "r") by its name.
@@ -2112,11 +2112,11 @@ lookup name =
         "rabbit-variant" ->
             Just rabbitVariant
 
-        "racing-helmet" ->
-            Just racingHelmet
-
         "rabbit-variant-outline" ->
             Just rabbitVariantOutline
+
+        "racing-helmet" ->
+            Just racingHelmet
 
         "racquetball" ->
             Just racquetball
@@ -2166,20 +2166,20 @@ lookup name =
         "radiobox-blank" ->
             Just radioboxBlank
 
-        "radiobox-marked" ->
-            Just radioboxMarked
-
         "radiobox-indeterminate-variant" ->
             Just radioboxIndeterminateVariant
+
+        "radiobox-marked" ->
+            Just radioboxMarked
 
         "radiology-box" ->
             Just radiologyBox
 
-        "radius" ->
-            Just radius
-
         "radiology-box-outline" ->
             Just radiologyBoxOutline
+
+        "radius" ->
+            Just radius
 
         "radius-outline" ->
             Just radiusOutline
@@ -2223,11 +2223,11 @@ lookup name =
         "razor-double-edge" ->
             Just razorDoubleEdge
 
-        "razor-single-edge" ->
-            Just razorSingleEdge
-
         "read" ->
             Just read
+
+        "razor-single-edge" ->
+            Just razorSingleEdge
 
         "receipt" ->
             Just receipt
@@ -2289,11 +2289,11 @@ lookup name =
         "receipt-text-outline" ->
             Just receiptTextOutline
 
-        "receipt-text-plus-outline" ->
-            Just receiptTextPlusOutline
-
         "receipt-text-plus" ->
             Just receiptTextPlus
+
+        "receipt-text-plus-outline" ->
+            Just receiptTextPlusOutline
 
         "receipt-text-remove" ->
             Just receiptTextRemove
@@ -2391,11 +2391,11 @@ lookup name =
         "relation-one-or-many-to-one-or-many" ->
             Just relationOneOrManyToOneOrMany
 
-        "relation-one-or-many-to-zero-or-many" ->
-            Just relationOneOrManyToZeroOrMany
-
         "relation-one-or-many-to-only-one" ->
             Just relationOneOrManyToOnlyOne
+
+        "relation-one-or-many-to-zero-or-many" ->
+            Just relationOneOrManyToZeroOrMany
 
         "relation-one-or-many-to-zero-or-one" ->
             Just relationOneOrManyToZeroOrOne
@@ -2439,14 +2439,14 @@ lookup name =
         "relation-zero-or-many-to-many" ->
             Just relationZeroOrManyToMany
 
+        "relation-zero-or-many-to-one" ->
+            Just relationZeroOrManyToOne
+
         "relation-zero-or-many-to-one-or-many" ->
             Just relationZeroOrManyToOneOrMany
 
         "relation-zero-or-many-to-only-one" ->
             Just relationZeroOrManyToOnlyOne
-
-        "relation-zero-or-many-to-one" ->
-            Just relationZeroOrManyToOne
 
         "relation-zero-or-many-to-zero-or-many" ->
             Just relationZeroOrManyToZeroOrMany
@@ -2484,11 +2484,11 @@ lookup name =
         "reminder" ->
             Just reminder
 
-        "remote-desktop" ->
-            Just remoteDesktop
-
         "remote" ->
             Just remote
+
+        "remote-desktop" ->
+            Just remoteDesktop
 
         "remote-off" ->
             Just remoteOff
@@ -2496,14 +2496,14 @@ lookup name =
         "remote-tv" ->
             Just remoteTv
 
-        "rename-box" ->
-            Just renameBox
+        "remote-tv-off" ->
+            Just remoteTvOff
 
         "rename" ->
             Just rename
 
-        "remote-tv-off" ->
-            Just remoteTvOff
+        "rename-box" ->
+            Just renameBox
 
         "rename-box-outline" ->
             Just renameBoxOutline
@@ -2535,11 +2535,11 @@ lookup name =
         "reply" ->
             Just reply
 
-        "reply-all-outline" ->
-            Just replyAllOutline
-
         "reply-all" ->
             Just replyAll
+
+        "reply-all-outline" ->
+            Just replyAllOutline
 
         "reply-circle" ->
             Just replyCircle
@@ -2556,23 +2556,23 @@ lookup name =
         "resistor-nodes" ->
             Just resistorNodes
 
-        "responsive" ->
-            Just responsive
-
         "resize" ->
             Just resize
 
         "resize-bottom-right" ->
             Just resizeBottomRight
 
+        "responsive" ->
+            Just responsive
+
         "restart" ->
             Just restart
 
-        "restart-off" ->
-            Just restartOff
-
         "restart-alert" ->
             Just restartAlert
+
+        "restart-off" ->
+            Just restartOff
 
         "restore" ->
             Just restore
@@ -2613,11 +2613,11 @@ lookup name =
         "rhombus-medium-outline" ->
             Just rhombusMediumOutline
 
-        "rhombus-split" ->
-            Just rhombusSplit
-
         "rhombus-outline" ->
             Just rhombusOutline
+
+        "rhombus-split" ->
+            Just rhombusSplit
 
         "rhombus-split-outline" ->
             Just rhombusSplitOutline
@@ -2643,11 +2643,11 @@ lookup name =
         "road" ->
             Just road
 
-        "robber" ->
-            Just robber
-
         "road-variant" ->
             Just roadVariant
+
+        "robber" ->
+            Just robber
 
         "robot" ->
             Just robot
@@ -2763,11 +2763,11 @@ lookup name =
         "rolodex" ->
             Just rolodex
 
-        "roman-numeral-1" ->
-            Just romanNumeral1
-
         "rolodex-outline" ->
             Just rolodexOutline
+
+        "roman-numeral-1" ->
+            Just romanNumeral1
 
         "roman-numeral-10" ->
             Just romanNumeral10
@@ -2790,20 +2790,20 @@ lookup name =
         "roman-numeral-7" ->
             Just romanNumeral7
 
-        "roman-numeral-9" ->
-            Just romanNumeral9
-
         "roman-numeral-8" ->
             Just romanNumeral8
+
+        "roman-numeral-9" ->
+            Just romanNumeral9
 
         "room-service" ->
             Just roomService
 
-        "rotate-360" ->
-            Just rotate360
-
         "room-service-outline" ->
             Just roomServiceOutline
+
+        "rotate-360" ->
+            Just rotate360
 
         "rotate-3d" ->
             Just rotate3d
@@ -2865,17 +2865,17 @@ lookup name =
         "rss-off" ->
             Just rssOff
 
-        "rugby" ->
-            Just rugby
-
         "rug" ->
             Just rug
 
-        "ruler" ->
-            Just ruler
+        "rugby" ->
+            Just rugby
 
         "ruler-square" ->
             Just rulerSquare
+
+        "ruler" ->
+            Just ruler
 
         "ruler-square-compass" ->
             Just rulerSquareCompass
@@ -2883,11 +2883,11 @@ lookup name =
         "run" ->
             Just run
 
-        "rv-truck" ->
-            Just rvTruck
-
         "run-fast" ->
             Just runFast
+
+        "rv-truck" ->
+            Just rvTruck
 
         _ ->
             Nothing

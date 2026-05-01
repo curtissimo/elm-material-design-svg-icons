@@ -10,9 +10,9 @@ module Material.Icons.Categories.Vector exposing
     , vectorCircleVariant
     , vectorCombine
     , vectorCurve
+    , vectorDifference
     , vectorDifferenceAb
     , vectorDifferenceBa
-    , vectorDifference
     , vectorEllipse
     , vectorIntersection
     , vectorLine
@@ -23,8 +23,8 @@ module Material.Icons.Categories.Vector exposing
     , vectorPointPlus
     , vectorPointSelect
     , vectorPolygon
-    , vectorPolyline
     , vectorPolygonVariant
+    , vectorPolyline
     , vectorRadius
     , vectorRectangle
     , vectorSelection
@@ -48,9 +48,9 @@ module Material.Icons.Categories.Vector exposing
 @docs vectorCircleVariant
 @docs vectorCombine
 @docs vectorCurve
+@docs vectorDifference
 @docs vectorDifferenceAb
 @docs vectorDifferenceBa
-@docs vectorDifference
 @docs vectorEllipse
 @docs vectorIntersection
 @docs vectorLine
@@ -61,8 +61,8 @@ module Material.Icons.Categories.Vector exposing
 @docs vectorPointPlus
 @docs vectorPointSelect
 @docs vectorPolygon
-@docs vectorPolyline
 @docs vectorPolygonVariant
+@docs vectorPolyline
 @docs vectorRadius
 @docs vectorRectangle
 @docs vectorSelection
@@ -152,6 +152,16 @@ vectorCurve =
     Material.Icons.Directory.V.vectorCurve
 
 
+{-| The [`vector-difference`](https://pictogrammers.com/library/mdi/icon/vector-difference/) icon.
+
+![vector-difference](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg1VjE0SDNWM0gxNFY1SDE2VjNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM005LDdDNy44OSw3IDcsNy44OSA3LDlWMTFIOVY5SDExVjdIOU0xMyw3VjlIMTRWMTBIMTZWN0gxM00xOCw3VjlIMjBWMjBIOVYxOEg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNMTQsMTJWMTRIMTJWMTZIMTRDMTUuMTEsMTYgMTYsMTUuMTEgMTYsMTRWMTJIMTRNNywxM1YxNkgxMFYxNEg5VjEzSDdaIiAvPjwvc3ZnPg==)
+
+-}
+vectorDifference : IconShape
+vectorDifference =
+    Material.Icons.Directory.V.vectorDifference
+
+
 {-| The [`vector-difference-ab`](https://pictogrammers.com/library/mdi/icon/vector-difference-ab/) icon.
 
 ![vector-difference-ab](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1Y1SDNWM0g1VjFIM003LDFWM0gxMFYxSDdNMTIsMVYzSDE0VjVIMTZWM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgxMk0xLDdWMTBIM1Y3SDFNMTQsN0MxNCw3IDE0LDExLjY3IDE0LDE0QzExLjY3LDE0IDcsMTQgNywxNEM3LDE0IDcsMTggNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3QzE4LDcgMTQsNyAxNCw3TTE2LDlIMjBWMjBIOVYxNkgxNEMxNS4xMSwxNiAxNiwxNS4xMSAxNiwxNFY5TTEsMTJWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVYxNEgzVjEySDFaIiAvPjwvc3ZnPg==)
@@ -170,16 +180,6 @@ vectorDifferenceAb =
 vectorDifferenceBa : IconShape
 vectorDifferenceBa =
     Material.Icons.Directory.V.vectorDifferenceBa
-
-
-{-| The [`vector-difference`](https://pictogrammers.com/library/mdi/icon/vector-difference/) icon.
-
-![vector-difference](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1YxNEMxLDE1LjExIDEuODksMTYgMywxNkg1VjE0SDNWM0gxNFY1SDE2VjNDMTYsMS44OSAxNS4xMSwxIDE0LDFIM005LDdDNy44OSw3IDcsNy44OSA3LDlWMTFIOVY5SDExVjdIOU0xMyw3VjlIMTRWMTBIMTZWN0gxM00xOCw3VjlIMjBWMjBIOVYxOEg3VjIwQzcsMjEuMTEgNy44OSwyMiA5LDIySDIwQzIxLjExLDIyIDIyLDIxLjExIDIyLDIwVjlDMjIsNy44OSAyMS4xMSw3IDIwLDdIMThNMTQsMTJWMTRIMTJWMTZIMTRDMTUuMTEsMTYgMTYsMTUuMTEgMTYsMTRWMTJIMTRNNywxM1YxNkgxMFYxNEg5VjEzSDdaIiAvPjwvc3ZnPg==)
-
--}
-vectorDifference : IconShape
-vectorDifference =
-    Material.Icons.Directory.V.vectorDifference
 
 
 {-| The [`vector-ellipse`](https://pictogrammers.com/library/mdi/icon/vector-ellipse/) icon.
@@ -282,16 +282,6 @@ vectorPolygon =
     Material.Icons.Directory.V.vectorPolygon
 
 
-{-| The [`vector-polyline`](https://pictogrammers.com/library/mdi/icon/vector-polyline/) icon.
-
-![vector-polyline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgM1Y5SDQuOTVMNi45NSAxNUg2VjIxSDEyVjE2LjQxTDE3LjQxIDExSDIyVjVIMTZWOS41N0wxMC41OSAxNUg5LjA2TDcuMDYgOUg4VjNNNCA1SDZWN0g0TTE4IDdIMjBWOUgxOE04IDE3SDEwVjE5SDhaIiAvPjwvc3ZnPg==)
-
--}
-vectorPolyline : IconShape
-vectorPolyline =
-    Material.Icons.Directory.V.vectorPolyline
-
-
 {-| The [`vector-polygon-variant`](https://pictogrammers.com/library/mdi/icon/vector-polygon-variant/) icon.
 
 ![vector-polygon-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMkgxNlY1LjhMMTQuNCA4SDkuNkw4IDUuOFYySDJWOEg0VjE2SDJWMjJIOFYyMEgxNlYyMkgyMlYxNkgyMFY4SDIyTTExIDEwSDEzVjEySDExVjEwTTQgNEg2VjZINFY0TTYgMjBINFYxOEg2VjIwTTE2IDE4SDhWMTZINlY4SDcuMUw5IDEwLjZWMTRIMTVWMTAuNkwxNi45IDhIMThWMTZIMTZWMThNMjAgMjBIMThWMThIMjBWMjBNMTggNlY0SDIwVjZIMThaIiAvPjwvc3ZnPg==)
@@ -300,6 +290,16 @@ vectorPolyline =
 vectorPolygonVariant : IconShape
 vectorPolygonVariant =
     Material.Icons.Directory.V.vectorPolygonVariant
+
+
+{-| The [`vector-polyline`](https://pictogrammers.com/library/mdi/icon/vector-polyline/) icon.
+
+![vector-polyline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgM1Y5SDQuOTVMNi45NSAxNUg2VjIxSDEyVjE2LjQxTDE3LjQxIDExSDIyVjVIMTZWOS41N0wxMC41OSAxNUg5LjA2TDcuMDYgOUg4VjNNNCA1SDZWN0g0TTE4IDdIMjBWOUgxOE04IDE3SDEwVjE5SDhaIiAvPjwvc3ZnPg==)
+
+-}
+vectorPolyline : IconShape
+vectorPolyline =
+    Material.Icons.Directory.V.vectorPolyline
 
 
 {-| The [`vector-radius`](https://pictogrammers.com/library/mdi/icon/vector-radius/) icon.

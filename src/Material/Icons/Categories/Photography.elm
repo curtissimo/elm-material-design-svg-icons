@@ -18,12 +18,12 @@ module Material.Icons.Categories.Photography exposing
     , cameraFrontVariant
     , cameraGopro
     , cameraImage
-    , cameraLock
     , cameraIris
+    , cameraLock
     , cameraLockOpen
     , cameraLockOpenOutline
-    , cameraMarker
     , cameraLockOutline
+    , cameraMarker
     , cameraMarkerOutline
     , cameraMeteringCenter
     , cameraMeteringMatrix
@@ -33,12 +33,12 @@ module Material.Icons.Categories.Photography exposing
     , cameraOffOutline
     , cameraOutline
     , cameraPartyMode
-    , cameraPlusOutline
     , cameraPlus
+    , cameraPlusOutline
     , cameraRear
+    , cameraRearVariant
     , cameraRetake
     , cameraRetakeOutline
-    , cameraRearVariant
     , cameraSwitch
     , cameraSwitchOutline
     , cameraTimer
@@ -51,32 +51,32 @@ module Material.Icons.Categories.Photography exposing
     , faceWomanShimmerOutline
     , film
     , focusAuto
-    , focusFieldHorizontal
     , focusField
+    , focusFieldHorizontal
     , focusFieldVertical
     , grain
     , imageAutoAdjust
     , imageFilterBlackWhite
     , imageFilterCenterFocus
-    , imageFilterCenterFocusWeak
-    , imageFilterCenterFocusStrongOutline
     , imageFilterCenterFocusStrong
+    , imageFilterCenterFocusStrongOutline
+    , imageFilterCenterFocusWeak
     , imageFilterDrama
-    , imageFilterFrames
     , imageFilterDramaOutline
+    , imageFilterFrames
     , imageFilterHdr
     , imageFilterHdrOutline
     , imageFilterNone
-    , imageFilterVintage
     , imageFilterTiltShift
+    , imageFilterVintage
     , imageLock
     , imageLockOutline
     , imageMultipleOutline
     , imageRefresh
-    , imageRemoveOutline
     , imageRefreshOutline
-    , imageSyncOutline
+    , imageRemoveOutline
     , imageSync
+    , imageSyncOutline
     , multimedia
     , orbitVariant
     , panorama
@@ -84,8 +84,8 @@ module Material.Icons.Categories.Photography exposing
     , panoramaHorizontalOutline
     , panoramaOutline
     , panoramaSphere
-    , panoramaVariant
     , panoramaSphereOutline
+    , panoramaVariant
     , panoramaVariantOutline
     , panoramaVertical
     , panoramaVerticalOutline
@@ -116,12 +116,12 @@ module Material.Icons.Categories.Photography exposing
 @docs cameraFrontVariant
 @docs cameraGopro
 @docs cameraImage
-@docs cameraLock
 @docs cameraIris
+@docs cameraLock
 @docs cameraLockOpen
 @docs cameraLockOpenOutline
-@docs cameraMarker
 @docs cameraLockOutline
+@docs cameraMarker
 @docs cameraMarkerOutline
 @docs cameraMeteringCenter
 @docs cameraMeteringMatrix
@@ -131,12 +131,12 @@ module Material.Icons.Categories.Photography exposing
 @docs cameraOffOutline
 @docs cameraOutline
 @docs cameraPartyMode
-@docs cameraPlusOutline
 @docs cameraPlus
+@docs cameraPlusOutline
 @docs cameraRear
+@docs cameraRearVariant
 @docs cameraRetake
 @docs cameraRetakeOutline
-@docs cameraRearVariant
 @docs cameraSwitch
 @docs cameraSwitchOutline
 @docs cameraTimer
@@ -149,32 +149,32 @@ module Material.Icons.Categories.Photography exposing
 @docs faceWomanShimmerOutline
 @docs film
 @docs focusAuto
-@docs focusFieldHorizontal
 @docs focusField
+@docs focusFieldHorizontal
 @docs focusFieldVertical
 @docs grain
 @docs imageAutoAdjust
 @docs imageFilterBlackWhite
 @docs imageFilterCenterFocus
-@docs imageFilterCenterFocusWeak
-@docs imageFilterCenterFocusStrongOutline
 @docs imageFilterCenterFocusStrong
+@docs imageFilterCenterFocusStrongOutline
+@docs imageFilterCenterFocusWeak
 @docs imageFilterDrama
-@docs imageFilterFrames
 @docs imageFilterDramaOutline
+@docs imageFilterFrames
 @docs imageFilterHdr
 @docs imageFilterHdrOutline
 @docs imageFilterNone
-@docs imageFilterVintage
 @docs imageFilterTiltShift
+@docs imageFilterVintage
 @docs imageLock
 @docs imageLockOutline
 @docs imageMultipleOutline
 @docs imageRefresh
-@docs imageRemoveOutline
 @docs imageRefreshOutline
-@docs imageSyncOutline
+@docs imageRemoveOutline
 @docs imageSync
+@docs imageSyncOutline
 @docs multimedia
 @docs orbitVariant
 @docs panorama
@@ -182,8 +182,8 @@ module Material.Icons.Categories.Photography exposing
 @docs panoramaHorizontalOutline
 @docs panoramaOutline
 @docs panoramaSphere
-@docs panoramaVariant
 @docs panoramaSphereOutline
+@docs panoramaVariant
 @docs panoramaVariantOutline
 @docs panoramaVertical
 @docs panoramaVerticalOutline
@@ -361,16 +361,6 @@ cameraImage =
     Material.Icons.Directory.C.cameraImage
 
 
-{-| The [`camera-lock`](https://pictogrammers.com/library/mdi/icon/camera-lock/) icon.
-
-![camera-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNEg3TDkgMkgxNUwxNyA0SDIwQzIxLjExIDQgMjIgNC44OSAyMiA2VjEyQzIxLjE2IDExLjM3IDIwLjEzIDExIDE5IDExQzE4LjIxIDExIDE3LjQ2IDExLjE4IDE2Ljc5IDExLjVDMTYuMTggOS4yMiAxNC4yNyA3IDEyIDdDOS4yNCA3IDcgOS4yNCA3IDEyQzcgMTQuNzYgOS4yNCAxNyAxMiAxN0MxMi40MiAxNyAxMi44NCAxNi45NSAxMy4yMyAxNi44NUMxMy4wOCAxNy4yIDEzIDE3LjU5IDEzIDE4VjIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRNMTIgOUMxMy42NiA5IDE1IDEwLjM0IDE1IDEyQzE1IDEzLjY2IDEzLjY2IDE1IDEyIDE1QzEwLjM0IDE1IDkgMTMuNjYgOSAxMkM5IDEwLjM0IDEwLjM0IDkgMTIgOU0yMyAxOC4zVjIxLjhDMjMgMjIuNCAyMi40IDIzIDIxLjcgMjNIMTYuMkMxNS42IDIzIDE1IDIyLjQgMTUgMjEuN1YxOC4yQzE1IDE3LjYgMTUuNiAxNyAxNi4yIDE3VjE1LjVDMTYuMiAxNC4xIDE3LjYgMTMgMTkgMTNDMjAuNCAxMyAyMS44IDE0LjEgMjEuOCAxNS41VjE3QzIyLjQgMTcgMjMgMTcuNiAyMyAxOC4zTTIwLjUgMTUuNUMyMC41IDE0LjcgMTkuOCAxNC4yIDE5IDE0LjJDMTguMiAxNC4yIDE3LjUgMTQuNyAxNy41IDE1LjVWMTdIMjAuNVYxNS41WiIgLz48L3N2Zz4=)
-
--}
-cameraLock : IconShape
-cameraLock =
-    Material.Icons.Directory.C.cameraLock
-
-
 {-| The [`camera-iris`](https://pictogrammers.com/library/mdi/icon/camera-iris/) icon.
 
 ![camera-iris](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjczLDE1TDkuODMsMjEuNzZDMTAuNTMsMjEuOTEgMTEuMjUsMjIgMTIsMjJDMTQuNCwyMiAxNi42LDIxLjE1IDE4LjMyLDE5Ljc1TDE0LjY2LDEzLjRNMi40NiwxNUMzLjM4LDE3LjkyIDUuNjEsMjAuMjYgOC40NSwyMS4zNEwxMi4xMiwxNU04LjU0LDEyTDQuNjQsNS4yNUMzLDcgMiw5LjM5IDIsMTJDMiwxMi42OCAyLjA3LDEzLjM1IDIuMiwxNEg5LjY5TTIxLjgsMTBIMTQuMzFMMTQuNiwxMC41TDE5LjM2LDE4Ljc1QzIxLDE2Ljk3IDIyLDE0LjYgMjIsMTJDMjIsMTEuMzEgMjEuOTMsMTAuNjQgMjEuOCwxME0yMS41NCw5QzIwLjYyLDYuMDcgMTguMzksMy43NCAxNS41NSwyLjY2TDExLjg4LDlNOS40LDEwLjVMMTQuMTcsMi4yNEMxMy40NywyLjA5IDEyLjc1LDIgMTIsMkM5LjYsMiA3LjQsMi44NCA1LjY4LDQuMjVMOS4zNCwxMC42TDkuNCwxMC41WiIgLz48L3N2Zz4=)
@@ -379,6 +369,16 @@ cameraLock =
 cameraIris : IconShape
 cameraIris =
     Material.Icons.Directory.C.cameraIris
+
+
+{-| The [`camera-lock`](https://pictogrammers.com/library/mdi/icon/camera-lock/) icon.
+
+![camera-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNEg3TDkgMkgxNUwxNyA0SDIwQzIxLjExIDQgMjIgNC44OSAyMiA2VjEyQzIxLjE2IDExLjM3IDIwLjEzIDExIDE5IDExQzE4LjIxIDExIDE3LjQ2IDExLjE4IDE2Ljc5IDExLjVDMTYuMTggOS4yMiAxNC4yNyA3IDEyIDdDOS4yNCA3IDcgOS4yNCA3IDEyQzcgMTQuNzYgOS4yNCAxNyAxMiAxN0MxMi40MiAxNyAxMi44NCAxNi45NSAxMy4yMyAxNi44NUMxMy4wOCAxNy4yIDEzIDE3LjU5IDEzIDE4VjIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjkgNCA0IDRNMTIgOUMxMy42NiA5IDE1IDEwLjM0IDE1IDEyQzE1IDEzLjY2IDEzLjY2IDE1IDEyIDE1QzEwLjM0IDE1IDkgMTMuNjYgOSAxMkM5IDEwLjM0IDEwLjM0IDkgMTIgOU0yMyAxOC4zVjIxLjhDMjMgMjIuNCAyMi40IDIzIDIxLjcgMjNIMTYuMkMxNS42IDIzIDE1IDIyLjQgMTUgMjEuN1YxOC4yQzE1IDE3LjYgMTUuNiAxNyAxNi4yIDE3VjE1LjVDMTYuMiAxNC4xIDE3LjYgMTMgMTkgMTNDMjAuNCAxMyAyMS44IDE0LjEgMjEuOCAxNS41VjE3QzIyLjQgMTcgMjMgMTcuNiAyMyAxOC4zTTIwLjUgMTUuNUMyMC41IDE0LjcgMTkuOCAxNC4yIDE5IDE0LjJDMTguMiAxNC4yIDE3LjUgMTQuNyAxNy41IDE1LjVWMTdIMjAuNVYxNS41WiIgLz48L3N2Zz4=)
+
+-}
+cameraLock : IconShape
+cameraLock =
+    Material.Icons.Directory.C.cameraLock
 
 
 {-| The [`camera-lock-open`](https://pictogrammers.com/library/mdi/icon/camera-lock-open/) icon.
@@ -401,16 +401,6 @@ cameraLockOpenOutline =
     Material.Icons.Directory.C.cameraLockOpenOutline
 
 
-{-| The [`camera-marker`](https://pictogrammers.com/library/mdi/icon/camera-marker/) icon.
-
-![camera-marker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUgMTYuOEMxNy44IDE2LjggMTcuMyAxNi4yIDE3LjMgMTUuNkMxNy4zIDE0LjkgMTcuOSAxNC40IDE4LjUgMTQuNFMxOS43IDE1IDE5LjcgMTUuNkMxOS44IDE2LjIgMTkuMiAxNi44IDE4LjUgMTYuOE0xOC41IDEyQzE2LjYgMTIgMTUgMTMuNiAxNSAxNS41QzE1IDE4LjEgMTguNSAyMiAxOC41IDIyUzIyIDE4LjEgMjIgMTUuNUMyMiAxMy42IDIwLjQgMTIgMTguNSAxMk05IDJMNyA0SDRDMi45IDQgMiA0LjkgMiA2VjE4QzIgMTkuMSAyLjkgMjAgNCAyMEgxNC41QzEzLjkgMTkuMSAxMy40IDE4LjEgMTMuMSAxNi45QzEyLjggMTcgMTIuNCAxNyAxMiAxN0M5LjIgMTcgNyAxNC44IDcgMTJTOS4yIDcgMTIgN0MxNC4xIDcgMTYgOC4zIDE2LjcgMTAuM0MxNy4zIDEwLjEgMTcuOSAxMCAxOC41IDEwQzE5LjggMTAgMjEgMTAuNSAyMiAxMS4zVjZDMjIgNC45IDIxLjEgNCAyMCA0SDE3TDE1IDJIOU0xMS45IDlDMTAuMyA5IDkgMTAuNCA5IDEyQzkgMTMuNyAxMC4zIDE1IDEyIDE1QzEyLjQgMTUgMTIuNyAxNC45IDEzIDE0LjhDMTMuMiAxMy40IDEzLjkgMTIuMiAxNC45IDExLjNDMTQuNiAxMCAxMy40IDkgMTEuOSA5QzEyIDkgMTIgOSAxMS45IDlaIiAvPjwvc3ZnPg==)
-
--}
-cameraMarker : IconShape
-cameraMarker =
-    Material.Icons.Directory.C.cameraMarker
-
-
 {-| The [`camera-lock-outline`](https://pictogrammers.com/library/mdi/icon/camera-lock-outline/) icon.
 
 ![camera-lock-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzIDE4LjNWMjEuOEMyMyAyMi40IDIyLjQgMjMgMjEuNyAyM0gxNi4yQzE1LjYgMjMgMTUgMjIuNCAxNSAyMS43VjE4LjJDMTUgMTcuNiAxNS42IDE3IDE2LjIgMTdWMTUuNUMxNi4yIDE0LjEgMTcuNiAxMyAxOSAxM0MyMC40IDEzIDIxLjggMTQuMSAyMS44IDE1LjVWMTdDMjIuNCAxNyAyMyAxNy42IDIzIDE4LjNNMjAuNSAxNS41QzIwLjUgMTQuNyAxOS44IDE0LjIgMTkgMTQuMkMxOC4yIDE0LjIgMTcuNSAxNC43IDE3LjUgMTUuNVYxN0gyMC41VjE1LjVNMjAgNEMyMS4xIDQgMjIgNC45IDIyIDZWMTJDMjEuNDIgMTEuNTYgMjAuNzQgMTEuMjUgMjAgMTEuMVY2SDE1Ljk1TDE0LjEyIDRIOS44OEw4LjA1IDZINFYxOEgxM1YyMEg0QzIuOSAyMCAyIDE5LjEgMiAxOFY2QzIgNC45IDIuOSA0IDQgNEg3LjE3TDkgMkgxNUwxNi44MyA0SDIwTTEyIDdDMTQuNTcgNyAxNi42OCA4Ljk0IDE2Ljk3IDExLjQzQzE1LjI5IDEyLjE4IDE0LjEgMTMuODMgMTQgMTUuNzZDMTMuNjcgMTYuMDYgMTMuNCAxNi40MyAxMy4yMyAxNi44NUMxMi44NCAxNi45NSAxMi40MiAxNyAxMiAxN0M5LjI0IDE3IDcgMTQuNzYgNyAxMkM3IDkuMjQgOS4yNCA3IDEyIDdNMTIgMTVDMTMuNjUgMTUgMTUgMTMuNjUgMTUgMTJDMTUgMTAuMzUgMTMuNjUgOSAxMiA5QzEwLjM1IDkgOSAxMC4zNSA5IDEyQzkgMTMuNjUgMTAuMzUgMTUgMTIgMTVaIiAvPjwvc3ZnPg==)
@@ -419,6 +409,16 @@ cameraMarker =
 cameraLockOutline : IconShape
 cameraLockOutline =
     Material.Icons.Directory.C.cameraLockOutline
+
+
+{-| The [`camera-marker`](https://pictogrammers.com/library/mdi/icon/camera-marker/) icon.
+
+![camera-marker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUgMTYuOEMxNy44IDE2LjggMTcuMyAxNi4yIDE3LjMgMTUuNkMxNy4zIDE0LjkgMTcuOSAxNC40IDE4LjUgMTQuNFMxOS43IDE1IDE5LjcgMTUuNkMxOS44IDE2LjIgMTkuMiAxNi44IDE4LjUgMTYuOE0xOC41IDEyQzE2LjYgMTIgMTUgMTMuNiAxNSAxNS41QzE1IDE4LjEgMTguNSAyMiAxOC41IDIyUzIyIDE4LjEgMjIgMTUuNUMyMiAxMy42IDIwLjQgMTIgMTguNSAxMk05IDJMNyA0SDRDMi45IDQgMiA0LjkgMiA2VjE4QzIgMTkuMSAyLjkgMjAgNCAyMEgxNC41QzEzLjkgMTkuMSAxMy40IDE4LjEgMTMuMSAxNi45QzEyLjggMTcgMTIuNCAxNyAxMiAxN0M5LjIgMTcgNyAxNC44IDcgMTJTOS4yIDcgMTIgN0MxNC4xIDcgMTYgOC4zIDE2LjcgMTAuM0MxNy4zIDEwLjEgMTcuOSAxMCAxOC41IDEwQzE5LjggMTAgMjEgMTAuNSAyMiAxMS4zVjZDMjIgNC45IDIxLjEgNCAyMCA0SDE3TDE1IDJIOU0xMS45IDlDMTAuMyA5IDkgMTAuNCA5IDEyQzkgMTMuNyAxMC4zIDE1IDEyIDE1QzEyLjQgMTUgMTIuNyAxNC45IDEzIDE0LjhDMTMuMiAxMy40IDEzLjkgMTIuMiAxNC45IDExLjNDMTQuNiAxMCAxMy40IDkgMTEuOSA5QzEyIDkgMTIgOSAxMS45IDlaIiAvPjwvc3ZnPg==)
+
+-}
+cameraMarker : IconShape
+cameraMarker =
+    Material.Icons.Directory.C.cameraMarker
 
 
 {-| The [`camera-marker-outline`](https://pictogrammers.com/library/mdi/icon/camera-marker-outline/) icon.
@@ -511,16 +511,6 @@ cameraPartyMode =
     Material.Icons.Directory.C.cameraPartyMode
 
 
-{-| The [`camera-plus-outline`](https://pictogrammers.com/library/mdi/icon/camera-plus-outline/) icon.
-
-![camera-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZIMTcuOEwxNiA0SDEwVjZIMTUuMUwxNyA4SDIxVjIwSDVWMTFIM1YyMEMzIDIxLjEgMy45IDIyIDUgMjJIMjFDMjIuMSAyMiAyMyAyMS4xIDIzIDIwVjhDMjMgNi45IDIyLjEgNiAyMSA2TTggMTRDOCAxOC40NSAxMy4zOSAyMC42OSAxNi41NCAxNy41NEMxOS42OSAxNC4zOSAxNy40NSA5IDEzIDlDMTAuMjQgOSA4IDExLjI0IDggMTRNMTMgMTFDMTQuNjQgMTEuMDUgMTUuOTUgMTIuMzYgMTYgMTRDMTUuOTUgMTUuNjQgMTQuNjQgMTYuOTUgMTMgMTdDMTEuMzYgMTYuOTUgMTAuMDUgMTUuNjQgMTAgMTRDMTAuMDUgMTIuMzYgMTEuMzYgMTEuMDUgMTMgMTFNNSA2SDhWNEg1VjFIM1Y0SDBWNkgzVjlINSIgLz48L3N2Zz4=)
-
--}
-cameraPlusOutline : IconShape
-cameraPlusOutline =
-    Material.Icons.Directory.C.cameraPlusOutline
-
-
 {-| The [`camera-plus`](https://pictogrammers.com/library/mdi/icon/camera-plus/) icon.
 
 ![camera-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgNFYxSDVWNEg4VjZINVY5SDNWNkgwVjRNNiAxMFY3SDlWNEgxNkwxNy44IDZIMjFDMjIuMSA2IDIzIDYuOSAyMyA4VjIwQzIzIDIxLjEgMjIuMSAyMiAyMSAyMkg1QzMuOSAyMiAzIDIxLjEgMyAyMFYxME0xMyAxOUMxNy40NSAxOSAxOS42OSAxMy42MiAxNi41NCAxMC40NkMxMy4zOSA3LjMxIDggOS41NSA4IDE0QzggMTYuNzYgMTAuMjQgMTkgMTMgMTlNOS44IDE0QzkuOCAxNi44NSAxMy4yNSAxOC4yOCAxNS4yNiAxNi4yNkMxNy4yOCAxNC4yNSAxNS44NSAxMC44IDEzIDEwLjhDMTEuMjQgMTAuOCA5LjggMTIuMjQgOS44IDE0WiIgLz48L3N2Zz4=)
@@ -531,6 +521,16 @@ cameraPlus =
     Material.Icons.Directory.C.cameraPlus
 
 
+{-| The [`camera-plus-outline`](https://pictogrammers.com/library/mdi/icon/camera-plus-outline/) icon.
+
+![camera-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDZIMTcuOEwxNiA0SDEwVjZIMTUuMUwxNyA4SDIxVjIwSDVWMTFIM1YyMEMzIDIxLjEgMy45IDIyIDUgMjJIMjFDMjIuMSAyMiAyMyAyMS4xIDIzIDIwVjhDMjMgNi45IDIyLjEgNiAyMSA2TTggMTRDOCAxOC40NSAxMy4zOSAyMC42OSAxNi41NCAxNy41NEMxOS42OSAxNC4zOSAxNy40NSA5IDEzIDlDMTAuMjQgOSA4IDExLjI0IDggMTRNMTMgMTFDMTQuNjQgMTEuMDUgMTUuOTUgMTIuMzYgMTYgMTRDMTUuOTUgMTUuNjQgMTQuNjQgMTYuOTUgMTMgMTdDMTEuMzYgMTYuOTUgMTAuMDUgMTUuNjQgMTAgMTRDMTAuMDUgMTIuMzYgMTEuMzYgMTEuMDUgMTMgMTFNNSA2SDhWNEg1VjFIM1Y0SDBWNkgzVjlINSIgLz48L3N2Zz4=)
+
+-}
+cameraPlusOutline : IconShape
+cameraPlusOutline =
+    Material.Icons.Directory.C.cameraPlusOutline
+
+
 {-| The [`camera-rear`](https://pictogrammers.com/library/mdi/icon/camera-rear/) icon.
 
 ![camera-rear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDZDMTAuODksNiAxMCw1LjEgMTAsNEEyLDIgMCAwLDEgMTIsMkMxMy4wOSwyIDE0LDIuOSAxNCw0QTIsMiAwIDAsMSAxMiw2TTE3LDBIN0EyLDIgMCAwLDAgNSwyVjE2QTIsMiAwIDAsMCA3LDE4SDE3QTIsMiAwIDAsMCAxOSwxNlYyQTIsMiAwIDAsMCAxNywwTTE0LDIwVjIySDE5VjIwTTEwLDIwSDVWMjJIMTBWMjRMMTMsMjFMMTAsMThWMjBaIiAvPjwvc3ZnPg==)
@@ -539,6 +539,16 @@ cameraPlus =
 cameraRear : IconShape
 cameraRear =
     Material.Icons.Directory.C.cameraRear
+
+
+{-| The [`camera-rear-variant`](https://pictogrammers.com/library/mdi/icon/camera-rear-variant/) icon.
+
+![camera-rear-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMEgxOEEyLDIgMCAwLDEgMjAsMlYyMkEyLDIgMCAwLDEgMTgsMjRINkEyLDIgMCAwLDEgNCwyMlYyQTIsMiAwIDAsMSA2LDBNMTIsMkEyLDIgMCAwLDAgMTAsNEEyLDIgMCAwLDAgMTIsNkEyLDIgMCAwLDAgMTQsNEEyLDIgMCAwLDAgMTIsMk0xMywxOEg5VjIwSDEzVjIyTDE2LDE5TDEzLDE2VjE4WiIgLz48L3N2Zz4=)
+
+-}
+cameraRearVariant : IconShape
+cameraRearVariant =
+    Material.Icons.Directory.C.cameraRearVariant
 
 
 {-| The [`camera-retake`](https://pictogrammers.com/library/mdi/icon/camera-retake/) icon.
@@ -559,16 +569,6 @@ cameraRetake =
 cameraRetakeOutline : IconShape
 cameraRetakeOutline =
     Material.Icons.Directory.C.cameraRetakeOutline
-
-
-{-| The [`camera-rear-variant`](https://pictogrammers.com/library/mdi/icon/camera-rear-variant/) icon.
-
-![camera-rear-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMEgxOEEyLDIgMCAwLDEgMjAsMlYyMkEyLDIgMCAwLDEgMTgsMjRINkEyLDIgMCAwLDEgNCwyMlYyQTIsMiAwIDAsMSA2LDBNMTIsMkEyLDIgMCAwLDAgMTAsNEEyLDIgMCAwLDAgMTIsNkEyLDIgMCAwLDAgMTQsNEEyLDIgMCAwLDAgMTIsMk0xMywxOEg5VjIwSDEzVjIyTDE2LDE5TDEzLDE2VjE4WiIgLz48L3N2Zz4=)
-
--}
-cameraRearVariant : IconShape
-cameraRearVariant =
-    Material.Icons.Directory.C.cameraRearVariant
 
 
 {-| The [`camera-switch`](https://pictogrammers.com/library/mdi/icon/camera-switch/) icon.
@@ -691,16 +691,6 @@ focusAuto =
     Material.Icons.Directory.F.focusAuto
 
 
-{-| The [`focus-field-horizontal`](https://pictogrammers.com/library/mdi/icon/focus-field-horizontal/) icon.
-
-![focus-field-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE5SDE1VjIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVYxNUgxOU0xOSAzSDE1VjVIMTlWOUgyMVY1QzIxIDMuOSAyMC4xIDMgMTkgM001IDVIOVYzSDVDMy45IDMgMyAzLjkgMyA1VjlINU01IDE1SDNWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDlWMTlINVYxNU03IDExSDlWMTNIN1YxMU0xMSAxMUgxM1YxM0gxMVYxMU0xNSAxMUgxN1YxM0gxNVYxMVoiIC8+PC9zdmc+)
-
--}
-focusFieldHorizontal : IconShape
-focusFieldHorizontal =
-    Material.Icons.Directory.F.focusFieldHorizontal
-
-
 {-| The [`focus-field`](https://pictogrammers.com/library/mdi/icon/focus-field/) icon.
 
 ![focus-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE5SDE1VjIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVYxNUgxOU0xOSAzSDE1VjVIMTlWOUgyMVY1QzIxIDMuOSAyMC4xIDMgMTkgM001IDVIOVYzSDVDMy45IDMgMyAzLjkgMyA1VjlINU01IDE1SDNWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDlWMTlINVYxNU03IDExSDlWMTNIN1YxMU0xMSAxMUgxM1YxM0gxMVYxMU0xNSAxMUgxN1YxM0gxNVYxMU03IDdIOVY5SDdWN00xMSA3SDEzVjlIMTFWN00xNSA3SDE3VjlIMTVWN003IDE1SDlWMTdIN1YxNU0xMSAxNUgxM1YxN0gxMVYxNU0xNSAxNUgxN1YxN0gxNVYxNVoiIC8+PC9zdmc+)
@@ -709,6 +699,16 @@ focusFieldHorizontal =
 focusField : IconShape
 focusField =
     Material.Icons.Directory.F.focusField
+
+
+{-| The [`focus-field-horizontal`](https://pictogrammers.com/library/mdi/icon/focus-field-horizontal/) icon.
+
+![focus-field-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE5SDE1VjIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVYxNUgxOU0xOSAzSDE1VjVIMTlWOUgyMVY1QzIxIDMuOSAyMC4xIDMgMTkgM001IDVIOVYzSDVDMy45IDMgMyAzLjkgMyA1VjlINU01IDE1SDNWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDlWMTlINVYxNU03IDExSDlWMTNIN1YxMU0xMSAxMUgxM1YxM0gxMVYxMU0xNSAxMUgxN1YxM0gxNVYxMVoiIC8+PC9zdmc+)
+
+-}
+focusFieldHorizontal : IconShape
+focusFieldHorizontal =
+    Material.Icons.Directory.F.focusFieldHorizontal
 
 
 {-| The [`focus-field-vertical`](https://pictogrammers.com/library/mdi/icon/focus-field-vertical/) icon.
@@ -761,14 +761,14 @@ imageFilterCenterFocus =
     Material.Icons.Directory.I.imageFilterCenterFocus
 
 
-{-| The [`image-filter-center-focus-weak`](https://pictogrammers.com/library/mdi/icon/image-filter-center-focus-weak/) icon.
+{-| The [`image-filter-center-focus-strong`](https://pictogrammers.com/library/mdi/icon/image-filter-center-focus-strong/) icon.
 
-![image-filter-center-focus-weak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTVIM1YxOUEyLDIgMCAwLDAgNSwyMUg5VjE5SDVNNSw1SDlWM0g1QTIsMiAwIDAsMCAzLDVWOUg1TTE5LDNIMTVWNUgxOVY5SDIxVjVBMiwyIDAgMCwwIDE5LDNNMTksMTlIMTVWMjFIMTlBMiwyIDAgMCwwIDIxLDE5VjE1SDE5TTEyLDhBNCw0IDAgMCwwIDgsMTJBNCw0IDAgMCwwIDEyLDE2QTQsNCAwIDAsMCAxNiwxMkE0LDQgMCAwLDAgMTIsOE0xMiwxNEEyLDIgMCAwLDEgMTAsMTJBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxNCwxMkEyLDIgMCAwLDEgMTIsMTRaIiAvPjwvc3ZnPg==)
+![image-filter-center-focus-strong](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDhDOC40NCA4IDYuNjUgMTIuMzEgOS4xNyAxNC44M0MxMS42OSAxNy4zNSAxNiAxNS41NiAxNiAxMkMxNiA5Ljc5IDE0LjIxIDggMTIgOE01IDE1SDNWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDlWMTlINU01IDVIOVYzSDVDMy45IDMgMyAzLjkgMyA1VjlINU0xOSAzSDE1VjVIMTlWOUgyMVY1QzIxIDMuOSAyMC4xIDMgMTkgM00xOSAxOUgxNVYyMUgxOUMyMC4xIDIxIDIxIDIwLjEgMjEgMTlWMTVIMTkiIC8+PC9zdmc+)
 
 -}
-imageFilterCenterFocusWeak : IconShape
-imageFilterCenterFocusWeak =
-    Material.Icons.Directory.I.imageFilterCenterFocusWeak
+imageFilterCenterFocusStrong : IconShape
+imageFilterCenterFocusStrong =
+    Material.Icons.Directory.I.imageFilterCenterFocusStrong
 
 
 {-| The [`image-filter-center-focus-strong-outline`](https://pictogrammers.com/library/mdi/icon/image-filter-center-focus-strong-outline/) icon.
@@ -781,14 +781,14 @@ imageFilterCenterFocusStrongOutline =
     Material.Icons.Directory.I.imageFilterCenterFocusStrongOutline
 
 
-{-| The [`image-filter-center-focus-strong`](https://pictogrammers.com/library/mdi/icon/image-filter-center-focus-strong/) icon.
+{-| The [`image-filter-center-focus-weak`](https://pictogrammers.com/library/mdi/icon/image-filter-center-focus-weak/) icon.
 
-![image-filter-center-focus-strong](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDhDOC40NCA4IDYuNjUgMTIuMzEgOS4xNyAxNC44M0MxMS42OSAxNy4zNSAxNiAxNS41NiAxNiAxMkMxNiA5Ljc5IDE0LjIxIDggMTIgOE01IDE1SDNWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDlWMTlINU01IDVIOVYzSDVDMy45IDMgMyAzLjkgMyA1VjlINU0xOSAzSDE1VjVIMTlWOUgyMVY1QzIxIDMuOSAyMC4xIDMgMTkgM00xOSAxOUgxNVYyMUgxOUMyMC4xIDIxIDIxIDIwLjEgMjEgMTlWMTVIMTkiIC8+PC9zdmc+)
+![image-filter-center-focus-weak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTVIM1YxOUEyLDIgMCAwLDAgNSwyMUg5VjE5SDVNNSw1SDlWM0g1QTIsMiAwIDAsMCAzLDVWOUg1TTE5LDNIMTVWNUgxOVY5SDIxVjVBMiwyIDAgMCwwIDE5LDNNMTksMTlIMTVWMjFIMTlBMiwyIDAgMCwwIDIxLDE5VjE1SDE5TTEyLDhBNCw0IDAgMCwwIDgsMTJBNCw0IDAgMCwwIDEyLDE2QTQsNCAwIDAsMCAxNiwxMkE0LDQgMCAwLDAgMTIsOE0xMiwxNEEyLDIgMCAwLDEgMTAsMTJBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxNCwxMkEyLDIgMCAwLDEgMTIsMTRaIiAvPjwvc3ZnPg==)
 
 -}
-imageFilterCenterFocusStrong : IconShape
-imageFilterCenterFocusStrong =
-    Material.Icons.Directory.I.imageFilterCenterFocusStrong
+imageFilterCenterFocusWeak : IconShape
+imageFilterCenterFocusWeak =
+    Material.Icons.Directory.I.imageFilterCenterFocusWeak
 
 
 {-| The [`image-filter-drama`](https://pictogrammers.com/library/mdi/icon/image-filter-drama/) icon.
@@ -801,16 +801,6 @@ imageFilterDrama =
     Material.Icons.Directory.I.imageFilterDrama
 
 
-{-| The [`image-filter-frames`](https://pictogrammers.com/library/mdi/icon/image-filter-frames/) icon.
-
-![image-filter-frames](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDhINlYxOEgxOE0yMCwyMEg0VjZIOC41TDEyLjA0LDIuNUwxNS41LDZIMjBNMjAsNEgxNkwxMiwwTDgsNEg0QTIsMiAwIDAsMCAyLDZWMjBBMiwyIDAgMCwwIDQsMjJIMjBBMiwyIDAgMCwwIDIyLDIwVjZBMiwyIDAgMCwwIDIwLDRaIiAvPjwvc3ZnPg==)
-
--}
-imageFilterFrames : IconShape
-imageFilterFrames =
-    Material.Icons.Directory.I.imageFilterFrames
-
-
 {-| The [`image-filter-drama-outline`](https://pictogrammers.com/library/mdi/icon/image-filter-drama-outline/) icon.
 
 ![image-filter-drama-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNSAyMFE0LjIgMjAgMi42IDE4LjRUMSAxNC41UTEgMTIuNTUgMi4yMSAxMS4wNiAzLjQzIDkuNTcgNS4yNSA5LjE1IDUuODggNi45IDcuNzMgNS40NSA5LjU3IDQgMTIgNCAxNSA0IDE3IDYuMDYgMTkgOC4xMyAxOSAxMSAyMC44OCAxMS4yIDIxLjk0IDEyLjU1IDIzIDEzLjkgMjMgMTUuNSAyMyAxNy4zNSAyMS42OSAxOC42OCAyMC4zOCAyMCAxOC41IDIwTTYuNSAxOEgxOC41UTE5LjU1IDE4IDIwLjI3IDE3LjI3IDIxIDE2LjU1IDIxIDE1LjUgMjEgMTQuNDUgMjAuMjcgMTMuNzMgMTkuNTUgMTMgMTguNSAxM0gxN1YxMVExNyA4LjkzIDE1LjU0IDcuNDYgMTQuMDggNiAxMiA2IDEwLjQzIDYgOS4yIDYuODYgOCA3LjczIDcuNCA5LjA3IDkuMzUgOS40IDEwLjY4IDEwLjkxIDEyIDEyLjQzIDEyIDE0LjVIMTBRMTAgMTMuMDUgOSAxMi4wMyA3Ljk1IDExIDYuNSAxMSA1LjA1IDExIDQuMDMgMTIuMDMgMyAxMy4wNSAzIDE0LjUgMyAxNS45NSA0LjAzIDE3IDUuMDUgMTggNi41IDE4WiIgLz48L3N2Zz4=)
@@ -819,6 +809,16 @@ imageFilterFrames =
 imageFilterDramaOutline : IconShape
 imageFilterDramaOutline =
     Material.Icons.Directory.I.imageFilterDramaOutline
+
+
+{-| The [`image-filter-frames`](https://pictogrammers.com/library/mdi/icon/image-filter-frames/) icon.
+
+![image-filter-frames](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LDhINlYxOEgxOE0yMCwyMEg0VjZIOC41TDEyLjA0LDIuNUwxNS41LDZIMjBNMjAsNEgxNkwxMiwwTDgsNEg0QTIsMiAwIDAsMCAyLDZWMjBBMiwyIDAgMCwwIDQsMjJIMjBBMiwyIDAgMCwwIDIyLDIwVjZBMiwyIDAgMCwwIDIwLDRaIiAvPjwvc3ZnPg==)
+
+-}
+imageFilterFrames : IconShape
+imageFilterFrames =
+    Material.Icons.Directory.I.imageFilterFrames
 
 
 {-| The [`image-filter-hdr`](https://pictogrammers.com/library/mdi/icon/image-filter-hdr/) icon.
@@ -851,16 +851,6 @@ imageFilterNone =
     Material.Icons.Directory.I.imageFilterNone
 
 
-{-| The [`image-filter-vintage`](https://pictogrammers.com/library/mdi/icon/image-filter-vintage/) icon.
-
-![image-filter-vintage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE2QTQsNCAwIDAsMSA4LDEyQTQsNCAwIDAsMSAxMiw4QTQsNCAwIDAsMSAxNiwxMkE0LDQgMCAwLDEgMTIsMTZNMTguNywxMi40QzE4LjQyLDEyLjI0IDE4LjEzLDEyLjExIDE3Ljg0LDEyQzE4LjEzLDExLjg5IDE4LjQyLDExLjc2IDE4LjcsMTEuNkMyMC42MiwxMC41IDIxLjY5LDguNSAyMS43LDYuNDFDMTkuOTEsNS4zOCAxNy42Myw1LjMgMTUuNyw2LjQxQzE1LjQyLDYuNTcgMTUuMTYsNi43NiAxNC45Miw2Ljk1QzE0Ljk3LDYuNjQgMTUsNi4zMiAxNSw2QzE1LDMuNzggMTMuNzksMS44NSAxMiwwLjgxQzEwLjIxLDEuODUgOSwzLjc4IDksNkM5LDYuMzIgOS4wMyw2LjY0IDkuMDgsNi45NUM4Ljg0LDYuNzUgOC41OCw2LjU2IDguMyw2LjRDNi4zOCw1LjI5IDQuMSw1LjM3IDIuMyw2LjRDMi4zLDguNDcgMy4zNywxMC41IDUuMywxMS41OUM1LjU4LDExLjc1IDUuODcsMTEuODggNi4xNiwxMkM1Ljg3LDEyLjEgNS41OCwxMi4yMyA1LjMsMTIuMzlDMy4zOCwxMy41IDIuMzEsMTUuNSAyLjMsMTcuNThDNC4wOSwxOC42MSA2LjM3LDE4LjY5IDguMywxNy41OEM4LjU4LDE3LjQyIDguODQsMTcuMjMgOS4wOCwxNy4wNEM5LjAzLDE3LjM2IDksMTcuNjggOSwxOEM5LDIwLjIyIDEwLjIxLDIyLjE1IDEyLDIzLjE5QzEzLjc5LDIyLjE1IDE1LDIwLjIyIDE1LDE4QzE1LDE3LjY4IDE0Ljk3LDE3LjM2IDE0LjkyLDE3LjA1QzE1LjE2LDE3LjI1IDE1LjQyLDE3LjQzIDE1LjcsMTcuNTlDMTcuNjIsMTguNyAxOS45LDE4LjYyIDIxLjcsMTcuNTlDMjEuNjksMTUuNSAyMC42MiwxMy41IDE4LjcsMTIuNFoiIC8+PC9zdmc+)
-
--}
-imageFilterVintage : IconShape
-imageFilterVintage =
-    Material.Icons.Directory.I.imageFilterVintage
-
-
 {-| The [`image-filter-tilt-shift`](https://pictogrammers.com/library/mdi/icon/image-filter-tilt-shift/) icon.
 
 ![image-filter-tilt-shift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuNjgsMTkuNzRDNy4xNiwyMC45NSA5LDIxLjc1IDExLDIxLjk1VjE5LjkzQzkuNTQsMTkuNzUgOC4yMSwxOS4xNyA3LjEsMTguMzFNMTMsMTkuOTNWMjEuOTVDMTUsMjEuNzUgMTYuODQsMjAuOTUgMTguMzIsMTkuNzRMMTYuODksMTguMzFDMTUuNzksMTkuMTcgMTQuNDYsMTkuNzUgMTMsMTkuOTNNMTguMzEsMTYuOUwxOS43NCwxOC4zM0MyMC45NSwxNi44NSAyMS43NSwxNSAyMS45NSwxM0gxOS45M0MxOS43NSwxNC40NiAxOS4xNywxNS43OSAxOC4zMSwxNi45TTE1LDEyQTMsMyAwIDAsMCAxMiw5QTMsMyAwIDAsMCA5LDEyQTMsMyAwIDAsMCAxMiwxNUEzLDMgMCAwLDAgMTUsMTJNNC4wNywxM0gyLjA1QzIuMjUsMTUgMy4wNSwxNi44NCA0LjI2LDE4LjMyTDUuNjksMTYuODlDNC44MywxNS43OSA0LjI1LDE0LjQ2IDQuMDcsMTNNNS42OSw3LjFMNC4yNiw1LjY4QzMuMDUsNy4xNiAyLjI1LDkgMi4wNSwxMUg0LjA3QzQuMjUsOS41NCA0LjgzLDguMjEgNS42OSw3LjFNMTkuOTMsMTFIMjEuOTVDMjEuNzUsOSAyMC45NSw3LjE2IDE5Ljc0LDUuNjhMMTguMzEsNy4xQzE5LjE3LDguMjEgMTkuNzUsOS41NCAxOS45MywxMU0xOC4zMiw0LjI2QzE2Ljg0LDMuMDUgMTUsMi4yNSAxMywyLjA1VjQuMDdDMTQuNDYsNC4yNSAxNS43OSw0LjgzIDE2LjksNS42OU0xMSw0LjA3VjIuMDVDOSwyLjI1IDcuMTYsMy4wNSA1LjY4LDQuMjZMNy4xLDUuNjlDOC4yMSw0LjgzIDkuNTQsNC4yNSAxMSw0LjA3WiIgLz48L3N2Zz4=)
@@ -869,6 +859,16 @@ imageFilterVintage =
 imageFilterTiltShift : IconShape
 imageFilterTiltShift =
     Material.Icons.Directory.I.imageFilterTiltShift
+
+
+{-| The [`image-filter-vintage`](https://pictogrammers.com/library/mdi/icon/image-filter-vintage/) icon.
+
+![image-filter-vintage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE2QTQsNCAwIDAsMSA4LDEyQTQsNCAwIDAsMSAxMiw4QTQsNCAwIDAsMSAxNiwxMkE0LDQgMCAwLDEgMTIsMTZNMTguNywxMi40QzE4LjQyLDEyLjI0IDE4LjEzLDEyLjExIDE3Ljg0LDEyQzE4LjEzLDExLjg5IDE4LjQyLDExLjc2IDE4LjcsMTEuNkMyMC42MiwxMC41IDIxLjY5LDguNSAyMS43LDYuNDFDMTkuOTEsNS4zOCAxNy42Myw1LjMgMTUuNyw2LjQxQzE1LjQyLDYuNTcgMTUuMTYsNi43NiAxNC45Miw2Ljk1QzE0Ljk3LDYuNjQgMTUsNi4zMiAxNSw2QzE1LDMuNzggMTMuNzksMS44NSAxMiwwLjgxQzEwLjIxLDEuODUgOSwzLjc4IDksNkM5LDYuMzIgOS4wMyw2LjY0IDkuMDgsNi45NUM4Ljg0LDYuNzUgOC41OCw2LjU2IDguMyw2LjRDNi4zOCw1LjI5IDQuMSw1LjM3IDIuMyw2LjRDMi4zLDguNDcgMy4zNywxMC41IDUuMywxMS41OUM1LjU4LDExLjc1IDUuODcsMTEuODggNi4xNiwxMkM1Ljg3LDEyLjEgNS41OCwxMi4yMyA1LjMsMTIuMzlDMy4zOCwxMy41IDIuMzEsMTUuNSAyLjMsMTcuNThDNC4wOSwxOC42MSA2LjM3LDE4LjY5IDguMywxNy41OEM4LjU4LDE3LjQyIDguODQsMTcuMjMgOS4wOCwxNy4wNEM5LjAzLDE3LjM2IDksMTcuNjggOSwxOEM5LDIwLjIyIDEwLjIxLDIyLjE1IDEyLDIzLjE5QzEzLjc5LDIyLjE1IDE1LDIwLjIyIDE1LDE4QzE1LDE3LjY4IDE0Ljk3LDE3LjM2IDE0LjkyLDE3LjA1QzE1LjE2LDE3LjI1IDE1LjQyLDE3LjQzIDE1LjcsMTcuNTlDMTcuNjIsMTguNyAxOS45LDE4LjYyIDIxLjcsMTcuNTlDMjEuNjksMTUuNSAyMC42MiwxMy41IDE4LjcsMTIuNFoiIC8+PC9zdmc+)
+
+-}
+imageFilterVintage : IconShape
+imageFilterVintage =
+    Material.Icons.Directory.I.imageFilterVintage
 
 
 {-| The [`image-lock`](https://pictogrammers.com/library/mdi/icon/image-lock/) icon.
@@ -911,16 +911,6 @@ imageRefresh =
     Material.Icons.Directory.I.imageRefresh
 
 
-{-| The [`image-remove-outline`](https://pictogrammers.com/library/mdi/icon/image-remove-outline/) icon.
-
-![image-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjcgMTMuMTMgMjAuMzcgMTMuMzUgMjFINUMzLjkgMjEgMyAyMC4xMSAzIDE5VjVDMyAzLjkgMy45IDMgNSAzSDE5QzIwLjExIDMgMjEgMy45IDIxIDVWMTMuMzVDMjAuMzcgMTMuMTMgMTkuNyAxMyAxOSAxM1Y1SDVWMTlIMTNNMTEuMjEgMTUuODNMOS4yNSAxMy40N0w2LjUgMTdIMTMuMzVDMTMuNzUgMTUuODggMTQuNDcgMTQuOTEgMTUuNCAxNC4yMUwxMy45NiAxMi4yOUwxMS4yMSAxNS44M00yMi41NCAxNi44OEwyMS4xMiAxNS40N0wxOSAxNy41OUwxNi44OCAxNS40N0wxNS40NyAxNi44OEwxNy41OSAxOUwxNS40NyAyMS4xMkwxNi44OCAyMi41NEwxOSAyMC40MUwyMS4xMiAyMi41NEwyMi41NCAyMS4xMkwyMC40MSAxOUwyMi41NCAxNi44OFoiIC8+PC9zdmc+)
-
--}
-imageRemoveOutline : IconShape
-imageRemoveOutline =
-    Material.Icons.Directory.I.imageRemoveOutline
-
-
 {-| The [`image-refresh-outline`](https://pictogrammers.com/library/mdi/icon/image-refresh-outline/) icon.
 
 ![image-refresh-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjY4IDEzLjI1QzEzLjQ1IDE0LjE1IDEyLjU0IDE1LjQ3IDEyLjE4IDE3SDYuNUw5LjI1IDEzLjQ3TDExLjIxIDE1LjgzTDEzLjk2IDEyLjI5TDE0LjY4IDEzLjI1TTUgMTlWNUgxOVYxMi4wM0MxOS43IDEyLjA5IDIwLjM4IDEyLjI0IDIxIDEyLjVWNUMyMSAzLjkgMjAuMTEgMyAxOSAzSDVDMy45IDMgMyAzLjkgMyA1VjE5QzMgMjAuMTEgMy45IDIxIDUgMjFIMTIuNUMxMi4yNCAyMC4zOCAxMi4wOSAxOS43IDEyLjAzIDE5SDVNMjIgMTguNVYxNC41TDIwLjgzIDE1LjY3QzIwLjExIDE0Ljk1IDE5LjExIDE0LjUgMTggMTQuNUMxNS43OSAxNC41IDE0IDE2LjI5IDE0IDE4LjVTMTUuNzkgMjIuNSAxOCAyMi41QzE5LjY4IDIyLjUgMjEuMTIgMjEuNDcgMjEuNzEgMjBIMjBDMTkuNTQgMjAuNjEgMTguODIgMjEgMTggMjFDMTYuNjIgMjEgMTUuNSAxOS44OCAxNS41IDE4LjVTMTYuNjIgMTYgMTggMTZDMTguNjkgMTYgMTkuMzIgMTYuMjggMTkuNzcgMTYuNzNMMTggMTguNUgyMloiIC8+PC9zdmc+)
@@ -931,14 +921,14 @@ imageRefreshOutline =
     Material.Icons.Directory.I.imageRefreshOutline
 
 
-{-| The [`image-sync-outline`](https://pictogrammers.com/library/mdi/icon/image-sync-outline/) icon.
+{-| The [`image-remove-outline`](https://pictogrammers.com/library/mdi/icon/image-remove-outline/) icon.
 
-![image-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjE4IDE5QzEzLjM1IDE5LjcyIDEzLjY0IDIwLjM5IDE0LjAzIDIxSDVDMy45IDIxIDMgMjAuMTEgMyAxOVY1QzMgMy45IDMuOSAzIDUgM0gxOUMyMC4xMSAzIDIxIDMuOSAyMSA1VjExLjE4QzIwLjUgMTEuMDcgMjAgMTEgMTkuNSAxMUMxOS4zMyAxMSAxOS4xNyAxMSAxOSAxMS4wM1Y1SDVWMTlIMTMuMThNMTEuMjEgMTUuODNMOS4yNSAxMy40N0w2LjUgMTdIMTMuMDNDMTMuMTQgMTUuNTQgMTMuNzMgMTQuMjIgMTQuNjQgMTMuMTlMMTMuOTYgMTIuMjlMMTEuMjEgMTUuODNNMTkgMTMuNVYxMkwxNi43NSAxNC4yNUwxOSAxNi41VjE1QzIwLjM4IDE1IDIxLjUgMTYuMTIgMjEuNSAxNy41QzIxLjUgMTcuOSAyMS40MSAxOC4yOCAyMS4yNCAxOC42MkwyMi4zMyAxOS43MUMyMi43NSAxOS4wOCAyMyAxOC4zMiAyMyAxNy41QzIzIDE1LjI5IDIxLjIxIDEzLjUgMTkgMTMuNU0xOSAyMEMxNy42MiAyMCAxNi41IDE4Ljg4IDE2LjUgMTcuNUMxNi41IDE3LjEgMTYuNTkgMTYuNzIgMTYuNzYgMTYuMzhMMTUuNjcgMTUuMjlDMTUuMjUgMTUuOTIgMTUgMTYuNjggMTUgMTcuNUMxNSAxOS43MSAxNi43OSAyMS41IDE5IDIxLjVWMjNMMjEuMjUgMjAuNzVMMTkgMTguNVYyMFoiIC8+PC9zdmc+)
+![image-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjcgMTMuMTMgMjAuMzcgMTMuMzUgMjFINUMzLjkgMjEgMyAyMC4xMSAzIDE5VjVDMyAzLjkgMy45IDMgNSAzSDE5QzIwLjExIDMgMjEgMy45IDIxIDVWMTMuMzVDMjAuMzcgMTMuMTMgMTkuNyAxMyAxOSAxM1Y1SDVWMTlIMTNNMTEuMjEgMTUuODNMOS4yNSAxMy40N0w2LjUgMTdIMTMuMzVDMTMuNzUgMTUuODggMTQuNDcgMTQuOTEgMTUuNCAxNC4yMUwxMy45NiAxMi4yOUwxMS4yMSAxNS44M00yMi41NCAxNi44OEwyMS4xMiAxNS40N0wxOSAxNy41OUwxNi44OCAxNS40N0wxNS40NyAxNi44OEwxNy41OSAxOUwxNS40NyAyMS4xMkwxNi44OCAyMi41NEwxOSAyMC40MUwyMS4xMiAyMi41NEwyMi41NCAyMS4xMkwyMC40MSAxOUwyMi41NCAxNi44OFoiIC8+PC9zdmc+)
 
 -}
-imageSyncOutline : IconShape
-imageSyncOutline =
-    Material.Icons.Directory.I.imageSyncOutline
+imageRemoveOutline : IconShape
+imageRemoveOutline =
+    Material.Icons.Directory.I.imageRemoveOutline
 
 
 {-| The [`image-sync`](https://pictogrammers.com/library/mdi/icon/image-sync/) icon.
@@ -949,6 +939,16 @@ imageSyncOutline =
 imageSync : IconShape
 imageSync =
     Material.Icons.Directory.I.imageSync
+
+
+{-| The [`image-sync-outline`](https://pictogrammers.com/library/mdi/icon/image-sync-outline/) icon.
+
+![image-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjE4IDE5QzEzLjM1IDE5LjcyIDEzLjY0IDIwLjM5IDE0LjAzIDIxSDVDMy45IDIxIDMgMjAuMTEgMyAxOVY1QzMgMy45IDMuOSAzIDUgM0gxOUMyMC4xMSAzIDIxIDMuOSAyMSA1VjExLjE4QzIwLjUgMTEuMDcgMjAgMTEgMTkuNSAxMUMxOS4zMyAxMSAxOS4xNyAxMSAxOSAxMS4wM1Y1SDVWMTlIMTMuMThNMTEuMjEgMTUuODNMOS4yNSAxMy40N0w2LjUgMTdIMTMuMDNDMTMuMTQgMTUuNTQgMTMuNzMgMTQuMjIgMTQuNjQgMTMuMTlMMTMuOTYgMTIuMjlMMTEuMjEgMTUuODNNMTkgMTMuNVYxMkwxNi43NSAxNC4yNUwxOSAxNi41VjE1QzIwLjM4IDE1IDIxLjUgMTYuMTIgMjEuNSAxNy41QzIxLjUgMTcuOSAyMS40MSAxOC4yOCAyMS4yNCAxOC42MkwyMi4zMyAxOS43MUMyMi43NSAxOS4wOCAyMyAxOC4zMiAyMyAxNy41QzIzIDE1LjI5IDIxLjIxIDEzLjUgMTkgMTMuNU0xOSAyMEMxNy42MiAyMCAxNi41IDE4Ljg4IDE2LjUgMTcuNUMxNi41IDE3LjEgMTYuNTkgMTYuNzIgMTYuNzYgMTYuMzhMMTUuNjcgMTUuMjlDMTUuMjUgMTUuOTIgMTUgMTYuNjggMTUgMTcuNUMxNSAxOS43MSAxNi43OSAyMS41IDE5IDIxLjVWMjNMMjEuMjUgMjAuNzVMMTkgMTguNVYyMFoiIC8+PC9zdmc+)
+
+-}
+imageSyncOutline : IconShape
+imageSyncOutline =
+    Material.Icons.Directory.I.imageSyncOutline
 
 
 {-| The [`multimedia`](https://pictogrammers.com/library/mdi/icon/multimedia/) icon.
@@ -1021,16 +1021,6 @@ panoramaSphere =
     Material.Icons.Directory.P.panoramaSphere
 
 
-{-| The [`panorama-variant`](https://pictogrammers.com/library/mdi/icon/panorama-variant/) icon.
-
-![panorama-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjcgNC4xQzE4LjcgNC44IDE1LjkgNS41IDEyIDUuNUM4LjEgNS41IDUuMSA0LjcgMy4zIDQuMUMyLjcgMy44IDIgNC4zIDIgNVYxOUMyIDE5LjcgMi43IDIwLjIgMy4zIDIwQzUuNCAxOS4zIDguMSAxOC41IDEyIDE4LjVDMTUuOSAxOC41IDE4LjcgMTkuMyAyMC43IDIwQzIxLjQgMjAuMiAyMiAxOS43IDIyIDE5VjVDMjIgNC4zIDIxLjMgMy44IDIwLjcgNC4xTTEyIDE1QzkuNyAxNSA3LjUgMTUuMSA1LjUgMTUuNEw5LjIgMTFMMTEuMiAxMy40TDE0IDEwTDE4LjUgMTUuNEMxNi41IDE1LjEgMTQuMyAxNSAxMiAxNVoiIC8+PC9zdmc+)
-
--}
-panoramaVariant : IconShape
-panoramaVariant =
-    Material.Icons.Directory.P.panoramaVariant
-
-
 {-| The [`panorama-sphere-outline`](https://pictogrammers.com/library/mdi/icon/panorama-sphere-outline/) icon.
 
 ![panorama-sphere-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDguMUMyMS43IDggMjEuMyA3LjggMjEgNy43QzE5LjQgNC4zIDE2IDIgMTIgMlM0LjYgNC4zIDMgNy43QzIuNyA3LjggMi4zIDggMi4xIDguMUMxLjQgOC41IDEgOS4yIDEgOS45VjE0LjFDMSAxNC44IDEuNCAxNS41IDIgMTUuOUMyLjMgMTYgMi43IDE2LjIgMyAxNi4zQzQuNiAxOS43IDggMjIgMTIgMjJTMTkuNCAxOS43IDIxIDE2LjNDMjEuMyAxNi4yIDIxLjYgMTYgMjEuOSAxNS44QzIyLjUgMTUuNCAyMyAxNC44IDIzIDE0VjkuOUMyMyA5LjIgMjIuNiA4LjUgMjIgOC4xTTIxIDkuOVYxNC4xQzE4LjggMTUuMyAxNS41IDE2IDEyIDE2UzUuMiAxNS4zIDMgMTQuMVY5LjlDNS4yIDguNyA4LjUgOCAxMiA4UzE4LjggOC43IDIxIDkuOU0xMiA0QzE0LjQgNCAxNi41IDUgMTggNi43QzE2LjIgNi4yIDE0LjEgNiAxMiA2UzcuOCA2LjIgNi4xIDYuN0M3LjUgNSA5LjYgNCAxMiA0TTEyIDIwQzkuNiAyMCA3LjUgMTkgNi4xIDE3LjNDNy44IDE3LjggOS45IDE4IDEyIDE4UzE2LjIgMTcuOCAxOCAxNy4zQzE2LjUgMTkgMTQuNCAyMCAxMiAyMFoiIC8+PC9zdmc+)
@@ -1039,6 +1029,16 @@ panoramaVariant =
 panoramaSphereOutline : IconShape
 panoramaSphereOutline =
     Material.Icons.Directory.P.panoramaSphereOutline
+
+
+{-| The [`panorama-variant`](https://pictogrammers.com/library/mdi/icon/panorama-variant/) icon.
+
+![panorama-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjcgNC4xQzE4LjcgNC44IDE1LjkgNS41IDEyIDUuNUM4LjEgNS41IDUuMSA0LjcgMy4zIDQuMUMyLjcgMy44IDIgNC4zIDIgNVYxOUMyIDE5LjcgMi43IDIwLjIgMy4zIDIwQzUuNCAxOS4zIDguMSAxOC41IDEyIDE4LjVDMTUuOSAxOC41IDE4LjcgMTkuMyAyMC43IDIwQzIxLjQgMjAuMiAyMiAxOS43IDIyIDE5VjVDMjIgNC4zIDIxLjMgMy44IDIwLjcgNC4xTTEyIDE1QzkuNyAxNSA3LjUgMTUuMSA1LjUgMTUuNEw5LjIgMTFMMTEuMiAxMy40TDE0IDEwTDE4LjUgMTUuNEMxNi41IDE1LjEgMTQuMyAxNSAxMiAxNVoiIC8+PC9zdmc+)
+
+-}
+panoramaVariant : IconShape
+panoramaVariant =
+    Material.Icons.Directory.P.panoramaVariant
 
 
 {-| The [`panorama-variant-outline`](https://pictogrammers.com/library/mdi/icon/panorama-variant-outline/) icon.

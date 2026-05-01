@@ -4,32 +4,32 @@
 
 module Material.Icons.Categories.Notification exposing
     ( alarmBell
-    , bellAlert
     , bell
-    , bellBadge
+    , bellAlert
     , bellAlertOutline
+    , bellBadge
     , bellBadgeOutline
     , bellCancel
     , bellCancelOutline
     , bellCheck
     , bellCheckOutline
+    , bellCircle
     , bellCircleOutline
     , bellCog
-    , bellMinus
     , bellCogOutline
-    , bellCircle
-    , bellOff
+    , bellMinus
     , bellMinusOutline
-    , bellOutline
+    , bellOff
     , bellOffOutline
+    , bellOutline
     , bellPlus
     , bellPlusOutline
     , bellRemove
     , bellRemoveOutline
-    , bellRingOutline
-    , bellSleepOutline
     , bellRing
+    , bellRingOutline
     , bellSleep
+    , bellSleepOutline
     , checkboxBlankBadge
     , checkboxBlankBadgeOutline
     , messageBadge
@@ -42,32 +42,32 @@ module Material.Icons.Categories.Notification exposing
 {-| This module contains icons in the Material.Icons.Categories.Notification category.
 
 @docs alarmBell
-@docs bellAlert
 @docs bell
-@docs bellBadge
+@docs bellAlert
 @docs bellAlertOutline
+@docs bellBadge
 @docs bellBadgeOutline
 @docs bellCancel
 @docs bellCancelOutline
 @docs bellCheck
 @docs bellCheckOutline
+@docs bellCircle
 @docs bellCircleOutline
 @docs bellCog
-@docs bellMinus
 @docs bellCogOutline
-@docs bellCircle
-@docs bellOff
+@docs bellMinus
 @docs bellMinusOutline
-@docs bellOutline
+@docs bellOff
 @docs bellOffOutline
+@docs bellOutline
 @docs bellPlus
 @docs bellPlusOutline
 @docs bellRemove
 @docs bellRemoveOutline
-@docs bellRingOutline
-@docs bellSleepOutline
 @docs bellRing
+@docs bellRingOutline
 @docs bellSleep
+@docs bellSleepOutline
 @docs checkboxBlankBadge
 @docs checkboxBlankBadgeOutline
 @docs messageBadge
@@ -97,16 +97,6 @@ alarmBell =
     Material.Icons.Directory.A.alarmBell
 
 
-{-| The [`bell-alert`](https://pictogrammers.com/library/mdi/icon/bell-alert/) icon.
-
-![bell-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzIDdWMTNIMjFWN00yMSAxNUgyM1YxN0gyMU0xMiAyQTIgMiAwIDAgMCAxMCA0QTIgMiAwIDAgMCAxMCA0LjI5QzcuMTIgNS4xNCA1IDcuODIgNSAxMVYxN0wzIDE5VjIwSDIxVjE5TDE5IDE3VjExQzE5IDcuODIgMTYuODggNS4xNCAxNCA0LjI5QTIgMiAwIDAgMCAxNCA0QTIgMiAwIDAgMCAxMiAyTTEwIDIxQTIgMiAwIDAgMCAxMiAyM0EyIDIgMCAwIDAgMTQgMjFaIiAvPjwvc3ZnPg==)
-
--}
-bellAlert : IconShape
-bellAlert =
-    Material.Icons.Directory.B.bellAlert
-
-
 {-| The [`bell`](https://pictogrammers.com/library/mdi/icon/bell/) icon.
 
 ![bell](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE5VjIwSDNWMTlMNSwxN1YxMUM1LDcuOSA3LjAzLDUuMTcgMTAsNC4yOUMxMCw0LjE5IDEwLDQuMSAxMCw0QTIsMiAwIDAsMSAxMiwyQTIsMiAwIDAsMSAxNCw0QzE0LDQuMSAxNCw0LjE5IDE0LDQuMjlDMTYuOTcsNS4xNyAxOSw3LjkgMTksMTFWMTdMMjEsMTlNMTQsMjFBMiwyIDAgMCwxIDEyLDIzQTIsMiAwIDAsMSAxMCwyMSIgLz48L3N2Zz4=)
@@ -117,14 +107,14 @@ bell =
     Material.Icons.Directory.B.bell
 
 
-{-| The [`bell-badge`](https://pictogrammers.com/library/mdi/icon/bell-badge/) icon.
+{-| The [`bell-alert`](https://pictogrammers.com/library/mdi/icon/bell-alert/) icon.
 
-![bell-badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDYuNUMyMSA4LjQzIDE5LjQzIDEwIDE3LjUgMTBTMTQgOC40MyAxNCA2LjUgMTUuNTcgMyAxNy41IDMgMjEgNC41NyAyMSA2LjVNMTkgMTEuNzlDMTguNSAxMS45MiAxOCAxMiAxNy41IDEyQzE0LjQ3IDEyIDEyIDkuNTMgMTIgNi41QzEyIDUuMDMgMTIuNTggMy43IDEzLjUgMi43MUMxMy4xNSAyLjI4IDEyLjYxIDIgMTIgMkMxMC45IDIgMTAgMi45IDEwIDRWNC4yOUM3LjAzIDUuMTcgNSA3LjkgNSAxMVYxN0wzIDE5VjIwSDIxVjE5TDE5IDE3VjExLjc5TTEyIDIzQzEzLjExIDIzIDE0IDIyLjExIDE0IDIxSDEwQzEwIDIyLjExIDEwLjkgMjMgMTIgMjNaIiAvPjwvc3ZnPg==)
+![bell-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzIDdWMTNIMjFWN00yMSAxNUgyM1YxN0gyMU0xMiAyQTIgMiAwIDAgMCAxMCA0QTIgMiAwIDAgMCAxMCA0LjI5QzcuMTIgNS4xNCA1IDcuODIgNSAxMVYxN0wzIDE5VjIwSDIxVjE5TDE5IDE3VjExQzE5IDcuODIgMTYuODggNS4xNCAxNCA0LjI5QTIgMiAwIDAgMCAxNCA0QTIgMiAwIDAgMCAxMiAyTTEwIDIxQTIgMiAwIDAgMCAxMiAyM0EyIDIgMCAwIDAgMTQgMjFaIiAvPjwvc3ZnPg==)
 
 -}
-bellBadge : IconShape
-bellBadge =
-    Material.Icons.Directory.B.bellBadge
+bellAlert : IconShape
+bellAlert =
+    Material.Icons.Directory.B.bellAlert
 
 
 {-| The [`bell-alert-outline`](https://pictogrammers.com/library/mdi/icon/bell-alert-outline/) icon.
@@ -135,6 +125,16 @@ bellBadge =
 bellAlertOutline : IconShape
 bellAlertOutline =
     Material.Icons.Directory.B.bellAlertOutline
+
+
+{-| The [`bell-badge`](https://pictogrammers.com/library/mdi/icon/bell-badge/) icon.
+
+![bell-badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDYuNUMyMSA4LjQzIDE5LjQzIDEwIDE3LjUgMTBTMTQgOC40MyAxNCA2LjUgMTUuNTcgMyAxNy41IDMgMjEgNC41NyAyMSA2LjVNMTkgMTEuNzlDMTguNSAxMS45MiAxOCAxMiAxNy41IDEyQzE0LjQ3IDEyIDEyIDkuNTMgMTIgNi41QzEyIDUuMDMgMTIuNTggMy43IDEzLjUgMi43MUMxMy4xNSAyLjI4IDEyLjYxIDIgMTIgMkMxMC45IDIgMTAgMi45IDEwIDRWNC4yOUM3LjAzIDUuMTcgNSA3LjkgNSAxMVYxN0wzIDE5VjIwSDIxVjE5TDE5IDE3VjExLjc5TTEyIDIzQzEzLjExIDIzIDE0IDIyLjExIDE0IDIxSDEwQzEwIDIyLjExIDEwLjkgMjMgMTIgMjNaIiAvPjwvc3ZnPg==)
+
+-}
+bellBadge : IconShape
+bellBadge =
+    Material.Icons.Directory.B.bellBadge
 
 
 {-| The [`bell-badge-outline`](https://pictogrammers.com/library/mdi/icon/bell-badge-outline/) icon.
@@ -187,6 +187,16 @@ bellCheckOutline =
     Material.Icons.Directory.B.bellCheckOutline
 
 
+{-| The [`bell-circle`](https://pictogrammers.com/library/mdi/icon/bell-circle/) icon.
+
+![bell-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE3LDE2VjE1TDE2LDE0VjExLjM5QzE2LDEwLjMgMTUuNzMsOS4zNCAxNS4yMSw4LjUzQzE0LjcsNy43MiAxMy45Niw3LjIxIDEzLDdWNi41QTEsMSAwIDAsMCAxMiw1LjVBMSwxIDAgMCwwIDExLDYuNVY3QzEwLjA0LDcuMjEgOS4zLDcuNzIgOC43OSw4LjUzQzguMjcsOS4zNCA4LDEwLjMgOCwxMS4zOVYxNEw3LDE1VjE2SDE3TTEzLjUsMTdIMTAuNUExLjUsMS41IDAgMCwwIDEyLDE4LjVBMS41LDEuNSAwIDAsMCAxMy41LDE3WiIgLz48L3N2Zz4=)
+
+-}
+bellCircle : IconShape
+bellCircle =
+    Material.Icons.Directory.B.bellCircle
+
+
 {-| The [`bell-circle-outline`](https://pictogrammers.com/library/mdi/icon/bell-circle-outline/) icon.
 
 ![bell-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDE2SDdWMTVMOCwxNFYxMS4zOUM4LDEwLjMgOC4yNyw5LjM0IDguNzksOC41M0M5LjMsNy43MiAxMC4wNCw3LjIxIDExLDdWNi41QTEsMSAwIDAsMSAxMiw1LjVBMSwxIDAgMCwxIDEzLDYuNVY3QzEzLjk2LDcuMjEgMTQuNyw3LjcyIDE1LjIxLDguNTNDMTUuNzMsOS4zNCAxNiwxMC4zIDE2LDExLjM5VjE0TDE3LDE1VjE2TTEzLjUsMTdBMS41LDEuNSAwIDAsMSAxMiwxOC41QTEuNSwxLjUgMCAwLDEgMTAuNSwxN0gxMy41TTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTEyLDRBOCw4IDAgMCwwIDQsMTJBOCw4IDAgMCwwIDEyLDIwQTgsOCAwIDAsMCAyMCwxMkE4LDggMCAwLDAgMTIsNFoiIC8+PC9zdmc+)
@@ -207,16 +217,6 @@ bellCog =
     Material.Icons.Directory.B.bellCog
 
 
-{-| The [`bell-minus`](https://pictogrammers.com/library/mdi/icon/bell-minus/) icon.
-
-![bell-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE5VjE3SDE0VjE5SDIyTTEyIDJDMTAuOSAyIDEwIDIuOSAxMCA0QzEwIDQuMSAxMCA0LjE5IDEwIDQuMjlDNy4xMiA1LjE0IDUgNy44MiA1IDExVjE3TDMgMTlWMjBIMTIuMzVDMTIuMTIgMTkuMzYgMTIgMTguNjggMTIgMThDMTIgMTQuNjkgMTQuNjkgMTIgMTggMTJDMTguMzQgMTIgMTguNjcgMTIuMDMgMTkgMTIuMDlWMTFDMTkgNy44MiAxNi44OCA1LjE0IDE0IDQuMjlDMTQgNC4xOSAxNCA0LjEgMTQgNEMxNCAyLjkgMTMuMTEgMiAxMiAyTTEwIDIxQzEwIDIyLjExIDEwLjkgMjMgMTIgMjNDMTIuNjYgMjMgMTMuMjggMjIuNjcgMTMuNjUgMjIuMTNDMTMuMzMgMjEuNzkgMTMuMDUgMjEuNDEgMTIuODEgMjFIMTBaIiAvPjwvc3ZnPg==)
-
--}
-bellMinus : IconShape
-bellMinus =
-    Material.Icons.Directory.B.bellMinus
-
-
 {-| The [`bell-cog-outline`](https://pictogrammers.com/library/mdi/icon/bell-cog-outline/) icon.
 
 ![bell-cog-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjcyIDE5LjVDMjIuNzQgMTkuMzMgMjIuNzUgMTkuMTcgMjIuNzUgMTlTMjIuNzQgMTguNjcgMjIuNzIgMTguNUwyMy43NyAxNy42OEMyMy44NyAxNy42MSAyMy44OSAxNy41IDIzLjgzIDE3LjM2TDIyLjgzIDE1LjY0QzIyLjc3IDE1LjUzIDIyLjY0IDE1LjUgMjIuNTMgMTUuNTNMMjEuMjggMTZDMjEgMTUuODMgMjAuNzUgMTUuNjYgMjAuNDQgMTUuNTRMMjAuMjUgMTQuMjFDMjAuMjMgMTQuMDkgMjAuMTMgMTQgMjAgMTRIMThDMTcuODggMTQgMTcuNzcgMTQuMDkgMTcuNzUgMTQuMjFMMTcuNTcgMTUuNTRDMTcuMjUgMTUuNjYgMTcgMTUuODMgMTYuNzIgMTZMMTUuNSAxNS41M0MxNS4zNyAxNS41IDE1LjIzIDE1LjUzIDE1LjE3IDE1LjY0TDE0LjE3IDE3LjM2QzE0LjExIDE3LjUgMTQuMTQgMTcuNjEgMTQuMjMgMTcuNjhMMTUuMjkgMTguNUMxNS4yNyAxOC42NyAxNS4yNSAxOC44NCAxNS4yNSAxOVMxNS4yNyAxOS4zMyAxNS4yOSAxOS41TDE0LjIzIDIwLjMyQzE0LjE0IDIwLjM5IDE0LjExIDIwLjUzIDE0LjE3IDIwLjY0TDE1LjE3IDIyLjM3QzE1LjIzIDIyLjUgMTUuMzcgMjIuNSAxNS41IDIyLjVMMTYuNzIgMjEuOTdDMTcgMjIuMTcgMTcuMjUgMjIuMzQgMTcuNTcgMjIuNDdMMTcuNzUgMjMuNzlDMTcuNzcgMjMuOTEgMTcuODggMjQgMTggMjRIMjBDMjAuMTMgMjQgMjAuMjMgMjMuOTEgMjAuMjUgMjMuNzlMMjAuNDQgMjIuNDdDMjAuNzUgMjIuMzQgMjEgMjIuMTcgMjEuMjggMjEuOTdMMjIuNTMgMjIuNUMyMi42NCAyMi41IDIyLjc3IDIyLjUgMjIuODMgMjIuMzdMMjMuODMgMjAuNjRDMjMuODkgMjAuNTMgMjMuODcgMjAuMzkgMjMuNzcgMjAuMzJMMjIuNzIgMTkuNU0xOSAyMC43NUMxOC4wNCAyMC43NSAxNy4yNSAxOS45NyAxNy4yNSAxOVMxOC4wNCAxNy4yNSAxOSAxNy4yNSAyMC43NSAxOC4wMyAyMC43NSAxOSAxOS45NyAyMC43NSAxOSAyMC43NU0xMi4wOCAyMEgzVjE5TDUgMTdWMTFDNSA3LjkgNyA1LjIgMTAgNC4zVjRDMTAgMi45IDEwLjkgMiAxMiAyUzE0IDIuOSAxNCA0VjQuM0MxNyA1LjIgMTkgNy45IDE5IDExVjEyQzE4LjMxIDEyIDE3LjYzIDEyLjExIDE3IDEyLjI5VjExQzE3IDguMiAxNC44IDYgMTIgNlM3IDguMiA3IDExVjE4SDEyLjA4QzEyLjAzIDE4LjMzIDEyIDE4LjY2IDEyIDE5QzEyIDE5LjM0IDEyLjAzIDE5LjY3IDEyLjA4IDIwTTEyLjMgMjFDMTIuNSAyMS42IDEyLjc0IDIyLjE3IDEzLjA2IDIyLjY5QzEyLjc1IDIyLjg4IDEyLjM5IDIzIDEyIDIzQzEwLjkgMjMgMTAgMjIuMSAxMCAyMUgxMi4zWiIgLz48L3N2Zz4=)
@@ -227,24 +227,14 @@ bellCogOutline =
     Material.Icons.Directory.B.bellCogOutline
 
 
-{-| The [`bell-circle`](https://pictogrammers.com/library/mdi/icon/bell-circle/) icon.
+{-| The [`bell-minus`](https://pictogrammers.com/library/mdi/icon/bell-minus/) icon.
 
-![bell-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJBMTAsMTAgMCAwLDEgMiwxMkExMCwxMCAwIDAsMSAxMiwyTTE3LDE2VjE1TDE2LDE0VjExLjM5QzE2LDEwLjMgMTUuNzMsOS4zNCAxNS4yMSw4LjUzQzE0LjcsNy43MiAxMy45Niw3LjIxIDEzLDdWNi41QTEsMSAwIDAsMCAxMiw1LjVBMSwxIDAgMCwwIDExLDYuNVY3QzEwLjA0LDcuMjEgOS4zLDcuNzIgOC43OSw4LjUzQzguMjcsOS4zNCA4LDEwLjMgOCwxMS4zOVYxNEw3LDE1VjE2SDE3TTEzLjUsMTdIMTAuNUExLjUsMS41IDAgMCwwIDEyLDE4LjVBMS41LDEuNSAwIDAsMCAxMy41LDE3WiIgLz48L3N2Zz4=)
-
--}
-bellCircle : IconShape
-bellCircle =
-    Material.Icons.Directory.B.bellCircle
-
-
-{-| The [`bell-off`](https://pictogrammers.com/library/mdi/icon/bell-off/) icon.
-
-![bell-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjg0LDIyLjczTDE4LjExLDIwSDNWMTlMNSwxN1YxMUM1LDkuODYgNS4yOSw4LjczIDUuODMsNy43MkwxLjExLDNMMi4zOSwxLjczTDIyLjExLDIxLjQ2TDIwLjg0LDIyLjczTTE5LDE1LjhWMTFDMTksNy45IDE2Ljk3LDUuMTcgMTQsNC4yOUMxNCw0LjE5IDE0LDQuMSAxNCw0QTIsMiAwIDAsMCAxMiwyQTIsMiAwIDAsMCAxMCw0QzEwLDQuMSAxMCw0LjE5IDEwLDQuMjlDOS4zOSw0LjQ3IDguOCw0Ljc0IDguMjYsNS4wOUwxOSwxNS44TTEyLDIzQTIsMiAwIDAsMCAxNCwyMUgxMEEyLDIgMCAwLDAgMTIsMjNaIiAvPjwvc3ZnPg==)
+![bell-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE5VjE3SDE0VjE5SDIyTTEyIDJDMTAuOSAyIDEwIDIuOSAxMCA0QzEwIDQuMSAxMCA0LjE5IDEwIDQuMjlDNy4xMiA1LjE0IDUgNy44MiA1IDExVjE3TDMgMTlWMjBIMTIuMzVDMTIuMTIgMTkuMzYgMTIgMTguNjggMTIgMThDMTIgMTQuNjkgMTQuNjkgMTIgMTggMTJDMTguMzQgMTIgMTguNjcgMTIuMDMgMTkgMTIuMDlWMTFDMTkgNy44MiAxNi44OCA1LjE0IDE0IDQuMjlDMTQgNC4xOSAxNCA0LjEgMTQgNEMxNCAyLjkgMTMuMTEgMiAxMiAyTTEwIDIxQzEwIDIyLjExIDEwLjkgMjMgMTIgMjNDMTIuNjYgMjMgMTMuMjggMjIuNjcgMTMuNjUgMjIuMTNDMTMuMzMgMjEuNzkgMTMuMDUgMjEuNDEgMTIuODEgMjFIMTBaIiAvPjwvc3ZnPg==)
 
 -}
-bellOff : IconShape
-bellOff =
-    Material.Icons.Directory.B.bellOff
+bellMinus : IconShape
+bellMinus =
+    Material.Icons.Directory.B.bellMinus
 
 
 {-| The [`bell-minus-outline`](https://pictogrammers.com/library/mdi/icon/bell-minus-outline/) icon.
@@ -257,14 +247,14 @@ bellMinusOutline =
     Material.Icons.Directory.B.bellMinusOutline
 
 
-{-| The [`bell-outline`](https://pictogrammers.com/library/mdi/icon/bell-outline/) icon.
+{-| The [`bell-off`](https://pictogrammers.com/library/mdi/icon/bell-off/) icon.
 
-![bell-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDIxSDE0QzE0IDIyLjEgMTMuMSAyMyAxMiAyM1MxMCAyMi4xIDEwIDIxTTIxIDE5VjIwSDNWMTlMNSAxN1YxMUM1IDcuOSA3IDUuMiAxMCA0LjNWNEMxMCAyLjkgMTAuOSAyIDEyIDJTMTQgMi45IDE0IDRWNC4zQzE3IDUuMiAxOSA3LjkgMTkgMTFWMTdMMjEgMTlNMTcgMTFDMTcgOC4yIDE0LjggNiAxMiA2UzcgOC4yIDcgMTFWMThIMTdWMTFaIiAvPjwvc3ZnPg==)
+![bell-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjg0LDIyLjczTDE4LjExLDIwSDNWMTlMNSwxN1YxMUM1LDkuODYgNS4yOSw4LjczIDUuODMsNy43MkwxLjExLDNMMi4zOSwxLjczTDIyLjExLDIxLjQ2TDIwLjg0LDIyLjczTTE5LDE1LjhWMTFDMTksNy45IDE2Ljk3LDUuMTcgMTQsNC4yOUMxNCw0LjE5IDE0LDQuMSAxNCw0QTIsMiAwIDAsMCAxMiwyQTIsMiAwIDAsMCAxMCw0QzEwLDQuMSAxMCw0LjE5IDEwLDQuMjlDOS4zOSw0LjQ3IDguOCw0Ljc0IDguMjYsNS4wOUwxOSwxNS44TTEyLDIzQTIsMiAwIDAsMCAxNCwyMUgxMEEyLDIgMCAwLDAgMTIsMjNaIiAvPjwvc3ZnPg==)
 
 -}
-bellOutline : IconShape
-bellOutline =
-    Material.Icons.Directory.B.bellOutline
+bellOff : IconShape
+bellOff =
+    Material.Icons.Directory.B.bellOff
 
 
 {-| The [`bell-off-outline`](https://pictogrammers.com/library/mdi/icon/bell-off-outline/) icon.
@@ -275,6 +265,16 @@ bellOutline =
 bellOffOutline : IconShape
 bellOffOutline =
     Material.Icons.Directory.B.bellOffOutline
+
+
+{-| The [`bell-outline`](https://pictogrammers.com/library/mdi/icon/bell-outline/) icon.
+
+![bell-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDIxSDE0QzE0IDIyLjEgMTMuMSAyMyAxMiAyM1MxMCAyMi4xIDEwIDIxTTIxIDE5VjIwSDNWMTlMNSAxN1YxMUM1IDcuOSA3IDUuMiAxMCA0LjNWNEMxMCAyLjkgMTAuOSAyIDEyIDJTMTQgMi45IDE0IDRWNC4zQzE3IDUuMiAxOSA3LjkgMTkgMTFWMTdMMjEgMTlNMTcgMTFDMTcgOC4yIDE0LjggNiAxMiA2UzcgOC4yIDcgMTFWMThIMTdWMTFaIiAvPjwvc3ZnPg==)
+
+-}
+bellOutline : IconShape
+bellOutline =
+    Material.Icons.Directory.B.bellOutline
 
 
 {-| The [`bell-plus`](https://pictogrammers.com/library/mdi/icon/bell-plus/) icon.
@@ -317,26 +317,6 @@ bellRemoveOutline =
     Material.Icons.Directory.B.bellRemoveOutline
 
 
-{-| The [`bell-ring-outline`](https://pictogrammers.com/library/mdi/icon/bell-ring-outline/) icon.
-
-![bell-ring-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxSDE0QTIsMiAwIDAsMSAxMiwyM0EyLDIgMCAwLDEgMTAsMjFNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsNy45IDcuMDMsNS4xNyAxMCw0LjI5QzEwLDQuMTkgMTAsNC4xIDEwLDRBMiwyIDAgMCwxIDEyLDJBMiwyIDAgMCwxIDE0LDRDMTQsNC4xIDE0LDQuMTkgMTQsNC4yOUMxNi45Nyw1LjE3IDE5LDcuOSAxOSwxMVYxN0wyMSwxOU0xNywxMUE1LDUgMCAwLDAgMTIsNkE1LDUgMCAwLDAgNywxMVYxOEgxN1YxMU0xOS43NSwzLjE5TDE4LjMzLDQuNjFDMjAuMDQsNi4zIDIxLDguNiAyMSwxMUgyM0MyMyw4LjA3IDIxLjg0LDUuMjUgMTkuNzUsMy4xOU0xLDExSDNDMyw4LjYgMy45Niw2LjMgNS42Nyw0LjYxTDQuMjUsMy4xOUMyLjE2LDUuMjUgMSw4LjA3IDEsMTFaIiAvPjwvc3ZnPg==)
-
--}
-bellRingOutline : IconShape
-bellRingOutline =
-    Material.Icons.Directory.B.bellRingOutline
-
-
-{-| The [`bell-sleep-outline`](https://pictogrammers.com/library/mdi/icon/bell-sleep-outline/) icon.
-
-![bell-sleep-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxSDE0QTIsMiAwIDAsMSAxMiwyM0EyLDIgMCAwLDEgMTAsMjFNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsNy45IDcuMDMsNS4xNyAxMCw0LjI5QzEwLDQuMTkgMTAsNC4xIDEwLDRBMiwyIDAgMCwxIDEyLDJBMiwyIDAgMCwxIDE0LDRDMTQsNC4xIDE0LDQuMTkgMTQsNC4yOUMxNi45Nyw1LjE3IDE5LDcuOSAxOSwxMVYxN0wyMSwxOU0xNywxMUE1LDUgMCAwLDAgMTIsNkE1LDUgMCAwLDAgNywxMVYxOEgxN1YxMU05LDlWMTFIMTIuMjRMOSwxMy43VjE2SDE1VjE0SDExLjc2TDE1LDExLjNWOUg5WiIgLz48L3N2Zz4=)
-
--}
-bellSleepOutline : IconShape
-bellSleepOutline =
-    Material.Icons.Directory.B.bellSleepOutline
-
-
 {-| The [`bell-ring`](https://pictogrammers.com/library/mdi/icon/bell-ring/) icon.
 
 ![bell-ring](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE5VjIwSDNWMTlMNSwxN1YxMUM1LDcuOSA3LjAzLDUuMTcgMTAsNC4yOUMxMCw0LjE5IDEwLDQuMSAxMCw0QTIsMiAwIDAsMSAxMiwyQTIsMiAwIDAsMSAxNCw0QzE0LDQuMSAxNCw0LjE5IDE0LDQuMjlDMTYuOTcsNS4xNyAxOSw3LjkgMTksMTFWMTdMMjEsMTlNMTQsMjFBMiwyIDAgMCwxIDEyLDIzQTIsMiAwIDAsMSAxMCwyMU0xOS43NSwzLjE5TDE4LjMzLDQuNjFDMjAuMDQsNi4zIDIxLDguNiAyMSwxMUgyM0MyMyw4LjA3IDIxLjg0LDUuMjUgMTkuNzUsMy4xOU0xLDExSDNDMyw4LjYgMy45Niw2LjMgNS42Nyw0LjYxTDQuMjUsMy4xOUMyLjE2LDUuMjUgMSw4LjA3IDEsMTFaIiAvPjwvc3ZnPg==)
@@ -347,6 +327,16 @@ bellRing =
     Material.Icons.Directory.B.bellRing
 
 
+{-| The [`bell-ring-outline`](https://pictogrammers.com/library/mdi/icon/bell-ring-outline/) icon.
+
+![bell-ring-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxSDE0QTIsMiAwIDAsMSAxMiwyM0EyLDIgMCAwLDEgMTAsMjFNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsNy45IDcuMDMsNS4xNyAxMCw0LjI5QzEwLDQuMTkgMTAsNC4xIDEwLDRBMiwyIDAgMCwxIDEyLDJBMiwyIDAgMCwxIDE0LDRDMTQsNC4xIDE0LDQuMTkgMTQsNC4yOUMxNi45Nyw1LjE3IDE5LDcuOSAxOSwxMVYxN0wyMSwxOU0xNywxMUE1LDUgMCAwLDAgMTIsNkE1LDUgMCAwLDAgNywxMVYxOEgxN1YxMU0xOS43NSwzLjE5TDE4LjMzLDQuNjFDMjAuMDQsNi4zIDIxLDguNiAyMSwxMUgyM0MyMyw4LjA3IDIxLjg0LDUuMjUgMTkuNzUsMy4xOU0xLDExSDNDMyw4LjYgMy45Niw2LjMgNS42Nyw0LjYxTDQuMjUsMy4xOUMyLjE2LDUuMjUgMSw4LjA3IDEsMTFaIiAvPjwvc3ZnPg==)
+
+-}
+bellRingOutline : IconShape
+bellRingOutline =
+    Material.Icons.Directory.B.bellRingOutline
+
+
 {-| The [`bell-sleep`](https://pictogrammers.com/library/mdi/icon/bell-sleep/) icon.
 
 ![bell-sleep](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxSDE0QTIsMiAwIDAsMSAxMiwyM0EyLDIgMCAwLDEgMTAsMjFNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsNy45IDcuMDMsNS4xNyAxMCw0LjI5QzEwLDQuMTkgMTAsNC4xIDEwLDRBMiwyIDAgMCwxIDEyLDJBMiwyIDAgMCwxIDE0LDRDMTQsNC4xIDE0LDQuMTkgMTQsNC4yOUMxNi45Nyw1LjE3IDE5LDcuOSAxOSwxMVYxN0wyMSwxOU0xNSw5SDlWMTFIMTIuMjRMOSwxMy43VjE2SDE1VjE0SDExLjc2TDE1LDExLjNWOVoiIC8+PC9zdmc+)
@@ -355,6 +345,16 @@ bellRing =
 bellSleep : IconShape
 bellSleep =
     Material.Icons.Directory.B.bellSleep
+
+
+{-| The [`bell-sleep-outline`](https://pictogrammers.com/library/mdi/icon/bell-sleep-outline/) icon.
+
+![bell-sleep-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwLDIxSDE0QTIsMiAwIDAsMSAxMiwyM0EyLDIgMCAwLDEgMTAsMjFNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsNy45IDcuMDMsNS4xNyAxMCw0LjI5QzEwLDQuMTkgMTAsNC4xIDEwLDRBMiwyIDAgMCwxIDEyLDJBMiwyIDAgMCwxIDE0LDRDMTQsNC4xIDE0LDQuMTkgMTQsNC4yOUMxNi45Nyw1LjE3IDE5LDcuOSAxOSwxMVYxN0wyMSwxOU0xNywxMUE1LDUgMCAwLDAgMTIsNkE1LDUgMCAwLDAgNywxMVYxOEgxN1YxMU05LDlWMTFIMTIuMjRMOSwxMy43VjE2SDE1VjE0SDExLjc2TDE1LDExLjNWOUg5WiIgLz48L3N2Zz4=)
+
+-}
+bellSleepOutline : IconShape
+bellSleepOutline =
+    Material.Icons.Directory.B.bellSleepOutline
 
 
 {-| The [`checkbox-blank-badge`](https://pictogrammers.com/library/mdi/icon/checkbox-blank-badge/) icon.

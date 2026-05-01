@@ -18,17 +18,17 @@ module Material.Icons.Categories.Music exposing
     , disc
     , earbuds
     , earbudsOff
-    , earbudsOutline
     , earbudsOffOutline
+    , earbudsOutline
     , eightTrack
-    , fileMusicOutline
     , fileMusic
-    , folderMusicOutline
+    , fileMusicOutline
     , folderMusic
+    , folderMusicOutline
     , guitarAcoustic
     , guitarElectric
-    , guitarPickOutline
     , guitarPick
+    , guitarPickOutline
     , headphones
     , headphonesBox
     , headphonesOff
@@ -38,8 +38,8 @@ module Material.Icons.Categories.Music exposing
     , microphone
     , microphoneOff
     , microphoneOutline
-    , microphoneQuestionOutline
     , microphoneQuestion
+    , microphoneQuestionOutline
     , microphoneVariant
     , microphoneVariantOff
     , midiPort
@@ -47,28 +47,28 @@ module Material.Icons.Categories.Music exposing
     , musicAccidentalDoubleFlat
     , musicAccidentalDoubleSharp
     , musicAccidentalFlat
-    , musicAccidentalSharp
     , musicAccidentalNatural
+    , musicAccidentalSharp
     , musicBox
+    , musicBoxMultiple
     , musicBoxMultipleOutline
     , musicBoxOutline
-    , musicBoxMultiple
     , musicCircle
     , musicCircleOutline
     , musicClefAlto
     , musicClefBass
+    , musicClefTreble
     , musicNote
     , musicNoteBluetooth
-    , musicClefTreble
-    , musicNoteEighth
     , musicNoteBluetoothOff
+    , musicNoteEighth
     , musicNoteEighthDotted
     , musicNoteHalf
     , musicNoteHalfDotted
     , musicNoteOff
     , musicNoteOffOutline
-    , musicNotePlus
     , musicNoteOutline
+    , musicNotePlus
     , musicNoteQuarter
     , musicNoteQuarterDotted
     , musicNoteSixteenth
@@ -77,8 +77,8 @@ module Material.Icons.Categories.Music exposing
     , musicNoteWholeDotted
     , musicOff
     , musicRestEighth
-    , musicRestQuarter
     , musicRestHalf
+    , musicRestQuarter
     , musicRestSixteenth
     , musicRestWhole
     , ocarina
@@ -92,8 +92,8 @@ module Material.Icons.Categories.Music exposing
     , speakerPause
     , speakerPlay
     , speakerStop
-    , timerMusicOutline
     , timerMusic
+    , timerMusicOutline
     , trumpet
     , violin
     )
@@ -115,17 +115,17 @@ module Material.Icons.Categories.Music exposing
 @docs disc
 @docs earbuds
 @docs earbudsOff
-@docs earbudsOutline
 @docs earbudsOffOutline
+@docs earbudsOutline
 @docs eightTrack
-@docs fileMusicOutline
 @docs fileMusic
-@docs folderMusicOutline
+@docs fileMusicOutline
 @docs folderMusic
+@docs folderMusicOutline
 @docs guitarAcoustic
 @docs guitarElectric
-@docs guitarPickOutline
 @docs guitarPick
+@docs guitarPickOutline
 @docs headphones
 @docs headphonesBox
 @docs headphonesOff
@@ -135,8 +135,8 @@ module Material.Icons.Categories.Music exposing
 @docs microphone
 @docs microphoneOff
 @docs microphoneOutline
-@docs microphoneQuestionOutline
 @docs microphoneQuestion
+@docs microphoneQuestionOutline
 @docs microphoneVariant
 @docs microphoneVariantOff
 @docs midiPort
@@ -144,28 +144,28 @@ module Material.Icons.Categories.Music exposing
 @docs musicAccidentalDoubleFlat
 @docs musicAccidentalDoubleSharp
 @docs musicAccidentalFlat
-@docs musicAccidentalSharp
 @docs musicAccidentalNatural
+@docs musicAccidentalSharp
 @docs musicBox
+@docs musicBoxMultiple
 @docs musicBoxMultipleOutline
 @docs musicBoxOutline
-@docs musicBoxMultiple
 @docs musicCircle
 @docs musicCircleOutline
 @docs musicClefAlto
 @docs musicClefBass
+@docs musicClefTreble
 @docs musicNote
 @docs musicNoteBluetooth
-@docs musicClefTreble
-@docs musicNoteEighth
 @docs musicNoteBluetoothOff
+@docs musicNoteEighth
 @docs musicNoteEighthDotted
 @docs musicNoteHalf
 @docs musicNoteHalfDotted
 @docs musicNoteOff
 @docs musicNoteOffOutline
-@docs musicNotePlus
 @docs musicNoteOutline
+@docs musicNotePlus
 @docs musicNoteQuarter
 @docs musicNoteQuarterDotted
 @docs musicNoteSixteenth
@@ -174,8 +174,8 @@ module Material.Icons.Categories.Music exposing
 @docs musicNoteWholeDotted
 @docs musicOff
 @docs musicRestEighth
-@docs musicRestQuarter
 @docs musicRestHalf
+@docs musicRestQuarter
 @docs musicRestSixteenth
 @docs musicRestWhole
 @docs ocarina
@@ -189,8 +189,8 @@ module Material.Icons.Categories.Music exposing
 @docs speakerPause
 @docs speakerPlay
 @docs speakerStop
-@docs timerMusicOutline
 @docs timerMusic
+@docs timerMusicOutline
 @docs trumpet
 @docs violin
 
@@ -364,16 +364,6 @@ earbudsOff =
     Material.Icons.Directory.E.earbudsOff
 
 
-{-| The [`earbuds-outline`](https://pictogrammers.com/library/mdi/icon/earbuds-outline/) icon.
-
-![earbuds-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUgM0MzIDMgMiA1IDIgNlYxMUMyIDEyIDMgMTQgNSAxNEM1LjYxIDE0IDYuMzIgMTMuNzIgNyAxMy4yN1YyMEM3IDIwLjU1IDcuNDUgMjEgOCAyMUg5QzkuNTUgMjEgMTAgMjAuNTUgMTAgMjBWOEMxMCA2IDcgMyA1IDNNOCAxMC4yM0w1LjkxIDExLjZDNS40IDExLjkzIDUuMDggMTIgNSAxMkM0LjMgMTIgNCAxMS4wOCA0IDExTDQgNi4wM0M0IDUuOTIgNC4zIDUgNSA1QzUuOSA1IDggNy4xIDggOFYxMC4yM00xNi41IDE1QzE3LjIgMTUgMTcuODcgMTQuODkgMTguNSAxNC42OFYyMEMxOC41IDIwLjU1IDE4LjA1IDIxIDE3LjUgMjFIMTUuNUMxNC45NSAyMSAxNC41IDIwLjU1IDE0LjUgMjBWMTQuNjhDMTUuMTMgMTQuODkgMTUuOCAxNSAxNi41IDE1TTE2LjUgM0MxMy40NiAzIDExIDUuNDYgMTEgOC41UzEzLjQ2IDE0IDE2LjUgMTQgMjIgMTEuNTQgMjIgOC41IDE5LjU0IDMgMTYuNSAzTTE2LjUgMTJDMTQuNTcgMTIgMTMgMTAuNDMgMTMgOC41UzE0LjU3IDUgMTYuNSA1IDIwIDYuNTcgMjAgOC41IDE4LjQzIDEyIDE2LjUgMTJaIiAvPjwvc3ZnPg==)
-
--}
-earbudsOutline : IconShape
-earbudsOutline =
-    Material.Icons.Directory.E.earbudsOutline
-
-
 {-| The [`earbuds-off-outline`](https://pictogrammers.com/library/mdi/icon/earbuds-off-outline/) icon.
 
 ![earbuds-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDE4LjUgMTcuODVWMTcuODRMMTUuNTggMTQuOTNMMTUuNTggMTQuOTNMMTQuMDkgMTMuNDRMMTQuMSAxMy40NEwxMS41NiAxMC45TDExLjU2IDEwLjlMMTAgOS4zNFY5LjM0TDcgNi4zNEw3IDYuMzRMNi42NiA2TDYuNjcgNkw2LjEgNS40NEwyLjM5IDEuNzNMMS4xMSAzTDIuNTUgNC40M0MyLjE5IDUgMiA1LjU4IDIgNlYxMUMyIDEyIDMgMTQgNSAxNEM1LjYxIDE0IDYuMzIgMTMuNzIgNyAxMy4yN1YyMEM3IDIwLjU1IDcuNDUgMjEgOCAyMUg5QzkuNTUgMjEgMTAgMjAuNTUgMTAgMjBWMTEuODlMMTQuNSAxNi4zOVYyMEMxNC41IDIwLjU1IDE0Ljk1IDIxIDE1LjUgMjFIMTcuNUMxNy45NCAyMSAxOC4zIDIwLjcyIDE4LjQzIDIwLjMyTDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTggMTAuMjNMNS45MSAxMS42QzUuNCAxMS45MyA1LjA4IDEyIDUgMTJDNC4zIDEyIDQgMTEuMDggNCAxMUw0IDYuMDNDNCA2IDQgNS45NyA0LjAzIDUuOTJMOCA5Ljg5VjEwLjIzTTEzLjUzIDEwLjMzTDExLjA0IDcuODRDMTEuMzcgNS4xMiAxMy42OSAzIDE2LjUgM0MxOS41NCAzIDIyIDUuNDYgMjIgOC41QzIyIDExLjMyIDE5Ljg5IDEzLjYzIDE3LjE2IDEzLjk2TDE0LjY3IDExLjQ3QzE1LjIgMTEuOCAxNS44MyAxMiAxNi41IDEyQzE4LjQzIDEyIDIwIDEwLjQzIDIwIDguNVMxOC40MyA1IDE2LjUgNSAxMyA2LjU3IDEzIDguNUMxMyA5LjE3IDEzLjIgOS44IDEzLjUzIDEwLjMzWiIgLz48L3N2Zz4=)
@@ -382,6 +372,16 @@ earbudsOutline =
 earbudsOffOutline : IconShape
 earbudsOffOutline =
     Material.Icons.Directory.E.earbudsOffOutline
+
+
+{-| The [`earbuds-outline`](https://pictogrammers.com/library/mdi/icon/earbuds-outline/) icon.
+
+![earbuds-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUgM0MzIDMgMiA1IDIgNlYxMUMyIDEyIDMgMTQgNSAxNEM1LjYxIDE0IDYuMzIgMTMuNzIgNyAxMy4yN1YyMEM3IDIwLjU1IDcuNDUgMjEgOCAyMUg5QzkuNTUgMjEgMTAgMjAuNTUgMTAgMjBWOEMxMCA2IDcgMyA1IDNNOCAxMC4yM0w1LjkxIDExLjZDNS40IDExLjkzIDUuMDggMTIgNSAxMkM0LjMgMTIgNCAxMS4wOCA0IDExTDQgNi4wM0M0IDUuOTIgNC4zIDUgNSA1QzUuOSA1IDggNy4xIDggOFYxMC4yM00xNi41IDE1QzE3LjIgMTUgMTcuODcgMTQuODkgMTguNSAxNC42OFYyMEMxOC41IDIwLjU1IDE4LjA1IDIxIDE3LjUgMjFIMTUuNUMxNC45NSAyMSAxNC41IDIwLjU1IDE0LjUgMjBWMTQuNjhDMTUuMTMgMTQuODkgMTUuOCAxNSAxNi41IDE1TTE2LjUgM0MxMy40NiAzIDExIDUuNDYgMTEgOC41UzEzLjQ2IDE0IDE2LjUgMTQgMjIgMTEuNTQgMjIgOC41IDE5LjU0IDMgMTYuNSAzTTE2LjUgMTJDMTQuNTcgMTIgMTMgMTAuNDMgMTMgOC41UzE0LjU3IDUgMTYuNSA1IDIwIDYuNTcgMjAgOC41IDE4LjQzIDEyIDE2LjUgMTJaIiAvPjwvc3ZnPg==)
+
+-}
+earbudsOutline : IconShape
+earbudsOutline =
+    Material.Icons.Directory.E.earbudsOutline
 
 
 {-| The [`eight-track`](https://pictogrammers.com/library/mdi/icon/eight-track/) icon.
@@ -394,16 +394,6 @@ eightTrack =
     Material.Icons.Directory.E.eightTrack
 
 
-{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
-
-![file-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDJMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkEyLDIgMCAwLDEgNCwyMFY0QTIsMiAwIDAsMSA2LDJIMTRNMTgsMjBWOUgxM1Y0SDZWMjBIMThNMTMsMTBWMTJIMTFWMTdBMiwyIDAgMCwxIDksMTlBMiwyIDAgMCwxIDcsMTdBMiwyIDAgMCwxIDksMTVDOS40LDE1IDkuNywxNS4xIDEwLDE1LjNWMTBIMTNaIiAvPjwvc3ZnPg==)
-
--}
-fileMusicOutline : IconShape
-fileMusicOutline =
-    Material.Icons.Directory.F.fileMusicOutline
-
-
 {-| The [`file-music`](https://pictogrammers.com/library/mdi/icon/file-music/) icon.
 
 ![file-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDJINkEyLDIgMCAwLDAgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDE4QTIsMiAwIDAsMCAyMCwyMFY4TDE0LDJNMTMsMTNIMTFWMThBMiwyIDAgMCwxIDksMjBBMiwyIDAgMCwxIDcsMThBMiwyIDAgMCwxIDksMTZDOS40LDE2IDkuNywxNi4xIDEwLDE2LjNWMTFIMTNWMTNNMTMsOVYzLjVMMTguNSw5SDEzWiIgLz48L3N2Zz4=)
@@ -414,14 +404,14 @@ fileMusic =
     Material.Icons.Directory.F.fileMusic
 
 
-{-| The [`folder-music-outline`](https://pictogrammers.com/library/mdi/icon/folder-music-outline/) icon.
+{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
 
-![folder-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTFIMjBWOEg0VjE4SDEzLjc4QzEzLjM4IDE4LjU5IDEzLjEzIDE5LjI2IDEzLjA0IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOE0xOC41IDEzVjE4LjIxQzE4LjE5IDE4LjA3IDE3Ljg2IDE4IDE3LjUgMThDMTYuMTIgMTggMTUgMTkuMTIgMTUgMjAuNVMxNi4xMiAyMyAxNy41IDIzIDIwIDIxLjg4IDIwIDIwLjVWMTVIMjJWMTNIMTguNVoiIC8+PC9zdmc+)
+![file-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDJMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkEyLDIgMCAwLDEgNCwyMFY0QTIsMiAwIDAsMSA2LDJIMTRNMTgsMjBWOUgxM1Y0SDZWMjBIMThNMTMsMTBWMTJIMTFWMTdBMiwyIDAgMCwxIDksMTlBMiwyIDAgMCwxIDcsMTdBMiwyIDAgMCwxIDksMTVDOS40LDE1IDkuNywxNS4xIDEwLDE1LjNWMTBIMTNaIiAvPjwvc3ZnPg==)
 
 -}
-folderMusicOutline : IconShape
-folderMusicOutline =
-    Material.Icons.Directory.F.folderMusicOutline
+fileMusicOutline : IconShape
+fileMusicOutline =
+    Material.Icons.Directory.F.fileMusicOutline
 
 
 {-| The [`folder-music`](https://pictogrammers.com/library/mdi/icon/folder-music/) icon.
@@ -432,6 +422,16 @@ folderMusicOutline =
 folderMusic : IconShape
 folderMusic =
     Material.Icons.Directory.F.folderMusic
+
+
+{-| The [`folder-music-outline`](https://pictogrammers.com/library/mdi/icon/folder-music-outline/) icon.
+
+![folder-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTFIMjBWOEg0VjE4SDEzLjc4QzEzLjM4IDE4LjU5IDEzLjEzIDE5LjI2IDEzLjA0IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOE0xOC41IDEzVjE4LjIxQzE4LjE5IDE4LjA3IDE3Ljg2IDE4IDE3LjUgMThDMTYuMTIgMTggMTUgMTkuMTIgMTUgMjAuNVMxNi4xMiAyMyAxNy41IDIzIDIwIDIxLjg4IDIwIDIwLjVWMTVIMjJWMTNIMTguNVoiIC8+PC9zdmc+)
+
+-}
+folderMusicOutline : IconShape
+folderMusicOutline =
+    Material.Icons.Directory.F.folderMusicOutline
 
 
 {-| The [`guitar-acoustic`](https://pictogrammers.com/library/mdi/icon/guitar-acoustic/) icon.
@@ -454,16 +454,6 @@ guitarElectric =
     Material.Icons.Directory.G.guitarElectric
 
 
-{-| The [`guitar-pick-outline`](https://pictogrammers.com/library/mdi/icon/guitar-pick-outline/) icon.
-
-![guitar-pick-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDQuMUMxOC4xLDMuMyAxNywyLjggMTUuOCwyLjVDMTUuNSwyLjQgMTMuNiwyIDEyLjIsMkMxMi4yLDIgMTIuMSwyIDEyLDJDMTIsMiAxMS45LDIgMTEuOCwyQzEwLjQsMiA4LjQsMi40IDguMSwyLjVDNywyLjggNS45LDMuMyA1LDQuMUMzLDUuOSAzLDguNyA0LDExQzUsMTMuNSA2LjEsMTUuNyA3LjYsMTcuOUM4LjgsMTkuNiAxMC4xLDIyIDEyLDIyQzEzLjksMjIgMTUuMiwxOS42IDE2LjUsMTcuOUMxOCwxNS44IDE5LjEsMTMuNSAyMC4xLDExQzIxLDguNyAyMSw1LjkgMTksNC4xTTE4LjIsMTAuMkMxNy4xLDEyLjkgMTYuMSwxNC45IDE0LjgsMTYuN0MxNC42LDE2LjkgMTQuNSwxNy4yIDE0LjMsMTcuNEMxMy44LDE4LjIgMTIuNiwyMCAxMiwyMEMxMiwyMCAxMiwyMCAxMiwyMEMxMS4zLDIwIDEwLjIsMTguMyA5LjYsMTcuNEM5LjQsMTcuMiA5LjMsMTYuOSA5LjEsMTYuN0M3LjksMTQuOSA2LjgsMTIuOSA1LjcsMTAuMkM1LjUsOS41IDQuNyw3IDYuMyw1LjVDNi44LDUgNy42LDQuNyA4LjYsNC40QzksNC40IDEwLjcsNCAxMS44LDRDMTEuOCw0IDEyLjEsNCAxMi4xLDRDMTMuMiw0IDE0LjksNC4zIDE1LjMsNC40QzE2LjMsNC43IDE3LjEsNSAxNy42LDUuNUMxOS4zLDcgMTguNSw5LjUgMTguMiwxMC4yWiIgLz48L3N2Zz4=)
-
--}
-guitarPickOutline : IconShape
-guitarPickOutline =
-    Material.Icons.Directory.G.guitarPickOutline
-
-
 {-| The [`guitar-pick`](https://pictogrammers.com/library/mdi/icon/guitar-pick/) icon.
 
 ![guitar-pick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDQuMUMxOC4xLDMuMyAxNywyLjggMTUuOCwyLjVDMTUuNSwyLjQgMTMuNiwyIDEyLjIsMkMxMi4yLDIgMTIuMSwyIDEyLDJDMTIsMiAxMS45LDIgMTEuOCwyQzEwLjQsMiA4LjQsMi40IDguMSwyLjVDNywyLjggNS45LDMuMyA1LDQuMUMzLDUuOSAzLDguNyA0LDExQzUsMTMuNSA2LjEsMTUuNyA3LjYsMTcuOUM4LjgsMTkuNiAxMC4xLDIyIDEyLDIyQzEzLjksMjIgMTUuMiwxOS42IDE2LjUsMTcuOUMxOCwxNS44IDE5LjEsMTMuNSAyMC4xLDExQzIxLDguNyAyMSw1LjkgMTksNC4xWiIgLz48L3N2Zz4=)
@@ -472,6 +462,16 @@ guitarPickOutline =
 guitarPick : IconShape
 guitarPick =
     Material.Icons.Directory.G.guitarPick
+
+
+{-| The [`guitar-pick-outline`](https://pictogrammers.com/library/mdi/icon/guitar-pick-outline/) icon.
+
+![guitar-pick-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDQuMUMxOC4xLDMuMyAxNywyLjggMTUuOCwyLjVDMTUuNSwyLjQgMTMuNiwyIDEyLjIsMkMxMi4yLDIgMTIuMSwyIDEyLDJDMTIsMiAxMS45LDIgMTEuOCwyQzEwLjQsMiA4LjQsMi40IDguMSwyLjVDNywyLjggNS45LDMuMyA1LDQuMUMzLDUuOSAzLDguNyA0LDExQzUsMTMuNSA2LjEsMTUuNyA3LjYsMTcuOUM4LjgsMTkuNiAxMC4xLDIyIDEyLDIyQzEzLjksMjIgMTUuMiwxOS42IDE2LjUsMTcuOUMxOCwxNS44IDE5LjEsMTMuNSAyMC4xLDExQzIxLDguNyAyMSw1LjkgMTksNC4xTTE4LjIsMTAuMkMxNy4xLDEyLjkgMTYuMSwxNC45IDE0LjgsMTYuN0MxNC42LDE2LjkgMTQuNSwxNy4yIDE0LjMsMTcuNEMxMy44LDE4LjIgMTIuNiwyMCAxMiwyMEMxMiwyMCAxMiwyMCAxMiwyMEMxMS4zLDIwIDEwLjIsMTguMyA5LjYsMTcuNEM5LjQsMTcuMiA5LjMsMTYuOSA5LjEsMTYuN0M3LjksMTQuOSA2LjgsMTIuOSA1LjcsMTAuMkM1LjUsOS41IDQuNyw3IDYuMyw1LjVDNi44LDUgNy42LDQuNyA4LjYsNC40QzksNC40IDEwLjcsNCAxMS44LDRDMTEuOCw0IDEyLjEsNCAxMi4xLDRDMTMuMiw0IDE0LjksNC4zIDE1LjMsNC40QzE2LjMsNC43IDE3LjEsNSAxNy42LDUuNUMxOS4zLDcgMTguNSw5LjUgMTguMiwxMC4yWiIgLz48L3N2Zz4=)
+
+-}
+guitarPickOutline : IconShape
+guitarPickOutline =
+    Material.Icons.Directory.G.guitarPickOutline
 
 
 {-| The [`headphones`](https://pictogrammers.com/library/mdi/icon/headphones/) icon.
@@ -564,16 +564,6 @@ microphoneOutline =
     Material.Icons.Directory.M.microphoneOutline
 
 
-{-| The [`microphone-question-outline`](https://pictogrammers.com/library/mdi/icon/microphone-question-outline/) icon.
-
-![microphone-question-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjMgMTFDMTQuMyAxNCAxMS43NiAxNi4xIDkgMTYuMVMzLjcgMTQgMy43IDExSDJDMiAxNC40MSA0LjcyIDE3LjIzIDggMTcuNzJWMjFIMTBWMTcuNzJDMTMuMjggMTcuMjMgMTYgMTQuNDEgMTYgMTFNNy44IDQuOUM3LjggNC4yNCA4LjM0IDMuNyA5IDMuN1MxMC4yIDQuMjQgMTAuMiA0LjlMMTAuMTkgMTEuMUMxMC4xOSAxMS43NiA5LjY2IDEyLjMgOSAxMi4zUzcuOCAxMS43NiA3LjggMTEuMU05IDE0QzEwLjY2IDE0IDEyIDEyLjY2IDEyIDExVjVDMTIgMy4zNCAxMC42NiAyIDkgMlM2IDMuMzQgNiA1VjExQzYgMTIuNjYgNy4zNCAxNCA5IDE0TTIwLjUgMTQuNVYxNkgxOVYxNC41SDIwLjVNMTguNSA5LjVIMTdWOUMxNyA3LjM0IDE4LjM0IDYgMjAgNlMyMyA3LjM0IDIzIDlDMjMgOS45NyAyMi41IDEwLjg4IDIxLjcxIDExLjQxTDIxLjQxIDExLjZDMjAuODQgMTIgMjAuNSAxMi42MSAyMC41IDEzLjNWMTMuNUgxOVYxMy4zQzE5IDEyLjExIDE5LjYgMTEgMjAuNTkgMTAuMzVMMjAuODggMTAuMTZDMjEuMjcgOS45IDIxLjUgOS40NyAyMS41IDlDMjEuNSA4LjE3IDIwLjgzIDcuNSAyMCA3LjVTMTguNSA4LjE3IDE4LjUgOVY5LjVaIiAvPjwvc3ZnPg==)
-
--}
-microphoneQuestionOutline : IconShape
-microphoneQuestionOutline =
-    Material.Icons.Directory.M.microphoneQuestionOutline
-
-
 {-| The [`microphone-question`](https://pictogrammers.com/library/mdi/icon/microphone-question/) icon.
 
 ![microphone-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgMkMxMC42NiAyIDEyIDMuMzQgMTIgNVYxMUMxMiAxMi42NiAxMC42NiAxNCA5IDE0UzYgMTIuNjYgNiAxMVY1QzYgMy4zNCA3LjM0IDIgOSAyTTE2IDExQzE2IDE0LjUzIDEzLjM5IDE3LjQ0IDEwIDE3LjkzVjIxSDhWMTcuOTNDNC42MSAxNy40NCAyIDE0LjUzIDIgMTFINEM0IDEzLjc2IDYuMjQgMTYgOSAxNlMxNCAxMy43NiAxNCAxMUgxNk0yMC41IDE0LjVWMTZIMTlWMTQuNUgyMC41TTE4LjUgOS41SDE3VjlDMTcgNy4zNCAxOC4zNCA2IDIwIDZTMjMgNy4zNCAyMyA5QzIzIDkuOTcgMjIuNSAxMC44OCAyMS43MSAxMS40MUwyMS40MSAxMS42QzIwLjg0IDEyIDIwLjUgMTIuNjEgMjAuNSAxMy4zVjEzLjVIMTlWMTMuM0MxOSAxMi4xMSAxOS42IDExIDIwLjU5IDEwLjM1TDIwLjg4IDEwLjE2QzIxLjI3IDkuOSAyMS41IDkuNDcgMjEuNSA5QzIxLjUgOC4xNyAyMC44MyA3LjUgMjAgNy41UzE4LjUgOC4xNyAxOC41IDlWOS41WiIgLz48L3N2Zz4=)
@@ -582,6 +572,16 @@ microphoneQuestionOutline =
 microphoneQuestion : IconShape
 microphoneQuestion =
     Material.Icons.Directory.M.microphoneQuestion
+
+
+{-| The [`microphone-question-outline`](https://pictogrammers.com/library/mdi/icon/microphone-question-outline/) icon.
+
+![microphone-question-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjMgMTFDMTQuMyAxNCAxMS43NiAxNi4xIDkgMTYuMVMzLjcgMTQgMy43IDExSDJDMiAxNC40MSA0LjcyIDE3LjIzIDggMTcuNzJWMjFIMTBWMTcuNzJDMTMuMjggMTcuMjMgMTYgMTQuNDEgMTYgMTFNNy44IDQuOUM3LjggNC4yNCA4LjM0IDMuNyA5IDMuN1MxMC4yIDQuMjQgMTAuMiA0LjlMMTAuMTkgMTEuMUMxMC4xOSAxMS43NiA5LjY2IDEyLjMgOSAxMi4zUzcuOCAxMS43NiA3LjggMTEuMU05IDE0QzEwLjY2IDE0IDEyIDEyLjY2IDEyIDExVjVDMTIgMy4zNCAxMC42NiAyIDkgMlM2IDMuMzQgNiA1VjExQzYgMTIuNjYgNy4zNCAxNCA5IDE0TTIwLjUgMTQuNVYxNkgxOVYxNC41SDIwLjVNMTguNSA5LjVIMTdWOUMxNyA3LjM0IDE4LjM0IDYgMjAgNlMyMyA3LjM0IDIzIDlDMjMgOS45NyAyMi41IDEwLjg4IDIxLjcxIDExLjQxTDIxLjQxIDExLjZDMjAuODQgMTIgMjAuNSAxMi42MSAyMC41IDEzLjNWMTMuNUgxOVYxMy4zQzE5IDEyLjExIDE5LjYgMTEgMjAuNTkgMTAuMzVMMjAuODggMTAuMTZDMjEuMjcgOS45IDIxLjUgOS40NyAyMS41IDlDMjEuNSA4LjE3IDIwLjgzIDcuNSAyMCA3LjVTMTguNSA4LjE3IDE4LjUgOVY5LjVaIiAvPjwvc3ZnPg==)
+
+-}
+microphoneQuestionOutline : IconShape
+microphoneQuestionOutline =
+    Material.Icons.Directory.M.microphoneQuestionOutline
 
 
 {-| The [`microphone-variant`](https://pictogrammers.com/library/mdi/icon/microphone-variant/) icon.
@@ -654,16 +654,6 @@ musicAccidentalFlat =
     Material.Icons.Directory.M.musicAccidentalFlat
 
 
-{-| The [`music-accidental-sharp`](https://pictogrammers.com/library/mdi/icon/music-accidental-sharp/) icon.
-
-![music-accidental-sharp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDkuNVY3LjVMMTUgOC4xVjUuNUgxM1Y4LjdMMTEgOS4zVjYuNUg5VjkuOUw3IDEwLjVWMTIuNUw5IDExLjlWMTMuOUw3IDE0LjVWMTYuNUw5IDE1LjlWMTguNUgxMVYxNS4zTDEzIDE0LjdWMTcuNUgxNVYxNC4xTDE3IDEzLjVWMTEuNUwxNSAxMi4xVjEwLjFMMTcgOS41TTEzIDEyLjdMMTEgMTMuM1YxMS4zTDEzIDEwLjdWMTIuN1oiIC8+PC9zdmc+)
-
--}
-musicAccidentalSharp : IconShape
-musicAccidentalSharp =
-    Material.Icons.Directory.M.musicAccidentalSharp
-
-
 {-| The [`music-accidental-natural`](https://pictogrammers.com/library/mdi/icon/music-accidental-natural/) icon.
 
 ![music-accidental-natural](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDguNzVWMy41SDhWMTcuNUwxNCAxNS4yNVYyMC41SDE2VjYuNUwxMCA4Ljc1TTE0IDEzLjI1TDEwIDE0Ljc1VjEwLjc1TDE0IDkuMjVWMTMuMjVaIiAvPjwvc3ZnPg==)
@@ -674,6 +664,16 @@ musicAccidentalNatural =
     Material.Icons.Directory.M.musicAccidentalNatural
 
 
+{-| The [`music-accidental-sharp`](https://pictogrammers.com/library/mdi/icon/music-accidental-sharp/) icon.
+
+![music-accidental-sharp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDkuNVY3LjVMMTUgOC4xVjUuNUgxM1Y4LjdMMTEgOS4zVjYuNUg5VjkuOUw3IDEwLjVWMTIuNUw5IDExLjlWMTMuOUw3IDE0LjVWMTYuNUw5IDE1LjlWMTguNUgxMVYxNS4zTDEzIDE0LjdWMTcuNUgxNVYxNC4xTDE3IDEzLjVWMTEuNUwxNSAxMi4xVjEwLjFMMTcgOS41TTEzIDEyLjdMMTEgMTMuM1YxMS4zTDEzIDEwLjdWMTIuN1oiIC8+PC9zdmc+)
+
+-}
+musicAccidentalSharp : IconShape
+musicAccidentalSharp =
+    Material.Icons.Directory.M.musicAccidentalSharp
+
+
 {-| The [`music-box`](https://pictogrammers.com/library/mdi/icon/music-box/) icon.
 
 ![music-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDlIMTNWMTQuNUEyLjUsMi41IDAgMCwxIDEwLjUsMTdBMi41LDIuNSAwIDAsMSA4LDE0LjVBMi41LDIuNSAwIDAsMSAxMC41LDEyQzExLjA3LDEyIDExLjU4LDEyLjE5IDEyLDEyLjVWN0gxNk0xOSwzSDVBMiwyIDAgMCwwIDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUEyLDIgMCAwLDAgMTksM1oiIC8+PC9zdmc+)
@@ -682,6 +682,16 @@ musicAccidentalNatural =
 musicBox : IconShape
 musicBox =
     Material.Icons.Directory.M.musicBox
+
+
+{-| The [`music-box-multiple`](https://pictogrammers.com/library/mdi/icon/music-box-multiple/) icon.
+
+![music-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyVjIwQTIsMiAwIDAsMCA0LDIySDE4VjIwSDRNMTgsN0gxNVYxMi41QTIuNSwyLjUgMCAwLDEgMTIuNSwxNUEyLjUsMi41IDAgMCwxIDEwLDEyLjVBMi41LDIuNSAwIDAsMSAxMi41LDEwQzEzLjA3LDEwIDEzLjU4LDEwLjE5IDE0LDEwLjVWNUgxOE0yMCwySDhBMiwyIDAgMCwwIDYsNFYxNkEyLDIgMCAwLDAgOCwxOEgyMEEyLDIgMCAwLDAgMjIsMTZWNEEyLDIgMCAwLDAgMjAsMloiIC8+PC9zdmc+)
+
+-}
+musicBoxMultiple : IconShape
+musicBoxMultiple =
+    Material.Icons.Directory.M.musicBoxMultiple
 
 
 {-| The [`music-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/music-box-multiple-outline/) icon.
@@ -702,16 +712,6 @@ musicBoxMultipleOutline =
 musicBoxOutline : IconShape
 musicBoxOutline =
     Material.Icons.Directory.M.musicBoxOutline
-
-
-{-| The [`music-box-multiple`](https://pictogrammers.com/library/mdi/icon/music-box-multiple/) icon.
-
-![music-box-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsNkgyVjIwQTIsMiAwIDAsMCA0LDIySDE4VjIwSDRNMTgsN0gxNVYxMi41QTIuNSwyLjUgMCAwLDEgMTIuNSwxNUEyLjUsMi41IDAgMCwxIDEwLDEyLjVBMi41LDIuNSAwIDAsMSAxMi41LDEwQzEzLjA3LDEwIDEzLjU4LDEwLjE5IDE0LDEwLjVWNUgxOE0yMCwySDhBMiwyIDAgMCwwIDYsNFYxNkEyLDIgMCAwLDAgOCwxOEgyMEEyLDIgMCAwLDAgMjIsMTZWNEEyLDIgMCAwLDAgMjAsMloiIC8+PC9zdmc+)
-
--}
-musicBoxMultiple : IconShape
-musicBoxMultiple =
-    Material.Icons.Directory.M.musicBoxMultiple
 
 
 {-| The [`music-circle`](https://pictogrammers.com/library/mdi/icon/music-circle/) icon.
@@ -754,6 +754,16 @@ musicClefBass =
     Material.Icons.Directory.M.musicClefBass
 
 
+{-| The [`music-clef-treble`](https://pictogrammers.com/library/mdi/icon/music-clef-treble/) icon.
+
+![music-clef-treble](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDExVjcuNUwxNS4yIDUuMjlDMTYgNC41IDE2LjE1IDMuMjQgMTUuNTkgMi4yNkMxNS4xNCAxLjQ3IDE0LjMyIDEgMTMuNDUgMUMxMy4yNCAxIDEzIDEuMDMgMTIuODEgMS4wOUMxMS43MyAxLjM4IDExIDIuMzggMTEgMy41VjYuNzRMNy44NiA5LjkxQzYuMiAxMS42IDUuNyAxNC4xMyA2LjYxIDE2LjM0QzcuMzggMTguMjQgOS4wNiAxOS41NSAxMSAxOS44OVYyMC41QzExIDIwLjc2IDEwLjc3IDIxIDEwLjUgMjFIOVYyM0gxMC41QzExLjg1IDIzIDEzIDIxLjg5IDEzIDIwLjVWMjBDMTUuMDMgMjAgMTcuMTYgMTguMDggMTcuMTYgMTUuMjVDMTcuMTYgMTIuOTUgMTUuMjQgMTEgMTMgMTFNMTMgMy41QzEzIDMuMjcgMTMuMTEgMy4wOSAxMy4zMiAzLjAzQzEzLjU0IDIuOTcgMTMuNzcgMy4wNiAxMy44OCAzLjI2QzE0IDMuNDYgMTMuOTYgMy43MSAxMy44IDMuODdMMTMgNC43M1YzLjVNMTEgMTEuNUMxMC4wMyAxMi4xNCA5LjMgMTMuMjQgOS4wNCAxNC4yNkwxMSAxNC43OFYxNy44M0M5Ljg3IDE3LjUzIDguOSAxNi43MSA4LjQzIDE1LjU3QzcuODQgMTQuMTEgOC4xNiAxMi40NSA5LjI2IDExLjMzTDExIDkuNVYxMS41TTEzIDE4VjEyLjk0QzE0LjE3IDEyLjk0IDE1LjE4IDE0LjA0IDE1LjE4IDE1LjI1QzE1LjE4IDE3IDEzLjkxIDE4IDEzIDE4WiIgLz48L3N2Zz4=)
+
+-}
+musicClefTreble : IconShape
+musicClefTreble =
+    Material.Icons.Directory.M.musicClefTreble
+
+
 {-| The [`music-note`](https://pictogrammers.com/library/mdi/icon/music-note/) icon.
 
 ![music-note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDNWMTMuNTVDMTEuNDEgMTMuMjEgMTAuNzMgMTMgMTAgMTNDNy43OSAxMyA2IDE0Ljc5IDYgMTdTNy43OSAyMSAxMCAyMSAxNCAxOS4yMSAxNCAxN1Y3SDE4VjNIMTJaIiAvPjwvc3ZnPg==)
@@ -774,14 +784,14 @@ musicNoteBluetooth =
     Material.Icons.Directory.M.musicNoteBluetooth
 
 
-{-| The [`music-clef-treble`](https://pictogrammers.com/library/mdi/icon/music-clef-treble/) icon.
+{-| The [`music-note-bluetooth-off`](https://pictogrammers.com/library/mdi/icon/music-note-bluetooth-off/) icon.
 
-![music-clef-treble](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDExVjcuNUwxNS4yIDUuMjlDMTYgNC41IDE2LjE1IDMuMjQgMTUuNTkgMi4yNkMxNS4xNCAxLjQ3IDE0LjMyIDEgMTMuNDUgMUMxMy4yNCAxIDEzIDEuMDMgMTIuODEgMS4wOUMxMS43MyAxLjM4IDExIDIuMzggMTEgMy41VjYuNzRMNy44NiA5LjkxQzYuMiAxMS42IDUuNyAxNC4xMyA2LjYxIDE2LjM0QzcuMzggMTguMjQgOS4wNiAxOS41NSAxMSAxOS44OVYyMC41QzExIDIwLjc2IDEwLjc3IDIxIDEwLjUgMjFIOVYyM0gxMC41QzExLjg1IDIzIDEzIDIxLjg5IDEzIDIwLjVWMjBDMTUuMDMgMjAgMTcuMTYgMTguMDggMTcuMTYgMTUuMjVDMTcuMTYgMTIuOTUgMTUuMjQgMTEgMTMgMTFNMTMgMy41QzEzIDMuMjcgMTMuMTEgMy4wOSAxMy4zMiAzLjAzQzEzLjU0IDIuOTcgMTMuNzcgMy4wNiAxMy44OCAzLjI2QzE0IDMuNDYgMTMuOTYgMy43MSAxMy44IDMuODdMMTMgNC43M1YzLjVNMTEgMTEuNUMxMC4wMyAxMi4xNCA5LjMgMTMuMjQgOS4wNCAxNC4yNkwxMSAxNC43OFYxNy44M0M5Ljg3IDE3LjUzIDguOSAxNi43MSA4LjQzIDE1LjU3QzcuODQgMTQuMTEgOC4xNiAxMi40NSA5LjI2IDExLjMzTDExIDkuNVYxMS41TTEzIDE4VjEyLjk0QzE0LjE3IDEyLjk0IDE1LjE4IDE0LjA0IDE1LjE4IDE1LjI1QzE1LjE4IDE3IDEzLjkxIDE4IDEzIDE4WiIgLz48L3N2Zz4=)
+![music-note-bluetooth-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDkuODVMMTkuMTQgN0gxOC42NFYxMC43OUwxNi4zNSA4LjVMMTUuNjQgOS4yMUwxOC40MyAxMkwxNS42NCAxNC43OUwxNi4zNSAxNS41TDE4LjY0IDEzLjIxVjE3SDE5LjE0TDIyIDE0LjE1TDE5Ljg1IDEyTDIyIDkuODVNMTkuNjQgOC45MUwyMC41OCA5Ljg1TDE5LjY0IDEwLjc5VjguOTFNMjAuNTggMTQuMTVMMTkuNjQgMTUuMDlWMTMuMjFMMjAuNTggMTQuMTVNMS45NiAzTC42ODcgNC4yN0w5LjY5IDEzLjI3VjEzLjU1QzkuMSAxMy4yMSA4LjQyIDEzIDcuNjkgMTNDNS41IDEzIDMuNjkgMTQuNzkgMy42OSAxN1M1LjUgMjEgNy42OSAyMSAxMS42OSAxOS4yMSAxMS42OSAxN1YxNS4yN0wxNy40MiAyMUwxOC42OSAxOS43M0wxLjk2IDNNMTEuNjkgN0gxNS42OVYzSDkuNjlWOC4xOEwxMS42OSAxMC4xOFY3WiIgLz48L3N2Zz4=)
 
 -}
-musicClefTreble : IconShape
-musicClefTreble =
-    Material.Icons.Directory.M.musicClefTreble
+musicNoteBluetoothOff : IconShape
+musicNoteBluetoothOff =
+    Material.Icons.Directory.M.musicNoteBluetoothOff
 
 
 {-| The [`music-note-eighth`](https://pictogrammers.com/library/mdi/icon/music-note-eighth/) icon.
@@ -792,16 +802,6 @@ musicClefTreble =
 musicNoteEighth : IconShape
 musicNoteEighth =
     Material.Icons.Directory.M.musicNoteEighth
-
-
-{-| The [`music-note-bluetooth-off`](https://pictogrammers.com/library/mdi/icon/music-note-bluetooth-off/) icon.
-
-![music-note-bluetooth-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDkuODVMMTkuMTQgN0gxOC42NFYxMC43OUwxNi4zNSA4LjVMMTUuNjQgOS4yMUwxOC40MyAxMkwxNS42NCAxNC43OUwxNi4zNSAxNS41TDE4LjY0IDEzLjIxVjE3SDE5LjE0TDIyIDE0LjE1TDE5Ljg1IDEyTDIyIDkuODVNMTkuNjQgOC45MUwyMC41OCA5Ljg1TDE5LjY0IDEwLjc5VjguOTFNMjAuNTggMTQuMTVMMTkuNjQgMTUuMDlWMTMuMjFMMjAuNTggMTQuMTVNMS45NiAzTC42ODcgNC4yN0w5LjY5IDEzLjI3VjEzLjU1QzkuMSAxMy4yMSA4LjQyIDEzIDcuNjkgMTNDNS41IDEzIDMuNjkgMTQuNzkgMy42OSAxN1M1LjUgMjEgNy42OSAyMSAxMS42OSAxOS4yMSAxMS42OSAxN1YxNS4yN0wxNy40MiAyMUwxOC42OSAxOS43M0wxLjk2IDNNMTEuNjkgN0gxNS42OVYzSDkuNjlWOC4xOEwxMS42OSAxMC4xOFY3WiIgLz48L3N2Zz4=)
-
--}
-musicNoteBluetoothOff : IconShape
-musicNoteBluetoothOff =
-    Material.Icons.Directory.M.musicNoteBluetoothOff
 
 
 {-| The [`music-note-eighth-dotted`](https://pictogrammers.com/library/mdi/icon/music-note-eighth-dotted/) icon.
@@ -854,16 +854,6 @@ musicNoteOffOutline =
     Material.Icons.Directory.M.musicNoteOffOutline
 
 
-{-| The [`music-note-plus`](https://pictogrammers.com/library/mdi/icon/music-note-plus/) icon.
-
-![music-note-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlWMTJIMTRWMTRIMTdWMTdIMTlWMTRIMjJWMTJIMTlWOUgxN005IDNWMTMuNTVDOC40MSAxMy4yMSA3LjczIDEzIDcgMTNDNC43OSAxMyAzIDE0Ljc5IDMgMTdTNC43OSAyMSA3IDIxIDExIDE5LjIxIDExIDE3VjdIMTVWM0g5WiIgLz48L3N2Zz4=)
-
--}
-musicNotePlus : IconShape
-musicNotePlus =
-    Material.Icons.Directory.M.musicNotePlus
-
-
 {-| The [`music-note-outline`](https://pictogrammers.com/library/mdi/icon/music-note-outline/) icon.
 
 ![music-note-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDNWMTMuNTVBNCA0IDAgMSAwIDE0IDE3VjdIMThWM00xMCAxOUEyIDIgMCAxIDEgMTIgMTdBMiAyIDAgMCAxIDEwIDE5WiIgLz48L3N2Zz4=)
@@ -872,6 +862,16 @@ musicNotePlus =
 musicNoteOutline : IconShape
 musicNoteOutline =
     Material.Icons.Directory.M.musicNoteOutline
+
+
+{-| The [`music-note-plus`](https://pictogrammers.com/library/mdi/icon/music-note-plus/) icon.
+
+![music-note-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDlWMTJIMTRWMTRIMTdWMTdIMTlWMTRIMjJWMTJIMTlWOUgxN005IDNWMTMuNTVDOC40MSAxMy4yMSA3LjczIDEzIDcgMTNDNC43OSAxMyAzIDE0Ljc5IDMgMTdTNC43OSAyMSA3IDIxIDExIDE5LjIxIDExIDE3VjdIMTVWM0g5WiIgLz48L3N2Zz4=)
+
+-}
+musicNotePlus : IconShape
+musicNotePlus =
+    Material.Icons.Directory.M.musicNotePlus
 
 
 {-| The [`music-note-quarter`](https://pictogrammers.com/library/mdi/icon/music-note-quarter/) icon.
@@ -954,16 +954,6 @@ musicRestEighth =
     Material.Icons.Directory.M.musicRestEighth
 
 
-{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
-
-![music-rest-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjcxIDE2LjgxQzEwLjkxIDE3LjYgMTAuODggMTguODQgMTEuNjQgMTkuNThMMTAuMTkgMjFDOC42NiAxOS41IDguNzIgMTcuMDMgMTAuMzIgMTUuNDZDMTAuODUgMTQuOTQgMTEuNSAxNC42MSAxMi4xNiAxNC40Mkw5IDExLjM0TDEwLjQ1IDkuOTJMMTAuODIgOS41N0MxMS44MiA4LjU5IDExLjg1IDcuMDQgMTAuOSA2LjExTDkuMTYgNC40MkwxMC42MiAzTDE0Ljc4IDcuMDZDMTUuNTQgNy44MSAxNS41IDkuMDUgMTQuNzEgOS44M0wxMi41MyAxMS45NUwxNiAxNS4zM0wxNS42MSAxNS43MkMxNS4xMSAxNi4yMSAxNC4zOCAxNi40NiAxMy43MiAxNi4yOEMxMy4wNCAxNi4xIDEyLjI2IDE2LjI4IDExLjcxIDE2LjgxWiIgLz48L3N2Zz4=)
-
--}
-musicRestQuarter : IconShape
-musicRestQuarter =
-    Material.Icons.Directory.M.musicRestQuarter
-
-
 {-| The [`music-rest-half`](https://pictogrammers.com/library/mdi/icon/music-rest-half/) icon.
 
 ![music-rest-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgMTRIOFYxMEgxNlYxNEgxOFYxNUg2VjE0WiIgLz48L3N2Zz4=)
@@ -972,6 +962,16 @@ musicRestQuarter =
 musicRestHalf : IconShape
 musicRestHalf =
     Material.Icons.Directory.M.musicRestHalf
+
+
+{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
+
+![music-rest-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjcxIDE2LjgxQzEwLjkxIDE3LjYgMTAuODggMTguODQgMTEuNjQgMTkuNThMMTAuMTkgMjFDOC42NiAxOS41IDguNzIgMTcuMDMgMTAuMzIgMTUuNDZDMTAuODUgMTQuOTQgMTEuNSAxNC42MSAxMi4xNiAxNC40Mkw5IDExLjM0TDEwLjQ1IDkuOTJMMTAuODIgOS41N0MxMS44MiA4LjU5IDExLjg1IDcuMDQgMTAuOSA2LjExTDkuMTYgNC40MkwxMC42MiAzTDE0Ljc4IDcuMDZDMTUuNTQgNy44MSAxNS41IDkuMDUgMTQuNzEgOS44M0wxMi41MyAxMS45NUwxNiAxNS4zM0wxNS42MSAxNS43MkMxNS4xMSAxNi4yMSAxNC4zOCAxNi40NiAxMy43MiAxNi4yOEMxMy4wNCAxNi4xIDEyLjI2IDE2LjI4IDExLjcxIDE2LjgxWiIgLz48L3N2Zz4=)
+
+-}
+musicRestQuarter : IconShape
+musicRestQuarter =
+    Material.Icons.Directory.M.musicRestQuarter
 
 
 {-| The [`music-rest-sixteenth`](https://pictogrammers.com/library/mdi/icon/music-rest-sixteenth/) icon.
@@ -1104,16 +1104,6 @@ speakerStop =
     Material.Icons.Directory.S.speakerStop
 
 
-{-| The [`timer-music-outline`](https://pictogrammers.com/library/mdi/icon/timer-music-outline/) icon.
-
-![timer-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDNIOVYxSDE1VjNNMTEgMTRIMTNWOEgxMVYxNE0xMy4wNSAxOS45MUMxMi43MSAxOS45NyAxMi4zNiAyMCAxMiAyMEM4LjEzIDIwIDUgMTYuODcgNSAxM1M4LjEzIDYgMTIgNkMxNS4xNyA2IDE3Ljg1IDguMTEgMTguNzEgMTFIMjAuNzdDMjAuNDYgOS42NiAxOS44NiA4LjQzIDE5LjAzIDcuMzlMMjAuNDUgNS45N0MyMCA1LjQ2IDE5LjU1IDUgMTkuMDQgNC41NkwxNy42MiA2QzE2LjA3IDQuNzQgMTQuMTIgNCAxMiA0QzcuMDMgNCAzIDguMDMgMyAxM1M3LjAzIDIyIDEyIDIyQzEyLjQyIDIyIDEyLjgzIDIxLjk2IDEzLjI0IDIxLjkxQzEzLjA5IDIxLjQ2IDEzIDIxIDEzIDIwLjVDMTMgMjAuMyAxMy4wMyAyMC4xMSAxMy4wNSAxOS45MU0xOC41IDEzVjE4LjIxQzE4LjE5IDE4LjA3IDE3Ljg2IDE4IDE3LjUgMThDMTYuMTIgMTggMTUgMTkuMTIgMTUgMjAuNVMxNi4xMiAyMyAxNy41IDIzIDIwIDIxLjg4IDIwIDIwLjVWMTVIMjJWMTNIMTguNVoiIC8+PC9zdmc+)
-
--}
-timerMusicOutline : IconShape
-timerMusicOutline =
-    Material.Icons.Directory.T.timerMusicOutline
-
-
 {-| The [`timer-music`](https://pictogrammers.com/library/mdi/icon/timer-music/) icon.
 
 ![timer-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTYuMTFWMTFIMjAuNzdDMjAuNDYgOS42NiAxOS44NiA4LjQzIDE5LjAzIDcuMzlMMjAuNDUgNS45N0MyMCA1LjQ2IDE5LjU1IDUgMTkuMDQgNC41NkwxNy42MiA2QzE2LjA3IDQuNzQgMTQuMTIgNCAxMiA0QzcuMDMgNCAzIDguMDMgMyAxM1M3LjAzIDIyIDEyIDIyQzEyLjQyIDIyIDEyLjgzIDIxLjk2IDEzLjI0IDIxLjkxQzEzLjA5IDIxLjQ2IDEzIDIxIDEzIDIwLjVDMTMgMTguMzYgMTQuNSAxNi41NyAxNi41IDE2LjExTTEzIDE0SDExVjdIMTNWMTRNMTUgM0g5VjFIMTVWM00yMiAxM1YxNUgyMFYyMC41QzIwIDIxLjg4IDE4Ljg4IDIzIDE3LjUgMjNTMTUgMjEuODggMTUgMjAuNSAxNi4xMiAxOCAxNy41IDE4QzE3Ljg2IDE4IDE4LjE5IDE4LjA3IDE4LjUgMTguMjFWMTNIMjJaIiAvPjwvc3ZnPg==)
@@ -1122,6 +1112,16 @@ timerMusicOutline =
 timerMusic : IconShape
 timerMusic =
     Material.Icons.Directory.T.timerMusic
+
+
+{-| The [`timer-music-outline`](https://pictogrammers.com/library/mdi/icon/timer-music-outline/) icon.
+
+![timer-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDNIOVYxSDE1VjNNMTEgMTRIMTNWOEgxMVYxNE0xMy4wNSAxOS45MUMxMi43MSAxOS45NyAxMi4zNiAyMCAxMiAyMEM4LjEzIDIwIDUgMTYuODcgNSAxM1M4LjEzIDYgMTIgNkMxNS4xNyA2IDE3Ljg1IDguMTEgMTguNzEgMTFIMjAuNzdDMjAuNDYgOS42NiAxOS44NiA4LjQzIDE5LjAzIDcuMzlMMjAuNDUgNS45N0MyMCA1LjQ2IDE5LjU1IDUgMTkuMDQgNC41NkwxNy42MiA2QzE2LjA3IDQuNzQgMTQuMTIgNCAxMiA0QzcuMDMgNCAzIDguMDMgMyAxM1M3LjAzIDIyIDEyIDIyQzEyLjQyIDIyIDEyLjgzIDIxLjk2IDEzLjI0IDIxLjkxQzEzLjA5IDIxLjQ2IDEzIDIxIDEzIDIwLjVDMTMgMjAuMyAxMy4wMyAyMC4xMSAxMy4wNSAxOS45MU0xOC41IDEzVjE4LjIxQzE4LjE5IDE4LjA3IDE3Ljg2IDE4IDE3LjUgMThDMTYuMTIgMTggMTUgMTkuMTIgMTUgMjAuNVMxNi4xMiAyMyAxNy41IDIzIDIwIDIxLjg4IDIwIDIwLjVWMTVIMjJWMTNIMTguNVoiIC8+PC9zdmc+)
+
+-}
+timerMusicOutline : IconShape
+timerMusicOutline =
+    Material.Icons.Directory.T.timerMusicOutline
 
 
 {-| The [`trumpet`](https://pictogrammers.com/library/mdi/icon/trumpet/) icon.

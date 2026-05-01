@@ -196,18 +196,18 @@ nail =
     iconShape "M13.5,5V16L12,22L10.5,16V5H13.5M17,2H7V4H17V2Z"
 
 
-{-| The [`nature`](https://pictogrammers.com/library/mdi/icon/nature/) icon.
--}
-nature : IconShape
-nature =
-    iconShape "M13,16.12C16.47,15.71 19.17,12.76 19.17,9.17C19.17,5.3 16.04,2.17 12.17,2.17A7,7 0 0,0 5.17,9.17C5.17,12.64 7.69,15.5 11,16.06V20H5V22H19V20H13V16.12Z"
-
-
 {-| The [`nas`](https://pictogrammers.com/library/mdi/icon/nas/) icon.
 -}
 nas : IconShape
 nas =
     iconShape "M4,5C2.89,5 2,5.89 2,7V17C2,18.11 2.89,19 4,19H20C21.11,19 22,18.11 22,17V7C22,5.89 21.11,5 20,5H4M4.5,7A1,1 0 0,1 5.5,8A1,1 0 0,1 4.5,9A1,1 0 0,1 3.5,8A1,1 0 0,1 4.5,7M7,7H20V17H7V7M8,8V16H11V8H8M12,8V16H15V8H12M16,8V16H19V8H16M9,9H10V10H9V9M13,9H14V10H13V9M17,9H18V10H17V9Z"
+
+
+{-| The [`nature`](https://pictogrammers.com/library/mdi/icon/nature/) icon.
+-}
+nature : IconShape
+nature =
+    iconShape "M13,16.12C16.47,15.71 19.17,12.76 19.17,9.17C19.17,5.3 16.04,2.17 12.17,2.17A7,7 0 0,0 5.17,9.17C5.17,12.64 7.69,15.5 11,16.06V20H5V22H19V20H13V16.12Z"
 
 
 {-| The [`nature-outline`](https://pictogrammers.com/library/mdi/icon/nature-outline/) icon.
@@ -308,18 +308,18 @@ networkOffOutline =
     iconShape "M1.04,5.27L5,9.23V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H17.77L19.77,24L21.04,22.72L2.32,4L1.04,5.27M7,11.23L10.77,15H7V11.23M15,20A1,1 0 0,0 14,19H13V17.23L15.77,20H15M22,20V21.14L20.86,20H22M7,6.14L5.14,4.28C5.43,3.53 6.16,3 7,3H17A2,2 0 0,1 19,5V15C19,15.85 18.47,16.57 17.72,16.86L15.86,15H17V5H7V6.14Z"
 
 
-{-| The [`network-pos`](https://pictogrammers.com/library/mdi/icon/network-pos/) icon.
--}
-networkPos : IconShape
-networkPos =
-    iconShape "M17 9H8V7H17V9M7 7H5V9H7V7M7 4H5V6H7V4M10 4H8V6H10V4M13 17V19H14C14.55 19 15 19.45 15 20H22V22H15C15 22.55 14.55 23 14 23H10C9.45 23 9 22.55 9 22H2V20H9C9 19.45 9.45 19 10 19H11V17H4C2.89 17 2 16.11 2 15L2 3C2 1.89 2.9 1 4 1H20C21.11 1 22 1.89 22 3L22 15C22 16.11 21.11 17 20 17H13M20 15V3H4V15L20 15M11 6H19V4H11V6M5 12H11V10H5V12M13 14H19V12H13V14Z"
-
-
 {-| The [`network-outline`](https://pictogrammers.com/library/mdi/icon/network-outline/) icon.
 -}
 networkOutline : IconShape
 networkOutline =
     iconShape "M15,20A1,1 0 0,0 14,19H13V17H17A2,2 0 0,0 19,15V5A2,2 0 0,0 17,3H7A2,2 0 0,0 5,5V15A2,2 0 0,0 7,17H11V19H10A1,1 0 0,0 9,20H2V22H9A1,1 0 0,0 10,23H14A1,1 0 0,0 15,22H22V20H15M7,15V5H17V15H7Z"
+
+
+{-| The [`network-pos`](https://pictogrammers.com/library/mdi/icon/network-pos/) icon.
+-}
+networkPos : IconShape
+networkPos =
+    iconShape "M17 9H8V7H17V9M7 7H5V9H7V7M7 4H5V6H7V4M10 4H8V6H10V4M13 17V19H14C14.55 19 15 19.45 15 20H22V22H15C15 22.55 14.55 23 14 23H10C9.45 23 9 22.55 9 22H2V20H9C9 19.45 9.45 19 10 19H11V17H4C2.89 17 2 16.11 2 15L2 3C2 1.89 2.9 1 4 1H20C21.11 1 22 1.89 22 3L22 15C22 16.11 21.11 17 20 17H13M20 15V3H4V15L20 15M11 6H19V4H11V6M5 12H11V10H5V12M13 14H19V12H13V14Z"
 
 
 {-| The [`network-strength-1`](https://pictogrammers.com/library/mdi/icon/network-strength-1/) icon.
@@ -574,18 +574,18 @@ noteCheckOutline =
     iconShape "M5 19V5H12V12H19V13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H13.35C13.13 20.37 13 19.7 13 19H5M14 4.5L19.5 10H14V4.5M22.5 17.25L17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25Z"
 
 
-{-| The [`note-edit-outline`](https://pictogrammers.com/library/mdi/icon/note-edit-outline/) icon.
--}
-noteEditOutline : IconShape
-noteEditOutline =
-    iconShape "M18.13 12L19.39 10.74C19.83 10.3 20.39 10.06 21 10V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H11V19.13L11.13 19H5V5H12V12H18.13M14 4.5L19.5 10H14V4.5M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19Z"
-
-
 {-| The [`note-edit`](https://pictogrammers.com/library/mdi/icon/note-edit/) icon.
 -}
 noteEdit : IconShape
 noteEdit =
     iconShape "M21 10V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H11V19.13L19.39 10.74C19.83 10.3 20.39 10.06 21 10M14 4.5L19.5 10H14V4.5M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83Z"
+
+
+{-| The [`note-edit-outline`](https://pictogrammers.com/library/mdi/icon/note-edit-outline/) icon.
+-}
+noteEditOutline : IconShape
+noteEditOutline =
+    iconShape "M18.13 12L19.39 10.74C19.83 10.3 20.39 10.06 21 10V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H11V19.13L11.13 19H5V5H12V12H18.13M14 4.5L19.5 10H14V4.5M19.13 13.83L21.17 15.87L15.04 22H13V19.96L19.13 13.83M22.85 14.19L21.87 15.17L19.83 13.13L20.81 12.15C21 11.95 21.33 11.95 21.53 12.15L22.85 13.47C23.05 13.67 23.05 14 22.85 14.19Z"
 
 
 {-| The [`note-minus`](https://pictogrammers.com/library/mdi/icon/note-minus/) icon.
@@ -665,18 +665,18 @@ noteRemoveOutline =
     iconShape "M5 19V5H12V12H19V13C19.7 13 20.37 13.13 21 13.35V9L15 3H5C3.89 3 3 3.89 3 5V19C3 20.1 3.89 21 5 21H13.35C13.13 20.37 13 19.7 13 19H5M14 4.5L19.5 10H14V4.5M20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88L20.41 19Z"
 
 
-{-| The [`note-search-outline`](https://pictogrammers.com/library/mdi/icon/note-search-outline/) icon.
--}
-noteSearchOutline : IconShape
-noteSearchOutline =
-    iconShape "M15 3H5C3.89 3 3 3.89 3 5V10.82C3.6 10.24 4.28 9.8 5 9.5V5H12V10.82C12.03 10.85 12.07 10.87 12.1 10.9C12.44 11.24 12.73 11.61 12.97 12H19V19H12.97C12.73 19.39 12.44 19.76 12.1 20.1C11.74 20.45 11.35 20.74 10.94 21H19C20.11 21 21 20.11 21 19V9L15 3M14 10V4.5L19.5 10H14M7.5 11C5 11 3 13 3 15.5C3 16.38 3.25 17.21 3.69 17.9L.61 21L2 22.39L5.12 19.32C5.81 19.75 6.63 20 7.5 20C10 20 12 18 12 15.5S10 11 7.5 11M7.5 18C6.12 18 5 16.88 5 15.5S6.12 13 7.5 13 10 14.12 10 15.5 8.88 18 7.5 18Z"
-
-
 {-| The [`note-search`](https://pictogrammers.com/library/mdi/icon/note-search/) icon.
 -}
 noteSearch : IconShape
 noteSearch =
     iconShape "M15 3H5C3.89 3 3 3.89 3 5V10.82C5.55 8.37 9.59 8.4 12.1 10.9C14.63 13.44 14.63 17.56 12.1 20.1C11.74 20.45 11.35 20.74 10.94 21H19C20.11 21 21 20.11 21 19V9L15 3M14 10V4.5L19.5 10H14M7.5 11C5 11 3 13 3 15.5C3 16.38 3.25 17.21 3.69 17.9L.61 21L2 22.39L5.12 19.32C5.81 19.75 6.63 20 7.5 20C10 20 12 18 12 15.5S10 11 7.5 11M7.5 18C6.12 18 5 16.88 5 15.5S6.12 13 7.5 13 10 14.12 10 15.5 8.88 18 7.5 18Z"
+
+
+{-| The [`note-search-outline`](https://pictogrammers.com/library/mdi/icon/note-search-outline/) icon.
+-}
+noteSearchOutline : IconShape
+noteSearchOutline =
+    iconShape "M15 3H5C3.89 3 3 3.89 3 5V10.82C3.6 10.24 4.28 9.8 5 9.5V5H12V10.82C12.03 10.85 12.07 10.87 12.1 10.9C12.44 11.24 12.73 11.61 12.97 12H19V19H12.97C12.73 19.39 12.44 19.76 12.1 20.1C11.74 20.45 11.35 20.74 10.94 21H19C20.11 21 21 20.11 21 19V9L15 3M14 10V4.5L19.5 10H14M7.5 11C5 11 3 13 3 15.5C3 16.38 3.25 17.21 3.69 17.9L.61 21L2 22.39L5.12 19.32C5.81 19.75 6.63 20 7.5 20C10 20 12 18 12 15.5S10 11 7.5 11M7.5 18C6.12 18 5 16.88 5 15.5S6.12 13 7.5 13 10 14.12 10 15.5 8.88 18 7.5 18Z"
 
 
 {-| The [`note-text`](https://pictogrammers.com/library/mdi/icon/note-text/) icon.
@@ -924,18 +924,18 @@ numeric1CircleOutline =
     iconShape "M10,7H14V17H12V9H10V7M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
-{-| The [`numeric-10-box`](https://pictogrammers.com/library/mdi/icon/numeric-10-box/) icon.
--}
-numeric10Box : IconShape
-numeric10Box =
-    iconShape "M14,9H16V15H14V9M21,5V19C21,20.11 20.11,21 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19C20.11,3 21,3.9 21,5M10,7H6V9H8V17H10V7M18,9A2,2 0 0,0 16,7H14A2,2 0 0,0 12,9V15C12,16.11 12.9,17 14,17H16C17.11,17 18,16.11 18,15V9Z"
-
-
 {-| The [`numeric-10`](https://pictogrammers.com/library/mdi/icon/numeric-10/) icon.
 -}
 numeric10 : IconShape
 numeric10 =
     iconShape "M10 7H6V9H8V17H10V7M16 7H14C12.9 7 12 7.9 12 9V15C12 16.11 12.9 17 14 17H16C17.11 17 18 16.11 18 15V9C18 7.9 17.11 7 16 7M16 15H14V9H16V15Z"
+
+
+{-| The [`numeric-10-box`](https://pictogrammers.com/library/mdi/icon/numeric-10-box/) icon.
+-}
+numeric10Box : IconShape
+numeric10Box =
+    iconShape "M14,9H16V15H14V9M21,5V19C21,20.11 20.11,21 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19C20.11,3 21,3.9 21,5M10,7H6V9H8V17H10V7M18,9A2,2 0 0,0 16,7H14A2,2 0 0,0 12,9V15C12,16.11 12.9,17 14,17H16C17.11,17 18,16.11 18,15V9Z"
 
 
 {-| The [`numeric-10-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-10-box-multiple/) icon.
@@ -973,6 +973,13 @@ numeric10CircleOutline =
     iconShape "M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22 2 17.5 2 12 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12S7.58 20 12 20 20 16.42 20 12 16.42 4 12 4M10 7H6V9H8V17H10V7M16 7H14C12.9 7 12 7.9 12 9V15C12 16.11 12.9 17 14 17H16C17.11 17 18 16.11 18 15V9C18 7.9 17.11 7 16 7M16 15H14V9H16V15Z"
 
 
+{-| The [`numeric-2`](https://pictogrammers.com/library/mdi/icon/numeric-2/) icon.
+-}
+numeric2 : IconShape
+numeric2 =
+    iconShape "M9,7V9H13V11H11A2,2 0 0,0 9,13V17H11L15,17V15H11V13H13A2,2 0 0,0 15,11V9A2,2 0 0,0 13,7H9Z"
+
+
 {-| The [`numeric-2-box`](https://pictogrammers.com/library/mdi/icon/numeric-2-box/) icon.
 -}
 numeric2Box : IconShape
@@ -985,13 +992,6 @@ numeric2Box =
 numeric2BoxMultiple : IconShape
 numeric2BoxMultiple =
     iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M17,13H13V11H15A2,2 0 0,0 17,9V7C17,5.89 16.1,5 15,5H11V7H15V9H13A2,2 0 0,0 11,11V15H17V13M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21Z"
-
-
-{-| The [`numeric-2`](https://pictogrammers.com/library/mdi/icon/numeric-2/) icon.
--}
-numeric2 : IconShape
-numeric2 =
-    iconShape "M9,7V9H13V11H11A2,2 0 0,0 9,13V17H11L15,17V15H11V13H13A2,2 0 0,0 15,11V9A2,2 0 0,0 13,7H9Z"
 
 
 {-| The [`numeric-2-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-2-box-multiple-outline/) icon.
@@ -1057,13 +1057,6 @@ numeric3BoxOutline =
     iconShape "M15,15V13.5A1.5,1.5 0 0,0 13.5,12A1.5,1.5 0 0,0 15,10.5V9C15,7.89 14.1,7 13,7H9V9H13V11H11V13H13V15H9V17H13A2,2 0 0,0 15,15M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
 
 
-{-| The [`numeric-3-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle-outline/) icon.
--}
-numeric3CircleOutline : IconShape
-numeric3CircleOutline =
-    iconShape "M15,15A2,2 0 0,1 13,17H9V15H13V13H11V11H13V9H9V7H13A2,2 0 0,1 15,9V10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 15,13.5V15M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
-
-
 {-| The [`numeric-3-circle`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle/) icon.
 -}
 numeric3Circle : IconShape
@@ -1071,11 +1064,25 @@ numeric3Circle =
     iconShape "M15,15V13.5A1.5,1.5 0 0,0 13.5,12A1.5,1.5 0 0,0 15,10.5V9C15,7.89 14.1,7 13,7H9V9H13V11H11V13H13V15H9V17H13A2,2 0 0,0 15,15M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z"
 
 
+{-| The [`numeric-3-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-3-circle-outline/) icon.
+-}
+numeric3CircleOutline : IconShape
+numeric3CircleOutline =
+    iconShape "M15,15A2,2 0 0,1 13,17H9V15H13V13H11V11H13V9H9V7H13A2,2 0 0,1 15,9V10.5A1.5,1.5 0 0,1 13.5,12A1.5,1.5 0 0,1 15,13.5V15M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
+
+
 {-| The [`numeric-4`](https://pictogrammers.com/library/mdi/icon/numeric-4/) icon.
 -}
 numeric4 : IconShape
 numeric4 =
     iconShape "M9,7V13H13V17H15V7H13V11H11V7H9Z"
+
+
+{-| The [`numeric-4-box`](https://pictogrammers.com/library/mdi/icon/numeric-4-box/) icon.
+-}
+numeric4Box : IconShape
+numeric4Box =
+    iconShape "M15,17H13V13H9V7H11V11H13V7H15M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
 
 
 {-| The [`numeric-4-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-4-box-multiple/) icon.
@@ -1090,13 +1097,6 @@ numeric4BoxMultiple =
 numeric4BoxMultipleOutline : IconShape
 numeric4BoxMultipleOutline =
     iconShape "M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M15,15H17V5H15V9H13V5H11V11H15M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
-
-
-{-| The [`numeric-4-box`](https://pictogrammers.com/library/mdi/icon/numeric-4-box/) icon.
--}
-numeric4Box : IconShape
-numeric4Box =
-    iconShape "M15,17H13V13H9V7H11V11H13V7H15M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
 
 
 {-| The [`numeric-4-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-4-box-outline/) icon.
@@ -1190,18 +1190,18 @@ numeric6BoxMultiple =
     iconShape "M13,11H15V13H13V11M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M13,15H15A2,2 0 0,0 17,13V11C17,9.89 16.1,9 15,9H13V7H17V5H13A2,2 0 0,0 11,7V13C11,14.11 11.9,15 13,15Z"
 
 
-{-| The [`numeric-6-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-outline/) icon.
--}
-numeric6BoxOutline : IconShape
-numeric6BoxOutline =
-    iconShape "M11,13H13V15H11M11,17H13A2,2 0 0,0 15,15V13C15,11.89 14.1,11 13,11H11V9H15V7H11A2,2 0 0,0 9,9V15C9,16.11 9.9,17 11,17M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
-
-
 {-| The [`numeric-6-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-multiple-outline/) icon.
 -}
 numeric6BoxMultipleOutline : IconShape
 numeric6BoxMultipleOutline =
     iconShape "M13,11H15V13H13M13,15H15A2,2 0 0,0 17,13V11C17,9.89 16.1,9 15,9H13V7H17V5H13A2,2 0 0,0 11,7V13C11,14.11 11.9,15 13,15M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
+
+
+{-| The [`numeric-6-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-6-box-outline/) icon.
+-}
+numeric6BoxOutline : IconShape
+numeric6BoxOutline =
+    iconShape "M11,13H13V15H11M11,17H13A2,2 0 0,0 15,15V13C15,11.89 14.1,11 13,11H11V9H15V7H11A2,2 0 0,0 9,9V15C9,16.11 9.9,17 11,17M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
 
 
 {-| The [`numeric-6-circle`](https://pictogrammers.com/library/mdi/icon/numeric-6-circle/) icon.
@@ -1218,18 +1218,18 @@ numeric6CircleOutline =
     iconShape "M11,7H15V9H11V11H13A2,2 0 0,1 15,13V15A2,2 0 0,1 13,17H11A2,2 0 0,1 9,15V9A2,2 0 0,1 11,7M11,13V15H13V13H11M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
-{-| The [`numeric-7-box`](https://pictogrammers.com/library/mdi/icon/numeric-7-box/) icon.
--}
-numeric7Box : IconShape
-numeric7Box =
-    iconShape "M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M11,17L15,9V7H9V9H13L9,17H11Z"
-
-
 {-| The [`numeric-7`](https://pictogrammers.com/library/mdi/icon/numeric-7/) icon.
 -}
 numeric7 : IconShape
 numeric7 =
     iconShape "M11,17L15,9V7H9V9H13L9,17"
+
+
+{-| The [`numeric-7-box`](https://pictogrammers.com/library/mdi/icon/numeric-7-box/) icon.
+-}
+numeric7Box : IconShape
+numeric7Box =
+    iconShape "M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M11,17L15,9V7H9V9H13L9,17H11Z"
 
 
 {-| The [`numeric-7-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-multiple/) icon.
@@ -1239,18 +1239,18 @@ numeric7BoxMultiple =
     iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M13,15L17,7V5H11V7H15L11,15H13M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21Z"
 
 
-{-| The [`numeric-7-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-outline/) icon.
--}
-numeric7BoxOutline : IconShape
-numeric7BoxOutline =
-    iconShape "M11,17L15,9V7H9V9H13L9,17M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
-
-
 {-| The [`numeric-7-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-multiple-outline/) icon.
 -}
 numeric7BoxMultipleOutline : IconShape
 numeric7BoxMultipleOutline =
     iconShape "M13,15L17,7V5H11V7H15L11,15M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
+
+
+{-| The [`numeric-7-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-7-box-outline/) icon.
+-}
+numeric7BoxOutline : IconShape
+numeric7BoxOutline =
+    iconShape "M11,17L15,9V7H9V9H13L9,17M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
 
 
 {-| The [`numeric-7-circle`](https://pictogrammers.com/library/mdi/icon/numeric-7-circle/) icon.
@@ -1372,18 +1372,18 @@ numeric9Plus =
     iconShape "M19 11H17V9H15V11H13V13H15V15H17V13H19V11M10 7H8C6.9 7 6 7.9 6 9V11C6 12.11 6.9 13 8 13H10V15H6V17H10C11.11 17 12 16.11 12 15V9C12 7.89 11.1 7 10 7M10 11H8V9H10V11Z"
 
 
-{-| The [`numeric-9-plus-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple/) icon.
--}
-numeric9PlusBoxMultiple : IconShape
-numeric9PlusBoxMultiple =
-    iconShape "M11,9V8H12V9H11M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M15,9V11H17V13H19V11H21V9H19V7H17V9H15M14,12V8C14,6.89 13.1,6 12,6H11A2,2 0 0,0 9,8V9C9,10.11 9.9,11 11,11H12V12H9V14H12A2,2 0 0,0 14,12Z"
-
-
 {-| The [`numeric-9-plus-box`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box/) icon.
 -}
 numeric9PlusBox : IconShape
 numeric9PlusBox =
     iconShape "M21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5M19,11H17V9H15V11H13V13H15V15H17V13H19V11M10,7H8A2,2 0 0,0 6,9V11C6,12.11 6.9,13 8,13H10V15H6V17H10A2,2 0 0,0 12,15V9C12,7.89 11.1,7 10,7M8,9H10V11H8V9Z"
+
+
+{-| The [`numeric-9-plus-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple/) icon.
+-}
+numeric9PlusBoxMultiple : IconShape
+numeric9PlusBoxMultiple =
+    iconShape "M11,9V8H12V9H11M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M15,9V11H17V13H19V11H21V9H19V7H17V9H15M14,12V8C14,6.89 13.1,6 12,6H11A2,2 0 0,0 9,8V9C9,10.11 9.9,11 11,11H12V12H9V14H12A2,2 0 0,0 14,12Z"
 
 
 {-| The [`numeric-9-plus-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-9-plus-box-multiple-outline/) icon.
@@ -1435,18 +1435,18 @@ numericPositive1 =
     iconShape "M13 7V9H15V17H17V7H13M11 13H9V15H7V13H5V11H7V9H9V11H11V13Z"
 
 
-{-| The [`nutrition`](https://pictogrammers.com/library/mdi/icon/nutrition/) icon.
--}
-nutrition : IconShape
-nutrition =
-    iconShape "M22,18A4,4 0 0,1 18,22H14A4,4 0 0,1 10,18V16H22V18M4,3H14A2,2 0 0,1 16,5V14H8V19H4A2,2 0 0,1 2,17V5A2,2 0 0,1 4,3M4,6V8H6V6H4M14,8V6H8V8H14M4,10V12H6V10H4M8,10V12H14V10H8M4,14V16H6V14H4Z"
-
-
 {-| The [`nut`](https://pictogrammers.com/library/mdi/icon/nut/) icon.
 -}
 nut : IconShape
 nut =
     iconShape "M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z"
+
+
+{-| The [`nutrition`](https://pictogrammers.com/library/mdi/icon/nutrition/) icon.
+-}
+nutrition : IconShape
+nutrition =
+    iconShape "M22,18A4,4 0 0,1 18,22H14A4,4 0 0,1 10,18V16H22V18M4,3H14A2,2 0 0,1 16,5V14H8V19H4A2,2 0 0,1 2,17V5A2,2 0 0,1 4,3M4,6V8H6V6H4M14,8V6H8V8H14M4,10V12H6V10H4M8,10V12H14V10H8M4,14V16H6V14H4Z"
 
 
 {-| Look up an icon (which has the first letter "n") by its name.
@@ -1461,11 +1461,11 @@ lookup name =
         "nail" ->
             Just nail
 
-        "nature" ->
-            Just nature
-
         "nas" ->
             Just nas
+
+        "nature" ->
+            Just nature
 
         "nature-outline" ->
             Just natureOutline
@@ -1509,11 +1509,11 @@ lookup name =
         "network-off-outline" ->
             Just networkOffOutline
 
-        "network-pos" ->
-            Just networkPos
-
         "network-outline" ->
             Just networkOutline
+
+        "network-pos" ->
+            Just networkPos
 
         "network-strength-1" ->
             Just networkStrength1
@@ -1623,11 +1623,11 @@ lookup name =
         "note-check-outline" ->
             Just noteCheckOutline
 
-        "note-edit-outline" ->
-            Just noteEditOutline
-
         "note-edit" ->
             Just noteEdit
+
+        "note-edit-outline" ->
+            Just noteEditOutline
 
         "note-minus" ->
             Just noteMinus
@@ -1662,11 +1662,11 @@ lookup name =
         "note-remove-outline" ->
             Just noteRemoveOutline
 
-        "note-search-outline" ->
-            Just noteSearchOutline
-
         "note-search" ->
             Just noteSearch
+
+        "note-search-outline" ->
+            Just noteSearchOutline
 
         "note-text" ->
             Just noteText
@@ -1773,11 +1773,11 @@ lookup name =
         "numeric-1-circle-outline" ->
             Just numeric1CircleOutline
 
-        "numeric-10-box" ->
-            Just numeric10Box
-
         "numeric-10" ->
             Just numeric10
+
+        "numeric-10-box" ->
+            Just numeric10Box
 
         "numeric-10-box-multiple" ->
             Just numeric10BoxMultiple
@@ -1794,14 +1794,14 @@ lookup name =
         "numeric-10-circle-outline" ->
             Just numeric10CircleOutline
 
+        "numeric-2" ->
+            Just numeric2
+
         "numeric-2-box" ->
             Just numeric2Box
 
         "numeric-2-box-multiple" ->
             Just numeric2BoxMultiple
-
-        "numeric-2" ->
-            Just numeric2
 
         "numeric-2-box-multiple-outline" ->
             Just numeric2BoxMultipleOutline
@@ -1830,23 +1830,23 @@ lookup name =
         "numeric-3-box-outline" ->
             Just numeric3BoxOutline
 
-        "numeric-3-circle-outline" ->
-            Just numeric3CircleOutline
-
         "numeric-3-circle" ->
             Just numeric3Circle
 
+        "numeric-3-circle-outline" ->
+            Just numeric3CircleOutline
+
         "numeric-4" ->
             Just numeric4
+
+        "numeric-4-box" ->
+            Just numeric4Box
 
         "numeric-4-box-multiple" ->
             Just numeric4BoxMultiple
 
         "numeric-4-box-multiple-outline" ->
             Just numeric4BoxMultipleOutline
-
-        "numeric-4-box" ->
-            Just numeric4Box
 
         "numeric-4-box-outline" ->
             Just numeric4BoxOutline
@@ -1887,11 +1887,11 @@ lookup name =
         "numeric-6-box-multiple" ->
             Just numeric6BoxMultiple
 
-        "numeric-6-box-outline" ->
-            Just numeric6BoxOutline
-
         "numeric-6-box-multiple-outline" ->
             Just numeric6BoxMultipleOutline
+
+        "numeric-6-box-outline" ->
+            Just numeric6BoxOutline
 
         "numeric-6-circle" ->
             Just numeric6Circle
@@ -1899,20 +1899,20 @@ lookup name =
         "numeric-6-circle-outline" ->
             Just numeric6CircleOutline
 
-        "numeric-7-box" ->
-            Just numeric7Box
-
         "numeric-7" ->
             Just numeric7
+
+        "numeric-7-box" ->
+            Just numeric7Box
 
         "numeric-7-box-multiple" ->
             Just numeric7BoxMultiple
 
-        "numeric-7-box-outline" ->
-            Just numeric7BoxOutline
-
         "numeric-7-box-multiple-outline" ->
             Just numeric7BoxMultipleOutline
+
+        "numeric-7-box-outline" ->
+            Just numeric7BoxOutline
 
         "numeric-7-circle" ->
             Just numeric7Circle
@@ -1965,11 +1965,11 @@ lookup name =
         "numeric-9-plus" ->
             Just numeric9Plus
 
-        "numeric-9-plus-box-multiple" ->
-            Just numeric9PlusBoxMultiple
-
         "numeric-9-plus-box" ->
             Just numeric9PlusBox
+
+        "numeric-9-plus-box-multiple" ->
+            Just numeric9PlusBoxMultiple
 
         "numeric-9-plus-box-multiple-outline" ->
             Just numeric9PlusBoxMultipleOutline
@@ -1992,11 +1992,11 @@ lookup name =
         "numeric-positive-1" ->
             Just numericPositive1
 
-        "nutrition" ->
-            Just nutrition
-
         "nut" ->
             Just nut
+
+        "nutrition" ->
+            Just nutrition
 
         _ ->
             Nothing

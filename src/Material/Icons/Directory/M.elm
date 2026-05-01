@@ -407,18 +407,18 @@ magazinePistol =
     iconShape "M14 1L12 3H7L9 21H8V23H18V21L16 1M9 5H12L12.24 7H9.24M9.47 9H12.47L12.71 11H9.71M9.94 13H12.94L13.18 15H10.18M10.41 17H13.41L13.65 19H10.65Z"
 
 
-{-| The [`magic-staff`](https://pictogrammers.com/library/mdi/icon/magic-staff/) icon.
--}
-magicStaff : IconShape
-magicStaff =
-    iconShape "M17.5 9C16.12 9 15 7.88 15 6.5S16.12 4 17.5 4 20 5.12 20 6.5 18.88 9 17.5 9M14.43 8.15L2 20.59L3.41 22L15.85 9.57C15.25 9.24 14.76 8.75 14.43 8.15M13 5L13.63 3.63L15 3L13.63 2.37L13 1L12.38 2.37L11 3L12.38 3.63L13 5M21 5L21.63 3.63L23 3L21.63 2.37L21 1L20.38 2.37L19 3L20.38 3.63L21 5M21 9L20.38 10.37L19 11L20.38 11.63L21 13L21.63 11.63L23 11L21.63 10.37L21 9Z"
-
-
 {-| The [`magazine-rifle`](https://pictogrammers.com/library/mdi/icon/magazine-rifle/) icon.
 -}
 magazineRifle : IconShape
 magazineRifle =
     iconShape "M7 1V3H8V13L5 19L14 23L18 13V3H19V1M10 3H16V5H11.88V13.45L9.6 18.14L8 17.5L10 13.5Z"
+
+
+{-| The [`magic-staff`](https://pictogrammers.com/library/mdi/icon/magic-staff/) icon.
+-}
+magicStaff : IconShape
+magicStaff =
+    iconShape "M17.5 9C16.12 9 15 7.88 15 6.5S16.12 4 17.5 4 20 5.12 20 6.5 18.88 9 17.5 9M14.43 8.15L2 20.59L3.41 22L15.85 9.57C15.25 9.24 14.76 8.75 14.43 8.15M13 5L13.63 3.63L15 3L13.63 2.37L13 1L12.38 2.37L11 3L12.38 3.63L13 5M21 5L21.63 3.63L23 3L21.63 2.37L21 1L20.38 2.37L19 3L20.38 3.63L21 5M21 9L20.38 10.37L19 11L20.38 11.63L21 13L21.63 11.63L23 11L21.63 10.37L21 9Z"
 
 
 {-| The [`magnet`](https://pictogrammers.com/library/mdi/icon/magnet/) icon.
@@ -519,18 +519,18 @@ magnifyScan =
     iconShape "M17 22V20H20V17H22V20.5C22 20.89 21.84 21.24 21.54 21.54C21.24 21.84 20.89 22 20.5 22H17M7 22H3.5C3.11 22 2.76 21.84 2.46 21.54C2.16 21.24 2 20.89 2 20.5V17H4V20H7V22M17 2H20.5C20.89 2 21.24 2.16 21.54 2.46C21.84 2.76 22 3.11 22 3.5V7H20V4H17V2M7 2V4H4V7H2V3.5C2 3.11 2.16 2.76 2.46 2.46C2.76 2.16 3.11 2 3.5 2H7M10.5 6C13 6 15 8 15 10.5C15 11.38 14.75 12.2 14.31 12.9L17.57 16.16L16.16 17.57L12.9 14.31C12.2 14.75 11.38 15 10.5 15C8 15 6 13 6 10.5C6 8 8 6 10.5 6M10.5 8C9.12 8 8 9.12 8 10.5C8 11.88 9.12 13 10.5 13C11.88 13 13 11.88 13 10.5C13 9.12 11.88 8 10.5 8Z"
 
 
-{-| The [`mailbox`](https://pictogrammers.com/library/mdi/icon/mailbox/) icon.
--}
-mailbox : IconShape
-mailbox =
-    iconShape "M17,4H7A5,5 0 0,0 2,9V20H20A2,2 0 0,0 22,18V9A5,5 0 0,0 17,4M10,18H4V9A3,3 0 0,1 7,6A3,3 0 0,1 10,9V18M19,15H17V13H13V11H19V15M9,11H5V9H9V11Z"
-
-
 {-| The [`mail`](https://pictogrammers.com/library/mdi/icon/mail/) icon.
 -}
 mail : IconShape
 mail =
     iconShape "M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M17,17H7V15H17M17,13H7V11H17M20,9H17V6H20"
+
+
+{-| The [`mailbox`](https://pictogrammers.com/library/mdi/icon/mailbox/) icon.
+-}
+mailbox : IconShape
+mailbox =
+    iconShape "M17,4H7A5,5 0 0,0 2,9V20H20A2,2 0 0,0 22,18V9A5,5 0 0,0 17,4M10,18H4V9A3,3 0 0,1 7,6A3,3 0 0,1 10,9V18M19,15H17V13H13V11H19V15M9,11H5V9H9V11Z"
 
 
 {-| The [`mailbox-open`](https://pictogrammers.com/library/mdi/icon/mailbox-open/) icon.
@@ -575,18 +575,18 @@ mailboxUp =
     iconShape "M5,9H9V11H5V9M22,9V18A2,2 0 0,1 20,20H2V9A5,5 0 0,1 7,4H17A5,5 0 0,1 22,9M10,9A3,3 0 0,0 7,6A3,3 0 0,0 4,9V18H10V9M16,7H12V13H14V9H16V7Z"
 
 
-{-| The [`map`](https://pictogrammers.com/library/mdi/icon/map/) icon.
--}
-map : IconShape
-map =
-    iconShape "M15,19L9,16.89V5L15,7.11M20.5,3C20.44,3 20.39,3 20.34,3L15,5.1L9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21C3.55,21 3.61,21 3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3Z"
-
-
 {-| The [`mailbox-up-outline`](https://pictogrammers.com/library/mdi/icon/mailbox-up-outline/) icon.
 -}
 mailboxUpOutline : IconShape
 mailboxUpOutline =
     iconShape "M17,4H7A5,5 0 0,0 2,9V20H20A2,2 0 0,0 22,18V9A5,5 0 0,0 17,4M10,18H4V9A3,3 0 0,1 7,6A3,3 0 0,1 10,9V18M20,18H12V9C12,7.92 11.65,6.86 11,6H17A3,3 0 0,1 20,9V18M13,13H15V9H17V7H13V13M9,11H5V9H9V11Z"
+
+
+{-| The [`map`](https://pictogrammers.com/library/mdi/icon/map/) icon.
+-}
+map : IconShape
+map =
+    iconShape "M15,19L9,16.89V5L15,7.11M20.5,3C20.44,3 20.39,3 20.34,3L15,5.1L9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21C3.55,21 3.61,21 3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3Z"
 
 
 {-| The [`map-check`](https://pictogrammers.com/library/mdi/icon/map-check/) icon.
@@ -596,18 +596,18 @@ mapCheck =
     iconShape "M18.25,22L15.5,19L16.66,17.82L18.25,19.41L21.84,15.82L23,17.23M20.5,3A0.5,0.5 0 0,1 21,3.5V13.36C20.36,13.13 19.69,13 19,13C17.46,13 16.06,13.6 15,14.56V7.1L9,5V16.9L13.04,18.3C13,18.54 13,18.77 13,19C13,19.46 13.06,19.92 13.16,20.36L9,18.9L3.66,20.97C3.59,21 3.55,21 3.5,21A0.5,0.5 0 0,1 3,20.5V5.38C3,5.15 3.16,4.97 3.35,4.9L9,3L15,5.1L20.33,3"
 
 
-{-| The [`map-clock`](https://pictogrammers.com/library/mdi/icon/map-clock/) icon.
--}
-mapClock : IconShape
-mapClock =
-    iconShape "M15,12H16.5V16.25L19.36,17.94L18.61,19.16L15,17V12M23,16A7,7 0 0,1 16,23C13,23 10.4,21.08 9.42,18.4L8,17.9L2.66,19.97L2.5,20A0.5,0.5 0 0,1 2,19.5V4.38C2,4.15 2.15,3.97 2.36,3.9L8,2L14,4.1L19.34,2H19.5A0.5,0.5 0 0,1 20,2.5V10.25C21.81,11.5 23,13.62 23,16M9,16C9,12.83 11.11,10.15 14,9.29V6.11L8,4V15.89L9,16.24C9,16.16 9,16.08 9,16M16,11A5,5 0 0,0 11,16A5,5 0 0,0 16,21A5,5 0 0,0 21,16A5,5 0 0,0 16,11Z"
-
-
 {-| The [`map-check-outline`](https://pictogrammers.com/library/mdi/icon/map-check-outline/) icon.
 -}
 mapCheckOutline : IconShape
 mapCheckOutline =
     iconShape "M18.25,22L15.5,19L16.66,17.82L18.25,19.41L21.84,15.82L23,17.23L18.25,22M20.5,3A0.5,0.5 0 0,1 21,3.5V13.34C20.37,13.12 19.7,13 19,13V5.7L16,6.86V13.8C15.2,14.27 14.5,14.91 14,15.68V6.87L10,5.47V17.13L13.05,18.2L13,19C13,19.46 13.05,19.92 13.15,20.35L9,18.9L3.66,20.97L3.5,21A0.5,0.5 0 0,1 3,20.5V5.38C3,5.15 3.15,4.97 3.36,4.9L9,3L15,5.1L20.34,3.03L20.5,3M5,6.46V18.31L8,17.15V5.45L5,6.46Z"
+
+
+{-| The [`map-clock`](https://pictogrammers.com/library/mdi/icon/map-clock/) icon.
+-}
+mapClock : IconShape
+mapClock =
+    iconShape "M15,12H16.5V16.25L19.36,17.94L18.61,19.16L15,17V12M23,16A7,7 0 0,1 16,23C13,23 10.4,21.08 9.42,18.4L8,17.9L2.66,19.97L2.5,20A0.5,0.5 0 0,1 2,19.5V4.38C2,4.15 2.15,3.97 2.36,3.9L8,2L14,4.1L19.34,2H19.5A0.5,0.5 0 0,1 20,2.5V10.25C21.81,11.5 23,13.62 23,16M9,16C9,12.83 11.11,10.15 14,9.29V6.11L8,4V15.89L9,16.24C9,16.16 9,16.08 9,16M16,11A5,5 0 0,0 11,16A5,5 0 0,0 16,21A5,5 0 0,0 21,16A5,5 0 0,0 16,11Z"
 
 
 {-| The [`map-clock-outline`](https://pictogrammers.com/library/mdi/icon/map-clock-outline/) icon.
@@ -708,18 +708,18 @@ mapMarkerLeftOutline =
     iconShape "M15 6.5C16.38 6.5 17.5 7.62 17.5 9S16.38 11.5 15 11.5 12.5 10.38 12.5 9 13.62 6.5 15 6.5M15 2C18.87 2 22 5.13 22 9C22 14.25 15 22 15 22S8 14.25 8 9C8 5.13 11.13 2 15 2M10 9C10 10 10 12 15 18.71C20 12 20 10 20 9C20 6.24 17.76 4 15 4S10 6.24 10 9M6 7L1 12L6 17V7Z"
 
 
-{-| The [`map-marker-minus-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-minus-outline/) icon.
--}
-mapMarkerMinusOutline : IconShape
-mapMarkerMinusOutline =
-    iconShape "M15 17H23V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
-
-
 {-| The [`map-marker-minus`](https://pictogrammers.com/library/mdi/icon/map-marker-minus/) icon.
 -}
 mapMarkerMinus : IconShape
 mapMarkerMinus =
     iconShape "M9,11.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 9,6.5A2.5,2.5 0 0,0 6.5,9A2.5,2.5 0 0,0 9,11.5M9,2C12.86,2 16,5.13 16,9C16,14.25 9,22 9,22C9,22 2,14.25 2,9A7,7 0 0,1 9,2M15,17H23V19H15V17Z"
+
+
+{-| The [`map-marker-minus-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-minus-outline/) icon.
+-}
+mapMarkerMinusOutline : IconShape
+mapMarkerMinusOutline =
+    iconShape "M15 17H23V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
 
 
 {-| The [`map-marker-multiple`](https://pictogrammers.com/library/mdi/icon/map-marker-multiple/) icon.
@@ -778,18 +778,18 @@ mapMarkerPlusOutline =
     iconShape "M15 17H18V14H20V17H23V19H20V22H18V19H15V17M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
 
 
-{-| The [`map-marker-question-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-question-outline/) icon.
--}
-mapMarkerQuestionOutline : IconShape
-mapMarkerQuestionOutline =
-    iconShape "M12,1C7.59,1 4,4.59 4,9C4,14.57 10.96,22.34 11.26,22.67L12,23.5L12.74,22.67C13.04,22.34 20,14.57 20,9C20,4.59 16.41,1 12,1M12,20.47C9.82,17.86 6,12.54 6,9A6,6 0 0,1 12,3A6,6 0 0,1 18,9C18,12.83 13.75,18.36 12,20.47M11.13,14H12.88V15.75H11.13M12,5A3.5,3.5 0 0,0 8.5,8.5H10.25A1.75,1.75 0 0,1 12,6.75A1.75,1.75 0 0,1 13.75,8.5C13.75,10.26 11.13,10.04 11.13,12.88H12.88C12.88,10.91 15.5,10.69 15.5,8.5A3.5,3.5 0 0,0 12,5Z"
-
-
 {-| The [`map-marker-question`](https://pictogrammers.com/library/mdi/icon/map-marker-question/) icon.
 -}
 mapMarkerQuestion : IconShape
 mapMarkerQuestion =
     iconShape "M12,2C8.14,2 5,5.14 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9C19,5.14 15.86,2 12,2M12.88,15.75H11.13V14H12.88M12.88,12.88H11.13C11.13,10.04 13.75,10.26 13.75,8.5A1.75,1.75 0 0,0 12,6.75A1.75,1.75 0 0,0 10.25,8.5H8.5A3.5,3.5 0 0,1 12,5A3.5,3.5 0 0,1 15.5,8.5C15.5,10.69 12.88,10.91 12.88,12.88Z"
+
+
+{-| The [`map-marker-question-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-question-outline/) icon.
+-}
+mapMarkerQuestionOutline : IconShape
+mapMarkerQuestionOutline =
+    iconShape "M12,1C7.59,1 4,4.59 4,9C4,14.57 10.96,22.34 11.26,22.67L12,23.5L12.74,22.67C13.04,22.34 20,14.57 20,9C20,4.59 16.41,1 12,1M12,20.47C9.82,17.86 6,12.54 6,9A6,6 0 0,1 12,3A6,6 0 0,1 18,9C18,12.83 13.75,18.36 12,20.47M11.13,14H12.88V15.75H11.13M12,5A3.5,3.5 0 0,0 8.5,8.5H10.25A1.75,1.75 0 0,1 12,6.75A1.75,1.75 0 0,1 13.75,8.5C13.75,10.26 11.13,10.04 11.13,12.88H12.88C12.88,10.91 15.5,10.69 15.5,8.5A3.5,3.5 0 0,0 12,5Z"
 
 
 {-| The [`map-marker-radius`](https://pictogrammers.com/library/mdi/icon/map-marker-radius/) icon.
@@ -806,18 +806,18 @@ mapMarkerRadiusOutline =
     iconShape "M12 4C14.2 4 16 5.8 16 8C16 10.1 13.9 13.5 12 15.9C10.1 13.4 8 10.1 8 8C8 5.8 9.8 4 12 4M12 2C8.7 2 6 4.7 6 8C6 12.5 12 19 12 19S18 12.4 18 8C18 4.7 15.3 2 12 2M12 6C10.9 6 10 6.9 10 8S10.9 10 12 10 14 9.1 14 8 13.1 6 12 6M20 19C20 21.2 16.4 23 12 23S4 21.2 4 19C4 17.7 5.2 16.6 7.1 15.8L7.7 16.7C6.7 17.2 6 17.8 6 18.5C6 19.9 8.7 21 12 21S18 19.9 18 18.5C18 17.8 17.3 17.2 16.2 16.7L16.8 15.8C18.8 16.6 20 17.7 20 19Z"
 
 
-{-| The [`map-marker-remove-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-remove-outline/) icon.
--}
-mapMarkerRemoveOutline : IconShape
-mapMarkerRemoveOutline =
-    iconShape "M16.6 14.2L15.2 15.6L17.6 18L15.2 20.4L16.6 21.8L19 19.4L21.4 21.8L22.8 20.4L20.4 18L22.8 15.6L21.4 14.2L19 16.6M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
-
-
 {-| The [`map-marker-remove`](https://pictogrammers.com/library/mdi/icon/map-marker-remove/) icon.
 -}
 mapMarkerRemove : IconShape
 mapMarkerRemove =
     iconShape "M9,2C5.14,2 2,5.14 2,9C2,14.25 9,22 9,22C9,22 16,14.25 16,9A7,7 0 0,0 9,2M9,6.5A2.5,2.5 0 0,1 11.5,9A2.5,2.5 0 0,1 9,11.5A2.5,2.5 0 0,1 6.5,9A2.5,2.5 0 0,1 9,6.5M16.58,14.16L15.17,15.58L17.58,18L15.17,20.41L16.58,21.82L19,19.41L21.41,21.82L22.83,20.41L20.41,18L22.83,15.58L21.41,14.16L19,16.58"
+
+
+{-| The [`map-marker-remove-outline`](https://pictogrammers.com/library/mdi/icon/map-marker-remove-outline/) icon.
+-}
+mapMarkerRemoveOutline : IconShape
+mapMarkerRemoveOutline =
+    iconShape "M16.6 14.2L15.2 15.6L17.6 18L15.2 20.4L16.6 21.8L19 19.4L21.4 21.8L22.8 20.4L20.4 18L22.8 15.6L21.4 14.2L19 16.6M9 6.5C10.4 6.5 11.5 7.6 11.5 9S10.4 11.5 9 11.5 6.5 10.4 6.5 9 7.6 6.5 9 6.5M9 2C12.9 2 16 5.1 16 9C16 14.2 9 22 9 22S2 14.2 2 9C2 5.1 5.1 2 9 2M9 4C6.2 4 4 6.2 4 9C4 10 4 12 9 18.7C14 12 14 10 14 9C14 6.2 11.8 4 9 4Z"
 
 
 {-| The [`map-marker-remove-variant`](https://pictogrammers.com/library/mdi/icon/map-marker-remove-variant/) icon.
@@ -1037,18 +1037,18 @@ medicationOutline =
     iconShape "M10.5 15H8V12H10.5V9.5H13.5V12H16V15H13.5V17.5H10.5V15M19 8V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V8C5 6.9 5.9 6 7 6H17C18.1 6 19 6.9 19 8M17 8H7V19H17V8M18 3H6V5H18V3"
 
 
-{-| The [`memory`](https://pictogrammers.com/library/mdi/icon/memory/) icon.
--}
-memory : IconShape
-memory =
-    iconShape "M17,17H7V7H17M21,11V9H19V7C19,5.89 18.1,5 17,5H15V3H13V5H11V3H9V5H7C5.89,5 5,5.89 5,7V9H3V11H5V13H3V15H5V17A2,2 0 0,0 7,19H9V21H11V19H13V21H15V19H17A2,2 0 0,0 19,17V15H21V13H19V11M13,13H11V11H13M15,9H9V15H15V9Z"
-
-
 {-| The [`meditation`](https://pictogrammers.com/library/mdi/icon/meditation/) icon.
 -}
 meditation : IconShape
 meditation =
     iconShape "M12 4C13.11 4 14 4.89 14 6S13.11 8 12 8 10 7.11 10 6 10.9 4 12 4M21 16V14C18.76 14 16.84 13.04 15.4 11.32L14.06 9.72C13.68 9.26 13.12 9 12.53 9H11.5C10.89 9 10.33 9.26 9.95 9.72L8.61 11.32C7.16 13.04 5.24 14 3 14V16C5.77 16 8.19 14.83 10 12.75V15L6.12 16.55C5.45 16.82 5 17.5 5 18.21C5 19.2 5.8 20 6.79 20H9V19.5C9 18.12 10.12 17 11.5 17H14.5C14.78 17 15 17.22 15 17.5S14.78 18 14.5 18H11.5C10.67 18 10 18.67 10 19.5V20H17.21C18.2 20 19 19.2 19 18.21C19 17.5 18.55 16.82 17.88 16.55L14 15V12.75C15.81 14.83 18.23 16 21 16Z"
+
+
+{-| The [`memory`](https://pictogrammers.com/library/mdi/icon/memory/) icon.
+-}
+memory : IconShape
+memory =
+    iconShape "M17,17H7V7H17M21,11V9H19V7C19,5.89 18.1,5 17,5H15V3H13V5H11V3H9V5H7C5.89,5 5,5.89 5,7V9H3V11H5V13H3V15H5V17A2,2 0 0,0 7,19H9V21H11V19H13V21H15V19H17A2,2 0 0,0 19,17V15H21V13H19V11M13,13H11V11H13M15,9H9V15H15V9Z"
 
 
 {-| The [`memory-arrow-down`](https://pictogrammers.com/library/mdi/icon/memory-arrow-down/) icon.
@@ -1072,18 +1072,18 @@ menorahFire =
     iconShape "M21.5 11.15V10C21.5 9.45 21.05 9 20.5 9H19.5C18.95 9 18.5 9.45 18.5 10V11H17.5V10C17.5 9.45 17.05 9 16.5 9H15.5C14.95 9 14.5 9.45 14.5 10V11H13.5V8C13.5 7.45 13.05 7 12.5 7H11.5C10.95 7 10.5 7.45 10.5 8V11H9.5V10C9.5 9.45 9.05 9 8.5 9H7.5C6.95 9 6.5 9.45 6.5 10V11H5.5V10C5.5 9.45 5.05 9 4.5 9H3.5C2.95 9 2.5 9.45 2.5 10V11.15C2.21 11.33 2 11.63 2 12C2 12.55 2.45 13 3 13H4.25C4.95 14.92 6.94 17.58 11 17.95V20H10C8.9 20 8 20.9 8 22H16C16 20.9 15.11 20 14 20H13V17.95C17.06 17.57 19.05 14.92 19.75 13H21C21.55 13 22 12.55 22 12C22 11.63 21.79 11.33 21.5 11.15M6.45 13H11V15.94C8.34 15.63 7.05 14.11 6.45 13M13 15.94V13H17.55C16.95 14.11 15.66 15.63 13 15.94M12 6C12.83 6 13.5 5.33 13.5 4.5C13.5 3.67 12.83 2 12 2S10.5 3.67 10.5 4.5C10.5 5.33 11.17 6 12 6M12 4.25C12.28 4.25 12.5 4.47 12.5 4.75S12.28 5.25 12 5.25 11.5 5.03 11.5 4.75 11.72 4.25 12 4.25M16 8C16.83 8 17.5 7.33 17.5 6.5C17.5 5.67 16.83 4 16 4S14.5 5.67 14.5 6.5C14.5 7.33 15.17 8 16 8M16 6.25C16.28 6.25 16.5 6.47 16.5 6.75S16.28 7.25 16 7.25 15.5 7.03 15.5 6.75 15.72 6.25 16 6.25M20 8C20.83 8 21.5 7.33 21.5 6.5C21.5 5.67 20.83 4 20 4S18.5 5.67 18.5 6.5C18.5 7.33 19.17 8 20 8M20 6.25C20.28 6.25 20.5 6.47 20.5 6.75S20.28 7.25 20 7.25 19.5 7.03 19.5 6.75 19.72 6.25 20 6.25M4 8C4.83 8 5.5 7.33 5.5 6.5C5.5 5.67 4.83 4 4 4S2.5 5.67 2.5 6.5C2.5 7.33 3.17 8 4 8M4 6.25C4.28 6.25 4.5 6.47 4.5 6.75S4.28 7.25 4 7.25 3.5 7.03 3.5 6.75 3.72 6.25 4 6.25M8 8C8.83 8 9.5 7.33 9.5 6.5C9.5 5.67 8.83 4 8 4S6.5 5.67 6.5 6.5C6.5 7.33 7.17 8 8 8M8 6.25C8.28 6.25 8.5 6.47 8.5 6.75S8.28 7.25 8 7.25 7.5 7.03 7.5 6.75 7.72 6.25 8 6.25Z"
 
 
-{-| The [`menu-close`](https://pictogrammers.com/library/mdi/icon/menu-close/) icon.
--}
-menuClose : IconShape
-menuClose =
-    iconShape "M3 6H13V8H3V6M3 16H13V18H3V16M3 11H15V13H3V11M16 7L14.58 8.39L18.14 12L14.58 15.61L16 17L21 12L16 7Z"
-
-
 {-| The [`menu`](https://pictogrammers.com/library/mdi/icon/menu/) icon.
 -}
 menu : IconShape
 menu =
     iconShape "M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
+
+
+{-| The [`menu-close`](https://pictogrammers.com/library/mdi/icon/menu-close/) icon.
+-}
+menuClose : IconShape
+menuClose =
+    iconShape "M3 6H13V8H3V6M3 16H13V18H3V16M3 11H15V13H3V11M16 7L14.58 8.39L18.14 12L14.58 15.61L16 17L21 12L16 7Z"
 
 
 {-| The [`menu-down`](https://pictogrammers.com/library/mdi/icon/menu-down/) icon.
@@ -1114,13 +1114,6 @@ menuLeftOutline =
     iconShape "M15,18H13.5L7.5,12L13.5,6H15V18M10.33,12L13,14.67V9.33L10.33,12Z"
 
 
-{-| The [`menu-right`](https://pictogrammers.com/library/mdi/icon/menu-right/) icon.
--}
-menuRight : IconShape
-menuRight =
-    iconShape "M10,17L15,12L10,7V17Z"
-
-
 {-| The [`menu-open`](https://pictogrammers.com/library/mdi/icon/menu-open/) icon.
 -}
 menuOpen : IconShape
@@ -1128,11 +1121,25 @@ menuOpen =
     iconShape "M21,15.61L19.59,17L14.58,12L19.59,7L21,8.39L17.44,12L21,15.61M3,6H16V8H3V6M3,13V11H13V13H3M3,18V16H16V18H3Z"
 
 
+{-| The [`menu-right`](https://pictogrammers.com/library/mdi/icon/menu-right/) icon.
+-}
+menuRight : IconShape
+menuRight =
+    iconShape "M10,17L15,12L10,7V17Z"
+
+
 {-| The [`menu-right-outline`](https://pictogrammers.com/library/mdi/icon/menu-right-outline/) icon.
 -}
 menuRightOutline : IconShape
 menuRightOutline =
     iconShape "M9,6H10.5L16.5,12L10.5,18H9V6M13.67,12L11,9.33V14.67L13.67,12Z"
+
+
+{-| The [`menu-swap`](https://pictogrammers.com/library/mdi/icon/menu-swap/) icon.
+-}
+menuSwap : IconShape
+menuSwap =
+    iconShape "M12,6L7,11H17L12,6M7,13L12,18L17,13H7Z"
 
 
 {-| The [`menu-swap-outline`](https://pictogrammers.com/library/mdi/icon/menu-swap-outline/) icon.
@@ -1147,13 +1154,6 @@ menuSwapOutline =
 menuUp : IconShape
 menuUp =
     iconShape "M7,15L12,10L17,15H7Z"
-
-
-{-| The [`menu-swap`](https://pictogrammers.com/library/mdi/icon/menu-swap/) icon.
--}
-menuSwap : IconShape
-menuSwap =
-    iconShape "M12,6L7,11H17L12,6M7,13L12,18L17,13H7Z"
 
 
 {-| The [`menu-up-outline`](https://pictogrammers.com/library/mdi/icon/menu-up-outline/) icon.
@@ -1247,18 +1247,18 @@ messageBookmarkOutline =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M18 14V6H13V14L15.5 12.5L18 14"
 
 
-{-| The [`message-bulleted-off`](https://pictogrammers.com/library/mdi/icon/message-bulleted-off/) icon.
--}
-messageBulletedOff : IconShape
-messageBulletedOff =
-    iconShape "M1.27,1.73L0,3L2,5V22L6,18H15L20.73,23.73L22,22.46L1.27,1.73M8,14H6V12H8V14M6,11V9L8,11H6M20,2H4.08L10,7.92V6H18V8H10.08L11.08,9H18V11H13.08L20.07,18C21.14,17.95 22,17.08 22,16V4A2,2 0 0,0 20,2Z"
-
-
 {-| The [`message-bulleted`](https://pictogrammers.com/library/mdi/icon/message-bulleted/) icon.
 -}
 messageBulleted : IconShape
 messageBulleted =
     iconShape "M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M8,14H6V12H8V14M8,11H6V9H8V11M8,8H6V6H8V8M15,14H10V12H15V14M18,11H10V9H18V11M18,8H10V6H18V8Z"
+
+
+{-| The [`message-bulleted-off`](https://pictogrammers.com/library/mdi/icon/message-bulleted-off/) icon.
+-}
+messageBulletedOff : IconShape
+messageBulletedOff =
+    iconShape "M1.27,1.73L0,3L2,5V22L6,18H15L20.73,23.73L22,22.46L1.27,1.73M8,14H6V12H8V14M6,11V9L8,11H6M20,2H4.08L10,7.92V6H18V8H10.08L11.08,9H18V11H13.08L20.07,18C21.14,17.95 22,17.08 22,16V4A2,2 0 0,0 20,2Z"
 
 
 {-| The [`message-check`](https://pictogrammers.com/library/mdi/icon/message-check/) icon.
@@ -1408,18 +1408,18 @@ messageProcessing =
     iconShape "M17,11H15V9H17M13,11H11V9H13M9,11H7V9H9M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"
 
 
-{-| The [`message-question`](https://pictogrammers.com/library/mdi/icon/message-question/) icon.
--}
-messageQuestion : IconShape
-messageQuestion =
-    iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M13 14H11V12H13V14M14.8 9C14.5 9.4 14.1 9.6 13.7 9.8C13.4 10 13.3 10.1 13.2 10.3C13 10.5 13 10.7 13 11H11C11 10.5 11.1 10.2 11.3 9.9C11.5 9.7 11.9 9.4 12.4 9.1C12.7 9 12.9 8.8 13 8.6C13.1 8.4 13.2 8.1 13.2 7.9C13.2 7.6 13.1 7.4 12.9 7.2C12.7 7 12.4 6.9 12.1 6.9C11.8 6.9 11.6 7 11.4 7.1C11.2 7.2 11.1 7.4 11.1 7.7H9.1C9.2 7 9.5 6.4 10 6C10.5 5.6 11.2 5.5 12.1 5.5C13 5.5 13.8 5.7 14.3 6.1C14.8 6.5 15.1 7.1 15.1 7.8C15.2 8.2 15.1 8.6 14.8 9Z"
-
-
 {-| The [`message-processing-outline`](https://pictogrammers.com/library/mdi/icon/message-processing-outline/) icon.
 -}
 messageProcessingOutline : IconShape
 messageProcessingOutline =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M17 11H15V9H17M13 11H11V9H13M9 11H7V9H9"
+
+
+{-| The [`message-question`](https://pictogrammers.com/library/mdi/icon/message-question/) icon.
+-}
+messageQuestion : IconShape
+messageQuestion =
+    iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M13 14H11V12H13V14M14.8 9C14.5 9.4 14.1 9.6 13.7 9.8C13.4 10 13.3 10.1 13.2 10.3C13 10.5 13 10.7 13 11H11C11 10.5 11.1 10.2 11.3 9.9C11.5 9.7 11.9 9.4 12.4 9.1C12.7 9 12.9 8.8 13 8.6C13.1 8.4 13.2 8.1 13.2 7.9C13.2 7.6 13.1 7.4 12.9 7.2C12.7 7 12.4 6.9 12.1 6.9C11.8 6.9 11.6 7 11.4 7.1C11.2 7.2 11.1 7.4 11.1 7.7H9.1C9.2 7 9.5 6.4 10 6C10.5 5.6 11.2 5.5 12.1 5.5C13 5.5 13.8 5.7 14.3 6.1C14.8 6.5 15.1 7.1 15.1 7.8C15.2 8.2 15.1 8.6 14.8 9Z"
 
 
 {-| The [`message-question-outline`](https://pictogrammers.com/library/mdi/icon/message-question-outline/) icon.
@@ -1429,18 +1429,18 @@ messageQuestionOutline =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M12.2 5.5C11.3 5.5 10.6 5.7 10.1 6C9.5 6.4 9.2 7 9.3 7.7H11.3C11.3 7.4 11.4 7.2 11.6 7.1C11.8 7 12 6.9 12.3 6.9C12.6 6.9 12.9 7 13.1 7.2C13.3 7.4 13.4 7.6 13.4 7.9C13.4 8.2 13.3 8.4 13.2 8.6C13 8.8 12.8 9 12.6 9.1C12.1 9.4 11.7 9.7 11.5 9.9C11.1 10.2 11 10.5 11 11H13C13 10.7 13.1 10.5 13.1 10.3C13.2 10.1 13.4 10 13.6 9.8C14.1 9.6 14.4 9.3 14.7 8.9C15 8.5 15.1 8.1 15.1 7.7C15.1 7 14.8 6.4 14.3 6C13.9 5.7 13.1 5.5 12.2 5.5M11 12V14H13V12H11Z"
 
 
-{-| The [`message-reply-outline`](https://pictogrammers.com/library/mdi/icon/message-reply-outline/) icon.
--}
-messageReplyOutline : IconShape
-messageReplyOutline =
-    iconShape "M20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H18L22 22V4C22 2.9 21.1 2 20 2M20 17.2L18.8 16H4V4H20V17.2Z"
-
-
 {-| The [`message-reply`](https://pictogrammers.com/library/mdi/icon/message-reply/) icon.
 -}
 messageReply : IconShape
 messageReply =
     iconShape "M22,4C22,2.89 21.1,2 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z"
+
+
+{-| The [`message-reply-outline`](https://pictogrammers.com/library/mdi/icon/message-reply-outline/) icon.
+-}
+messageReplyOutline : IconShape
+messageReplyOutline =
+    iconShape "M20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H18L22 22V4C22 2.9 21.1 2 20 2M20 17.2L18.8 16H4V4H20V17.2Z"
 
 
 {-| The [`message-reply-text`](https://pictogrammers.com/library/mdi/icon/message-reply-text/) icon.
@@ -1492,18 +1492,18 @@ messageText =
     iconShape "M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M6,9H18V11H6M14,14H6V12H14M18,8H6V6H18"
 
 
-{-| The [`message-text-clock-outline`](https://pictogrammers.com/library/mdi/icon/message-text-clock-outline/) icon.
--}
-messageTextClockOutline : IconShape
-messageTextClockOutline =
-    iconShape "M22 12.41V4C22 2.9 21.11 2 20 2H4C2.9 2 2 2.89 2 4V22L6 18H9.29C10.15 20.89 12.83 23 16 23C19.86 23 23 19.87 23 16C23 14.69 22.63 13.46 22 12.41M5.17 16L4 17.17V4H20V10.26C18.86 9.47 17.5 9 16 9C14.1 9 12.37 9.77 11.11 11H6V13H9.69C9.25 13.91 9 14.93 9 16H5.17M16 20.85C13.32 20.85 11.15 18.68 11.15 16S13.32 11.15 16 11.15C18.67 11.15 20.85 13.32 20.85 16S18.67 20.85 16 20.85M18 9H6V7H18V9M16.5 15.82L18.94 17.23L18.19 18.53L15 16.69V13H16.5V15.82Z"
-
-
 {-| The [`message-text-clock`](https://pictogrammers.com/library/mdi/icon/message-text-clock/) icon.
 -}
 messageTextClock : IconShape
 messageTextClock =
     iconShape "M22 12.41V4C22 2.9 21.11 2 20 2H4C2.9 2 2 2.9 2 4V22L6 18H9.29C10.15 20.89 12.83 23 16 23C19.86 23 23 19.87 23 16C23 14.69 22.63 13.46 22 12.41M6 6H18V8H6V6M16 9C14.1 9 12.37 9.77 11.11 11H6V9H16M6 12H10.26C9.84 12.6 9.5 13.28 9.3 14H6V12M16 20.85C13.32 20.85 11.15 18.68 11.15 16S13.32 11.15 16 11.15C18.67 11.15 20.85 13.32 20.85 16S18.67 20.85 16 20.85M16.5 15.82L18.94 17.23L18.19 18.53L15 16.69V13H16.5V15.82Z"
+
+
+{-| The [`message-text-clock-outline`](https://pictogrammers.com/library/mdi/icon/message-text-clock-outline/) icon.
+-}
+messageTextClockOutline : IconShape
+messageTextClockOutline =
+    iconShape "M22 12.41V4C22 2.9 21.11 2 20 2H4C2.9 2 2 2.89 2 4V22L6 18H9.29C10.15 20.89 12.83 23 16 23C19.86 23 23 19.87 23 16C23 14.69 22.63 13.46 22 12.41M5.17 16L4 17.17V4H20V10.26C18.86 9.47 17.5 9 16 9C14.1 9 12.37 9.77 11.11 11H6V13H9.69C9.25 13.91 9 14.93 9 16H5.17M16 20.85C13.32 20.85 11.15 18.68 11.15 16S13.32 11.15 16 11.15C18.67 11.15 20.85 13.32 20.85 16S18.67 20.85 16 20.85M18 9H6V7H18V9M16.5 15.82L18.94 17.23L18.19 18.53L15 16.69V13H16.5V15.82Z"
 
 
 {-| The [`message-text-fast`](https://pictogrammers.com/library/mdi/icon/message-text-fast/) icon.
@@ -1513,18 +1513,18 @@ messageTextFast =
     iconShape "M9 5C7.9 5 7 5.9 7 7V21L11 17H20C21.1 17 22 16.1 22 15V7C22 5.9 21.1 5 20 5H9M3 7C2.4 7 2 7.4 2 8S2.4 9 3 9H5V7H3M11 8H19V10H11V8M2 11C1.4 11 1 11.4 1 12S1.4 13 2 13H5V11H2M11 12H16V14H11V12M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
 
 
-{-| The [`message-text-lock`](https://pictogrammers.com/library/mdi/icon/message-text-lock/) icon.
--}
-messageTextLock : IconShape
-messageTextLock =
-    iconShape "M20.5 0A2.5 2.5 0 0 0 18 2.5V3A1 1 0 0 0 17 4V8A1 1 0 0 0 18 9H23A1 1 0 0 0 24 8V4A1 1 0 0 0 23 3V2.5A2.5 2.5 0 0 0 20.5 0M20.5 1A1.5 1.5 0 0 1 22 2.5V3H19V2.5A1.5 1.5 0 0 1 20.5 1M4 2A2 2 0 0 0 2 4V22L6 18H20A2 2 0 0 0 22 16V11H17C15.89 11 15 10.11 15 9V2H4M6 6H13V8H6V6M6 9H13V11H6V9M6 12H14V14H6V12Z"
-
-
 {-| The [`message-text-fast-outline`](https://pictogrammers.com/library/mdi/icon/message-text-fast-outline/) icon.
 -}
 messageTextFastOutline : IconShape
 messageTextFastOutline =
     iconShape "M10 11.5H17V13H10V11.5M10 8.5H19V10H10V8.5M20 5H9C7.9 5 7 5.9 7 7V21L11 17H20C21.1 17 22 16.1 22 15V7C22 5.9 21.1 5 20 5M20 15H10.2L9 16.2V7H20V15M3 7C2.4 7 2 7.4 2 8S2.4 9 3 9H5V7H3M2 11C1.4 11 1 11.4 1 12S1.4 13 2 13H5V11H2M1 15C.4 15 0 15.4 0 16C0 16.6 .4 17 1 17H5V15H1Z"
+
+
+{-| The [`message-text-lock`](https://pictogrammers.com/library/mdi/icon/message-text-lock/) icon.
+-}
+messageTextLock : IconShape
+messageTextLock =
+    iconShape "M20.5 0A2.5 2.5 0 0 0 18 2.5V3A1 1 0 0 0 17 4V8A1 1 0 0 0 18 9H23A1 1 0 0 0 24 8V4A1 1 0 0 0 23 3V2.5A2.5 2.5 0 0 0 20.5 0M20.5 1A1.5 1.5 0 0 1 22 2.5V3H19V2.5A1.5 1.5 0 0 1 20.5 1M4 2A2 2 0 0 0 2 4V22L6 18H20A2 2 0 0 0 22 16V11H17C15.89 11 15 10.11 15 9V2H4M6 6H13V8H6V6M6 9H13V11H6V9M6 12H14V14H6V12Z"
 
 
 {-| The [`message-text-lock-outline`](https://pictogrammers.com/library/mdi/icon/message-text-lock-outline/) icon.
@@ -1583,18 +1583,18 @@ metronome =
     iconShape "M12,1.75L8.57,2.67L4.06,19.53C4.03,19.68 4,19.84 4,20C4,21.11 4.89,22 6,22H18C19.11,22 20,21.11 20,20C20,19.84 19.97,19.68 19.94,19.53L18.58,14.42L17,16L17.2,17H13.41L16.25,14.16L14.84,12.75L10.59,17H6.8L10.29,4H13.71L15.17,9.43L16.8,7.79L15.43,2.67L12,1.75M11.25,5V14.75L12.75,13.25V5H11.25M19.79,7.8L16.96,10.63L16.25,9.92L14.84,11.34L17.66,14.16L19.08,12.75L18.37,12.04L21.2,9.21L19.79,7.8Z"
 
 
-{-| The [`micro-sd`](https://pictogrammers.com/library/mdi/icon/micro-sd/) icon.
--}
-microSd : IconShape
-microSd =
-    iconShape "M8,2A2,2 0 0,0 6,4V11L4,13V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V4A2,2 0 0,0 18,2H8M9,4H11V8H9V4M12,4H14V8H12V4M15,4H17V8H15V4Z"
-
-
 {-| The [`metronome-tick`](https://pictogrammers.com/library/mdi/icon/metronome-tick/) icon.
 -}
 metronomeTick : IconShape
 metronomeTick =
     iconShape "M12,1.75L8.57,2.67L4.07,19.5C4.06,19.5 4,19.84 4,20C4,21.11 4.89,22 6,22H18C19.11,22 20,21.11 20,20C20,19.84 19.94,19.5 19.93,19.5L15.43,2.67L12,1.75M10.29,4H13.71L17.2,17H13V12H11V17H6.8L10.29,4M11,5V9H10V11H14V9H13V5H11Z"
+
+
+{-| The [`micro-sd`](https://pictogrammers.com/library/mdi/icon/micro-sd/) icon.
+-}
+microSd : IconShape
+microSd =
+    iconShape "M8,2A2,2 0 0,0 6,4V11L4,13V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V4A2,2 0 0,0 18,2H8M9,4H11V8H9V4M12,4H14V8H12V4M15,4H17V8H15V4Z"
 
 
 {-| The [`microphone`](https://pictogrammers.com/library/mdi/icon/microphone/) icon.
@@ -1632,13 +1632,6 @@ microphoneOff =
     iconShape "M19,11C19,12.19 18.66,13.3 18.1,14.28L16.87,13.05C17.14,12.43 17.3,11.74 17.3,11H19M15,11.16L9,5.18V5A3,3 0 0,1 12,2A3,3 0 0,1 15,5V11L15,11.16M4.27,3L21,19.73L19.73,21L15.54,16.81C14.77,17.27 13.91,17.58 13,17.72V21H11V17.72C7.72,17.23 5,14.41 5,11H6.7C6.7,14 9.24,16.1 12,16.1C12.81,16.1 13.6,15.91 14.31,15.58L12.65,13.92L12,14A3,3 0 0,1 9,11V10.28L3,4.27L4.27,3Z"
 
 
-{-| The [`microphone-plus`](https://pictogrammers.com/library/mdi/icon/microphone-plus/) icon.
--}
-microphonePlus : IconShape
-microphonePlus =
-    iconShape "M9,2A3,3 0 0,1 12,5V11A3,3 0 0,1 9,14A3,3 0 0,1 6,11V5A3,3 0 0,1 9,2M16,11C16,14.5 13.44,17.43 10,17.93V21H8V17.93C4.56,17.43 2,14.5 2,11H4A5,5 0 0,0 9,16A5,5 0 0,0 14,11H16M15,5H18V2H20V5H23V7H20V10H18V7H15V5Z"
-
-
 {-| The [`microphone-outline`](https://pictogrammers.com/library/mdi/icon/microphone-outline/) icon.
 -}
 microphoneOutline : IconShape
@@ -1646,11 +1639,11 @@ microphoneOutline =
     iconShape "M17.3,11C17.3,14 14.76,16.1 12,16.1C9.24,16.1 6.7,14 6.7,11H5C5,14.41 7.72,17.23 11,17.72V21H13V17.72C16.28,17.23 19,14.41 19,11M10.8,4.9C10.8,4.24 11.34,3.7 12,3.7C12.66,3.7 13.2,4.24 13.2,4.9L13.19,11.1C13.19,11.76 12.66,12.3 12,12.3C11.34,12.3 10.8,11.76 10.8,11.1M12,14A3,3 0 0,0 15,11V5A3,3 0 0,0 12,2A3,3 0 0,0 9,5V11A3,3 0 0,0 12,14Z"
 
 
-{-| The [`microphone-question-outline`](https://pictogrammers.com/library/mdi/icon/microphone-question-outline/) icon.
+{-| The [`microphone-plus`](https://pictogrammers.com/library/mdi/icon/microphone-plus/) icon.
 -}
-microphoneQuestionOutline : IconShape
-microphoneQuestionOutline =
-    iconShape "M14.3 11C14.3 14 11.76 16.1 9 16.1S3.7 14 3.7 11H2C2 14.41 4.72 17.23 8 17.72V21H10V17.72C13.28 17.23 16 14.41 16 11M7.8 4.9C7.8 4.24 8.34 3.7 9 3.7S10.2 4.24 10.2 4.9L10.19 11.1C10.19 11.76 9.66 12.3 9 12.3S7.8 11.76 7.8 11.1M9 14C10.66 14 12 12.66 12 11V5C12 3.34 10.66 2 9 2S6 3.34 6 5V11C6 12.66 7.34 14 9 14M20.5 14.5V16H19V14.5H20.5M18.5 9.5H17V9C17 7.34 18.34 6 20 6S23 7.34 23 9C23 9.97 22.5 10.88 21.71 11.41L21.41 11.6C20.84 12 20.5 12.61 20.5 13.3V13.5H19V13.3C19 12.11 19.6 11 20.59 10.35L20.88 10.16C21.27 9.9 21.5 9.47 21.5 9C21.5 8.17 20.83 7.5 20 7.5S18.5 8.17 18.5 9V9.5Z"
+microphonePlus : IconShape
+microphonePlus =
+    iconShape "M9,2A3,3 0 0,1 12,5V11A3,3 0 0,1 9,14A3,3 0 0,1 6,11V5A3,3 0 0,1 9,2M16,11C16,14.5 13.44,17.43 10,17.93V21H8V17.93C4.56,17.43 2,14.5 2,11H4A5,5 0 0,0 9,16A5,5 0 0,0 14,11H16M15,5H18V2H20V5H23V7H20V10H18V7H15V5Z"
 
 
 {-| The [`microphone-question`](https://pictogrammers.com/library/mdi/icon/microphone-question/) icon.
@@ -1658,6 +1651,13 @@ microphoneQuestionOutline =
 microphoneQuestion : IconShape
 microphoneQuestion =
     iconShape "M9 2C10.66 2 12 3.34 12 5V11C12 12.66 10.66 14 9 14S6 12.66 6 11V5C6 3.34 7.34 2 9 2M16 11C16 14.53 13.39 17.44 10 17.93V21H8V17.93C4.61 17.44 2 14.53 2 11H4C4 13.76 6.24 16 9 16S14 13.76 14 11H16M20.5 14.5V16H19V14.5H20.5M18.5 9.5H17V9C17 7.34 18.34 6 20 6S23 7.34 23 9C23 9.97 22.5 10.88 21.71 11.41L21.41 11.6C20.84 12 20.5 12.61 20.5 13.3V13.5H19V13.3C19 12.11 19.6 11 20.59 10.35L20.88 10.16C21.27 9.9 21.5 9.47 21.5 9C21.5 8.17 20.83 7.5 20 7.5S18.5 8.17 18.5 9V9.5Z"
+
+
+{-| The [`microphone-question-outline`](https://pictogrammers.com/library/mdi/icon/microphone-question-outline/) icon.
+-}
+microphoneQuestionOutline : IconShape
+microphoneQuestionOutline =
+    iconShape "M14.3 11C14.3 14 11.76 16.1 9 16.1S3.7 14 3.7 11H2C2 14.41 4.72 17.23 8 17.72V21H10V17.72C13.28 17.23 16 14.41 16 11M7.8 4.9C7.8 4.24 8.34 3.7 9 3.7S10.2 4.24 10.2 4.9L10.19 11.1C10.19 11.76 9.66 12.3 9 12.3S7.8 11.76 7.8 11.1M9 14C10.66 14 12 12.66 12 11V5C12 3.34 10.66 2 9 2S6 3.34 6 5V11C6 12.66 7.34 14 9 14M20.5 14.5V16H19V14.5H20.5M18.5 9.5H17V9C17 7.34 18.34 6 20 6S23 7.34 23 9C23 9.97 22.5 10.88 21.71 11.41L21.41 11.6C20.84 12 20.5 12.61 20.5 13.3V13.5H19V13.3C19 12.11 19.6 11 20.59 10.35L20.88 10.16C21.27 9.9 21.5 9.47 21.5 9C21.5 8.17 20.83 7.5 20 7.5S18.5 8.17 18.5 9V9.5Z"
 
 
 {-| The [`microphone-settings`](https://pictogrammers.com/library/mdi/icon/microphone-settings/) icon.
@@ -1758,18 +1758,18 @@ minus =
     iconShape "M19,13H5V11H19V13Z"
 
 
-{-| The [`minus-box-multiple`](https://pictogrammers.com/library/mdi/icon/minus-box-multiple/) icon.
--}
-minusBoxMultiple : IconShape
-minusBoxMultiple =
-    iconShape "M19 11H9V9H19M20 2H8C6.9 2 6 2.9 6 4V16C6 17.11 6.9 18 8 18H20C21.11 18 22 17.11 22 16V4C22 2.9 21.11 2 20 2M4 6H2V20C2 21.11 2.9 22 4 22H18V20H4V6Z"
-
-
 {-| The [`minus-box`](https://pictogrammers.com/library/mdi/icon/minus-box/) icon.
 -}
 minusBox : IconShape
 minusBox =
     iconShape "M17,13H7V11H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"
+
+
+{-| The [`minus-box-multiple`](https://pictogrammers.com/library/mdi/icon/minus-box-multiple/) icon.
+-}
+minusBoxMultiple : IconShape
+minusBoxMultiple =
+    iconShape "M19 11H9V9H19M20 2H8C6.9 2 6 2.9 6 4V16C6 17.11 6.9 18 8 18H20C21.11 18 22 17.11 22 16V4C22 2.9 21.11 2 20 2M4 6H2V20C2 21.11 2.9 22 4 22H18V20H4V6Z"
 
 
 {-| The [`minus-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/minus-box-multiple-outline/) icon.
@@ -1793,18 +1793,18 @@ minusCircle =
     iconShape "M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
 
 
-{-| The [`minus-circle-multiple-outline`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple-outline/) icon.
--}
-minusCircleMultipleOutline : IconShape
-minusCircleMultipleOutline =
-    iconShape "M11 11V13H19V11H11M2 12C2 9.21 3.64 6.8 6 5.68V3.5C2.5 4.76 0 8.09 0 12S2.5 19.24 6 20.5V18.32C3.64 17.2 2 14.79 2 12M15 3C10.04 3 6 7.04 6 12S10.04 21 15 21 24 16.96 24 12 19.96 3 15 3M15 19C11.14 19 8 15.86 8 12S11.14 5 15 5 22 8.14 22 12 18.86 19 15 19Z"
-
-
 {-| The [`minus-circle-multiple`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple/) icon.
 -}
 minusCircleMultiple : IconShape
 minusCircleMultiple =
     iconShape "M2 12C2 9.21 3.64 6.8 6 5.68V3.5C2.5 4.76 0 8.09 0 12S2.5 19.24 6 20.5V18.32C3.64 17.2 2 14.79 2 12M15 3C10.04 3 6 7.04 6 12S10.04 21 15 21 24 16.96 24 12 19.96 3 15 3M20 13H10V11H20V13Z"
+
+
+{-| The [`minus-circle-multiple-outline`](https://pictogrammers.com/library/mdi/icon/minus-circle-multiple-outline/) icon.
+-}
+minusCircleMultipleOutline : IconShape
+minusCircleMultipleOutline =
+    iconShape "M11 11V13H19V11H11M2 12C2 9.21 3.64 6.8 6 5.68V3.5C2.5 4.76 0 8.09 0 12S2.5 19.24 6 20.5V18.32C3.64 17.2 2 14.79 2 12M15 3C10.04 3 6 7.04 6 12S10.04 21 15 21 24 16.96 24 12 19.96 3 15 3M15 19C11.14 19 8 15.86 8 12S11.14 5 15 5 22 8.14 22 12 18.86 19 15 19Z"
 
 
 {-| The [`minus-circle-off`](https://pictogrammers.com/library/mdi/icon/minus-circle-off/) icon.
@@ -1856,18 +1856,18 @@ mirror =
     iconShape "M12 1C16.69 1 20.5 5.93 20.5 12C20.5 18.08 16.69 23 12 23C7.31 23 3.5 18.08 3.5 12C3.5 5.93 7.31 1 12 1M12 3C8.41 3 5.5 7.03 5.5 12C5.5 16.97 8.41 21 12 21C15.59 21 18.5 16.97 18.5 12C18.5 7.03 15.59 3 12 3M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61Z"
 
 
-{-| The [`mirror-variant`](https://pictogrammers.com/library/mdi/icon/mirror-variant/) icon.
--}
-mirrorVariant : IconShape
-mirrorVariant =
-    iconShape "M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61M14.17 3L18 6.83V17.17L14.17 21H9.83L6 17.17V6.83L9.83 3H14.17M15 1H9L4 6V18L9 23H15L20 18V6L15 1Z"
-
-
 {-| The [`mirror-rectangle`](https://pictogrammers.com/library/mdi/icon/mirror-rectangle/) icon.
 -}
 mirrorRectangle : IconShape
 mirrorRectangle =
     iconShape "M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61M18 3V21H6V3H18M20 1H4V23H20V1Z"
+
+
+{-| The [`mirror-variant`](https://pictogrammers.com/library/mdi/icon/mirror-variant/) icon.
+-}
+mirrorVariant : IconShape
+mirrorVariant =
+    iconShape "M8.29 10.28L11.53 7.03L12.59 8.09L9.35 11.34L8.29 10.28M8.7 14.61L14.36 8.95L15.42 10L9.76 15.67L8.7 14.61M14.17 3L18 6.83V17.17L14.17 21H9.83L6 17.17V6.83L9.83 3H14.17M15 1H9L4 6V18L9 23H15L20 18V6L15 1Z"
 
 
 {-| The [`mixed-martial-arts`](https://pictogrammers.com/library/mdi/icon/mixed-martial-arts/) icon.
@@ -1926,18 +1926,18 @@ monitorArrowDown =
     iconShape "M21 16H3V4H21M21 2H3C1.9 2 1 2.9 1 4V16C1 17.1 1.9 18 3 18H10V20H8V22H16V20H14V18H21C22.1 18 23 17.1 23 16V4C23 2.9 22.1 2 21 2M16 10H13V6H11V10H8L12 14L16 10"
 
 
-{-| The [`monitor-cellphone`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone/) icon.
--}
-monitorCellphone : IconShape
-monitorCellphone =
-    iconShape "M23,11H18A1,1 0 0,0 17,12V21A1,1 0 0,0 18,22H23A1,1 0 0,0 24,21V12A1,1 0 0,0 23,11M23,20H18V13H23V20M20,2H2C0.89,2 0,2.89 0,4V16A2,2 0 0,0 2,18H9V20H7V22H15V20H13V18H15V16H2V4H20V9H22V4C22,2.89 21.1,2 20,2Z"
-
-
 {-| The [`monitor-arrow-down-variant`](https://pictogrammers.com/library/mdi/icon/monitor-arrow-down-variant/) icon.
 -}
 monitorArrowDownVariant : IconShape
 monitorArrowDownVariant =
     iconShape "M17 14L22 9L20.6 7.6L18 10.2V3H16V10.2L13.4 7.6L12 9L17 14M23 14V16C23 17.1 22.1 18 21 18H14V20H16V22H8V20H10V18H3C1.9 18 1 17.1 1 16V4C1 2.9 1.9 2 3 2H12V4H3V16H21V14H23Z"
+
+
+{-| The [`monitor-cellphone`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone/) icon.
+-}
+monitorCellphone : IconShape
+monitorCellphone =
+    iconShape "M23,11H18A1,1 0 0,0 17,12V21A1,1 0 0,0 18,22H23A1,1 0 0,0 24,21V12A1,1 0 0,0 23,11M23,20H18V13H23V20M20,2H2C0.89,2 0,2.89 0,4V16A2,2 0 0,0 2,18H9V20H7V22H15V20H13V18H15V16H2V4H20V9H22V4C22,2.89 21.1,2 20,2Z"
 
 
 {-| The [`monitor-cellphone-star`](https://pictogrammers.com/library/mdi/icon/monitor-cellphone-star/) icon.
@@ -1989,6 +1989,13 @@ monitorOff =
     iconShape "M14,18V20H16V22H8V20H10V18H3A2,2 0 0,1 1,16V4L0,3L1.41,1.58L22.16,22.34L20.75,23.75L15,18H14M3,16H13L3,6V16M21,2A2,2 0 0,1 23,4V16A2,2 0 0,1 21,18H20.66L18.66,16H21V4H6.66L4.66,2H21Z"
 
 
+{-| The [`monitor-screenshot`](https://pictogrammers.com/library/mdi/icon/monitor-screenshot/) icon.
+-}
+monitorScreenshot : IconShape
+monitorScreenshot =
+    iconShape "M9,6H5V10H7V8H9M19,10H17V12H15V14H19M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2"
+
+
 {-| The [`monitor-share`](https://pictogrammers.com/library/mdi/icon/monitor-share/) icon.
 -}
 monitorShare : IconShape
@@ -2001,13 +2008,6 @@ monitorShare =
 monitorShimmer : IconShape
 monitorShimmer =
     iconShape "M21 16H3V4H21M21 2H3C1.89 2 1 2.89 1 4V16C1 17.11 1.9 18 3 18H10V20H8V22H16V20H14V18H21C22.11 18 23 17.11 23 16V4C23 2.89 22.1 2 21 2M15 5.5L14.38 6.87L13 7.5L14.38 8.13L15 9.5L15.63 8.13L17 7.5L15.63 6.87L15 5.5M10.5 7.5L9.41 9.91L7 11L9.41 12.09L10.5 14.5L11.6 12.09L14 11L11.6 9.91L10.5 7.5"
-
-
-{-| The [`monitor-screenshot`](https://pictogrammers.com/library/mdi/icon/monitor-screenshot/) icon.
--}
-monitorScreenshot : IconShape
-monitorScreenshot =
-    iconShape "M9,6H5V10H7V8H9M19,10H17V12H15V14H19M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2"
 
 
 {-| The [`monitor-small`](https://pictogrammers.com/library/mdi/icon/monitor-small/) icon.
@@ -2045,18 +2045,18 @@ monitorVertical =
     iconShape "M16 2H8C6.89 2 6 2.89 6 4V16C6 17.11 6.9 18 8 18H10V20H8V22H16V20H14V18H16C17.11 18 18 17.11 18 16V4C18 2.89 17.1 2 16 2M16 16H8V4H16V16Z"
 
 
-{-| The [`moon-full`](https://pictogrammers.com/library/mdi/icon/moon-full/) icon.
--}
-moonFull : IconShape
-moonFull =
-    iconShape "M12 2A10 10 0 1 1 2 12A10 10 0 0 1 12 2Z"
-
-
 {-| The [`moon-first-quarter`](https://pictogrammers.com/library/mdi/icon/moon-first-quarter/) icon.
 -}
 moonFirstQuarter : IconShape
 moonFirstQuarter =
     iconShape "M12 2V22A10 10 0 0 0 12 2Z"
+
+
+{-| The [`moon-full`](https://pictogrammers.com/library/mdi/icon/moon-full/) icon.
+-}
+moonFull : IconShape
+moonFull =
+    iconShape "M12 2A10 10 0 1 1 2 12A10 10 0 0 1 12 2Z"
 
 
 {-| The [`moon-last-quarter`](https://pictogrammers.com/library/mdi/icon/moon-last-quarter/) icon.
@@ -2136,6 +2136,13 @@ more =
     iconShape "M19,13.5A1.5,1.5 0 0,1 17.5,12A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 20.5,12A1.5,1.5 0 0,1 19,13.5M14,13.5A1.5,1.5 0 0,1 12.5,12A1.5,1.5 0 0,1 14,10.5A1.5,1.5 0 0,1 15.5,12A1.5,1.5 0 0,1 14,13.5M9,13.5A1.5,1.5 0 0,1 7.5,12A1.5,1.5 0 0,1 9,10.5A1.5,1.5 0 0,1 10.5,12A1.5,1.5 0 0,1 9,13.5M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.37,21 7.06,21H22A2,2 0 0,0 24,19V5C24,3.89 23.1,3 22,3Z"
 
 
+{-| The [`mortar-pestle`](https://pictogrammers.com/library/mdi/icon/mortar-pestle/) icon.
+-}
+mortarPestle : IconShape
+mortarPestle =
+    iconShape "M21 7L19 13L21 19V21H3V19L5 13L3 7V5H15.7L17.2 1L19.5 1.8L18.3 5H21V7Z"
+
+
 {-| The [`mortar-pestle-plus`](https://pictogrammers.com/library/mdi/icon/mortar-pestle-plus/) icon.
 -}
 mortarPestlePlus : IconShape
@@ -2148,13 +2155,6 @@ mortarPestlePlus =
 mosque : IconShape
 mosque =
     iconShape "M7 8H17C17.3 8 17.6 8.1 17.8 8.1C17.9 7.8 18 7.4 18 7.1C18 5.8 17.4 4.6 16.3 3.9L12 1L7.7 3.8C6.7 4.6 6 5.8 6 7.1C6 7.5 6.1 7.8 6.2 8.1C6.4 8.1 6.7 8 7 8M24 7C24 5.9 22 4 22 4S20 5.9 20 7C20 7.7 20.4 8.4 21 8.7V13H19V11C19 9.9 18.1 9 17 9H7C5.9 9 5 9.9 5 11V13H3V8.7C3.6 8.4 4 7.7 4 7C4 5.9 2 4 2 4S0 5.9 0 7C0 7.7 .4 8.4 1 8.7V21H10V17C10 15.9 10.9 15 12 15S14 15.9 14 17V21H23V8.7C23.6 8.4 24 7.7 24 7Z"
-
-
-{-| The [`mortar-pestle`](https://pictogrammers.com/library/mdi/icon/mortar-pestle/) icon.
--}
-mortarPestle : IconShape
-mortarPestle =
-    iconShape "M21 7L19 13L21 19V21H3V19L5 13L3 7V5H15.7L17.2 1L19.5 1.8L18.3 5H21V7Z"
 
 
 {-| The [`mosque-outline`](https://pictogrammers.com/library/mdi/icon/mosque-outline/) icon.
@@ -2185,6 +2185,13 @@ motion =
     iconShape "M7 13H3C2.45 13 2 12.55 2 12S2.45 11 3 11H7C7.55 11 8 11.45 8 12S7.55 13 7 13M6 8C6 7.45 5.55 7 5 7H4C3.45 7 3 7.45 3 8S3.45 9 4 9H5C5.55 9 6 8.55 6 8M22 12C22 14.76 19.76 17 17 17H4C3.45 17 3 16.55 3 16S3.45 15 4 15H13C12.58 14.42 12.25 13.74 12.1 13H10C9.45 13 9 12.55 9 12S9.45 11 10 11H12.1C12.25 10.26 12.58 9.58 13 9H8C7.45 9 7 8.55 7 8S7.45 7 8 7H17C19.76 7 22 9.24 22 12Z"
 
 
+{-| The [`motion-outline`](https://pictogrammers.com/library/mdi/icon/motion-outline/) icon.
+-}
+motionOutline : IconShape
+motionOutline =
+    iconShape "M7 13H3C2.45 13 2 12.55 2 12S2.45 11 3 11H7C7.55 11 8 11.45 8 12S7.55 13 7 13M6 8C6 7.45 5.55 7 5 7H4C3.45 7 3 7.45 3 8S3.45 9 4 9H5C5.55 9 6 8.55 6 8M22 12C22 14.76 19.76 17 17 17H4C3.45 17 3 16.55 3 16S3.45 15 4 15H13C12.58 14.42 12.25 13.74 12.1 13H10C9.45 13 9 12.55 9 12S9.45 11 10 11H12.1C12.25 10.26 12.58 9.58 13 9H8C7.45 9 7 8.55 7 8S7.45 7 8 7H17C19.76 7 22 9.24 22 12M20 12C20 10.35 18.65 9 17 9S14 10.35 14 12C14 13.65 15.35 15 17 15S20 13.65 20 12Z"
+
+
 {-| The [`motion-pause`](https://pictogrammers.com/library/mdi/icon/motion-pause/) icon.
 -}
 motionPause : IconShape
@@ -2197,13 +2204,6 @@ motionPause =
 motionPauseOutline : IconShape
 motionPauseOutline =
     iconShape "M22 12C22 6.46 17.54 2 12 2C10.83 2 9.7 2.19 8.62 2.56L9.32 4.5C10.17 4.16 11.06 3.97 12 3.97C16.41 3.97 20.03 7.59 20.03 12C20.03 16.41 16.41 20.03 12 20.03C7.59 20.03 3.97 16.41 3.97 12C3.97 11.06 4.16 10.12 4.5 9.28L2.56 8.62C2.19 9.7 2 10.83 2 12C2 17.54 6.46 22 12 22C17.54 22 22 17.54 22 12M5.47 7C4.68 7 3.97 6.32 3.97 5.47C3.97 4.68 4.68 3.97 5.47 3.97C6.32 3.97 7 4.68 7 5.47C7 6.32 6.32 7 5.47 7M9 9H11V15H9M13 9H15V15H13"
-
-
-{-| The [`motion-outline`](https://pictogrammers.com/library/mdi/icon/motion-outline/) icon.
--}
-motionOutline : IconShape
-motionOutline =
-    iconShape "M7 13H3C2.45 13 2 12.55 2 12S2.45 11 3 11H7C7.55 11 8 11.45 8 12S7.55 13 7 13M6 8C6 7.45 5.55 7 5 7H4C3.45 7 3 7.45 3 8S3.45 9 4 9H5C5.55 9 6 8.55 6 8M22 12C22 14.76 19.76 17 17 17H4C3.45 17 3 16.55 3 16S3.45 15 4 15H13C12.58 14.42 12.25 13.74 12.1 13H10C9.45 13 9 12.55 9 12S9.45 11 10 11H12.1C12.25 10.26 12.58 9.58 13 9H8C7.45 9 7 8.55 7 8S7.45 7 8 7H17C19.76 7 22 9.24 22 12M20 12C20 10.35 18.65 9 17 9S14 10.35 14 12C14 13.65 15.35 15 17 15S20 13.65 20 12Z"
 
 
 {-| The [`motion-play`](https://pictogrammers.com/library/mdi/icon/motion-play/) icon.
@@ -2325,18 +2325,18 @@ mouseRightClick =
     iconShape "M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C7.06 1.56 4 4.92 4 9H11M6.34 20.66C4.84 19.16 4 17.12 4 15V11H20V15C20 17.12 19.16 19.16 17.66 20.66C16.16 22.16 14.12 23 12 23C9.88 23 7.84 22.16 6.34 20.66Z"
 
 
-{-| The [`mouse-scroll-wheel`](https://pictogrammers.com/library/mdi/icon/mouse-scroll-wheel/) icon.
--}
-mouseScrollWheel : IconShape
-mouseScrollWheel =
-    iconShape "M11 1.07C7.05 1.56 4 4.92 4 9H11V7.73C10.4 7.39 10 6.74 10 6V4C10 3.26 10.4 2.61 11 2.27V1.07M13 9V7.73C13.6 7.39 14 6.74 14 6V4C14 3.26 13.6 2.61 13 2.27V1.07C16.94 1.56 20 4.92 20 9H13M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M13 6V4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V6C11 6.55 11.45 7 12 7C12.55 7 13 6.55 13 6Z"
-
-
 {-| The [`mouse-right-click-outline`](https://pictogrammers.com/library/mdi/icon/mouse-right-click-outline/) icon.
 -}
 mouseRightClickOutline : IconShape
 mouseRightClickOutline =
     iconShape "M13 9V1.07C16.94 1.56 20 4.92 20 9H13M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15Z"
+
+
+{-| The [`mouse-scroll-wheel`](https://pictogrammers.com/library/mdi/icon/mouse-scroll-wheel/) icon.
+-}
+mouseScrollWheel : IconShape
+mouseScrollWheel =
+    iconShape "M11 1.07C7.05 1.56 4 4.92 4 9H11V7.73C10.4 7.39 10 6.74 10 6V4C10 3.26 10.4 2.61 11 2.27V1.07M13 9V7.73C13.6 7.39 14 6.74 14 6V4C14 3.26 13.6 2.61 13 2.27V1.07C16.94 1.56 20 4.92 20 9H13M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M13 6V4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V6C11 6.55 11.45 7 12 7C12.55 7 13 6.55 13 6Z"
 
 
 {-| The [`mouse-variant`](https://pictogrammers.com/library/mdi/icon/mouse-variant/) icon.
@@ -2472,18 +2472,18 @@ movieOpenCheck =
     iconShape "M19.65 6.5L16.91 2.96L20.84 2.18L21.62 6.1L19.65 6.5M16.71 7.07L13.97 3.54L12 3.93L14.75 7.46L16.71 7.07M19 13C20.1 13 21.12 13.3 22 13.81V10H2V20C2 21.11 2.9 22 4 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4.16 5.5L3.18 5.69C2.1 5.91 1.4 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
 
 
-{-| The [`movie-open-cog`](https://pictogrammers.com/library/mdi/icon/movie-open-cog/) icon.
--}
-movieOpenCog : IconShape
-movieOpenCog =
-    iconShape "M14.75 7.46L12 3.93L13.97 3.54L16.71 7.07L14.75 7.46M21.62 6.1L20.84 2.18L16.91 2.96L19.65 6.5L21.62 6.1M19 12C20.08 12 21.09 12.25 22 12.68V10H2V20C2 21.11 2.9 22 4 22H12.68C12.25 21.09 12 20.08 12 19C12 15.13 15.13 12 19 12M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4.16 5.5L3.18 5.69C2.1 5.91 1.4 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"
-
-
 {-| The [`movie-open-check-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-check-outline/) icon.
 -}
 movieOpenCheckOutline : IconShape
 movieOpenCheckOutline =
     iconShape "M14.75 7.46L12 3.93L13.97 3.54L16.71 7.07L14.75 7.46M21.62 6.1L20.84 2.18L16.91 2.96L19.65 6.5L21.62 6.1M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4.16 5.5L3.18 5.69C2.1 5.9 1.39 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M4 20V12H20V13.09C20.72 13.21 21.39 13.46 22 13.81V10H2V20C2 21.11 2.9 22 4 22H13.81C13.46 21.39 13.22 20.72 13.09 20H4M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
+
+
+{-| The [`movie-open-cog`](https://pictogrammers.com/library/mdi/icon/movie-open-cog/) icon.
+-}
+movieOpenCog : IconShape
+movieOpenCog =
+    iconShape "M14.75 7.46L12 3.93L13.97 3.54L16.71 7.07L14.75 7.46M21.62 6.1L20.84 2.18L16.91 2.96L19.65 6.5L21.62 6.1M19 12C20.08 12 21.09 12.25 22 12.68V10H2V20C2 21.11 2.9 22 4 22H12.68C12.25 21.09 12 20.08 12 19C12 15.13 15.13 12 19 12M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M4.16 5.5L3.18 5.69C2.1 5.91 1.4 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"
 
 
 {-| The [`movie-open-cog-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-cog-outline/) icon.
@@ -2521,18 +2521,18 @@ movieOpenMinusOutline =
     iconShape "M13.09 20C13.21 20.72 13.46 21.39 13.81 22H4C2.9 22 2 21.11 2 20V10H22V13.81C21.39 13.46 20.72 13.22 20 13.09V12H4V20H13.09M21.62 6.1L20.84 2.18L16.91 2.96L19.65 6.5L21.62 6.1M16.71 7.07L13.97 3.54L12 3.93L14.75 7.46L16.71 7.07M4.16 5.5L3.18 5.69C2.1 5.9 1.39 6.96 1.61 8.04L2 10L6.9 9.03L4.16 5.5M11.81 8.05L9.07 4.5L7.1 4.91L9.85 8.44L11.81 8.05M15 18V20H23V18H15Z"
 
 
-{-| The [`movie-open-off-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-off-outline/) icon.
--}
-movieOpenOffOutline : IconShape
-movieOpenOffOutline =
-    iconShape "M19.7 6.5L16.9 3L20.8 2.2L21.6 6.1L19.7 6.5M22.1 21.5L20.8 22.8L20.1 22H4C2.9 22 2 21.1 2 20V10H8.1L7.1 9L2 10L1.6 8C1.4 7 2.1 5.9 3.2 5.7L3.7 5.6L1.1 3L2.4 1.7L22.1 21.5M18.1 20L10.1 12H4V20H18.1M22 18.8V10H13.2L15.2 12H20V16.8L22 18.8M16.7 7.1L14 3.5L12 3.9L14.8 7.4L16.7 7.1M11.8 8L9.1 4.5L7.9 4.7L11.3 8.1L11.8 8Z"
-
-
 {-| The [`movie-open-off`](https://pictogrammers.com/library/mdi/icon/movie-open-off/) icon.
 -}
 movieOpenOff : IconShape
 movieOpenOff =
     iconShape "M13.2 10H22V18.8L13.2 10M21.6 6.1L20.8 2.2L16.9 3L19.6 6.5L21.6 6.1M11.8 8L9.1 4.5L7.9 4.7L11.3 8.1L11.8 8M2.4 1.7L1.1 3L3.7 5.6L3.2 5.7C2.1 5.9 1.4 7 1.6 8L2 10L7.1 9L8.1 10H2V20C2 21.1 2.9 22 4 22H20.1L20.8 22.7L22.1 21.4L2.4 1.7M16.7 7.1L14 3.5L12 3.9L14.8 7.4L16.7 7.1Z"
+
+
+{-| The [`movie-open-off-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-off-outline/) icon.
+-}
+movieOpenOffOutline : IconShape
+movieOpenOffOutline =
+    iconShape "M19.7 6.5L16.9 3L20.8 2.2L21.6 6.1L19.7 6.5M22.1 21.5L20.8 22.8L20.1 22H4C2.9 22 2 21.1 2 20V10H8.1L7.1 9L2 10L1.6 8C1.4 7 2.1 5.9 3.2 5.7L3.7 5.6L1.1 3L2.4 1.7L22.1 21.5M18.1 20L10.1 12H4V20H18.1M22 18.8V10H13.2L15.2 12H20V16.8L22 18.8M16.7 7.1L14 3.5L12 3.9L14.8 7.4L16.7 7.1M11.8 8L9.1 4.5L7.9 4.7L11.3 8.1L11.8 8Z"
 
 
 {-| The [`movie-open-outline`](https://pictogrammers.com/library/mdi/icon/movie-open-outline/) icon.
@@ -2640,18 +2640,18 @@ moviePlus =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
 
 
-{-| The [`movie-remove`](https://pictogrammers.com/library/mdi/icon/movie-remove/) icon.
--}
-movieRemove : IconShape
-movieRemove =
-    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
-
-
 {-| The [`movie-plus-outline`](https://pictogrammers.com/library/mdi/icon/movie-plus-outline/) icon.
 -}
 moviePlusOutline : IconShape
 moviePlusOutline =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
+
+
+{-| The [`movie-remove`](https://pictogrammers.com/library/mdi/icon/movie-remove/) icon.
+-}
+movieRemove : IconShape
+movieRemove =
+    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
 
 
 {-| The [`movie-remove-outline`](https://pictogrammers.com/library/mdi/icon/movie-remove-outline/) icon.
@@ -2661,18 +2661,18 @@ movieRemoveOutline =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
 
 
-{-| The [`movie-search`](https://pictogrammers.com/library/mdi/icon/movie-search/) icon.
--}
-movieSearch : IconShape
-movieSearch =
-    iconShape "M11.03 20H4C2.9 20 2 19.1 2 18L2 6C2 4.9 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.05C20.85 11.22 18.82 10 16.5 10C12.92 10 10 12.92 10 16.5C10 17.79 10.38 19 11.03 20M23.39 22L22 23.39L18.88 20.32C18.19 20.75 17.37 21 16.5 21C14 21 12 19 12 16.5S14 12 16.5 12 21 14 21 16.5C21 17.38 20.75 18.21 20.31 18.9L23.39 22M19 16.5C19 15.12 17.88 14 16.5 14S14 15.12 14 16.5 15.12 19 16.5 19 19 17.88 19 16.5Z"
-
-
 {-| The [`movie-roll`](https://pictogrammers.com/library/mdi/icon/movie-roll/) icon.
 -}
 movieRoll : IconShape
 movieRoll =
     iconShape "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A2.5,2.5 0 0,0 9.5,6.5A2.5,2.5 0 0,0 12,9A2.5,2.5 0 0,0 14.5,6.5A2.5,2.5 0 0,0 12,4M4.4,9.53C3.97,10.84 4.69,12.25 6,12.68C7.32,13.1 8.73,12.39 9.15,11.07C9.58,9.76 8.86,8.35 7.55,7.92C6.24,7.5 4.82,8.21 4.4,9.53M19.61,9.5C19.18,8.21 17.77,7.5 16.46,7.92C15.14,8.34 14.42,9.75 14.85,11.07C15.28,12.38 16.69,13.1 18,12.67C19.31,12.25 20.03,10.83 19.61,9.5M7.31,18.46C8.42,19.28 10,19.03 10.8,17.91C11.61,16.79 11.36,15.23 10.24,14.42C9.13,13.61 7.56,13.86 6.75,14.97C5.94,16.09 6.19,17.65 7.31,18.46M16.7,18.46C17.82,17.65 18.07,16.09 17.26,14.97C16.45,13.85 14.88,13.6 13.77,14.42C12.65,15.23 12.4,16.79 13.21,17.91C14,19.03 15.59,19.27 16.7,18.46M12,10.5A1.5,1.5 0 0,0 10.5,12A1.5,1.5 0 0,0 12,13.5A1.5,1.5 0 0,0 13.5,12A1.5,1.5 0 0,0 12,10.5Z"
+
+
+{-| The [`movie-search`](https://pictogrammers.com/library/mdi/icon/movie-search/) icon.
+-}
+movieSearch : IconShape
+movieSearch =
+    iconShape "M11.03 20H4C2.9 20 2 19.1 2 18L2 6C2 4.9 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.05C20.85 11.22 18.82 10 16.5 10C12.92 10 10 12.92 10 16.5C10 17.79 10.38 19 11.03 20M23.39 22L22 23.39L18.88 20.32C18.19 20.75 17.37 21 16.5 21C14 21 12 19 12 16.5S14 12 16.5 12 21 14 21 16.5C21 17.38 20.75 18.21 20.31 18.9L23.39 22M19 16.5C19 15.12 17.88 14 16.5 14S14 15.12 14 16.5 15.12 19 16.5 19 19 17.88 19 16.5Z"
 
 
 {-| The [`movie-search-outline`](https://pictogrammers.com/library/mdi/icon/movie-search-outline/) icon.
@@ -2682,18 +2682,18 @@ movieSearchOutline =
     iconShape "M11 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13C21.5 12.2 20.8 11.5 20 11V10H5.8L4 6.5V18H10.2C10.4 18.7 10.6 19.4 11 20M20.3 18.9C20.7 18.2 21 17.4 21 16.5C21 14 19 12 16.5 12S12 14 12 16.5 14 21 16.5 21C17.4 21 18.2 20.8 18.9 20.3L22 23.4L23.4 22L20.3 18.9M16.5 19C15.1 19 14 17.9 14 16.5S15.1 14 16.5 14 19 15.1 19 16.5 17.9 19 16.5 19Z"
 
 
-{-| The [`movie-settings-outline`](https://pictogrammers.com/library/mdi/icon/movie-settings-outline/) icon.
--}
-movieSettingsOutline : IconShape
-movieSettingsOutline =
-    iconShape "M18 4L20 8H17L15 4H13L15 8H12L10 4H8L10 8H7L5 4H4C2.9 4 2 4.89 2 6V18C2 19.11 2.9 20 4 20H20C21.11 20 22 19.11 22 18V4H18M20 18H4V6.47L5.76 10H20V18M11 22H13V24H11V22M7 22H9V24H7V22M15 22H17V24H15V22Z"
-
-
 {-| The [`movie-settings`](https://pictogrammers.com/library/mdi/icon/movie-settings/) icon.
 -}
 movieSettings : IconShape
 movieSettings =
     iconShape "M22 4V18C22 19.11 21.11 20 20 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22M7 24H9V22H7V24M11 24H13V22H11V24M15 24H17V22H15V24Z"
+
+
+{-| The [`movie-settings-outline`](https://pictogrammers.com/library/mdi/icon/movie-settings-outline/) icon.
+-}
+movieSettingsOutline : IconShape
+movieSettingsOutline =
+    iconShape "M18 4L20 8H17L15 4H13L15 8H12L10 4H8L10 8H7L5 4H4C2.9 4 2 4.89 2 6V18C2 19.11 2.9 20 4 20H20C21.11 20 22 19.11 22 18V4H18M20 18H4V6.47L5.76 10H20V18M11 22H13V24H11V22M7 22H9V24H7V22M15 22H17V24H15V22Z"
 
 
 {-| The [`movie-star`](https://pictogrammers.com/library/mdi/icon/movie-star/) icon.
@@ -2703,18 +2703,18 @@ movieStar =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z"
 
 
-{-| The [`mower`](https://pictogrammers.com/library/mdi/icon/mower/) icon.
--}
-mower : IconShape
-mower =
-    iconShape "M18.5 14C17.55 14 16.69 14.38 16.06 15H9.39L5.74 3H2V5H4.26L7 14.05C6.85 14.03 6.68 14 6.5 14C4.57 14 3 15.57 3 17.5S4.57 21 6.5 21C7.89 21 9.09 20.18 9.65 19H15.35C15.91 20.18 17.11 21 18.5 21C20.43 21 22 19.43 22 17.5S20.43 14 18.5 14M6.5 19C5.67 19 5 18.33 5 17.5S5.67 16 6.5 16 8 16.67 8 17.5 7.33 19 6.5 19M18.5 19C17.67 19 17 18.33 17 17.5S17.67 16 18.5 16 20 16.67 20 17.5 19.33 19 18.5 19M10.13 14L9.53 12H12.76C13.5 12 14.21 12.43 14.55 13.11L15 14H10.13Z"
-
-
 {-| The [`movie-star-outline`](https://pictogrammers.com/library/mdi/icon/movie-star-outline/) icon.
 -}
 movieStarOutline : IconShape
 movieStarOutline =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.9 4 4 4H5L7 8H10L8 4H10L12 8H15L13 4H15L17 8H20L18 4H22V13.81C21.39 13.46 20.72 13.22 20 13.09V10H5.76L4 6.47V18H13.09C13.04 18.33 13 18.66 13 19M23 17.89L20.11 17.64L19 15L17.87 17.64L15 17.89L17.18 19.77L16.5 22.58L19 21.09L21.45 22.58L20.8 19.77L23 17.89Z"
+
+
+{-| The [`mower`](https://pictogrammers.com/library/mdi/icon/mower/) icon.
+-}
+mower : IconShape
+mower =
+    iconShape "M18.5 14C17.55 14 16.69 14.38 16.06 15H9.39L5.74 3H2V5H4.26L7 14.05C6.85 14.03 6.68 14 6.5 14C4.57 14 3 15.57 3 17.5S4.57 21 6.5 21C7.89 21 9.09 20.18 9.65 19H15.35C15.91 20.18 17.11 21 18.5 21C20.43 21 22 19.43 22 17.5S20.43 14 18.5 14M6.5 19C5.67 19 5 18.33 5 17.5S5.67 16 6.5 16 8 16.67 8 17.5 7.33 19 6.5 19M18.5 19C17.67 19 17 18.33 17 17.5S17.67 16 18.5 16 20 16.67 20 17.5 19.33 19 18.5 19M10.13 14L9.53 12H12.76C13.5 12 14.21 12.43 14.55 13.11L15 14H10.13Z"
 
 
 {-| The [`mower-bag`](https://pictogrammers.com/library/mdi/icon/mower-bag/) icon.
@@ -2829,13 +2829,6 @@ musicAccidentalFlat =
     iconShape "M8.5 19C13.36 16.26 15.5 13.91 15.5 12C15.5 10.59 14.79 9 12.5 9C11.8 9 11.11 9.28 10.5 9.67V5H8.5M10.5 15.38V12.26C11.12 11.59 11.95 11 12.5 11C13.09 11 13.5 11.07 13.5 12C13.5 12.15 13.4 13.3 10.5 15.38Z"
 
 
-{-| The [`music-accidental-sharp`](https://pictogrammers.com/library/mdi/icon/music-accidental-sharp/) icon.
--}
-musicAccidentalSharp : IconShape
-musicAccidentalSharp =
-    iconShape "M17 9.5V7.5L15 8.1V5.5H13V8.7L11 9.3V6.5H9V9.9L7 10.5V12.5L9 11.9V13.9L7 14.5V16.5L9 15.9V18.5H11V15.3L13 14.7V17.5H15V14.1L17 13.5V11.5L15 12.1V10.1L17 9.5M13 12.7L11 13.3V11.3L13 10.7V12.7Z"
-
-
 {-| The [`music-accidental-natural`](https://pictogrammers.com/library/mdi/icon/music-accidental-natural/) icon.
 -}
 musicAccidentalNatural : IconShape
@@ -2843,11 +2836,25 @@ musicAccidentalNatural =
     iconShape "M10 8.75V3.5H8V17.5L14 15.25V20.5H16V6.5L10 8.75M14 13.25L10 14.75V10.75L14 9.25V13.25Z"
 
 
+{-| The [`music-accidental-sharp`](https://pictogrammers.com/library/mdi/icon/music-accidental-sharp/) icon.
+-}
+musicAccidentalSharp : IconShape
+musicAccidentalSharp =
+    iconShape "M17 9.5V7.5L15 8.1V5.5H13V8.7L11 9.3V6.5H9V9.9L7 10.5V12.5L9 11.9V13.9L7 14.5V16.5L9 15.9V18.5H11V15.3L13 14.7V17.5H15V14.1L17 13.5V11.5L15 12.1V10.1L17 9.5M13 12.7L11 13.3V11.3L13 10.7V12.7Z"
+
+
 {-| The [`music-box`](https://pictogrammers.com/library/mdi/icon/music-box/) icon.
 -}
 musicBox : IconShape
 musicBox =
     iconShape "M16,9H13V14.5A2.5,2.5 0 0,1 10.5,17A2.5,2.5 0 0,1 8,14.5A2.5,2.5 0 0,1 10.5,12C11.07,12 11.58,12.19 12,12.5V7H16M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
+
+
+{-| The [`music-box-multiple`](https://pictogrammers.com/library/mdi/icon/music-box-multiple/) icon.
+-}
+musicBoxMultiple : IconShape
+musicBoxMultiple =
+    iconShape "M4,6H2V20A2,2 0 0,0 4,22H18V20H4M18,7H15V12.5A2.5,2.5 0 0,1 12.5,15A2.5,2.5 0 0,1 10,12.5A2.5,2.5 0 0,1 12.5,10C13.07,10 13.58,10.19 14,10.5V5H18M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2Z"
 
 
 {-| The [`music-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/music-box-multiple-outline/) icon.
@@ -2862,13 +2869,6 @@ musicBoxMultipleOutline =
 musicBoxOutline : IconShape
 musicBoxOutline =
     iconShape "M16,9H13V14.5A2.5,2.5 0 0,1 10.5,17A2.5,2.5 0 0,1 8,14.5A2.5,2.5 0 0,1 10.5,12C11.07,12 11.58,12.19 12,12.5V7H16V9M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M5,5V19H19V5H5Z"
-
-
-{-| The [`music-box-multiple`](https://pictogrammers.com/library/mdi/icon/music-box-multiple/) icon.
--}
-musicBoxMultiple : IconShape
-musicBoxMultiple =
-    iconShape "M4,6H2V20A2,2 0 0,0 4,22H18V20H4M18,7H15V12.5A2.5,2.5 0 0,1 12.5,15A2.5,2.5 0 0,1 10,12.5A2.5,2.5 0 0,1 12.5,10C13.07,10 13.58,10.19 14,10.5V5H18M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2Z"
 
 
 {-| The [`music-circle`](https://pictogrammers.com/library/mdi/icon/music-circle/) icon.
@@ -2899,6 +2899,13 @@ musicClefBass =
     iconShape "M18.5 5A1.5 1.5 0 1 1 17 6.5A1.5 1.5 0 0 1 18.5 5M18.5 11A1.5 1.5 0 1 1 17 12.5A1.5 1.5 0 0 1 18.5 11M10 4A5 5 0 0 0 5 9V10A2 2 0 1 0 7.18 8A3 3 0 0 1 10 6A4 4 0 0 1 14 10C14 13.59 11.77 16.19 7 18.2L7.76 20.04C13.31 17.72 16 14.43 16 10A6 6 0 0 0 10 4Z"
 
 
+{-| The [`music-clef-treble`](https://pictogrammers.com/library/mdi/icon/music-clef-treble/) icon.
+-}
+musicClefTreble : IconShape
+musicClefTreble =
+    iconShape "M13 11V7.5L15.2 5.29C16 4.5 16.15 3.24 15.59 2.26C15.14 1.47 14.32 1 13.45 1C13.24 1 13 1.03 12.81 1.09C11.73 1.38 11 2.38 11 3.5V6.74L7.86 9.91C6.2 11.6 5.7 14.13 6.61 16.34C7.38 18.24 9.06 19.55 11 19.89V20.5C11 20.76 10.77 21 10.5 21H9V23H10.5C11.85 23 13 21.89 13 20.5V20C15.03 20 17.16 18.08 17.16 15.25C17.16 12.95 15.24 11 13 11M13 3.5C13 3.27 13.11 3.09 13.32 3.03C13.54 2.97 13.77 3.06 13.88 3.26C14 3.46 13.96 3.71 13.8 3.87L13 4.73V3.5M11 11.5C10.03 12.14 9.3 13.24 9.04 14.26L11 14.78V17.83C9.87 17.53 8.9 16.71 8.43 15.57C7.84 14.11 8.16 12.45 9.26 11.33L11 9.5V11.5M13 18V12.94C14.17 12.94 15.18 14.04 15.18 15.25C15.18 17 13.91 18 13 18Z"
+
+
 {-| The [`music-note`](https://pictogrammers.com/library/mdi/icon/music-note/) icon.
 -}
 musicNote : IconShape
@@ -2913,11 +2920,11 @@ musicNoteBluetooth =
     iconShape "M22 9.85L19.14 7H18.64V10.79L16.35 8.5L15.64 9.21L18.43 12L15.64 14.79L16.35 15.5L18.64 13.21V17H19.14L22 14.15L19.85 12L22 9.85M19.64 8.91L20.58 9.85L19.64 10.79V8.91M20.58 14.15L19.64 15.09V13.21L20.58 14.15M9.64 3V13.55C9.05 13.21 8.37 13 7.64 13C5.43 13 3.64 14.79 3.64 17S5.43 21 7.64 21 11.64 19.21 11.64 17V7H15.64V3H9.64Z"
 
 
-{-| The [`music-clef-treble`](https://pictogrammers.com/library/mdi/icon/music-clef-treble/) icon.
+{-| The [`music-note-bluetooth-off`](https://pictogrammers.com/library/mdi/icon/music-note-bluetooth-off/) icon.
 -}
-musicClefTreble : IconShape
-musicClefTreble =
-    iconShape "M13 11V7.5L15.2 5.29C16 4.5 16.15 3.24 15.59 2.26C15.14 1.47 14.32 1 13.45 1C13.24 1 13 1.03 12.81 1.09C11.73 1.38 11 2.38 11 3.5V6.74L7.86 9.91C6.2 11.6 5.7 14.13 6.61 16.34C7.38 18.24 9.06 19.55 11 19.89V20.5C11 20.76 10.77 21 10.5 21H9V23H10.5C11.85 23 13 21.89 13 20.5V20C15.03 20 17.16 18.08 17.16 15.25C17.16 12.95 15.24 11 13 11M13 3.5C13 3.27 13.11 3.09 13.32 3.03C13.54 2.97 13.77 3.06 13.88 3.26C14 3.46 13.96 3.71 13.8 3.87L13 4.73V3.5M11 11.5C10.03 12.14 9.3 13.24 9.04 14.26L11 14.78V17.83C9.87 17.53 8.9 16.71 8.43 15.57C7.84 14.11 8.16 12.45 9.26 11.33L11 9.5V11.5M13 18V12.94C14.17 12.94 15.18 14.04 15.18 15.25C15.18 17 13.91 18 13 18Z"
+musicNoteBluetoothOff : IconShape
+musicNoteBluetoothOff =
+    iconShape "M22 9.85L19.14 7H18.64V10.79L16.35 8.5L15.64 9.21L18.43 12L15.64 14.79L16.35 15.5L18.64 13.21V17H19.14L22 14.15L19.85 12L22 9.85M19.64 8.91L20.58 9.85L19.64 10.79V8.91M20.58 14.15L19.64 15.09V13.21L20.58 14.15M1.96 3L.687 4.27L9.69 13.27V13.55C9.1 13.21 8.42 13 7.69 13C5.5 13 3.69 14.79 3.69 17S5.5 21 7.69 21 11.69 19.21 11.69 17V15.27L17.42 21L18.69 19.73L1.96 3M11.69 7H15.69V3H9.69V8.18L11.69 10.18V7Z"
 
 
 {-| The [`music-note-eighth`](https://pictogrammers.com/library/mdi/icon/music-note-eighth/) icon.
@@ -2925,13 +2932,6 @@ musicClefTreble =
 musicNoteEighth : IconShape
 musicNoteEighth =
     iconShape "M12 3V13.55C11.41 13.21 10.73 13 10 13C7.79 13 6 14.79 6 17S7.79 21 10 21 14 19.21 14 17V7H18V3H12Z"
-
-
-{-| The [`music-note-bluetooth-off`](https://pictogrammers.com/library/mdi/icon/music-note-bluetooth-off/) icon.
--}
-musicNoteBluetoothOff : IconShape
-musicNoteBluetoothOff =
-    iconShape "M22 9.85L19.14 7H18.64V10.79L16.35 8.5L15.64 9.21L18.43 12L15.64 14.79L16.35 15.5L18.64 13.21V17H19.14L22 14.15L19.85 12L22 9.85M19.64 8.91L20.58 9.85L19.64 10.79V8.91M20.58 14.15L19.64 15.09V13.21L20.58 14.15M1.96 3L.687 4.27L9.69 13.27V13.55C9.1 13.21 8.42 13 7.69 13C5.5 13 3.69 14.79 3.69 17S5.5 21 7.69 21 11.69 19.21 11.69 17V15.27L17.42 21L18.69 19.73L1.96 3M11.69 7H15.69V3H9.69V8.18L11.69 10.18V7Z"
 
 
 {-| The [`music-note-eighth-dotted`](https://pictogrammers.com/library/mdi/icon/music-note-eighth-dotted/) icon.
@@ -2976,18 +2976,18 @@ musicNoteOffOutline =
     iconShape "M14 7H18V3H12V7.61L14 9.61M12 10.44L4.41 2.86L3 4.27L12 13.27V13.55A3.94 3.94 0 0 0 8.67 13.23A4 4 0 0 0 10.65 20.95A4.1 4.1 0 0 0 14 16.85V15.27L19.73 21L21.14 19.59M10 19A2 2 0 1 1 12 17A2 2 0 0 1 10 19Z"
 
 
-{-| The [`music-note-plus`](https://pictogrammers.com/library/mdi/icon/music-note-plus/) icon.
--}
-musicNotePlus : IconShape
-musicNotePlus =
-    iconShape "M17 9V12H14V14H17V17H19V14H22V12H19V9H17M9 3V13.55C8.41 13.21 7.73 13 7 13C4.79 13 3 14.79 3 17S4.79 21 7 21 11 19.21 11 17V7H15V3H9Z"
-
-
 {-| The [`music-note-outline`](https://pictogrammers.com/library/mdi/icon/music-note-outline/) icon.
 -}
 musicNoteOutline : IconShape
 musicNoteOutline =
     iconShape "M12 3V13.55A4 4 0 1 0 14 17V7H18V3M10 19A2 2 0 1 1 12 17A2 2 0 0 1 10 19Z"
+
+
+{-| The [`music-note-plus`](https://pictogrammers.com/library/mdi/icon/music-note-plus/) icon.
+-}
+musicNotePlus : IconShape
+musicNotePlus =
+    iconShape "M17 9V12H14V14H17V17H19V14H22V12H19V9H17M9 3V13.55C8.41 13.21 7.73 13 7 13C4.79 13 3 14.79 3 17S4.79 21 7 21 11 19.21 11 17V7H15V3H9Z"
 
 
 {-| The [`music-note-quarter`](https://pictogrammers.com/library/mdi/icon/music-note-quarter/) icon.
@@ -3046,18 +3046,18 @@ musicRestEighth =
     iconShape "M14 6A5.56 5.56 0 0 1 10.95 7.86A1.5 1.5 0 1 0 9.5 9H9.74A6.32 6.32 0 0 0 13.25 7.93L10 18H12L16 6Z"
 
 
-{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
--}
-musicRestQuarter : IconShape
-musicRestQuarter =
-    iconShape "M11.71 16.81C10.91 17.6 10.88 18.84 11.64 19.58L10.19 21C8.66 19.5 8.72 17.03 10.32 15.46C10.85 14.94 11.5 14.61 12.16 14.42L9 11.34L10.45 9.92L10.82 9.57C11.82 8.59 11.85 7.04 10.9 6.11L9.16 4.42L10.62 3L14.78 7.06C15.54 7.81 15.5 9.05 14.71 9.83L12.53 11.95L16 15.33L15.61 15.72C15.11 16.21 14.38 16.46 13.72 16.28C13.04 16.1 12.26 16.28 11.71 16.81Z"
-
-
 {-| The [`music-rest-half`](https://pictogrammers.com/library/mdi/icon/music-rest-half/) icon.
 -}
 musicRestHalf : IconShape
 musicRestHalf =
     iconShape "M6 14H8V10H16V14H18V15H6V14Z"
+
+
+{-| The [`music-rest-quarter`](https://pictogrammers.com/library/mdi/icon/music-rest-quarter/) icon.
+-}
+musicRestQuarter : IconShape
+musicRestQuarter =
+    iconShape "M11.71 16.81C10.91 17.6 10.88 18.84 11.64 19.58L10.19 21C8.66 19.5 8.72 17.03 10.32 15.46C10.85 14.94 11.5 14.61 12.16 14.42L9 11.34L10.45 9.92L10.82 9.57C11.82 8.59 11.85 7.04 10.9 6.11L9.16 4.42L10.62 3L14.78 7.06C15.54 7.81 15.5 9.05 14.71 9.83L12.53 11.95L16 15.33L15.61 15.72C15.11 16.21 14.38 16.46 13.72 16.28C13.04 16.1 12.26 16.28 11.71 16.81Z"
 
 
 {-| The [`music-rest-sixteenth`](https://pictogrammers.com/library/mdi/icon/music-rest-sixteenth/) icon.
@@ -3096,11 +3096,11 @@ lookup name =
         "magazine-pistol" ->
             Just magazinePistol
 
-        "magic-staff" ->
-            Just magicStaff
-
         "magazine-rifle" ->
             Just magazineRifle
+
+        "magic-staff" ->
+            Just magicStaff
 
         "magnet" ->
             Just magnet
@@ -3144,11 +3144,11 @@ lookup name =
         "magnify-scan" ->
             Just magnifyScan
 
-        "mailbox" ->
-            Just mailbox
-
         "mail" ->
             Just mail
+
+        "mailbox" ->
+            Just mailbox
 
         "mailbox-open" ->
             Just mailboxOpen
@@ -3168,20 +3168,20 @@ lookup name =
         "mailbox-up" ->
             Just mailboxUp
 
-        "map" ->
-            Just map
-
         "mailbox-up-outline" ->
             Just mailboxUpOutline
+
+        "map" ->
+            Just map
 
         "map-check" ->
             Just mapCheck
 
-        "map-clock" ->
-            Just mapClock
-
         "map-check-outline" ->
             Just mapCheckOutline
+
+        "map-clock" ->
+            Just mapClock
 
         "map-clock-outline" ->
             Just mapClockOutline
@@ -3225,11 +3225,11 @@ lookup name =
         "map-marker-left-outline" ->
             Just mapMarkerLeftOutline
 
-        "map-marker-minus-outline" ->
-            Just mapMarkerMinusOutline
-
         "map-marker-minus" ->
             Just mapMarkerMinus
+
+        "map-marker-minus-outline" ->
+            Just mapMarkerMinusOutline
 
         "map-marker-multiple" ->
             Just mapMarkerMultiple
@@ -3255,11 +3255,11 @@ lookup name =
         "map-marker-plus-outline" ->
             Just mapMarkerPlusOutline
 
-        "map-marker-question-outline" ->
-            Just mapMarkerQuestionOutline
-
         "map-marker-question" ->
             Just mapMarkerQuestion
+
+        "map-marker-question-outline" ->
+            Just mapMarkerQuestionOutline
 
         "map-marker-radius" ->
             Just mapMarkerRadius
@@ -3267,11 +3267,11 @@ lookup name =
         "map-marker-radius-outline" ->
             Just mapMarkerRadiusOutline
 
-        "map-marker-remove-outline" ->
-            Just mapMarkerRemoveOutline
-
         "map-marker-remove" ->
             Just mapMarkerRemove
+
+        "map-marker-remove-outline" ->
+            Just mapMarkerRemoveOutline
 
         "map-marker-remove-variant" ->
             Just mapMarkerRemoveVariant
@@ -3366,11 +3366,11 @@ lookup name =
         "medication-outline" ->
             Just medicationOutline
 
-        "memory" ->
-            Just memory
-
         "meditation" ->
             Just meditation
+
+        "memory" ->
+            Just memory
 
         "memory-arrow-down" ->
             Just memoryArrowDown
@@ -3381,11 +3381,11 @@ lookup name =
         "menorah-fire" ->
             Just menorahFire
 
-        "menu-close" ->
-            Just menuClose
-
         "menu" ->
             Just menu
+
+        "menu-close" ->
+            Just menuClose
 
         "menu-down" ->
             Just menuDown
@@ -3399,23 +3399,23 @@ lookup name =
         "menu-left-outline" ->
             Just menuLeftOutline
 
-        "menu-right" ->
-            Just menuRight
-
         "menu-open" ->
             Just menuOpen
 
+        "menu-right" ->
+            Just menuRight
+
         "menu-right-outline" ->
             Just menuRightOutline
+
+        "menu-swap" ->
+            Just menuSwap
 
         "menu-swap-outline" ->
             Just menuSwapOutline
 
         "menu-up" ->
             Just menuUp
-
-        "menu-swap" ->
-            Just menuSwap
 
         "menu-up-outline" ->
             Just menuUpOutline
@@ -3456,11 +3456,11 @@ lookup name =
         "message-bookmark-outline" ->
             Just messageBookmarkOutline
 
-        "message-bulleted-off" ->
-            Just messageBulletedOff
-
         "message-bulleted" ->
             Just messageBulleted
+
+        "message-bulleted-off" ->
+            Just messageBulletedOff
 
         "message-check" ->
             Just messageCheck
@@ -3525,20 +3525,20 @@ lookup name =
         "message-processing" ->
             Just messageProcessing
 
-        "message-question" ->
-            Just messageQuestion
-
         "message-processing-outline" ->
             Just messageProcessingOutline
+
+        "message-question" ->
+            Just messageQuestion
 
         "message-question-outline" ->
             Just messageQuestionOutline
 
-        "message-reply-outline" ->
-            Just messageReplyOutline
-
         "message-reply" ->
             Just messageReply
+
+        "message-reply-outline" ->
+            Just messageReplyOutline
 
         "message-reply-text" ->
             Just messageReplyText
@@ -3561,20 +3561,20 @@ lookup name =
         "message-text" ->
             Just messageText
 
-        "message-text-clock-outline" ->
-            Just messageTextClockOutline
-
         "message-text-clock" ->
             Just messageTextClock
+
+        "message-text-clock-outline" ->
+            Just messageTextClockOutline
 
         "message-text-fast" ->
             Just messageTextFast
 
-        "message-text-lock" ->
-            Just messageTextLock
-
         "message-text-fast-outline" ->
             Just messageTextFastOutline
+
+        "message-text-lock" ->
+            Just messageTextLock
 
         "message-text-lock-outline" ->
             Just messageTextLockOutline
@@ -3600,11 +3600,11 @@ lookup name =
         "metronome" ->
             Just metronome
 
-        "micro-sd" ->
-            Just microSd
-
         "metronome-tick" ->
             Just metronomeTick
+
+        "micro-sd" ->
+            Just microSd
 
         "microphone" ->
             Just microphone
@@ -3621,17 +3621,17 @@ lookup name =
         "microphone-off" ->
             Just microphoneOff
 
-        "microphone-plus" ->
-            Just microphonePlus
-
         "microphone-outline" ->
             Just microphoneOutline
 
-        "microphone-question-outline" ->
-            Just microphoneQuestionOutline
+        "microphone-plus" ->
+            Just microphonePlus
 
         "microphone-question" ->
             Just microphoneQuestion
+
+        "microphone-question-outline" ->
+            Just microphoneQuestionOutline
 
         "microphone-settings" ->
             Just microphoneSettings
@@ -3675,11 +3675,11 @@ lookup name =
         "minus" ->
             Just minus
 
-        "minus-box-multiple" ->
-            Just minusBoxMultiple
-
         "minus-box" ->
             Just minusBox
+
+        "minus-box-multiple" ->
+            Just minusBoxMultiple
 
         "minus-box-multiple-outline" ->
             Just minusBoxMultipleOutline
@@ -3690,11 +3690,11 @@ lookup name =
         "minus-circle" ->
             Just minusCircle
 
-        "minus-circle-multiple-outline" ->
-            Just minusCircleMultipleOutline
-
         "minus-circle-multiple" ->
             Just minusCircleMultiple
+
+        "minus-circle-multiple-outline" ->
+            Just minusCircleMultipleOutline
 
         "minus-circle-off" ->
             Just minusCircleOff
@@ -3717,11 +3717,11 @@ lookup name =
         "mirror" ->
             Just mirror
 
-        "mirror-variant" ->
-            Just mirrorVariant
-
         "mirror-rectangle" ->
             Just mirrorRectangle
+
+        "mirror-variant" ->
+            Just mirrorVariant
 
         "mixed-martial-arts" ->
             Just mixedMartialArts
@@ -3747,11 +3747,11 @@ lookup name =
         "monitor-arrow-down" ->
             Just monitorArrowDown
 
-        "monitor-cellphone" ->
-            Just monitorCellphone
-
         "monitor-arrow-down-variant" ->
             Just monitorArrowDownVariant
+
+        "monitor-cellphone" ->
+            Just monitorCellphone
 
         "monitor-cellphone-star" ->
             Just monitorCellphoneStar
@@ -3774,14 +3774,14 @@ lookup name =
         "monitor-off" ->
             Just monitorOff
 
+        "monitor-screenshot" ->
+            Just monitorScreenshot
+
         "monitor-share" ->
             Just monitorShare
 
         "monitor-shimmer" ->
             Just monitorShimmer
-
-        "monitor-screenshot" ->
-            Just monitorScreenshot
 
         "monitor-small" ->
             Just monitorSmall
@@ -3798,11 +3798,11 @@ lookup name =
         "monitor-vertical" ->
             Just monitorVertical
 
-        "moon-full" ->
-            Just moonFull
-
         "moon-first-quarter" ->
             Just moonFirstQuarter
+
+        "moon-full" ->
+            Just moonFull
 
         "moon-last-quarter" ->
             Just moonLastQuarter
@@ -3837,14 +3837,14 @@ lookup name =
         "more" ->
             Just more
 
+        "mortar-pestle" ->
+            Just mortarPestle
+
         "mortar-pestle-plus" ->
             Just mortarPestlePlus
 
         "mosque" ->
             Just mosque
-
-        "mortar-pestle" ->
-            Just mortarPestle
 
         "mosque-outline" ->
             Just mosqueOutline
@@ -3858,14 +3858,14 @@ lookup name =
         "motion" ->
             Just motion
 
+        "motion-outline" ->
+            Just motionOutline
+
         "motion-pause" ->
             Just motionPause
 
         "motion-pause-outline" ->
             Just motionPauseOutline
-
-        "motion-outline" ->
-            Just motionOutline
 
         "motion-play" ->
             Just motionPlay
@@ -3918,11 +3918,11 @@ lookup name =
         "mouse-right-click" ->
             Just mouseRightClick
 
-        "mouse-scroll-wheel" ->
-            Just mouseScrollWheel
-
         "mouse-right-click-outline" ->
             Just mouseRightClickOutline
+
+        "mouse-scroll-wheel" ->
+            Just mouseScrollWheel
 
         "mouse-variant" ->
             Just mouseVariant
@@ -3981,11 +3981,11 @@ lookup name =
         "movie-open-check" ->
             Just movieOpenCheck
 
-        "movie-open-cog" ->
-            Just movieOpenCog
-
         "movie-open-check-outline" ->
             Just movieOpenCheckOutline
+
+        "movie-open-cog" ->
+            Just movieOpenCog
 
         "movie-open-cog-outline" ->
             Just movieOpenCogOutline
@@ -4002,11 +4002,11 @@ lookup name =
         "movie-open-minus-outline" ->
             Just movieOpenMinusOutline
 
-        "movie-open-off-outline" ->
-            Just movieOpenOffOutline
-
         "movie-open-off" ->
             Just movieOpenOff
+
+        "movie-open-off-outline" ->
+            Just movieOpenOffOutline
 
         "movie-open-outline" ->
             Just movieOpenOutline
@@ -4053,38 +4053,38 @@ lookup name =
         "movie-plus" ->
             Just moviePlus
 
-        "movie-remove" ->
-            Just movieRemove
-
         "movie-plus-outline" ->
             Just moviePlusOutline
+
+        "movie-remove" ->
+            Just movieRemove
 
         "movie-remove-outline" ->
             Just movieRemoveOutline
 
-        "movie-search" ->
-            Just movieSearch
-
         "movie-roll" ->
             Just movieRoll
+
+        "movie-search" ->
+            Just movieSearch
 
         "movie-search-outline" ->
             Just movieSearchOutline
 
-        "movie-settings-outline" ->
-            Just movieSettingsOutline
-
         "movie-settings" ->
             Just movieSettings
+
+        "movie-settings-outline" ->
+            Just movieSettingsOutline
 
         "movie-star" ->
             Just movieStar
 
-        "mower" ->
-            Just mower
-
         "movie-star-outline" ->
             Just movieStarOutline
+
+        "mower" ->
+            Just mower
 
         "mower-bag" ->
             Just mowerBag
@@ -4134,23 +4134,23 @@ lookup name =
         "music-accidental-flat" ->
             Just musicAccidentalFlat
 
-        "music-accidental-sharp" ->
-            Just musicAccidentalSharp
-
         "music-accidental-natural" ->
             Just musicAccidentalNatural
 
+        "music-accidental-sharp" ->
+            Just musicAccidentalSharp
+
         "music-box" ->
             Just musicBox
+
+        "music-box-multiple" ->
+            Just musicBoxMultiple
 
         "music-box-multiple-outline" ->
             Just musicBoxMultipleOutline
 
         "music-box-outline" ->
             Just musicBoxOutline
-
-        "music-box-multiple" ->
-            Just musicBoxMultiple
 
         "music-circle" ->
             Just musicCircle
@@ -4164,20 +4164,20 @@ lookup name =
         "music-clef-bass" ->
             Just musicClefBass
 
+        "music-clef-treble" ->
+            Just musicClefTreble
+
         "music-note" ->
             Just musicNote
 
         "music-note-bluetooth" ->
             Just musicNoteBluetooth
 
-        "music-clef-treble" ->
-            Just musicClefTreble
+        "music-note-bluetooth-off" ->
+            Just musicNoteBluetoothOff
 
         "music-note-eighth" ->
             Just musicNoteEighth
-
-        "music-note-bluetooth-off" ->
-            Just musicNoteBluetoothOff
 
         "music-note-eighth-dotted" ->
             Just musicNoteEighthDotted
@@ -4197,11 +4197,11 @@ lookup name =
         "music-note-off-outline" ->
             Just musicNoteOffOutline
 
-        "music-note-plus" ->
-            Just musicNotePlus
-
         "music-note-outline" ->
             Just musicNoteOutline
+
+        "music-note-plus" ->
+            Just musicNotePlus
 
         "music-note-quarter" ->
             Just musicNoteQuarter
@@ -4227,11 +4227,11 @@ lookup name =
         "music-rest-eighth" ->
             Just musicRestEighth
 
-        "music-rest-quarter" ->
-            Just musicRestQuarter
-
         "music-rest-half" ->
             Just musicRestHalf
+
+        "music-rest-quarter" ->
+            Just musicRestQuarter
 
         "music-rest-sixteenth" ->
             Just musicRestSixteenth

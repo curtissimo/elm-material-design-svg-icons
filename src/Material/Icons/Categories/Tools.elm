@@ -12,8 +12,8 @@ module Material.Icons.Categories.Tools exposing
     , dumpTruck
     , excavator
     , fireExtinguisher
-    , hammerScrewdriver
     , hammer
+    , hammerScrewdriver
     , hammerWrench
     , handSaw
     , hardHat
@@ -32,8 +32,8 @@ module Material.Icons.Categories.Tools exposing
     , razorDoubleEdge
     , razorSingleEdge
     , rivet
-    , ruler
     , rulerSquare
+    , ruler
     , rulerSquareCompass
     , sawBlade
     , screwFlatTop
@@ -69,8 +69,8 @@ module Material.Icons.Categories.Tools exposing
 @docs dumpTruck
 @docs excavator
 @docs fireExtinguisher
-@docs hammerScrewdriver
 @docs hammer
+@docs hammerScrewdriver
 @docs hammerWrench
 @docs handSaw
 @docs hardHat
@@ -89,8 +89,8 @@ module Material.Icons.Categories.Tools exposing
 @docs razorDoubleEdge
 @docs razorSingleEdge
 @docs rivet
-@docs ruler
 @docs rulerSquare
+@docs ruler
 @docs rulerSquareCompass
 @docs sawBlade
 @docs screwFlatTop
@@ -224,16 +224,6 @@ fireExtinguisher =
     Material.Icons.Directory.F.fireExtinguisher
 
 
-{-| The [`hammer-screwdriver`](https://pictogrammers.com/library/mdi/icon/hammer-screwdriver/) icon.
-
-![hammer-screwdriver](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjA2IDEzLjA5TDIxLjY5IDE4LjY4TDE4LjM3IDIxLjk2TDEyLjc4IDE2LjM3VjE1LjQ1TDE1LjE0IDEzLjA5SDE2LjA2TTE2Ljk3IDEwLjU2TDE2IDkuNkwxMS4yMSAxNC40VjE2LjM3TDUuNTggMjJMMi4zIDE4LjY4TDcuODkgMTMuMDlIOS44NkwxMC42NCAxMi4zMUw2LjggOC40Nkg1LjVMMi42OSA1LjYyTDUuMzEgM0w4LjExIDUuOFY3LjExTDEyIDEwLjk1TDE0LjY2IDguMjlMMTMuNyA3LjI4TDE1IDUuOTdIMTIuMzRMMTEuNjkgNS4zMkwxNSAyTDE1LjY2IDIuNjZWNS4zMkwxNi45NyA0TDIwLjI1IDcuMjhDMjEuMzQgOC4zOCAyMS4zNCAxMC4xNyAyMC4yNSAxMS4yNkwxOC4yOCA5LjI1TDE2Ljk3IDEwLjU2WiIgLz48L3N2Zz4=)
-
--}
-hammerScrewdriver : IconShape
-hammerScrewdriver =
-    Material.Icons.Directory.H.hammerScrewdriver
-
-
 {-| The [`hammer`](https://pictogrammers.com/library/mdi/icon/hammer/) icon.
 
 ![hammer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMTkuNjNMMTMuNDMgOC4yTDEyLjcyIDcuNUwxNC4xNCA2LjA3TDEyIDMuODlDMTMuMiAyLjcgMTUuMDkgMi43IDE2LjI3IDMuODlMMTkuODcgNy41TDE4LjQ1IDguOTFIMjEuMjlMMjIgOS42MkwxOC40NSAxMy4yMUwxNy43NCAxMi41VjkuNjJMMTYuMjcgMTEuMDRMMTUuNTYgMTAuMzNMNC4xMyAyMS43NkwyIDE5LjYzWiIgLz48L3N2Zz4=)
@@ -242,6 +232,16 @@ hammerScrewdriver =
 hammer : IconShape
 hammer =
     Material.Icons.Directory.H.hammer
+
+
+{-| The [`hammer-screwdriver`](https://pictogrammers.com/library/mdi/icon/hammer-screwdriver/) icon.
+
+![hammer-screwdriver](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjA2IDEzLjA5TDIxLjY5IDE4LjY4TDE4LjM3IDIxLjk2TDEyLjc4IDE2LjM3VjE1LjQ1TDE1LjE0IDEzLjA5SDE2LjA2TTE2Ljk3IDEwLjU2TDE2IDkuNkwxMS4yMSAxNC40VjE2LjM3TDUuNTggMjJMMi4zIDE4LjY4TDcuODkgMTMuMDlIOS44NkwxMC42NCAxMi4zMUw2LjggOC40Nkg1LjVMMi42OSA1LjYyTDUuMzEgM0w4LjExIDUuOFY3LjExTDEyIDEwLjk1TDE0LjY2IDguMjlMMTMuNyA3LjI4TDE1IDUuOTdIMTIuMzRMMTEuNjkgNS4zMkwxNSAyTDE1LjY2IDIuNjZWNS4zMkwxNi45NyA0TDIwLjI1IDcuMjhDMjEuMzQgOC4zOCAyMS4zNCAxMC4xNyAyMC4yNSAxMS4yNkwxOC4yOCA5LjI1TDE2Ljk3IDEwLjU2WiIgLz48L3N2Zz4=)
+
+-}
+hammerScrewdriver : IconShape
+hammerScrewdriver =
+    Material.Icons.Directory.H.hammerScrewdriver
 
 
 {-| The [`hammer-wrench`](https://pictogrammers.com/library/mdi/icon/hammer-wrench/) icon.
@@ -424,16 +424,6 @@ rivet =
     Material.Icons.Directory.R.rivet
 
 
-{-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
-
-![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuMzksMTguMzZMMy4xNiwxNi42TDQuNTgsMThMNS42NCwxNi45NUw0LjIyLDE1LjU0TDUuNjQsMTQuMTJMOC4xMSwxNi42TDkuMTcsMTUuNTRMNi43LDEzLjA2TDguMTEsMTEuNjVMOS41MywxMy4wNkwxMC41OSwxMkw5LjE3LDEwLjU5TDEwLjU5LDkuMTdMMTMuMDYsMTEuNjVMMTQuMTIsMTAuNTlMMTEuNjUsOC4xMUwxMy4wNiw2LjdMMTQuNDcsOC4xMUwxNS41NCw3LjA1TDE0LjEyLDUuNjRMMTUuNTQsNC4yMkwxOCw2LjdMMTkuMDcsNS42NEwxNi42LDMuMTZMMTguMzYsMS4zOUwyMi42MSw1LjY0TDUuNjQsMjIuNjFMMS4zOSwxOC4zNloiIC8+PC9zdmc+)
-
--}
-ruler : IconShape
-ruler =
-    Material.Icons.Directory.R.ruler
-
-
 {-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
 
 ![ruler-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNVYyMUg5VjE5LjVIN1YxOEg5VjE2LjVINVYxNUg5VjEzLjVIN1YxMkg5VjEwLjVINVY5SDlWNUgxMC41VjlIMTJWN0gxMy41VjlIMTVWNUgxNi41VjlIMThWN0gxOS41VjlIMjFWM0g1QTIsMiAwIDAsMCAzLDVNNiw3QTEsMSAwIDAsMSA1LDZBMSwxIDAgMCwxIDYsNUExLDEgMCAwLDEgNyw2QTEsMSAwIDAsMSA2LDdaIiAvPjwvc3ZnPg==)
@@ -442,6 +432,16 @@ ruler =
 rulerSquare : IconShape
 rulerSquare =
     Material.Icons.Directory.R.rulerSquare
+
+
+{-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
+
+![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuMzksMTguMzZMMy4xNiwxNi42TDQuNTgsMThMNS42NCwxNi45NUw0LjIyLDE1LjU0TDUuNjQsMTQuMTJMOC4xMSwxNi42TDkuMTcsMTUuNTRMNi43LDEzLjA2TDguMTEsMTEuNjVMOS41MywxMy4wNkwxMC41OSwxMkw5LjE3LDEwLjU5TDEwLjU5LDkuMTdMMTMuMDYsMTEuNjVMMTQuMTIsMTAuNTlMMTEuNjUsOC4xMUwxMy4wNiw2LjdMMTQuNDcsOC4xMUwxNS41NCw3LjA1TDE0LjEyLDUuNjRMMTUuNTQsNC4yMkwxOCw2LjdMMTkuMDcsNS42NEwxNi42LDMuMTZMMTguMzYsMS4zOUwyMi42MSw1LjY0TDUuNjQsMjIuNjFMMS4zOSwxOC4zNloiIC8+PC9zdmc+)
+
+-}
+ruler : IconShape
+ruler =
+    Material.Icons.Directory.R.ruler
 
 
 {-| The [`ruler-square-compass`](https://pictogrammers.com/library/mdi/icon/ruler-square-compass/) icon.

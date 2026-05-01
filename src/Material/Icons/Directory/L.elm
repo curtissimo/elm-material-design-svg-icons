@@ -239,18 +239,18 @@ labelMultipleOutline =
     iconShape "M4 18H13L11 20H4C3.5 20 2.97 19.79 2.59 19.41C2.21 19.03 2 18.5 2 18V8H4V18M17.63 4.84C17.27 4.33 16.67 4 16 4H8C6.9 4 6 4.9 6 6V14C6 15.1 6.9 16 8 16H16C16.67 16 17.27 15.66 17.63 15.15L22 10L17.63 4.84M16 14H8V6H16L19.55 10Z"
 
 
-{-| The [`label-off-outline`](https://pictogrammers.com/library/mdi/icon/label-off-outline/) icon.
--}
-labelOffOutline : IconShape
-labelOffOutline =
-    iconShape "M2,4.27L3.28,3L20,19.72L18.73,21L16.63,18.9C16.43,18.96 16.22,19 16,19H5A2,2 0 0,1 3,17V7C3,6.5 3.17,6.07 3.46,5.73L2,4.27M5,17H14.73L5,7.27V17M19.55,12L16,7H9.82L7.83,5H16C16.67,5 17.27,5.33 17.63,5.84L22,12L19,16.2L17.59,14.76L19.55,12Z"
-
-
 {-| The [`label-off`](https://pictogrammers.com/library/mdi/icon/label-off/) icon.
 -}
 labelOff : IconShape
 labelOff =
     iconShape "M2,4.27L3.28,3L20,19.72L18.73,21L16.63,18.9C16.43,18.96 16.22,19 16,19H5A2,2 0 0,1 3,17V7C3,6.5 3.17,6.07 3.46,5.73L2,4.27M17.63,5.84L22,12L19,16.2L7.83,5H16C16.67,5 17.27,5.33 17.63,5.84Z"
+
+
+{-| The [`label-off-outline`](https://pictogrammers.com/library/mdi/icon/label-off-outline/) icon.
+-}
+labelOffOutline : IconShape
+labelOffOutline =
+    iconShape "M2,4.27L3.28,3L20,19.72L18.73,21L16.63,18.9C16.43,18.96 16.22,19 16,19H5A2,2 0 0,1 3,17V7C3,6.5 3.17,6.07 3.46,5.73L2,4.27M5,17H14.73L5,7.27V17M19.55,12L16,7H9.82L7.83,5H16C16.67,5 17.27,5.33 17.63,5.84L22,12L19,16.2L17.59,14.76L19.55,12Z"
 
 
 {-| The [`label-outline`](https://pictogrammers.com/library/mdi/icon/label-outline/) icon.
@@ -274,13 +274,6 @@ labelPercentOutline =
     iconShape "M16 17H5V7H16L19.55 12M17.63 5.84C17.27 5.33 16.67 5 16 5H5C3.9 5 3 5.9 3 7V17C3 18.11 3.9 19 5 19H16C16.67 19 17.27 18.66 17.63 18.15L22 12L17.63 5.84M13.8 8L15 9.2L8.2 16L7 14.8M8.45 8.03C9.23 8.03 9.87 8.67 9.87 9.45S9.23 10.87 8.45 10.87 7.03 10.23 7.03 9.45 7.67 8.03 8.45 8.03M13.55 13.13C14.33 13.13 14.97 13.77 14.97 14.55C14.97 15.33 14.33 15.97 13.55 15.97C12.77 15.97 12.13 15.33 12.13 14.55C12.13 13.77 12.77 13.13 13.55 13.13Z"
 
 
-{-| The [`label-variant-outline`](https://pictogrammers.com/library/mdi/icon/label-variant-outline/) icon.
--}
-labelVariantOutline : IconShape
-labelVariantOutline =
-    iconShape "M6.5,17H15L18.5,12L15,7H6.5L10,12L6.5,17M15,19H3L7.5,12L3,5H15C15.69,5 16.23,5.3 16.64,5.86L21,12L16.64,18.14C16.23,18.7 15.69,19 15,19Z"
-
-
 {-| The [`label-variant`](https://pictogrammers.com/library/mdi/icon/label-variant/) icon.
 -}
 labelVariant : IconShape
@@ -288,11 +281,11 @@ labelVariant =
     iconShape "M3.5,19L8.34,12L3.5,5H14.5C15.17,5 15.72,5.3 16.13,5.86L20.5,12L16.13,18.14C15.72,18.7 15.17,19 14.5,19H3.5Z"
 
 
-{-| The [`ladybug`](https://pictogrammers.com/library/mdi/icon/ladybug/) icon.
+{-| The [`label-variant-outline`](https://pictogrammers.com/library/mdi/icon/label-variant-outline/) icon.
 -}
-ladybug : IconShape
-ladybug =
-    iconShape "M12,5C12.74,5 13.47,5.1 14.15,5.29L15.78,2.46C16.06,2 16.67,1.82 17.15,2.1C17.63,2.37 17.79,3 17.5,3.46L16,6.07C17.22,6.78 18.23,7.79 18.93,9H5.07C5.77,7.79 6.78,6.78 8,6.07L6.5,3.46C6.21,3 6.37,2.37 6.85,2.1C7.33,1.82 7.94,2 8.22,2.46L9.85,5.29C10.53,5.1 11.26,5 12,5M20,13C20,17.17 16.82,20.59 12.75,20.97V10.5H19.6C19.86,11.29 20,12.13 20,13M4,13C4,12.13 4.14,11.29 4.4,10.5H11.25V20.97C7.18,20.59 4,17.17 4,13Z"
+labelVariantOutline : IconShape
+labelVariantOutline =
+    iconShape "M6.5,17H15L18.5,12L15,7H6.5L10,12L6.5,17M15,19H3L7.5,12L3,5H15C15.69,5 16.23,5.3 16.64,5.86L21,12L16.64,18.14C16.23,18.7 15.69,19 15,19Z"
 
 
 {-| The [`ladder`](https://pictogrammers.com/library/mdi/icon/ladder/) icon.
@@ -302,11 +295,11 @@ ladder =
     iconShape "M14 1V3H10V1H8V22H10V20H14V22H16V1H14M14 5V8H10V5H14M14 10V13H10V10H14M10 18V15H14V18H10Z"
 
 
-{-| The [`lamp`](https://pictogrammers.com/library/mdi/icon/lamp/) icon.
+{-| The [`ladybug`](https://pictogrammers.com/library/mdi/icon/ladybug/) icon.
 -}
-lamp : IconShape
-lamp =
-    iconShape "M8,2H16L20,14H4L8,2M11,15H13V20H18V22H6V20H11V15Z"
+ladybug : IconShape
+ladybug =
+    iconShape "M12,5C12.74,5 13.47,5.1 14.15,5.29L15.78,2.46C16.06,2 16.67,1.82 17.15,2.1C17.63,2.37 17.79,3 17.5,3.46L16,6.07C17.22,6.78 18.23,7.79 18.93,9H5.07C5.77,7.79 6.78,6.78 8,6.07L6.5,3.46C6.21,3 6.37,2.37 6.85,2.1C7.33,1.82 7.94,2 8.22,2.46L9.85,5.29C10.53,5.1 11.26,5 12,5M20,13C20,17.17 16.82,20.59 12.75,20.97V10.5H19.6C19.86,11.29 20,12.13 20,13M4,13C4,12.13 4.14,11.29 4.4,10.5H11.25V20.97C7.18,20.59 4,17.17 4,13Z"
 
 
 {-| The [`lambda`](https://pictogrammers.com/library/mdi/icon/lambda/) icon.
@@ -316,11 +309,11 @@ lambda =
     iconShape "M6,20L10.16,7.91L9.34,6H8V4H10C10.42,4 10.78,4.26 10.93,4.63L16.66,18H18V20H16C15.57,20 15.21,19.73 15.07,19.36L11.33,10.65L8.12,20H6Z"
 
 
-{-| The [`lamps`](https://pictogrammers.com/library/mdi/icon/lamps/) icon.
+{-| The [`lamp`](https://pictogrammers.com/library/mdi/icon/lamp/) icon.
 -}
-lamps : IconShape
-lamps =
-    iconShape "M10 2L12 9H2L4 2M6 10H8V20H11V22H3V20H6V10M20 8L22 15H12L14 8M16 16H18V20H21V22H13V20H16V16Z"
+lamp : IconShape
+lamp =
+    iconShape "M8,2H16L20,14H4L8,2M11,15H13V20H18V22H6V20H11V15Z"
 
 
 {-| The [`lamp-outline`](https://pictogrammers.com/library/mdi/icon/lamp-outline/) icon.
@@ -328,6 +321,13 @@ lamps =
 lampOutline : IconShape
 lampOutline =
     iconShape "M14.56 4L17.23 12H6.78L9.44 4H14.56M16 2H8L4 14H20L16 2M11 15H13V20H18V22H6V20H11V15Z"
+
+
+{-| The [`lamps`](https://pictogrammers.com/library/mdi/icon/lamps/) icon.
+-}
+lamps : IconShape
+lamps =
+    iconShape "M10 2L12 9H2L4 2M6 10H8V20H11V22H3V20H6V10M20 8L22 15H12L14 8M16 16H18V20H21V22H13V20H16V16Z"
 
 
 {-| The [`lamps-outline`](https://pictogrammers.com/library/mdi/icon/lamps-outline/) icon.
@@ -372,18 +372,18 @@ lanPending =
     iconShape "M4,1C2.89,1 2,1.89 2,3V7C2,8.11 2.89,9 4,9H1V11H13V9H10C11.11,9 12,8.11 12,7V3C12,1.89 11.11,1 10,1H4M4,3H10V7H4V3M3,12V14H5V12H3M14,13C12.89,13 12,13.89 12,15V19C12,20.11 12.89,21 14,21H11V23H23V21H20C21.11,21 22,20.11 22,19V15C22,13.89 21.11,13 20,13H14M3,15V17H5V15H3M14,15H20V19H14V15M3,18V20H5V18H3M6,18V20H8V18H6M9,18V20H11V18H9Z"
 
 
-{-| The [`land-plots`](https://pictogrammers.com/library/mdi/icon/land-plots/) icon.
--}
-landPlots : IconShape
-landPlots =
-    iconShape "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M4 4H8V14H4V4M4 20V16H8V20H4M20 20H10V10H20V20M20 8H10V4H20V8Z"
-
-
 {-| The [`land-fields`](https://pictogrammers.com/library/mdi/icon/land-fields/) icon.
 -}
 landFields : IconShape
 landFields =
     iconShape "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M15.3 4C14.5 5.1 14 6.5 14 8H10C10 6.4 10.8 4.9 12 4H15.3M14 14H10C10 12.5 9.5 11.1 8.7 10H12C13.2 10.9 14 12.4 14 14M4 4H9.3C8.5 5.1 8 6.5 8 8H4V4M4 10H6C7.2 10.9 8 12.3 8 14H4V10M4 20V16H9.3C8.5 17.1 8 18.5 8 20H4M10 20C10 18.4 10.8 16.9 12 16H15.3C14.5 17.1 14 18.5 14 20H10M20 20H16C16 18.4 16.8 16.9 18 16H20V20M20 14H16C16 12.5 15.5 11.1 14.7 10H20V14M20 8H16C16 6.4 16.8 4.9 18 4H20V8Z"
+
+
+{-| The [`land-plots`](https://pictogrammers.com/library/mdi/icon/land-plots/) icon.
+-}
+landPlots : IconShape
+landPlots =
+    iconShape "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M4 4H8V14H4V4M4 20V16H8V20H4M20 20H10V10H20V20M20 8H10V4H20V8Z"
 
 
 {-| The [`land-plots-circle`](https://pictogrammers.com/library/mdi/icon/land-plots-circle/) icon.
@@ -407,18 +407,18 @@ landPlotsMarker =
     iconShape "M4 2H20C21.1 2 22 2.9 22 4V10H10V20H14.55C14.73 20.3 14.91 20.58 15.09 20.84C15.38 21.27 15.66 21.66 15.92 22H4C2.9 22 2 21.1 2 20V4C2 2.9 2.9 2 4 2M8 4H4V14H8V4M4 16V20H8V16H4M10 8H20V4H10V8M18.5 22C18.5 22 17.92 21.35 17.23 20.41C17.14 20.28 17.04 20.14 16.94 20C16 18.66 15 16.89 15 15.5C15 13.6 16.6 12 18.5 12C19.03 12 19.54 12.13 20 12.35C21.17 12.92 22 14.13 22 15.5C22 17.04 20.77 19.04 19.77 20.41C19.08 21.35 18.5 22 18.5 22M17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8C19.2 16.8 19.8 16.2 19.7 15.6C19.7 15 19.1 14.4 18.5 14.4C17.9 14.4 17.3 14.9 17.3 15.6Z"
 
 
-{-| The [`land-rows-vertical`](https://pictogrammers.com/library/mdi/icon/land-rows-vertical/) icon.
--}
-landRowsVertical : IconShape
-landRowsVertical =
-    iconShape "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M6.5 20H4V4H6.5V20M11 20H8.5V4H11V20M15.5 20H13V4H15.5V20M20 20H17.5V4H20V20Z"
-
-
 {-| The [`land-rows-horizontal`](https://pictogrammers.com/library/mdi/icon/land-rows-horizontal/) icon.
 -}
 landRowsHorizontal : IconShape
 landRowsHorizontal =
     iconShape "M22 20V4C22 2.9 21.1 2 20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20M4 6.5V4H20V6.5H4M4 11V8.5H20V11H4M4 15.5V13H20V15.5H4M4 20V17.5H20V20H4Z"
+
+
+{-| The [`land-rows-vertical`](https://pictogrammers.com/library/mdi/icon/land-rows-vertical/) icon.
+-}
+landRowsVertical : IconShape
+landRowsVertical =
+    iconShape "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2M6.5 20H4V4H6.5V20M11 20H8.5V4H11V20M15.5 20H13V4H15.5V20M20 20H17.5V4H20V20Z"
 
 
 {-| The [`landslide`](https://pictogrammers.com/library/mdi/icon/landslide/) icon.
@@ -435,6 +435,13 @@ landslideOutline =
     iconShape "M11 12L8 8H2V22H22L16 14L11 12M12.53 14.77L6 16.95L4 16.28V14.39L6 15.06L9.95 13.74L12.53 14.77M7 10L8.57 12.09L6 12.95L4 12.28V10H7M4 20V18.39L6 19.06L15.03 16.05L18 20H4M17 6V1L12 0L9 2V6L12 8L17 6M11 3.07L12.42 2.12L15 2.64V4.65L12.23 5.76L11 4.93V3.07M18.5 7L16 9V12L18.5 14L23 12V8L18.5 7M21 10.7L18.8 11.68L18 11.04V9.96L19 9.16L21 9.6V10.7Z"
 
 
+{-| The [`laptop`](https://pictogrammers.com/library/mdi/icon/laptop/) icon.
+-}
+laptop : IconShape
+laptop =
+    iconShape "M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z"
+
+
 {-| The [`laptop-account`](https://pictogrammers.com/library/mdi/icon/laptop-account/) icon.
 -}
 laptopAccount : IconShape
@@ -449,13 +456,6 @@ laptopOff =
     iconShape "M1,4.27L2.28,3L20,20.72L18.73,22L16.73,20H0V18H4C2.89,18 2,17.1 2,16V6C2,5.78 2.04,5.57 2.1,5.37L1,4.27M4,16H12.73L4,7.27V16M20,16V6H7.82L5.82,4H20A2,2 0 0,1 22,6V16A2,2 0 0,1 20,18H24V20H21.82L17.82,16H20Z"
 
 
-{-| The [`laptop`](https://pictogrammers.com/library/mdi/icon/laptop/) icon.
--}
-laptop : IconShape
-laptop =
-    iconShape "M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z"
-
-
 {-| The [`laser-pointer`](https://pictogrammers.com/library/mdi/icon/laser-pointer/) icon.
 -}
 laserPointer : IconShape
@@ -463,18 +463,18 @@ laserPointer =
     iconShape "M9 13L5 16C4 16.88 3.86 18.12 4 19C4.13 20 4.91 21.22 6 21.68C7.57 22.35 9.09 21.9 10.04 20.92L19 13C20.86 11.62 20 9 18 9H12L19.46 4.61C19.9 4.29 20.08 3.82 20.06 3.37C20 2.67 19.46 2 18.6 2H18.54C18.19 2 17.86 2.11 17.56 2.29L5 9C4.19 9.46 3.94 10.24 4 11C4.05 12.03 4.74 13 6 13M5 18.5C5 17.12 6.12 16 7.5 16S10 17.12 10 18.5 8.88 21 7.5 21 5 19.88 5 18.5Z"
 
 
-{-| The [`latitude`](https://pictogrammers.com/library/mdi/icon/latitude/) icon.
--}
-latitude : IconShape
-latitude =
-    iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 4C15 4 17.5 5.6 18.9 8H5.1C6.5 5.6 9 4 12 4M12 20C9 20 6.5 18.4 5.1 16H18.9C17.5 18.4 15 20 12 20M4.3 14C4.1 13.4 4 12.7 4 12S4.1 10.6 4.3 10H19.8C20 10.6 20.1 11.3 20.1 12S20 13.4 19.8 14H4.3Z"
-
-
 {-| The [`lasso`](https://pictogrammers.com/library/mdi/icon/lasso/) icon.
 -}
 lasso : IconShape
 lasso =
     iconShape "M22 9C22 5.13 17.5 2 12 2C6.5 2 2 5.13 2 9C2 9.00843 2.00002 9.01685 2.00006 9.02527C2.00952 10.8953 3.06771 12.5956 4.78 13.85C4.78103 13.847 4.78207 13.844 4.7831 13.841C5.18858 14.1369 5.63069 14.408 6.10419 14.6507C6.03614 14.9227 6 15.2072 6 15.5C6 16.76 6.67 17.87 7.67 18.5C7.46 19.11 6.97 20.96 8.3 22.05C9.91 23.38 11.66 22.97 12.56 22.69C12.8116 22.6126 13.0655 22.5076 13.3395 22.3944C14.0563 22.0981 14.9105 21.7451 16.22 21.68C17.6764 21.5995 18.9321 21.8104 19.5651 21.9167C19.7188 21.9425 19.8358 21.9622 19.91 21.97C19.91 21.97 20.86 21.97 20.97 21.04C21.08 20.1 20.03 19.97 20.03 19.97C20.03 19.97 18.43 19.7 16.39 19.71C14.9823 19.7145 13.7447 20.1595 12.703 20.5341C11.4434 20.987 10.4704 21.3368 9.83 20.68C9.18 20 9.39 19.36 9.6 19C11.3416 18.9542 12.7471 17.6481 12.9693 15.9673C13.4921 15.9319 14.0034 15.8699 14.5 15.78C18.6753 15.0244 21.7995 12.4293 21.9907 9.30406C21.9969 9.20324 22 9.10187 22 9ZM20 9C20 10.2554 19.2572 11.4047 18.032 12.2843C16.6998 13.2393 14.7966 13.8752 12.6542 13.9835C12.0881 12.8109 10.887 12 9.5 12C8.57261 12 7.72834 12.3625 7.10143 12.9533C6.61638 12.7181 6.17578 12.4489 5.78883 12.1513L5.79 12.15C4.6875 11.3034 4.02105 10.2243 4.00049 9.05571C4.00016 9.03717 4 9.01859 4 9C4 6.24 7.58 4 12 4C16.42 4 20 6.24 20 9ZM10.9988 15.5603C10.9933 15.6993 10.9689 15.8333 10.9281 15.96C10.7345 16.5641 10.1694 17 9.5 17C8.67 17 8 16.33 8 15.5C8 15.4718 8.00078 15.4437 8.00231 15.4159C8.04595 14.6266 8.69981 14 9.5 14C10.3284 14 11 14.6716 11 15.5C11 15.5202 10.9996 15.5403 10.9988 15.5603Z"
+
+
+{-| The [`latitude`](https://pictogrammers.com/library/mdi/icon/latitude/) icon.
+-}
+latitude : IconShape
+latitude =
+    iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 4C15 4 17.5 5.6 18.9 8H5.1C6.5 5.6 9 4 12 4M12 20C9 20 6.5 18.4 5.1 16H18.9C17.5 18.4 15 20 12 20M4.3 14C4.1 13.4 4 12.7 4 12S4.1 10.6 4.3 10H19.8C20 10.6 20.1 11.3 20.1 12S20 13.4 19.8 14H4.3Z"
 
 
 {-| The [`launch`](https://pictogrammers.com/library/mdi/icon/launch/) icon.
@@ -498,13 +498,6 @@ layers =
     iconShape "M12,16L19.36,10.27L21,9L12,2L3,9L4.63,10.27M12,18.54L4.62,12.81L3,14.07L12,21.07L21,14.07L19.37,12.8L12,18.54Z"
 
 
-{-| The [`layers-minus`](https://pictogrammers.com/library/mdi/icon/layers-minus/) icon.
--}
-layersMinus : IconShape
-layersMinus =
-    iconShape "M22,17V19H14V17H22M11,16L2,9L11,2L20,9L11,16M11,18.54L12,17.75V18C12,18.71 12.12,19.39 12.35,20L11,21.07L2,14.07L3.62,12.81L11,18.54Z"
-
-
 {-| The [`layers-edit`](https://pictogrammers.com/library/mdi/icon/layers-edit/) icon.
 -}
 layersEdit : IconShape
@@ -512,11 +505,11 @@ layersEdit =
     iconShape "M4.63 10.27L3 9L12 2L19.94 8.17L12.5 15.61L12 16L4.63 10.27M10 18.94V18.11L10.59 17.53L10.63 17.5L4.62 12.81L3 14.07L10 19.5V18.94M21.7 12.58L20.42 11.3C20.21 11.09 19.86 11.09 19.65 11.3L18.65 12.3L20.7 14.35L21.7 13.35C21.91 13.14 21.91 12.79 21.7 12.58M12 21H14.06L20.11 14.93L18.06 12.88L12 18.94V21Z"
 
 
-{-| The [`layers-off-outline`](https://pictogrammers.com/library/mdi/icon/layers-off-outline/) icon.
+{-| The [`layers-minus`](https://pictogrammers.com/library/mdi/icon/layers-minus/) icon.
 -}
-layersOffOutline : IconShape
-layersOffOutline =
-    iconShape "M12,4.53L10.83,5.44L9.41,4L12,2L21,9L17.28,11.89L15.85,10.47L17.74,9L12,4.53M21,14.07L20.13,14.75L18.7,13.32L19.37,12.8L21,14.07M3.41,0.86L22.14,19.59L20.73,21L16.95,17.22L12,21.07L3,14.07L4.62,12.81L12,18.54L15.5,15.79L14.1,14.37L12,16L3,9L6.22,6.5L2,2.27L3.41,0.86M12,13.47L12.67,12.94L7.65,7.92L6.26,9L12,13.47Z"
+layersMinus : IconShape
+layersMinus =
+    iconShape "M22,17V19H14V17H22M11,16L2,9L11,2L20,9L11,16M11,18.54L12,17.75V18C12,18.71 12.12,19.39 12.35,20L11,21.07L2,14.07L3.62,12.81L11,18.54Z"
 
 
 {-| The [`layers-off`](https://pictogrammers.com/library/mdi/icon/layers-off/) icon.
@@ -524,6 +517,13 @@ layersOffOutline =
 layersOff : IconShape
 layersOff =
     iconShape "M3.27,1L2,2.27L6.22,6.5L3,9L4.63,10.27L12,16L14.1,14.37L15.53,15.8L12,18.54L4.63,12.81L3,14.07L12,21.07L16.95,17.22L20.73,21L22,19.73L3.27,1M19.36,10.27L21,9L12,2L9.09,4.27L16.96,12.15L19.36,10.27M19.81,15L21,14.07L19.57,12.64L18.38,13.56L19.81,15Z"
+
+
+{-| The [`layers-off-outline`](https://pictogrammers.com/library/mdi/icon/layers-off-outline/) icon.
+-}
+layersOffOutline : IconShape
+layersOffOutline =
+    iconShape "M12,4.53L10.83,5.44L9.41,4L12,2L21,9L17.28,11.89L15.85,10.47L17.74,9L12,4.53M21,14.07L20.13,14.75L18.7,13.32L19.37,12.8L21,14.07M3.41,0.86L22.14,19.59L20.73,21L16.95,17.22L12,21.07L3,14.07L4.62,12.81L12,18.54L15.5,15.79L14.1,14.37L12,16L3,9L6.22,6.5L2,2.27L3.41,0.86M12,13.47L12.67,12.94L7.65,7.92L6.26,9L12,13.47Z"
 
 
 {-| The [`layers-outline`](https://pictogrammers.com/library/mdi/icon/layers-outline/) icon.
@@ -540,11 +540,25 @@ layersPlus =
     iconShape "M17,14H19V17H22V19H19V22H17V19H14V17H17V14M11,16L2,9L11,2L20,9L11,16M11,18.54L12,17.75V18C12,18.71 12.12,19.39 12.35,20L11,21.07L2,14.07L3.62,12.81L11,18.54Z"
 
 
+{-| The [`layers-remove`](https://pictogrammers.com/library/mdi/icon/layers-remove/) icon.
+-}
+layersRemove : IconShape
+layersRemove =
+    iconShape "M14.46,15.88L15.88,14.46L18,16.59L20.12,14.46L21.54,15.88L19.41,18L21.54,20.12L20.12,21.54L18,19.41L15.88,21.54L14.46,20.12L16.59,18L14.46,15.88M11,16L2,9L11,2L20,9L11,16M11,18.54L12,17.75V18C12,18.71 12.12,19.39 12.35,20L11,21.07L2,14.07L3.62,12.81L11,18.54Z"
+
+
 {-| The [`layers-search`](https://pictogrammers.com/library/mdi/icon/layers-search/) icon.
 -}
 layersSearch : IconShape
 layersSearch =
     iconShape "M19.31 18.9C19.75 18.21 20 17.38 20 16.5C20 14 18 12 15.5 12S11 14 11 16.5 13 21 15.5 21C16.37 21 17.19 20.75 17.88 20.32L21 23.39L22.39 22L19.31 18.9M15.5 19C14.12 19 13 17.88 13 16.5S14.12 14 15.5 14 18 15.12 18 16.5 16.88 19 15.5 19M9.59 19.2L3 14.07L4.62 12.81L9 16.22C9 16.32 9 16.41 9 16.5C9 17.46 9.22 18.38 9.59 19.2M4.63 10.27L3 9L12 2L21 9L19.36 10.27L18.65 10.82C17.72 10.3 16.64 10 15.5 10C12.79 10 10.46 11.68 9.5 14.05L4.63 10.27Z"
+
+
+{-| The [`layers-search-outline`](https://pictogrammers.com/library/mdi/icon/layers-search-outline/) icon.
+-}
+layersSearchOutline : IconShape
+layersSearchOutline =
+    iconShape "M19.31 18.9C19.75 18.21 20 17.38 20 16.5C20 14 18 12 15.5 12S11 14 11 16.5 13 21 15.5 21C16.37 21 17.19 20.75 17.88 20.32L21 23.39L22.39 22L19.31 18.9M15.5 19C14.12 19 13 17.88 13 16.5S14.12 14 15.5 14 18 15.12 18 16.5 16.88 19 15.5 19M9.59 19.2L3 14.07L4.62 12.81L9 16.22C9 16.32 9 16.41 9 16.5C9 17.46 9.22 18.38 9.59 19.2M9.5 14.04L3 9L12 2L21 9L18.66 10.82C17.96 10.44 17.19 10.18 16.37 10.07L17.74 9L12 4.53L6.26 9L10.53 12.32C10.1 12.84 9.74 13.42 9.5 14.04Z"
 
 
 {-| The [`layers-triple`](https://pictogrammers.com/library/mdi/icon/layers-triple/) icon.
@@ -554,11 +568,11 @@ layersTriple =
     iconShape "M12 0L3 7L4.63 8.27L12 14L19.36 8.27L21 7L12 0M19.37 10.73L12 16.47L4.62 10.74L3 12L12 19L21 12L19.37 10.73M19.37 15.73L12 21.47L4.62 15.74L3 17L12 24L21 17L19.37 15.73Z"
 
 
-{-| The [`layers-remove`](https://pictogrammers.com/library/mdi/icon/layers-remove/) icon.
+{-| The [`layers-triple-outline`](https://pictogrammers.com/library/mdi/icon/layers-triple-outline/) icon.
 -}
-layersRemove : IconShape
-layersRemove =
-    iconShape "M14.46,15.88L15.88,14.46L18,16.59L20.12,14.46L21.54,15.88L19.41,18L21.54,20.12L20.12,21.54L18,19.41L15.88,21.54L14.46,20.12L16.59,18L14.46,15.88M11,16L2,9L11,2L20,9L11,16M11,18.54L12,17.75V18C12,18.71 12.12,19.39 12.35,20L11,21.07L2,14.07L3.62,12.81L11,18.54Z"
+layersTripleOutline : IconShape
+layersTripleOutline =
+    iconShape "M12 16.54L19.37 10.8L21 12.07L12 19.07L3 12.07L4.62 10.81L12 16.54M12 14L3 7L12 0L21 7L12 14M12 2.53L6.26 7L12 11.47L17.74 7L12 2.53M12 21.47L19.37 15.73L21 17L12 24L3 17L4.62 15.74L12 21.47"
 
 
 {-| The [`lead-pencil`](https://pictogrammers.com/library/mdi/icon/lead-pencil/) icon.
@@ -566,13 +580,6 @@ layersRemove =
 leadPencil : IconShape
 leadPencil =
     iconShape "M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.78L6.65,17.61L6.47,15.29"
-
-
-{-| The [`layers-triple-outline`](https://pictogrammers.com/library/mdi/icon/layers-triple-outline/) icon.
--}
-layersTripleOutline : IconShape
-layersTripleOutline =
-    iconShape "M12 16.54L19.37 10.8L21 12.07L12 19.07L3 12.07L4.62 10.81L12 16.54M12 14L3 7L12 0L21 7L12 14M12 2.53L6.26 7L12 11.47L17.74 7L12 2.53M12 21.47L19.37 15.73L21 17L12 24L3 17L4.62 15.74L12 21.47"
 
 
 {-| The [`leaf`](https://pictogrammers.com/library/mdi/icon/leaf/) icon.
@@ -589,13 +596,6 @@ leafCircle =
     iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M9.6 17.2C9.38 17.2 9.08 17.12 8.8 17L8.23 18.4L7.09 18L7.25 17.61C8.45 14.59 9.83 11.15 15 10C15 10 9 10 7.05 15.55C7.05 15.55 6 14.5 6 13.3S7.2 9.55 10.2 8.95C11.05 8.78 12 8.65 12.94 8.5C15.3 8.18 17.57 7.86 18 7C18 7 16.2 17.2 9.6 17.2Z"
 
 
-{-| The [`leaf-maple`](https://pictogrammers.com/library/mdi/icon/leaf-maple/) icon.
--}
-leafMaple : IconShape
-leafMaple =
-    iconShape "M21.79,13L16,16L17,18L13,17.25V21H11V17.25L7,18L8,16L2.21,13L3.21,11.27L1.61,8L5.21,7.77L6.21,6L9.63,9.9L8,5H10L12,2L14,5H16L14.37,9.9L17.79,6L18.79,7.73L22.39,7.96L20.79,11.19L21.79,13Z"
-
-
 {-| The [`leaf-circle-outline`](https://pictogrammers.com/library/mdi/icon/leaf-circle-outline/) icon.
 -}
 leafCircleOutline : IconShape
@@ -603,11 +603,11 @@ leafCircleOutline =
     iconShape "M8.04 16.34C9.05 13.83 10.19 10.96 14.5 10C14.5 10 9.5 10 7.88 14.63C7.88 14.63 7 13.75 7 12.75S8 9.63 10.5 9.13C11.21 9 12 8.87 12.78 8.76C14.75 8.5 16.64 8.22 17 7.5C17 7.5 15.5 16 10 16C9.82 16 9.57 15.94 9.33 15.85L8.86 17L7.91 16.67L8.04 16.34M12 4C16.41 4 20 7.59 20 12S16.41 20 12 20 4 16.41 4 12 7.59 4 12 4M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2Z"
 
 
-{-| The [`layers-search-outline`](https://pictogrammers.com/library/mdi/icon/layers-search-outline/) icon.
+{-| The [`leaf-maple`](https://pictogrammers.com/library/mdi/icon/leaf-maple/) icon.
 -}
-layersSearchOutline : IconShape
-layersSearchOutline =
-    iconShape "M19.31 18.9C19.75 18.21 20 17.38 20 16.5C20 14 18 12 15.5 12S11 14 11 16.5 13 21 15.5 21C16.37 21 17.19 20.75 17.88 20.32L21 23.39L22.39 22L19.31 18.9M15.5 19C14.12 19 13 17.88 13 16.5S14.12 14 15.5 14 18 15.12 18 16.5 16.88 19 15.5 19M9.59 19.2L3 14.07L4.62 12.81L9 16.22C9 16.32 9 16.41 9 16.5C9 17.46 9.22 18.38 9.59 19.2M9.5 14.04L3 9L12 2L21 9L18.66 10.82C17.96 10.44 17.19 10.18 16.37 10.07L17.74 9L12 4.53L6.26 9L10.53 12.32C10.1 12.84 9.74 13.42 9.5 14.04Z"
+leafMaple : IconShape
+leafMaple =
+    iconShape "M21.79,13L16,16L17,18L13,17.25V21H11V17.25L7,18L8,16L2.21,13L3.21,11.27L1.61,8L5.21,7.77L6.21,6L9.63,9.9L8,5H10L12,2L14,5H16L14.37,9.9L17.79,6L18.79,7.73L22.39,7.96L20.79,11.19L21.79,13Z"
 
 
 {-| The [`leaf-maple-off`](https://pictogrammers.com/library/mdi/icon/leaf-maple-off/) icon.
@@ -624,13 +624,6 @@ leafOff =
     iconShape "M20.84 22.73L15.14 17.03C13.26 18.79 10.92 20 8 20C7.64 20 7.14 19.87 6.66 19.7L5.71 22L3.82 21.34C5.15 18.03 6.5 14.32 9.66 11.55L8.77 10.66C6.76 12.03 4.86 14.1 3.75 17.25C3.75 17.25 2 15.5 2 13.5C2 12 3.12 9.32 5.72 7.61L1.11 3L2.39 1.73C2.39 1.73 16.39 15.74 16.39 15.74L22.11 21.46L20.84 22.73M17 8C15.35 8.37 13.93 8.88 12.7 9.5L17.5 14.29C20.87 9.35 22 3 22 3C21.03 4.95 14.35 5.24 9.38 6.18L12.15 8.95C14.81 8 17 8 17 8Z"
 
 
-{-| The [`leak-off`](https://pictogrammers.com/library/mdi/icon/leak-off/) icon.
--}
-leakOff : IconShape
-leakOff =
-    iconShape "M10,3H8C8,3.37 7.96,3.72 7.88,4.06L9.47,5.65C9.81,4.84 10,3.94 10,3M3,4.27L5.84,7.11C5.03,7.67 4.06,8 3,8V10C4.61,10 6.09,9.45 7.27,8.54L8.7,9.97C7.14,11.24 5.16,12 3,12V14C5.71,14 8.19,13 10.11,11.38L12.61,13.88C11,15.81 10,18.29 10,21H12C12,18.84 12.76,16.86 14.03,15.31L15.46,16.74C14.55,17.91 14,19.39 14,21H16C16,19.94 16.33,18.97 16.89,18.16L19.73,21L21,19.73L4.27,3L3,4.27M14,3H12C12,4.5 11.63,5.91 11,7.16L12.44,8.62C13.42,7 14,5.06 14,3M19.94,16.12C20.28,16.04 20.63,16 21,16V14C20.06,14 19.16,14.19 18.34,14.5L19.94,16.12M15.38,11.56L16.84,13C18.09,12.37 19.5,12 21,12V10C18.94,10 17,10.58 15.38,11.56Z"
-
-
 {-| The [`leak`](https://pictogrammers.com/library/mdi/icon/leak/) icon.
 -}
 leak : IconShape
@@ -638,11 +631,11 @@ leak =
     iconShape "M6,3H3V6A3,3 0 0,0 6,3M14,3H12A9,9 0 0,1 3,12V14C9.08,14 14,9.07 14,3M10,3H8A5,5 0 0,1 3,8V10A7,7 0 0,0 10,3M10,21H12A9,9 0 0,1 21,12V10A11,11 0 0,0 10,21M18,21H21V18A3,3 0 0,0 18,21M14,21H16A5,5 0 0,1 21,16V14A7,7 0 0,0 14,21Z"
 
 
-{-| The [`led-off`](https://pictogrammers.com/library/mdi/icon/led-off/) icon.
+{-| The [`leak-off`](https://pictogrammers.com/library/mdi/icon/leak-off/) icon.
 -}
-ledOff : IconShape
-ledOff =
-    iconShape "M12,6A4,4 0 0,0 8,10V16H6V18H9V23H11V18H13V23H15V18H18V16H16V10A4,4 0 0,0 12,6Z"
+leakOff : IconShape
+leakOff =
+    iconShape "M10,3H8C8,3.37 7.96,3.72 7.88,4.06L9.47,5.65C9.81,4.84 10,3.94 10,3M3,4.27L5.84,7.11C5.03,7.67 4.06,8 3,8V10C4.61,10 6.09,9.45 7.27,8.54L8.7,9.97C7.14,11.24 5.16,12 3,12V14C5.71,14 8.19,13 10.11,11.38L12.61,13.88C11,15.81 10,18.29 10,21H12C12,18.84 12.76,16.86 14.03,15.31L15.46,16.74C14.55,17.91 14,19.39 14,21H16C16,19.94 16.33,18.97 16.89,18.16L19.73,21L21,19.73L4.27,3L3,4.27M14,3H12C12,4.5 11.63,5.91 11,7.16L12.44,8.62C13.42,7 14,5.06 14,3M19.94,16.12C20.28,16.04 20.63,16 21,16V14C20.06,14 19.16,14.19 18.34,14.5L19.94,16.12M15.38,11.56L16.84,13C18.09,12.37 19.5,12 21,12V10C18.94,10 17,10.58 15.38,11.56Z"
 
 
 {-| The [`lectern`](https://pictogrammers.com/library/mdi/icon/lectern/) icon.
@@ -650,6 +643,13 @@ ledOff =
 lectern : IconShape
 lectern =
     iconShape "M17 21V22H7V21H9V11H15V21H17M17.5 6C17.5 4.39 16.41 3.05 14.93 2.64C14.78 2.27 14.43 2 14 2C13.45 2 13 2.45 13 3C13 3.55 13.45 4 14 4C14.31 4 14.58 3.85 14.76 3.63C15.77 3.95 16.5 4.89 16.5 6H4L5 10H19L20 6H17.5Z"
+
+
+{-| The [`led-off`](https://pictogrammers.com/library/mdi/icon/led-off/) icon.
+-}
+ledOff : IconShape
+ledOff =
+    iconShape "M12,6A4,4 0 0,0 8,10V16H6V18H9V23H11V18H13V23H15V18H18V16H16V10A4,4 0 0,0 12,6Z"
 
 
 {-| The [`led-on`](https://pictogrammers.com/library/mdi/icon/led-on/) icon.
@@ -743,18 +743,18 @@ libraryOutline =
     iconShape "M12 14.27L10.64 13C9.09 11.57 7.16 10.57 5 10.18V17.13C7.61 17.47 10 18.47 12 19.95C14 18.47 16.39 17.47 19 17.13V10.18C16.84 10.57 14.91 11.57 13.36 13M19 8.15C19.65 8.05 20.32 8 21 8V19C17.5 19 14.36 20.35 12 22.54C9.64 20.35 6.5 19 3 19V8C3.68 8 4.35 8.05 5 8.15C7.69 8.56 10.1 9.78 12 11.54C13.9 9.78 16.31 8.56 19 8.15M12 6C12.27 6 12.5 5.9 12.71 5.71C12.9 5.5 13 5.27 13 5S12.9 4.5 12.71 4.29C12.5 4.11 12.27 4 12 4S11.5 4.11 11.29 4.29C11.11 4.5 11 4.74 11 5S11.11 5.5 11.29 5.71C11.5 5.9 11.74 6 12 6M14.12 7.12C13.56 7.68 12.8 8 12 8S10.44 7.68 9.88 7.12C9.32 6.56 9 5.8 9 5S9.32 3.44 9.88 2.88C10.44 2.32 11.2 2 12 2S13.56 2.32 14.12 2.88 15 4.2 15 5 14.68 6.56 14.12 7.12Z"
 
 
-{-| The [`license`](https://pictogrammers.com/library/mdi/icon/license/) icon.
--}
-license : IconShape
-license =
-    iconShape "M9 10A3.04 3.04 0 0 1 12 7A3.04 3.04 0 0 1 15 10A3.04 3.04 0 0 1 12 13A3.04 3.04 0 0 1 9 10M12 19L16 20V16.92A7.54 7.54 0 0 1 12 18A7.54 7.54 0 0 1 8 16.92V20M12 4A5.78 5.78 0 0 0 7.76 5.74A5.78 5.78 0 0 0 6 10A5.78 5.78 0 0 0 7.76 14.23A5.78 5.78 0 0 0 12 16A5.78 5.78 0 0 0 16.24 14.23A5.78 5.78 0 0 0 18 10A5.78 5.78 0 0 0 16.24 5.74A5.78 5.78 0 0 0 12 4M20 10A8.04 8.04 0 0 1 19.43 12.8A7.84 7.84 0 0 1 18 15.28V23L12 21L6 23V15.28A7.9 7.9 0 0 1 4 10A7.68 7.68 0 0 1 6.33 4.36A7.73 7.73 0 0 1 12 2A7.73 7.73 0 0 1 17.67 4.36A7.68 7.68 0 0 1 20 10Z"
-
-
 {-| The [`library-shelves`](https://pictogrammers.com/library/mdi/icon/library-shelves/) icon.
 -}
 libraryShelves : IconShape
 libraryShelves =
     iconShape "M19.5,9V1.5H16.5V9H13.5V1.5H10.5V9H7.5V1.5H4.65V9H3V10.5H21V9H19.5M19.5,13.5H16.5V21H13.5V13.5H10.5V21H7.5V13.5H4.65V21H3V22.5H21V21H19.5V13.5Z"
+
+
+{-| The [`license`](https://pictogrammers.com/library/mdi/icon/license/) icon.
+-}
+license : IconShape
+license =
+    iconShape "M9 10A3.04 3.04 0 0 1 12 7A3.04 3.04 0 0 1 15 10A3.04 3.04 0 0 1 12 13A3.04 3.04 0 0 1 9 10M12 19L16 20V16.92A7.54 7.54 0 0 1 12 18A7.54 7.54 0 0 1 8 16.92V20M12 4A5.78 5.78 0 0 0 7.76 5.74A5.78 5.78 0 0 0 6 10A5.78 5.78 0 0 0 7.76 14.23A5.78 5.78 0 0 0 12 16A5.78 5.78 0 0 0 16.24 14.23A5.78 5.78 0 0 0 18 10A5.78 5.78 0 0 0 16.24 5.74A5.78 5.78 0 0 0 12 4M20 10A8.04 8.04 0 0 1 19.43 12.8A7.84 7.84 0 0 1 18 15.28V23L12 21L6 23V15.28A7.9 7.9 0 0 1 4 10A7.68 7.68 0 0 1 6.33 4.36A7.73 7.73 0 0 1 12 2A7.73 7.73 0 0 1 17.67 4.36A7.68 7.68 0 0 1 20 10Z"
 
 
 {-| The [`lifebuoy`](https://pictogrammers.com/library/mdi/icon/lifebuoy/) icon.
@@ -855,18 +855,18 @@ lightbulbCflSpiral =
     iconShape "M11 2C10.84 2 10.69 2.03 10.55 2.1L8.55 3.1C7.56 3.66 8 5 9 5C9.16 5 9.32 4.95 9.45 4.9L11.45 3.9C12.43 3.36 12 2 11 2M15 4C14.83 4 14.69 4.03 14.55 4.1L8.55 7.1C7.56 7.68 8 9 9 9C9.18 9 9.32 8.95 9.45 8.9L15.45 5.9C16.41 5.43 16 4 15 4M15 8C14.84 8 14.69 8.03 14.55 8.1L8.7 11.03C8.2 11.25 8 11.6 8 12V14H7V17C7 17.55 7.44 18 8 18H16C16.55 18 17 17.55 17 17V14H16V13C16 12.44 15.55 12 15 12C14.45 12 14 12.45 14 13V14H10V12.62L15.45 9.9C16.42 9.34 16 8 15 8M9 20V21C9 21.57 9.46 22 10 22H14C14.56 22 15 21.55 15 21V20"
 
 
-{-| The [`lightbulb-fluorescent-tube`](https://pictogrammers.com/library/mdi/icon/lightbulb-fluorescent-tube/) icon.
--}
-lightbulbFluorescentTube : IconShape
-lightbulbFluorescentTube =
-    iconShape "M7.05 2.81L6.5 3.34L5.11 1.92L3.87 3.16L5.28 4.58L4.58 5.28L3.16 3.87L1.92 5.11L3.34 6.5L2.81 7.05L16.95 21.19L17.5 20.66L18.89 22.08L20.13 20.84L18.72 19.43L19.42 18.72L20.84 20.13L22.08 18.9L20.66 17.5L21.19 16.95L7.05 2.81Z"
-
-
 {-| The [`lightbulb-cfl-spiral-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-cfl-spiral-off/) icon.
 -}
 lightbulbCflSpiralOff : IconShape
 lightbulbCflSpiralOff =
     iconShape "M15.45 9.9L13.88 10.68L12.38 9.18L14.55 8.1C14.69 8.03 14.84 8 15 8C16 8 16.42 9.34 15.45 9.9M11.22 8L15.45 5.9C16.41 5.43 16 4 15 4C14.83 4 14.69 4.03 14.55 4.1L9.72 6.5L11.22 8M20.84 22.73L16.09 18H8C7.44 18 7 17.55 7 17V14H8V12C8 11.6 8.2 11.25 8.7 11.03L9 10.88L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M12.11 14L10.5 12.38L10 12.62V14H12.11M9 21C9 21.57 9.46 22 10 22H14C14.56 22 15 21.55 15 21V20H9V21M9 5C9.16 5 9.32 4.95 9.45 4.9L11.45 3.9C12.43 3.36 12 2 11 2C10.84 2 10.69 2.03 10.55 2.1L8.55 3.1C7.56 3.66 8 5 9 5Z"
+
+
+{-| The [`lightbulb-fluorescent-tube`](https://pictogrammers.com/library/mdi/icon/lightbulb-fluorescent-tube/) icon.
+-}
+lightbulbFluorescentTube : IconShape
+lightbulbFluorescentTube =
+    iconShape "M7.05 2.81L6.5 3.34L5.11 1.92L3.87 3.16L5.28 4.58L4.58 5.28L3.16 3.87L1.92 5.11L3.34 6.5L2.81 7.05L16.95 21.19L17.5 20.66L18.89 22.08L20.13 20.84L18.72 19.43L19.42 18.72L20.84 20.13L22.08 18.9L20.66 17.5L21.19 16.95L7.05 2.81Z"
 
 
 {-| The [`lightbulb-fluorescent-tube-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-fluorescent-tube-outline/) icon.
@@ -918,18 +918,18 @@ lightbulbMultipleOff =
     iconShape "M20.84 22.73L16.74 18.63C16.55 18.85 16.29 19 16 19H12C11.42 19 11 18.55 11 18V16C9.37 14.8 8.71 12.82 9.1 11L7.5 9.39C7.17 10.2 6.97 11.08 7 12C6.97 12.68 7.07 13.35 7.28 14H7C6.42 14 6 13.55 6 13V11C5.3 10.5 4.77 9.81 4.43 9.04C4 8.05 3.91 7 4.12 6L1.11 3L2.39 1.73L22.11 21.46L20.84 22.73M13.58 5C12.46 2.47 9.5 1.33 7 2.45C6.68 2.58 6.39 2.75 6.13 2.93L9.67 6.47C10.76 5.63 12.1 5.08 13.58 5M18.06 14.86C19.6 12.66 19.14 9.62 17 8C15.2 6.67 12.84 6.72 11.12 7.92L18.06 14.86M12 21C12 21.55 12.42 22 13 22H15C15.53 22 16 21.55 16 21V20H12V21M7 15V16C7 16.55 7.42 17 8 17H9V16.88C8.43 16.33 8 15.7 7.66 15H7Z"
 
 
-{-| The [`lightbulb-multiple-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-outline/) icon.
--}
-lightbulbMultipleOutline : IconShape
-lightbulbMultipleOutline =
-    iconShape "M12 21C12 21.55 12.45 22 13 22H15C15.55 22 16 21.55 16 21V20H12M14 7C11.24 7 9 9.24 9 12C9 13.57 9.74 15.06 11 16V18C11 18.55 11.45 19 12 19H16C16.55 19 17 18.55 17 18V16C19.21 14.34 19.66 11.21 18 9C17.06 7.74 15.57 7 14 7M15 14.82V17H13V14.82C11.44 14.27 10.62 12.55 11.17 11C11.72 9.43 13.44 8.61 15 9.16C16.56 9.72 17.38 11.43 16.83 13C16.53 13.85 15.85 14.5 15 14.82M7.68 15H7V16C7 16.55 7.45 17 8 17H9V16.88C8.46 16.33 8 15.7 7.68 15M13.6 5C12.5 2.47 9.53 1.33 7 2.45S3.34 6.5 4.45 9.04C4.79 9.81 5.33 10.5 6 11V13C6 13.55 6.45 14 7 14H7.3C7.1 13.35 7 12.68 7 12C7 8.29 9.89 5.21 13.6 5Z"
-
-
 {-| The [`lightbulb-multiple-off-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-off-outline/) icon.
 -}
 lightbulbMultipleOffOutline : IconShape
 lightbulbMultipleOffOutline =
     iconShape "M22.11 21.46L2.39 1.73L1.11 3L4.14 6.03C3.93 7 4 8.05 4.45 9.04C4.79 9.81 5.33 10.5 6 11V13C6 13.55 6.45 14 7 14H7.3C7.1 13.35 7 12.68 7 12C7 11.08 7.19 10.21 7.5 9.41L9.11 11C9.05 11.33 9 11.66 9 12C9 13.57 9.74 15.06 11 16V18C11 18.55 11.45 19 12 19H16C16.31 19 16.57 18.86 16.75 18.64L20.84 22.73L22.11 21.46M11.23 13.12L12.87 14.76C12.1 14.44 11.53 13.85 11.23 13.12M15 17H13V14.89L15 16.89V17M9.69 6.5L6.14 2.94C6.41 2.75 6.7 2.58 7 2.44C9.53 1.33 12.5 2.47 13.6 5C12.12 5.09 10.77 5.63 9.69 6.5M11.12 7.92C11.94 7.35 12.93 7 14 7C15.57 7 17.06 7.74 18 9C19.33 10.78 19.28 13.14 18.07 14.87L16.62 13.42C16.7 13.28 16.77 13.14 16.83 13C17.38 11.43 16.56 9.72 15 9.16C14.16 8.87 13.29 8.97 12.57 9.37L11.12 7.92M7.68 15C8 15.7 8.46 16.33 9 16.88V17H8C7.45 17 7 16.55 7 16V15H7.68M12 20H16V21C16 21.55 15.55 22 15 22H13C12.45 22 12 21.55 12 21V20Z"
+
+
+{-| The [`lightbulb-multiple-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-multiple-outline/) icon.
+-}
+lightbulbMultipleOutline : IconShape
+lightbulbMultipleOutline =
+    iconShape "M12 21C12 21.55 12.45 22 13 22H15C15.55 22 16 21.55 16 21V20H12M14 7C11.24 7 9 9.24 9 12C9 13.57 9.74 15.06 11 16V18C11 18.55 11.45 19 12 19H16C16.55 19 17 18.55 17 18V16C19.21 14.34 19.66 11.21 18 9C17.06 7.74 15.57 7 14 7M15 14.82V17H13V14.82C11.44 14.27 10.62 12.55 11.17 11C11.72 9.43 13.44 8.61 15 9.16C16.56 9.72 17.38 11.43 16.83 13C16.53 13.85 15.85 14.5 15 14.82M7.68 15H7V16C7 16.55 7.45 17 8 17H9V16.88C8.46 16.33 8 15.7 7.68 15M13.6 5C12.5 2.47 9.53 1.33 7 2.45S3.34 6.5 4.45 9.04C4.79 9.81 5.33 10.5 6 11V13C6 13.55 6.45 14 7 14H7.3C7.1 13.35 7 12.68 7 12C7 8.29 9.89 5.21 13.6 5Z"
 
 
 {-| The [`lightbulb-night`](https://pictogrammers.com/library/mdi/icon/lightbulb-night/) icon.
@@ -939,18 +939,18 @@ lightbulbNight =
     iconShape "M6 21C6 21.55 6.45 22 7 22H11C11.55 22 12 21.55 12 21V20H6V21M13 16.32V17C13 17.55 12.55 18 12 18H6C5.45 18 5 17.55 5 17V14.74C3.19 13.47 2 11.38 2 9C2 5.13 5.13 2 9 2C10.65 2 12.16 2.57 13.35 3.5C10.8 4.57 9 7.07 9 10C9 12.79 10.64 15.19 13 16.32M20.92 9.94L19.5 9.03L18.1 10L18.5 8.35L17.17 7.32L18.85 7.21L19.41 5.6L20.04 7.18L21.72 7.22L20.42 8.3L20.92 9.94M19.39 13C17.5 15.27 14.03 15.19 12.22 12.95C10 10.13 11.56 6 15 5.34C15.34 5.29 15.64 5.63 15.5 5.97C15.05 7.25 15.12 8.71 15.85 9.97C16.58 11.24 17.79 12.03 19.12 12.25C19.47 12.3 19.62 12.74 19.39 13Z"
 
 
-{-| The [`lightbulb-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-off/) icon.
--}
-lightbulbOff : IconShape
-lightbulbOff =
-    iconShape "M12,2C9.76,2 7.78,3.05 6.5,4.68L16.31,14.5C17.94,13.21 19,11.24 19,9A7,7 0 0,0 12,2M3.28,4L2,5.27L5.04,8.3C5,8.53 5,8.76 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H14.73L18.73,22L20,20.72L3.28,4M9,20V21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9Z"
-
-
 {-| The [`lightbulb-night-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-night-outline/) icon.
 -}
 lightbulbNightOutline : IconShape
 lightbulbNightOutline =
     iconShape "M6 20H12V21C12 21.55 11.55 22 11 22H7C6.45 22 6 21.55 6 21V20M11 14.89V16H7V13.58C5.23 12.81 4 11.05 4 9C4 6.24 6.24 4 9 4C9.9 4 10.73 4.26 11.46 4.67C12 4.2 12.66 3.81 13.35 3.5C12.16 2.57 10.65 2 9 2C5.13 2 2 5.13 2 9C2 11.38 3.19 13.47 5 14.74V17C5 17.55 5.45 18 6 18H12C12.55 18 13 17.55 13 17V16.32C12.25 15.96 11.57 15.5 11 14.89M20.92 9.94L20.42 8.3L21.72 7.22L20.04 7.18L19.41 5.6L18.85 7.21L17.17 7.32L18.5 8.35L18.1 10L19.5 9.03L20.92 9.94M19.12 12.25C17.79 12.03 16.58 11.24 15.85 9.97C15.12 8.71 15.05 7.25 15.5 5.97C15.64 5.63 15.34 5.29 15 5.34C11.56 6 10 10.13 12.22 12.95C14.03 15.19 17.5 15.27 19.39 13C19.62 12.74 19.47 12.3 19.12 12.25Z"
+
+
+{-| The [`lightbulb-off`](https://pictogrammers.com/library/mdi/icon/lightbulb-off/) icon.
+-}
+lightbulbOff : IconShape
+lightbulbOff =
+    iconShape "M12,2C9.76,2 7.78,3.05 6.5,4.68L16.31,14.5C17.94,13.21 19,11.24 19,9A7,7 0 0,0 12,2M3.28,4L2,5.27L5.04,8.3C5,8.53 5,8.76 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H14.73L18.73,22L20,20.72L3.28,4M9,20V21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9Z"
 
 
 {-| The [`lightbulb-off-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-off-outline/) icon.
@@ -967,18 +967,18 @@ lightbulbOn =
     iconShape "M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63Z"
 
 
-{-| The [`lightbulb-on-20`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-20/) icon.
--}
-lightbulbOn20 : IconShape
-lightbulbOn20 =
-    iconShape "M1 11H4V13H1V11M4.9 3.5L3.5 4.9L5.6 7L7 5.6L4.9 3.5M13 1H11V4H13V1M20 11V13H23V11H20M10 22C10 22.6 10.4 23 11 23H13C13.6 23 14 22.6 14 22V21H10V22M19.1 3.5L17 5.6L18.4 7L20.5 4.9L19.1 3.5M18 12C18 14.2 16.8 16.2 15 17.2V19C15 19.6 14.6 20 14 20H10C9.4 20 9 19.6 9 19V17.2C7.2 16.2 6 14.2 6 12C6 8.7 8.7 6 12 6S18 8.7 18 12M16 12C16 9.79 14.21 8 12 8S8 9.79 8 12 9.79 16 12 16 16 14.21 16 12Z"
-
-
 {-| The [`lightbulb-on-10`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-10/) icon.
 -}
 lightbulbOn10 : IconShape
 lightbulbOn10 =
     iconShape "M1 11H4V13H1V11M19.1 3.5L17 5.6L18.4 7L20.5 4.9L19.1 3.5M11 1H13V4H11V1M4.9 3.5L3.5 4.9L5.6 7L7 5.6L4.9 3.5M10 22C10 22.6 10.4 23 11 23H13C13.6 23 14 22.6 14 22V21H10V22M12 6C8.7 6 6 8.7 6 12C6 14.2 7.2 16.2 9 17.2V19C9 19.6 9.4 20 10 20H14C14.6 20 15 19.6 15 19V17.2C16.8 16.2 18 14.2 18 12C18 8.7 15.3 6 12 6M13 15.9V17H11V15.9C9.3 15.5 8 13.9 8 12C8 9.8 9.8 8 12 8S16 9.8 16 12C16 13.9 14.7 15.4 13 15.9M20 11H23V13H20V11Z"
+
+
+{-| The [`lightbulb-on-20`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-20/) icon.
+-}
+lightbulbOn20 : IconShape
+lightbulbOn20 =
+    iconShape "M1 11H4V13H1V11M4.9 3.5L3.5 4.9L5.6 7L7 5.6L4.9 3.5M13 1H11V4H13V1M20 11V13H23V11H20M10 22C10 22.6 10.4 23 11 23H13C13.6 23 14 22.6 14 22V21H10V22M19.1 3.5L17 5.6L18.4 7L20.5 4.9L19.1 3.5M18 12C18 14.2 16.8 16.2 15 17.2V19C15 19.6 14.6 20 14 20H10C9.4 20 9 19.6 9 19V17.2C7.2 16.2 6 14.2 6 12C6 8.7 8.7 6 12 6S18 8.7 18 12M16 12C16 9.79 14.21 8 12 8S8 9.79 8 12 9.79 16 12 16 16 14.21 16 12Z"
 
 
 {-| The [`lightbulb-on-30`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-30/) icon.
@@ -1030,6 +1030,13 @@ lightbulbOn90 =
     iconShape "M7 5.6L5.6 7L3.5 4.9L4.9 3.5L7 5.6M10 22C10 22.6 10.4 23 11 23H13C13.6 23 14 22.6 14 22V21H10V22M1 13H4V11H1V13M13 1H11V4H13V1M20 11V13H23V11H20M19.1 3.5L17 5.6L18.4 7L20.5 4.9L19.1 3.5M18 12C18 14.2 16.8 16.2 15 17.2V19C15 19.6 14.6 20 14 20H10C9.4 20 9 19.6 9 19V17.2C7.2 16.2 6 14.2 6 12C6 8.7 8.7 6 12 6S18 8.7 18 12M12 8C11 8 10.09 8.38 9.39 9H14.61C13.91 8.38 13 8 12 8Z"
 
 
+{-| The [`lightbulb-on-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-outline/) icon.
+-}
+lightbulbOnOutline : IconShape
+lightbulbOnOutline =
+    iconShape "M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z"
+
+
 {-| The [`lightbulb-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-outline/) icon.
 -}
 lightbulbOutline : IconShape
@@ -1042,13 +1049,6 @@ lightbulbOutline =
 lightbulbQuestion : IconShape
 lightbulbQuestion =
     iconShape "M8 2C4.1 2 1 5.1 1 9C1 11.4 2.2 13.5 4 14.7V17C4 17.6 4.4 18 5 18H11C11.6 18 12 17.6 12 17V14.7C13.8 13.4 15 11.3 15 9C15 5.1 11.9 2 8 2M5 21C5 21.6 5.4 22 6 22H10C10.6 22 11 21.6 11 21V20H5V21M20.5 14.5V16H19V14.5H20.5M18.5 9.5H17V9C17 7.3 18.3 6 20 6S23 7.3 23 9C23 10 22.5 10.9 21.7 11.4L21.4 11.6C20.8 12 20.5 12.6 20.5 13.3V13.5H19V13.3C19 12.1 19.6 11 20.6 10.4L20.9 10.2C21.3 9.9 21.5 9.5 21.5 9C21.5 8.2 20.8 7.5 20 7.5S18.5 8.2 18.5 9V9.5Z"
-
-
-{-| The [`lightbulb-on-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-on-outline/) icon.
--}
-lightbulbOnOutline : IconShape
-lightbulbOnOutline =
-    iconShape "M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z"
 
 
 {-| The [`lightbulb-question-outline`](https://pictogrammers.com/library/mdi/icon/lightbulb-question-outline/) icon.
@@ -1086,18 +1086,18 @@ lightbulbVariantOutline =
     iconShape "M12 2C8.13 2 5 5.13 5 9C5 11.38 6.19 13.47 8 14.74V17C8 17.55 8.45 18 9 18H15C15.55 18 16 17.55 16 17V14.74C17.81 13.47 19 11.38 19 9C19 5.13 15.87 2 12 2M14 13.58V16H13V11.41L14.71 9.71C15.1 9.32 15.1 8.68 14.71 8.29C14.32 7.9 13.68 7.9 13.29 8.29L12 9.59L10.71 8.29C10.32 7.9 9.68 7.9 9.29 8.29C8.9 8.68 8.9 9.32 9.29 9.71L11 11.41V16H10V13.58C8.23 12.81 7 11.05 7 9C7 6.24 9.24 4 12 4S17 6.24 17 9C17 11.05 15.77 12.81 14 13.58M9 20H15V21C15 21.55 14.55 22 14 22H10C9.45 22 9 21.55 9 21V20Z"
 
 
-{-| The [`lighthouse-on`](https://pictogrammers.com/library/mdi/icon/lighthouse-on/) icon.
--}
-lighthouseOn : IconShape
-lighthouseOn =
-    iconShape "M1,10V2L10,5V7L1,10M8,10V8H13V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z"
-
-
 {-| The [`lighthouse`](https://pictogrammers.com/library/mdi/icon/lighthouse/) icon.
 -}
 lighthouse : IconShape
 lighthouse =
     iconShape "M8,10V8H9V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M13,8V4H11V8H13M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z"
+
+
+{-| The [`lighthouse-on`](https://pictogrammers.com/library/mdi/icon/lighthouse-on/) icon.
+-}
+lighthouseOn : IconShape
+lighthouseOn =
+    iconShape "M1,10V2L10,5V7L1,10M8,10V8H13V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z"
 
 
 {-| The [`lightning-bolt`](https://pictogrammers.com/library/mdi/icon/lightning-bolt/) icon.
@@ -1345,6 +1345,13 @@ lockCheckOutline =
     iconShape "M14 15C14 16.11 13.11 17 12 17C10.89 17 10 16.1 10 15C10 13.89 10.89 13 12 13C13.11 13 14 13.9 14 15M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.1 4 20V10C4 8.89 4.89 8 6 8H7V6C7 3.24 9.24 1 12 1S17 3.24 17 6V8H18C19.11 8 20 8.9 20 10V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V10H6V20H13.09M9 8H15V6C15 4.34 13.66 3 12 3S9 4.34 9 6V8M21.34 15.84L17.75 19.43L16.16 17.84L15 19L17.75 22L22.5 17.25L21.34 15.84Z"
 
 
+{-| The [`lock-clock`](https://pictogrammers.com/library/mdi/icon/lock-clock/) icon.
+-}
+lockClock : IconShape
+lockClock =
+    iconShape "M8.5,2C6,2 4,4 4,6.5V7C2.89,7 2,7.89 2,9V18C2,19.11 2.89,20 4,20H8.72C10.18,21.29 12.06,22 14,22A8,8 0 0,0 22,14A8,8 0 0,0 14,6C13.66,6 13.32,6.03 13,6.08C12.76,3.77 10.82,2 8.5,2M8.5,4A2.5,2.5 0 0,1 11,6.5V7H6V6.5A2.5,2.5 0 0,1 8.5,4M14,8A6,6 0 0,1 20,14A6,6 0 0,1 14,20A6,6 0 0,1 8,14A6,6 0 0,1 14,8M13,10V15L16.64,17.19L17.42,15.9L14.5,14.15V10H13Z"
+
+
 {-| The [`lock-minus`](https://pictogrammers.com/library/mdi/icon/lock-minus/) icon.
 -}
 lockMinus : IconShape
@@ -1357,13 +1364,6 @@ lockMinus =
 lockMinusOutline : IconShape
 lockMinusOutline =
     iconShape "M14 15C14 16.11 13.11 17 12 17C10.89 17 10 16.1 10 15C10 13.89 10.89 13 12 13C13.11 13 14 13.9 14 15M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.1 4 20V10C4 8.89 4.89 8 6 8H7V6C7 3.24 9.24 1 12 1S17 3.24 17 6V8H18C19.11 8 20 8.9 20 10V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V10H6V20H13.09M9 8H15V6C15 4.34 13.66 3 12 3S9 4.34 9 6V8M15 18V20H23V18H15Z"
-
-
-{-| The [`lock-clock`](https://pictogrammers.com/library/mdi/icon/lock-clock/) icon.
--}
-lockClock : IconShape
-lockClock =
-    iconShape "M8.5,2C6,2 4,4 4,6.5V7C2.89,7 2,7.89 2,9V18C2,19.11 2.89,20 4,20H8.72C10.18,21.29 12.06,22 14,22A8,8 0 0,0 22,14A8,8 0 0,0 14,6C13.66,6 13.32,6.03 13,6.08C12.76,3.77 10.82,2 8.5,2M8.5,4A2.5,2.5 0 0,1 11,6.5V7H6V6.5A2.5,2.5 0 0,1 8.5,4M14,8A6,6 0 0,1 20,14A6,6 0 0,1 14,20A6,6 0 0,1 8,14A6,6 0 0,1 14,8M13,10V15L16.64,17.19L17.42,15.9L14.5,14.15V10H13Z"
 
 
 {-| The [`lock-off`](https://pictogrammers.com/library/mdi/icon/lock-off/) icon.
@@ -1527,18 +1527,18 @@ lockPercentOpenVariantOutline =
     iconShape "M7.5 11C8.3 11 9 11.7 9 12.5S8.3 14 7.5 14 6 13.3 6 12.5 6.7 11 7.5 11M12.5 19C11.7 19 11 18.3 11 17.5S11.7 16 12.5 16 14 16.7 14 17.5 13.3 19 12.5 19M7.2 19.2L5.8 17.8L12.9 10.7L14.3 12.1L7.2 19.2M18 1C15.2 1 13 3.2 13 6V8H4C2.9 8 2 8.9 2 10V20C2 21.1 2.9 22 4 22H16C17.1 22 18 21.1 18 20V10C18 8.9 17.1 8 16 8H15V6C15 4.3 16.3 3 18 3S21 4.3 21 6V8H23V6C23 3.2 20.8 1 18 1M16 10V20H4V10H16Z"
 
 
-{-| The [`lock-plus`](https://pictogrammers.com/library/mdi/icon/lock-plus/) icon.
--}
-lockPlus : IconShape
-lockPlus =
-    iconShape "M19 13C19.34 13 19.67 13.04 20 13.09V10C20 8.9 19.11 8 18 8H17V6C17 3.24 14.76 1 12 1S7 3.24 7 6V8H6C4.9 8 4 8.89 4 10V20C4 21.11 4.89 22 6 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M9 6C9 4.34 10.34 3 12 3S15 4.34 15 6V8H9V6M12 17C10.9 17 10 16.11 10 15S10.9 13 12 13C13.1 13 14 13.89 14 15C14 16.11 13.11 17 12 17M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z"
-
-
 {-| The [`lock-percent-outline`](https://pictogrammers.com/library/mdi/icon/lock-percent-outline/) icon.
 -}
 lockPercentOutline : IconShape
 lockPercentOutline =
     iconShape "M18 8H17V6C17 3.2 14.8 1 12 1S7 3.2 7 6V8H6C4.9 8 4 8.9 4 10V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V10C20 8.9 19.1 8 18 8M9 6C9 4.3 10.3 3 12 3S15 4.3 15 6V8H9V6M18 20H6V10H18V20M11 12.5C11 13.3 10.3 14 9.5 14S8 13.3 8 12.5 8.7 11 9.5 11 11 11.7 11 12.5M16 17.5C16 18.3 15.3 19 14.5 19S13 18.3 13 17.5 13.7 16 14.5 16 16 16.7 16 17.5M16.2 12.2L9.1 19.3L7.7 17.9L14.8 10.8L16.2 12.2Z"
+
+
+{-| The [`lock-plus`](https://pictogrammers.com/library/mdi/icon/lock-plus/) icon.
+-}
+lockPlus : IconShape
+lockPlus =
+    iconShape "M19 13C19.34 13 19.67 13.04 20 13.09V10C20 8.9 19.11 8 18 8H17V6C17 3.24 14.76 1 12 1S7 3.24 7 6V8H6C4.9 8 4 8.89 4 10V20C4 21.11 4.89 22 6 22H13.81C13.3 21.12 13 20.1 13 19C13 15.69 15.69 13 19 13M9 6C9 4.34 10.34 3 12 3S15 4.34 15 6V8H9V6M12 17C10.9 17 10 16.11 10 15S10.9 13 12 13C13.1 13 14 13.89 14 15C14 16.11 13.11 17 12 17M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z"
 
 
 {-| The [`lock-plus-outline`](https://pictogrammers.com/library/mdi/icon/lock-plus-outline/) icon.
@@ -1569,18 +1569,18 @@ lockRemoveOutline =
     iconShape "M14 15C14 16.11 13.11 17 12 17C10.89 17 10 16.1 10 15C10 13.89 10.89 13 12 13C13.11 13 14 13.9 14 15M13.09 20C13.21 20.72 13.46 21.39 13.81 22H6C4.89 22 4 21.1 4 20V10C4 8.89 4.89 8 6 8H7V6C7 3.24 9.24 1 12 1S17 3.24 17 6V8H18C19.11 8 20 8.9 20 10V13.09C19.67 13.04 19.34 13 19 13C18.66 13 18.33 13.04 18 13.09V10H6V20H13.09M9 8H15V6C15 4.34 13.66 3 12 3S9 4.34 9 6V8M22.54 16.88L21.12 15.47L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88Z"
 
 
-{-| The [`lock-smart`](https://pictogrammers.com/library/mdi/icon/lock-smart/) icon.
--}
-lockSmart : IconShape
-lockSmart =
-    iconShape "M12,2A6,6 0 0,0 6,8V16A6,6 0 0,0 12,22A6,6 0 0,0 18,16V8A6,6 0 0,0 12,2M8,6H10V8H8V6M11,6H13V8H11V6M14,6H16V8H14V6M8,9H10V11H8V9M11,9H13V11H11V9M14,9H16V11H14V9M8,12H10V14H8V12M11,12H13V14H11V12M14,12H16V14H14V12M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16Z"
-
-
 {-| The [`lock-reset`](https://pictogrammers.com/library/mdi/icon/lock-reset/) icon.
 -}
 lockReset : IconShape
 lockReset =
     iconShape "M12.63,2C18.16,2 22.64,6.5 22.64,12C22.64,17.5 18.16,22 12.63,22C9.12,22 6.05,20.18 4.26,17.43L5.84,16.18C7.25,18.47 9.76,20 12.64,20A8,8 0 0,0 20.64,12A8,8 0 0,0 12.64,4C8.56,4 5.2,7.06 4.71,11H7.47L3.73,14.73L0,11H2.69C3.19,5.95 7.45,2 12.63,2M15.59,10.24C16.09,10.25 16.5,10.65 16.5,11.16V15.77C16.5,16.27 16.09,16.69 15.58,16.69H10.05C9.54,16.69 9.13,16.27 9.13,15.77V11.16C9.13,10.65 9.54,10.25 10.04,10.24V9.23C10.04,7.7 11.29,6.46 12.81,6.46C14.34,6.46 15.59,7.7 15.59,9.23V10.24M12.81,7.86C12.06,7.86 11.44,8.47 11.44,9.23V10.24H14.19V9.23C14.19,8.47 13.57,7.86 12.81,7.86Z"
+
+
+{-| The [`lock-smart`](https://pictogrammers.com/library/mdi/icon/lock-smart/) icon.
+-}
+lockSmart : IconShape
+lockSmart =
+    iconShape "M12,2A6,6 0 0,0 6,8V16A6,6 0 0,0 12,22A6,6 0 0,0 18,16V8A6,6 0 0,0 12,2M8,6H10V8H8V6M11,6H13V8H11V6M14,6H16V8H14V6M8,9H10V11H8V9M11,9H13V11H11V9M14,9H16V11H14V9M8,12H10V14H8V12M11,12H13V14H11V12M14,12H16V14H14V12M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16Z"
 
 
 {-| The [`locker`](https://pictogrammers.com/library/mdi/icon/locker/) icon.
@@ -1597,18 +1597,18 @@ lockerMultiple =
     iconShape "M3,2H21A2,2 0 0,1 23,4V20A2,2 0 0,1 21,22H3A2,2 0 0,1 1,20V4A2,2 0 0,1 3,2M13,4V20H21V4H13M3,4V20H11V4H3M5,13H7V17H5V13M5,6H9V7.5H5V6M5,9H9V10.5H5V9M15,13H17V17H15V13M15,6H19V7.5H15V6M15,9H19V10.5H15V9Z"
 
 
-{-| The [`login-variant`](https://pictogrammers.com/library/mdi/icon/login-variant/) icon.
--}
-loginVariant : IconShape
-loginVariant =
-    iconShape "M19,3H5C3.89,3 3,3.89 3,5V9H5V5H19V19H5V15H3V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M10.08,15.58L11.5,17L16.5,12L11.5,7L10.08,8.41L12.67,11H3V13H12.67L10.08,15.58Z"
-
-
 {-| The [`login`](https://pictogrammers.com/library/mdi/icon/login/) icon.
 -}
 login : IconShape
 login =
     iconShape "M11 7L9.6 8.4L12.2 11H2V13H12.2L9.6 15.6L11 17L16 12L11 7M20 19H12V21H20C21.1 21 22 20.1 22 19V5C22 3.9 21.1 3 20 3H12V5H20V19Z"
+
+
+{-| The [`login-variant`](https://pictogrammers.com/library/mdi/icon/login-variant/) icon.
+-}
+loginVariant : IconShape
+loginVariant =
+    iconShape "M19,3H5C3.89,3 3,3.89 3,5V9H5V5H19V19H5V15H3V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M10.08,15.58L11.5,17L16.5,12L11.5,7L10.08,8.41L12.67,11H3V13H12.67L10.08,15.58Z"
 
 
 {-| The [`logout`](https://pictogrammers.com/library/mdi/icon/logout/) icon.
@@ -1653,18 +1653,18 @@ lotionOutline =
     iconShape "M15.5 6.5C15.5 5.66 17 4 17 4S18.5 5.66 18.5 6.5C18.5 7.33 17.83 8 17 8S15.5 7.33 15.5 6.5M19.5 15C20.88 15 22 13.88 22 12.5C22 10.83 19.5 8 19.5 8S17 10.83 17 12.5C17 13.88 18.12 15 19.5 15M16 12V20C16 21.1 15.1 22 14 22H6C4.9 22 4 21.1 4 20V12C4 9.03 6.16 6.57 9 6.09V4H7V2H13C14.13 2 15.15 2.39 16 3L14.56 4.44C14.1 4.17 13.57 4 13 4H11V6.09C13.84 6.57 16 9.03 16 12M14 12C14 9.79 12.21 8 10 8S6 9.79 6 12V20H14V12Z"
 
 
-{-| The [`lotion-plus-outline`](https://pictogrammers.com/library/mdi/icon/lotion-plus-outline/) icon.
--}
-lotionPlusOutline : IconShape
-lotionPlusOutline =
-    iconShape "M15.5 6.5C15.5 5.66 17 4 17 4S18.5 5.66 18.5 6.5C18.5 7.33 17.83 8 17 8S15.5 7.33 15.5 6.5M19.5 15C20.88 15 22 13.88 22 12.5C22 10.83 19.5 8 19.5 8S17 10.83 17 12.5C17 13.88 18.12 15 19.5 15M13 14H11V12H9V14H7V16H9V18H11V16H13V14M16 12V20C16 21.1 15.1 22 14 22H6C4.9 22 4 21.1 4 20V12C4 9.03 6.16 6.57 9 6.09V4H7V2H13C14.13 2 15.15 2.39 16 3L14.56 4.44C14.1 4.17 13.57 4 13 4H11V6.09C13.84 6.57 16 9.03 16 12M14 12C14 9.79 12.21 8 10 8S6 9.79 6 12V20H14V12Z"
-
-
 {-| The [`lotion-plus`](https://pictogrammers.com/library/mdi/icon/lotion-plus/) icon.
 -}
 lotionPlus : IconShape
 lotionPlus =
     iconShape "M15.5 6.5C15.5 5.66 17 4 17 4S18.5 5.66 18.5 6.5C18.5 7.33 17.83 8 17 8S15.5 7.33 15.5 6.5M19.5 15C20.88 15 22 13.88 22 12.5C22 10.83 19.5 8 19.5 8S17 10.83 17 12.5C17 13.88 18.12 15 19.5 15M13 14H11V12H9V14H7V16H9V18H11V16H13V14M16 12V22H4V12C4 9.03 6.16 6.57 9 6.09V4H7V2H13C14.13 2 15.15 2.39 16 3L14.56 4.44C14.1 4.17 13.57 4 13 4H11V6.09C13.84 6.57 16 9.03 16 12Z"
+
+
+{-| The [`lotion-plus-outline`](https://pictogrammers.com/library/mdi/icon/lotion-plus-outline/) icon.
+-}
+lotionPlusOutline : IconShape
+lotionPlusOutline =
+    iconShape "M15.5 6.5C15.5 5.66 17 4 17 4S18.5 5.66 18.5 6.5C18.5 7.33 17.83 8 17 8S15.5 7.33 15.5 6.5M19.5 15C20.88 15 22 13.88 22 12.5C22 10.83 19.5 8 19.5 8S17 10.83 17 12.5C17 13.88 18.12 15 19.5 15M13 14H11V12H9V14H7V16H9V18H11V16H13V14M16 12V20C16 21.1 15.1 22 14 22H6C4.9 22 4 21.1 4 20V12C4 9.03 6.16 6.57 9 6.09V4H7V2H13C14.13 2 15.15 2.39 16 3L14.56 4.44C14.1 4.17 13.57 4 13 4H11V6.09C13.84 6.57 16 9.03 16 12M14 12C14 9.79 12.21 8 10 8S6 9.79 6 12V20H14V12Z"
 
 
 {-| The [`loupe`](https://pictogrammers.com/library/mdi/icon/loupe/) icon.
@@ -1699,11 +1699,11 @@ lookup name =
         "label-multiple-outline" ->
             Just labelMultipleOutline
 
-        "label-off-outline" ->
-            Just labelOffOutline
-
         "label-off" ->
             Just labelOff
+
+        "label-off-outline" ->
+            Just labelOffOutline
 
         "label-outline" ->
             Just labelOutline
@@ -1714,29 +1714,29 @@ lookup name =
         "label-percent-outline" ->
             Just labelPercentOutline
 
-        "label-variant-outline" ->
-            Just labelVariantOutline
-
         "label-variant" ->
             Just labelVariant
 
-        "ladybug" ->
-            Just ladybug
+        "label-variant-outline" ->
+            Just labelVariantOutline
 
         "ladder" ->
             Just ladder
 
-        "lamp" ->
-            Just lamp
+        "ladybug" ->
+            Just ladybug
 
         "lambda" ->
             Just lambda
 
-        "lamps" ->
-            Just lamps
+        "lamp" ->
+            Just lamp
 
         "lamp-outline" ->
             Just lampOutline
+
+        "lamps" ->
+            Just lamps
 
         "lamps-outline" ->
             Just lampsOutline
@@ -1756,11 +1756,11 @@ lookup name =
         "lan-pending" ->
             Just lanPending
 
-        "land-plots" ->
-            Just landPlots
-
         "land-fields" ->
             Just landFields
+
+        "land-plots" ->
+            Just landPlots
 
         "land-plots-circle" ->
             Just landPlotsCircle
@@ -1771,11 +1771,11 @@ lookup name =
         "land-plots-marker" ->
             Just landPlotsMarker
 
-        "land-rows-vertical" ->
-            Just landRowsVertical
-
         "land-rows-horizontal" ->
             Just landRowsHorizontal
+
+        "land-rows-vertical" ->
+            Just landRowsVertical
 
         "landslide" ->
             Just landslide
@@ -1783,23 +1783,23 @@ lookup name =
         "landslide-outline" ->
             Just landslideOutline
 
+        "laptop" ->
+            Just laptop
+
         "laptop-account" ->
             Just laptopAccount
 
         "laptop-off" ->
             Just laptopOff
 
-        "laptop" ->
-            Just laptop
-
         "laser-pointer" ->
             Just laserPointer
 
-        "latitude" ->
-            Just latitude
-
         "lasso" ->
             Just lasso
+
+        "latitude" ->
+            Just latitude
 
         "launch" ->
             Just launch
@@ -1810,17 +1810,17 @@ lookup name =
         "layers" ->
             Just layers
 
-        "layers-minus" ->
-            Just layersMinus
-
         "layers-edit" ->
             Just layersEdit
 
-        "layers-off-outline" ->
-            Just layersOffOutline
+        "layers-minus" ->
+            Just layersMinus
 
         "layers-off" ->
             Just layersOff
+
+        "layers-off-outline" ->
+            Just layersOffOutline
 
         "layers-outline" ->
             Just layersOutline
@@ -1828,20 +1828,23 @@ lookup name =
         "layers-plus" ->
             Just layersPlus
 
+        "layers-remove" ->
+            Just layersRemove
+
         "layers-search" ->
             Just layersSearch
+
+        "layers-search-outline" ->
+            Just layersSearchOutline
 
         "layers-triple" ->
             Just layersTriple
 
-        "layers-remove" ->
-            Just layersRemove
+        "layers-triple-outline" ->
+            Just layersTripleOutline
 
         "lead-pencil" ->
             Just leadPencil
-
-        "layers-triple-outline" ->
-            Just layersTripleOutline
 
         "leaf" ->
             Just leaf
@@ -1849,14 +1852,11 @@ lookup name =
         "leaf-circle" ->
             Just leafCircle
 
-        "leaf-maple" ->
-            Just leafMaple
-
         "leaf-circle-outline" ->
             Just leafCircleOutline
 
-        "layers-search-outline" ->
-            Just layersSearchOutline
+        "leaf-maple" ->
+            Just leafMaple
 
         "leaf-maple-off" ->
             Just leafMapleOff
@@ -1864,17 +1864,17 @@ lookup name =
         "leaf-off" ->
             Just leafOff
 
-        "leak-off" ->
-            Just leakOff
-
         "leak" ->
             Just leak
 
-        "led-off" ->
-            Just ledOff
+        "leak-off" ->
+            Just leakOff
 
         "lectern" ->
             Just lectern
+
+        "led-off" ->
+            Just ledOff
 
         "led-on" ->
             Just ledOn
@@ -1915,11 +1915,11 @@ lookup name =
         "library-outline" ->
             Just libraryOutline
 
-        "license" ->
-            Just license
-
         "library-shelves" ->
             Just libraryShelves
+
+        "license" ->
+            Just license
 
         "lifebuoy" ->
             Just lifebuoy
@@ -1963,11 +1963,11 @@ lookup name =
         "lightbulb-cfl-spiral" ->
             Just lightbulbCflSpiral
 
-        "lightbulb-fluorescent-tube" ->
-            Just lightbulbFluorescentTube
-
         "lightbulb-cfl-spiral-off" ->
             Just lightbulbCflSpiralOff
+
+        "lightbulb-fluorescent-tube" ->
+            Just lightbulbFluorescentTube
 
         "lightbulb-fluorescent-tube-outline" ->
             Just lightbulbFluorescentTubeOutline
@@ -1990,20 +1990,20 @@ lookup name =
         "lightbulb-multiple-off" ->
             Just lightbulbMultipleOff
 
-        "lightbulb-multiple-outline" ->
-            Just lightbulbMultipleOutline
-
         "lightbulb-multiple-off-outline" ->
             Just lightbulbMultipleOffOutline
+
+        "lightbulb-multiple-outline" ->
+            Just lightbulbMultipleOutline
 
         "lightbulb-night" ->
             Just lightbulbNight
 
-        "lightbulb-off" ->
-            Just lightbulbOff
-
         "lightbulb-night-outline" ->
             Just lightbulbNightOutline
+
+        "lightbulb-off" ->
+            Just lightbulbOff
 
         "lightbulb-off-outline" ->
             Just lightbulbOffOutline
@@ -2011,11 +2011,11 @@ lookup name =
         "lightbulb-on" ->
             Just lightbulbOn
 
-        "lightbulb-on-20" ->
-            Just lightbulbOn20
-
         "lightbulb-on-10" ->
             Just lightbulbOn10
+
+        "lightbulb-on-20" ->
+            Just lightbulbOn20
 
         "lightbulb-on-30" ->
             Just lightbulbOn30
@@ -2038,14 +2038,14 @@ lookup name =
         "lightbulb-on-90" ->
             Just lightbulbOn90
 
+        "lightbulb-on-outline" ->
+            Just lightbulbOnOutline
+
         "lightbulb-outline" ->
             Just lightbulbOutline
 
         "lightbulb-question" ->
             Just lightbulbQuestion
-
-        "lightbulb-on-outline" ->
-            Just lightbulbOnOutline
 
         "lightbulb-question-outline" ->
             Just lightbulbQuestionOutline
@@ -2062,11 +2062,11 @@ lookup name =
         "lightbulb-variant-outline" ->
             Just lightbulbVariantOutline
 
-        "lighthouse-on" ->
-            Just lighthouseOn
-
         "lighthouse" ->
             Just lighthouse
+
+        "lighthouse-on" ->
+            Just lighthouseOn
 
         "lightning-bolt" ->
             Just lightningBolt
@@ -2173,14 +2173,14 @@ lookup name =
         "lock-check-outline" ->
             Just lockCheckOutline
 
+        "lock-clock" ->
+            Just lockClock
+
         "lock-minus" ->
             Just lockMinus
 
         "lock-minus-outline" ->
             Just lockMinusOutline
-
-        "lock-clock" ->
-            Just lockClock
 
         "lock-off" ->
             Just lockOff
@@ -2251,11 +2251,11 @@ lookup name =
         "lock-percent-open-variant-outline" ->
             Just lockPercentOpenVariantOutline
 
-        "lock-plus" ->
-            Just lockPlus
-
         "lock-percent-outline" ->
             Just lockPercentOutline
+
+        "lock-plus" ->
+            Just lockPlus
 
         "lock-plus-outline" ->
             Just lockPlusOutline
@@ -2269,11 +2269,11 @@ lookup name =
         "lock-remove-outline" ->
             Just lockRemoveOutline
 
-        "lock-smart" ->
-            Just lockSmart
-
         "lock-reset" ->
             Just lockReset
+
+        "lock-smart" ->
+            Just lockSmart
 
         "locker" ->
             Just locker
@@ -2281,11 +2281,11 @@ lookup name =
         "locker-multiple" ->
             Just lockerMultiple
 
-        "login-variant" ->
-            Just loginVariant
-
         "login" ->
             Just login
+
+        "login-variant" ->
+            Just loginVariant
 
         "logout" ->
             Just logout
@@ -2305,11 +2305,11 @@ lookup name =
         "lotion-outline" ->
             Just lotionOutline
 
-        "lotion-plus-outline" ->
-            Just lotionPlusOutline
-
         "lotion-plus" ->
             Just lotionPlus
+
+        "lotion-plus-outline" ->
+            Just lotionPlusOutline
 
         "loupe" ->
             Just loupe

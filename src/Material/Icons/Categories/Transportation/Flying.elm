@@ -12,27 +12,27 @@ module Material.Icons.Categories.Transportation.Flying exposing
     , airplaneCheck
     , airplaneClock
     , airplaneCog
+    , airplaneEdit
     , airplaneLanding
     , airplaneMarker
-    , airplaneEdit
     , airplaneMinus
-    , airplanePlus
     , airplaneOff
-    , airplaneSearch
+    , airplanePlus
     , airplaneRemove
+    , airplaneSearch
     , airplaneSettings
     , airplaneTakeoff
     , airport
     , bagCarryOn
+    , bagCarryOnCheck
     , bagCarryOnOff
     , bagChecked
     , bagPersonal
-    , bagCarryOnCheck
-    , bagPersonalOffOutline
     , bagPersonalOff
+    , bagPersonalOffOutline
     , bagPersonalOutline
-    , bagSuitcaseOff
     , bagSuitcase
+    , bagSuitcaseOff
     , bagSuitcaseOffOutline
     , bagSuitcaseOutline
     , drone
@@ -61,27 +61,27 @@ module Material.Icons.Categories.Transportation.Flying exposing
 @docs airplaneCheck
 @docs airplaneClock
 @docs airplaneCog
+@docs airplaneEdit
 @docs airplaneLanding
 @docs airplaneMarker
-@docs airplaneEdit
 @docs airplaneMinus
-@docs airplanePlus
 @docs airplaneOff
-@docs airplaneSearch
+@docs airplanePlus
 @docs airplaneRemove
+@docs airplaneSearch
 @docs airplaneSettings
 @docs airplaneTakeoff
 @docs airport
 @docs bagCarryOn
+@docs bagCarryOnCheck
 @docs bagCarryOnOff
 @docs bagChecked
 @docs bagPersonal
-@docs bagCarryOnCheck
-@docs bagPersonalOffOutline
 @docs bagPersonalOff
+@docs bagPersonalOffOutline
 @docs bagPersonalOutline
-@docs bagSuitcaseOff
 @docs bagSuitcase
+@docs bagSuitcaseOff
 @docs bagSuitcaseOffOutline
 @docs bagSuitcaseOutline
 @docs drone
@@ -201,6 +201,16 @@ airplaneCog =
     Material.Icons.Directory.A.airplaneCog
 
 
+{-| The [`airplane-edit`](https://pictogrammers.com/library/mdi/icon/airplane-edit/) icon.
+
+![airplane-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjU1IDExLjYzTDcuNjYgMTUuNUw4IDE4TDYuOTUgMTkuMDZMNS4xOCAxNS44N0wyIDE0LjExTDMuMDYgMTMuMDVMNS41NCAxMy40TDkuNDMgOS41TDIgNS42MkwzLjQxIDQuMjFMMTIuNjEgNi4zM0wxNi41IDIuNDRDMTcuMDggMS44NSAxOC4wMyAxLjg1IDE4LjYyIDIuNDRDMTkuMiAzLjAzIDE5LjIgNCAxOC42MiA0LjU2TDE0LjczIDguNDVMMTYuMDMgMTQuMUwxMy45NCAxNi4xOUwxMS41NSAxMS42M00xMyAxOS45NlYyMkgxNS4wNEwyMS4xNyAxNS44OEwxOS4xMyAxMy44M0wxMyAxOS45Nk0yMi44NSAxMy40N0wyMS41MyAxMi4xNUMyMS4zMyAxMS45NSAyMSAxMS45NSAyMC44MSAxMi4xNUwxOS44MyAxMy4xM0wyMS44NyAxNS4xN0wyMi44NSAxNC4xOUMyMy4wNSAxNCAyMy4wNSAxMy42NyAyMi44NSAxMy40N1oiIC8+PC9zdmc+)
+
+-}
+airplaneEdit : IconShape
+airplaneEdit =
+    Material.Icons.Directory.A.airplaneEdit
+
+
 {-| The [`airplane-landing`](https://pictogrammers.com/library/mdi/icon/airplane-landing/) icon.
 
 ![airplane-landing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNSwxOUgyMS41VjIxSDIuNVYxOU05LjY4LDEzLjI3TDE0LjAzLDE0LjQzTDE5LjM0LDE1Ljg1QzIwLjE0LDE2LjA2IDIwLjk2LDE1LjU5IDIxLjE4LDE0Ljc5QzIxLjM5LDE0IDIwLjkyLDEzLjE3IDIwLjEyLDEyLjk1TDE0LjgxLDExLjUzTDEyLjA1LDIuNUwxMC4xMiwyVjEwLjI4TDUuMTUsOC45NUw0LjIyLDYuNjNMMi43Nyw2LjI0VjExLjQxTDQuMzcsMTEuODRMOS42OCwxMy4yN1oiIC8+PC9zdmc+)
@@ -221,16 +231,6 @@ airplaneMarker =
     Material.Icons.Directory.A.airplaneMarker
 
 
-{-| The [`airplane-edit`](https://pictogrammers.com/library/mdi/icon/airplane-edit/) icon.
-
-![airplane-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjU1IDExLjYzTDcuNjYgMTUuNUw4IDE4TDYuOTUgMTkuMDZMNS4xOCAxNS44N0wyIDE0LjExTDMuMDYgMTMuMDVMNS41NCAxMy40TDkuNDMgOS41TDIgNS42MkwzLjQxIDQuMjFMMTIuNjEgNi4zM0wxNi41IDIuNDRDMTcuMDggMS44NSAxOC4wMyAxLjg1IDE4LjYyIDIuNDRDMTkuMiAzLjAzIDE5LjIgNCAxOC42MiA0LjU2TDE0LjczIDguNDVMMTYuMDMgMTQuMUwxMy45NCAxNi4xOUwxMS41NSAxMS42M00xMyAxOS45NlYyMkgxNS4wNEwyMS4xNyAxNS44OEwxOS4xMyAxMy44M0wxMyAxOS45Nk0yMi44NSAxMy40N0wyMS41MyAxMi4xNUMyMS4zMyAxMS45NSAyMSAxMS45NSAyMC44MSAxMi4xNUwxOS44MyAxMy4xM0wyMS44NyAxNS4xN0wyMi44NSAxNC4xOUMyMy4wNSAxNCAyMy4wNSAxMy42NyAyMi44NSAxMy40N1oiIC8+PC9zdmc+)
-
--}
-airplaneEdit : IconShape
-airplaneEdit =
-    Material.Icons.Directory.A.airplaneEdit
-
-
 {-| The [`airplane-minus`](https://pictogrammers.com/library/mdi/icon/airplane-minus/) icon.
 
 ![airplane-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1Ljk3IDEzLjgzQzE1LjA4IDE0LjM1IDE0LjM0IDE1LjA5IDEzLjgyIDE2TDExLjU1IDExLjYzTDcuNjYgMTUuNUw4IDE4TDYuOTUgMTkuMDZMNS4xOCAxNS44N0wyIDE0LjExTDMuMDYgMTMuMDVMNS41NCAxMy40TDkuNDMgOS41TDIgNS42MkwzLjQxIDQuMjFMMTIuNjEgNi4zM0wxNi41IDIuNDRDMTcuMDggMS44NSAxOC4wMyAxLjg1IDE4LjYyIDIuNDRDMTkuMiAzLjAzIDE5LjIgNCAxOC42MiA0LjU2TDE0LjczIDguNDVMMTUuOTcgMTMuODNNMTUgMThWMjBIMjNWMThIMTVaIiAvPjwvc3ZnPg==)
@@ -239,16 +239,6 @@ airplaneEdit =
 airplaneMinus : IconShape
 airplaneMinus =
     Material.Icons.Directory.A.airplaneMinus
-
-
-{-| The [`airplane-plus`](https://pictogrammers.com/library/mdi/icon/airplane-plus/) icon.
-
-![airplane-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1Ljk3IDEzLjgzQzE1LjA4IDE0LjM1IDE0LjM0IDE1LjA5IDEzLjgyIDE2TDExLjU1IDExLjYzTDcuNjYgMTUuNUw4IDE4TDYuOTUgMTkuMDZMNS4xOCAxNS44N0wyIDE0LjExTDMuMDYgMTMuMDVMNS41NCAxMy40TDkuNDMgOS41TDIgNS42MkwzLjQxIDQuMjFMMTIuNjEgNi4zM0wxNi41IDIuNDRDMTcuMDggMS44NSAxOC4wMyAxLjg1IDE4LjYyIDIuNDRDMTkuMiAzLjAzIDE5LjIgNCAxOC42MiA0LjU2TDE0LjczIDguNDVMMTUuOTcgMTMuODNNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
-
--}
-airplanePlus : IconShape
-airplanePlus =
-    Material.Icons.Directory.A.airplanePlus
 
 
 {-| The [`airplane-off`](https://pictogrammers.com/library/mdi/icon/airplane-off/) icon.
@@ -261,14 +251,14 @@ airplaneOff =
     Material.Icons.Directory.A.airplaneOff
 
 
-{-| The [`airplane-search`](https://pictogrammers.com/library/mdi/icon/airplane-search/) icon.
+{-| The [`airplane-plus`](https://pictogrammers.com/library/mdi/icon/airplane-plus/) icon.
 
-![airplane-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNTUgOS42M0wxMC45IDEyLjIyQzExLjUgMTEuMTcgMTIuNDEgMTAuMzEgMTMuNSA5Ljc0TDEyLjczIDYuNDVMMTYuNjIgMi41NkMxNy4yIDEuOTcgMTcuMiAxIDE2LjYyIC40MzhTMTUuMDgtLjE0OCAxNC41IC40MzhMMTAuNjEgNC4zM0wxLjQxIDIuMjFMMCAzLjYyTDcuNDMgNy41TDMuNTQgMTEuNEwxLjA2IDExLjA1TDAgMTIuMTFMMy4xOCAxMy44N0w0Ljk1IDE3LjA2TDYgMTZMNS42NiAxMy41TDkuNTUgOS42M00xNi41IDExQzE5IDExIDIxIDEzIDIxIDE1LjVDMjEgMTYuMzggMjAuNzUgMTcuMjEgMjAuMzEgMTcuOUwyMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMU0xNi41IDEzQzE1LjEyIDEzIDE0IDE0LjEyIDE0IDE1LjVTMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41IDE3Ljg4IDEzIDE2LjUgMTMiIC8+PC9zdmc+)
+![airplane-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1Ljk3IDEzLjgzQzE1LjA4IDE0LjM1IDE0LjM0IDE1LjA5IDEzLjgyIDE2TDExLjU1IDExLjYzTDcuNjYgMTUuNUw4IDE4TDYuOTUgMTkuMDZMNS4xOCAxNS44N0wyIDE0LjExTDMuMDYgMTMuMDVMNS41NCAxMy40TDkuNDMgOS41TDIgNS42MkwzLjQxIDQuMjFMMTIuNjEgNi4zM0wxNi41IDIuNDRDMTcuMDggMS44NSAxOC4wMyAxLjg1IDE4LjYyIDIuNDRDMTkuMiAzLjAzIDE5LjIgNCAxOC42MiA0LjU2TDE0LjczIDguNDVMMTUuOTcgMTMuODNNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
 
 -}
-airplaneSearch : IconShape
-airplaneSearch =
-    Material.Icons.Directory.A.airplaneSearch
+airplanePlus : IconShape
+airplanePlus =
+    Material.Icons.Directory.A.airplanePlus
 
 
 {-| The [`airplane-remove`](https://pictogrammers.com/library/mdi/icon/airplane-remove/) icon.
@@ -279,6 +269,16 @@ airplaneSearch =
 airplaneRemove : IconShape
 airplaneRemove =
     Material.Icons.Directory.A.airplaneRemove
+
+
+{-| The [`airplane-search`](https://pictogrammers.com/library/mdi/icon/airplane-search/) icon.
+
+![airplane-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkuNTUgOS42M0wxMC45IDEyLjIyQzExLjUgMTEuMTcgMTIuNDEgMTAuMzEgMTMuNSA5Ljc0TDEyLjczIDYuNDVMMTYuNjIgMi41NkMxNy4yIDEuOTcgMTcuMiAxIDE2LjYyIC40MzhTMTUuMDgtLjE0OCAxNC41IC40MzhMMTAuNjEgNC4zM0wxLjQxIDIuMjFMMCAzLjYyTDcuNDMgNy41TDMuNTQgMTEuNEwxLjA2IDExLjA1TDAgMTIuMTFMMy4xOCAxMy44N0w0Ljk1IDE3LjA2TDYgMTZMNS42NiAxMy41TDkuNTUgOS42M00xNi41IDExQzE5IDExIDIxIDEzIDIxIDE1LjVDMjEgMTYuMzggMjAuNzUgMTcuMjEgMjAuMzEgMTcuOUwyMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMU0xNi41IDEzQzE1LjEyIDEzIDE0IDE0LjEyIDE0IDE1LjVTMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41IDE3Ljg4IDEzIDE2LjUgMTMiIC8+PC9zdmc+)
+
+-}
+airplaneSearch : IconShape
+airplaneSearch =
+    Material.Icons.Directory.A.airplaneSearch
 
 
 {-| The [`airplane-settings`](https://pictogrammers.com/library/mdi/icon/airplane-settings/) icon.
@@ -321,6 +321,16 @@ bagCarryOn =
     Material.Icons.Directory.B.bagCarryOn
 
 
+{-| The [`bag-carry-on-check`](https://pictogrammers.com/library/mdi/icon/bag-carry-on-check/) icon.
+
+![bag-carry-on-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjI4LDE2LjY5TDE4LjE0LDEzLjg4TDE4Ljg0LDE0LjU4TDE1LjI4LDE4LjE0TDEzLjE3LDE2TDEzLjg4LDE1LjI4TDE1LjI4LDE2LjY5TTgsMjFBMiwyIDAgMCwxIDYsMTlWOUEyLDIgMCAwLDEgOCw3VjIxTTksN0gxNFY0QTIsMiAwIDAsMSAxMiwySDE2VjEwQTYsNiAwIDAsMSAyMiwxNkE2LDYgMCAwLDEgMTYsMjJDMTQuNzcsMjIgMTMuNjMsMjEuNjMgMTIuNjgsMjFIOVY3TTE2LDEyQTQsNCAwIDAsMCAxMiwxNkE0LDQgMCAwLDAgMTYsMjBBNCw0IDAgMCwwIDIwLDE2QTQsNCAwIDAsMCAxNiwxMloiIC8+PC9zdmc+)
+
+-}
+bagCarryOnCheck : IconShape
+bagCarryOnCheck =
+    Material.Icons.Directory.B.bagCarryOnCheck
+
+
 {-| The [`bag-carry-on-off`](https://pictogrammers.com/library/mdi/icon/bag-carry-on-off/) icon.
 
 ![bag-carry-on-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMSA0LjlMNiA4LjlWMTlDNiAxOS41IDYuMiAyMCA2LjYgMjAuNEM3IDIwLjggNy41IDIxIDggMjFWMTAuOEw5IDExLjhWMjFIMTMuMkMxMy4xIDIwLjYgMTMgMjAuMiAxMyAyMEMxMyAxOC44IDEzLjUgMTggMTQuNiAxNy40TDE1LjQgMTguMkMxNC41IDE4LjUgMTQuMSAxOS4yIDE0LjEgMjAuMUMxNC4xIDIwLjYgMTQuMyAyMS4xIDE0LjcgMjEuNUMxNSAyMS44IDE1LjUgMjIgMTYgMjJDMTYuOSAyMiAxNy42IDIxLjYgMTcuOSAyMC43TDE5LjEgMjEuOUwyMC41IDIwLjVMMy41IDMuNUwyLjEgNC45TTEyIDJDMTIgMi41IDEyLjIgMyAxMi42IDMuNFMxMy41IDQgMTQgNFY3SDkuOEwxNiAxMy4yVjJIMTJaIiAvPjwvc3ZnPg==)
@@ -351,14 +361,14 @@ bagPersonal =
     Material.Icons.Directory.B.bagPersonal
 
 
-{-| The [`bag-carry-on-check`](https://pictogrammers.com/library/mdi/icon/bag-carry-on-check/) icon.
+{-| The [`bag-personal-off`](https://pictogrammers.com/library/mdi/icon/bag-personal-off/) icon.
 
-![bag-carry-on-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjI4LDE2LjY5TDE4LjE0LDEzLjg4TDE4Ljg0LDE0LjU4TDE1LjI4LDE4LjE0TDEzLjE3LDE2TDEzLjg4LDE1LjI4TDE1LjI4LDE2LjY5TTgsMjFBMiwyIDAgMCwxIDYsMTlWOUEyLDIgMCAwLDEgOCw3VjIxTTksN0gxNFY0QTIsMiAwIDAsMSAxMiwySDE2VjEwQTYsNiAwIDAsMSAyMiwxNkE2LDYgMCAwLDEgMTYsMjJDMTQuNzcsMjIgMTMuNjMsMjEuNjMgMTIuNjgsMjFIOVY3TTE2LDEyQTQsNCAwIDAsMCAxMiwxNkE0LDQgMCAwLDAgMTYsMjBBNCw0IDAgMCwwIDIwLDE2QTQsNCAwIDAsMCAxNiwxMloiIC8+PC9zdmc+)
+![bag-personal-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE5LjM1TDIuMzgsMS43M0wxLjExLDNMNC43Nyw2LjY2QzQuMjcsNy4zNCA0LDguMTYgNCw5VjIwQTIsMiAwIDAsMCA2LDIySDE4QzE4LjU2LDIyIDE5LjA4LDIxLjc2IDE5LjQ2LDIxLjM1TDIwLjg0LDIyLjczTDIyLjExLDIxLjQ2TDIwLDE5LjM1TTksMTZWMThIOFYxNkg2VjE1SDEzLjExTDE0LjExLDE2SDlNMjAsOUE0LDQgMCAwLDAgMTYsNVY0QTIsMiAwIDAsMCAxNCwySDEwQTIsMiAwIDAsMCA4LDRWNC44TDIwLDE2LjhWOU0xNCw1SDEwVjRIMTRWNVoiIC8+PC9zdmc+)
 
 -}
-bagCarryOnCheck : IconShape
-bagCarryOnCheck =
-    Material.Icons.Directory.B.bagCarryOnCheck
+bagPersonalOff : IconShape
+bagPersonalOff =
+    Material.Icons.Directory.B.bagPersonalOff
 
 
 {-| The [`bag-personal-off-outline`](https://pictogrammers.com/library/mdi/icon/bag-personal-off-outline/) icon.
@@ -371,16 +381,6 @@ bagPersonalOffOutline =
     Material.Icons.Directory.B.bagPersonalOffOutline
 
 
-{-| The [`bag-personal-off`](https://pictogrammers.com/library/mdi/icon/bag-personal-off/) icon.
-
-![bag-personal-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE5LjM1TDIuMzgsMS43M0wxLjExLDNMNC43Nyw2LjY2QzQuMjcsNy4zNCA0LDguMTYgNCw5VjIwQTIsMiAwIDAsMCA2LDIySDE4QzE4LjU2LDIyIDE5LjA4LDIxLjc2IDE5LjQ2LDIxLjM1TDIwLjg0LDIyLjczTDIyLjExLDIxLjQ2TDIwLDE5LjM1TTksMTZWMThIOFYxNkg2VjE1SDEzLjExTDE0LjExLDE2SDlNMjAsOUE0LDQgMCAwLDAgMTYsNVY0QTIsMiAwIDAsMCAxNCwySDEwQTIsMiAwIDAsMCA4LDRWNC44TDIwLDE2LjhWOU0xNCw1SDEwVjRIMTRWNVoiIC8+PC9zdmc+)
-
--}
-bagPersonalOff : IconShape
-bagPersonalOff =
-    Material.Icons.Directory.B.bagPersonalOff
-
-
 {-| The [`bag-personal-outline`](https://pictogrammers.com/library/mdi/icon/bag-personal-outline/) icon.
 
 ![bag-personal-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDVWNEEyLDIgMCAwLDAgMTQsMkgxMEEyLDIgMCAwLDAgOCw0VjVBNCw0IDAgMCwwIDQsOVYyMEEyLDIgMCAwLDAgNiwyMkgxOEEyLDIgMCAwLDAgMjAsMjBWOUE0LDQgMCAwLDAgMTYsNU0xMCw0SDE0VjVIMTBWNE0xMiw5TDE0LDExTDEyLDEzTDEwLDExTDEyLDlNMTgsMjBINlYxNkg4VjE4SDlWMTZIMThWMjBNMTgsMTVINlY5QTIsMiAwIDAsMSA4LDdIMTZBMiwyIDAgMCwxIDE4LDlWMTVaIiAvPjwvc3ZnPg==)
@@ -391,16 +391,6 @@ bagPersonalOutline =
     Material.Icons.Directory.B.bagPersonalOutline
 
 
-{-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
-
-![bag-suitcase-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgNC43N0wzLjI4IDMuNUwyMSAyMS4yMkwxOS43MyAyMi41TDE4IDIwLjc2QzE3LjcxIDIwLjkzIDE3LjM4IDIxIDE3LjAzIDIxQzE3LjAzIDIxLjU4IDE2LjU2IDIyIDE2IDIyQzE1LjUgMjIgMTUgMjEuNTggMTUgMjFIOUM5IDIxLjU4IDguNSAyMiA4IDIyQzcuNDQgMjIgNi45NyAyMS41OCA2Ljk3IDIxQzUuODkgMjEgNSAyMC4xMyA1IDE5VjcuNzdMMiA0Ljc3TTE3LjAzIDZDMTguMTEgNiAxOSA2Ljg4IDE5IDhWMTYuNjhMMTYgMTMuNjhWOUgxNC41VjEyLjE4TDEyLjc1IDEwLjQzVjlIMTEuMzJMOC4zMSA2SDlWM0M5IDIuNDIgOS40NiAyIDEwIDJIMTRDMTQuNTQgMiAxNSAyLjQyIDE1IDNWNkgxNy4wM004IDE4SDkuNVYxMi4yN0w4IDEwLjc3VjE4TTExLjI1IDE4SDEyLjc1VjE1LjVMMTEuMjUgMTRWMThNMTQuNSAxOEgxNS4yM0wxNC41IDE3LjI3VjE4TTEzLjUgNlYzLjVIMTAuNVY2SDEzLjVaIiAvPjwvc3ZnPg==)
-
--}
-bagSuitcaseOff : IconShape
-bagSuitcaseOff =
-    Material.Icons.Directory.B.bagSuitcaseOff
-
-
 {-| The [`bag-suitcase`](https://pictogrammers.com/library/mdi/icon/bag-suitcase/) icon.
 
 ![bag-suitcase](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LjAzIDZDMTguMTEgNiAxOSA2Ljg4IDE5IDhWMTlDMTkgMjAuMTMgMTguMTEgMjEgMTcuMDMgMjFDMTcuMDMgMjEuNTggMTYuNTYgMjIgMTYgMjJDMTUuNSAyMiAxNSAyMS41OCAxNSAyMUg5QzkgMjEuNTggOC41IDIyIDggMjJDNy40NCAyMiA2Ljk3IDIxLjU4IDYuOTcgMjFDNS44OSAyMSA1IDIwLjEzIDUgMTlWOEM1IDYuODggNS44OSA2IDYuOTcgNkg5VjNDOSAyLjQyIDkuNDYgMiAxMCAySDE0QzE0LjU0IDIgMTUgMi40MiAxNSAzVjZIMTcuMDNNMTMuNSA2VjMuNUgxMC41VjZIMTMuNU04IDlWMThIOS41VjlIOE0xNC41IDlWMThIMTZWOUgxNC41TTExLjI1IDlWMThIMTIuNzVWOUgxMS4yNVoiIC8+PC9zdmc+)
@@ -409,6 +399,16 @@ bagSuitcaseOff =
 bagSuitcase : IconShape
 bagSuitcase =
     Material.Icons.Directory.B.bagSuitcase
+
+
+{-| The [`bag-suitcase-off`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off/) icon.
+
+![bag-suitcase-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgNC43N0wzLjI4IDMuNUwyMSAyMS4yMkwxOS43MyAyMi41TDE4IDIwLjc2QzE3LjcxIDIwLjkzIDE3LjM4IDIxIDE3LjAzIDIxQzE3LjAzIDIxLjU4IDE2LjU2IDIyIDE2IDIyQzE1LjUgMjIgMTUgMjEuNTggMTUgMjFIOUM5IDIxLjU4IDguNSAyMiA4IDIyQzcuNDQgMjIgNi45NyAyMS41OCA2Ljk3IDIxQzUuODkgMjEgNSAyMC4xMyA1IDE5VjcuNzdMMiA0Ljc3TTE3LjAzIDZDMTguMTEgNiAxOSA2Ljg4IDE5IDhWMTYuNjhMMTYgMTMuNjhWOUgxNC41VjEyLjE4TDEyLjc1IDEwLjQzVjlIMTEuMzJMOC4zMSA2SDlWM0M5IDIuNDIgOS40NiAyIDEwIDJIMTRDMTQuNTQgMiAxNSAyLjQyIDE1IDNWNkgxNy4wM004IDE4SDkuNVYxMi4yN0w4IDEwLjc3VjE4TTExLjI1IDE4SDEyLjc1VjE1LjVMMTEuMjUgMTRWMThNMTQuNSAxOEgxNS4yM0wxNC41IDE3LjI3VjE4TTEzLjUgNlYzLjVIMTAuNVY2SDEzLjVaIiAvPjwvc3ZnPg==)
+
+-}
+bagSuitcaseOff : IconShape
+bagSuitcaseOff =
+    Material.Icons.Directory.B.bagSuitcaseOff
 
 
 {-| The [`bag-suitcase-off-outline`](https://pictogrammers.com/library/mdi/icon/bag-suitcase-off-outline/) icon.

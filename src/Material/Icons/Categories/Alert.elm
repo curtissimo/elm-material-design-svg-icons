@@ -17,32 +17,32 @@ module Material.Icons.Categories.Alert exposing
     , alertDecagramOutline
     , alertMinus
     , alertMinusOutline
-    , alertOctagonOutline
     , alertOctagon
-    , alertOctagramOutline
+    , alertOctagonOutline
     , alertOctagram
+    , alertOctagramOutline
     , alertOutline
     , alertPlus
     , alertPlusOutline
-    , alertRemoveOutline
     , alertRemove
+    , alertRemoveOutline
     , alertRhombus
     , alertRhombusOutline
     , archiveAlert
     , archiveAlertOutline
-    , badgeAccountAlertOutline
     , badgeAccountAlert
+    , badgeAccountAlertOutline
     , batteryAlert
-    , batteryAlertVariant
     , batteryAlertBluetooth
+    , batteryAlertVariant
     , batteryAlertVariantOutline
     , batteryChargingWirelessAlert
     , beakerAlert
     , beakerAlertOutline
     , bellAlert
     , bellAlertOutline
-    , bookAlertOutline
     , bookAlert
+    , bookAlertOutline
     , boomGateAlert
     , boomGateAlertOutline
     , busAlert
@@ -67,8 +67,8 @@ module Material.Icons.Categories.Alert exposing
     , contentSaveAlertOutline
     , cookieAlert
     , cookieAlertOutline
-    , databaseAlertOutline
     , databaseAlert
+    , databaseAlertOutline
     , deleteAlert
     , deleteAlertOutline
     , discAlert
@@ -88,16 +88,16 @@ module Material.Icons.Categories.Alert exposing
     , folderAlertOutline
     , fridgeAlert
     , fridgeAlertOutline
-    , fridgeIndustrialAlertOutline
     , fridgeIndustrialAlert
+    , fridgeIndustrialAlertOutline
     , fridgeVariantAlert
     , fridgeVariantAlertOutline
     , fuseAlert
     , garageAlert
     , garageAlertVariant
     , gateAlert
-    , headAlertOutline
     , headAlert
+    , headAlertOutline
     , homeAlert
     , homeAlertOutline
     , kettleAlert
@@ -137,8 +137,8 @@ module Material.Icons.Categories.Alert exposing
     , shieldAlertOutline
     , simAlert
     , simAlertOutline
-    , smokeDetectorAlertOutline
     , smokeDetectorAlert
+    , smokeDetectorAlertOutline
     , smokeDetectorVariantAlert
     , snowflakeAlert
     , stickerAlert
@@ -191,32 +191,32 @@ module Material.Icons.Categories.Alert exposing
 @docs alertDecagramOutline
 @docs alertMinus
 @docs alertMinusOutline
-@docs alertOctagonOutline
 @docs alertOctagon
-@docs alertOctagramOutline
+@docs alertOctagonOutline
 @docs alertOctagram
+@docs alertOctagramOutline
 @docs alertOutline
 @docs alertPlus
 @docs alertPlusOutline
-@docs alertRemoveOutline
 @docs alertRemove
+@docs alertRemoveOutline
 @docs alertRhombus
 @docs alertRhombusOutline
 @docs archiveAlert
 @docs archiveAlertOutline
-@docs badgeAccountAlertOutline
 @docs badgeAccountAlert
+@docs badgeAccountAlertOutline
 @docs batteryAlert
-@docs batteryAlertVariant
 @docs batteryAlertBluetooth
+@docs batteryAlertVariant
 @docs batteryAlertVariantOutline
 @docs batteryChargingWirelessAlert
 @docs beakerAlert
 @docs beakerAlertOutline
 @docs bellAlert
 @docs bellAlertOutline
-@docs bookAlertOutline
 @docs bookAlert
+@docs bookAlertOutline
 @docs boomGateAlert
 @docs boomGateAlertOutline
 @docs busAlert
@@ -241,8 +241,8 @@ module Material.Icons.Categories.Alert exposing
 @docs contentSaveAlertOutline
 @docs cookieAlert
 @docs cookieAlertOutline
-@docs databaseAlertOutline
 @docs databaseAlert
+@docs databaseAlertOutline
 @docs deleteAlert
 @docs deleteAlertOutline
 @docs discAlert
@@ -262,16 +262,16 @@ module Material.Icons.Categories.Alert exposing
 @docs folderAlertOutline
 @docs fridgeAlert
 @docs fridgeAlertOutline
-@docs fridgeIndustrialAlertOutline
 @docs fridgeIndustrialAlert
+@docs fridgeIndustrialAlertOutline
 @docs fridgeVariantAlert
 @docs fridgeVariantAlertOutline
 @docs fuseAlert
 @docs garageAlert
 @docs garageAlertVariant
 @docs gateAlert
-@docs headAlertOutline
 @docs headAlert
+@docs headAlertOutline
 @docs homeAlert
 @docs homeAlertOutline
 @docs kettleAlert
@@ -311,8 +311,8 @@ module Material.Icons.Categories.Alert exposing
 @docs shieldAlertOutline
 @docs simAlert
 @docs simAlertOutline
-@docs smokeDetectorAlertOutline
 @docs smokeDetectorAlert
+@docs smokeDetectorAlertOutline
 @docs smokeDetectorVariantAlert
 @docs snowflakeAlert
 @docs stickerAlert
@@ -510,16 +510,6 @@ alertMinusOutline =
     Material.Icons.Directory.A.alertMinusOutline
 
 
-{-| The [`alert-octagon-outline`](https://pictogrammers.com/library/mdi/icon/alert-octagon-outline/) icon.
-
-![alert-octagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguMjcsM0wzLDguMjdWMTUuNzNMOC4yNywyMUgxNS43M0MxNy41LDE5LjI0IDIxLDE1LjczIDIxLDE1LjczVjguMjdMMTUuNzMsM005LjEsNUgxNC45TDE5LDkuMVYxNC45TDE0LjksMTlIOS4xTDUsMTQuOVY5LjFNMTEsMTVIMTNWMTdIMTFWMTVNMTEsN0gxM1YxM0gxMVY3IiAvPjwvc3ZnPg==)
-
--}
-alertOctagonOutline : IconShape
-alertOctagonOutline =
-    Material.Icons.Directory.A.alertOctagonOutline
-
-
 {-| The [`alert-octagon`](https://pictogrammers.com/library/mdi/icon/alert-octagon/) icon.
 
 ![alert-octagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDEzSDExVjdIMTNNMTEgMTVIMTNWMTdIMTFNMTUuNzMgM0g4LjI3TDMgOC4yN1YxNS43M0w4LjI3IDIxSDE1LjczTDIxIDE1LjczVjguMjdMMTUuNzMgM1oiIC8+PC9zdmc+)
@@ -530,14 +520,14 @@ alertOctagon =
     Material.Icons.Directory.A.alertOctagon
 
 
-{-| The [`alert-octagram-outline`](https://pictogrammers.com/library/mdi/icon/alert-octagram-outline/) icon.
+{-| The [`alert-octagon-outline`](https://pictogrammers.com/library/mdi/icon/alert-octagon-outline/) icon.
 
-![alert-octagram-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMiwxNi4wNkwzLjg4LDEyTDIuMiw3Ljk0TDYuMjYsNi4yNkw3Ljk0LDIuMkwxMiwzLjg4TDE2LjA2LDIuMkwxNy43NCw2LjI2TDIxLjgsNy45NEwyMC4xMiwxMkwyMS44LDE2LjA2TDE3Ljc0LDE3Ljc0TDE2LjA2LDIxLjhMMTIsMjAuMTJMNy45NCwyMS44TDYuMjYsMTcuNzRMMi4yLDE2LjA2TTQuODEsOUw2LjA1LDEyTDQuODEsMTVMNy43OSwxNi4yMUw5LDE5LjE5TDEyLDE3Ljk1TDE1LDE5LjE5TDE2LjIxLDE2LjIxTDE5LjE5LDE1TDE3Ljk1LDEyTDE5LjE5LDlMMTYuMjEsNy43OUwxNSw0LjgxTDEyLDYuMDVMOSw0LjgxTDcuNzksNy43OUw0LjgxLDlNMTEsMTVIMTNWMTdIMTFWMTVNMTEsN0gxM1YxM0gxMVY3IiAvPjwvc3ZnPg==)
+![alert-octagon-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguMjcsM0wzLDguMjdWMTUuNzNMOC4yNywyMUgxNS43M0MxNy41LDE5LjI0IDIxLDE1LjczIDIxLDE1LjczVjguMjdMMTUuNzMsM005LjEsNUgxNC45TDE5LDkuMVYxNC45TDE0LjksMTlIOS4xTDUsMTQuOVY5LjFNMTEsMTVIMTNWMTdIMTFWMTVNMTEsN0gxM1YxM0gxMVY3IiAvPjwvc3ZnPg==)
 
 -}
-alertOctagramOutline : IconShape
-alertOctagramOutline =
-    Material.Icons.Directory.A.alertOctagramOutline
+alertOctagonOutline : IconShape
+alertOctagonOutline =
+    Material.Icons.Directory.A.alertOctagonOutline
 
 
 {-| The [`alert-octagram`](https://pictogrammers.com/library/mdi/icon/alert-octagram/) icon.
@@ -548,6 +538,16 @@ alertOctagramOutline =
 alertOctagram : IconShape
 alertOctagram =
     Material.Icons.Directory.A.alertOctagram
+
+
+{-| The [`alert-octagram-outline`](https://pictogrammers.com/library/mdi/icon/alert-octagram-outline/) icon.
+
+![alert-octagram-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMiwxNi4wNkwzLjg4LDEyTDIuMiw3Ljk0TDYuMjYsNi4yNkw3Ljk0LDIuMkwxMiwzLjg4TDE2LjA2LDIuMkwxNy43NCw2LjI2TDIxLjgsNy45NEwyMC4xMiwxMkwyMS44LDE2LjA2TDE3Ljc0LDE3Ljc0TDE2LjA2LDIxLjhMMTIsMjAuMTJMNy45NCwyMS44TDYuMjYsMTcuNzRMMi4yLDE2LjA2TTQuODEsOUw2LjA1LDEyTDQuODEsMTVMNy43OSwxNi4yMUw5LDE5LjE5TDEyLDE3Ljk1TDE1LDE5LjE5TDE2LjIxLDE2LjIxTDE5LjE5LDE1TDE3Ljk1LDEyTDE5LjE5LDlMMTYuMjEsNy43OUwxNSw0LjgxTDEyLDYuMDVMOSw0LjgxTDcuNzksNy43OUw0LjgxLDlNMTEsMTVIMTNWMTdIMTFWMTVNMTEsN0gxM1YxM0gxMVY3IiAvPjwvc3ZnPg==)
+
+-}
+alertOctagramOutline : IconShape
+alertOctagramOutline =
+    Material.Icons.Directory.A.alertOctagramOutline
 
 
 {-| The [`alert-outline`](https://pictogrammers.com/library/mdi/icon/alert-outline/) icon.
@@ -580,16 +580,6 @@ alertPlusOutline =
     Material.Icons.Directory.A.alertPlusOutline
 
 
-{-| The [`alert-remove-outline`](https://pictogrammers.com/library/mdi/icon/alert-remove-outline/) icon.
-
-![alert-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE1LjVIMTNWMTcuNUgxMVYxNS41TTE0IDE5QzE0IDE4Ljg2IDE0IDE4LjczIDE0IDE4LjZINS40TDEyIDcuM0wxNi4xMSAxNC40NEMxNi42MiAxNCAxNy4yIDEzLjY1IDE3Ljg0IDEzLjQxTDEyIDMuM0wyIDIwLjZIMTQuMjJDMTQuMDggMjAuMDkgMTQgMTkuNTYgMTQgMTlNMTMgMTAuNUgxMVYxNC41SDEzVjEwLjVNMjIuMTIgMTUuNDZMMjAgMTcuNTlMMTcuODggMTUuNDZMMTYuNDcgMTYuODhMMTguNTkgMTlMMTYuNDcgMjEuMTJMMTcuODggMjIuNTRMMjAgMjAuNDFMMjIuMTIgMjIuNTRMMjMuNTQgMjEuMTJMMjEuNDEgMTlMMjMuNTQgMTYuODhMMjIuMTIgMTUuNDZaIiAvPjwvc3ZnPg==)
-
--}
-alertRemoveOutline : IconShape
-alertRemoveOutline =
-    Material.Icons.Directory.A.alertRemoveOutline
-
-
 {-| The [`alert-remove`](https://pictogrammers.com/library/mdi/icon/alert-remove/) icon.
 
 ![alert-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDE5QzE0IDE2LjIxIDE1LjkxIDEzLjg3IDE4LjUgMTMuMkwxMiAyTDEgMjFIMTQuMzVDMTQuMTMgMjAuMzcgMTQgMTkuNyAxNCAxOU0xMyAxOEgxMVYxNkgxM1YxOE0xMyAxNEgxMVYxMEgxM1YxNE0yMy41NCAxNi44OEwyMS40MSAxOUwyMy41NCAyMS4xMkwyMi4xMiAyMi41NEwyMCAyMC40MUwxNy44OCAyMi41NEwxNi40NyAyMS4xMkwxOC41OSAxOUwxNi40NyAxNi44OEwxNy44OCAxNS40N0wyMCAxNy41OUwyMi4xMiAxNS40NkwyMy41NCAxNi44OFoiIC8+PC9zdmc+)
@@ -598,6 +588,16 @@ alertRemoveOutline =
 alertRemove : IconShape
 alertRemove =
     Material.Icons.Directory.A.alertRemove
+
+
+{-| The [`alert-remove-outline`](https://pictogrammers.com/library/mdi/icon/alert-remove-outline/) icon.
+
+![alert-remove-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE1LjVIMTNWMTcuNUgxMVYxNS41TTE0IDE5QzE0IDE4Ljg2IDE0IDE4LjczIDE0IDE4LjZINS40TDEyIDcuM0wxNi4xMSAxNC40NEMxNi42MiAxNCAxNy4yIDEzLjY1IDE3Ljg0IDEzLjQxTDEyIDMuM0wyIDIwLjZIMTQuMjJDMTQuMDggMjAuMDkgMTQgMTkuNTYgMTQgMTlNMTMgMTAuNUgxMVYxNC41SDEzVjEwLjVNMjIuMTIgMTUuNDZMMjAgMTcuNTlMMTcuODggMTUuNDZMMTYuNDcgMTYuODhMMTguNTkgMTlMMTYuNDcgMjEuMTJMMTcuODggMjIuNTRMMjAgMjAuNDFMMjIuMTIgMjIuNTRMMjMuNTQgMjEuMTJMMjEuNDEgMTlMMjMuNTQgMTYuODhMMjIuMTIgMTUuNDZaIiAvPjwvc3ZnPg==)
+
+-}
+alertRemoveOutline : IconShape
+alertRemoveOutline =
+    Material.Icons.Directory.A.alertRemoveOutline
 
 
 {-| The [`alert-rhombus`](https://pictogrammers.com/library/mdi/icon/alert-rhombus/) icon.
@@ -640,16 +640,6 @@ archiveAlertOutline =
     Material.Icons.Directory.A.archiveAlertOutline
 
 
-{-| The [`badge-account-alert-outline`](https://pictogrammers.com/library/mdi/icon/badge-account-alert-outline/) icon.
-
-![badge-account-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNIMTJWNUgxNVYyMUg1VjVIOFYzSDVBMiwyIDAgMCwwIDMsNVYyMUEyLDIgMCAwLDAgNSwyM0gxNUEyLDIgMCAwLDAgMTcsMjFWNUEyLDIgMCAwLDAgMTUsM00xMCw3QTIsMiAwIDAsMSAxMiw5QTIsMiAwIDAsMSAxMCwxMUEyLDIgMCAwLDEgOCw5QTIsMiAwIDAsMSAxMCw3TTE0LDE1SDZWMTRDNiwxMi42NyA4LjY3LDEyIDEwLDEyQzExLjMzLDEyIDE0LDEyLjY3IDE0LDE0VjE1TTE0LDE4SDZWMTdIMTRWMThNMTAsMjBINlYxOUgxMFYyME0xMSw1SDlWMUgxMVY1TTE5LDEzVjdIMjFWMTNIMTlNMTksMTdWMTVIMjFWMTdIMTlaIiAvPjwvc3ZnPg==)
-
--}
-badgeAccountAlertOutline : IconShape
-badgeAccountAlertOutline =
-    Material.Icons.Directory.B.badgeAccountAlertOutline
-
-
 {-| The [`badge-account-alert`](https://pictogrammers.com/library/mdi/icon/badge-account-alert/) icon.
 
 ![badge-account-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNIMTJWNkg4VjNINUEyLDIgMCAwLDAgMyw1VjIxQTIsMiAwIDAsMCA1LDIzSDE1QTIsMiAwIDAsMCAxNywyMVY1QTIsMiAwIDAsMCAxNSwzTTEwLDhBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxMCwxMkEyLDIgMCAwLDEgOCwxMEEyLDIgMCAwLDEgMTAsOE0xNCwxNkg2VjE1QzYsMTMuNjcgOC42NywxMyAxMCwxM0MxMS4zMywxMyAxNCwxMy42NyAxNCwxNVYxNk0xMSw1SDlWMUgxMVY1TTE0LDE5SDZWMThIMTRWMTlNMTAsMjFINlYyMEgxMFYyMU0xOSwxM1Y3SDIxVjEzSDE5TTE5LDE3VjE1SDIxVjE3SDE5WiIgLz48L3N2Zz4=)
@@ -658,6 +648,16 @@ badgeAccountAlertOutline =
 badgeAccountAlert : IconShape
 badgeAccountAlert =
     Material.Icons.Directory.B.badgeAccountAlert
+
+
+{-| The [`badge-account-alert-outline`](https://pictogrammers.com/library/mdi/icon/badge-account-alert-outline/) icon.
+
+![badge-account-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDNIMTJWNUgxNVYyMUg1VjVIOFYzSDVBMiwyIDAgMCwwIDMsNVYyMUEyLDIgMCAwLDAgNSwyM0gxNUEyLDIgMCAwLDAgMTcsMjFWNUEyLDIgMCAwLDAgMTUsM00xMCw3QTIsMiAwIDAsMSAxMiw5QTIsMiAwIDAsMSAxMCwxMUEyLDIgMCAwLDEgOCw5QTIsMiAwIDAsMSAxMCw3TTE0LDE1SDZWMTRDNiwxMi42NyA4LjY3LDEyIDEwLDEyQzExLjMzLDEyIDE0LDEyLjY3IDE0LDE0VjE1TTE0LDE4SDZWMTdIMTRWMThNMTAsMjBINlYxOUgxMFYyME0xMSw1SDlWMUgxMVY1TTE5LDEzVjdIMjFWMTNIMTlNMTksMTdWMTVIMjFWMTdIMTlaIiAvPjwvc3ZnPg==)
+
+-}
+badgeAccountAlertOutline : IconShape
+badgeAccountAlertOutline =
+    Material.Icons.Directory.B.badgeAccountAlertOutline
 
 
 {-| The [`battery-alert`](https://pictogrammers.com/library/mdi/icon/battery-alert/) icon.
@@ -670,16 +670,6 @@ batteryAlert =
     Material.Icons.Directory.B.batteryAlert
 
 
-{-| The [`battery-alert-variant`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant/) icon.
-
-![battery-alert-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjY3IDRIMTNWMkg3VjRINS4zM0M0LjYgNCA0IDQuNiA0IDUuMzNWMjAuNjdDNCAyMS40IDQuNiAyMiA1LjMzIDIySDE0LjY3QzE1LjQgMjIgMTYgMjEuNCAxNiAyMC42N1Y1LjMzQzE2IDQuNiAxNS40IDQgMTQuNjcgNE0yMSAxM0gxOVY3SDIxVjEzTTIxIDE3SDE5VjE1SDIxVjE3WiIgLz48L3N2Zz4=)
-
--}
-batteryAlertVariant : IconShape
-batteryAlertVariant =
-    Material.Icons.Directory.B.batteryAlertVariant
-
-
 {-| The [`battery-alert-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-alert-bluetooth/) icon.
 
 ![battery-alert-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUgMlY0SDMuM0MyLjYgNCAyIDQuNiAyIDUuM1YyMC42QzIgMjEuNCAyLjYgMjIgMy4zIDIySDEyLjZDMTMuMyAyMiAxMy45IDIxLjQgMTMuOSAyMC43VjUuM0MxNCA0LjYgMTMuNCA0IDEyLjcgNEgxMVYySDVNMTkgOFYxMS44TDE2LjcgOS41TDE2IDEwLjJMMTguOCAxM0wxNiAxNS44TDE2LjcgMTYuNUwxOSAxNC4yVjE4SDE5LjVMMjIuNCAxNS4xTDIwLjIgMTNMMjIuMyAxMC45TDE5LjUgOEgxOU03IDhIOVYxNEg3TTIwIDkuOUwyMC45IDEwLjhMMjAgMTEuOFY5LjlNMjAgMTQuMkwyMC45IDE1LjFMMjAgMTYuMVYxNC4yTTcgMTZIOVYxOEg3VjE2WiIgLz48L3N2Zz4=)
@@ -688,6 +678,16 @@ batteryAlertVariant =
 batteryAlertBluetooth : IconShape
 batteryAlertBluetooth =
     Material.Icons.Directory.B.batteryAlertBluetooth
+
+
+{-| The [`battery-alert-variant`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant/) icon.
+
+![battery-alert-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjY3IDRIMTNWMkg3VjRINS4zM0M0LjYgNCA0IDQuNiA0IDUuMzNWMjAuNjdDNCAyMS40IDQuNiAyMiA1LjMzIDIySDE0LjY3QzE1LjQgMjIgMTYgMjEuNCAxNiAyMC42N1Y1LjMzQzE2IDQuNiAxNS40IDQgMTQuNjcgNE0yMSAxM0gxOVY3SDIxVjEzTTIxIDE3SDE5VjE1SDIxVjE3WiIgLz48L3N2Zz4=)
+
+-}
+batteryAlertVariant : IconShape
+batteryAlertVariant =
+    Material.Icons.Directory.B.batteryAlertVariant
 
 
 {-| The [`battery-alert-variant-outline`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant-outline/) icon.
@@ -750,16 +750,6 @@ bellAlertOutline =
     Material.Icons.Directory.B.bellAlertOutline
 
 
-{-| The [`book-alert-outline`](https://pictogrammers.com/library/mdi/icon/book-alert-outline/) icon.
-
-![book-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2IDJINEMyLjkgMiAyIDIuOSAyIDRWMjBDMiAyMS4xMSAyLjkgMjIgNCAyMkgxNkMxNy4xMSAyMiAxOCAyMS4xMSAxOCAyMFY0QzE4IDIuOSAxNy4xMSAyIDE2IDJNMTYgMjBINFY0SDZWMTJMOC41IDkuNzVMMTEgMTJWNEgxNlYyME0yMCAxNUgyMlYxN0gyMFYxNU0yMiA3VjEzSDIwVjdIMjJaIiAvPjwvc3ZnPg==)
-
--}
-bookAlertOutline : IconShape
-bookAlertOutline =
-    Material.Icons.Directory.B.bookAlertOutline
-
-
 {-| The [`book-alert`](https://pictogrammers.com/library/mdi/icon/book-alert/) icon.
 
 ![book-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRWMjBDMTggMjEuMTEgMTcuMTEgMjIgMTYgMjJINEMyLjkgMjIgMiAyMS4xMSAyIDIwVjRDMiAyLjkgMi45IDIgNCAySDVWOUw3LjUgNy41TDEwIDlWMkgxNkMxNy4xIDIgMTggMi44OSAxOCA0TTIwIDE3SDIyVjE1SDIwVjE3TTIwIDdWMTNIMjJWN0gyMFoiIC8+PC9zdmc+)
@@ -768,6 +758,16 @@ bookAlertOutline =
 bookAlert : IconShape
 bookAlert =
     Material.Icons.Directory.B.bookAlert
+
+
+{-| The [`book-alert-outline`](https://pictogrammers.com/library/mdi/icon/book-alert-outline/) icon.
+
+![book-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2IDJINEMyLjkgMiAyIDIuOSAyIDRWMjBDMiAyMS4xMSAyLjkgMjIgNCAyMkgxNkMxNy4xMSAyMiAxOCAyMS4xMSAxOCAyMFY0QzE4IDIuOSAxNy4xMSAyIDE2IDJNMTYgMjBINFY0SDZWMTJMOC41IDkuNzVMMTEgMTJWNEgxNlYyME0yMCAxNUgyMlYxN0gyMFYxNU0yMiA3VjEzSDIwVjdIMjJaIiAvPjwvc3ZnPg==)
+
+-}
+bookAlertOutline : IconShape
+bookAlertOutline =
+    Material.Icons.Directory.B.bookAlertOutline
 
 
 {-| The [`boom-gate-alert`](https://pictogrammers.com/library/mdi/icon/boom-gate-alert/) icon.
@@ -1010,16 +1010,6 @@ cookieAlertOutline =
     Material.Icons.Directory.C.cookieAlertOutline
 
 
-{-| The [`database-alert-outline`](https://pictogrammers.com/library/mdi/icon/database-alert-outline/) icon.
-
-![database-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDNDNS41OCAzIDIgNC43OSAyIDdWMTdDMiAxOS4yMSA1LjU5IDIxIDEwIDIxUzE4IDE5LjIxIDE4IDE3VjdDMTggNC43OSAxNC40MiAzIDEwIDNNMTYgMTdDMTYgMTcuNSAxMy44NyAxOSAxMCAxOVM0IDE3LjUgNCAxN1YxNC43N0M1LjYxIDE1LjU1IDcuNzIgMTYgMTAgMTZTMTQuMzkgMTUuNTUgMTYgMTQuNzdWMTdNMTYgMTIuNDVDMTQuNyAxMy40IDEyLjQyIDE0IDEwIDE0UzUuMyAxMy40IDQgMTIuNDVWOS42NEM1LjQ3IDEwLjQ3IDcuNjEgMTEgMTAgMTFTMTQuNTMgMTAuNDcgMTYgOS42NFYxMi40NU0xMCA5QzYuMTMgOSA0IDcuNSA0IDdTNi4xMyA1IDEwIDUgMTYgNi41IDE2IDcgMTMuODcgOSAxMCA5TTIyIDdWMTNIMjBWN0gyMk0yMCAxNUgyMlYxN0gyMFYxNVoiIC8+PC9zdmc+)
-
--}
-databaseAlertOutline : IconShape
-databaseAlertOutline =
-    Material.Icons.Directory.D.databaseAlertOutline
-
-
 {-| The [`database-alert`](https://pictogrammers.com/library/mdi/icon/database-alert/) icon.
 
 ![database-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDdDMTggOS4yMSAxNC40MiAxMSAxMCAxMVMyIDkuMjEgMiA3IDUuNTggMyAxMCAzIDE4IDQuNzkgMTggN00xMCAxOEM1LjU4IDE4IDIgMTYuMjEgMiAxNFYxN0MyIDE5LjIxIDUuNTggMjEgMTAgMjFTMTggMTkuMjEgMTggMTdWMTRDMTggMTYuMjEgMTQuNDIgMTggMTAgMThNMTAgMTNDNS41OCAxMyAyIDExLjIxIDIgOVYxMkMyIDE0LjIxIDUuNTggMTYgMTAgMTZTMTggMTQuMjEgMTggMTJWOUMxOCAxMS4yMSAxNC40MiAxMyAxMCAxM00yMCAxN0gyMlYxNUgyMFYxN00yMCA3VjEzSDIyVjdIMjBaIiAvPjwvc3ZnPg==)
@@ -1028,6 +1018,16 @@ databaseAlertOutline =
 databaseAlert : IconShape
 databaseAlert =
     Material.Icons.Directory.D.databaseAlert
+
+
+{-| The [`database-alert-outline`](https://pictogrammers.com/library/mdi/icon/database-alert-outline/) icon.
+
+![database-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDNDNS41OCAzIDIgNC43OSAyIDdWMTdDMiAxOS4yMSA1LjU5IDIxIDEwIDIxUzE4IDE5LjIxIDE4IDE3VjdDMTggNC43OSAxNC40MiAzIDEwIDNNMTYgMTdDMTYgMTcuNSAxMy44NyAxOSAxMCAxOVM0IDE3LjUgNCAxN1YxNC43N0M1LjYxIDE1LjU1IDcuNzIgMTYgMTAgMTZTMTQuMzkgMTUuNTUgMTYgMTQuNzdWMTdNMTYgMTIuNDVDMTQuNyAxMy40IDEyLjQyIDE0IDEwIDE0UzUuMyAxMy40IDQgMTIuNDVWOS42NEM1LjQ3IDEwLjQ3IDcuNjEgMTEgMTAgMTFTMTQuNTMgMTAuNDcgMTYgOS42NFYxMi40NU0xMCA5QzYuMTMgOSA0IDcuNSA0IDdTNi4xMyA1IDEwIDUgMTYgNi41IDE2IDcgMTMuODcgOSAxMCA5TTIyIDdWMTNIMjBWN0gyMk0yMCAxNUgyMlYxN0gyMFYxNVoiIC8+PC9zdmc+)
+
+-}
+databaseAlertOutline : IconShape
+databaseAlertOutline =
+    Material.Icons.Directory.D.databaseAlertOutline
 
 
 {-| The [`delete-alert`](https://pictogrammers.com/library/mdi/icon/delete-alert/) icon.
@@ -1220,16 +1220,6 @@ fridgeAlertOutline =
     Material.Icons.Directory.F.fridgeAlertOutline
 
 
-{-| The [`fridge-industrial-alert-outline`](https://pictogrammers.com/library/mdi/icon/fridge-industrial-alert-outline/) icon.
-
-![fridge-industrial-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTggMTVINlYxMEg4VjE1TTE3IDRWMTlDMTcgMjAuMTEgMTYuMTEgMjEgMTUgMjFWMjJIMTNWMjFIN1YyMkg1VjIxQzMuOSAyMSAzIDIwLjExIDMgMTlWNEMzIDIuOSAzLjkgMiA1IDJIMTVDMTYuMTEgMiAxNyAyLjkgMTcgNE0xNSA0SDVWMTlIMTVWNE0xOSAxN0gyMVYxNUgxOVYxN00xOSA3VjEzSDIxVjdIMTlaIiAvPjwvc3ZnPg==)
-
--}
-fridgeIndustrialAlertOutline : IconShape
-fridgeIndustrialAlertOutline =
-    Material.Icons.Directory.F.fridgeIndustrialAlertOutline
-
-
 {-| The [`fridge-industrial-alert`](https://pictogrammers.com/library/mdi/icon/fridge-industrial-alert/) icon.
 
 ![fridge-industrial-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1IDJINUMzLjkgMiAzIDIuOSAzIDRWMTlDMyAyMC4xMSAzLjkgMjEgNSAyMVYyMkg3VjIxSDEzVjIySDE1VjIxQzE2LjExIDIxIDE3IDIwLjExIDE3IDE5VjRDMTcgMi45IDE2LjExIDIgMTUgMk04IDE1SDZWMTBIOFYxNU0yMSA3VjEzSDE5VjdIMjFNMTkgMTVIMjFWMTdIMTlWMTVaIiAvPjwvc3ZnPg==)
@@ -1238,6 +1228,16 @@ fridgeIndustrialAlertOutline =
 fridgeIndustrialAlert : IconShape
 fridgeIndustrialAlert =
     Material.Icons.Directory.F.fridgeIndustrialAlert
+
+
+{-| The [`fridge-industrial-alert-outline`](https://pictogrammers.com/library/mdi/icon/fridge-industrial-alert-outline/) icon.
+
+![fridge-industrial-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTggMTVINlYxMEg4VjE1TTE3IDRWMTlDMTcgMjAuMTEgMTYuMTEgMjEgMTUgMjFWMjJIMTNWMjFIN1YyMkg1VjIxQzMuOSAyMSAzIDIwLjExIDMgMTlWNEMzIDIuOSAzLjkgMiA1IDJIMTVDMTYuMTEgMiAxNyAyLjkgMTcgNE0xNSA0SDVWMTlIMTVWNE0xOSAxN0gyMVYxNUgxOVYxN00xOSA3VjEzSDIxVjdIMTlaIiAvPjwvc3ZnPg==)
+
+-}
+fridgeIndustrialAlertOutline : IconShape
+fridgeIndustrialAlertOutline =
+    Material.Icons.Directory.F.fridgeIndustrialAlertOutline
 
 
 {-| The [`fridge-variant-alert`](https://pictogrammers.com/library/mdi/icon/fridge-variant-alert/) icon.
@@ -1300,16 +1300,6 @@ gateAlert =
     Material.Icons.Directory.G.gateAlert
 
 
-{-| The [`head-alert-outline`](https://pictogrammers.com/library/mdi/icon/head-alert-outline/) icon.
-
-![head-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDNDMTYuOSAzIDIwIDYuMSAyMCAxMEMyMCAxMi44IDE4LjQgMTUuMiAxNiAxNi4zVjIxSDlWMThIOEM2LjkgMTggNiAxNy4xIDYgMTZWMTNINC41QzQuMSAxMyAzLjggMTIuNSA0LjEgMTIuMkw2IDkuN0M2LjIgNS45IDkuMiAzIDEzIDNNMTMgMUM4LjQgMSA0LjYgNC40IDQuMSA4LjlMMi41IDExQzEuOSAxMS44IDEuOSAxMi44IDIuMyAxMy42QzIuNyAxNC4zIDMuMyAxNC44IDQgMTQuOVYxNkM0IDE3LjkgNS4zIDE5LjQgNyAxOS45VjIzSDE4VjE3LjVDMjAuNSAxNS44IDIyIDEzLjEgMjIgMTBDMjIgNSAxOCAxIDEzIDFNMTQgMTVIMTJWMTNIMTRWMTVNMTQgMTFIMTJWNUgxNCIgLz48L3N2Zz4=)
-
--}
-headAlertOutline : IconShape
-headAlertOutline =
-    Material.Icons.Directory.H.headAlertOutline
-
-
 {-| The [`head-alert`](https://pictogrammers.com/library/mdi/icon/head-alert/) icon.
 
 ![head-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDNDOS4yIDMgNi4yIDUuOSA2IDkuN0w0LjEgMTIuMkMzLjkgMTIuNSA0LjEgMTMgNC41IDEzSDZWMTZDNiAxNy4xIDYuOSAxOCA4IDE4SDlWMjFIMTZWMTYuM0MxOC40IDE1LjIgMjAgMTIuOCAyMCAxMEMyMCA2LjEgMTYuOSAzIDEzIDNNMTQgMTVIMTJWMTNIMTRWMTRNMTQgMTFIMTJWNUgxNFYxMVoiIC8+PC9zdmc+)
@@ -1318,6 +1308,16 @@ headAlertOutline =
 headAlert : IconShape
 headAlert =
     Material.Icons.Directory.H.headAlert
+
+
+{-| The [`head-alert-outline`](https://pictogrammers.com/library/mdi/icon/head-alert-outline/) icon.
+
+![head-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDNDMTYuOSAzIDIwIDYuMSAyMCAxMEMyMCAxMi44IDE4LjQgMTUuMiAxNiAxNi4zVjIxSDlWMThIOEM2LjkgMTggNiAxNy4xIDYgMTZWMTNINC41QzQuMSAxMyAzLjggMTIuNSA0LjEgMTIuMkw2IDkuN0M2LjIgNS45IDkuMiAzIDEzIDNNMTMgMUM4LjQgMSA0LjYgNC40IDQuMSA4LjlMMi41IDExQzEuOSAxMS44IDEuOSAxMi44IDIuMyAxMy42QzIuNyAxNC4zIDMuMyAxNC44IDQgMTQuOVYxNkM0IDE3LjkgNS4zIDE5LjQgNyAxOS45VjIzSDE4VjE3LjVDMjAuNSAxNS44IDIyIDEzLjEgMjIgMTBDMjIgNSAxOCAxIDEzIDFNMTQgMTVIMTJWMTNIMTRWMTVNMTQgMTFIMTJWNUgxNCIgLz48L3N2Zz4=)
+
+-}
+headAlertOutline : IconShape
+headAlertOutline =
+    Material.Icons.Directory.H.headAlertOutline
 
 
 {-| The [`home-alert`](https://pictogrammers.com/library/mdi/icon/home-alert/) icon.
@@ -1710,16 +1710,6 @@ simAlertOutline =
     Material.Icons.Directory.S.simAlertOutline
 
 
-{-| The [`smoke-detector-alert-outline`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert-outline/) icon.
-
-![smoke-detector-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDNIM0MxLjkgMyAxIDMuOSAxIDVWMTlDMSAyMC4xIDEuOSAyMSAzIDIxSDE3QzE4LjEgMjEgMTkgMjAuMSAxOSAxOVY1QzE5IDMuOSAxOC4xIDMgMTcgM00xNyAxOUgzVjVIMTdWMTlNMTAgMThDMTMuMyAxOCAxNiAxNS4zIDE2IDEyQzE2IDguNyAxMy4zIDYgMTAgNkM2LjcgNiA0IDguNyA0IDEyQzQgMTUuMyA2LjcgMTggMTAgMThNMTAgOEMxMi4yIDggMTQgOS44IDE0IDEyUzEyLjIgMTYgMTAgMTYgNiAxNC4yIDYgMTIgNy44IDggMTAgOE0yMyA3SDIxVjEzSDIzVjhNMjMgMTVIMjFWMTdIMjNWMTVaIiAvPjwvc3ZnPg==)
-
--}
-smokeDetectorAlertOutline : IconShape
-smokeDetectorAlertOutline =
-    Material.Icons.Directory.S.smokeDetectorAlertOutline
-
-
 {-| The [`smoke-detector-alert`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert/) icon.
 
 ![smoke-detector-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEwIDE4QzEzLjMgMTggMTYgMTUuMyAxNiAxMkMxNiA4LjcgMTMuMyA2IDEwIDZDNi43IDYgNCA4LjcgNCAxMkM0IDE1LjMgNi43IDE4IDEwIDE4TTE3IDNDMTguMSAzIDE5IDMuOSAxOSA1VjE5QzE5IDIwLjEgMTguMSAyMSAxNyAyMUgzQzEuOSAyMSAxIDIwLjEgMSAxOVY1QzEgMy45IDEuOSAzIDMgM0gxN002IDEyQzYgOS44IDcuOCA4IDEwIDhTMTQgOS44IDE0IDEyIDEyLjIgMTYgMTAgMTYgNiAxNC4yIDYgMTJNMjMgN0gyMVYxM0gyM1Y4TTIzIDE1SDIxVjE3SDIzVjE1WiIgLz48L3N2Zz4=)
@@ -1728,6 +1718,16 @@ smokeDetectorAlertOutline =
 smokeDetectorAlert : IconShape
 smokeDetectorAlert =
     Material.Icons.Directory.S.smokeDetectorAlert
+
+
+{-| The [`smoke-detector-alert-outline`](https://pictogrammers.com/library/mdi/icon/smoke-detector-alert-outline/) icon.
+
+![smoke-detector-alert-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDNIM0MxLjkgMyAxIDMuOSAxIDVWMTlDMSAyMC4xIDEuOSAyMSAzIDIxSDE3QzE4LjEgMjEgMTkgMjAuMSAxOSAxOVY1QzE5IDMuOSAxOC4xIDMgMTcgM00xNyAxOUgzVjVIMTdWMTlNMTAgMThDMTMuMyAxOCAxNiAxNS4zIDE2IDEyQzE2IDguNyAxMy4zIDYgMTAgNkM2LjcgNiA0IDguNyA0IDEyQzQgMTUuMyA2LjcgMTggMTAgMThNMTAgOEMxMi4yIDggMTQgOS44IDE0IDEyUzEyLjIgMTYgMTAgMTYgNiAxNC4yIDYgMTIgNy44IDggMTAgOE0yMyA3SDIxVjEzSDIzVjhNMjMgMTVIMjFWMTdIMjNWMTVaIiAvPjwvc3ZnPg==)
+
+-}
+smokeDetectorAlertOutline : IconShape
+smokeDetectorAlertOutline =
+    Material.Icons.Directory.S.smokeDetectorAlertOutline
 
 
 {-| The [`smoke-detector-variant-alert`](https://pictogrammers.com/library/mdi/icon/smoke-detector-variant-alert/) icon.

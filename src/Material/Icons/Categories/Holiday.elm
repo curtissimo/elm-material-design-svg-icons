@@ -5,16 +5,16 @@
 module Material.Icons.Categories.Holiday exposing
     ( balloon
     , bat
-    , bedDouble
     , bed
-    , bedEmpty
+    , bedDouble
     , bedDoubleOutline
+    , bedEmpty
     , bedKing
     , bedKingOutline
     , bedOutline
     , bedQueen
-    , bedSingle
     , bedQueenOutline
+    , bedSingle
     , bedSingleOutline
     , bone
     , boneOff
@@ -39,12 +39,12 @@ module Material.Icons.Categories.Holiday exposing
     , giftOff
     , giftOffOutline
     , giftOpen
-    , giftOutline
     , giftOpenOutline
+    , giftOutline
     , graveStone
     , halloween
-    , hexagramOutline
     , hexagram
+    , hexagramOutline
     , menorah
     , menorahFire
     , ornament
@@ -55,16 +55,16 @@ module Material.Icons.Categories.Holiday exposing
     , pineTreeBox
     , pot
     , potMix
-    , potOutline
     , potMixOutline
+    , potOutline
     , potSteam
     , potSteamOutline
     , pumpkin
     , rabbitVariant
     , rabbitVariantOutline
+    , skull
     , skullCrossbones
     , skullCrossbonesOutline
-    , skull
     , skullOutline
     , snowflake
     , snowflakeVariant
@@ -83,16 +83,16 @@ module Material.Icons.Categories.Holiday exposing
 
 @docs balloon
 @docs bat
-@docs bedDouble
 @docs bed
-@docs bedEmpty
+@docs bedDouble
 @docs bedDoubleOutline
+@docs bedEmpty
 @docs bedKing
 @docs bedKingOutline
 @docs bedOutline
 @docs bedQueen
-@docs bedSingle
 @docs bedQueenOutline
+@docs bedSingle
 @docs bedSingleOutline
 @docs bone
 @docs boneOff
@@ -117,12 +117,12 @@ module Material.Icons.Categories.Holiday exposing
 @docs giftOff
 @docs giftOffOutline
 @docs giftOpen
-@docs giftOutline
 @docs giftOpenOutline
+@docs giftOutline
 @docs graveStone
 @docs halloween
-@docs hexagramOutline
 @docs hexagram
+@docs hexagramOutline
 @docs menorah
 @docs menorahFire
 @docs ornament
@@ -133,16 +133,16 @@ module Material.Icons.Categories.Holiday exposing
 @docs pineTreeBox
 @docs pot
 @docs potMix
-@docs potOutline
 @docs potMixOutline
+@docs potOutline
 @docs potSteam
 @docs potSteamOutline
 @docs pumpkin
 @docs rabbitVariant
 @docs rabbitVariantOutline
+@docs skull
 @docs skullCrossbones
 @docs skullCrossbonesOutline
-@docs skull
 @docs skullOutline
 @docs snowflake
 @docs snowflakeVariant
@@ -194,16 +194,6 @@ bat =
     Material.Icons.Directory.B.bat
 
 
-{-| The [`bed-double`](https://pictogrammers.com/library/mdi/icon/bed-double/) icon.
-
-![bed-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEwVjdBMiAyIDAgMCAwIDE2IDVIOEEyIDIgMCAwIDAgNiA3VjEwQTIgMiAwIDAgMCA0IDEyVjE3SDUuMzNMNiAxOUg3TDcuNjcgMTdIMTYuMzNMMTcgMTlIMThMMTguNjcgMTdIMjBWMTJBMiAyIDAgMCAwIDE4IDEwTTExIDEwSDhWN0gxMU0xNiAxMEgxM1Y3SDE2WiIgLz48L3N2Zz4=)
-
--}
-bedDouble : IconShape
-bedDouble =
-    Material.Icons.Directory.B.bedDouble
-
-
 {-| The [`bed`](https://pictogrammers.com/library/mdi/icon/bed/) icon.
 
 ![bed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDdIMTFWMTRIM1Y1SDFWMjBIM1YxN0gyMVYyMEgyM1YxMUE0LDQgMCAwLDAgMTksN003LDEzQTMsMyAwIDAsMCAxMCwxMEEzLDMgMCAwLDAgNyw3QTMsMyAwIDAsMCA0LDEwQTMsMyAwIDAsMCA3LDEzWiIgLz48L3N2Zz4=)
@@ -214,14 +204,14 @@ bed =
     Material.Icons.Directory.B.bed
 
 
-{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
+{-| The [`bed-double`](https://pictogrammers.com/library/mdi/icon/bed-double/) icon.
 
-![bed-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDdINVYxNEgzVjVIMVYyMEgzVjE3SDIxVjIwSDIzVjExQTQsNCAwIDAsMCAxOSw3IiAvPjwvc3ZnPg==)
+![bed-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEwVjdBMiAyIDAgMCAwIDE2IDVIOEEyIDIgMCAwIDAgNiA3VjEwQTIgMiAwIDAgMCA0IDEyVjE3SDUuMzNMNiAxOUg3TDcuNjcgMTdIMTYuMzNMMTcgMTlIMThMMTguNjcgMTdIMjBWMTJBMiAyIDAgMCAwIDE4IDEwTTExIDEwSDhWN0gxMU0xNiAxMEgxM1Y3SDE2WiIgLz48L3N2Zz4=)
 
 -}
-bedEmpty : IconShape
-bedEmpty =
-    Material.Icons.Directory.B.bedEmpty
+bedDouble : IconShape
+bedDouble =
+    Material.Icons.Directory.B.bedDouble
 
 
 {-| The [`bed-double-outline`](https://pictogrammers.com/library/mdi/icon/bed-double-outline/) icon.
@@ -232,6 +222,16 @@ bedEmpty =
 bedDoubleOutline : IconShape
 bedDoubleOutline =
     Material.Icons.Directory.B.bedDoubleOutline
+
+
+{-| The [`bed-empty`](https://pictogrammers.com/library/mdi/icon/bed-empty/) icon.
+
+![bed-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDdINVYxNEgzVjVIMVYyMEgzVjE3SDIxVjIwSDIzVjExQTQsNCAwIDAsMCAxOSw3IiAvPjwvc3ZnPg==)
+
+-}
+bedEmpty : IconShape
+bedEmpty =
+    Material.Icons.Directory.B.bedEmpty
 
 
 {-| The [`bed-king`](https://pictogrammers.com/library/mdi/icon/bed-king/) icon.
@@ -274,16 +274,6 @@ bedQueen =
     Material.Icons.Directory.B.bedQueen
 
 
-{-| The [`bed-single`](https://pictogrammers.com/library/mdi/icon/bed-single/) icon.
-
-![bed-single](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDEwVjdDMTcgNS45IDE2LjExIDUgMTUgNUg5QzcuOSA1IDcgNS45IDcgN1YxMEM1LjkgMTAgNC44OSAxMC45IDUgMTJWMTdINi4zM0w3IDE5SDhMOC42NyAxN0gxNS4zM0wxNiAxOUgxN0wxNy42NyAxN0gxOVYxMkMxOSAxMC45IDE4LjExIDEwIDE3IDEwTTE1IDEwSDlWN0gxNVoiIC8+PC9zdmc+)
-
--}
-bedSingle : IconShape
-bedSingle =
-    Material.Icons.Directory.B.bedSingle
-
-
 {-| The [`bed-queen-outline`](https://pictogrammers.com/library/mdi/icon/bed-queen-outline/) icon.
 
 ![bed-queen-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEwVjdBMiAyIDAgMCAwIDE3IDVIN0EyIDIgMCAwIDAgNSA3VjEwQTIgMiAwIDAgMCAzIDEyVjE3SDQuMzNMNSAxOUg2TDYuNjcgMTdIMTcuMzNMMTggMTlIMTlMMTkuNjcgMTdIMjFWMTJBMiAyIDAgMCAwIDE5IDEwTTcgN0gxN1YxMEg3TTE5IDE1SDVWMTJIMTlaIiAvPjwvc3ZnPg==)
@@ -292,6 +282,16 @@ bedSingle =
 bedQueenOutline : IconShape
 bedQueenOutline =
     Material.Icons.Directory.B.bedQueenOutline
+
+
+{-| The [`bed-single`](https://pictogrammers.com/library/mdi/icon/bed-single/) icon.
+
+![bed-single](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3IDEwVjdDMTcgNS45IDE2LjExIDUgMTUgNUg5QzcuOSA1IDcgNS45IDcgN1YxMEM1LjkgMTAgNC44OSAxMC45IDUgMTJWMTdINi4zM0w3IDE5SDhMOC42NyAxN0gxNS4zM0wxNiAxOUgxN0wxNy42NyAxN0gxOVYxMkMxOSAxMC45IDE4LjExIDEwIDE3IDEwTTE1IDEwSDlWN0gxNVoiIC8+PC9zdmc+)
+
+-}
+bedSingle : IconShape
+bedSingle =
+    Material.Icons.Directory.B.bedSingle
 
 
 {-| The [`bed-single-outline`](https://pictogrammers.com/library/mdi/icon/bed-single-outline/) icon.
@@ -534,16 +534,6 @@ giftOpen =
     Material.Icons.Directory.G.giftOpen
 
 
-{-| The [`gift-outline`](https://pictogrammers.com/library/mdi/icon/gift-outline/) icon.
-
-![gift-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDEyVjIwQTIsMiAwIDAsMSAyMCwyMkg0QTIsMiAwIDAsMSAyLDIwVjEyQTEsMSAwIDAsMSAxLDExVjhBMiwyIDAgMCwxIDMsNkg2LjE3QzYuMDYsNS42OSA2LDUuMzUgNiw1QTMsMyAwIDAsMSA5LDJDMTAsMiAxMC44OCwyLjUgMTEuNDMsMy4yNFYzLjIzTDEyLDRMMTIuNTcsMy4yM1YzLjI0QzEzLjEyLDIuNSAxNCwyIDE1LDJBMywzIDAgMCwxIDE4LDVDMTgsNS4zNSAxNy45NCw1LjY5IDE3LjgzLDZIMjFBMiwyIDAgMCwxIDIzLDhWMTFBMSwxIDAgMCwxIDIyLDEyTTQsMjBIMTFWMTJINFYyME0yMCwyMFYxMkgxM1YyMEgyME05LDRBMSwxIDAgMCwwIDgsNUExLDEgMCAwLDAgOSw2QTEsMSAwIDAsMCAxMCw1QTEsMSAwIDAsMCA5LDRNMTUsNEExLDEgMCAwLDAgMTQsNUExLDEgMCAwLDAgMTUsNkExLDEgMCAwLDAgMTYsNUExLDEgMCAwLDAgMTUsNE0zLDhWMTBIMTFWOEgzTTEzLDhWMTBIMjFWOEgxM1oiIC8+PC9zdmc+)
-
--}
-giftOutline : IconShape
-giftOutline =
-    Material.Icons.Directory.G.giftOutline
-
-
 {-| The [`gift-open-outline`](https://pictogrammers.com/library/mdi/icon/gift-open-outline/) icon.
 
 ![gift-open-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDEwLjg3TDE5LjI2IDkuMjhDMTkuNSA5LjA3IDE5LjczIDguOCAxOS45IDguNUMyMC43MyA3LjA3IDIwLjI0IDUuMjMgMTguOCA0LjRDMTcuOTQgMy45IDE2LjkzIDMuOSAxNi4wOCA0LjI2TDE2LjA5IDQuMjVMMTUuMjEgNC42NEwxNS4xIDMuNjhMMTUuMDkgMy42OUMxNSAyLjc4IDE0LjQ3IDEuOSAxMy42MSAxLjRDMTIuMTcgLjU3NSAxMC4zNCAxLjA3IDkuNSAyLjVDOS4zMyAyLjggOS4yMiAzLjEzIDkuMTYgMy40NUw2LjQxIDEuODdDNS40NSAxLjMyIDQuMjMgMS42NCAzLjY4IDIuNkwyLjE4IDUuMkMxLjkgNS42OCAyLjA3IDYuMjkgMi41NSA2LjU2TDQuMjggNy41Nkw4LjUgMTBIMlYyMEMyIDIxLjExIDIuOSAyMiA0IDIySDIwQzIxLjExIDIyIDIyIDIxLjExIDIyIDIwVjE0Ljg3TDIyLjczIDEzLjZDMjMuMjggMTIuNjQgMjIuOTYgMTEuNDIgMjIgMTAuODdNMTYuNDQgNi41QzE2LjcxIDYgMTcuMzMgNS44NiAxNy44IDYuMTNDMTguMjggNi40MSAxOC40NSA3IDE4LjE3IDcuNUMxNy44OSA4IDE3LjI4IDguMTQgMTYuOCA3Ljg3QzE2LjMzIDcuNTkgMTYuMTYgNyAxNi40NCA2LjVNMTQuMDcgOC42TDIxIDEyLjZMMjAgMTQuMzNMMTMuMDcgMTAuMzNMMTQuMDcgOC42TTExIDIwSDRWMTJIMTFWMjBNMTEuMzQgOS4zM0w0LjQxIDUuMzNMNS40MSAzLjZMMTIuMzQgNy42TDExLjM0IDkuMzNNMTEuNjEgNC44N0MxMS4xMyA0LjU5IDEwLjk3IDQgMTEuMjQgMy41QzExLjUgMyAxMi4xMyAyLjg2IDEyLjYxIDMuMTNDMTMuMDkgMy40MSAxMy4yNSA0IDEyLjk3IDQuNUMxMi43IDUgMTIuMDkgNS4xNCAxMS42MSA0Ljg3TTEzIDIwVjEyLjZMMjAgMTYuNjRWMjBIMTNaIiAvPjwvc3ZnPg==)
@@ -552,6 +542,16 @@ giftOutline =
 giftOpenOutline : IconShape
 giftOpenOutline =
     Material.Icons.Directory.G.giftOpenOutline
+
+
+{-| The [`gift-outline`](https://pictogrammers.com/library/mdi/icon/gift-outline/) icon.
+
+![gift-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDEyVjIwQTIsMiAwIDAsMSAyMCwyMkg0QTIsMiAwIDAsMSAyLDIwVjEyQTEsMSAwIDAsMSAxLDExVjhBMiwyIDAgMCwxIDMsNkg2LjE3QzYuMDYsNS42OSA2LDUuMzUgNiw1QTMsMyAwIDAsMSA5LDJDMTAsMiAxMC44OCwyLjUgMTEuNDMsMy4yNFYzLjIzTDEyLDRMMTIuNTcsMy4yM1YzLjI0QzEzLjEyLDIuNSAxNCwyIDE1LDJBMywzIDAgMCwxIDE4LDVDMTgsNS4zNSAxNy45NCw1LjY5IDE3LjgzLDZIMjFBMiwyIDAgMCwxIDIzLDhWMTFBMSwxIDAgMCwxIDIyLDEyTTQsMjBIMTFWMTJINFYyME0yMCwyMFYxMkgxM1YyMEgyME05LDRBMSwxIDAgMCwwIDgsNUExLDEgMCAwLDAgOSw2QTEsMSAwIDAsMCAxMCw1QTEsMSAwIDAsMCA5LDRNMTUsNEExLDEgMCAwLDAgMTQsNUExLDEgMCAwLDAgMTUsNkExLDEgMCAwLDAgMTYsNUExLDEgMCAwLDAgMTUsNE0zLDhWMTBIMTFWOEgzTTEzLDhWMTBIMjFWOEgxM1oiIC8+PC9zdmc+)
+
+-}
+giftOutline : IconShape
+giftOutline =
+    Material.Icons.Directory.G.giftOutline
 
 
 {-| The [`grave-stone`](https://pictogrammers.com/library/mdi/icon/grave-stone/) icon.
@@ -574,16 +574,6 @@ halloween =
     Material.Icons.Directory.H.halloween
 
 
-{-| The [`hexagram-outline`](https://pictogrammers.com/library/mdi/icon/hexagram-outline/) icon.
-
-![hexagram-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDdMMTMuMyw5LjhMMTYuNSw5LjRMMTQuNSwxMkwxNi40LDE0LjVMMTMuMiwxNC4xTDEyLDE3TDEwLjcsMTQuMkw3LjUsMTQuNkw5LjUsMTJMNy42LDkuNUwxMC44LDkuOUwxMiw3TTEyLDJMOS41LDcuN0wzLjMsN0w3LDEyTDMuNCwxN0w5LjYsMTYuM0wxMiwyMkwxNC41LDE2LjNMMjAuNywxNi45TDE3LDEyTDIwLjYsN0wxNC40LDcuN0wxMiwyWiIgLz48L3N2Zz4=)
-
--}
-hexagramOutline : IconShape
-hexagramOutline =
-    Material.Icons.Directory.H.hexagramOutline
-
-
 {-| The [`hexagram`](https://pictogrammers.com/library/mdi/icon/hexagram/) icon.
 
 ![hexagram](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjUsNy42NkwyMC42NCw2Ljk3TDE3LDEyTDIwLjY4LDE2Ljk3TDE0LjUsMTYuMzJMMTIuMDMsMjJMOS41LDE2LjM0TDMuMzYsMTcuMDNMNywxMkwzLjMyLDcuMDNMOS41LDcuNjhMMTEuOTcsMkwxNC41LDcuNjZaIiAvPjwvc3ZnPg==)
@@ -592,6 +582,16 @@ hexagramOutline =
 hexagram : IconShape
 hexagram =
     Material.Icons.Directory.H.hexagram
+
+
+{-| The [`hexagram-outline`](https://pictogrammers.com/library/mdi/icon/hexagram-outline/) icon.
+
+![hexagram-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDdMMTMuMyw5LjhMMTYuNSw5LjRMMTQuNSwxMkwxNi40LDE0LjVMMTMuMiwxNC4xTDEyLDE3TDEwLjcsMTQuMkw3LjUsMTQuNkw5LjUsMTJMNy42LDkuNUwxMC44LDkuOUwxMiw3TTEyLDJMOS41LDcuN0wzLjMsN0w3LDEyTDMuNCwxN0w5LjYsMTYuM0wxMiwyMkwxNC41LDE2LjNMMjAuNywxNi45TDE3LDEyTDIwLjYsN0wxNC40LDcuN0wxMiwyWiIgLz48L3N2Zz4=)
+
+-}
+hexagramOutline : IconShape
+hexagramOutline =
+    Material.Icons.Directory.H.hexagramOutline
 
 
 {-| The [`menorah`](https://pictogrammers.com/library/mdi/icon/menorah/) icon.
@@ -694,16 +694,6 @@ potMix =
     Material.Icons.Directory.P.potMix
 
 
-{-| The [`pot-outline`](https://pictogrammers.com/library/mdi/icon/pot-outline/) icon.
-
-![pot-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMTBWMTJINVYxOUM1IDIwLjEgNS45IDIxIDcgMjFIMTdDMTguMSAyMSAxOSAyMC4xIDE5IDE5VjEySDIxVjEwSDNNNyAxMkgxN1YxOUg3VjEyWiIgLz48L3N2Zz4=)
-
--}
-potOutline : IconShape
-potOutline =
-    Material.Icons.Directory.P.potOutline
-
-
 {-| The [`pot-mix-outline`](https://pictogrammers.com/library/mdi/icon/pot-mix-outline/) icon.
 
 ![pot-mix-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjYgOUwxOCAzLjFMMTkuNyA0LjFMMTYuOSA5SDE0LjZNMTYuMyAxMEgyMVYxMkgxOVYxOUMxOSAyMC4xIDE4LjEgMjEgMTcgMjFIN0M1LjkgMjEgNSAyMC4xIDUgMTlWMTJIM1YxMEgxNi4zTTE3IDEySDdWMTlIMTdWMTJaIiAvPjwvc3ZnPg==)
@@ -712,6 +702,16 @@ potOutline =
 potMixOutline : IconShape
 potMixOutline =
     Material.Icons.Directory.P.potMixOutline
+
+
+{-| The [`pot-outline`](https://pictogrammers.com/library/mdi/icon/pot-outline/) icon.
+
+![pot-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMTBWMTJINVYxOUM1IDIwLjEgNS45IDIxIDcgMjFIMTdDMTguMSAyMSAxOSAyMC4xIDE5IDE5VjEySDIxVjEwSDNNNyAxMkgxN1YxOUg3VjEyWiIgLz48L3N2Zz4=)
+
+-}
+potOutline : IconShape
+potOutline =
+    Material.Icons.Directory.P.potOutline
 
 
 {-| The [`pot-steam`](https://pictogrammers.com/library/mdi/icon/pot-steam/) icon.
@@ -764,6 +764,16 @@ rabbitVariantOutline =
     Material.Icons.Directory.R.rabbitVariantOutline
 
 
+{-| The [`skull`](https://pictogrammers.com/library/mdi/icon/skull/) icon.
+
+![skull](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBOSw5IDAgMCwwIDMsMTFDMywxNC4wMyA0LjUzLDE2LjgyIDcsMTguNDdWMjJIOVYxOUgxMVYyMkgxM1YxOUgxNVYyMkgxN1YxOC40NkMxOS40NywxNi44MSAyMSwxNCAyMSwxMUE5LDkgMCAwLDAgMTIsMk04LDExQTIsMiAwIDAsMSAxMCwxM0EyLDIgMCAwLDEgOCwxNUEyLDIgMCAwLDEgNiwxM0EyLDIgMCAwLDEgOCwxMU0xNiwxMUEyLDIgMCAwLDEgMTgsMTNBMiwyIDAgMCwxIDE2LDE1QTIsMiAwIDAsMSAxNCwxM0EyLDIgMCAwLDEgMTYsMTFNMTIsMTRMMTMuNSwxN0gxMC41TDEyLDE0WiIgLz48L3N2Zz4=)
+
+-}
+skull : IconShape
+skull =
+    Material.Icons.Directory.S.skull
+
+
 {-| The [`skull-crossbones`](https://pictogrammers.com/library/mdi/icon/skull-crossbones/) icon.
 
 ![skull-crossbones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjgsMTguNUwyMS44LDIwLjFMMjEuNCwyMkwxMiwxOS41TDIuNiwyMkwyLjEsMjAuMUw4LjEsMTguNUwyLDE2LjlMMi41LDE1TDExLjksMTcuNUwyMS4zLDE1TDIxLjgsMTYuOUwxNS44LDE4LjVNMTgsOEMxOCw5LjggMTcuMiwxMS4zIDE2LDEyLjRWMTVIMTRWMTMuN0wxNCwxM0gxM1YxNUgxMVYxM0gxMFYxMy43TDEwLDE1SDhWMTIuNEM2LjgsMTEuMyA2LDkuOCA2LDhBNiw2IDAgMCwxIDEyLDJBNiw2IDAgMCwxIDE4LDhNMTEsNy41QzExLDYuNyAxMC4zLDYgOS41LDZDOC43LDYgOCw2LjcgOCw3LjVDOCw4LjMgOC43LDkgOS41LDlDMTAuMyw5IDExLDguMyAxMSw3LjVNMTMsMTFMMTIsOUwxMSwxMUgxM00xNiw3LjVDMTYsNi43IDE1LjMsNiAxNC41LDZDMTMuNyw2IDEzLDYuNyAxMyw3LjVDMTMsOC4zIDEzLjcsOSAxNC41LDlDMTUuMyw5IDE2LDguMyAxNiw3LjVaIiAvPjwvc3ZnPg==)
@@ -782,16 +792,6 @@ skullCrossbones =
 skullCrossbonesOutline : IconShape
 skullCrossbonesOutline =
     Material.Icons.Directory.S.skullCrossbonesOutline
-
-
-{-| The [`skull`](https://pictogrammers.com/library/mdi/icon/skull/) icon.
-
-![skull](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBOSw5IDAgMCwwIDMsMTFDMywxNC4wMyA0LjUzLDE2LjgyIDcsMTguNDdWMjJIOVYxOUgxMVYyMkgxM1YxOUgxNVYyMkgxN1YxOC40NkMxOS40NywxNi44MSAyMSwxNCAyMSwxMUE5LDkgMCAwLDAgMTIsMk04LDExQTIsMiAwIDAsMSAxMCwxM0EyLDIgMCAwLDEgOCwxNUEyLDIgMCAwLDEgNiwxM0EyLDIgMCAwLDEgOCwxMU0xNiwxMUEyLDIgMCAwLDEgMTgsMTNBMiwyIDAgMCwxIDE2LDE1QTIsMiAwIDAsMSAxNCwxM0EyLDIgMCAwLDEgMTYsMTFNMTIsMTRMMTMuNSwxN0gxMC41TDEyLDE0WiIgLz48L3N2Zz4=)
-
--}
-skull : IconShape
-skull =
-    Material.Icons.Directory.S.skull
 
 
 {-| The [`skull-outline`](https://pictogrammers.com/library/mdi/icon/skull-outline/) icon.

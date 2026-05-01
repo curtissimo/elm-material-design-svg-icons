@@ -6,87 +6,87 @@ module Material.Icons.Categories.Battery exposing
     ( battery
     , battery10
     , battery10Bluetooth
+    , battery20
     , battery20Bluetooth
     , battery30
     , battery30Bluetooth
-    , battery20
     , battery40
     , battery40Bluetooth
     , battery50
-    , battery60
     , battery50Bluetooth
+    , battery60
     , battery60Bluetooth
     , battery70
+    , battery70Bluetooth
     , battery80
     , battery80Bluetooth
-    , batteryAlert
     , battery90
-    , battery70Bluetooth
     , battery90Bluetooth
-    , batteryAlertVariant
+    , batteryAlert
     , batteryAlertBluetooth
+    , batteryAlertVariant
     , batteryAlertVariantOutline
-    , batteryArrowDownOutline
     , batteryArrowDown
+    , batteryArrowDownOutline
     , batteryArrowUp
     , batteryArrowUpOutline
     , batteryBluetooth
     , batteryBluetoothVariant
     , batteryCharging
-    , batteryCharging100
     , batteryCharging10
+    , batteryCharging100
+    , batteryCharging20
     , batteryCharging30
     , batteryCharging40
-    , batteryCharging20
     , batteryCharging50
     , batteryCharging60
-    , batteryCharging80
-    , batteryChargingHigh
     , batteryCharging70
+    , batteryCharging80
     , batteryCharging90
+    , batteryChargingHigh
     , batteryChargingLow
     , batteryChargingMedium
-    , batteryChargingWireless10
     , batteryChargingOutline
-    , batteryChargingWireless20
     , batteryChargingWireless
+    , batteryChargingWireless10
+    , batteryChargingWireless20
+    , batteryChargingWireless30
     , batteryChargingWireless40
     , batteryChargingWireless50
-    , batteryChargingWireless30
     , batteryChargingWireless60
     , batteryChargingWireless70
     , batteryChargingWireless80
     , batteryChargingWireless90
     , batteryChargingWirelessAlert
     , batteryChargingWirelessOutline
-    , batteryClock
     , batteryCheck
     , batteryCheckOutline
+    , batteryClock
     , batteryClockOutline
     , batteryHeart
     , batteryHeartOutline
     , batteryHeartVariant
     , batteryHigh
-    , batteryLow
-    , batteryLockOpen
     , batteryLock
+    , batteryLockOpen
+    , batteryLow
     , batteryMedium
     , batteryMinus
-    , batteryMinusVariant
     , batteryMinusOutline
+    , batteryMinusVariant
     , batteryNegative
     , batteryOff
-    , batteryOutline
     , batteryOffOutline
+    , batteryOutline
+    , batteryPlus
     , batteryPlusOutline
     , batteryPlusVariant
     , batteryPositive
-    , batteryPlus
     , batteryRemove
-    , batterySync
-    , batteryUnknown
     , batteryRemoveOutline
+    , batterySync
     , batterySyncOutline
+    , batteryUnknown
     , batteryUnknownBluetooth
     , carBattery
     , currentDc
@@ -103,87 +103,87 @@ module Material.Icons.Categories.Battery exposing
 @docs battery
 @docs battery10
 @docs battery10Bluetooth
+@docs battery20
 @docs battery20Bluetooth
 @docs battery30
 @docs battery30Bluetooth
-@docs battery20
 @docs battery40
 @docs battery40Bluetooth
 @docs battery50
-@docs battery60
 @docs battery50Bluetooth
+@docs battery60
 @docs battery60Bluetooth
 @docs battery70
+@docs battery70Bluetooth
 @docs battery80
 @docs battery80Bluetooth
-@docs batteryAlert
 @docs battery90
-@docs battery70Bluetooth
 @docs battery90Bluetooth
-@docs batteryAlertVariant
+@docs batteryAlert
 @docs batteryAlertBluetooth
+@docs batteryAlertVariant
 @docs batteryAlertVariantOutline
-@docs batteryArrowDownOutline
 @docs batteryArrowDown
+@docs batteryArrowDownOutline
 @docs batteryArrowUp
 @docs batteryArrowUpOutline
 @docs batteryBluetooth
 @docs batteryBluetoothVariant
 @docs batteryCharging
-@docs batteryCharging100
 @docs batteryCharging10
+@docs batteryCharging100
+@docs batteryCharging20
 @docs batteryCharging30
 @docs batteryCharging40
-@docs batteryCharging20
 @docs batteryCharging50
 @docs batteryCharging60
-@docs batteryCharging80
-@docs batteryChargingHigh
 @docs batteryCharging70
+@docs batteryCharging80
 @docs batteryCharging90
+@docs batteryChargingHigh
 @docs batteryChargingLow
 @docs batteryChargingMedium
-@docs batteryChargingWireless10
 @docs batteryChargingOutline
-@docs batteryChargingWireless20
 @docs batteryChargingWireless
+@docs batteryChargingWireless10
+@docs batteryChargingWireless20
+@docs batteryChargingWireless30
 @docs batteryChargingWireless40
 @docs batteryChargingWireless50
-@docs batteryChargingWireless30
 @docs batteryChargingWireless60
 @docs batteryChargingWireless70
 @docs batteryChargingWireless80
 @docs batteryChargingWireless90
 @docs batteryChargingWirelessAlert
 @docs batteryChargingWirelessOutline
-@docs batteryClock
 @docs batteryCheck
 @docs batteryCheckOutline
+@docs batteryClock
 @docs batteryClockOutline
 @docs batteryHeart
 @docs batteryHeartOutline
 @docs batteryHeartVariant
 @docs batteryHigh
-@docs batteryLow
-@docs batteryLockOpen
 @docs batteryLock
+@docs batteryLockOpen
+@docs batteryLow
 @docs batteryMedium
 @docs batteryMinus
-@docs batteryMinusVariant
 @docs batteryMinusOutline
+@docs batteryMinusVariant
 @docs batteryNegative
 @docs batteryOff
-@docs batteryOutline
 @docs batteryOffOutline
+@docs batteryOutline
+@docs batteryPlus
 @docs batteryPlusOutline
 @docs batteryPlusVariant
 @docs batteryPositive
-@docs batteryPlus
 @docs batteryRemove
-@docs batterySync
-@docs batteryUnknown
 @docs batteryRemoveOutline
+@docs batterySync
 @docs batterySyncOutline
+@docs batteryUnknown
 @docs batteryUnknownBluetooth
 @docs carBattery
 @docs currentDc
@@ -235,6 +235,16 @@ battery10Bluetooth =
     Material.Icons.Directory.B.battery10Bluetooth
 
 
+{-| The [`battery-20`](https://pictogrammers.com/library/mdi/icon/battery-20/) icon.
+
+![battery-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE3SDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
+
+-}
+battery20 : IconShape
+battery20 =
+    Material.Icons.Directory.B.battery20
+
+
 {-| The [`battery-20-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-20-bluetooth/) icon.
 
 ![battery-20-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMlY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRIMTFWMkg1TTQsNkgxMlYxN0g0VjZNMTksOFYxMS43OUwxNi43MSw5LjVMMTYsMTAuMjFMMTguNzksMTNMMTYsMTUuNzlMMTYuNzEsMTYuNUwxOSwxNC4yMVYxOEgxOS41TDIyLjM1LDE1LjE0TDIwLjIxLDEzTDIyLjM1LDEwLjg1TDE5LjUsOEgxOU0yMCw5LjkxTDIwLjk0LDEwLjg1TDIwLDExLjc5VjkuOTFNMjAsMTQuMjFMMjAuOTQsMTUuMTRMMjAsMTYuMDhWMTQuMjFaIiAvPjwvc3ZnPg==)
@@ -263,16 +273,6 @@ battery30 =
 battery30Bluetooth : IconShape
 battery30Bluetooth =
     Material.Icons.Directory.B.battery30Bluetooth
-
-
-{-| The [`battery-20`](https://pictogrammers.com/library/mdi/icon/battery-20/) icon.
-
-![battery-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDE3SDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
-
--}
-battery20 : IconShape
-battery20 =
-    Material.Icons.Directory.B.battery20
 
 
 {-| The [`battery-40`](https://pictogrammers.com/library/mdi/icon/battery-40/) icon.
@@ -305,16 +305,6 @@ battery50 =
     Material.Icons.Directory.B.battery50
 
 
-{-| The [`battery-60`](https://pictogrammers.com/library/mdi/icon/battery-60/) icon.
-
-![battery-60](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDEySDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
-
--}
-battery60 : IconShape
-battery60 =
-    Material.Icons.Directory.B.battery60
-
-
 {-| The [`battery-50-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-50-bluetooth/) icon.
 
 ![battery-50-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMlY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRIMTFWMkg1TTQsNkgxMlYxM0g0VjZNMTksOFYxMS43OUwxNi43MSw5LjVMMTYsMTAuMjFMMTguNzksMTNMMTYsMTUuNzlMMTYuNzEsMTYuNUwxOSwxNC4yMVYxOEgxOS41TDIyLjM1LDE1LjE0TDIwLjIxLDEzTDIyLjM1LDEwLjg1TDE5LjUsOEgxOU0yMCw5LjkxTDIwLjk0LDEwLjg1TDIwLDExLjc5VjkuOTFNMjAsMTQuMjFMMjAuOTQsMTUuMTRMMjAsMTYuMDhWMTQuMjFaIiAvPjwvc3ZnPg==)
@@ -323,6 +313,16 @@ battery60 =
 battery50Bluetooth : IconShape
 battery50Bluetooth =
     Material.Icons.Directory.B.battery50Bluetooth
+
+
+{-| The [`battery-60`](https://pictogrammers.com/library/mdi/icon/battery-60/) icon.
+
+![battery-60](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDEySDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
+
+-}
+battery60 : IconShape
+battery60 =
+    Material.Icons.Directory.B.battery60
 
 
 {-| The [`battery-60-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-60-bluetooth/) icon.
@@ -345,6 +345,16 @@ battery70 =
     Material.Icons.Directory.B.battery70
 
 
+{-| The [`battery-70-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-70-bluetooth/) icon.
+
+![battery-70-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMlY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRIMTFWMkg1TTQsNkgxMlYxMEg0VjZNMTksOFYxMS43OUwxNi43MSw5LjVMMTYsMTAuMjFMMTguNzksMTNMMTYsMTUuNzlMMTYuNzEsMTYuNUwxOSwxNC4yMVYxOEgxOS41TDIyLjM1LDE1LjE0TDIwLjIxLDEzTDIyLjM1LDEwLjg1TDE5LjUsOEgxOU0yMCw5LjkxTDIwLjk0LDEwLjg1TDIwLDExLjc5VjkuOTFNMjAsMTQuMjFMMjAuOTQsMTUuMTRMMjAsMTYuMDhWMTQuMjFaIiAvPjwvc3ZnPg==)
+
+-}
+battery70Bluetooth : IconShape
+battery70Bluetooth =
+    Material.Icons.Directory.B.battery70Bluetooth
+
+
 {-| The [`battery-80`](https://pictogrammers.com/library/mdi/icon/battery-80/) icon.
 
 ![battery-80](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDlIOFY2SDE2TTE2LjY3LDRIMTVWMkg5VjRINy4zM0ExLjMzLDEuMzMgMCAwLDAgNiw1LjMzVjIwLjY3QzYsMjEuNCA2LjYsMjIgNy4zMywyMkgxNi42N0ExLjMzLDEuMzMgMCAwLDAgMTgsMjAuNjdWNS4zM0MxOCw0LjYgMTcuNCw0IDE2LjY3LDRaIiAvPjwvc3ZnPg==)
@@ -365,16 +375,6 @@ battery80Bluetooth =
     Material.Icons.Directory.B.battery80Bluetooth
 
 
-{-| The [`battery-alert`](https://pictogrammers.com/library/mdi/icon/battery-alert/) icon.
-
-![battery-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE0SDExVjhIMTNNMTMgMThIMTFWMTZIMTNNMTYuNyA0SDE1VjJIOVY0SDcuM0M2LjYgNCA2IDQuNiA2IDUuM1YyMC42QzYgMjEuNCA2LjYgMjIgNy4zIDIySDE2LjZDMTcuMyAyMiAxNy45IDIxLjQgMTcuOSAyMC43VjUuM0MxOCA0LjYgMTcuNCA0IDE2LjcgNFoiIC8+PC9zdmc+)
-
--}
-batteryAlert : IconShape
-batteryAlert =
-    Material.Icons.Directory.B.batteryAlert
-
-
 {-| The [`battery-90`](https://pictogrammers.com/library/mdi/icon/battery-90/) icon.
 
 ![battery-90](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDhIOFY2SDE2TTE2LjY3LDRIMTVWMkg5VjRINy4zM0ExLjMzLDEuMzMgMCAwLDAgNiw1LjMzVjIwLjY3QzYsMjEuNCA2LjYsMjIgNy4zMywyMkgxNi42N0ExLjMzLDEuMzMgMCAwLDAgMTgsMjAuNjdWNS4zM0MxOCw0LjYgMTcuNCw0IDE2LjY3LDRaIiAvPjwvc3ZnPg==)
@@ -383,16 +383,6 @@ batteryAlert =
 battery90 : IconShape
 battery90 =
     Material.Icons.Directory.B.battery90
-
-
-{-| The [`battery-70-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-70-bluetooth/) icon.
-
-![battery-70-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMlY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRIMTFWMkg1TTQsNkgxMlYxMEg0VjZNMTksOFYxMS43OUwxNi43MSw5LjVMMTYsMTAuMjFMMTguNzksMTNMMTYsMTUuNzlMMTYuNzEsMTYuNUwxOSwxNC4yMVYxOEgxOS41TDIyLjM1LDE1LjE0TDIwLjIxLDEzTDIyLjM1LDEwLjg1TDE5LjUsOEgxOU0yMCw5LjkxTDIwLjk0LDEwLjg1TDIwLDExLjc5VjkuOTFNMjAsMTQuMjFMMjAuOTQsMTUuMTRMMjAsMTYuMDhWMTQuMjFaIiAvPjwvc3ZnPg==)
-
--}
-battery70Bluetooth : IconShape
-battery70Bluetooth =
-    Material.Icons.Directory.B.battery70Bluetooth
 
 
 {-| The [`battery-90-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-90-bluetooth/) icon.
@@ -405,14 +395,14 @@ battery90Bluetooth =
     Material.Icons.Directory.B.battery90Bluetooth
 
 
-{-| The [`battery-alert-variant`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant/) icon.
+{-| The [`battery-alert`](https://pictogrammers.com/library/mdi/icon/battery-alert/) icon.
 
-![battery-alert-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjY3IDRIMTNWMkg3VjRINS4zM0M0LjYgNCA0IDQuNiA0IDUuMzNWMjAuNjdDNCAyMS40IDQuNiAyMiA1LjMzIDIySDE0LjY3QzE1LjQgMjIgMTYgMjEuNCAxNiAyMC42N1Y1LjMzQzE2IDQuNiAxNS40IDQgMTQuNjcgNE0yMSAxM0gxOVY3SDIxVjEzTTIxIDE3SDE5VjE1SDIxVjE3WiIgLz48L3N2Zz4=)
+![battery-alert](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE0SDExVjhIMTNNMTMgMThIMTFWMTZIMTNNMTYuNyA0SDE1VjJIOVY0SDcuM0M2LjYgNCA2IDQuNiA2IDUuM1YyMC42QzYgMjEuNCA2LjYgMjIgNy4zIDIySDE2LjZDMTcuMyAyMiAxNy45IDIxLjQgMTcuOSAyMC43VjUuM0MxOCA0LjYgMTcuNCA0IDE2LjcgNFoiIC8+PC9zdmc+)
 
 -}
-batteryAlertVariant : IconShape
-batteryAlertVariant =
-    Material.Icons.Directory.B.batteryAlertVariant
+batteryAlert : IconShape
+batteryAlert =
+    Material.Icons.Directory.B.batteryAlert
 
 
 {-| The [`battery-alert-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-alert-bluetooth/) icon.
@@ -425,6 +415,16 @@ batteryAlertBluetooth =
     Material.Icons.Directory.B.batteryAlertBluetooth
 
 
+{-| The [`battery-alert-variant`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant/) icon.
+
+![battery-alert-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjY3IDRIMTNWMkg3VjRINS4zM0M0LjYgNCA0IDQuNiA0IDUuMzNWMjAuNjdDNCAyMS40IDQuNiAyMiA1LjMzIDIySDE0LjY3QzE1LjQgMjIgMTYgMjEuNCAxNiAyMC42N1Y1LjMzQzE2IDQuNiAxNS40IDQgMTQuNjcgNE0yMSAxM0gxOVY3SDIxVjEzTTIxIDE3SDE5VjE1SDIxVjE3WiIgLz48L3N2Zz4=)
+
+-}
+batteryAlertVariant : IconShape
+batteryAlertVariant =
+    Material.Icons.Directory.B.batteryAlertVariant
+
+
 {-| The [`battery-alert-variant-outline`](https://pictogrammers.com/library/mdi/icon/battery-alert-variant-outline/) icon.
 
 ![battery-alert-variant-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDIwSDZWNkgxNE0xNC42NyA0SDEzVjJIN1Y0SDUuMzNDNC42IDQgNCA0LjYgNCA1LjMzVjIwLjY3QzQgMjEuNCA0LjYgMjIgNS4zMyAyMkgxNC42N0MxNS40IDIyIDE2IDIxLjQgMTYgMjAuNjdWNS4zM0MxNiA0LjYgMTUuNCA0IDE0LjY3IDRNMjEgN0gxOVYxM0gyMVY4TTIxIDE1SDE5VjE3SDIxVjE1WiIgLz48L3N2Zz4=)
@@ -435,16 +435,6 @@ batteryAlertVariantOutline =
     Material.Icons.Directory.B.batteryAlertVariantOutline
 
 
-{-| The [`battery-arrow-down-outline`](https://pictogrammers.com/library/mdi/icon/battery-arrow-down-outline/) icon.
-
-![battery-arrow-down-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNy4zIDEyIDE2LjYzIDEyLjEzIDE2IDEyLjM1VjZIOFYyMEgxMi4zNUMxMi42MSAyMC43NSAxMyAyMS40MiAxMy41NCAyMk0xNC45NCAxOC41TDE3Ljk0IDIxLjVMMjAuOTQgMTguNUgxOC45NFYxNC41SDE2Ljk0VjE4LjVIMTQuOTQiIC8+PC9zdmc+)
-
--}
-batteryArrowDownOutline : IconShape
-batteryArrowDownOutline =
-    Material.Icons.Directory.B.batteryArrowDownOutline
-
-
 {-| The [`battery-arrow-down`](https://pictogrammers.com/library/mdi/icon/battery-arrow-down/) icon.
 
 ![battery-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0xNC45NCAxOC41TDE3Ljk0IDIxLjVMMjAuOTQgMTguNUgxOC45NFYxNC41SDE2Ljk0VjE4LjVIMTQuOTQiIC8+PC9zdmc+)
@@ -453,6 +443,16 @@ batteryArrowDownOutline =
 batteryArrowDown : IconShape
 batteryArrowDown =
     Material.Icons.Directory.B.batteryArrowDown
+
+
+{-| The [`battery-arrow-down-outline`](https://pictogrammers.com/library/mdi/icon/battery-arrow-down-outline/) icon.
+
+![battery-arrow-down-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNy4zIDEyIDE2LjYzIDEyLjEzIDE2IDEyLjM1VjZIOFYyMEgxMi4zNUMxMi42MSAyMC43NSAxMyAyMS40MiAxMy41NCAyMk0xNC45NCAxOC41TDE3Ljk0IDIxLjVMMjAuOTQgMTguNUgxOC45NFYxNC41SDE2Ljk0VjE4LjVIMTQuOTQiIC8+PC9zdmc+)
+
+-}
+batteryArrowDownOutline : IconShape
+batteryArrowDownOutline =
+    Material.Icons.Directory.B.batteryArrowDownOutline
 
 
 {-| The [`battery-arrow-up`](https://pictogrammers.com/library/mdi/icon/battery-arrow-up/) icon.
@@ -505,6 +505,16 @@ batteryCharging =
     Material.Icons.Directory.B.batteryCharging
 
 
+{-| The [`battery-charging-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-10/) icon.
+
+![battery-charging-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIsMThINEw0LjA1LDZIMTIuMDVNMTIuNzIsNEgxMS4wNVYySDUuMDVWNEgzLjM4QTEuMzMsMS4zMyAwIDAsMCAyLjA1LDUuMzNWMjAuNjdDMi4wNSwyMS40IDIuNjUsMjIgMy4zOCwyMkgxMi43MkMxMy40NSwyMiAxNC4wNSwyMS40IDE0LjA1LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjcyLDRaIiAvPjwvc3ZnPg==)
+
+-}
+batteryCharging10 : IconShape
+batteryCharging10 =
+    Material.Icons.Directory.B.batteryCharging10
+
+
 {-| The [`battery-charging-100`](https://pictogrammers.com/library/mdi/icon/battery-charging-100/) icon.
 
 ![battery-charging-100](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
@@ -515,14 +525,14 @@ batteryCharging100 =
     Material.Icons.Directory.B.batteryCharging100
 
 
-{-| The [`battery-charging-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-10/) icon.
+{-| The [`battery-charging-20`](https://pictogrammers.com/library/mdi/icon/battery-charging-20/) icon.
 
-![battery-charging-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIsMThINEw0LjA1LDZIMTIuMDVNMTIuNzIsNEgxMS4wNVYySDUuMDVWNEgzLjM4QTEuMzMsMS4zMyAwIDAsMCAyLjA1LDUuMzNWMjAuNjdDMi4wNSwyMS40IDIuNjUsMjIgMy4zOCwyMkgxMi43MkMxMy40NSwyMiAxNC4wNSwyMS40IDE0LjA1LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjcyLDRaIiAvPjwvc3ZnPg==)
+![battery-charging-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIuMDUsMTdINC4wNVY2SDEyLjA1TTEyLjcyLDRIMTEuMDVWMkg1LjA1VjRIMy4zOEExLjMzLDEuMzMgMCAwLDAgMi4wNSw1LjMzVjIwLjY3QzIuMDUsMjEuNCAyLjY1LDIyIDMuMzgsMjJIMTIuNzJDMTMuNDUsMjIgMTQuMDUsMjEuNCAxNC4wNSwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi43Miw0WiIgLz48L3N2Zz4=)
 
 -}
-batteryCharging10 : IconShape
-batteryCharging10 =
-    Material.Icons.Directory.B.batteryCharging10
+batteryCharging20 : IconShape
+batteryCharging20 =
+    Material.Icons.Directory.B.batteryCharging20
 
 
 {-| The [`battery-charging-30`](https://pictogrammers.com/library/mdi/icon/battery-charging-30/) icon.
@@ -545,16 +555,6 @@ batteryCharging40 =
     Material.Icons.Directory.B.batteryCharging40
 
 
-{-| The [`battery-charging-20`](https://pictogrammers.com/library/mdi/icon/battery-charging-20/) icon.
-
-![battery-charging-20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIuMDUsMTdINC4wNVY2SDEyLjA1TTEyLjcyLDRIMTEuMDVWMkg1LjA1VjRIMy4zOEExLjMzLDEuMzMgMCAwLDAgMi4wNSw1LjMzVjIwLjY3QzIuMDUsMjEuNCAyLjY1LDIyIDMuMzgsMjJIMTIuNzJDMTMuNDUsMjIgMTQuMDUsMjEuNCAxNC4wNSwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi43Miw0WiIgLz48L3N2Zz4=)
-
--}
-batteryCharging20 : IconShape
-batteryCharging20 =
-    Material.Icons.Directory.B.batteryCharging20
-
-
 {-| The [`battery-charging-50`](https://pictogrammers.com/library/mdi/icon/battery-charging-50/) icon.
 
 ![battery-charging-50](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsMTNINFY2SDEyTTEyLjY3LDRIMTFWMkg1VjRIMy4zM0ExLjMzLDEuMzMgMCAwLDAgMiw1LjMzVjIwLjY3QzIsMjEuNCAyLjYsMjIgMy4zMywyMkgxMi42N0MxMy40LDIyIDE0LDIxLjQgMTQsMjAuNjdWNS4zM0ExLjMzLDEuMzMgMCAwLDAgMTIuNjcsNFoiIC8+PC9zdmc+)
@@ -575,26 +575,6 @@ batteryCharging60 =
     Material.Icons.Directory.B.batteryCharging60
 
 
-{-| The [`battery-charging-80`](https://pictogrammers.com/library/mdi/icon/battery-charging-80/) icon.
-
-![battery-charging-80](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsOUg0VjZIMTJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
-
--}
-batteryCharging80 : IconShape
-batteryCharging80 =
-    Material.Icons.Directory.B.batteryCharging80
-
-
-{-| The [`battery-charging-high`](https://pictogrammers.com/library/mdi/icon/battery-charging-high/) icon.
-
-![battery-charging-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwSDRWNkgxMk0xMi42NyA0SDExVjJINVY0SDMuMzNDMi42IDQgMiA0LjYgMiA1LjMzVjIwLjY3QzIgMjEuNCAyLjYgMjIgMy4zMyAyMkgxMi42N0MxMy40MSAyMiAxNCAyMS40MSAxNCAyMC42N1Y1LjMzQzE0IDQuNiAxMy40IDQgMTIuNjcgNE0xMSAxNkg1VjE5SDExVjE2TTExIDdINVYxMEgxMVY3TTExIDExLjVINVYxNC41SDExVjExLjVNMjMgMTBIMjBWM0wxNSAxM0gxOFYyMSIgLz48L3N2Zz4=)
-
--}
-batteryChargingHigh : IconShape
-batteryChargingHigh =
-    Material.Icons.Directory.B.batteryChargingHigh
-
-
 {-| The [`battery-charging-70`](https://pictogrammers.com/library/mdi/icon/battery-charging-70/) icon.
 
 ![battery-charging-70](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEwSDRWNkgxMk0xMi42Nyw0SDExVjJINVY0SDMuMzNBMS4zMywxLjMzIDAgMCwwIDIsNS4zM1YyMC42N0MyLDIxLjQgMi42LDIyIDMuMzMsMjJIMTIuNjdDMTMuNCwyMiAxNCwyMS40IDE0LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjY3LDRNMjMsMTFIMjBWNEwxNSwxNEgxOFYyMkwyMywxMVoiIC8+PC9zdmc+)
@@ -605,6 +585,16 @@ batteryCharging70 =
     Material.Icons.Directory.B.batteryCharging70
 
 
+{-| The [`battery-charging-80`](https://pictogrammers.com/library/mdi/icon/battery-charging-80/) icon.
+
+![battery-charging-80](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsOUg0VjZIMTJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
+
+-}
+batteryCharging80 : IconShape
+batteryCharging80 =
+    Material.Icons.Directory.B.batteryCharging80
+
+
 {-| The [`battery-charging-90`](https://pictogrammers.com/library/mdi/icon/battery-charging-90/) icon.
 
 ![battery-charging-90](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLDExSDIwVjRMMTUsMTRIMThWMjJNMTIsOEg0VjZIMTJNMTIuNjcsNEgxMVYySDVWNEgzLjMzQTEuMzMsMS4zMyAwIDAsMCAyLDUuMzNWMjAuNjdDMiwyMS40IDIuNiwyMiAzLjMzLDIySDEyLjY3QzEzLjQsMjIgMTQsMjEuNCAxNCwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMCAxMi42Nyw0WiIgLz48L3N2Zz4=)
@@ -613,6 +603,16 @@ batteryCharging70 =
 batteryCharging90 : IconShape
 batteryCharging90 =
     Material.Icons.Directory.B.batteryCharging90
+
+
+{-| The [`battery-charging-high`](https://pictogrammers.com/library/mdi/icon/battery-charging-high/) icon.
+
+![battery-charging-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDIwSDRWNkgxMk0xMi42NyA0SDExVjJINVY0SDMuMzNDMi42IDQgMiA0LjYgMiA1LjMzVjIwLjY3QzIgMjEuNCAyLjYgMjIgMy4zMyAyMkgxMi42N0MxMy40MSAyMiAxNCAyMS40MSAxNCAyMC42N1Y1LjMzQzE0IDQuNiAxMy40IDQgMTIuNjcgNE0xMSAxNkg1VjE5SDExVjE2TTExIDdINVYxMEgxMVY3TTExIDExLjVINVYxNC41SDExVjExLjVNMjMgMTBIMjBWM0wxNSAxM0gxOFYyMSIgLz48L3N2Zz4=)
+
+-}
+batteryChargingHigh : IconShape
+batteryChargingHigh =
+    Material.Icons.Directory.B.batteryChargingHigh
 
 
 {-| The [`battery-charging-low`](https://pictogrammers.com/library/mdi/icon/battery-charging-low/) icon.
@@ -635,16 +635,6 @@ batteryChargingMedium =
     Material.Icons.Directory.B.batteryChargingMedium
 
 
-{-| The [`battery-charging-wireless-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-10/) icon.
-
-![battery-charging-wireless-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZNMTMsNEgxMVYySDVWNEgzQTEsMSAwIDAsMCAyLDVWMjFBMSwxIDAgMCwwIDMsMjJIMTNBMSwxIDAgMCwwIDE0LDIxVjVBMSwxIDAgMCwwIDEzLDRNMTIsMTguNUg0VjZIMTJWMTguNVoiIC8+PC9zdmc+)
-
--}
-batteryChargingWireless10 : IconShape
-batteryChargingWireless10 =
-    Material.Icons.Directory.B.batteryChargingWireless10
-
-
 {-| The [`battery-charging-outline`](https://pictogrammers.com/library/mdi/icon/battery-charging-outline/) icon.
 
 ![battery-charging-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIzLjA1LDExSDIwLjA1VjRMMTUuMDUsMTRIMTguMDVWMjJNMTIsMjBINEw0LjA1LDZIMTIuMDVNMTIuNzIsNEgxMS4wNVYySDUuMDVWNEgzLjM4QTEuMzMsMS4zMyAwIDAsMCAyLjA1LDUuMzNWMjAuNjdDMi4wNSwyMS40IDIuNjUsMjIgMy4zOCwyMkgxMi43MkMxMy40NSwyMiAxNC4wNSwyMS40IDE0LjA1LDIwLjY3VjUuMzNBMS4zMywxLjMzIDAgMCwwIDEyLjcyLDRaIiAvPjwvc3ZnPg==)
@@ -653,6 +643,26 @@ batteryChargingWireless10 =
 batteryChargingOutline : IconShape
 batteryChargingOutline =
     Material.Icons.Directory.B.batteryChargingOutline
+
+
+{-| The [`battery-charging-wireless`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless/) icon.
+
+![battery-charging-wireless](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDRIMTFWMkg1VjRIM0ExLDEgMCAwLDAgMiw1VjIxQTEsMSAwIDAsMCAzLDIySDEzQTEsMSAwIDAsMCAxNCwyMVY1QTEsMSAwIDAsMCAxMyw0TTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZaIiAvPjwvc3ZnPg==)
+
+-}
+batteryChargingWireless : IconShape
+batteryChargingWireless =
+    Material.Icons.Directory.B.batteryChargingWireless
+
+
+{-| The [`battery-charging-wireless-10`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-10/) icon.
+
+![battery-charging-wireless-10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZNMTMsNEgxMVYySDVWNEgzQTEsMSAwIDAsMCAyLDVWMjFBMSwxIDAgMCwwIDMsMjJIMTNBMSwxIDAgMCwwIDE0LDIxVjVBMSwxIDAgMCwwIDEzLDRNMTIsMTguNUg0VjZIMTJWMTguNVoiIC8+PC9zdmc+)
+
+-}
+batteryChargingWireless10 : IconShape
+batteryChargingWireless10 =
+    Material.Icons.Directory.B.batteryChargingWireless10
 
 
 {-| The [`battery-charging-wireless-20`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-20/) icon.
@@ -665,14 +675,14 @@ batteryChargingWireless20 =
     Material.Icons.Directory.B.batteryChargingWireless20
 
 
-{-| The [`battery-charging-wireless`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless/) icon.
+{-| The [`battery-charging-wireless-30`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-30/) icon.
 
-![battery-charging-wireless](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDRIMTFWMkg1VjRIM0ExLDEgMCAwLDAgMiw1VjIxQTEsMSAwIDAsMCAzLDIySDEzQTEsMSAwIDAsMCAxNCwyMVY1QTEsMSAwIDAsMCAxMyw0TTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZaIiAvPjwvc3ZnPg==)
+![battery-charging-wireless-30](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZNMTMsNEgxMVYySDVWNEgzQTEsMSAwIDAsMCAyLDVWMjFBMSwxIDAgMCwwIDMsMjJIMTNBMSwxIDAgMCwwIDE0LDIxVjVBMSwxIDAgMCwwIDEzLDRNMTIsMTZINFY2SDEyVjE2WiIgLz48L3N2Zz4=)
 
 -}
-batteryChargingWireless : IconShape
-batteryChargingWireless =
-    Material.Icons.Directory.B.batteryChargingWireless
+batteryChargingWireless30 : IconShape
+batteryChargingWireless30 =
+    Material.Icons.Directory.B.batteryChargingWireless30
 
 
 {-| The [`battery-charging-wireless-40`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-40/) icon.
@@ -693,16 +703,6 @@ batteryChargingWireless40 =
 batteryChargingWireless50 : IconShape
 batteryChargingWireless50 =
     Material.Icons.Directory.B.batteryChargingWireless50
-
-
-{-| The [`battery-charging-wireless-30`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-30/) icon.
-
-![battery-charging-wireless-30](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLjA3LDQuOTNMMTguNjYsNi4zNEMyMS43OSw5LjQ2IDIxLjc5LDE0LjUzIDE4LjY2LDE3LjY2TDIwLjA3LDE5LjA3QzIzLjk3LDE1LjE3IDIzLjk3LDguODQgMjAuMDcsNC45M00xNy4yNCw3Ljc2TDE1LjgzLDkuMTdDMTcuMzksMTAuNzMgMTcuMzksMTMuMjYgMTUuODMsMTQuODNMMTcuMjQsMTYuMjRDMTkuNTgsMTMuOSAxOS41OCwxMC4xIDE3LjI0LDcuNzZNMTMsNEgxMVYySDVWNEgzQTEsMSAwIDAsMCAyLDVWMjFBMSwxIDAgMCwwIDMsMjJIMTNBMSwxIDAgMCwwIDE0LDIxVjVBMSwxIDAgMCwwIDEzLDRNMTIsMTZINFY2SDEyVjE2WiIgLz48L3N2Zz4=)
-
--}
-batteryChargingWireless30 : IconShape
-batteryChargingWireless30 =
-    Material.Icons.Directory.B.batteryChargingWireless30
 
 
 {-| The [`battery-charging-wireless-60`](https://pictogrammers.com/library/mdi/icon/battery-charging-wireless-60/) icon.
@@ -765,16 +765,6 @@ batteryChargingWirelessOutline =
     Material.Icons.Directory.B.batteryChargingWirelessOutline
 
 
-{-| The [`battery-clock`](https://pictogrammers.com/library/mdi/icon/battery-clock/) icon.
-
-![battery-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTYuMjVMMTkuMzYgMTcuOTRMMTguNjEgMTkuMTZMMTUgMTdWMTJIMTYuNVYxNi4yNU0yMyAxNkMyMyAxOS44NyAxOS44NyAyMyAxNiAyM0MxNC42OSAyMyAxMy40NiAyMi42MyAxMi40MSAyMkg3LjMzQzYuNiAyMiA2IDIxLjQgNiAyMC42N1Y1LjMzQzYgNC42IDYuNiA0IDcuMzMgNEg5VjJIMTVWNEgxNi42N0MxNy40IDQgMTggNC42IDE4IDUuMzNWOS4yOUMyMC44OSAxMC4xNSAyMyAxMi44MyAyMyAxNk0yMSAxNkMyMSAxMy4yNCAxOC43NiAxMSAxNiAxMVMxMSAxMy4yNCAxMSAxNiAxMy4yNCAyMSAxNiAyMSAyMSAxOC43NiAyMSAxNloiIC8+PC9zdmc+)
-
--}
-batteryClock : IconShape
-batteryClock =
-    Material.Icons.Directory.B.batteryClock
-
-
 {-| The [`battery-check`](https://pictogrammers.com/library/mdi/icon/battery-check/) icon.
 
 ![battery-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2Ljc1IDIxLjE2TDE0IDE4LjE2TDE1LjE2IDE3TDE2Ljc1IDE4LjU5TDIwLjM0IDE1TDIxLjUgMTYuNDFMMTYuNzUgMjEuMTZNMTIgMThDMTIgMTQuNjkgMTQuNjkgMTIgMTggMTJWNS4zM0MxOCA0LjYgMTcuNCA0IDE2LjY3IDRIMTVWMkg5VjRINy4zM0M2LjYgNCA2IDQuNiA2IDUuMzNWMjAuNjdDNiAyMS40IDYuNiAyMiA3LjMzIDIySDEzLjU0QzEyLjU4IDIwLjk0IDEyIDE5LjU0IDEyIDE4WiIgLz48L3N2Zz4=)
@@ -793,6 +783,16 @@ batteryCheck =
 batteryCheckOutline : IconShape
 batteryCheckOutline =
     Material.Icons.Directory.B.batteryCheckOutline
+
+
+{-| The [`battery-clock`](https://pictogrammers.com/library/mdi/icon/battery-clock/) icon.
+
+![battery-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjUgMTYuMjVMMTkuMzYgMTcuOTRMMTguNjEgMTkuMTZMMTUgMTdWMTJIMTYuNVYxNi4yNU0yMyAxNkMyMyAxOS44NyAxOS44NyAyMyAxNiAyM0MxNC42OSAyMyAxMy40NiAyMi42MyAxMi40MSAyMkg3LjMzQzYuNiAyMiA2IDIxLjQgNiAyMC42N1Y1LjMzQzYgNC42IDYuNiA0IDcuMzMgNEg5VjJIMTVWNEgxNi42N0MxNy40IDQgMTggNC42IDE4IDUuMzNWOS4yOUMyMC44OSAxMC4xNSAyMyAxMi44MyAyMyAxNk0yMSAxNkMyMSAxMy4yNCAxOC43NiAxMSAxNiAxMVMxMSAxMy4yNCAxMSAxNiAxMy4yNCAyMSAxNiAyMSAyMSAxOC43NiAyMSAxNloiIC8+PC9zdmc+)
+
+-}
+batteryClock : IconShape
+batteryClock =
+    Material.Icons.Directory.B.batteryClock
 
 
 {-| The [`battery-clock-outline`](https://pictogrammers.com/library/mdi/icon/battery-clock-outline/) icon.
@@ -845,14 +845,14 @@ batteryHigh =
     Material.Icons.Directory.B.batteryHigh
 
 
-{-| The [`battery-low`](https://pictogrammers.com/library/mdi/icon/battery-low/) icon.
+{-| The [`battery-lock`](https://pictogrammers.com/library/mdi/icon/battery-lock/) icon.
 
-![battery-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2IDIwSDhWNkgxNk0xNi42NyA0SDE1VjJIOVY0SDcuMzNDNi42IDQgNiA0LjYgNiA1LjMzVjIwLjY3QzYgMjEuNCA2LjYgMjIgNy4zMyAyMkgxNi42N0MxNy40MSAyMiAxOCAyMS40MSAxOCAyMC42N1Y1LjMzQzE4IDQuNiAxNy40IDQgMTYuNjcgNE0xNSAxNkg5VjE5SDE1VjE2IiAvPjwvc3ZnPg==)
+![battery-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjggMTZWMTQuNUMxOS44IDEzLjEgMTguNCAxMiAxNyAxMlMxNC4yIDEzLjEgMTQuMiAxNC41VjE2QzEzLjYgMTYgMTMgMTYuNiAxMyAxNy4yVjIwLjdDMTMgMjEuNCAxMy42IDIyIDE0LjIgMjJIMTkuN0MyMC40IDIyIDIxIDIxLjQgMjEgMjAuOFYxNy4zQzIxIDE2LjYgMjAuNCAxNiAxOS44IDE2TTE4LjUgMTZIMTUuNVYxNC41QzE1LjUgMTMuNyAxNi4yIDEzLjIgMTcgMTMuMlMxOC41IDEzLjcgMTguNSAxNC41VjE2TTExLjI3IDIySDUuMzNDNC42IDIyIDQgMjEuNCA0IDIwLjY3VjUuMzNDNCA0LjYgNC42IDQgNS4zMyA0SDdWMkgxM1Y0SDE0LjY3QzE1LjQgNCAxNiA0LjYgMTYgNS4zM1YxMC4xMUMxMy44NiAxMC41NSAxMi4yIDEyLjM4IDEyLjIgMTQuNVYxNC43NEMxMS41IDE1LjM0IDExIDE2LjI0IDExIDE3LjJWMjAuN0MxMSAyMS4xNiAxMS4xIDIxLjYgMTEuMjcgMjJaIiAvPjwvc3ZnPg==)
 
 -}
-batteryLow : IconShape
-batteryLow =
-    Material.Icons.Directory.B.batteryLow
+batteryLock : IconShape
+batteryLock =
+    Material.Icons.Directory.B.batteryLock
 
 
 {-| The [`battery-lock-open`](https://pictogrammers.com/library/mdi/icon/battery-lock-open/) icon.
@@ -865,14 +865,14 @@ batteryLockOpen =
     Material.Icons.Directory.B.batteryLockOpen
 
 
-{-| The [`battery-lock`](https://pictogrammers.com/library/mdi/icon/battery-lock/) icon.
+{-| The [`battery-low`](https://pictogrammers.com/library/mdi/icon/battery-low/) icon.
 
-![battery-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjggMTZWMTQuNUMxOS44IDEzLjEgMTguNCAxMiAxNyAxMlMxNC4yIDEzLjEgMTQuMiAxNC41VjE2QzEzLjYgMTYgMTMgMTYuNiAxMyAxNy4yVjIwLjdDMTMgMjEuNCAxMy42IDIyIDE0LjIgMjJIMTkuN0MyMC40IDIyIDIxIDIxLjQgMjEgMjAuOFYxNy4zQzIxIDE2LjYgMjAuNCAxNiAxOS44IDE2TTE4LjUgMTZIMTUuNVYxNC41QzE1LjUgMTMuNyAxNi4yIDEzLjIgMTcgMTMuMlMxOC41IDEzLjcgMTguNSAxNC41VjE2TTExLjI3IDIySDUuMzNDNC42IDIyIDQgMjEuNCA0IDIwLjY3VjUuMzNDNCA0LjYgNC42IDQgNS4zMyA0SDdWMkgxM1Y0SDE0LjY3QzE1LjQgNCAxNiA0LjYgMTYgNS4zM1YxMC4xMUMxMy44NiAxMC41NSAxMi4yIDEyLjM4IDEyLjIgMTQuNVYxNC43NEMxMS41IDE1LjM0IDExIDE2LjI0IDExIDE3LjJWMjAuN0MxMSAyMS4xNiAxMS4xIDIxLjYgMTEuMjcgMjJaIiAvPjwvc3ZnPg==)
+![battery-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2IDIwSDhWNkgxNk0xNi42NyA0SDE1VjJIOVY0SDcuMzNDNi42IDQgNiA0LjYgNiA1LjMzVjIwLjY3QzYgMjEuNCA2LjYgMjIgNy4zMyAyMkgxNi42N0MxNy40MSAyMiAxOCAyMS40MSAxOCAyMC42N1Y1LjMzQzE4IDQuNiAxNy40IDQgMTYuNjcgNE0xNSAxNkg5VjE5SDE1VjE2IiAvPjwvc3ZnPg==)
 
 -}
-batteryLock : IconShape
-batteryLock =
-    Material.Icons.Directory.B.batteryLock
+batteryLow : IconShape
+batteryLow =
+    Material.Icons.Directory.B.batteryLow
 
 
 {-| The [`battery-medium`](https://pictogrammers.com/library/mdi/icon/battery-medium/) icon.
@@ -895,16 +895,6 @@ batteryMinus =
     Material.Icons.Directory.B.batteryMinus
 
 
-{-| The [`battery-minus-variant`](https://pictogrammers.com/library/mdi/icon/battery-minus-variant/) icon.
-
-![battery-minus-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjY3LDRDMTcuNCw0IDE4LDQuNiAxOCw1LjMzVjIwLjY3QTEuMzMsMS4zMyAwIDAsMSAxNi42NywyMkg3LjMzQzYuNiwyMiA2LDIxLjQgNiwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMSA3LjMzLDRIOVYySDE1VjRIMTYuNjdNOCwxMlYxNEgxNlYxMiIgLz48L3N2Zz4=)
-
--}
-batteryMinusVariant : IconShape
-batteryMinusVariant =
-    Material.Icons.Directory.B.batteryMinusVariant
-
-
 {-| The [`battery-minus-outline`](https://pictogrammers.com/library/mdi/icon/battery-minus-outline/) icon.
 
 ![battery-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNy4zIDEyIDE2LjYzIDEyLjEzIDE2IDEyLjM1VjZIOFYyMEgxMi4zNUMxMi42MSAyMC43NSAxMyAyMS40MiAxMy41NCAyMk0yMiAxN1YxOUgxNFYxN0gyMloiIC8+PC9zdmc+)
@@ -913,6 +903,16 @@ batteryMinusVariant =
 batteryMinusOutline : IconShape
 batteryMinusOutline =
     Material.Icons.Directory.B.batteryMinusOutline
+
+
+{-| The [`battery-minus-variant`](https://pictogrammers.com/library/mdi/icon/battery-minus-variant/) icon.
+
+![battery-minus-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjY3LDRDMTcuNCw0IDE4LDQuNiAxOCw1LjMzVjIwLjY3QTEuMzMsMS4zMyAwIDAsMSAxNi42NywyMkg3LjMzQzYuNiwyMiA2LDIxLjQgNiwyMC42N1Y1LjMzQTEuMzMsMS4zMyAwIDAsMSA3LjMzLDRIOVYySDE1VjRIMTYuNjdNOCwxMlYxNEgxNlYxMiIgLz48L3N2Zz4=)
+
+-}
+batteryMinusVariant : IconShape
+batteryMinusVariant =
+    Material.Icons.Directory.B.batteryMinusVariant
 
 
 {-| The [`battery-negative`](https://pictogrammers.com/library/mdi/icon/battery-negative/) icon.
@@ -935,6 +935,16 @@ batteryOff =
     Material.Icons.Directory.B.batteryOff
 
 
+{-| The [`battery-off-outline`](https://pictogrammers.com/library/mdi/icon/battery-off-outline/) icon.
+
+![battery-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE3LjM1TDMuMzggMi43M0wyLjExIDRMNiA3Ljg5VjIwLjY3QTEuMzQgMS4zNCAwIDAgMCA3LjMzIDIySDE2LjY3QTEuMzQgMS4zNCAwIDAgMCAxOCAyMC42N1YxOS44OUwyMC44NCAyMi43M0wyMi4xMSAyMS40Nk0xNiAyMEg4VjkuODlMMTYgMTcuODlNMTYgNlYxMi44TDE4IDE0LjhWNS4zM0ExLjM0IDEuMzQgMCAwIDAgMTYuNjcgNEgxNVYySDlWNEg3LjIxTDkuMjEgNloiIC8+PC9zdmc+)
+
+-}
+batteryOffOutline : IconShape
+batteryOffOutline =
+    Material.Icons.Directory.B.batteryOffOutline
+
+
 {-| The [`battery-outline`](https://pictogrammers.com/library/mdi/icon/battery-outline/) icon.
 
 ![battery-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDIwSDhWNkgxNk0xNi42Nyw0SDE1VjJIOVY0SDcuMzNBMS4zMywxLjMzIDAgMCwwIDYsNS4zM1YyMC42N0M2LDIxLjQgNi42LDIyIDcuMzMsMjJIMTYuNjdBMS4zMywxLjMzIDAgMCwwIDE4LDIwLjY3VjUuMzNDMTgsNC42IDE3LjQsNCAxNi42Nyw0WiIgLz48L3N2Zz4=)
@@ -945,14 +955,14 @@ batteryOutline =
     Material.Icons.Directory.B.batteryOutline
 
 
-{-| The [`battery-off-outline`](https://pictogrammers.com/library/mdi/icon/battery-off-outline/) icon.
+{-| The [`battery-plus`](https://pictogrammers.com/library/mdi/icon/battery-plus/) icon.
 
-![battery-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE3LjM1TDMuMzggMi43M0wyLjExIDRMNiA3Ljg5VjIwLjY3QTEuMzQgMS4zNCAwIDAgMCA3LjMzIDIySDE2LjY3QTEuMzQgMS4zNCAwIDAgMCAxOCAyMC42N1YxOS44OUwyMC44NCAyMi43M0wyMi4xMSAyMS40Nk0xNiAyMEg4VjkuODlMMTYgMTcuODlNMTYgNlYxMi44TDE4IDE0LjhWNS4zM0ExLjM0IDEuMzQgMCAwIDAgMTYuNjcgNEgxNVYySDlWNEg3LjIxTDkuMjEgNloiIC8+PC9zdmc+)
+![battery-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0yMiAxN1YxOUgxOVYyMkgxN1YxOUgxNFYxN0gxN1YxNEgxOVYxN0gyMloiIC8+PC9zdmc+)
 
 -}
-batteryOffOutline : IconShape
-batteryOffOutline =
-    Material.Icons.Directory.B.batteryOffOutline
+batteryPlus : IconShape
+batteryPlus =
+    Material.Icons.Directory.B.batteryPlus
 
 
 {-| The [`battery-plus-outline`](https://pictogrammers.com/library/mdi/icon/battery-plus-outline/) icon.
@@ -985,16 +995,6 @@ batteryPositive =
     Material.Icons.Directory.B.batteryPositive
 
 
-{-| The [`battery-plus`](https://pictogrammers.com/library/mdi/icon/battery-plus/) icon.
-
-![battery-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0yMiAxN1YxOUgxOVYyMkgxN1YxOUgxNFYxN0gxN1YxNEgxOVYxN0gyMloiIC8+PC9zdmc+)
-
--}
-batteryPlus : IconShape
-batteryPlus =
-    Material.Icons.Directory.B.batteryPlus
-
-
 {-| The [`battery-remove`](https://pictogrammers.com/library/mdi/icon/battery-remove/) icon.
 
 ![battery-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0yMS41NCAyMC4xMkwyMC4xMiAyMS41NEwxOCAxOS40MUwxNS44OCAyMS41NEwxNC40NyAyMC4xMkwxNi41OSAxOEwxNC40NyAxNS44OEwxNS44OCAxNC40N0wxOCAxNi41OUwyMC4xMiAxNC40N0wyMS41NCAxNS44OEwxOS40MSAxOEwyMS41NCAyMC4xMloiIC8+PC9zdmc+)
@@ -1003,26 +1003,6 @@ batteryPlus =
 batteryRemove : IconShape
 batteryRemove =
     Material.Icons.Directory.B.batteryRemove
-
-
-{-| The [`battery-sync`](https://pictogrammers.com/library/mdi/icon/battery-sync/) icon.
-
-![battery-sync](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0xOCAxM0wyMC4yNSAxNS4yNUwxOCAxNy41VjE2QzE2LjE1IDE2IDE0Ljk0IDE3Ljk2IDE1Ljc2IDE5LjYyTDE0LjY3IDIwLjcxQzEyLjkxIDE4LjA1IDE0LjgxIDE0LjUgMTggMTQuNVYxM00xOCAyNEwxNS43NSAyMS43NUwxOCAxOS41VjIxQzE5Ljg1IDIxIDIxLjA2IDE5LjA0IDIwLjI0IDE3LjM4TDIxLjMzIDE2LjI5QzIzLjA5IDE4Ljk1IDIxLjE5IDIyLjUgMTggMjIuNVYyNCIgLz48L3N2Zz4=)
-
--}
-batterySync : IconShape
-batterySync =
-    Material.Icons.Directory.B.batterySync
-
-
-{-| The [`battery-unknown`](https://pictogrammers.com/library/mdi/icon/battery-unknown/) icon.
-
-![battery-unknown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjA3LDEyLjI1TDE0LjE3LDEzLjE3QzEzLjYzLDEzLjcxIDEzLjI1LDE0LjE4IDEzLjA5LDE1SDExLjA1QzExLjE2LDE0LjEgMTEuNTYsMTMuMjggMTIuMTcsMTIuNjdMMTMuNDEsMTEuNDFDMTMuNzgsMTEuMDUgMTQsMTAuNTUgMTQsMTBDMTQsOC44OSAxMy4xLDggMTIsOEEyLDIgMCAwLDAgMTAsMTBIOEE0LDQgMCAwLDEgMTIsNkE0LDQgMCAwLDEgMTYsMTBDMTYsMTAuODggMTUuNjQsMTEuNjggMTUuMDcsMTIuMjVNMTMsMTlIMTFWMTdIMTNNMTYuNjcsNEgxNVYySDlWNEg3LjMzQTEuMzMsMS4zMyAwIDAsMCA2LDUuMzNWMjAuNjZDNiwyMS40IDYuNiwyMiA3LjMzLDIySDE2LjY3QzE3LjQsMjIgMTgsMjEuNCAxOCwyMC42NlY1LjMzQzE4LDQuNTkgMTcuNCw0IDE2LjY3LDRaIiAvPjwvc3ZnPg==)
-
--}
-batteryUnknown : IconShape
-batteryUnknown =
-    Material.Icons.Directory.B.batteryUnknown
 
 
 {-| The [`battery-remove-outline`](https://pictogrammers.com/library/mdi/icon/battery-remove-outline/) icon.
@@ -1035,6 +1015,16 @@ batteryRemoveOutline =
     Material.Icons.Directory.B.batteryRemoveOutline
 
 
+{-| The [`battery-sync`](https://pictogrammers.com/library/mdi/icon/battery-sync/) icon.
+
+![battery-sync](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNC42OSAxMiAxMiAxNC42OSAxMiAxOEMxMiAxOS41NCAxMi41OCAyMC45NCAxMy41NCAyMk0xOCAxM0wyMC4yNSAxNS4yNUwxOCAxNy41VjE2QzE2LjE1IDE2IDE0Ljk0IDE3Ljk2IDE1Ljc2IDE5LjYyTDE0LjY3IDIwLjcxQzEyLjkxIDE4LjA1IDE0LjgxIDE0LjUgMTggMTQuNVYxM00xOCAyNEwxNS43NSAyMS43NUwxOCAxOS41VjIxQzE5Ljg1IDIxIDIxLjA2IDE5LjA0IDIwLjI0IDE3LjM4TDIxLjMzIDE2LjI5QzIzLjA5IDE4Ljk1IDIxLjE5IDIyLjUgMTggMjIuNVYyNCIgLz48L3N2Zz4=)
+
+-}
+batterySync : IconShape
+batterySync =
+    Material.Icons.Directory.B.batterySync
+
+
 {-| The [`battery-sync-outline`](https://pictogrammers.com/library/mdi/icon/battery-sync-outline/) icon.
 
 ![battery-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjU0IDIySDcuMzNDNi42IDIyIDYgMjEuNCA2IDIwLjY3VjUuMzNDNiA0LjYgNi42IDQgNy4zMyA0SDlWMkgxNVY0SDE2LjY3QzE3LjQgNCAxOCA0LjYgMTggNS4zM1YxMkMxNy4zIDEyIDE2LjYzIDEyLjEzIDE2IDEyLjM1VjZIOFYyMEgxMi4zNUMxMi42MSAyMC43NSAxMyAyMS40MiAxMy41NCAyMk0xOCAxM0wyMC4yNSAxNS4yNUwxOCAxNy41VjE2QzE2LjE1IDE2IDE0Ljk0IDE3Ljk2IDE1Ljc2IDE5LjYyTDE0LjY3IDIwLjcxQzEyLjkxIDE4LjA1IDE0LjgxIDE0LjUgMTggMTQuNVYxM00xOCAyNEwxNS43NSAyMS43NUwxOCAxOS41VjIxQzE5Ljg1IDIxIDIxLjA2IDE5LjA0IDIwLjI0IDE3LjM4TDIxLjMzIDE2LjI5QzIzLjA5IDE4Ljk1IDIxLjE5IDIyLjUgMTggMjIuNVYyNCIgLz48L3N2Zz4=)
@@ -1043,6 +1033,16 @@ batteryRemoveOutline =
 batterySyncOutline : IconShape
 batterySyncOutline =
     Material.Icons.Directory.B.batterySyncOutline
+
+
+{-| The [`battery-unknown`](https://pictogrammers.com/library/mdi/icon/battery-unknown/) icon.
+
+![battery-unknown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LjA3LDEyLjI1TDE0LjE3LDEzLjE3QzEzLjYzLDEzLjcxIDEzLjI1LDE0LjE4IDEzLjA5LDE1SDExLjA1QzExLjE2LDE0LjEgMTEuNTYsMTMuMjggMTIuMTcsMTIuNjdMMTMuNDEsMTEuNDFDMTMuNzgsMTEuMDUgMTQsMTAuNTUgMTQsMTBDMTQsOC44OSAxMy4xLDggMTIsOEEyLDIgMCAwLDAgMTAsMTBIOEE0LDQgMCAwLDEgMTIsNkE0LDQgMCAwLDEgMTYsMTBDMTYsMTAuODggMTUuNjQsMTEuNjggMTUuMDcsMTIuMjVNMTMsMTlIMTFWMTdIMTNNMTYuNjcsNEgxNVYySDlWNEg3LjMzQTEuMzMsMS4zMyAwIDAsMCA2LDUuMzNWMjAuNjZDNiwyMS40IDYuNiwyMiA3LjMzLDIySDE2LjY3QzE3LjQsMjIgMTgsMjEuNCAxOCwyMC42NlY1LjMzQzE4LDQuNTkgMTcuNCw0IDE2LjY3LDRaIiAvPjwvc3ZnPg==)
+
+-}
+batteryUnknown : IconShape
+batteryUnknown =
+    Material.Icons.Directory.B.batteryUnknown
 
 
 {-| The [`battery-unknown-bluetooth`](https://pictogrammers.com/library/mdi/icon/battery-unknown-bluetooth/) icon.

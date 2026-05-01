@@ -12,8 +12,8 @@ module Material.Icons.Categories.Cellphone exposing
     , cellphoneArrowDown
     , cellphoneArrowDownVariant
     , cellphoneBasic
-    , cellphoneCheck
     , cellphoneCharging
+    , cellphoneCheck
     , cellphoneCog
     , cellphoneDock
     , cellphoneInformation
@@ -63,22 +63,22 @@ module Material.Icons.Categories.Cellphone exposing
     , phoneCheckOutline
     , phoneClassic
     , phoneClock
-    , phoneDialOutline
     , phoneDial
+    , phoneDialOutline
     , phoneForward
-    , phoneHangup
     , phoneForwardOutline
+    , phoneHangup
     , phoneHangupOutline
     , phoneInTalk
     , phoneInTalkOutline
     , phoneIncoming
     , phoneIncomingOutgoing
-    , phoneIncomingOutline
     , phoneIncomingOutgoingOutline
+    , phoneIncomingOutline
     , phoneLock
     , phoneLockOutline
-    , phoneLogOutline
     , phoneLog
+    , phoneLogOutline
     , phoneMessage
     , phoneMessageOutline
     , phoneMinus
@@ -91,8 +91,8 @@ module Material.Icons.Categories.Cellphone exposing
     , phoneOutgoingOutline
     , phoneOutline
     , phonePaused
-    , phonePlus
     , phonePausedOutline
+    , phonePlus
     , phonePlusOutline
     , phoneRefresh
     , phoneRefreshOutline
@@ -107,16 +107,16 @@ module Material.Icons.Categories.Cellphone exposing
     , phoneSettings
     , phoneSettingsOutline
     , phoneSync
-    , phoneSyncOutline
     , phoneVoip
-    , signal
+    , phoneSyncOutline
     , signal2g
-    , signal4g
+    , signal
     , signal3g
+    , signal4g
     , signal5g
     , signalCellular2
-    , signalCellular1
     , signalCellular3
+    , signalCellular1
     , signalCellularOutline
     , signalHspa
     , signalHspaPlus
@@ -125,15 +125,15 @@ module Material.Icons.Categories.Cellphone exposing
     , simAlert
     , simAlertOutline
     , simOff
-    , simOutline
     , simOffOutline
+    , simOutline
     , tabletCellphone
     , tooltipCellphone
     , volumeHigh
     , volumeLow
     , volumeMedium
-    , volumeMute
     , volumeMinus
+    , volumeMute
     , volumeOff
     , volumePlus
     , volumeSource
@@ -152,8 +152,8 @@ module Material.Icons.Categories.Cellphone exposing
 @docs cellphoneArrowDown
 @docs cellphoneArrowDownVariant
 @docs cellphoneBasic
-@docs cellphoneCheck
 @docs cellphoneCharging
+@docs cellphoneCheck
 @docs cellphoneCog
 @docs cellphoneDock
 @docs cellphoneInformation
@@ -203,22 +203,22 @@ module Material.Icons.Categories.Cellphone exposing
 @docs phoneCheckOutline
 @docs phoneClassic
 @docs phoneClock
-@docs phoneDialOutline
 @docs phoneDial
+@docs phoneDialOutline
 @docs phoneForward
-@docs phoneHangup
 @docs phoneForwardOutline
+@docs phoneHangup
 @docs phoneHangupOutline
 @docs phoneInTalk
 @docs phoneInTalkOutline
 @docs phoneIncoming
 @docs phoneIncomingOutgoing
-@docs phoneIncomingOutline
 @docs phoneIncomingOutgoingOutline
+@docs phoneIncomingOutline
 @docs phoneLock
 @docs phoneLockOutline
-@docs phoneLogOutline
 @docs phoneLog
+@docs phoneLogOutline
 @docs phoneMessage
 @docs phoneMessageOutline
 @docs phoneMinus
@@ -231,8 +231,8 @@ module Material.Icons.Categories.Cellphone exposing
 @docs phoneOutgoingOutline
 @docs phoneOutline
 @docs phonePaused
-@docs phonePlus
 @docs phonePausedOutline
+@docs phonePlus
 @docs phonePlusOutline
 @docs phoneRefresh
 @docs phoneRefreshOutline
@@ -247,16 +247,16 @@ module Material.Icons.Categories.Cellphone exposing
 @docs phoneSettings
 @docs phoneSettingsOutline
 @docs phoneSync
-@docs phoneSyncOutline
 @docs phoneVoip
-@docs signal
+@docs phoneSyncOutline
 @docs signal2g
-@docs signal4g
+@docs signal
 @docs signal3g
+@docs signal4g
 @docs signal5g
 @docs signalCellular2
-@docs signalCellular1
 @docs signalCellular3
+@docs signalCellular1
 @docs signalCellularOutline
 @docs signalHspa
 @docs signalHspaPlus
@@ -265,15 +265,15 @@ module Material.Icons.Categories.Cellphone exposing
 @docs simAlert
 @docs simAlertOutline
 @docs simOff
-@docs simOutline
 @docs simOffOutline
+@docs simOutline
 @docs tabletCellphone
 @docs tooltipCellphone
 @docs volumeHigh
 @docs volumeLow
 @docs volumeMedium
-@docs volumeMute
 @docs volumeMinus
+@docs volumeMute
 @docs volumeOff
 @docs volumePlus
 @docs volumeSource
@@ -384,16 +384,6 @@ cellphoneBasic =
     Material.Icons.Directory.C.cellphoneBasic
 
 
-{-| The [`cellphone-check`](https://pictogrammers.com/library/mdi/icon/cellphone-check/) icon.
-
-![cellphone-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjU0IDIzSDdDNS45IDIzIDUgMjIuMTEgNSAyMVYzQzUgMS44OSA1Ljg5IDEgNyAxSDE3QzE4LjEgMSAxOSAxLjg5IDE5IDNWMTNDMTguMyAxMyAxNy42MyAxMy4xMyAxNyAxMy4zNVY1SDdWMTlIMTNDMTMgMjAuNTQgMTMuNTggMjEuOTQgMTQuNTQgMjNNMTcuNzUgMjIuMTZMMTUgMTkuMTZMMTYuMTYgMThMMTcuNzUgMTkuNTlMMjEuMzQgMTZMMjIuNSAxNy40MUwxNy43NSAyMi4xNiIgLz48L3N2Zz4=)
-
--}
-cellphoneCheck : IconShape
-cellphoneCheck =
-    Material.Icons.Directory.C.cellphoneCheck
-
-
 {-| The [`cellphone-charging`](https://pictogrammers.com/library/mdi/icon/cellphone-charging/) icon.
 
 ![cellphone-charging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE4LjVWMTNIOUwxMyA1LjVWMTFIMTVNMTcgMTlIN1Y1SDE3TTE3IDFIN0M1Ljg5IDEgNSAxLjg5IDUgM1YyMUEyIDIgMCAwIDAgNyAyM0gxN0EyIDIgMCAwIDAgMTkgMjFWM0MxOSAxLjg5IDE4LjEgMSAxNyAxWiIgLz48L3N2Zz4=)
@@ -402,6 +392,16 @@ cellphoneCheck =
 cellphoneCharging : IconShape
 cellphoneCharging =
     Material.Icons.Directory.C.cellphoneCharging
+
+
+{-| The [`cellphone-check`](https://pictogrammers.com/library/mdi/icon/cellphone-check/) icon.
+
+![cellphone-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjU0IDIzSDdDNS45IDIzIDUgMjIuMTEgNSAyMVYzQzUgMS44OSA1Ljg5IDEgNyAxSDE3QzE4LjEgMSAxOSAxLjg5IDE5IDNWMTNDMTguMyAxMyAxNy42MyAxMy4xMyAxNyAxMy4zNVY1SDdWMTlIMTNDMTMgMjAuNTQgMTMuNTggMjEuOTQgMTQuNTQgMjNNMTcuNzUgMjIuMTZMMTUgMTkuMTZMMTYuMTYgMThMMTcuNzUgMTkuNTlMMjEuMzQgMTZMMjIuNSAxNy40MUwxNy43NSAyMi4xNiIgLz48L3N2Zz4=)
+
+-}
+cellphoneCheck : IconShape
+cellphoneCheck =
+    Material.Icons.Directory.C.cellphoneCheck
 
 
 {-| The [`cellphone-cog`](https://pictogrammers.com/library/mdi/icon/cellphone-cog/) icon.
@@ -894,16 +894,6 @@ phoneClock =
     Material.Icons.Directory.P.phoneClock
 
 
-{-| The [`phone-dial-outline`](https://pictogrammers.com/library/mdi/icon/phone-dial-outline/) icon.
-
-![phone-dial-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNSA0QzE1IDQuNiAxNC42IDUgMTQgNVMxMyA0LjYgMTMgNCAxMy40IDMgMTQgMyAxNSAzLjQgMTUgNE0xOCA0QzE4IDQuNiAxNy42IDUgMTcgNVMxNiA0LjYgMTYgNCAxNi40IDMgMTcgMyAxOCAzLjQgMTggNE0yMSA0QzIxIDQuNiAyMC42IDUgMjAgNVMxOSA0LjYgMTkgNCAxOS40IDMgMjAgMyAyMSAzLjQgMjEgNE0xNSA3QzE1IDcuNiAxNC42IDggMTQgOFMxMyA3LjYgMTMgNyAxMy40IDYgMTQgNiAxNSA2LjQgMTUgN00xOCA3QzE4IDcuNiAxNy42IDggMTcgOFMxNiA3LjYgMTYgNyAxNi40IDYgMTcgNiAxOCA2LjQgMTggN00yMSA3QzIxIDcuNiAyMC42IDggMjAgOFMxOSA3LjYgMTkgNyAxOS40IDYgMjAgNiAyMSA2LjQgMjEgN00xNSAxMEMxNSAxMC42IDE0LjYgMTEgMTQgMTFTMTMgMTAuNiAxMyAxMCAxMy40IDkgMTQgOSAxNSA5LjQgMTUgMTBNMTggMTBDMTggMTAuNiAxNy42IDExIDE3IDExUzE2IDEwLjYgMTYgMTAgMTYuNCA5IDE3IDkgMTggOS40IDE4IDEwTTIxIDEwQzIxIDEwLjYgMjAuNiAxMSAyMCAxMVMxOSAxMC42IDE5IDEwIDE5LjQgOSAyMCA5IDIxIDkuNCAyMSAxMFoiIC8+PC9zdmc+)
-
--}
-phoneDialOutline : IconShape
-phoneDialOutline =
-    Material.Icons.Directory.P.phoneDialOutline
-
-
 {-| The [`phone-dial`](https://pictogrammers.com/library/mdi/icon/phone-dial/) icon.
 
 ![phone-dial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNiAxMC44QzggMTMuNiAxMC40IDE1LjkgMTMuMiAxNy40TDE1LjQgMTUuMkMxNS43IDE0LjkgMTYuMSAxNC44IDE2LjQgMTVDMTcuNSAxNS40IDE4LjcgMTUuNiAyMCAxNS42QzIwLjYgMTUuNiAyMSAxNiAyMSAxNi42VjIwQzIxIDIwLjYgMjAuNiAyMSAyMCAyMUMxMC42IDIxIDMgMTMuNCAzIDRDMyAzLjQgMy41IDMgNCAzSDcuNUM4LjEgMyA4LjUgMy40IDguNSA0QzguNSA1LjIgOC43IDYuNCA5LjEgNy42QzkuMiA3LjkgOS4xIDguMyA4LjkgOC42TDYuNiAxMC44TTE0IDNDMTMuNCAzIDEzIDMuNCAxMyA0UzEzLjQgNSAxNCA1IDE1IDQuNiAxNSA0IDE0LjYgMyAxNCAzTTE3IDNDMTYuNCAzIDE2IDMuNCAxNiA0UzE2LjQgNSAxNyA1IDE4IDQuNiAxOCA0IDE3LjYgMyAxNyAzTTIwIDNDMTkuNCAzIDE5IDMuNCAxOSA0UzE5LjQgNSAyMCA1IDIxIDQuNiAyMSA0IDIwLjYgMyAyMCAzTTE0IDZDMTMuNCA2IDEzIDYuNCAxMyA3UzEzLjQgOCAxNCA4IDE1IDcuNiAxNSA3IDE0LjYgNiAxNCA2TTE3IDZDMTYuNCA2IDE2IDYuNCAxNiA3UzE2LjQgOCAxNyA4IDE4IDcuNiAxOCA3IDE3LjYgNiAxNyA2TTIwIDZDMTkuNCA2IDE5IDYuNCAxOSA3UzE5LjQgOCAyMCA4IDIxIDcuNiAyMSA3IDIwLjYgNiAyMCA2TTE0IDlDMTMuNCA5IDEzIDkuNCAxMyAxMFMxMy40IDExIDE0IDExIDE1IDEwLjYgMTUgMTAgMTQuNiA5IDE0IDlNMTcgOUMxNi40IDkgMTYgOS40IDE2IDEwUzE2LjQgMTEgMTcgMTEgMTggMTAuNiAxOCAxMCAxNy42IDkgMTcgOU0yMCA5QzE5LjQgOSAxOSA5LjQgMTkgMTBTMTkuNCAxMSAyMCAxMSAyMSAxMC42IDIxIDEwIDIwLjYgOSAyMCA5WiIgLz48L3N2Zz4=)
@@ -912,6 +902,16 @@ phoneDialOutline =
 phoneDial : IconShape
 phoneDial =
     Material.Icons.Directory.P.phoneDial
+
+
+{-| The [`phone-dial-outline`](https://pictogrammers.com/library/mdi/icon/phone-dial-outline/) icon.
+
+![phone-dial-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNSA0QzE1IDQuNiAxNC42IDUgMTQgNVMxMyA0LjYgMTMgNCAxMy40IDMgMTQgMyAxNSAzLjQgMTUgNE0xOCA0QzE4IDQuNiAxNy42IDUgMTcgNVMxNiA0LjYgMTYgNCAxNi40IDMgMTcgMyAxOCAzLjQgMTggNE0yMSA0QzIxIDQuNiAyMC42IDUgMjAgNVMxOSA0LjYgMTkgNCAxOS40IDMgMjAgMyAyMSAzLjQgMjEgNE0xNSA3QzE1IDcuNiAxNC42IDggMTQgOFMxMyA3LjYgMTMgNyAxMy40IDYgMTQgNiAxNSA2LjQgMTUgN00xOCA3QzE4IDcuNiAxNy42IDggMTcgOFMxNiA3LjYgMTYgNyAxNi40IDYgMTcgNiAxOCA2LjQgMTggN00yMSA3QzIxIDcuNiAyMC42IDggMjAgOFMxOSA3LjYgMTkgNyAxOS40IDYgMjAgNiAyMSA2LjQgMjEgN00xNSAxMEMxNSAxMC42IDE0LjYgMTEgMTQgMTFTMTMgMTAuNiAxMyAxMCAxMy40IDkgMTQgOSAxNSA5LjQgMTUgMTBNMTggMTBDMTggMTAuNiAxNy42IDExIDE3IDExUzE2IDEwLjYgMTYgMTAgMTYuNCA5IDE3IDkgMTggOS40IDE4IDEwTTIxIDEwQzIxIDEwLjYgMjAuNiAxMSAyMCAxMVMxOSAxMC42IDE5IDEwIDE5LjQgOSAyMCA5IDIxIDkuNCAyMSAxMFoiIC8+PC9zdmc+)
+
+-}
+phoneDialOutline : IconShape
+phoneDialOutline =
+    Material.Icons.Directory.P.phoneDialOutline
 
 
 {-| The [`phone-forward`](https://pictogrammers.com/library/mdi/icon/phone-forward/) icon.
@@ -924,16 +924,6 @@ phoneForward =
     Material.Icons.Directory.P.phoneForward
 
 
-{-| The [`phone-hangup`](https://pictogrammers.com/library/mdi/icon/phone-hangup/) icon.
-
-![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDlDMTAuNCw5IDguODUsOS4yNSA3LjQsOS43MlYxMi44MkM3LjQsMTMuMjIgNy4xNywxMy41NiA2Ljg0LDEzLjcyQzUuODYsMTQuMjEgNC45NywxNC44NCA0LjE3LDE1LjU3QzQsMTUuNzUgMy43NSwxNS44NiAzLjUsMTUuODZDMy4yLDE1Ljg2IDIuOTUsMTUuNzQgMi43NywxNS41NkwwLjI5LDEzLjA4QzAuMTEsMTIuOSAwLDEyLjY1IDAsMTIuMzhDMCwxMi4xIDAuMTEsMTEuODUgMC4yOSwxMS42N0MzLjM0LDguNzcgNy40Niw3IDEyLDdDMTYuNTQsNyAyMC42Niw4Ljc3IDIzLjcxLDExLjY3QzIzLjg5LDExLjg1IDI0LDEyLjEgMjQsMTIuMzhDMjQsMTIuNjUgMjMuODksMTIuOSAyMy43MSwxMy4wOEwyMS4yMywxNS41NkMyMS4wNSwxNS43NCAyMC44LDE1Ljg2IDIwLjUsMTUuODZDMjAuMjUsMTUuODYgMjAsMTUuNzUgMTkuODIsMTUuNTdDMTkuMDMsMTQuODQgMTguMTQsMTQuMjEgMTcuMTYsMTMuNzJDMTYuODMsMTMuNTYgMTYuNiwxMy4yMiAxNi42LDEyLjgyVjkuNzJDMTUuMTUsOS4yNSAxMy42LDkgMTIsOVoiIC8+PC9zdmc+)
-
--}
-phoneHangup : IconShape
-phoneHangup =
-    Material.Icons.Directory.P.phoneHangup
-
-
 {-| The [`phone-forward-outline`](https://pictogrammers.com/library/mdi/icon/phone-forward-outline/) icon.
 
 ![phone-forward-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOCAxMUwyMyA2TDE4IDFWNEgxNFY4SDE4VjExWiIgLz48L3N2Zz4=)
@@ -942,6 +932,16 @@ phoneHangup =
 phoneForwardOutline : IconShape
 phoneForwardOutline =
     Material.Icons.Directory.P.phoneForwardOutline
+
+
+{-| The [`phone-hangup`](https://pictogrammers.com/library/mdi/icon/phone-hangup/) icon.
+
+![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDlDMTAuNCw5IDguODUsOS4yNSA3LjQsOS43MlYxMi44MkM3LjQsMTMuMjIgNy4xNywxMy41NiA2Ljg0LDEzLjcyQzUuODYsMTQuMjEgNC45NywxNC44NCA0LjE3LDE1LjU3QzQsMTUuNzUgMy43NSwxNS44NiAzLjUsMTUuODZDMy4yLDE1Ljg2IDIuOTUsMTUuNzQgMi43NywxNS41NkwwLjI5LDEzLjA4QzAuMTEsMTIuOSAwLDEyLjY1IDAsMTIuMzhDMCwxMi4xIDAuMTEsMTEuODUgMC4yOSwxMS42N0MzLjM0LDguNzcgNy40Niw3IDEyLDdDMTYuNTQsNyAyMC42Niw4Ljc3IDIzLjcxLDExLjY3QzIzLjg5LDExLjg1IDI0LDEyLjEgMjQsMTIuMzhDMjQsMTIuNjUgMjMuODksMTIuOSAyMy43MSwxMy4wOEwyMS4yMywxNS41NkMyMS4wNSwxNS43NCAyMC44LDE1Ljg2IDIwLjUsMTUuODZDMjAuMjUsMTUuODYgMjAsMTUuNzUgMTkuODIsMTUuNTdDMTkuMDMsMTQuODQgMTguMTQsMTQuMjEgMTcuMTYsMTMuNzJDMTYuODMsMTMuNTYgMTYuNiwxMy4yMiAxNi42LDEyLjgyVjkuNzJDMTUuMTUsOS4yNSAxMy42LDkgMTIsOVoiIC8+PC9zdmc+)
+
+-}
+phoneHangup : IconShape
+phoneHangup =
+    Material.Icons.Directory.P.phoneHangup
 
 
 {-| The [`phone-hangup-outline`](https://pictogrammers.com/library/mdi/icon/phone-hangup-outline/) icon.
@@ -994,16 +994,6 @@ phoneIncomingOutgoing =
     Material.Icons.Directory.P.phoneIncomingOutgoing
 
 
-{-| The [`phone-incoming-outline`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outline/) icon.
-
-![phone-incoming-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOSAxMVY5LjVIMTUuNUwyMSA0TDIwIDNMMTQuNSA4LjVWNUgxM1YxMUgxOVoiIC8+PC9zdmc+)
-
--}
-phoneIncomingOutline : IconShape
-phoneIncomingOutline =
-    Material.Icons.Directory.P.phoneIncomingOutline
-
-
 {-| The [`phone-incoming-outgoing-outline`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outgoing-outline/) icon.
 
 ![phone-incoming-outgoing-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDE2LjVDMTcuOCAxNi41IDE2LjUgMTYuMyAxNS40IDE1LjlIMTUuMUMxNC44IDE1LjkgMTQuNiAxNiAxNC40IDE2LjJMMTIuMiAxOC40QzkuNCAxNi45IDcgMTQuNiA1LjYgMTEuOEw3LjggOS42QzguMSA5LjMgOC4yIDguOSA4IDguNkM3LjcgNy41IDcuNSA2LjIgNy41IDVDNy41IDQuNSA3IDQgNi41IDRIM0MyLjUgNCAyIDQuNSAyIDVDMiAxNC40IDkuNiAyMiAxOSAyMkMxOS41IDIyIDIwIDIxLjUgMjAgMjFWMTcuNUMyMCAxNyAxOS41IDE2LjUgMTkgMTYuNU00IDZINS41QzUuNiA2LjkgNS44IDcuOCA2IDguNkw0LjggOS44QzQuNCA4LjYgNC4xIDcuMyA0IDZNMTggMjBDMTYuNyAxOS45IDE1LjQgMTkuNiAxNC4yIDE5LjJMMTUuNCAxOEMxNi4yIDE4LjIgMTcuMSAxOC40IDE4IDE4LjRWMjBNMTYgOVY3LjVIMTIuNUwxOCAyTDE3IDFMMTEuNSA2LjVWM0gxMFY5SDE2TTE3IDZWNy41SDIwLjVMMTUgMTNMMTYgMTRMMjEuNSA4LjVWMTJIMjNWNkgxN1oiIC8+PC9zdmc+)
@@ -1012,6 +1002,16 @@ phoneIncomingOutline =
 phoneIncomingOutgoingOutline : IconShape
 phoneIncomingOutgoingOutline =
     Material.Icons.Directory.P.phoneIncomingOutgoingOutline
+
+
+{-| The [`phone-incoming-outline`](https://pictogrammers.com/library/mdi/icon/phone-incoming-outline/) icon.
+
+![phone-incoming-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOSAxMVY5LjVIMTUuNUwyMSA0TDIwIDNMMTQuNSA4LjVWNUgxM1YxMUgxOVoiIC8+PC9zdmc+)
+
+-}
+phoneIncomingOutline : IconShape
+phoneIncomingOutline =
+    Material.Icons.Directory.P.phoneIncomingOutline
 
 
 {-| The [`phone-lock`](https://pictogrammers.com/library/mdi/icon/phone-lock/) icon.
@@ -1034,16 +1034,6 @@ phoneLockOutline =
     Material.Icons.Directory.P.phoneLockOutline
 
 
-{-| The [`phone-log-outline`](https://pictogrammers.com/library/mdi/icon/phone-log-outline/) icon.
-
-![phone-log-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xMiAzSDE0VjVIMTJNMTUgM0gyMVY1SDE1TTEyIDZIMTRWOEgxMk0xNSA2SDIxVjhIMTVNMTIgOUgxNFYxMUgxMk0xNSA5SDIxVjExSDE1WiIgLz48L3N2Zz4=)
-
--}
-phoneLogOutline : IconShape
-phoneLogOutline =
-    Material.Icons.Directory.P.phoneLogOutline
-
-
 {-| The [`phone-log`](https://pictogrammers.com/library/mdi/icon/phone-log/) icon.
 
 ![phone-log](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE1LjVBMSwxIDAgMCwxIDIxLDE2LjVWMjBBMSwxIDAgMCwxIDIwLDIxQTE3LDE3IDAgMCwxIDMsNEExLDEgMCAwLDEgNCwzSDcuNUExLDEgMCAwLDEgOC41LDRDOC41LDUuMjQgOC43LDYuNDUgOS4wNyw3LjU3QzkuMTgsNy45MiA5LjEsOC4zMSA4LjgyLDguNThMNi42MiwxMC43OUM4LjA2LDEzLjYyIDEwLjM4LDE1Ljk0IDEzLjIxLDE3LjM4TDE1LjQxLDE1LjE4QzE1LjY5LDE0LjkgMTYuMDgsMTQuODIgMTYuNDMsMTQuOTNDMTcuNTUsMTUuMyAxOC43NSwxNS41IDIwLDE1LjVNMTIsM0gxNFY1SDEyTTE1LDNIMjFWNUgxNU0xMiw2SDE0VjhIMTJNMTUsNkgyMVY4SDE1TTEyLDlIMTRWMTFIMTJNMTUsOUgyMVYxMUgxNSIgLz48L3N2Zz4=)
@@ -1052,6 +1042,16 @@ phoneLogOutline =
 phoneLog : IconShape
 phoneLog =
     Material.Icons.Directory.P.phoneLog
+
+
+{-| The [`phone-log-outline`](https://pictogrammers.com/library/mdi/icon/phone-log-outline/) icon.
+
+![phone-log-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xMiAzSDE0VjVIMTJNMTUgM0gyMVY1SDE1TTEyIDZIMTRWOEgxMk0xNSA2SDIxVjhIMTVNMTIgOUgxNFYxMUgxMk0xNSA5SDIxVjExSDE1WiIgLz48L3N2Zz4=)
+
+-}
+phoneLogOutline : IconShape
+phoneLogOutline =
+    Material.Icons.Directory.P.phoneLogOutline
 
 
 {-| The [`phone-message`](https://pictogrammers.com/library/mdi/icon/phone-message/) icon.
@@ -1174,16 +1174,6 @@ phonePaused =
     Material.Icons.Directory.P.phonePaused
 
 
-{-| The [`phone-plus`](https://pictogrammers.com/library/mdi/icon/phone-plus/) icon.
-
-![phone-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc2LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE4TDEzLjIxLDE3LjM4QzEwLjM4LDE1Ljk0IDguMDcsMTMuNjIgNi42MiwxMC43OUw4LjgyLDguNThDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNCA4LjUsNEExLDEgMCAwLDAgNy41LDNNMTYsM1Y2SDEzVjhIMTZWMTFIMThWOEgyMVY2SDE4VjMiIC8+PC9zdmc+)
-
--}
-phonePlus : IconShape
-phonePlus =
-    Material.Icons.Directory.P.phonePlus
-
-
 {-| The [`phone-paused-outline`](https://pictogrammers.com/library/mdi/icon/phone-paused-outline/) icon.
 
 ![phone-paused-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xOSAxMEgyMVYzSDE5TTE3IDNIMTVWMTBIMTdWM1oiIC8+PC9zdmc+)
@@ -1192,6 +1182,16 @@ phonePlus =
 phonePausedOutline : IconShape
 phonePausedOutline =
     Material.Icons.Directory.P.phonePausedOutline
+
+
+{-| The [`phone-plus`](https://pictogrammers.com/library/mdi/icon/phone-plus/) icon.
+
+![phone-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0ExLDEgMCAwLDAgMyw0QTE3LDE3IDAgMCwwIDIwLDIxQTEsMSAwIDAsMCAyMSwyMFYxNi41QTEsMSAwIDAsMCAyMCwxNS41QzE4Ljc2LDE1LjUgMTcuNTUsMTUuMyAxNi40MywxNC45M0MxNi4wOCwxNC44MiAxNS42OSwxNC45IDE1LjQxLDE1LjE4TDEzLjIxLDE3LjM4QzEwLjM4LDE1Ljk0IDguMDcsMTMuNjIgNi42MiwxMC43OUw4LjgyLDguNThDOS4xLDguMzEgOS4xOCw3LjkyIDkuMDcsNy41N0M4LjcsNi40NSA4LjUsNS4yNCA4LjUsNEExLDEgMCAwLDAgNy41LDNNMTYsM1Y2SDEzVjhIMTZWMTFIMThWOEgyMVY2SDE4VjMiIC8+PC9zdmc+)
+
+-}
+phonePlus : IconShape
+phonePlus =
+    Material.Icons.Directory.P.phonePlus
 
 
 {-| The [`phone-plus-outline`](https://pictogrammers.com/library/mdi/icon/phone-plus-outline/) icon.
@@ -1334,16 +1334,6 @@ phoneSync =
     Material.Icons.Directory.P.phoneSync
 
 
-{-| The [`phone-sync-outline`](https://pictogrammers.com/library/mdi/icon/phone-sync-outline/) icon.
-
-![phone-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyAzVjEuNUwxNC43NSAzLjc1TDE3IDZWNC41QzE4LjM4IDQuNSAxOS41IDUuNjIgMTkuNSA3QzE5LjUgNy40IDE5LjQxIDcuNzggMTkuMjQgOC4xMkwyMC4zMyA5LjIxQzIwLjc1IDguNTggMjEgNy44MiAyMSA3QzIxIDQuNzkgMTkuMjEgMyAxNyAzTTE3IDkuNUMxNS42MiA5LjUgMTQuNSA4LjM4IDE0LjUgN0MxNC41IDYuNiAxNC41OSA2LjIyIDE0Ljc2IDUuODhMMTMuNjcgNC43OUMxMy4yNSA1LjQyIDEzIDYuMTggMTMgN0MxMyA5LjIxIDE0Ljc5IDExIDE3IDExVjEyLjVMMTkuMjUgMTAuMjVMMTcgOFY5LjVaIiAvPjwvc3ZnPg==)
-
--}
-phoneSyncOutline : IconShape
-phoneSyncOutline =
-    Material.Icons.Directory.P.phoneSyncOutline
-
-
 {-| The [`phone-voip`](https://pictogrammers.com/library/mdi/icon/phone-voip/) icon.
 
 ![phone-voip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE3VjE5SDE0QTEsMSAwIDAsMSAxNSwyMEgyMlYyMkgxNUExLDEgMCAwLDEgMTQsMjNIMTBBMSwxIDAgMCwxIDksMjJIMlYyMEg5QTEsMSAwIDAsMSAxMCwxOUgxMVYxN0gxM00yMy43LDcuNjdDMjMuODgsNy44NSAyNCw4LjA5IDI0LDguMzdDMjQsOC42NSAyMy44OSw4LjkgMjMuNzEsOS4wOEwyMS4yMywxMS41NkMyMS4wNSwxMS43NCAyMC44LDExLjg1IDIwLjUsMTEuODVDMjAuMjUsMTEuODUgMjAsMTEuNzUgMTkuODIsMTEuNTdDMTksMTAuODQgMTguMTMsMTAuMjEgMTcuMTUsOS43MkMxNi44Miw5LjU2IDE2LjU5LDkuMjEgMTYuNTksOC44MlY1LjcyQzE1LjE0LDUuMjUgMTMuNTksNSAxMiw1QzEwLjQsNSA4Ljg1LDUuMjUgNy40LDUuNzNWOC44M0M3LjQsOS4yMyA3LjE3LDkuNTcgNi44NCw5LjczQzUuODcsMTAuMjIgNC45NywxMC44NCA0LjE4LDExLjU4QzQsMTEuNzUgMy43NSwxMS44NiAzLjUsMTEuODZDMy4yLDExLjg2IDIuOTUsMTEuNzUgMi43NywxMS41N0wwLjI5LDkuMDlDMC4xMSw4LjkxIDAsOC42NiAwLDguMzhDMCw4LjEgMC4xMSw3Ljg1IDAuMjksNy42N0MzLjM0LDQuNzggNy40NiwzIDEyLDNDMTYuNTMsMyAyMC42NSw0Ljc4IDIzLjcsNy42N00xMSwxMFYxNUgxMFYxMEgxMU0xMiwxMEgxNVYxM0gxM1YxNUgxMlYxME0xNCwxMlYxMUgxM1YxMkgxNFoiIC8+PC9zdmc+)
@@ -1354,14 +1344,14 @@ phoneVoip =
     Material.Icons.Directory.P.phoneVoip
 
 
-{-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
+{-| The [`phone-sync-outline`](https://pictogrammers.com/library/mdi/icon/phone-sync-outline/) icon.
 
-![signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMjFINlYxOEgzTTgsMjFIMTFWMTRIOE0xMywyMUgxNlY5SDEzTTE4LDIxSDIxVjNIMThWMjFaIiAvPjwvc3ZnPg==)
+![phone-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyAzVjEuNUwxNC43NSAzLjc1TDE3IDZWNC41QzE4LjM4IDQuNSAxOS41IDUuNjIgMTkuNSA3QzE5LjUgNy40IDE5LjQxIDcuNzggMTkuMjQgOC4xMkwyMC4zMyA5LjIxQzIwLjc1IDguNTggMjEgNy44MiAyMSA3QzIxIDQuNzkgMTkuMjEgMyAxNyAzTTE3IDkuNUMxNS42MiA5LjUgMTQuNSA4LjM4IDE0LjUgN0MxNC41IDYuNiAxNC41OSA2LjIyIDE0Ljc2IDUuODhMMTMuNjcgNC43OUMxMy4yNSA1LjQyIDEzIDYuMTggMTMgN0MxMyA5LjIxIDE0Ljc5IDExIDE3IDExVjEyLjVMMTkuMjUgMTAuMjVMMTcgOFY5LjVaIiAvPjwvc3ZnPg==)
 
 -}
-signal : IconShape
-signal =
-    Material.Icons.Directory.S.signal
+phoneSyncOutline : IconShape
+phoneSyncOutline =
+    Material.Icons.Directory.P.phoneSyncOutline
 
 
 {-| The [`signal-2g`](https://pictogrammers.com/library/mdi/icon/signal-2g/) icon.
@@ -1374,14 +1364,14 @@ signal2g =
     Material.Icons.Directory.S.signal2g
 
 
-{-| The [`signal-4g`](https://pictogrammers.com/library/mdi/icon/signal-4g/) icon.
+{-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
 
-![signal-4g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE2LjVWMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNU04LDE5LjVIMTFWNC41SDhWMTAuNUg1VjQuNUgyVjEzLjVIOFYxOS41WiIgLz48L3N2Zz4=)
+![signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMjFINlYxOEgzTTgsMjFIMTFWMTRIOE0xMywyMUgxNlY5SDEzTTE4LDIxSDIxVjNIMThWMjFaIiAvPjwvc3ZnPg==)
 
 -}
-signal4g : IconShape
-signal4g =
-    Material.Icons.Directory.S.signal4g
+signal : IconShape
+signal =
+    Material.Icons.Directory.S.signal
 
 
 {-| The [`signal-3g`](https://pictogrammers.com/library/mdi/icon/signal-3g/) icon.
@@ -1392,6 +1382,16 @@ signal4g =
 signal3g : IconShape
 signal3g =
     Material.Icons.Directory.S.signal3g
+
+
+{-| The [`signal-4g`](https://pictogrammers.com/library/mdi/icon/signal-4g/) icon.
+
+![signal-4g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDE2LjVWMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNU04LDE5LjVIMTFWNC41SDhWMTAuNUg1VjQuNUgyVjEzLjVIOFYxOS41WiIgLz48L3N2Zz4=)
+
+-}
+signal4g : IconShape
+signal4g =
+    Material.Icons.Directory.S.signal4g
 
 
 {-| The [`signal-5g`](https://pictogrammers.com/library/mdi/icon/signal-5g/) icon.
@@ -1414,16 +1414,6 @@ signalCellular2 =
     Material.Icons.Directory.S.signalCellular2
 
 
-{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
-
-![signal-cellular-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
-
--}
-signalCellular1 : IconShape
-signalCellular1 =
-    Material.Icons.Directory.S.signalCellular1
-
-
 {-| The [`signal-cellular-3`](https://pictogrammers.com/library/mdi/icon/signal-cellular-3/) icon.
 
 ![signal-cellular-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDRIMTZWMjBIMjFWNE0xNCw5SDlWMjBIMTRWOU03LDE0SDJWMjBIN1YxNFoiIC8+PC9zdmc+)
@@ -1432,6 +1422,16 @@ signalCellular1 =
 signalCellular3 : IconShape
 signalCellular3 =
     Material.Icons.Directory.S.signalCellular3
+
+
+{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
+
+![signal-cellular-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
+
+-}
+signalCellular1 : IconShape
+signalCellular1 =
+    Material.Icons.Directory.S.signalCellular1
 
 
 {-| The [`signal-cellular-outline`](https://pictogrammers.com/library/mdi/icon/signal-cellular-outline/) icon.
@@ -1514,16 +1514,6 @@ simOff =
     Material.Icons.Directory.S.simOff
 
 
-{-| The [`sim-outline`](https://pictogrammers.com/library/mdi/icon/sim-outline/) icon.
-
-![sim-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRWMjBINlY4LjhMMTAuOCA0SDE4TTE4IDJIMTBMNCA4VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOEMxOS4xIDIyIDIwIDIxLjEgMjAgMjBWNEMyMCAyLjkgMTkuMSAyIDE4IDJNOS41IDE5SDcuNVYxN0g5LjVWMTlNMTYuNSAxOUgxNC41VjE3SDE2LjVWMTlNOS41IDE1SDcuNVYxMUg5LjVWMTVNMTMgMTlIMTFWMTVIMTNWMTlNMTMgMTNIMTFWMTFIMTNWMTNNMTYuNSAxNUgxNC41VjExSDE2LjVWMTVaIiAvPjwvc3ZnPg==)
-
--}
-simOutline : IconShape
-simOutline =
-    Material.Icons.Directory.S.simOutline
-
-
 {-| The [`sim-off-outline`](https://pictogrammers.com/library/mdi/icon/sim-off-outline/) icon.
 
 ![sim-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIuMzkgMS43M0wxLjExIDNMNS4wNiA2Ljk1TDQgOFYyMEM0IDIxLjExIDQuODkgMjIgNiAyMkgxOEMxOC41OCAyMiAxOS4xIDIxLjc1IDE5LjQ2IDIxLjM1TDIwLjg0IDIyLjczTDIyLjExIDIxLjQ2TTE4IDIwSDZWOC44M0w2LjQ3IDguMzZMMTggMTkuODlWMjBNMTAuODMgNEgxOFYxNC44TDIwIDE2LjhWNEMyMCAyLjkgMTkuMTEgMiAxOCAySDEwTDcuNiA0LjRMOSA1LjgxTDEwLjgzIDRaIiAvPjwvc3ZnPg==)
@@ -1532,6 +1522,16 @@ simOutline =
 simOffOutline : IconShape
 simOffOutline =
     Material.Icons.Directory.S.simOffOutline
+
+
+{-| The [`sim-outline`](https://pictogrammers.com/library/mdi/icon/sim-outline/) icon.
+
+![sim-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRWMjBINlY4LjhMMTAuOCA0SDE4TTE4IDJIMTBMNCA4VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxOEMxOS4xIDIyIDIwIDIxLjEgMjAgMjBWNEMyMCAyLjkgMTkuMSAyIDE4IDJNOS41IDE5SDcuNVYxN0g5LjVWMTlNMTYuNSAxOUgxNC41VjE3SDE2LjVWMTlNOS41IDE1SDcuNVYxMUg5LjVWMTVNMTMgMTlIMTFWMTVIMTNWMTlNMTMgMTNIMTFWMTFIMTNWMTNNMTYuNSAxNUgxNC41VjExSDE2LjVWMTVaIiAvPjwvc3ZnPg==)
+
+-}
+simOutline : IconShape
+simOutline =
+    Material.Icons.Directory.S.simOutline
 
 
 {-| The [`tablet-cellphone`](https://pictogrammers.com/library/mdi/icon/tablet-cellphone/) icon.
@@ -1584,16 +1584,6 @@ volumeMedium =
     Material.Icons.Directory.V.volumeMedium
 
 
-{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
-
-![volume-mute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTYuNTksMTJMMTQsOS40MUwxNS40MSw4TDE4LDEwLjU5TDIwLjU5LDhMMjIsOS40MUwxOS40MSwxMkwyMiwxNC41OUwyMC41OSwxNkwxOCwxMy40MUwxNS40MSwxNkwxNCwxNC41OUwxNi41OSwxMloiIC8+PC9zdmc+)
-
--}
-volumeMute : IconShape
-volumeMute =
-    Material.Icons.Directory.V.volumeMute
-
-
 {-| The [`volume-minus`](https://pictogrammers.com/library/mdi/icon/volume-minus/) icon.
 
 ![volume-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTQsMTFIMjJWMTNIMTRWMTFaIiAvPjwvc3ZnPg==)
@@ -1602,6 +1592,16 @@ volumeMute =
 volumeMinus : IconShape
 volumeMinus =
     Material.Icons.Directory.V.volumeMinus
+
+
+{-| The [`volume-mute`](https://pictogrammers.com/library/mdi/icon/volume-mute/) icon.
+
+![volume-mute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsOUg3TDEyLDRWMjBMNywxNUgzVjlNMTYuNTksMTJMMTQsOS40MUwxNS40MSw4TDE4LDEwLjU5TDIwLjU5LDhMMjIsOS40MUwxOS40MSwxMkwyMiwxNC41OUwyMC41OSwxNkwxOCwxMy40MUwxNS40MSwxNkwxNCwxNC41OUwxNi41OSwxMloiIC8+PC9zdmc+)
+
+-}
+volumeMute : IconShape
+volumeMute =
+    Material.Icons.Directory.V.volumeMute
 
 
 {-| The [`volume-off`](https://pictogrammers.com/library/mdi/icon/volume-off/) icon.

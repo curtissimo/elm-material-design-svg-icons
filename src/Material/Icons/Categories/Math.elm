@@ -13,8 +13,8 @@ module Material.Icons.Categories.Math exposing
     , calculatorVariant
     , calculatorVariantOutline
     , chartArc
-    , chartAreasplineVariant
     , chartAreaspline
+    , chartAreasplineVariant
     , chartBar
     , chartBarStacked
     , chartBellCurve
@@ -27,12 +27,12 @@ module Material.Icons.Categories.Math exposing
     , chartBubble
     , chartDonut
     , chartDonutVariant
-    , chartGantt
-    , chartHistogram
     , chartLine
+    , chartGantt
     , chartLineStacked
-    , chartLineVariant
     , chartMultiline
+    , chartHistogram
+    , chartLineVariant
     , chartMultiple
     , chartPie
     , chartPieOutline
@@ -60,12 +60,12 @@ module Material.Icons.Categories.Math exposing
     , decimal
     , decimalComma
     , decimalCommaDecrease
-    , decimalDecrease
     , decimalCommaIncrease
+    , decimalDecrease
     , decimalIncrease
     , delta
-    , diameterOutline
     , diameter
+    , diameterOutline
     , diameterVariant
     , division
     , divisionBox
@@ -78,8 +78,8 @@ module Material.Icons.Categories.Math exposing
     , formatSuperscript
     , function
     , functionVariant
-    , greaterThanOrEqual
     , greaterThan
+    , greaterThanOrEqual
     , infinity
     , lambda
     , lessThan
@@ -99,14 +99,14 @@ module Material.Icons.Categories.Math exposing
     , multiplication
     , multiplicationBox
     , notEqualVariant
+    , percent
     , percentBox
     , percentBoxOutline
-    , percent
     , percentCircle
     , percentCircleOutline
     , percentOutline
-    , perspectiveMore
     , perspectiveLess
+    , perspectiveMore
     , pi
     , piBox
     , plus
@@ -125,8 +125,8 @@ module Material.Icons.Categories.Math exposing
     , slashForwardBox
     , squareRoot
     , tallyMark1
-    , tallyMark3
     , tallyMark2
+    , tallyMark3
     , tallyMark4
     , tallyMark5
     , textureBox
@@ -145,8 +145,8 @@ module Material.Icons.Categories.Math exposing
 @docs calculatorVariant
 @docs calculatorVariantOutline
 @docs chartArc
-@docs chartAreasplineVariant
 @docs chartAreaspline
+@docs chartAreasplineVariant
 @docs chartBar
 @docs chartBarStacked
 @docs chartBellCurve
@@ -159,12 +159,12 @@ module Material.Icons.Categories.Math exposing
 @docs chartBubble
 @docs chartDonut
 @docs chartDonutVariant
-@docs chartGantt
-@docs chartHistogram
 @docs chartLine
+@docs chartGantt
 @docs chartLineStacked
-@docs chartLineVariant
 @docs chartMultiline
+@docs chartHistogram
+@docs chartLineVariant
 @docs chartMultiple
 @docs chartPie
 @docs chartPieOutline
@@ -192,12 +192,12 @@ module Material.Icons.Categories.Math exposing
 @docs decimal
 @docs decimalComma
 @docs decimalCommaDecrease
-@docs decimalDecrease
 @docs decimalCommaIncrease
+@docs decimalDecrease
 @docs decimalIncrease
 @docs delta
-@docs diameterOutline
 @docs diameter
+@docs diameterOutline
 @docs diameterVariant
 @docs division
 @docs divisionBox
@@ -210,8 +210,8 @@ module Material.Icons.Categories.Math exposing
 @docs formatSuperscript
 @docs function
 @docs functionVariant
-@docs greaterThanOrEqual
 @docs greaterThan
+@docs greaterThanOrEqual
 @docs infinity
 @docs lambda
 @docs lessThan
@@ -231,14 +231,14 @@ module Material.Icons.Categories.Math exposing
 @docs multiplication
 @docs multiplicationBox
 @docs notEqualVariant
+@docs percent
 @docs percentBox
 @docs percentBoxOutline
-@docs percent
 @docs percentCircle
 @docs percentCircleOutline
 @docs percentOutline
-@docs perspectiveMore
 @docs perspectiveLess
+@docs perspectiveMore
 @docs pi
 @docs piBox
 @docs plus
@@ -257,8 +257,8 @@ module Material.Icons.Categories.Math exposing
 @docs slashForwardBox
 @docs squareRoot
 @docs tallyMark1
-@docs tallyMark3
 @docs tallyMark2
+@docs tallyMark3
 @docs tallyMark4
 @docs tallyMark5
 @docs textureBox
@@ -384,16 +384,6 @@ chartArc =
     Material.Icons.Directory.C.chartArc
 
 
-{-| The [`chart-areaspline-variant`](https://pictogrammers.com/library/mdi/icon/chart-areaspline-variant/) icon.
-
-![chart-areaspline-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDIxSDJWM0g0VjE1LjU0TDkuNSw2TDE2LDkuNzhMMjAuMjQsMi40NUwyMS45NywzLjQ1TDIyLDIxWiIgLz48L3N2Zz4=)
-
--}
-chartAreasplineVariant : IconShape
-chartAreasplineVariant =
-    Material.Icons.Directory.C.chartAreasplineVariant
-
-
 {-| The [`chart-areaspline`](https://pictogrammers.com/library/mdi/icon/chart-areaspline/) icon.
 
 ![chart-areaspline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LjQ1LDE1LjE4TDIyLDcuMzFWMTlMMjIsMjFIMlYzSDRWMTUuNTRMOS41LDZMMTYsOS43OEwyMC4yNCwyLjQ1TDIxLjk3LDMuNDVMMTYuNzQsMTIuNUwxMC4yMyw4Ljc1TDQuMzEsMTlINi41N0wxMC45NiwxMS40NEwxNy40NSwxNS4xOFoiIC8+PC9zdmc+)
@@ -402,6 +392,16 @@ chartAreasplineVariant =
 chartAreaspline : IconShape
 chartAreaspline =
     Material.Icons.Directory.C.chartAreaspline
+
+
+{-| The [`chart-areaspline-variant`](https://pictogrammers.com/library/mdi/icon/chart-areaspline-variant/) icon.
+
+![chart-areaspline-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDIxSDJWM0g0VjE1LjU0TDkuNSw2TDE2LDkuNzhMMjAuMjQsMi40NUwyMS45NywzLjQ1TDIyLDIxWiIgLz48L3N2Zz4=)
+
+-}
+chartAreasplineVariant : IconShape
+chartAreasplineVariant =
+    Material.Icons.Directory.C.chartAreasplineVariant
 
 
 {-| The [`chart-bar`](https://pictogrammers.com/library/mdi/icon/chart-bar/) icon.
@@ -524,26 +524,6 @@ chartDonutVariant =
     Material.Icons.Directory.C.chartDonutVariant
 
 
-{-| The [`chart-gantt`](https://pictogrammers.com/library/mdi/icon/chart-gantt/) icon.
-
-![chart-gantt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNUgxMFYySDEyVjIySDEwVjE4SDZWMTVIMTBWMTNINFYxMEgxMFY4SDJWNU0xNCw1SDE3VjhIMTRWNU0xNCwxMEgxOVYxM0gxNFYxME0xNCwxNUgyMlYxOEgxNFYxNVoiIC8+PC9zdmc+)
-
--}
-chartGantt : IconShape
-chartGantt =
-    Material.Icons.Directory.C.chartGantt
-
-
-{-| The [`chart-histogram`](https://pictogrammers.com/library/mdi/icon/chart-histogram/) icon.
-
-![chart-histogram](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsM0g1VjEzSDlWN0gxM1YxMUgxN1YxNUgyMVYyMUgzVjNaIiAvPjwvc3ZnPg==)
-
--}
-chartHistogram : IconShape
-chartHistogram =
-    Material.Icons.Directory.C.chartHistogram
-
-
 {-| The [`chart-line`](https://pictogrammers.com/library/mdi/icon/chart-line/) icon.
 
 ![chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDExLjc4TDIwLjI0LDQuNDVMMjEuOTcsNS40NUwxNi43NCwxNC41TDEwLjIzLDEwLjc1TDUuNDYsMTlIMjJWMjFIMlYzSDRWMTcuNTRMOS41LDhMMTYsMTEuNzhaIiAvPjwvc3ZnPg==)
@@ -552,6 +532,16 @@ chartHistogram =
 chartLine : IconShape
 chartLine =
     Material.Icons.Directory.C.chartLine
+
+
+{-| The [`chart-gantt`](https://pictogrammers.com/library/mdi/icon/chart-gantt/) icon.
+
+![chart-gantt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNUgxMFYySDEyVjIySDEwVjE4SDZWMTVIMTBWMTNINFYxMEgxMFY4SDJWNU0xNCw1SDE3VjhIMTRWNU0xNCwxMEgxOVYxM0gxNFYxME0xNCwxNUgyMlYxOEgxNFYxNVoiIC8+PC9zdmc+)
+
+-}
+chartGantt : IconShape
+chartGantt =
+    Material.Icons.Directory.C.chartGantt
 
 
 {-| The [`chart-line-stacked`](https://pictogrammers.com/library/mdi/icon/chart-line-stacked/) icon.
@@ -564,16 +554,6 @@ chartLineStacked =
     Material.Icons.Directory.C.chartLineStacked
 
 
-{-| The [`chart-line-variant`](https://pictogrammers.com/library/mdi/icon/chart-line-variant/) icon.
-
-![chart-line-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwyMiw2LjkyTDIwLjU5LDUuNUwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41WiIgLz48L3N2Zz4=)
-
--}
-chartLineVariant : IconShape
-chartLineVariant =
-    Material.Icons.Directory.C.chartLineVariant
-
-
 {-| The [`chart-multiline`](https://pictogrammers.com/library/mdi/icon/chart-multiline/) icon.
 
 ![chart-multiline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDYuOTJMMjAuNTksNS41TDE3Ljc0LDguNzJDMTUuNjgsNi40IDEyLjgzLDUgOS42MSw1QzYuNzIsNSA0LjA3LDYuMTYgMiw4TDMuNDIsOS40MkM1LjEyLDcuOTMgNy4yNyw3IDkuNjEsN0MxMi4zNSw3IDE0LjcsOC4yNiAxNi4zOCwxMC4yNEwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwxNy41NSwxMS45M0MxOC4zLDEzLjI4IDE4LjgsMTQuODMgMTksMTYuNUgyMUMyMC43OCwxNC4xOCAyMC4wNSwxMi4wOSAxOC45NiwxMC4zNEwyMiw2LjkyWiIgLz48L3N2Zz4=)
@@ -582,6 +562,26 @@ chartLineVariant =
 chartMultiline : IconShape
 chartMultiline =
     Material.Icons.Directory.C.chartMultiline
+
+
+{-| The [`chart-histogram`](https://pictogrammers.com/library/mdi/icon/chart-histogram/) icon.
+
+![chart-histogram](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsM0g1VjEzSDlWN0gxM1YxMUgxN1YxNUgyMVYyMUgzVjNaIiAvPjwvc3ZnPg==)
+
+-}
+chartHistogram : IconShape
+chartHistogram =
+    Material.Icons.Directory.C.chartHistogram
+
+
+{-| The [`chart-line-variant`](https://pictogrammers.com/library/mdi/icon/chart-line-variant/) icon.
+
+![chart-line-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwyMiw2LjkyTDIwLjU5LDUuNUwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41WiIgLz48L3N2Zz4=)
+
+-}
+chartLineVariant : IconShape
+chartLineVariant =
+    Material.Icons.Directory.C.chartLineVariant
 
 
 {-| The [`chart-multiple`](https://pictogrammers.com/library/mdi/icon/chart-multiple/) icon.
@@ -854,16 +854,6 @@ decimalCommaDecrease =
     Material.Icons.Directory.D.decimalCommaDecrease
 
 
-{-| The [`decimal-decrease`](https://pictogrammers.com/library/mdi/icon/decimal-decrease/) icon.
-
-![decimal-decrease](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDE1LDIwVjE4SDIxVjE2SDE1VjE0TDEyLDE3TTksNUEzLDMgMCAwLDEgMTIsOFYxMUEzLDMgMCAwLDEgOSwxNEEzLDMgMCAwLDEgNiwxMVY4QTMsMyAwIDAsMSA5LDVNOSw3QTEsMSAwIDAsMCA4LDhWMTFBMSwxIDAgMCwwIDksMTJBMSwxIDAgMCwwIDEwLDExVjhBMSwxIDAgMCwwIDksN000LDEyQTEsMSAwIDAsMSA1LDEzQTEsMSAwIDAsMSA0LDE0QTEsMSAwIDAsMSAzLDEzQTEsMSAwIDAsMSA0LDEyWiIgLz48L3N2Zz4=)
-
--}
-decimalDecrease : IconShape
-decimalDecrease =
-    Material.Icons.Directory.D.decimalDecrease
-
-
 {-| The [`decimal-comma-increase`](https://pictogrammers.com/library/mdi/icon/decimal-comma-increase/) icon.
 
 ![decimal-comma-increase](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgNUEzIDMgMCAwIDAgNiA4VjExQTMgMyAwIDAgMCAxMiAxMVY4QTMgMyAwIDAgMCA5IDVNMTAgMTFBMSAxIDAgMCAxIDggMTFWOEExIDEgMCAwIDEgMTAgOE0xNiAxNEEzIDMgMCAwIDAgMTkgMTFWOEEzIDMgMCAwIDAgMTMgOFYxMUEzIDMgMCAwIDAgMTYgMTRNMTUgOEExIDEgMCAwIDEgMTcgOFYxMUExIDEgMCAwIDEgMTUgMTFNMTkgMjBWMThIMTNWMTZIMTlWMTRMMjIgMTdNNSAxM1YxNkg0TDMgMTNBMSAxIDAgMCAxIDUgMTNaIiAvPjwvc3ZnPg==)
@@ -872,6 +862,16 @@ decimalDecrease =
 decimalCommaIncrease : IconShape
 decimalCommaIncrease =
     Material.Icons.Directory.D.decimalCommaIncrease
+
+
+{-| The [`decimal-decrease`](https://pictogrammers.com/library/mdi/icon/decimal-decrease/) icon.
+
+![decimal-decrease](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDE3TDE1LDIwVjE4SDIxVjE2SDE1VjE0TDEyLDE3TTksNUEzLDMgMCAwLDEgMTIsOFYxMUEzLDMgMCAwLDEgOSwxNEEzLDMgMCAwLDEgNiwxMVY4QTMsMyAwIDAsMSA5LDVNOSw3QTEsMSAwIDAsMCA4LDhWMTFBMSwxIDAgMCwwIDksMTJBMSwxIDAgMCwwIDEwLDExVjhBMSwxIDAgMCwwIDksN000LDEyQTEsMSAwIDAsMSA1LDEzQTEsMSAwIDAsMSA0LDE0QTEsMSAwIDAsMSAzLDEzQTEsMSAwIDAsMSA0LDEyWiIgLz48L3N2Zz4=)
+
+-}
+decimalDecrease : IconShape
+decimalDecrease =
+    Material.Icons.Directory.D.decimalDecrease
 
 
 {-| The [`decimal-increase`](https://pictogrammers.com/library/mdi/icon/decimal-increase/) icon.
@@ -894,16 +894,6 @@ delta =
     Material.Icons.Directory.D.delta
 
 
-{-| The [`diameter-outline`](https://pictogrammers.com/library/mdi/icon/diameter-outline/) icon.
-
-![diameter-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDAgMiwxMkExMCwxMCAwIDAsMCAxMiwyMkExMCwxMCAwIDAsMCAyMiwxMkExMCwxMCAwIDAsMCAxMiwyTTEyLDIwQTgsOCAwIDAsMSA0LDEyQTgsOCAwIDAsMSAxMiw0QTgsOCAwIDAsMSAyMCwxMkE4LDggMCAwLDEgMTIsMjBNMTYsMTVWMTNIOFYxNUw1LDEyTDgsOVYxMUgxNlY5TDE5LDEyTDE2LDE1WiIgLz48L3N2Zz4=)
-
--}
-diameterOutline : IconShape
-diameterOutline =
-    Material.Icons.Directory.D.diameterOutline
-
-
 {-| The [`diameter`](https://pictogrammers.com/library/mdi/icon/diameter/) icon.
 
 ![diameter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDAgMiwxMkExMCwxMCAwIDAsMCAxMiwyMkExMCwxMCAwIDAsMCAyMiwxMkExMCwxMCAwIDAsMCAxMiwyTTE3LDE1VjEzSDdWMTVMNCwxMkw3LDlWMTFIMTdWOUwyMCwxMkwxNywxNVoiIC8+PC9zdmc+)
@@ -912,6 +902,16 @@ diameterOutline =
 diameter : IconShape
 diameter =
     Material.Icons.Directory.D.diameter
+
+
+{-| The [`diameter-outline`](https://pictogrammers.com/library/mdi/icon/diameter-outline/) icon.
+
+![diameter-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDJBMTAsMTAgMCAwLDAgMiwxMkExMCwxMCAwIDAsMCAxMiwyMkExMCwxMCAwIDAsMCAyMiwxMkExMCwxMCAwIDAsMCAxMiwyTTEyLDIwQTgsOCAwIDAsMSA0LDEyQTgsOCAwIDAsMSAxMiw0QTgsOCAwIDAsMSAyMCwxMkE4LDggMCAwLDEgMTIsMjBNMTYsMTVWMTNIOFYxNUw1LDEyTDgsOVYxMUgxNlY5TDE5LDEyTDE2LDE1WiIgLz48L3N2Zz4=)
+
+-}
+diameterOutline : IconShape
+diameterOutline =
+    Material.Icons.Directory.D.diameterOutline
 
 
 {-| The [`diameter-variant`](https://pictogrammers.com/library/mdi/icon/diameter-variant/) icon.
@@ -1034,16 +1034,6 @@ functionVariant =
     Material.Icons.Directory.F.functionVariant
 
 
-{-| The [`greater-than-or-equal`](https://pictogrammers.com/library/mdi/icon/greater-than-or-equal/) icon.
-
-![greater-than-or-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNSwyLjI3TDIwLDEwLjE0TDYuNSwxOEw1LjUsMTYuMjdMMTYuMDMsMTAuMTRMNS41LDRMNi41LDIuMjdNMjAsMjBWMjJINVYyMEgyMFoiIC8+PC9zdmc+)
-
--}
-greaterThanOrEqual : IconShape
-greaterThanOrEqual =
-    Material.Icons.Directory.G.greaterThanOrEqual
-
-
 {-| The [`greater-than`](https://pictogrammers.com/library/mdi/icon/greater-than/) icon.
 
 ![greater-than](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUuNSw0LjE0TDQuNSw1Ljg2TDE1LDEyTDQuNSwxOC4xNEw1LjUsMTkuODZMMTksMTJMNS41LDQuMTRaIiAvPjwvc3ZnPg==)
@@ -1052,6 +1042,16 @@ greaterThanOrEqual =
 greaterThan : IconShape
 greaterThan =
     Material.Icons.Directory.G.greaterThan
+
+
+{-| The [`greater-than-or-equal`](https://pictogrammers.com/library/mdi/icon/greater-than-or-equal/) icon.
+
+![greater-than-or-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYuNSwyLjI3TDIwLDEwLjE0TDYuNSwxOEw1LjUsMTYuMjdMMTYuMDMsMTAuMTRMNS41LDRMNi41LDIuMjdNMjAsMjBWMjJINVYyMEgyMFoiIC8+PC9zdmc+)
+
+-}
+greaterThanOrEqual : IconShape
+greaterThanOrEqual =
+    Material.Icons.Directory.G.greaterThanOrEqual
 
 
 {-| The [`infinity`](https://pictogrammers.com/library/mdi/icon/infinity/) icon.
@@ -1244,6 +1244,16 @@ notEqualVariant =
     Material.Icons.Directory.N.notEqualVariant
 
 
+{-| The [`percent`](https://pictogrammers.com/library/mdi/icon/percent/) icon.
+
+![percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUsMy41TDMuNSwxOC41TDUuNSwyMC41TDIwLjUsNS41TTcsNEEzLDMgMCAwLDAgNCw3QTMsMyAwIDAsMCA3LDEwQTMsMyAwIDAsMCAxMCw3QTMsMyAwIDAsMCA3LDRNMTcsMTRBMywzIDAgMCwwIDE0LDE3QTMsMyAwIDAsMCAxNywyMEEzLDMgMCAwLDAgMjAsMTdBMywzIDAgMCwwIDE3LDE0WiIgLz48L3N2Zz4=)
+
+-}
+percent : IconShape
+percent =
+    Material.Icons.Directory.P.percent
+
+
 {-| The [`percent-box`](https://pictogrammers.com/library/mdi/icon/percent-box/) icon.
 
 ![percent-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDNINUMzLjg5IDMgMyAzLjg5IDMgNVYxOUMzIDIwLjExIDMuOSAyMSA1IDIxSDE5QzIwLjExIDIxIDIxIDIwLjExIDIxIDE5VjVDMjEgMy44OSAyMC4xIDMgMTkgM004LjgzIDcuMDVDOS44MSA3LjA1IDEwLjYgNy44NCAxMC42IDguODNDMTAuNiA5LjgxIDkuODEgMTAuNiA4LjgzIDEwLjZDNy44NCAxMC42IDcuMDUgOS44MSA3LjA1IDguODNDNy4wNSA3Ljg0IDcuODQgNy4wNSA4LjgzIDcuMDVNMTUuMjIgMTdDMTQuMjQgMTcgMTMuNDUgMTYuMiAxMy40NSAxNS4yMkMxMy40NSAxNC4yNCAxNC4yNCAxMy40NSAxNS4yMiAxMy40NUMxNi4yIDEzLjQ1IDE3IDE0LjI0IDE3IDE1LjIyQzE3IDE2LjIgMTYuMiAxNyAxNS4yMiAxN004LjUgMTcuMDNMNyAxNS41M0wxNS41MyA3TDE3LjAzIDguNUw4LjUgMTcuMDNaIiAvPjwvc3ZnPg==)
@@ -1262,16 +1272,6 @@ percentBox =
 percentBoxOutline : IconShape
 percentBoxOutline =
     Material.Icons.Directory.P.percentBoxOutline
-
-
-{-| The [`percent`](https://pictogrammers.com/library/mdi/icon/percent/) icon.
-
-![percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4LjUsMy41TDMuNSwxOC41TDUuNSwyMC41TDIwLjUsNS41TTcsNEEzLDMgMCAwLDAgNCw3QTMsMyAwIDAsMCA3LDEwQTMsMyAwIDAsMCAxMCw3QTMsMyAwIDAsMCA3LDRNMTcsMTRBMywzIDAgMCwwIDE0LDE3QTMsMyAwIDAsMCAxNywyMEEzLDMgMCAwLDAgMjAsMTdBMywzIDAgMCwwIDE3LDE0WiIgLz48L3N2Zz4=)
-
--}
-percent : IconShape
-percent =
-    Material.Icons.Directory.P.percent
 
 
 {-| The [`percent-circle`](https://pictogrammers.com/library/mdi/icon/percent-circle/) icon.
@@ -1304,16 +1304,6 @@ percentOutline =
     Material.Icons.Directory.P.percentOutline
 
 
-{-| The [`perspective-more`](https://pictogrammers.com/library/mdi/icon/perspective-more/) icon.
-
-![perspective-more](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjU2LDEyTDE5LjIzLDIwSDQuNzhMNy40NCwxMkgxNi41Nk0xNywxTDEzLDVMMTcsOVY2SDIxVjRIMTdWMU03LDFWNEgzVjZIN1Y5TDExLDVMNywxTTE4LDEwSDZMMiwyMkgyMkwxOCwxMFoiIC8+PC9zdmc+)
-
--}
-perspectiveMore : IconShape
-perspectiveMore =
-    Material.Icons.Directory.P.perspectiveMore
-
-
 {-| The [`perspective-less`](https://pictogrammers.com/library/mdi/icon/perspective-less/) icon.
 
 ![perspective-less](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjU2LDEyTDE5LjIzLDIwSDQuNzhMNy40NCwxMkgxNi41Nk03LDFMMyw1TDcsOVY2SDExVjRIN1YxTTE3LDFWNEgxM1Y2SDE3VjlMMjEsNUwxNywxTTE4LDEwSDZMMiwyMkgyMkwxOCwxMFoiIC8+PC9zdmc+)
@@ -1322,6 +1312,16 @@ perspectiveMore =
 perspectiveLess : IconShape
 perspectiveLess =
     Material.Icons.Directory.P.perspectiveLess
+
+
+{-| The [`perspective-more`](https://pictogrammers.com/library/mdi/icon/perspective-more/) icon.
+
+![perspective-more](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LjU2LDEyTDE5LjIzLDIwSDQuNzhMNy40NCwxMkgxNi41Nk0xNywxTDEzLDVMMTcsOVY2SDIxVjRIMTdWMU03LDFWNEgzVjZIN1Y5TDExLDVMNywxTTE4LDEwSDZMMiwyMkgyMkwxOCwxMFoiIC8+PC9zdmc+)
+
+-}
+perspectiveMore : IconShape
+perspectiveMore =
+    Material.Icons.Directory.P.perspectiveMore
 
 
 {-| The [`pi`](https://pictogrammers.com/library/mdi/icon/pi/) icon.
@@ -1504,16 +1504,6 @@ tallyMark1 =
     Material.Icons.Directory.T.tallyMark1
 
 
-{-| The [`tally-mark-3`](https://pictogrammers.com/library/mdi/icon/tally-mark-3/) icon.
-
-![tally-mark-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgMTlIN1Y1SDlWMTlNMTMgNUgxMVYxOUgxM1Y1TTE3IDVIMTVWMTlIMTdWNVoiIC8+PC9zdmc+)
-
--}
-tallyMark3 : IconShape
-tallyMark3 =
-    Material.Icons.Directory.T.tallyMark3
-
-
 {-| The [`tally-mark-2`](https://pictogrammers.com/library/mdi/icon/tally-mark-2/) icon.
 
 ![tally-mark-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExIDE5SDlWNUgxMVYxOU0xNSA1SDEzVjE5SDE1VjVaIiAvPjwvc3ZnPg==)
@@ -1522,6 +1512,16 @@ tallyMark3 =
 tallyMark2 : IconShape
 tallyMark2 =
     Material.Icons.Directory.T.tallyMark2
+
+
+{-| The [`tally-mark-3`](https://pictogrammers.com/library/mdi/icon/tally-mark-3/) icon.
+
+![tally-mark-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgMTlIN1Y1SDlWMTlNMTMgNUgxMVYxOUgxM1Y1TTE3IDVIMTVWMTlIMTdWNVoiIC8+PC9zdmc+)
+
+-}
+tallyMark3 : IconShape
+tallyMark3 =
+    Material.Icons.Directory.T.tallyMark3
 
 
 {-| The [`tally-mark-4`](https://pictogrammers.com/library/mdi/icon/tally-mark-4/) icon.

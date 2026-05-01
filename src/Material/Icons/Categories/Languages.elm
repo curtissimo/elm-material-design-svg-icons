@@ -14,8 +14,8 @@ module Material.Icons.Categories.Languages exposing
     , applicationBracketsOutline
     , applicationParentheses
     , applicationParenthesesOutline
-    , applicationVariableOutline
     , applicationVariable
+    , applicationVariableOutline
     , bash
     , cloudBraces
     , codeArray
@@ -32,15 +32,15 @@ module Material.Icons.Categories.Languages exposing
     , codeJson
     , codeLessThan
     , codeLessThanOrEqual
-    , codeNotEqualVariant
     , codeNotEqual
+    , codeNotEqualVariant
     , codeParentheses
     , codeParenthesesBox
     , codeString
     , codeTags
     , codeTagsCheck
-    , fileCodeOutline
     , fileCode
+    , fileCodeOutline
     , folderPound
     , folderPoundOutline
     , hexadecimal
@@ -78,8 +78,8 @@ module Material.Icons.Categories.Languages exposing
 @docs applicationBracketsOutline
 @docs applicationParentheses
 @docs applicationParenthesesOutline
-@docs applicationVariableOutline
 @docs applicationVariable
+@docs applicationVariableOutline
 @docs bash
 @docs cloudBraces
 @docs codeArray
@@ -96,15 +96,15 @@ module Material.Icons.Categories.Languages exposing
 @docs codeJson
 @docs codeLessThan
 @docs codeLessThanOrEqual
-@docs codeNotEqualVariant
 @docs codeNotEqual
+@docs codeNotEqualVariant
 @docs codeParentheses
 @docs codeParenthesesBox
 @docs codeString
 @docs codeTags
 @docs codeTagsCheck
-@docs fileCodeOutline
 @docs fileCode
+@docs fileCodeOutline
 @docs folderPound
 @docs folderPoundOutline
 @docs hexadecimal
@@ -254,16 +254,6 @@ applicationParenthesesOutline =
     Material.Icons.Directory.A.applicationParenthesesOutline
 
 
-{-| The [`application-variable-outline`](https://pictogrammers.com/library/mdi/icon/application-variable-outline/) icon.
-
-![application-variable-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDJIM0MxLjkgMiAxIDIuOSAxIDRWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFY0QzIzIDIuOSAyMi4xIDIgMjEgMk0yMSAyMEgzVjZIMjFWMjBNMTYuNiA4QzE4LjEgOS4zIDE5IDExLjEgMTkgMTNDMTkgMTQuOSAxOC4xIDE2LjcgMTYuNiAxOEwxNSAxNy40QzE2LjMgMTYuNCAxNyAxNC43IDE3IDEzUzE2LjMgOS42IDE1IDguNkwxNi42IDhNNy40IDhMOSA4LjZDNy43IDkuNiA3IDExLjMgNyAxM1M3LjcgMTYuNCA5IDE3LjRMNy40IDE4QzUuOSAxNi43IDUgMTQuOSA1IDEzUzUuOSA5LjMgNy40IDhNMTIuMSAxMkwxMy41IDEwSDE1TDEyLjggMTNMMTQuMSAxNkgxMi44TDEyIDE0TDEwLjYgMTZIOUwxMS4zIDEyLjlMMTAgMTBIMTEuM0wxMi4xIDEyWiIgLz48L3N2Zz4=)
-
--}
-applicationVariableOutline : IconShape
-applicationVariableOutline =
-    Material.Icons.Directory.A.applicationVariableOutline
-
-
 {-| The [`application-variable`](https://pictogrammers.com/library/mdi/icon/application-variable/) icon.
 
 ![application-variable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDJIM0MxLjkgMiAxIDIuOSAxIDRWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFY0QzIzIDIuOSAyMi4xIDIgMjEgMk03LjQgMjBDNS45IDE4LjYgNSAxNi42IDUgMTQuNVM1LjkgMTAuNCA3LjQgOUw5IDkuNkM3LjcgMTAuNyA3IDEyLjYgNyAxNC41UzcuNyAxOC4yIDkgMTkuNEw3LjQgMjBNMTIuNyAxOEwxMS45IDE2TDEwLjUgMThIOUwxMS4zIDE0LjlMMTAgMTJIMTEuM0wxMi4xIDE0TDEzLjUgMTJIMTVMMTIuOCAxNUwxNC4xIDE4SDEyLjdNMTYuNiAyMEwxNSAxOS40QzE2LjMgMTguMiAxNyAxNi40IDE3IDE0LjVTMTYuMyAxMC44IDE1IDkuNkwxNi42IDlDMTguMSAxMC40IDE5IDEyLjQgMTkgMTQuNUMxOSAxNi42IDE4LjEgMTguNiAxNi42IDIwTTIxIDdIM1Y0SDIxVjdaIiAvPjwvc3ZnPg==)
@@ -272,6 +262,16 @@ applicationVariableOutline =
 applicationVariable : IconShape
 applicationVariable =
     Material.Icons.Directory.A.applicationVariable
+
+
+{-| The [`application-variable-outline`](https://pictogrammers.com/library/mdi/icon/application-variable-outline/) icon.
+
+![application-variable-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDJIM0MxLjkgMiAxIDIuOSAxIDRWMjBDMSAyMS4xIDEuOSAyMiAzIDIySDIxQzIyLjEgMjIgMjMgMjEuMSAyMyAyMFY0QzIzIDIuOSAyMi4xIDIgMjEgMk0yMSAyMEgzVjZIMjFWMjBNMTYuNiA4QzE4LjEgOS4zIDE5IDExLjEgMTkgMTNDMTkgMTQuOSAxOC4xIDE2LjcgMTYuNiAxOEwxNSAxNy40QzE2LjMgMTYuNCAxNyAxNC43IDE3IDEzUzE2LjMgOS42IDE1IDguNkwxNi42IDhNNy40IDhMOSA4LjZDNy43IDkuNiA3IDExLjMgNyAxM1M3LjcgMTYuNCA5IDE3LjRMNy40IDE4QzUuOSAxNi43IDUgMTQuOSA1IDEzUzUuOSA5LjMgNy40IDhNMTIuMSAxMkwxMy41IDEwSDE1TDEyLjggMTNMMTQuMSAxNkgxMi44TDEyIDE0TDEwLjYgMTZIOUwxMS4zIDEyLjlMMTAgMTBIMTEuM0wxMi4xIDEyWiIgLz48L3N2Zz4=)
+
+-}
+applicationVariableOutline : IconShape
+applicationVariableOutline =
+    Material.Icons.Directory.A.applicationVariableOutline
 
 
 {-| The [`bash`](https://pictogrammers.com/library/mdi/icon/bash/) icon.
@@ -434,16 +434,6 @@ codeLessThanOrEqual =
     Material.Icons.Directory.C.codeLessThanOrEqual
 
 
-{-| The [`code-not-equal-variant`](https://pictogrammers.com/library/mdi/icon/code-not-equal-variant/) icon.
-
-![code-not-equal-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDYuNVY5LjMzTDguMzMsMTJMMTEsMTQuNjdWMTcuNUw1LjUsMTJNMTMsNi40M0wxOC41NywxMkwxMywxNy41N1YxNC43NEwxNS43NCwxMkwxMyw5LjI2TTUsM0MzLjg5LDMgMywzLjkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QTIsMiAwIDAsMCAxOSwzSDVaIiAvPjwvc3ZnPg==)
-
--}
-codeNotEqualVariant : IconShape
-codeNotEqualVariant =
-    Material.Icons.Directory.C.codeNotEqualVariant
-
-
 {-| The [`code-not-equal`](https://pictogrammers.com/library/mdi/icon/code-not-equal/) icon.
 
 ![code-not-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMTVIOFYxN0g2TTExLDEzSDE4VjE1SDExTTExLDlIMThWMTFIMTFNNiw3SDhWMTNINk01LDNDMy44OSwzIDMsMy45IDMsNVYxOUEyLDIgMCAwLDAgNSwyMUgxOUEyLDIgMCAwLDAgMjEsMTlWNUEyLDIgMCAwLDAgMTksM0g1WiIgLz48L3N2Zz4=)
@@ -452,6 +442,16 @@ codeNotEqualVariant =
 codeNotEqual : IconShape
 codeNotEqual =
     Material.Icons.Directory.C.codeNotEqual
+
+
+{-| The [`code-not-equal-variant`](https://pictogrammers.com/library/mdi/icon/code-not-equal-variant/) icon.
+
+![code-not-equal-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDYuNVY5LjMzTDguMzMsMTJMMTEsMTQuNjdWMTcuNUw1LjUsMTJNMTMsNi40M0wxOC41NywxMkwxMywxNy41N1YxNC43NEwxNS43NCwxMkwxMyw5LjI2TTUsM0MzLjg5LDMgMywzLjkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QTIsMiAwIDAsMCAxOSwzSDVaIiAvPjwvc3ZnPg==)
+
+-}
+codeNotEqualVariant : IconShape
+codeNotEqualVariant =
+    Material.Icons.Directory.C.codeNotEqualVariant
 
 
 {-| The [`code-parentheses`](https://pictogrammers.com/library/mdi/icon/code-parentheses/) icon.
@@ -504,16 +504,6 @@ codeTagsCheck =
     Material.Icons.Directory.C.codeTagsCheck
 
 
-{-| The [`file-code-outline`](https://pictogrammers.com/library/mdi/icon/file-code-outline/) icon.
-
-![file-code-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05LjU0IDE1LjY1TDExLjYzIDE3Ljc0TDEwLjM1IDE5TDcgMTUuNjVMMTAuMzUgMTIuM0wxMS42MyAxMy41Nkw5LjU0IDE1LjY1TTE3IDE1LjY1TDEzLjY1IDE5TDEyLjM4IDE3Ljc0TDE0LjQ3IDE1LjY1TDEyLjM4IDEzLjU2TDEzLjY1IDEyLjNMMTcgMTUuNjVaIiAvPjwvc3ZnPg==)
-
--}
-fileCodeOutline : IconShape
-fileCodeOutline =
-    Material.Icons.Directory.F.fileCodeOutline
-
-
 {-| The [`file-code`](https://pictogrammers.com/library/mdi/icon/file-code/) icon.
 
 ![file-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNNi4xMiwxNS41TDkuODYsMTkuMjRMMTEuMjgsMTcuODNMOC45NSwxNS41TDExLjI4LDEzLjE3TDkuODYsMTEuNzZMNi4xMiwxNS41TTE3LjI4LDE1LjVMMTMuNTQsMTEuNzZMMTIuMTIsMTMuMTdMMTQuNDUsMTUuNUwxMi4xMiwxNy44M0wxMy41NCwxOS4yNEwxNy4yOCwxNS41WiIgLz48L3N2Zz4=)
@@ -522,6 +512,16 @@ fileCodeOutline =
 fileCode : IconShape
 fileCode =
     Material.Icons.Directory.F.fileCode
+
+
+{-| The [`file-code-outline`](https://pictogrammers.com/library/mdi/icon/file-code-outline/) icon.
+
+![file-code-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05LjU0IDE1LjY1TDExLjYzIDE3Ljc0TDEwLjM1IDE5TDcgMTUuNjVMMTAuMzUgMTIuM0wxMS42MyAxMy41Nkw5LjU0IDE1LjY1TTE3IDE1LjY1TDEzLjY1IDE5TDEyLjM4IDE3Ljc0TDE0LjQ3IDE1LjY1TDEyLjM4IDEzLjU2TDEzLjY1IDEyLjNMMTcgMTUuNjVaIiAvPjwvc3ZnPg==)
+
+-}
+fileCodeOutline : IconShape
+fileCodeOutline =
+    Material.Icons.Directory.F.fileCodeOutline
 
 
 {-| The [`folder-pound`](https://pictogrammers.com/library/mdi/icon/folder-pound/) icon.

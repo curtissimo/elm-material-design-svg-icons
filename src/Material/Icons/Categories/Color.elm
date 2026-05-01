@@ -7,8 +7,8 @@ module Material.Icons.Categories.Color exposing
     , colorHelper
     , eyedropper
     , eyedropperVariant
-    , formatColorHighlight
     , formatColorFill
+    , formatColorHighlight
     , formatColorMarkerCancel
     , formatColorText
     , formatPaint
@@ -17,8 +17,8 @@ module Material.Icons.Categories.Color exposing
     , looks
     , palette
     , paletteAdvanced
-    , paletteOutline
     , paletteSwatch
+    , paletteOutline
     , paletteSwatchOutline
     , paletteSwatchVariant
     , selectColor
@@ -31,8 +31,8 @@ module Material.Icons.Categories.Color exposing
 @docs colorHelper
 @docs eyedropper
 @docs eyedropperVariant
-@docs formatColorHighlight
 @docs formatColorFill
+@docs formatColorHighlight
 @docs formatColorMarkerCancel
 @docs formatColorText
 @docs formatPaint
@@ -41,8 +41,8 @@ module Material.Icons.Categories.Color exposing
 @docs looks
 @docs palette
 @docs paletteAdvanced
-@docs paletteOutline
 @docs paletteSwatch
+@docs paletteOutline
 @docs paletteSwatchOutline
 @docs paletteSwatchVariant
 @docs selectColor
@@ -101,16 +101,6 @@ eyedropperVariant =
     Material.Icons.Directory.E.eyedropperVariant
 
 
-{-| The [`format-color-highlight`](https://pictogrammers.com/library/mdi/icon/format-color-highlight/) icon.
-
-![format-color-highlight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMTdMNi43NSwxNC4yNUw2LjcyLDE0LjIzQzYuMTQsMTMuNjQgNi4xNCwxMi42OSA2LjcyLDEyLjExTDExLjQ2LDcuMzdMMTUuNywxMS42MUwxMC45NiwxNi4zNUMxMC4zOSwxNi45MyA5LjQ2LDE2LjkzIDguODcsMTYuMzdMOC4yNCwxN0g0TTE1LjkxLDIuOTFDMTYuNSwyLjMzIDE3LjQ1LDIuMzMgMTguMDMsMi45MUwyMC4xNiw1LjAzQzIwLjc0LDUuNjIgMjAuNzQsNi41NyAyMC4xNiw3LjE2TDE2Ljg2LDEwLjQ1TDEyLjYyLDYuMjFMMTUuOTEsMi45MVoiIC8+PC9zdmc+)
-
--}
-formatColorHighlight : IconShape
-formatColorHighlight =
-    Material.Icons.Directory.F.formatColorHighlight
-
-
 {-| The [`format-color-fill`](https://pictogrammers.com/library/mdi/icon/format-color-fill/) icon.
 
 ![format-color-fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LDExLjVDMTksMTEuNSAxNywxMy42NyAxNywxNUEyLDIgMCAwLDAgMTksMTdBMiwyIDAgMCwwIDIxLDE1QzIxLDEzLjY3IDE5LDExLjUgMTksMTEuNU01LjIxLDEwTDEwLDUuMjFMMTQuNzksMTBNMTYuNTYsOC45NEw3LjYyLDBMNi4yMSwxLjQxTDguNTksMy43OUwzLjQ0LDguOTRDMi44NSw5LjUgMi44NSwxMC40NyAzLjQ0LDExLjA2TDguOTQsMTYuNTZDOS4yMywxNi44NSA5LjYyLDE3IDEwLDE3QzEwLjM4LDE3IDEwLjc3LDE2Ljg1IDExLjA2LDE2LjU2TDE2LjU2LDExLjA2QzE3LjE1LDEwLjQ3IDE3LjE1LDkuNSAxNi41Niw4Ljk0WiIgLz48L3N2Zz4=)
@@ -119,6 +109,16 @@ formatColorHighlight =
 formatColorFill : IconShape
 formatColorFill =
     Material.Icons.Directory.F.formatColorFill
+
+
+{-| The [`format-color-highlight`](https://pictogrammers.com/library/mdi/icon/format-color-highlight/) icon.
+
+![format-color-highlight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsMTdMNi43NSwxNC4yNUw2LjcyLDE0LjIzQzYuMTQsMTMuNjQgNi4xNCwxMi42OSA2LjcyLDEyLjExTDExLjQ2LDcuMzdMMTUuNywxMS42MUwxMC45NiwxNi4zNUMxMC4zOSwxNi45MyA5LjQ2LDE2LjkzIDguODcsMTYuMzdMOC4yNCwxN0g0TTE1LjkxLDIuOTFDMTYuNSwyLjMzIDE3LjQ1LDIuMzMgMTguMDMsMi45MUwyMC4xNiw1LjAzQzIwLjc0LDUuNjIgMjAuNzQsNi41NyAyMC4xNiw3LjE2TDE2Ljg2LDEwLjQ1TDEyLjYyLDYuMjFMMTUuOTEsMi45MVoiIC8+PC9zdmc+)
+
+-}
+formatColorHighlight : IconShape
+formatColorHighlight =
+    Material.Icons.Directory.F.formatColorHighlight
 
 
 {-| The [`format-color-marker-cancel`](https://pictogrammers.com/library/mdi/icon/format-color-marker-cancel/) icon.
@@ -201,16 +201,6 @@ paletteAdvanced =
     Material.Icons.Directory.P.paletteAdvanced
 
 
-{-| The [`palette-outline`](https://pictogrammers.com/library/mdi/icon/palette-outline/) icon.
-
-![palette-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMkMxNy41LDIgMjIsNiAyMiwxMUE2LDYgMCAwLDEgMTYsMTdIMTQuMkMxMy45LDE3IDEzLjcsMTcuMiAxMy43LDE3LjVDMTMuNywxNy42IDEzLjgsMTcuNyAxMy44LDE3LjhDMTQuMiwxOC4zIDE0LjQsMTguOSAxNC40LDE5LjVDMTQuNSwyMC45IDEzLjQsMjIgMTIsMjJNMTIsNEE4LDggMCAwLDAgNCwxMkE4LDggMCAwLDAgMTIsMjBDMTIuMywyMCAxMi41LDE5LjggMTIuNSwxOS41QzEyLjUsMTkuMyAxMi40LDE5LjIgMTIuNCwxOS4xQzEyLDE4LjYgMTEuOCwxOC4xIDExLjgsMTcuNUMxMS44LDE2LjEgMTIuOSwxNSAxNC4zLDE1SDE2QTQsNCAwIDAsMCAyMCwxMUMyMCw3LjEgMTYuNCw0IDEyLDRNNi41LDEwQzcuMywxMCA4LDEwLjcgOCwxMS41QzgsMTIuMyA3LjMsMTMgNi41LDEzQzUuNywxMyA1LDEyLjMgNSwxMS41QzUsMTAuNyA1LjcsMTAgNi41LDEwTTkuNSw2QzEwLjMsNiAxMSw2LjcgMTEsNy41QzExLDguMyAxMC4zLDkgOS41LDlDOC43LDkgOCw4LjMgOCw3LjVDOCw2LjcgOC43LDYgOS41LDZNMTQuNSw2QzE1LjMsNiAxNiw2LjcgMTYsNy41QzE2LDguMyAxNS4zLDkgMTQuNSw5QzEzLjcsOSAxMyw4LjMgMTMsNy41QzEzLDYuNyAxMy43LDYgMTQuNSw2TTE3LjUsMTBDMTguMywxMCAxOSwxMC43IDE5LDExLjVDMTksMTIuMyAxOC4zLDEzIDE3LjUsMTNDMTYuNywxMyAxNiwxMi4zIDE2LDExLjVDMTYsMTAuNyAxNi43LDEwIDE3LjUsMTBaIiAvPjwvc3ZnPg==)
-
--}
-paletteOutline : IconShape
-paletteOutline =
-    Material.Icons.Directory.P.paletteOutline
-
-
 {-| The [`palette-swatch`](https://pictogrammers.com/library/mdi/icon/palette-swatch/) icon.
 
 ![palette-swatch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNTMsMTkuNjVMMy44NywyMC4yMVYxMS4xOEwxLjQ0LDE3LjA0QzEuMDMsMTguMDYgMS41LDE5LjIzIDIuNTMsMTkuNjVNMjIuMDMsMTUuOTVMMTcuMDcsNEMxNi43NiwzLjIzIDE2LjAzLDIuNzcgMTUuMjYsMi43NUMxNSwyLjc1IDE0LjczLDIuNzkgMTQuNDcsMi45TDcuMSw1Ljk1QzYuMzUsNi4yNiA1Ljg5LDcgNS44Nyw3Ljc1QzUuODYsOCA1LjkxLDguMjkgNiw4LjU1TDExLDIwLjVDMTEuMjksMjEuMjggMTIuMDMsMjEuNzQgMTIuODEsMjEuNzVDMTMuMDcsMjEuNzUgMTMuMzMsMjEuNyAxMy41OCwyMS42TDIwLjk0LDE4LjU1QzIxLjk2LDE4LjEzIDIyLjQ1LDE2Ljk2IDIyLjAzLDE1Ljk1TTcuODgsOC43NUExLDEgMCAwLDEgNi44OCw3Ljc1QTEsMSAwIDAsMSA3Ljg4LDYuNzVDOC40Myw2Ljc1IDguODgsNy4yIDguODgsNy43NUM4Ljg4LDguMyA4LjQzLDguNzUgNy44OCw4Ljc1TTUuODgsMTkuNzVBMiwyIDAgMCwwIDcuODgsMjEuNzVIOS4zM0w1Ljg4LDEzLjQxVjE5Ljc1WiIgLz48L3N2Zz4=)
@@ -219,6 +209,16 @@ paletteOutline =
 paletteSwatch : IconShape
 paletteSwatch =
     Material.Icons.Directory.P.paletteSwatch
+
+
+{-| The [`palette-outline`](https://pictogrammers.com/library/mdi/icon/palette-outline/) icon.
+
+![palette-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMkMxNy41LDIgMjIsNiAyMiwxMUE2LDYgMCAwLDEgMTYsMTdIMTQuMkMxMy45LDE3IDEzLjcsMTcuMiAxMy43LDE3LjVDMTMuNywxNy42IDEzLjgsMTcuNyAxMy44LDE3LjhDMTQuMiwxOC4zIDE0LjQsMTguOSAxNC40LDE5LjVDMTQuNSwyMC45IDEzLjQsMjIgMTIsMjJNMTIsNEE4LDggMCAwLDAgNCwxMkE4LDggMCAwLDAgMTIsMjBDMTIuMywyMCAxMi41LDE5LjggMTIuNSwxOS41QzEyLjUsMTkuMyAxMi40LDE5LjIgMTIuNCwxOS4xQzEyLDE4LjYgMTEuOCwxOC4xIDExLjgsMTcuNUMxMS44LDE2LjEgMTIuOSwxNSAxNC4zLDE1SDE2QTQsNCAwIDAsMCAyMCwxMUMyMCw3LjEgMTYuNCw0IDEyLDRNNi41LDEwQzcuMywxMCA4LDEwLjcgOCwxMS41QzgsMTIuMyA3LjMsMTMgNi41LDEzQzUuNywxMyA1LDEyLjMgNSwxMS41QzUsMTAuNyA1LjcsMTAgNi41LDEwTTkuNSw2QzEwLjMsNiAxMSw2LjcgMTEsNy41QzExLDguMyAxMC4zLDkgOS41LDlDOC43LDkgOCw4LjMgOCw3LjVDOCw2LjcgOC43LDYgOS41LDZNMTQuNSw2QzE1LjMsNiAxNiw2LjcgMTYsNy41QzE2LDguMyAxNS4zLDkgMTQuNSw5QzEzLjcsOSAxMyw4LjMgMTMsNy41QzEzLDYuNyAxMy43LDYgMTQuNSw2TTE3LjUsMTBDMTguMywxMCAxOSwxMC43IDE5LDExLjVDMTksMTIuMyAxOC4zLDEzIDE3LjUsMTNDMTYuNywxMyAxNiwxMi4zIDE2LDExLjVDMTYsMTAuNyAxNi43LDEwIDE3LjUsMTBaIiAvPjwvc3ZnPg==)
+
+-}
+paletteOutline : IconShape
+paletteOutline =
+    Material.Icons.Directory.P.paletteOutline
 
 
 {-| The [`palette-swatch-outline`](https://pictogrammers.com/library/mdi/icon/palette-swatch-outline/) icon.

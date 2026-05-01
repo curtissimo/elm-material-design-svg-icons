@@ -40,8 +40,8 @@ module Material.Icons.Categories.Places exposing
     , pier
     , pierCrane
     , pineTree
-    , pineTreeVariantOutline
     , pineTreeVariant
+    , pineTreeVariantOutline
     , pizza
     , policeStation
     , pool
@@ -56,24 +56,24 @@ module Material.Icons.Categories.Places exposing
     , storeCheck
     , storeCheckOutline
     , storeClock
-    , storeCog
     , storeClockOutline
+    , storeCog
     , storeCogOutline
-    , storeEdit
     , storeEditOutline
-    , storeMarkerOutline
+    , storeEdit
     , storeMarker
+    , storeMarkerOutline
     , storeMinus
     , storeMinusOutline
     , storeOff
     , storeOffOutline
     , storeOutline
-    , storePlusOutline
     , storePlus
+    , storePlusOutline
     , storeRemove
     , storeRemoveOutline
-    , storeSearchOutline
     , storeSearch
+    , storeSearchOutline
     , storeSettings
     , storeSettingsOutline
     , storefront
@@ -128,8 +128,8 @@ module Material.Icons.Categories.Places exposing
 @docs pier
 @docs pierCrane
 @docs pineTree
-@docs pineTreeVariantOutline
 @docs pineTreeVariant
+@docs pineTreeVariantOutline
 @docs pizza
 @docs policeStation
 @docs pool
@@ -144,24 +144,24 @@ module Material.Icons.Categories.Places exposing
 @docs storeCheck
 @docs storeCheckOutline
 @docs storeClock
-@docs storeCog
 @docs storeClockOutline
+@docs storeCog
 @docs storeCogOutline
-@docs storeEdit
 @docs storeEditOutline
-@docs storeMarkerOutline
+@docs storeEdit
 @docs storeMarker
+@docs storeMarkerOutline
 @docs storeMinus
 @docs storeMinusOutline
 @docs storeOff
 @docs storeOffOutline
 @docs storeOutline
-@docs storePlusOutline
 @docs storePlus
+@docs storePlusOutline
 @docs storeRemove
 @docs storeRemoveOutline
-@docs storeSearchOutline
 @docs storeSearch
+@docs storeSearchOutline
 @docs storeSettings
 @docs storeSettingsOutline
 @docs storefront
@@ -567,16 +567,6 @@ pineTree =
     Material.Icons.Directory.P.pineTree
 
 
-{-| The [`pine-tree-variant-outline`](https://pictogrammers.com/library/mdi/icon/pine-tree-variant-outline/) icon.
-
-![pine-tree-variant-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEyTDEyIDJMNSAxMkg2Ljg2TDMgMThIMTBWMjJIMTRWMThIMjFMMTcuMTQgMTJIMTlNMTUuMTYgMTBIMTMuNUwxNy4zNCAxNkg2LjY3TDEwLjUzIDEwSDguODRMMTIgNS41TDE1LjE2IDEwWiIgLz48L3N2Zz4=)
-
--}
-pineTreeVariantOutline : IconShape
-pineTreeVariantOutline =
-    Material.Icons.Directory.P.pineTreeVariantOutline
-
-
 {-| The [`pine-tree-variant`](https://pictogrammers.com/library/mdi/icon/pine-tree-variant/) icon.
 
 ![pine-tree-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEyTDEyIDJMNSAxMkg2Ljg2TDMgMThIMTBWMjJIMTRWMThIMjFMMTcuMTQgMTJIMTlaIiAvPjwvc3ZnPg==)
@@ -585,6 +575,16 @@ pineTreeVariantOutline =
 pineTreeVariant : IconShape
 pineTreeVariant =
     Material.Icons.Directory.P.pineTreeVariant
+
+
+{-| The [`pine-tree-variant-outline`](https://pictogrammers.com/library/mdi/icon/pine-tree-variant-outline/) icon.
+
+![pine-tree-variant-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDEyTDEyIDJMNSAxMkg2Ljg2TDMgMThIMTBWMjJIMTRWMThIMjFMMTcuMTQgMTJIMTlNMTUuMTYgMTBIMTMuNUwxNy4zNCAxNkg2LjY3TDEwLjUzIDEwSDguODRMMTIgNS41TDE1LjE2IDEwWiIgLz48L3N2Zz4=)
+
+-}
+pineTreeVariantOutline : IconShape
+pineTreeVariantOutline =
+    Material.Icons.Directory.P.pineTreeVariantOutline
 
 
 {-| The [`pizza`](https://pictogrammers.com/library/mdi/icon/pizza/) icon.
@@ -727,16 +727,6 @@ storeClock =
     Material.Icons.Directory.S.storeClock
 
 
-{-| The [`store-cog`](https://pictogrammers.com/library/mdi/icon/store-cog/) icon.
-
-![store-cog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTkgMTJDMTcuMDkgMTIgMTUuMzcgMTIuNzYgMTQuMTEgMTRIMTRWMTQuMTFDMTIuNzYgMTUuMzcgMTIgMTcuMDkgMTIgMTlDMTIgMTkuMzQgMTIuMDMgMTkuNjcgMTIuMDggMjBINFYxNEgzVjEyTDQgN0gyMEwyMSAxMlYxMi4zQzIwLjM3IDEyLjExIDE5LjcgMTIgMTkgMTJNMTIgMTRINlYxOEgxMlYxNE0yMy44IDIwLjRDMjMuOSAyMC40IDIzLjkgMjAuNSAyMy44IDIwLjZMMjIuOCAyMi4zQzIyLjcgMjIuNCAyMi42IDIyLjQgMjIuNSAyMi40TDIxLjMgMjJDMjEgMjIuMiAyMC44IDIyLjMgMjAuNSAyMi41TDIwLjMgMjMuOEMyMC4zIDIzLjkgMjAuMiAyNCAyMC4xIDI0SDE4LjFDMTggMjQgMTcuOSAyMy45IDE3LjggMjMuOEwxNy42IDIyLjVDMTcuMyAyMi40IDE3IDIyLjIgMTYuOCAyMkwxNS42IDIyLjVDMTUuNSAyMi41IDE1LjQgMjIuNSAxNS4zIDIyLjRMMTQuMyAyMC43QzE0LjIgMjAuNiAxNC4zIDIwLjUgMTQuNCAyMC40TDE1LjUgMTkuNlYxOC42TDE0LjQgMTcuOEMxNC4zIDE3LjcgMTQuMyAxNy42IDE0LjMgMTcuNUwxNS4zIDE1LjhDMTUuNCAxNS43IDE1LjUgMTUuNyAxNS42IDE1LjdMMTYuOCAxNi4yQzE3LjEgMTYgMTcuMyAxNS45IDE3LjYgMTUuN0wxNy44IDE0LjRDMTcuOCAxNC4zIDE3LjkgMTQuMiAxOC4xIDE0LjJIMjAuMUMyMC4yIDE0LjIgMjAuMyAxNC4zIDIwLjMgMTQuNEwyMC41IDE1LjdDMjAuOCAxNS44IDIxLjEgMTYgMjEuNCAxNi4yTDIyLjYgMTUuN0MyMi43IDE1LjcgMjIuOSAxNS43IDIyLjkgMTUuOEwyMy45IDE3LjVDMjQgMTcuNiAyMy45IDE3LjcgMjMuOCAxNy44TDIyLjcgMTguNlYxOS42TDIzLjggMjAuNE0yMC41IDE5QzIwLjUgMTguMiAxOS44IDE3LjUgMTkgMTcuNVMxNy41IDE4LjIgMTcuNSAxOSAxOC4yIDIwLjUgMTkgMjAuNSAyMC41IDE5LjggMjAuNSAxOVoiIC8+PC9zdmc+)
-
--}
-storeCog : IconShape
-storeCog =
-    Material.Icons.Directory.S.storeCog
-
-
 {-| The [`store-clock-outline`](https://pictogrammers.com/library/mdi/icon/store-clock-outline/) icon.
 
 ![store-clock-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRIMlYySDE4VjRNMTcuNSAxM0gxNlYxOEwxOS42MSAyMC4xNkwyMC4zNiAxOC45NEwxNy41IDE3LjI1VjEzTTI0IDE3QzI0IDIwLjg3IDIwLjg3IDI0IDE3IDI0QzEzLjQ3IDI0IDEwLjU3IDIxLjM5IDEwLjA4IDE4SDJWMTJIMVYxMEwyIDVIMThMMTkgMTBWMTAuMjlDMjEuODkgMTEuMTYgMjQgMTMuODMgMjQgMTdNMy4wNCAxMEgxNi45NkwxNi4zNiA3SDMuNjRMMy4wNCAxME00IDE2SDEwVjEySDRWMTZNMjIgMTdDMjIgMTQuMjQgMTkuNzYgMTIgMTcgMTJTMTIgMTQuMjQgMTIgMTcgMTQuMjQgMjIgMTcgMjIgMjIgMTkuNzYgMjIgMTdaIiAvPjwvc3ZnPg==)
@@ -745,6 +735,16 @@ storeCog =
 storeClockOutline : IconShape
 storeClockOutline =
     Material.Icons.Directory.S.storeClockOutline
+
+
+{-| The [`store-cog`](https://pictogrammers.com/library/mdi/icon/store-cog/) icon.
+
+![store-cog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTkgMTJDMTcuMDkgMTIgMTUuMzcgMTIuNzYgMTQuMTEgMTRIMTRWMTQuMTFDMTIuNzYgMTUuMzcgMTIgMTcuMDkgMTIgMTlDMTIgMTkuMzQgMTIuMDMgMTkuNjcgMTIuMDggMjBINFYxNEgzVjEyTDQgN0gyMEwyMSAxMlYxMi4zQzIwLjM3IDEyLjExIDE5LjcgMTIgMTkgMTJNMTIgMTRINlYxOEgxMlYxNE0yMy44IDIwLjRDMjMuOSAyMC40IDIzLjkgMjAuNSAyMy44IDIwLjZMMjIuOCAyMi4zQzIyLjcgMjIuNCAyMi42IDIyLjQgMjIuNSAyMi40TDIxLjMgMjJDMjEgMjIuMiAyMC44IDIyLjMgMjAuNSAyMi41TDIwLjMgMjMuOEMyMC4zIDIzLjkgMjAuMiAyNCAyMC4xIDI0SDE4LjFDMTggMjQgMTcuOSAyMy45IDE3LjggMjMuOEwxNy42IDIyLjVDMTcuMyAyMi40IDE3IDIyLjIgMTYuOCAyMkwxNS42IDIyLjVDMTUuNSAyMi41IDE1LjQgMjIuNSAxNS4zIDIyLjRMMTQuMyAyMC43QzE0LjIgMjAuNiAxNC4zIDIwLjUgMTQuNCAyMC40TDE1LjUgMTkuNlYxOC42TDE0LjQgMTcuOEMxNC4zIDE3LjcgMTQuMyAxNy42IDE0LjMgMTcuNUwxNS4zIDE1LjhDMTUuNCAxNS43IDE1LjUgMTUuNyAxNS42IDE1LjdMMTYuOCAxNi4yQzE3LjEgMTYgMTcuMyAxNS45IDE3LjYgMTUuN0wxNy44IDE0LjRDMTcuOCAxNC4zIDE3LjkgMTQuMiAxOC4xIDE0LjJIMjAuMUMyMC4yIDE0LjIgMjAuMyAxNC4zIDIwLjMgMTQuNEwyMC41IDE1LjdDMjAuOCAxNS44IDIxLjEgMTYgMjEuNCAxNi4yTDIyLjYgMTUuN0MyMi43IDE1LjcgMjIuOSAxNS43IDIyLjkgMTUuOEwyMy45IDE3LjVDMjQgMTcuNiAyMy45IDE3LjcgMjMuOCAxNy44TDIyLjcgMTguNlYxOS42TDIzLjggMjAuNE0yMC41IDE5QzIwLjUgMTguMiAxOS44IDE3LjUgMTkgMTcuNVMxNy41IDE4LjIgMTcuNSAxOSAxOC4yIDIwLjUgMTkgMjAuNSAyMC41IDE5LjggMjAuNSAxOVoiIC8+PC9zdmc+)
+
+-}
+storeCog : IconShape
+storeCog =
+    Material.Icons.Directory.S.storeCog
 
 
 {-| The [`store-cog-outline`](https://pictogrammers.com/library/mdi/icon/store-cog-outline/) icon.
@@ -757,16 +757,6 @@ storeCogOutline =
     Material.Icons.Directory.S.storeCogOutline
 
 
-{-| The [`store-edit`](https://pictogrammers.com/library/mdi/icon/store-edit/) icon.
-
-![store-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTQgMTYuMTNMMTEgMTkuMTNWMjBINFYxNEgzVjEyTDQgN0gyMEwyMC42MSAxMC4wN0MyMC4xNiAxMC4xNyAxOS43MyAxMC40IDE5LjM5IDEwLjc0TDE2LjEzIDE0SDE0VjE2LjEzTTEyIDE0SDZWMThIMTJWMTRNMjIuODUgMTMuNDdMMjEuNTMgMTIuMTVDMjEuMzMgMTEuOTUgMjEgMTEuOTUgMjAuODEgMTIuMTVMMTkuODMgMTMuMTNMMjEuODcgMTUuMTdMMjIuODUgMTQuMTlDMjMuMDUgMTQgMjMuMDUgMTMuNjcgMjIuODUgMTMuNDdNMTMgMTkuOTZWMjJIMTUuMDRMMjEuMTcgMTUuODhMMTkuMTMgMTMuODNMMTMgMTkuOTZaIiAvPjwvc3ZnPg==)
-
--}
-storeEdit : IconShape
-storeEdit =
-    Material.Icons.Directory.S.storeEdit
-
-
 {-| The [`store-edit-outline`](https://pictogrammers.com/library/mdi/icon/store-edit-outline/) icon.
 
 ![store-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTQgMTYuMTNMMTEgMTkuMTNWMjBINFYxNEgzVjEyTDQgN0gyMEwyMC42MSAxMC4wN0MyMC4xNiAxMC4xNyAxOS43MyAxMC40IDE5LjM5IDEwLjc0TDE4LjgyIDExLjMxTDE4LjM2IDlINS42NEw1LjA0IDEySDE4LjEzTDE2LjEzIDE0SDE0VjE2LjEzTTEyIDE0SDZWMThIMTJWMTRNMjIuODUgMTMuNDdMMjEuNTMgMTIuMTVDMjEuMzMgMTEuOTUgMjEgMTEuOTUgMjAuODEgMTIuMTVMMTkuODMgMTMuMTNMMjEuODcgMTUuMTdMMjIuODUgMTQuMTlDMjMuMDUgMTQgMjMuMDUgMTMuNjcgMjIuODUgMTMuNDdNMTMgMTkuOTZWMjJIMTUuMDRMMjEuMTcgMTUuODhMMTkuMTMgMTMuODNMMTMgMTkuOTZaIiAvPjwvc3ZnPg==)
@@ -777,14 +767,14 @@ storeEditOutline =
     Material.Icons.Directory.S.storeEditOutline
 
 
-{-| The [`store-marker-outline`](https://pictogrammers.com/library/mdi/icon/store-marker-outline/) icon.
+{-| The [`store-edit`](https://pictogrammers.com/library/mdi/icon/store-edit/) icon.
 
-![store-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTQuMyAxMkMxMy41IDEyLjk2IDEzIDE0LjE4IDEzIDE1LjVDMTMgMTYuNjQgMTMuNDMgMTcuODYgMTQgMTlWMjBINFYxNEgzVjEyTDQgN0gyMEwyMC43IDEwLjVDMjAuMDQgMTAuMTggMTkuMzIgMTAgMTguNTYgMTBMMTguMzYgOUg1LjY0TDUuMDQgMTJIMTQuM00xMiAxNEg2VjE4SDEyVjE0TTIyIDE1LjVDMjIgMTguMSAxOC41IDIyIDE4LjUgMjJTMTUgMTguMSAxNSAxNS41QzE1IDEzLjYgMTYuNiAxMiAxOC41IDEyUzIyIDEzLjYgMjIgMTUuNU0xOS43IDE1LjZDMTkuNyAxNSAxOS4xIDE0LjQgMTguNSAxNC40UzE3LjMgMTQuOSAxNy4zIDE1LjZDMTcuMyAxNi4yIDE3LjggMTYuOCAxOC41IDE2LjhTMTkuOCAxNi4yIDE5LjcgMTUuNloiIC8+PC9zdmc+)
+![store-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTQgMTYuMTNMMTEgMTkuMTNWMjBINFYxNEgzVjEyTDQgN0gyMEwyMC42MSAxMC4wN0MyMC4xNiAxMC4xNyAxOS43MyAxMC40IDE5LjM5IDEwLjc0TDE2LjEzIDE0SDE0VjE2LjEzTTEyIDE0SDZWMThIMTJWMTRNMjIuODUgMTMuNDdMMjEuNTMgMTIuMTVDMjEuMzMgMTEuOTUgMjEgMTEuOTUgMjAuODEgMTIuMTVMMTkuODMgMTMuMTNMMjEuODcgMTUuMTdMMjIuODUgMTQuMTlDMjMuMDUgMTQgMjMuMDUgMTMuNjcgMjIuODUgMTMuNDdNMTMgMTkuOTZWMjJIMTUuMDRMMjEuMTcgMTUuODhMMTkuMTMgMTMuODNMMTMgMTkuOTZaIiAvPjwvc3ZnPg==)
 
 -}
-storeMarkerOutline : IconShape
-storeMarkerOutline =
-    Material.Icons.Directory.S.storeMarkerOutline
+storeEdit : IconShape
+storeEdit =
+    Material.Icons.Directory.S.storeEdit
 
 
 {-| The [`store-marker`](https://pictogrammers.com/library/mdi/icon/store-marker/) icon.
@@ -795,6 +785,16 @@ storeMarkerOutline =
 storeMarker : IconShape
 storeMarker =
     Material.Icons.Directory.S.storeMarker
+
+
+{-| The [`store-marker-outline`](https://pictogrammers.com/library/mdi/icon/store-marker-outline/) icon.
+
+![store-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTQuMyAxMkMxMy41IDEyLjk2IDEzIDE0LjE4IDEzIDE1LjVDMTMgMTYuNjQgMTMuNDMgMTcuODYgMTQgMTlWMjBINFYxNEgzVjEyTDQgN0gyMEwyMC43IDEwLjVDMjAuMDQgMTAuMTggMTkuMzIgMTAgMTguNTYgMTBMMTguMzYgOUg1LjY0TDUuMDQgMTJIMTQuM00xMiAxNEg2VjE4SDEyVjE0TTIyIDE1LjVDMjIgMTguMSAxOC41IDIyIDE4LjUgMjJTMTUgMTguMSAxNSAxNS41QzE1IDEzLjYgMTYuNiAxMiAxOC41IDEyUzIyIDEzLjYgMjIgMTUuNU0xOS43IDE1LjZDMTkuNyAxNSAxOS4xIDE0LjQgMTguNSAxNC40UzE3LjMgMTQuOSAxNy4zIDE1LjZDMTcuMyAxNi4yIDE3LjggMTYuOCAxOC41IDE2LjhTMTkuOCAxNi4yIDE5LjcgMTUuNloiIC8+PC9zdmc+)
+
+-}
+storeMarkerOutline : IconShape
+storeMarkerOutline =
+    Material.Icons.Directory.S.storeMarkerOutline
 
 
 {-| The [`store-minus`](https://pictogrammers.com/library/mdi/icon/store-minus/) icon.
@@ -847,16 +847,6 @@ storeOutline =
     Material.Icons.Directory.S.storeOutline
 
 
-{-| The [`store-plus-outline`](https://pictogrammers.com/library/mdi/icon/store-plus-outline/) icon.
-
-![store-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTUuNjkgMTRIMTRWMTUuNjlDMTMuMzcgMTYuNjQgMTMgMTcuNzcgMTMgMTlDMTMgMTkuMzQgMTMuMDQgMTkuNjcgMTMuMDkgMjBINFYxNEgzVjEyTDQgN0gyMEwyMSAxMlYxMy4zNUMyMC4zNyAxMy4xMyAxOS43IDEzIDE5IDEzQzE3Ljc3IDEzIDE2LjY0IDEzLjM3IDE1LjY5IDE0TTEyIDE0SDZWMThIMTJWMTRNMTguOTYgMTJMMTguMzYgOUg1LjY0TDUuMDQgMTJIMTguOTZNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
-
--}
-storePlusOutline : IconShape
-storePlusOutline =
-    Material.Icons.Directory.S.storePlusOutline
-
-
 {-| The [`store-plus`](https://pictogrammers.com/library/mdi/icon/store-plus/) icon.
 
 ![store-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNFY2SDIwVjRNNCA3TDMgMTJWMTRINFYyMEgxM0MxMi45NSAxOS42NiAxMi45MiAxOS4zMSAxMi45MiAxOC45NUMxMi45MiAxNy43MyAxMy4zIDE2LjUzIDE0IDE1LjUzVjE0SDE1LjU0QzE2LjU0IDEzLjMzIDE3LjcxIDEyLjk2IDE4LjkxIDEyLjk2QzE5LjYyIDEyLjk2IDIwLjMzIDEzLjA5IDIxIDEzLjM0VjEyTDIwIDdNNiAxNEgxMlYxOEg2TTE4IDE1VjE4SDE1VjIwSDE4VjIzSDIwVjIwSDIzVjE4SDIwVjE1IiAvPjwvc3ZnPg==)
@@ -865,6 +855,16 @@ storePlusOutline =
 storePlus : IconShape
 storePlus =
     Material.Icons.Directory.S.storePlus
+
+
+{-| The [`store-plus-outline`](https://pictogrammers.com/library/mdi/icon/store-plus-outline/) icon.
+
+![store-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZINFY0SDIwVjZNMTUuNjkgMTRIMTRWMTUuNjlDMTMuMzcgMTYuNjQgMTMgMTcuNzcgMTMgMTlDMTMgMTkuMzQgMTMuMDQgMTkuNjcgMTMuMDkgMjBINFYxNEgzVjEyTDQgN0gyMEwyMSAxMlYxMy4zNUMyMC4zNyAxMy4xMyAxOS43IDEzIDE5IDEzQzE3Ljc3IDEzIDE2LjY0IDEzLjM3IDE1LjY5IDE0TTEyIDE0SDZWMThIMTJWMTRNMTguOTYgMTJMMTguMzYgOUg1LjY0TDUuMDQgMTJIMTguOTZNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
+
+-}
+storePlusOutline : IconShape
+storePlusOutline =
+    Material.Icons.Directory.S.storePlusOutline
 
 
 {-| The [`store-remove`](https://pictogrammers.com/library/mdi/icon/store-remove/) icon.
@@ -887,16 +887,6 @@ storeRemoveOutline =
     Material.Icons.Directory.S.storeRemoveOutline
 
 
-{-| The [`store-search-outline`](https://pictogrammers.com/library/mdi/icon/store-search-outline/) icon.
-
-![store-search-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRIMlYySDE4VjRNMTMuMDQgMTBIMy4wNEwzLjY0IDdIMTYuMzZMMTYuNzYgOUMxNy41IDkuMDQgMTguMjEgOS4xOSAxOC44OSA5LjQ2TDE4IDVIMkwxIDEwVjEySDJWMThIMTAuNUMxMC4xNyAxNy4yIDEwIDE2LjM1IDEwIDE1LjVWMTZINFYxMkgxMFYxNS41QzEwIDEzLjg0IDEwLjY0IDEyLjE3IDExLjkgMTAuOUMxMi4yNiAxMC41NSAxMi42NCAxMC4yNSAxMy4wNCAxME0yMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMSAyMSAxMyAyMSAxNS41QzIxIDE2LjM4IDIwLjc1IDE3LjIxIDIwLjMxIDE3LjlMMjMuMzkgMjFNMTkgMTUuNUMxOSAxNC4xMiAxNy44OCAxMyAxNi41IDEzUzE0IDE0LjEyIDE0IDE1LjUgMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41WiIgLz48L3N2Zz4=)
-
--}
-storeSearchOutline : IconShape
-storeSearchOutline =
-    Material.Icons.Directory.S.storeSearchOutline
-
-
 {-| The [`store-search`](https://pictogrammers.com/library/mdi/icon/store-search/) icon.
 
 ![store-search](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLjkgMTAuOUMxMC42NCAxMi4xNyAxMCAxMy44NCAxMCAxNS41VjEySDRWMTZIMTBWMTUuNUMxMCAxNi4zNSAxMC4xNyAxNy4yIDEwLjUgMThIMlYxMkgxVjEwTDIgNUgxOEwxOC44OSA5LjQ2QzE2LjU2IDguNTMgMTMuNzkgOSAxMS45IDEwLjlNMTggMkgyVjRIMThWMk0yMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMSAyMSAxMyAyMSAxNS41QzIxIDE2LjM4IDIwLjc1IDE3LjIxIDIwLjMxIDE3LjlMMjMuMzkgMjFNMTkgMTUuNUMxOSAxNC4xMiAxNy44OCAxMyAxNi41IDEzUzE0IDE0LjEyIDE0IDE1LjUgMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41WiIgLz48L3N2Zz4=)
@@ -905,6 +895,16 @@ storeSearchOutline =
 storeSearch : IconShape
 storeSearch =
     Material.Icons.Directory.S.storeSearch
+
+
+{-| The [`store-search-outline`](https://pictogrammers.com/library/mdi/icon/store-search-outline/) icon.
+
+![store-search-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDRIMlYySDE4VjRNMTMuMDQgMTBIMy4wNEwzLjY0IDdIMTYuMzZMMTYuNzYgOUMxNy41IDkuMDQgMTguMjEgOS4xOSAxOC44OSA5LjQ2TDE4IDVIMkwxIDEwVjEySDJWMThIMTAuNUMxMC4xNyAxNy4yIDEwIDE2LjM1IDEwIDE1LjVWMTZINFYxMkgxMFYxNS41QzEwIDEzLjg0IDEwLjY0IDEyLjE3IDExLjkgMTAuOUMxMi4yNiAxMC41NSAxMi42NCAxMC4yNSAxMy4wNCAxME0yMy4zOSAyMUwyMiAyMi4zOUwxOC44OCAxOS4zMkMxOC4xOSAxOS43NSAxNy4zNyAyMCAxNi41IDIwQzE0IDIwIDEyIDE4IDEyIDE1LjVTMTQgMTEgMTYuNSAxMSAyMSAxMyAyMSAxNS41QzIxIDE2LjM4IDIwLjc1IDE3LjIxIDIwLjMxIDE3LjlMMjMuMzkgMjFNMTkgMTUuNUMxOSAxNC4xMiAxNy44OCAxMyAxNi41IDEzUzE0IDE0LjEyIDE0IDE1LjUgMTUuMTIgMTggMTYuNSAxOCAxOSAxNi44OCAxOSAxNS41WiIgLz48L3N2Zz4=)
+
+-}
+storeSearchOutline : IconShape
+storeSearchOutline =
+    Material.Icons.Directory.S.storeSearchOutline
 
 
 {-| The [`store-settings`](https://pictogrammers.com/library/mdi/icon/store-settings/) icon.

@@ -4,8 +4,8 @@
 
 module Material.Icons.Categories.View exposing
     ( apps
-    , viewAgendaOutline
     , viewAgenda
+    , viewAgendaOutline
     , viewArray
     , viewArrayOutline
     , viewCarousel
@@ -13,28 +13,28 @@ module Material.Icons.Categories.View exposing
     , viewColumn
     , viewColumnOutline
     , viewComfy
-    , viewCompact
     , viewComfyOutline
+    , viewCompact
     , viewCompactOutline
     , viewDashboard
-    , viewDashboardEditOutline
     , viewDashboardEdit
+    , viewDashboardEditOutline
     , viewDashboardOutline
     , viewDashboardVariant
     , viewDashboardVariantOutline
     , viewDay
-    , viewGallery
     , viewDayOutline
-    , viewGrid
+    , viewGallery
     , viewGalleryOutline
+    , viewGrid
     , viewGridOutline
     , viewGridPlus
     , viewGridPlusOutline
     , viewHeadline
     , viewList
     , viewListOutline
-    , viewModuleOutline
     , viewModule
+    , viewModuleOutline
     , viewParallel
     , viewParallelOutline
     , viewQuilt
@@ -52,8 +52,8 @@ module Material.Icons.Categories.View exposing
 {-| This module contains icons in the Material.Icons.Categories.View category.
 
 @docs apps
-@docs viewAgendaOutline
 @docs viewAgenda
+@docs viewAgendaOutline
 @docs viewArray
 @docs viewArrayOutline
 @docs viewCarousel
@@ -61,28 +61,28 @@ module Material.Icons.Categories.View exposing
 @docs viewColumn
 @docs viewColumnOutline
 @docs viewComfy
-@docs viewCompact
 @docs viewComfyOutline
+@docs viewCompact
 @docs viewCompactOutline
 @docs viewDashboard
-@docs viewDashboardEditOutline
 @docs viewDashboardEdit
+@docs viewDashboardEditOutline
 @docs viewDashboardOutline
 @docs viewDashboardVariant
 @docs viewDashboardVariantOutline
 @docs viewDay
-@docs viewGallery
 @docs viewDayOutline
-@docs viewGrid
+@docs viewGallery
 @docs viewGalleryOutline
+@docs viewGrid
 @docs viewGridOutline
 @docs viewGridPlus
 @docs viewGridPlusOutline
 @docs viewHeadline
 @docs viewList
 @docs viewListOutline
-@docs viewModuleOutline
 @docs viewModule
+@docs viewModuleOutline
 @docs viewParallel
 @docs viewParallelOutline
 @docs viewQuilt
@@ -113,16 +113,6 @@ apps =
     Material.Icons.Directory.A.apps
 
 
-{-| The [`view-agenda-outline`](https://pictogrammers.com/library/mdi/icon/view-agenda-outline/) icon.
-
-![view-agenda-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzSDNBMSAxIDAgMCAwIDIgMTRWMjBBMSAxIDAgMCAwIDMgMjFIMjFBMSAxIDAgMCAwIDIyIDIwVjE0QTEgMSAwIDAgMCAyMSAxM00yMCAxOUg0VjE1SDIwTTIxIDNIM0ExIDEgMCAwIDAgMiA0VjEwQTEgMSAwIDAgMCAzIDExSDIxQTEgMSAwIDAgMCAyMiAxMFY0QTEgMSAwIDAgMCAyMSAzTTIwIDlINFY1SDIwWiIgLz48L3N2Zz4=)
-
--}
-viewAgendaOutline : IconShape
-viewAgendaOutline =
-    Material.Icons.Directory.V.viewAgendaOutline
-
-
 {-| The [`view-agenda`](https://pictogrammers.com/library/mdi/icon/view-agenda/) icon.
 
 ![view-agenda](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDNIM0MyLjQgMyAyIDMuNCAyIDRWMTBDMiAxMC42IDIuNCAxMSAzIDExSDIxQzIxLjYgMTEgMjIgMTAuNiAyMiAxMFY0QzIyIDMuNCAyMS42IDMgMjEgM00yMSAxM0gzQzIuNCAxMyAyIDEzLjQgMiAxNFYyMEMyIDIwLjYgMi40IDIxIDMgMjFIMjFDMjEuNiAyMSAyMiAyMC42IDIyIDIwVjE0QzIyIDEzLjQgMjEuNiAxMyAyMSAxM1oiIC8+PC9zdmc+)
@@ -131,6 +121,16 @@ viewAgendaOutline =
 viewAgenda : IconShape
 viewAgenda =
     Material.Icons.Directory.V.viewAgenda
+
+
+{-| The [`view-agenda-outline`](https://pictogrammers.com/library/mdi/icon/view-agenda-outline/) icon.
+
+![view-agenda-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzSDNBMSAxIDAgMCAwIDIgMTRWMjBBMSAxIDAgMCAwIDMgMjFIMjFBMSAxIDAgMCAwIDIyIDIwVjE0QTEgMSAwIDAgMCAyMSAxM00yMCAxOUg0VjE1SDIwTTIxIDNIM0ExIDEgMCAwIDAgMiA0VjEwQTEgMSAwIDAgMCAzIDExSDIxQTEgMSAwIDAgMCAyMiAxMFY0QTEgMSAwIDAgMCAyMSAzTTIwIDlINFY1SDIwWiIgLz48L3N2Zz4=)
+
+-}
+viewAgendaOutline : IconShape
+viewAgendaOutline =
+    Material.Icons.Directory.V.viewAgendaOutline
 
 
 {-| The [`view-array`](https://pictogrammers.com/library/mdi/icon/view-array/) icon.
@@ -203,16 +203,6 @@ viewComfy =
     Material.Icons.Directory.V.viewComfy
 
 
-{-| The [`view-compact`](https://pictogrammers.com/library/mdi/icon/view-compact/) icon.
-
-![view-compact](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTlIOVYxMkgzVjE5TTEwLDE5SDIyVjEySDEwVjE5TTMsNVYxMUgyMlY1SDNaIiAvPjwvc3ZnPg==)
-
--}
-viewCompact : IconShape
-viewCompact =
-    Material.Icons.Directory.V.viewCompact
-
-
 {-| The [`view-comfy-outline`](https://pictogrammers.com/library/mdi/icon/view-comfy-outline/) icon.
 
 ![view-comfy-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgNVYxOUgyMlY1SDNNMjAgOUgxNy43NVY3SDIwVjlNOS4yNSAxMUgxMS41VjEzSDkuMjVWMTFNNy4yNSAxM0g1VjExSDcuMjVWMTNNMTEuNSA5SDkuMjVWN0gxMS41VjlNMTMuNSA3SDE1Ljc1VjlIMTMuNVY3TTExLjUgMTVWMTdIOS4yNVYxNUgxMS41TTEzLjUgMTVIMTUuNzVWMTdIMTMuNVYxNU0xMy41IDEzVjExSDE1Ljc1VjEzSDEzLjVNMTcuNzUgMTFIMjBWMTNIMTcuNzVWMTFNNy4yNSA3VjlINVY3SDcuMjVNNSAxNUg3LjI1VjE3SDVWMTVNMTcuNzUgMTdWMTVIMjBWMTdIMTcuNzVaIiAvPjwvc3ZnPg==)
@@ -221,6 +211,16 @@ viewCompact =
 viewComfyOutline : IconShape
 viewComfyOutline =
     Material.Icons.Directory.V.viewComfyOutline
+
+
+{-| The [`view-compact`](https://pictogrammers.com/library/mdi/icon/view-compact/) icon.
+
+![view-compact](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTlIOVYxMkgzVjE5TTEwLDE5SDIyVjEySDEwVjE5TTMsNVYxMUgyMlY1SDNaIiAvPjwvc3ZnPg==)
+
+-}
+viewCompact : IconShape
+viewCompact =
+    Material.Icons.Directory.V.viewCompact
 
 
 {-| The [`view-compact-outline`](https://pictogrammers.com/library/mdi/icon/view-compact-outline/) icon.
@@ -243,16 +243,6 @@ viewDashboard =
     Material.Icons.Directory.V.viewDashboard
 
 
-{-| The [`view-dashboard-edit-outline`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit-outline/) icon.
-
-![view-dashboard-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgM0gxM1Y5SDIxVjNNMTkgN0gxNVY1SDE5VjdNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTguMDcgMTNIMTVWMTYuMDdMMTMgMTguMDZNMTEgM0gzVjEzSDExVjNNOSAxMUg1VjVIOVYxMU0xMSAyMC4wNlYxNUgzVjIxSDExVjIwLjA2TTkgMTlINVYxN0g5VjE5WiIgLz48L3N2Zz4=)
-
--}
-viewDashboardEditOutline : IconShape
-viewDashboardEditOutline =
-    Material.Icons.Directory.V.viewDashboardEditOutline
-
-
 {-| The [`view-dashboard-edit`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit/) icon.
 
 ![view-dashboard-edit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgOUgxM1YzSDIxVjlNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTMgMTguMDZNMTEgMTNIM1YzSDExVjEzTTExIDIxSDNWMTVIMTFWMjFaIiAvPjwvc3ZnPg==)
@@ -261,6 +251,16 @@ viewDashboardEditOutline =
 viewDashboardEdit : IconShape
 viewDashboardEdit =
     Material.Icons.Directory.V.viewDashboardEdit
+
+
+{-| The [`view-dashboard-edit-outline`](https://pictogrammers.com/library/mdi/icon/view-dashboard-edit-outline/) icon.
+
+![view-dashboard-edit-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDEzLjFDMjAuOSAxMy4xIDIwLjcgMTMuMiAyMC42IDEzLjNMMTkuNiAxNC4zTDIxLjcgMTYuNEwyMi43IDE1LjRDMjIuOSAxNS4yIDIyLjkgMTQuOCAyMi43IDE0LjZMMjEuNCAxMy4zQzIxLjMgMTMuMiAyMS4yIDEzLjEgMjEgMTMuMU0xOS4xIDE0LjlMMTMgMjAuOVYyM0gxNS4xTDIxLjIgMTYuOUwxOS4xIDE0LjlNMjEgM0gxM1Y5SDIxVjNNMTkgN0gxNVY1SDE5VjdNMTMgMTguMDZWMTFIMjFWMTEuMUMyMC4yNCAxMS4xIDE5LjU3IDExLjUgMTkuMTkgMTEuODlMMTguMDcgMTNIMTVWMTYuMDdMMTMgMTguMDZNMTEgM0gzVjEzSDExVjNNOSAxMUg1VjVIOVYxMU0xMSAyMC4wNlYxNUgzVjIxSDExVjIwLjA2TTkgMTlINVYxN0g5VjE5WiIgLz48L3N2Zz4=)
+
+-}
+viewDashboardEditOutline : IconShape
+viewDashboardEditOutline =
+    Material.Icons.Directory.V.viewDashboardEditOutline
 
 
 {-| The [`view-dashboard-outline`](https://pictogrammers.com/library/mdi/icon/view-dashboard-outline/) icon.
@@ -303,16 +303,6 @@ viewDay =
     Material.Icons.Directory.V.viewDay
 
 
-{-| The [`view-gallery`](https://pictogrammers.com/library/mdi/icon/view-gallery/) icon.
-
-![view-gallery](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDNIMlYxNkgyMVYzTTIgMTdINlYyMUgyVjE3TTcgMTdIMTFWMjFIN1YxN00xMiAxN0gxNlYyMUgxMlYxN00xNyAxN0gyMVYyMUgxN1YxN1oiIC8+PC9zdmc+)
-
--}
-viewGallery : IconShape
-viewGallery =
-    Material.Icons.Directory.V.viewGallery
-
-
 {-| The [`view-day-outline`](https://pictogrammers.com/library/mdi/icon/view-day-outline/) icon.
 
 ![view-day-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDE4SDJWMjBIMjFWMThNMTkgMTBWMTRINFYxMEgxOU0yMCA4SDNDMi40NSA4IDIgOC40NSAyIDlWMTVDMiAxNS41NSAyLjQ1IDE2IDMgMTZIMjBDMjAuNTUgMTYgMjEgMTUuNTUgMjEgMTVWOUMyMSA4LjQ1IDIwLjU1IDggMjAgOE0yMSA0SDJWNkgyMVY0WiIgLz48L3N2Zz4=)
@@ -323,14 +313,14 @@ viewDayOutline =
     Material.Icons.Directory.V.viewDayOutline
 
 
-{-| The [`view-grid`](https://pictogrammers.com/library/mdi/icon/view-grid/) icon.
+{-| The [`view-gallery`](https://pictogrammers.com/library/mdi/icon/view-gallery/) icon.
 
-![view-grid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTFIMTFWM0gzTTMsMjFIMTFWMTNIM00xMywyMUgyMVYxM0gxM00xMywzVjExSDIxVjMiIC8+PC9zdmc+)
+![view-gallery](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDNIMlYxNkgyMVYzTTIgMTdINlYyMUgyVjE3TTcgMTdIMTFWMjFIN1YxN00xMiAxN0gxNlYyMUgxMlYxN00xNyAxN0gyMVYyMUgxN1YxN1oiIC8+PC9zdmc+)
 
 -}
-viewGrid : IconShape
-viewGrid =
-    Material.Icons.Directory.V.viewGrid
+viewGallery : IconShape
+viewGallery =
+    Material.Icons.Directory.V.viewGallery
 
 
 {-| The [`view-gallery-outline`](https://pictogrammers.com/library/mdi/icon/view-gallery-outline/) icon.
@@ -341,6 +331,16 @@ viewGrid =
 viewGalleryOutline : IconShape
 viewGalleryOutline =
     Material.Icons.Directory.V.viewGalleryOutline
+
+
+{-| The [`view-grid`](https://pictogrammers.com/library/mdi/icon/view-grid/) icon.
+
+![view-grid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsMTFIMTFWM0gzTTMsMjFIMTFWMTNIM00xMywyMUgyMVYxM0gxM00xMywzVjExSDIxVjMiIC8+PC9zdmc+)
+
+-}
+viewGrid : IconShape
+viewGrid =
+    Material.Icons.Directory.V.viewGrid
 
 
 {-| The [`view-grid-outline`](https://pictogrammers.com/library/mdi/icon/view-grid-outline/) icon.
@@ -403,16 +403,6 @@ viewListOutline =
     Material.Icons.Directory.V.viewListOutline
 
 
-{-| The [`view-module-outline`](https://pictogrammers.com/library/mdi/icon/view-module-outline/) icon.
-
-![view-module-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNVYxOEgyMVY1SDRNMTQgN1YxMC41SDExVjdIMTRNNiA3SDlWMTAuNUg2VjdNNiAxNlYxMi41SDlWMTZINk0xMSAxNlYxMi41SDE0VjE2SDExTTE5IDE2SDE2VjEyLjVIMTlWMTZNMTYgMTAuNVY3SDE5VjEwLjVIMTZaIiAvPjwvc3ZnPg==)
-
--}
-viewModuleOutline : IconShape
-viewModuleOutline =
-    Material.Icons.Directory.V.viewModuleOutline
-
-
 {-| The [`view-module`](https://pictogrammers.com/library/mdi/icon/view-module/) icon.
 
 ![view-module](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDVWMTFIMjFWNU0xMCwxMUgxNVY1SDEwTTE2LDE4SDIxVjEySDE2TTEwLDE4SDE1VjEySDEwTTQsMThIOVYxMkg0TTQsMTFIOVY1SDRWMTFaIiAvPjwvc3ZnPg==)
@@ -421,6 +411,16 @@ viewModuleOutline =
 viewModule : IconShape
 viewModule =
     Material.Icons.Directory.V.viewModule
+
+
+{-| The [`view-module-outline`](https://pictogrammers.com/library/mdi/icon/view-module-outline/) icon.
+
+![view-module-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQgNVYxOEgyMVY1SDRNMTQgN1YxMC41SDExVjdIMTRNNiA3SDlWMTAuNUg2VjdNNiAxNlYxMi41SDlWMTZINk0xMSAxNlYxMi41SDE0VjE2SDExTTE5IDE2SDE2VjEyLjVIMTlWMTZNMTYgMTAuNVY3SDE5VjEwLjVIMTZaIiAvPjwvc3ZnPg==)
+
+-}
+viewModuleOutline : IconShape
+viewModuleOutline =
+    Material.Icons.Directory.V.viewModuleOutline
 
 
 {-| The [`view-parallel`](https://pictogrammers.com/library/mdi/icon/view-parallel/) icon.
