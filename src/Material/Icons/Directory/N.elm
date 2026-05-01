@@ -882,48 +882,6 @@ numeric1 =
     iconShape "M10,7V9H12V17H14V7H10Z"
 
 
-{-| The [`numeric-1-box`](https://pictogrammers.com/library/mdi/icon/numeric-1-box/) icon.
--}
-numeric1Box : IconShape
-numeric1Box =
-    iconShape "M14,17H12V9H10V7H14M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
-
-
-{-| The [`numeric-1-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-multiple/) icon.
--}
-numeric1BoxMultiple : IconShape
-numeric1BoxMultiple =
-    iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M14,15H16V5H12V7H14V15Z"
-
-
-{-| The [`numeric-1-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-multiple-outline/) icon.
--}
-numeric1BoxMultipleOutline : IconShape
-numeric1BoxMultipleOutline =
-    iconShape "M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M14,15H16V5H12V7H14M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
-
-
-{-| The [`numeric-1-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-outline/) icon.
--}
-numeric1BoxOutline : IconShape
-numeric1BoxOutline =
-    iconShape "M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,17H14V7H10V9H12"
-
-
-{-| The [`numeric-1-circle`](https://pictogrammers.com/library/mdi/icon/numeric-1-circle/) icon.
--}
-numeric1Circle : IconShape
-numeric1Circle =
-    iconShape "M10,7V9H12V17H14V7H10M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z"
-
-
-{-| The [`numeric-1-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-circle-outline/) icon.
--}
-numeric1CircleOutline : IconShape
-numeric1CircleOutline =
-    iconShape "M10,7H14V17H12V9H10V7M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
-
-
 {-| The [`numeric-10`](https://pictogrammers.com/library/mdi/icon/numeric-10/) icon.
 -}
 numeric10 : IconShape
@@ -971,6 +929,48 @@ numeric10Circle =
 numeric10CircleOutline : IconShape
 numeric10CircleOutline =
     iconShape "M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22 2 17.5 2 12 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12S7.58 20 12 20 20 16.42 20 12 16.42 4 12 4M10 7H6V9H8V17H10V7M16 7H14C12.9 7 12 7.9 12 9V15C12 16.11 12.9 17 14 17H16C17.11 17 18 16.11 18 15V9C18 7.9 17.11 7 16 7M16 15H14V9H16V15Z"
+
+
+{-| The [`numeric-1-box`](https://pictogrammers.com/library/mdi/icon/numeric-1-box/) icon.
+-}
+numeric1Box : IconShape
+numeric1Box =
+    iconShape "M14,17H12V9H10V7H14M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
+
+
+{-| The [`numeric-1-box-multiple`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-multiple/) icon.
+-}
+numeric1BoxMultiple : IconShape
+numeric1BoxMultiple =
+    iconShape "M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17A2,2 0 0,1 21,19H7A2,2 0 0,1 5,17V3A2,2 0 0,1 7,1H21M14,15H16V5H12V7H14V15Z"
+
+
+{-| The [`numeric-1-box-multiple-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-multiple-outline/) icon.
+-}
+numeric1BoxMultipleOutline : IconShape
+numeric1BoxMultipleOutline =
+    iconShape "M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M14,15H16V5H12V7H14M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"
+
+
+{-| The [`numeric-1-box-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-box-outline/) icon.
+-}
+numeric1BoxOutline : IconShape
+numeric1BoxOutline =
+    iconShape "M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,17H14V7H10V9H12"
+
+
+{-| The [`numeric-1-circle`](https://pictogrammers.com/library/mdi/icon/numeric-1-circle/) icon.
+-}
+numeric1Circle : IconShape
+numeric1Circle =
+    iconShape "M10,7V9H12V17H14V7H10M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z"
+
+
+{-| The [`numeric-1-circle-outline`](https://pictogrammers.com/library/mdi/icon/numeric-1-circle-outline/) icon.
+-}
+numeric1CircleOutline : IconShape
+numeric1CircleOutline =
+    iconShape "M10,7H14V17H12V9H10V7M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
 
 
 {-| The [`numeric-2`](https://pictogrammers.com/library/mdi/icon/numeric-2/) icon.
@@ -1755,24 +1755,6 @@ lookup name =
         "numeric-1" ->
             Just numeric1
 
-        "numeric-1-box" ->
-            Just numeric1Box
-
-        "numeric-1-box-multiple" ->
-            Just numeric1BoxMultiple
-
-        "numeric-1-box-multiple-outline" ->
-            Just numeric1BoxMultipleOutline
-
-        "numeric-1-box-outline" ->
-            Just numeric1BoxOutline
-
-        "numeric-1-circle" ->
-            Just numeric1Circle
-
-        "numeric-1-circle-outline" ->
-            Just numeric1CircleOutline
-
         "numeric-10" ->
             Just numeric10
 
@@ -1793,6 +1775,24 @@ lookup name =
 
         "numeric-10-circle-outline" ->
             Just numeric10CircleOutline
+
+        "numeric-1-box" ->
+            Just numeric1Box
+
+        "numeric-1-box-multiple" ->
+            Just numeric1BoxMultiple
+
+        "numeric-1-box-multiple-outline" ->
+            Just numeric1BoxMultipleOutline
+
+        "numeric-1-box-outline" ->
+            Just numeric1BoxOutline
+
+        "numeric-1-circle" ->
+            Just numeric1Circle
+
+        "numeric-1-circle-outline" ->
+            Just numeric1CircleOutline
 
         "numeric-2" ->
             Just numeric2

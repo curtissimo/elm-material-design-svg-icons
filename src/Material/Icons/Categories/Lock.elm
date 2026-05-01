@@ -3,8 +3,8 @@
 
 
 module Material.Icons.Categories.Lock exposing
-    ( accountLockOpen
-    , accountLock
+    ( accountLock
+    , accountLockOpen
     , accountLockOpenOutline
     , accountLockOutline
     , archiveLock
@@ -51,9 +51,9 @@ module Material.Icons.Categories.Lock exposing
     , downloadLockOutline
     , emailLock
     , emailLockOutline
-    , fileLockOpenOutline
     , fileLock
     , fileLockOpen
+    , fileLockOpenOutline
     , fileLockOutline
     , folderLock
     , folderLockOpen
@@ -134,8 +134,8 @@ module Material.Icons.Categories.Lock exposing
     , treasureChestOutline
     , uploadLock
     , uploadLockOutline
-    , wifiLockOpen
     , wifiLock
+    , wifiLockOpen
     , wifiStrength1Lock
     , wifiStrength1LockOpen
     , wifiStrength2Lock
@@ -150,8 +150,8 @@ module Material.Icons.Categories.Lock exposing
 
 {-| This module contains icons in the Material.Icons.Categories.Lock category.
 
-@docs accountLockOpen
 @docs accountLock
+@docs accountLockOpen
 @docs accountLockOpenOutline
 @docs accountLockOutline
 @docs archiveLock
@@ -198,9 +198,9 @@ module Material.Icons.Categories.Lock exposing
 @docs downloadLockOutline
 @docs emailLock
 @docs emailLockOutline
-@docs fileLockOpenOutline
 @docs fileLock
 @docs fileLockOpen
+@docs fileLockOpenOutline
 @docs fileLockOutline
 @docs folderLock
 @docs folderLockOpen
@@ -281,8 +281,8 @@ module Material.Icons.Categories.Lock exposing
 @docs treasureChestOutline
 @docs uploadLock
 @docs uploadLockOutline
-@docs wifiLockOpen
 @docs wifiLock
+@docs wifiLockOpen
 @docs wifiStrength1Lock
 @docs wifiStrength1LockOpen
 @docs wifiStrength2Lock
@@ -315,16 +315,6 @@ import Material.Icons.Directory.U
 import Material.Icons.Directory.W
 
 
-{-| The [`account-lock-open`](https://pictogrammers.com/library/mdi/icon/account-lock-open/) icon.
-
-![account-lock-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgOEM2IDUuNzkgNy43OSA0IDEwIDRTMTQgNS43OSAxNCA4IDEyLjIxIDEyIDEwIDEyIDYgMTAuMjEgNiA4TTEyIDE4LjJDMTIgMTcuMjQgMTIuNSAxNi4zNCAxMy4yIDE1Ljc0VjE0LjVDMTMuMiAxNC40NSAxMy4yMiAxNC4zOSAxMy4yMiAxNC4zNEMxMi4yMyAxNC4xMiAxMS4xNSAxNCAxMCAxNEM1LjU4IDE0IDIgMTUuNzkgMiAxOFYyMEgxMlYxOC4yTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zWiIgLz48L3N2Zz4=)
-
--}
-accountLockOpen : IconShape
-accountLockOpen =
-    Material.Icons.Directory.A.accountLockOpen
-
-
 {-| The [`account-lock`](https://pictogrammers.com/library/mdi/icon/account-lock/) icon.
 
 ![account-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgOEM2IDUuNzkgNy43OSA0IDEwIDRTMTQgNS43OSAxNCA4IDEyLjIxIDEyIDEwIDEyIDYgMTAuMjEgNiA4TTEyIDE4LjJDMTIgMTcuMjQgMTIuNSAxNi4zNCAxMy4yIDE1Ljc0VjE1LjVDMTMuMiAxNS4xMSAxMy4yNyAxNC43NCAxMy4zOCAxNC4zOEMxMi4zNSAxNC4xNCAxMS4yMSAxNCAxMCAxNEM1LjU4IDE0IDIgMTUuNzkgMiAxOFYyMEgxMlYxOC4yTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTUuNUMxNS4yIDE0LjEgMTYuNiAxMyAxOCAxM0MxOS40IDEzIDIwLjggMTQuMSAyMC44IDE1LjVWMTdDMjEuNCAxNyAyMiAxNy42IDIyIDE4LjNNMTkuNSAxNS41QzE5LjUgMTQuNyAxOC44IDE0LjIgMTggMTQuMkMxNy4yIDE0LjIgMTYuNSAxNC43IDE2LjUgMTUuNVYxN0gxOS41VjE1LjVaIiAvPjwvc3ZnPg==)
@@ -333,6 +323,16 @@ accountLockOpen =
 accountLock : IconShape
 accountLock =
     Material.Icons.Directory.A.accountLock
+
+
+{-| The [`account-lock-open`](https://pictogrammers.com/library/mdi/icon/account-lock-open/) icon.
+
+![account-lock-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYgOEM2IDUuNzkgNy43OSA0IDEwIDRTMTQgNS43OSAxNCA4IDEyLjIxIDEyIDEwIDEyIDYgMTAuMjEgNiA4TTEyIDE4LjJDMTIgMTcuMjQgMTIuNSAxNi4zNCAxMy4yIDE1Ljc0VjE0LjVDMTMuMiAxNC40NSAxMy4yMiAxNC4zOSAxMy4yMiAxNC4zNEMxMi4yMyAxNC4xMiAxMS4xNSAxNCAxMCAxNEM1LjU4IDE0IDIgMTUuNzkgMiAxOFYyMEgxMlYxOC4yTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zWiIgLz48L3N2Zz4=)
+
+-}
+accountLockOpen : IconShape
+accountLockOpen =
+    Material.Icons.Directory.A.accountLockOpen
 
 
 {-| The [`account-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/account-lock-open-outline/) icon.
@@ -795,16 +795,6 @@ emailLockOutline =
     Material.Icons.Directory.E.emailLockOutline
 
 
-{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
-
-![file-lock-open-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zTTYgMkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDEyVjIwSDZWNEgxM1Y5SDE4VjEwQzE4LjcgMTAgMTkuNCAxMC4yIDIwIDEwLjRWOEwxNCAySDZaIiAvPjwvc3ZnPg==)
-
--}
-fileLockOpenOutline : IconShape
-fileLockOpenOutline =
-    Material.Icons.Directory.F.fileLockOpenOutline
-
-
 {-| The [`file-lock`](https://pictogrammers.com/library/mdi/icon/file-lock/) icon.
 
 ![file-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEzQzE2LjYgMTMgMTUuMiAxNC4xIDE1LjIgMTUuNVYxN0MxNC42IDE3IDE0IDE3LjYgMTQgMTguMlYyMS43QzE0IDIyLjQgMTQuNiAyMyAxNS4yIDIzSDIwLjdDMjEuNCAyMyAyMiAyMi40IDIyIDIxLjhWMTguM0MyMiAxNy42IDIxLjQgMTcgMjAuOCAxN1YxNS41QzIwLjggMTQuMSAxOS40IDEzIDE4IDEzTTE4IDE0LjJDMTguOCAxNC4yIDE5LjUgMTQuNyAxOS41IDE1LjVWMTdIMTYuNVYxNS41QzE2LjUgMTQuNyAxNy4yIDE0LjIgMTggMTQuMk02IDJDNC45IDIgNCAyLjkgNCA0VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxMlYxOC4yQzEyIDE3LjIgMTIuNCAxNi41IDEzIDE2QzEzLjEgMTUuOSAxMy4yIDE1LjkgMTMuMiAxNS44VjE1LjVDMTMuMiAxMi44IDE1LjYgMTEgMTggMTFDMTguNyAxMSAxOS40IDExLjIgMjAgMTEuNFY4TDE0IDJINk0xMyAzLjVMMTguNSA5SDEzVjMuNVoiIC8+PC9zdmc+)
@@ -823,6 +813,16 @@ fileLock =
 fileLockOpen : IconShape
 fileLockOpen =
     Material.Icons.Directory.F.fileLockOpen
+
+
+{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
+
+![file-lock-open-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zTTYgMkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDEyVjIwSDZWNEgxM1Y5SDE4VjEwQzE4LjcgMTAgMTkuNCAxMC4yIDIwIDEwLjRWOEwxNCAySDZaIiAvPjwvc3ZnPg==)
+
+-}
+fileLockOpenOutline : IconShape
+fileLockOpenOutline =
+    Material.Icons.Directory.F.fileLockOpenOutline
 
 
 {-| The [`file-lock-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-outline/) icon.
@@ -1625,16 +1625,6 @@ uploadLockOutline =
     Material.Icons.Directory.U.uploadLockOutline
 
 
-{-| The [`wifi-lock-open`](https://pictogrammers.com/library/mdi/icon/wifi-lock-open/) icon.
-
-![wifi-lock-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDZDOC42MiA2IDUuNSA3LjEyIDMgOUwxLjIgNi42QzQuMjEgNC4zNCA3Ljk1IDMgMTIgM1MxOS43OSA0LjM0IDIyLjggNi42TDIxIDlDMTguNSA3LjEyIDE1LjM4IDYgMTIgNk0xNi4zMSA5LjgxQzE0Ljk3IDkuMjkgMTMuNSA5IDEyIDlDOS4zIDkgNi44MSA5Ljg5IDQuOCAxMS40TDYuNiAxMy44QzguMSAxMi42NyA5Ljk3IDEyIDEyIDEyQzEyLjgzIDEyIDEzLjYzIDEyLjEyIDE0LjM5IDEyLjMzQzE0LjcgMTEuMyAxNS4zOCAxMC40MSAxNi4zMSA5LjgxTTguNCAxNi4yTDEyIDIxTDEzIDE5LjY3VjE3LjJDMTMgMTYuNSAxMy4yNyAxNS44MSAxMy43IDE1LjI2QzEzLjE2IDE1LjEgMTIuNTkgMTUgMTIgMTVDMTAuNjUgMTUgOS40IDE1LjQ1IDguNCAxNi4yTTIxLjggMTZIMTcuNVYxMy41QzE3LjUgMTIuNyAxOC4yIDEyLjIgMTkgMTIuMlMyMC41IDEyLjcgMjAuNSAxMy41VjE0SDIxLjhWMTMuNUMyMS44IDEyLjEgMjAuNCAxMSAxOSAxMVMxNi4yIDEyLjEgMTYuMiAxMy41VjE2QzE1LjYgMTYgMTUgMTYuNiAxNSAxNy4yVjIwLjdDMTUgMjEuNCAxNS42IDIyIDE2LjIgMjJIMjEuN0MyMi40IDIyIDIzIDIxLjQgMjMgMjAuOFYxNy4zQzIzIDE2LjYgMjIuNCAxNiAyMS44IDE2WiIgLz48L3N2Zz4=)
-
--}
-wifiLockOpen : IconShape
-wifiLockOpen =
-    Material.Icons.Directory.W.wifiLockOpen
-
-
 {-| The [`wifi-lock`](https://pictogrammers.com/library/mdi/icon/wifi-lock/) icon.
 
 ![wifi-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDZDOC42MiA2IDUuNSA3LjEyIDMgOUwxLjIgNi42QzQuMjEgNC4zNCA3Ljk1IDMgMTIgM1MxOS43OSA0LjM0IDIyLjggNi42TDIxIDlDMTguNSA3LjEyIDE1LjM4IDYgMTIgNk0xNy40IDEwLjI5QzE1Ljc3IDkuNDcgMTMuOTQgOSAxMiA5QzkuMyA5IDYuODEgOS44OSA0LjggMTEuNEw2LjYgMTMuOEM4LjEgMTIuNjcgOS45NyAxMiAxMiAxMkMxMi45NyAxMiAxMy45IDEyLjE2IDE0Ljc4IDEyLjQ0QzE1LjM0IDExLjQ1IDE2LjI3IDEwLjY4IDE3LjQgMTAuMjlNOC40IDE2LjJMMTIgMjFMMTMgMTkuNjdWMTcuMkMxMyAxNi41IDEzLjI3IDE1LjgxIDEzLjcgMTUuMjZDMTMuMTYgMTUuMSAxMi41OSAxNSAxMiAxNUMxMC42NSAxNSA5LjQgMTUuNDUgOC40IDE2LjJNMjMgMTcuM1YyMC44QzIzIDIxLjQgMjIuNCAyMiAyMS43IDIySDE2LjJDMTUuNiAyMiAxNSAyMS40IDE1IDIwLjdWMTcuMkMxNSAxNi42IDE1LjYgMTYgMTYuMiAxNlYxNC41QzE2LjIgMTMuMSAxNy42IDEyIDE5IDEyUzIxLjggMTMuMSAyMS44IDE0LjVWMTZDMjIuNCAxNiAyMyAxNi42IDIzIDE3LjNNMjAuNSAxNC41QzIwLjUgMTMuNyAxOS44IDEzLjIgMTkgMTMuMlMxNy41IDEzLjcgMTcuNSAxNC41VjE2SDIwLjVWMTQuNVoiIC8+PC9zdmc+)
@@ -1643,6 +1633,16 @@ wifiLockOpen =
 wifiLock : IconShape
 wifiLock =
     Material.Icons.Directory.W.wifiLock
+
+
+{-| The [`wifi-lock-open`](https://pictogrammers.com/library/mdi/icon/wifi-lock-open/) icon.
+
+![wifi-lock-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDZDOC42MiA2IDUuNSA3LjEyIDMgOUwxLjIgNi42QzQuMjEgNC4zNCA3Ljk1IDMgMTIgM1MxOS43OSA0LjM0IDIyLjggNi42TDIxIDlDMTguNSA3LjEyIDE1LjM4IDYgMTIgNk0xNi4zMSA5LjgxQzE0Ljk3IDkuMjkgMTMuNSA5IDEyIDlDOS4zIDkgNi44MSA5Ljg5IDQuOCAxMS40TDYuNiAxMy44QzguMSAxMi42NyA5Ljk3IDEyIDEyIDEyQzEyLjgzIDEyIDEzLjYzIDEyLjEyIDE0LjM5IDEyLjMzQzE0LjcgMTEuMyAxNS4zOCAxMC40MSAxNi4zMSA5LjgxTTguNCAxNi4yTDEyIDIxTDEzIDE5LjY3VjE3LjJDMTMgMTYuNSAxMy4yNyAxNS44MSAxMy43IDE1LjI2QzEzLjE2IDE1LjEgMTIuNTkgMTUgMTIgMTVDMTAuNjUgMTUgOS40IDE1LjQ1IDguNCAxNi4yTTIxLjggMTZIMTcuNVYxMy41QzE3LjUgMTIuNyAxOC4yIDEyLjIgMTkgMTIuMlMyMC41IDEyLjcgMjAuNSAxMy41VjE0SDIxLjhWMTMuNUMyMS44IDEyLjEgMjAuNCAxMSAxOSAxMVMxNi4yIDEyLjEgMTYuMiAxMy41VjE2QzE1LjYgMTYgMTUgMTYuNiAxNSAxNy4yVjIwLjdDMTUgMjEuNCAxNS42IDIyIDE2LjIgMjJIMjEuN0MyMi40IDIyIDIzIDIxLjQgMjMgMjAuOFYxNy4zQzIzIDE2LjYgMjIuNCAxNiAyMS44IDE2WiIgLz48L3N2Zz4=)
+
+-}
+wifiLockOpen : IconShape
+wifiLockOpen =
+    Material.Icons.Directory.W.wifiLockOpen
 
 
 {-| The [`wifi-strength-1-lock`](https://pictogrammers.com/library/mdi/icon/wifi-strength-1-lock/) icon.

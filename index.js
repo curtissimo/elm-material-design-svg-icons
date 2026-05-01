@@ -136,11 +136,14 @@ lookup${directory._letter} name =
   }
 
   get content() {
-    const defLines = this.specs
+    const sortedSpecs = this.specs
+      .toSorted((left, right) => left.elmName < right.elmName ? -1 : left.elmName > right.elmName ? 1 : 0);
+
+    const defLines = sortedSpecs
       .map(spec => spec.elmDefinition)
       .join("\n\n");
 
-    const lookupLines = this.specs
+    const lookupLines = sortedSpecs
       .map(spec => spec.lookup)
       .join("\n");
 
@@ -242,21 +245,25 @@ class IconSpecCategoryDirectory {
       return Buffer.from(icon).toString("base64");
     };
 
+    const sortedSpecs = this._specs
+      .toSorted((left, right) => left.elmName < right.elmName ? -1 : left.elmName > right.elmName ? 1 : 0);
+
+
     return `
 module ${this._submoduleName.join(".")} exposing (
-  ${this._specs.map(x => x.elmName).join(",")}
+  ${sortedSpecs.map(x => x.elmName).join(",")}
 )
 
 {-| This module contains icons in the ${this._submoduleName.join(".")} category.
 
-${this._specs.map(x => x.elmName).map(x => "@docs " + x).join("\n")}
+${sortedSpecs.map(x => x.elmName).map(x => "@docs " + x).join("\n")}
 -}
 
 import Material.Icons exposing (IconShape)
 ${Array.from(imports).toSorted().map(x => `import Material.Icons.Directory.${x}`).join("\n")}
 
 
-${this._specs.map(spec => `
+${sortedSpecs.map(spec => `
 {-| The [\`${spec.iconName}\`](https://pictogrammers.com/library/mdi/icon/${spec.iconName}/) icon.
 
 ![${spec.iconName}](data:image/svg+xml;base64,${createIcon(spec.draw)})
@@ -348,11 +355,11 @@ ${this.elmName} =
 
 
 
-const meta = resolve("./node_modules/@mdi/svg/meta.json")
+const meta = resolve("./node_modules/@mdi/svg/meta.json");
 const metadata = JSON.parse(await readFile(meta, { encoding: "utf8" }));
 const activeIconMetaData = metadata.filter(({ deprecated }) => !deprecated);
 const activeIconReaders = activeIconMetaData.map(async metaData => {
-  const svg = resolve(`./node_modules/@mdi/svg/svg/${metaData.name}.svg`)
+  const svg = resolve(`./node_modules/@mdi/svg/svg/${metaData.name}.svg`);
   const svgdef = await readFile(svg);
   const svgdata = parser.parse(svgdef.toString());
   const { svg: { path: { "@_d": dPath } } } = svgdata;

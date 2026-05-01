@@ -703,18 +703,18 @@ abacus =
     iconShape "M5 5H7V11H5V5M10 5H8V11H10V5M5 19H7V13H5V19M10 13H8V19H10V17H15V15H10V13M2 21H4V3H2V21M20 3V7H13V5H11V11H13V9H20V15H18V13H16V19H18V17H20V21H22V3H20Z"
 
 
-{-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
--}
-abjadHebrew : IconShape
-abjadHebrew =
-    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
-
-
 {-| The [`abjad-arabic`](https://pictogrammers.com/library/mdi/icon/abjad-arabic/) icon.
 -}
 abjadArabic : IconShape
 abjadArabic =
     iconShape "M12 4C10.08 4 8.5 5.58 8.5 7.5C8.5 8.43 8.88 9.28 9.5 9.91C7.97 10.91 7 12.62 7 14.5C7 17.53 9.47 20 12.5 20C14.26 20 16 19.54 17.5 18.66L16.5 16.93C15.28 17.63 13.9 18 12.5 18C10.56 18 9 16.45 9 14.5C9 12.91 10.06 11.53 11.59 11.12L16.8 9.72L16.28 7.79L11.83 9C11.08 8.9 10.5 8.28 10.5 7.5C10.5 6.66 11.16 6 12 6C12.26 6 12.5 6.07 12.75 6.2L13.75 4.47C13.22 4.16 12.61 4 12 4Z"
+
+
+{-| The [`abjad-hebrew`](https://pictogrammers.com/library/mdi/icon/abjad-hebrew/) icon.
+-}
+abjadHebrew : IconShape
+abjadHebrew =
+    iconShape "M3.9 4L9 10.03C7.58 10.17 6.36 11.18 6 12.59L4 20H6.07L7.92 13.11C8.09 12.46 8.69 12 9.36 12H10.69L17.47 20H20.1L15 13.97C16.42 13.83 17.64 12.82 18 11.41L20 4H17.93L16.08 10.89C15.91 11.54 15.31 12 14.64 12H13.31L6.53 4Z"
 
 
 {-| The [`abugida-devanagari`](https://pictogrammers.com/library/mdi/icon/abugida-devanagari/) icon.
@@ -983,18 +983,18 @@ accountCheckOutline =
     iconShape "M21.1,12.5L22.5,13.91L15.97,20.5L12.5,17L13.9,15.59L15.97,17.67L21.1,12.5M11,4A4,4 0 0,1 15,8A4,4 0 0,1 11,12A4,4 0 0,1 7,8A4,4 0 0,1 11,4M11,6A2,2 0 0,0 9,8A2,2 0 0,0 11,10A2,2 0 0,0 13,8A2,2 0 0,0 11,6M11,13C11.68,13 12.5,13.09 13.41,13.26L11.74,14.93L11,14.9C8.03,14.9 4.9,16.36 4.9,17V18.1H11.1L13,20H3V17C3,14.34 8.33,13 11,13Z"
 
 
-{-| The [`account-child-circle`](https://pictogrammers.com/library/mdi/icon/account-child-circle/) icon.
--}
-accountChildCircle : IconShape
-accountChildCircle =
-    iconShape "M12,12A1.5,1.5 0 0,1 13.5,13.5A1.5,1.5 0 0,1 12,15A1.5,1.5 0 0,1 10.5,13.5A1.5,1.5 0 0,1 12,12M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,16C12.72,16 13.4,16.15 14.04,16.5C14.68,16.8 15,17.2 15,17.67V19.41C16.34,18.81 17,18.08 17,17.2V12.8C17,12 16.5,11.35 15.45,10.8C14.4,10.26 13.25,10 12,10C10.75,10 9.6,10.26 8.55,10.8C7.5,11.35 7,12 7,12.8V17.2C7,18 7.53,18.69 8.63,19.22C9.72,19.75 10.84,20 12,20L13,19.92V17.91L12,18C11,18 10,17.8 9.05,17.39C9.17,17 9.53,16.69 10.13,16.41C10.72,16.13 11.34,16 12,16M12,4A2.5,2.5 0 0,0 9.5,6.5A2.5,2.5 0 0,0 12,9A2.5,2.5 0 0,0 14.5,6.5A2.5,2.5 0 0,0 12,4Z"
-
-
 {-| The [`account-child`](https://pictogrammers.com/library/mdi/icon/account-child/) icon.
 -}
 accountChild : IconShape
 accountChild =
     iconShape "M12,2A3,3 0 0,1 15,5A3,3 0 0,1 12,8A3,3 0 0,1 9,5A3,3 0 0,1 12,2M12,9C13.63,9 15.12,9.35 16.5,10.05C17.84,10.76 18.5,11.61 18.5,12.61V18.38C18.5,19.5 17.64,20.44 15.89,21.19V19C15.89,18.05 15.03,17.38 13.31,16.97C12.75,16.84 12.31,16.78 12,16.78C11.13,16.78 10.3,16.95 9.54,17.3C8.77,17.64 8.31,18.08 8.16,18.61C9.5,19.14 10.78,19.41 12,19.41L13,19.31V21.94L12,22C10.63,22 9.33,21.72 8.11,21.19C6.36,20.44 5.5,19.5 5.5,18.38V12.61C5.5,11.61 6.16,10.76 7.5,10.05C8.88,9.35 10.38,9 12,9M12,11A2,2 0 0,0 10,13A2,2 0 0,0 12,15A2,2 0 0,0 14,13A2,2 0 0,0 12,11Z"
+
+
+{-| The [`account-child-circle`](https://pictogrammers.com/library/mdi/icon/account-child-circle/) icon.
+-}
+accountChildCircle : IconShape
+accountChildCircle =
+    iconShape "M12,12A1.5,1.5 0 0,1 13.5,13.5A1.5,1.5 0 0,1 12,15A1.5,1.5 0 0,1 10.5,13.5A1.5,1.5 0 0,1 12,12M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,16C12.72,16 13.4,16.15 14.04,16.5C14.68,16.8 15,17.2 15,17.67V19.41C16.34,18.81 17,18.08 17,17.2V12.8C17,12 16.5,11.35 15.45,10.8C14.4,10.26 13.25,10 12,10C10.75,10 9.6,10.26 8.55,10.8C7.5,11.35 7,12 7,12.8V17.2C7,18 7.53,18.69 8.63,19.22C9.72,19.75 10.84,20 12,20L13,19.92V17.91L12,18C11,18 10,17.8 9.05,17.39C9.17,17 9.53,16.69 10.13,16.41C10.72,16.13 11.34,16 12,16M12,4A2.5,2.5 0 0,0 9.5,6.5A2.5,2.5 0 0,0 12,9A2.5,2.5 0 0,0 14.5,6.5A2.5,2.5 0 0,0 12,4Z"
 
 
 {-| The [`account-child-outline`](https://pictogrammers.com/library/mdi/icon/account-child-outline/) icon.
@@ -1242,18 +1242,18 @@ accountKeyOutline =
     iconShape "M5.8 10C5.4 8.8 4.3 8 3 8C1.3 8 0 9.3 0 11S1.3 14 3 14C4.3 14 5.4 13.2 5.8 12H7V14H9V12H11V10H5.8M3 12C2.4 12 2 11.6 2 11S2.4 10 3 10 4 10.4 4 11 3.6 12 3 12M16 4C13.8 4 12 5.8 12 8S13.8 12 16 12 20 10.2 20 8 18.2 4 16 4M16 10.1C14.8 10.1 13.9 9.2 13.9 8C13.9 6.8 14.8 5.9 16 5.9C17.2 5.9 18.1 6.8 18.1 8S17.2 10.1 16 10.1M16 13C13.3 13 8 14.3 8 17V20H24V17C24 14.3 18.7 13 16 13M22.1 18.1H9.9V17C9.9 16.4 13 14.9 16 14.9C19 14.9 22.1 16.4 22.1 17V18.1Z"
 
 
-{-| The [`account-lock-open`](https://pictogrammers.com/library/mdi/icon/account-lock-open/) icon.
--}
-accountLockOpen : IconShape
-accountLockOpen =
-    iconShape "M6 8C6 5.79 7.79 4 10 4S14 5.79 14 8 12.21 12 10 12 6 10.21 6 8M12 18.2C12 17.24 12.5 16.34 13.2 15.74V14.5C13.2 14.45 13.22 14.39 13.22 14.34C12.23 14.12 11.15 14 10 14C5.58 14 2 15.79 2 18V20H12V18.2M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V14.5C15.2 13.1 16.6 12 18 12S20.8 13.1 20.8 14.5V15H19.5V14.5C19.5 13.7 18.8 13.2 18 13.2S16.5 13.7 16.5 14.5V17H20.8C21.4 17 22 17.6 22 18.3Z"
-
-
 {-| The [`account-lock`](https://pictogrammers.com/library/mdi/icon/account-lock/) icon.
 -}
 accountLock : IconShape
 accountLock =
     iconShape "M6 8C6 5.79 7.79 4 10 4S14 5.79 14 8 12.21 12 10 12 6 10.21 6 8M12 18.2C12 17.24 12.5 16.34 13.2 15.74V15.5C13.2 15.11 13.27 14.74 13.38 14.38C12.35 14.14 11.21 14 10 14C5.58 14 2 15.79 2 18V20H12V18.2M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V15.5C15.2 14.1 16.6 13 18 13C19.4 13 20.8 14.1 20.8 15.5V17C21.4 17 22 17.6 22 18.3M19.5 15.5C19.5 14.7 18.8 14.2 18 14.2C17.2 14.2 16.5 14.7 16.5 15.5V17H19.5V15.5Z"
+
+
+{-| The [`account-lock-open`](https://pictogrammers.com/library/mdi/icon/account-lock-open/) icon.
+-}
+accountLockOpen : IconShape
+accountLockOpen =
+    iconShape "M6 8C6 5.79 7.79 4 10 4S14 5.79 14 8 12.21 12 10 12 6 10.21 6 8M12 18.2C12 17.24 12.5 16.34 13.2 15.74V14.5C13.2 14.45 13.22 14.39 13.22 14.34C12.23 14.12 11.15 14 10 14C5.58 14 2 15.79 2 18V20H12V18.2M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V14.5C15.2 13.1 16.6 12 18 12S20.8 13.1 20.8 14.5V15H19.5V14.5C19.5 13.7 18.8 13.2 18 13.2S16.5 13.7 16.5 14.5V17H20.8C21.4 17 22 17.6 22 18.3Z"
 
 
 {-| The [`account-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/account-lock-open-outline/) icon.
@@ -4189,18 +4189,18 @@ arrowDownBox =
     iconShape "M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M11,6V14.5L7.5,11L6.08,12.42L12,18.34L17.92,12.42L16.5,11L13,14.5V6H11Z"
 
 
-{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
--}
-arrowDownCircleOutline : IconShape
-arrowDownCircleOutline =
-    iconShape "M11,6H13V14L16.5,10.5L17.92,11.92L12,17.84L6.08,11.92L7.5,10.5L11,14V6M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
-
-
 {-| The [`arrow-down-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle/) icon.
 -}
 arrowDownCircle : IconShape
 arrowDownCircle =
     iconShape "M11,6V14L7.5,10.5L6.08,11.92L12,17.84L17.92,11.92L16.5,10.5L13,14V6H11M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22Z"
+
+
+{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
+-}
+arrowDownCircleOutline : IconShape
+arrowDownCircleOutline =
+    iconShape "M11,6H13V14L16.5,10.5L17.92,11.92L12,17.84L6.08,11.92L7.5,10.5L11,14V6M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
 
 
 {-| The [`arrow-down-drop-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-drop-circle/) icon.
@@ -5464,11 +5464,11 @@ lookup name =
         "abacus" ->
             Just abacus
 
-        "abjad-hebrew" ->
-            Just abjadHebrew
-
         "abjad-arabic" ->
             Just abjadArabic
+
+        "abjad-hebrew" ->
+            Just abjadHebrew
 
         "abugida-devanagari" ->
             Just abugidaDevanagari
@@ -5584,11 +5584,11 @@ lookup name =
         "account-check-outline" ->
             Just accountCheckOutline
 
-        "account-child-circle" ->
-            Just accountChildCircle
-
         "account-child" ->
             Just accountChild
+
+        "account-child-circle" ->
+            Just accountChildCircle
 
         "account-child-outline" ->
             Just accountChildOutline
@@ -5695,11 +5695,11 @@ lookup name =
         "account-key-outline" ->
             Just accountKeyOutline
 
-        "account-lock-open" ->
-            Just accountLockOpen
-
         "account-lock" ->
             Just accountLock
+
+        "account-lock-open" ->
+            Just accountLockOpen
 
         "account-lock-open-outline" ->
             Just accountLockOpenOutline
@@ -6958,11 +6958,11 @@ lookup name =
         "arrow-down-box" ->
             Just arrowDownBox
 
-        "arrow-down-circle-outline" ->
-            Just arrowDownCircleOutline
-
         "arrow-down-circle" ->
             Just arrowDownCircle
+
+        "arrow-down-circle-outline" ->
+            Just arrowDownCircleOutline
 
         "arrow-down-drop-circle" ->
             Just arrowDownDropCircle

@@ -560,10 +560,10 @@ module Material.Icons.Categories.HomeAutomation exposing
     , tableFurniture
     , teddyBear
     , television
-    , televisionGuide
-    , televisionClassic
     , televisionAmbientLight
+    , televisionClassic
     , televisionClassicOff
+    , televisionGuide
     , televisionOff
     , theater
     , thermometer
@@ -1219,10 +1219,10 @@ module Material.Icons.Categories.HomeAutomation exposing
 @docs tableFurniture
 @docs teddyBear
 @docs television
-@docs televisionGuide
-@docs televisionClassic
 @docs televisionAmbientLight
+@docs televisionClassic
 @docs televisionClassicOff
+@docs televisionGuide
 @docs televisionOff
 @docs theater
 @docs thermometer
@@ -6913,14 +6913,14 @@ television =
     Material.Icons.Directory.T.television
 
 
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+{-| The [`television-ambient-light`](https://pictogrammers.com/library/mdi/icon/television-ambient-light/) icon.
 
-![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
+![television-ambient-light](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMTFIMFY5SDNWMTFNMyAxNEgwVjE2SDNWMTRNNSA1LjEyTDIuODggM0wxLjQ2IDQuNDFMMy41OSA2LjU0TDUgNS4xMk0xMCA1VjJIOFY1SDEwTTI0IDlIMjFWMTFIMjRWOU0xNiA1VjJIMTRWNUgxNk0yMC40MSA2LjU0TDIyLjU0IDQuNDJMMjEuMTIgM0wxOSA1LjEyTDIwLjQxIDYuNTRNMjQgMTRIMjFWMTZIMjRWMTRNMTkgOVYxNkMxOSAxNy4xIDE4LjEgMTggMTcgMThIMTVWMjBIOVYxOEg3QzUuOSAxOCA1IDE3LjEgNSAxNlY5QzUgNy45IDUuOSA3IDcgN0gxN0MxOC4xIDcgMTkgNy45IDE5IDlNMTcgOUg3VjE2SDE3VjlNMTkgMTkuODhMMjEuMTIgMjJMMjIuNTQgMjAuNTlMMjAuNDEgMTguNDdMMTkgMTkuODhNMy41OSAxOC40NkwxLjQ3IDIwLjU5TDIuODggMjJMNSAxOS44OEwzLjU5IDE4LjQ2WiIgLz48L3N2Zz4=)
 
 -}
-televisionGuide : IconShape
-televisionGuide =
-    Material.Icons.Directory.T.televisionGuide
+televisionAmbientLight : IconShape
+televisionAmbientLight =
+    Material.Icons.Directory.T.televisionAmbientLight
 
 
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
@@ -6933,16 +6933,6 @@ televisionClassic =
     Material.Icons.Directory.T.televisionClassic
 
 
-{-| The [`television-ambient-light`](https://pictogrammers.com/library/mdi/icon/television-ambient-light/) icon.
-
-![television-ambient-light](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMgMTFIMFY5SDNWMTFNMyAxNEgwVjE2SDNWMTRNNSA1LjEyTDIuODggM0wxLjQ2IDQuNDFMMy41OSA2LjU0TDUgNS4xMk0xMCA1VjJIOFY1SDEwTTI0IDlIMjFWMTFIMjRWOU0xNiA1VjJIMTRWNUgxNk0yMC40MSA2LjU0TDIyLjU0IDQuNDJMMjEuMTIgM0wxOSA1LjEyTDIwLjQxIDYuNTRNMjQgMTRIMjFWMTZIMjRWMTRNMTkgOVYxNkMxOSAxNy4xIDE4LjEgMTggMTcgMThIMTVWMjBIOVYxOEg3QzUuOSAxOCA1IDE3LjEgNSAxNlY5QzUgNy45IDUuOSA3IDcgN0gxN0MxOC4xIDcgMTkgNy45IDE5IDlNMTcgOUg3VjE2SDE3VjlNMTkgMTkuODhMMjEuMTIgMjJMMjIuNTQgMjAuNTlMMjAuNDEgMTguNDdMMTkgMTkuODhNMy41OSAxOC40NkwxLjQ3IDIwLjU5TDIuODggMjJMNSAxOS44OEwzLjU5IDE4LjQ2WiIgLz48L3N2Zz4=)
-
--}
-televisionAmbientLight : IconShape
-televisionAmbientLight =
-    Material.Icons.Directory.T.televisionAmbientLight
-
-
 {-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
 
 ![television-classic-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjEsMjEuNzJMMTkuNzMsMjNMMTcuNzMsMjFINEMyLjg5LDIxIDIsMjAuMTEgMiwxOVY5QzIsOCAyLjc2LDcuMTQgMy43NSw3TDIsNS4yN004LjE2LDNMMTIsNi44NEwxNS44NCwzTDE3LjI1LDQuNDFMMTQuNjYsN0gyMEMyMS4xMSw3IDIyLDcuODkgMjIsOVYxOUMyMiwxOS4zNCAyMS45MiwxOS42NiAyMS43NywxOS45NEwxNywxNS4xOFY5SDEwLjgyTDguODIsN0g5LjM0TDYuNzUsNC40MUw4LjE2LDNNNCw5VjE5SDE1LjczTDUuNzMsOUg0TTE5LjUsOUExLDEgMCAwLDAgMTguNSwxMEExLDEgMCAwLDAgMTkuNSwxMUExLDEgMCAwLDAgMjAuNSwxMEExLDEgMCAwLDAgMTkuNSw5TTE5LjUsMTJBMSwxIDAgMCwwIDE4LjUsMTNBMSwxIDAgMCwwIDE5LjUsMTRBMSwxIDAgMCwwIDIwLjUsMTNBMSwxIDAgMCwwIDE5LjUsMTJaIiAvPjwvc3ZnPg==)
@@ -6951,6 +6941,16 @@ televisionAmbientLight =
 televisionClassicOff : IconShape
 televisionClassicOff =
     Material.Icons.Directory.T.televisionClassicOff
+
+
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+
+![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
+
+-}
+televisionGuide : IconShape
+televisionGuide =
+    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.

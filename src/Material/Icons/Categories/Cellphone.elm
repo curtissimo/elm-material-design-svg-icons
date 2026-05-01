@@ -107,16 +107,16 @@ module Material.Icons.Categories.Cellphone exposing
     , phoneSettings
     , phoneSettingsOutline
     , phoneSync
-    , phoneVoip
     , phoneSyncOutline
-    , signal2g
+    , phoneVoip
     , signal
+    , signal2g
     , signal3g
     , signal4g
     , signal5g
+    , signalCellular1
     , signalCellular2
     , signalCellular3
-    , signalCellular1
     , signalCellularOutline
     , signalHspa
     , signalHspaPlus
@@ -247,16 +247,16 @@ module Material.Icons.Categories.Cellphone exposing
 @docs phoneSettings
 @docs phoneSettingsOutline
 @docs phoneSync
-@docs phoneVoip
 @docs phoneSyncOutline
-@docs signal2g
+@docs phoneVoip
 @docs signal
+@docs signal2g
 @docs signal3g
 @docs signal4g
 @docs signal5g
+@docs signalCellular1
 @docs signalCellular2
 @docs signalCellular3
-@docs signalCellular1
 @docs signalCellularOutline
 @docs signalHspa
 @docs signalHspaPlus
@@ -1334,16 +1334,6 @@ phoneSync =
     Material.Icons.Directory.P.phoneSync
 
 
-{-| The [`phone-voip`](https://pictogrammers.com/library/mdi/icon/phone-voip/) icon.
-
-![phone-voip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE3VjE5SDE0QTEsMSAwIDAsMSAxNSwyMEgyMlYyMkgxNUExLDEgMCAwLDEgMTQsMjNIMTBBMSwxIDAgMCwxIDksMjJIMlYyMEg5QTEsMSAwIDAsMSAxMCwxOUgxMVYxN0gxM00yMy43LDcuNjdDMjMuODgsNy44NSAyNCw4LjA5IDI0LDguMzdDMjQsOC42NSAyMy44OSw4LjkgMjMuNzEsOS4wOEwyMS4yMywxMS41NkMyMS4wNSwxMS43NCAyMC44LDExLjg1IDIwLjUsMTEuODVDMjAuMjUsMTEuODUgMjAsMTEuNzUgMTkuODIsMTEuNTdDMTksMTAuODQgMTguMTMsMTAuMjEgMTcuMTUsOS43MkMxNi44Miw5LjU2IDE2LjU5LDkuMjEgMTYuNTksOC44MlY1LjcyQzE1LjE0LDUuMjUgMTMuNTksNSAxMiw1QzEwLjQsNSA4Ljg1LDUuMjUgNy40LDUuNzNWOC44M0M3LjQsOS4yMyA3LjE3LDkuNTcgNi44NCw5LjczQzUuODcsMTAuMjIgNC45NywxMC44NCA0LjE4LDExLjU4QzQsMTEuNzUgMy43NSwxMS44NiAzLjUsMTEuODZDMy4yLDExLjg2IDIuOTUsMTEuNzUgMi43NywxMS41N0wwLjI5LDkuMDlDMC4xMSw4LjkxIDAsOC42NiAwLDguMzhDMCw4LjEgMC4xMSw3Ljg1IDAuMjksNy42N0MzLjM0LDQuNzggNy40NiwzIDEyLDNDMTYuNTMsMyAyMC42NSw0Ljc4IDIzLjcsNy42N00xMSwxMFYxNUgxMFYxMEgxMU0xMiwxMEgxNVYxM0gxM1YxNUgxMlYxME0xNCwxMlYxMUgxM1YxMkgxNFoiIC8+PC9zdmc+)
-
--}
-phoneVoip : IconShape
-phoneVoip =
-    Material.Icons.Directory.P.phoneVoip
-
-
 {-| The [`phone-sync-outline`](https://pictogrammers.com/library/mdi/icon/phone-sync-outline/) icon.
 
 ![phone-sync-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE1LjVDMTguOCAxNS41IDE3LjUgMTUuMyAxNi40IDE0LjlIMTYuMUMxNS44IDE0LjkgMTUuNiAxNSAxNS40IDE1LjJMMTMuMiAxNy40QzEwLjQgMTUuOSA4IDEzLjYgNi42IDEwLjhMOC44IDguNkM5LjEgOC4zIDkuMiA3LjkgOSA3LjZDOC43IDYuNSA4LjUgNS4yIDguNSA0QzguNSAzLjUgOCAzIDcuNSAzSDRDMy41IDMgMyAzLjUgMyA0QzMgMTMuNCAxMC42IDIxIDIwIDIxQzIwLjUgMjEgMjEgMjAuNSAyMSAyMFYxNi41QzIxIDE2IDIwLjUgMTUuNSAyMCAxNS41TTUgNUg2LjVDNi42IDUuOSA2LjggNi44IDcgNy42TDUuOCA4LjhDNS40IDcuNiA1LjEgNi4zIDUgNU0xOSAxOUMxNy43IDE4LjkgMTYuNCAxOC42IDE1LjIgMTguMkwxNi40IDE3QzE3LjIgMTcuMiAxOC4xIDE3LjQgMTkgMTcuNFYxOU0xNyAzVjEuNUwxNC43NSAzLjc1TDE3IDZWNC41QzE4LjM4IDQuNSAxOS41IDUuNjIgMTkuNSA3QzE5LjUgNy40IDE5LjQxIDcuNzggMTkuMjQgOC4xMkwyMC4zMyA5LjIxQzIwLjc1IDguNTggMjEgNy44MiAyMSA3QzIxIDQuNzkgMTkuMjEgMyAxNyAzTTE3IDkuNUMxNS42MiA5LjUgMTQuNSA4LjM4IDE0LjUgN0MxNC41IDYuNiAxNC41OSA2LjIyIDE0Ljc2IDUuODhMMTMuNjcgNC43OUMxMy4yNSA1LjQyIDEzIDYuMTggMTMgN0MxMyA5LjIxIDE0Ljc5IDExIDE3IDExVjEyLjVMMTkuMjUgMTAuMjVMMTcgOFY5LjVaIiAvPjwvc3ZnPg==)
@@ -1354,14 +1344,14 @@ phoneSyncOutline =
     Material.Icons.Directory.P.phoneSyncOutline
 
 
-{-| The [`signal-2g`](https://pictogrammers.com/library/mdi/icon/signal-2g/) icon.
+{-| The [`phone-voip`](https://pictogrammers.com/library/mdi/icon/phone-voip/) icon.
 
-![signal-2g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE5LjVIMlYxMy41QTMsMyAwIDAsMSA1LDEwLjVIOFY3LjVIMlY0LjVIOEEzLDMgMCAwLDEgMTEsNy41VjEwLjVBMywzIDAgMCwxIDgsMTMuNUg1VjE2LjVIMTFNMjIsMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNSIgLz48L3N2Zz4=)
+![phone-voip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDE3VjE5SDE0QTEsMSAwIDAsMSAxNSwyMEgyMlYyMkgxNUExLDEgMCAwLDEgMTQsMjNIMTBBMSwxIDAgMCwxIDksMjJIMlYyMEg5QTEsMSAwIDAsMSAxMCwxOUgxMVYxN0gxM00yMy43LDcuNjdDMjMuODgsNy44NSAyNCw4LjA5IDI0LDguMzdDMjQsOC42NSAyMy44OSw4LjkgMjMuNzEsOS4wOEwyMS4yMywxMS41NkMyMS4wNSwxMS43NCAyMC44LDExLjg1IDIwLjUsMTEuODVDMjAuMjUsMTEuODUgMjAsMTEuNzUgMTkuODIsMTEuNTdDMTksMTAuODQgMTguMTMsMTAuMjEgMTcuMTUsOS43MkMxNi44Miw5LjU2IDE2LjU5LDkuMjEgMTYuNTksOC44MlY1LjcyQzE1LjE0LDUuMjUgMTMuNTksNSAxMiw1QzEwLjQsNSA4Ljg1LDUuMjUgNy40LDUuNzNWOC44M0M3LjQsOS4yMyA3LjE3LDkuNTcgNi44NCw5LjczQzUuODcsMTAuMjIgNC45NywxMC44NCA0LjE4LDExLjU4QzQsMTEuNzUgMy43NSwxMS44NiAzLjUsMTEuODZDMy4yLDExLjg2IDIuOTUsMTEuNzUgMi43NywxMS41N0wwLjI5LDkuMDlDMC4xMSw4LjkxIDAsOC42NiAwLDguMzhDMCw4LjEgMC4xMSw3Ljg1IDAuMjksNy42N0MzLjM0LDQuNzggNy40NiwzIDEyLDNDMTYuNTMsMyAyMC42NSw0Ljc4IDIzLjcsNy42N00xMSwxMFYxNUgxMFYxMEgxMU0xMiwxMEgxNVYxM0gxM1YxNUgxMlYxME0xNCwxMlYxMUgxM1YxMkgxNFoiIC8+PC9zdmc+)
 
 -}
-signal2g : IconShape
-signal2g =
-    Material.Icons.Directory.S.signal2g
+phoneVoip : IconShape
+phoneVoip =
+    Material.Icons.Directory.P.phoneVoip
 
 
 {-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
@@ -1372,6 +1362,16 @@ signal2g =
 signal : IconShape
 signal =
     Material.Icons.Directory.S.signal
+
+
+{-| The [`signal-2g`](https://pictogrammers.com/library/mdi/icon/signal-2g/) icon.
+
+![signal-2g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDE5LjVIMlYxMy41QTMsMyAwIDAsMSA1LDEwLjVIOFY3LjVIMlY0LjVIOEEzLDMgMCAwLDEgMTEsNy41VjEwLjVBMywzIDAgMCwxIDgsMTMuNUg1VjE2LjVIMTFNMjIsMTAuNUgxNy41VjEzLjVIMTlWMTYuNUgxNlY3LjVIMjJWNC41SDE2QTMsMyAwIDAsMCAxMyw3LjVWMTYuNUEzLDMgMCAwLDAgMTYsMTkuNUgxOUEzLDMgMCAwLDAgMjIsMTYuNSIgLz48L3N2Zz4=)
+
+-}
+signal2g : IconShape
+signal2g =
+    Material.Icons.Directory.S.signal2g
 
 
 {-| The [`signal-3g`](https://pictogrammers.com/library/mdi/icon/signal-3g/) icon.
@@ -1404,6 +1404,16 @@ signal5g =
     Material.Icons.Directory.S.signal5g
 
 
+{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
+
+![signal-cellular-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
+
+-}
+signalCellular1 : IconShape
+signalCellular1 =
+    Material.Icons.Directory.S.signalCellular1
+
+
 {-| The [`signal-cellular-2`](https://pictogrammers.com/library/mdi/icon/signal-cellular-2/) icon.
 
 ![signal-cellular-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
@@ -1422,16 +1432,6 @@ signalCellular2 =
 signalCellular3 : IconShape
 signalCellular3 =
     Material.Icons.Directory.S.signalCellular3
-
-
-{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
-
-![signal-cellular-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5LjUsNS41VjE4LjVIMTcuNVY1LjVIMTkuNU0xMi41LDEwLjVWMTguNUgxMC41VjEwLjVIMTIuNU0yMSw0SDE2VjIwSDIxVjRNMTQsOUg5VjIwSDE0VjlNNywxNEgyVjIwSDdWMTRaIiAvPjwvc3ZnPg==)
-
--}
-signalCellular1 : IconShape
-signalCellular1 =
-    Material.Icons.Directory.S.signalCellular1
 
 
 {-| The [`signal-cellular-outline`](https://pictogrammers.com/library/mdi/icon/signal-cellular-outline/) icon.

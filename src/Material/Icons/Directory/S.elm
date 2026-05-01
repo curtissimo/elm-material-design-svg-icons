@@ -2508,6 +2508,13 @@ signPole =
     iconShape "M11 3L12 2L13 3V20C14.11 20 15 20.9 15 22H9C9 20.9 9.9 20 11 20V3Z"
 
 
+{-| The [`sign-real-estate`](https://pictogrammers.com/library/mdi/icon/sign-real-estate/) icon.
+-}
+signRealEstate : IconShape
+signRealEstate =
+    iconShape "M18 8H8C6.9 8 6 8.9 6 10V16C6 17.11 6.9 18 8 18H18C19.11 18 20 17.11 20 16V10C20 8.9 19.11 8 18 8M14 16H8V14H14V16M18 12H8V10H18V12M22 6H4V22H2V2H4V4H22V6Z"
+
+
 {-| The [`sign-text`](https://pictogrammers.com/library/mdi/icon/sign-text/) icon.
 -}
 signText : IconShape
@@ -2522,11 +2529,11 @@ signYield =
     iconShape "M20.5 3H3.5C2.4 3 1.6 4.3 2.2 5.3L10.7 20.2C11 20.7 11.5 21 12 21S13 20.7 13.3 20.2L21.8 5.3C22.4 4.3 21.6 3 20.5 3M12 18.5L4.3 5H19.6L12 18.5M6.9 6.5H17.1L12 15.5L6.9 6.5Z"
 
 
-{-| The [`sign-real-estate`](https://pictogrammers.com/library/mdi/icon/sign-real-estate/) icon.
+{-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
 -}
-signRealEstate : IconShape
-signRealEstate =
-    iconShape "M18 8H8C6.9 8 6 8.9 6 10V16C6 17.11 6.9 18 8 18H18C19.11 18 20 17.11 20 16V10C20 8.9 19.11 8 18 8M14 16H8V14H14V16M18 12H8V10H18V12M22 6H4V22H2V2H4V4H22V6Z"
+signal : IconShape
+signal =
+    iconShape "M3,21H6V18H3M8,21H11V14H8M13,21H16V9H13M18,21H21V3H18V21Z"
 
 
 {-| The [`signal-2g`](https://pictogrammers.com/library/mdi/icon/signal-2g/) icon.
@@ -2534,13 +2541,6 @@ signRealEstate =
 signal2g : IconShape
 signal2g =
     iconShape "M11,19.5H2V13.5A3,3 0 0,1 5,10.5H8V7.5H2V4.5H8A3,3 0 0,1 11,7.5V10.5A3,3 0 0,1 8,13.5H5V16.5H11M22,10.5H17.5V13.5H19V16.5H16V7.5H22V4.5H16A3,3 0 0,0 13,7.5V16.5A3,3 0 0,0 16,19.5H19A3,3 0 0,0 22,16.5"
-
-
-{-| The [`signal`](https://pictogrammers.com/library/mdi/icon/signal/) icon.
--}
-signal : IconShape
-signal =
-    iconShape "M3,21H6V18H3M8,21H11V14H8M13,21H16V9H13M18,21H21V3H18V21Z"
 
 
 {-| The [`signal-3g`](https://pictogrammers.com/library/mdi/icon/signal-3g/) icon.
@@ -2564,6 +2564,13 @@ signal5g =
     iconShape "M22,16.5V10.5H17.5V13.5H19V16.5H16V7.5H22V4.5H16A3,3 0 0,0 13,7.5V16.5A3,3 0 0,0 16,19.5H19A3,3 0 0,0 22,16.5M10,4.5H3V12L3,13.5H7V16.5H3V19.5H8.5A1.5,1.5 0 0,0 10,18V12A1.5,1.5 0 0,0 8.5,10.5H6V7.5H10V4.5Z"
 
 
+{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
+-}
+signalCellular1 : IconShape
+signalCellular1 =
+    iconShape "M19.5,5.5V18.5H17.5V5.5H19.5M12.5,10.5V18.5H10.5V10.5H12.5M21,4H16V20H21V4M14,9H9V20H14V9M7,14H2V20H7V14Z"
+
+
 {-| The [`signal-cellular-2`](https://pictogrammers.com/library/mdi/icon/signal-cellular-2/) icon.
 -}
 signalCellular2 : IconShape
@@ -2576,13 +2583,6 @@ signalCellular2 =
 signalCellular3 : IconShape
 signalCellular3 =
     iconShape "M21,4H16V20H21V4M14,9H9V20H14V9M7,14H2V20H7V14Z"
-
-
-{-| The [`signal-cellular-1`](https://pictogrammers.com/library/mdi/icon/signal-cellular-1/) icon.
--}
-signalCellular1 : IconShape
-signalCellular1 =
-    iconShape "M19.5,5.5V18.5H17.5V5.5H19.5M12.5,10.5V18.5H10.5V10.5H12.5M21,4H16V20H21V4M14,9H9V20H14V9M7,14H2V20H7V14Z"
 
 
 {-| The [`signal-cellular-outline`](https://pictogrammers.com/library/mdi/icon/signal-cellular-outline/) icon.
@@ -3824,18 +3824,18 @@ spade =
     iconShape "M15.71,1.22L12.88,4.05C12.1,4.83 12.1,6.09 12.88,6.87L14.3,8.29L10.06,12.53L7.58,10.06L1.22,16.42L7.58,22.78L13.94,16.42L11.47,13.94L15.71,9.7L17.13,11.12C17.91,11.9 19.17,11.9 19.95,11.12L22.78,8.29L15.71,1.22M15.71,4.05L19.95,8.29L18.54,9.7L14.3,5.46L15.71,4.05Z"
 
 
-{-| The [`speaker-bluetooth`](https://pictogrammers.com/library/mdi/icon/speaker-bluetooth/) icon.
--}
-speakerBluetooth : IconShape
-speakerBluetooth =
-    iconShape "M4,3A2,2 0 0,0 2,5V19A2,2 0 0,0 4,21H12A2,2 0 0,0 14,19V5A2,2 0 0,0 12,3H4M8,5A2,2 0 0,1 10,7A2,2 0 0,1 8,9A2,2 0 0,1 6,7A2,2 0 0,1 8,5M19,7V10.79L16.71,8.5L16,9.21L18.79,12L16,14.79L16.71,15.5L19,13.21V17H19.5L22.35,14.14L20.21,12L22.35,9.85L19.5,7H19M20,8.91L20.94,9.85L20,10.79V8.91M8,11A4,4 0 0,1 12,15A4,4 0 0,1 8,19A4,4 0 0,1 4,15A4,4 0 0,1 8,11M8,13A2,2 0 0,0 6,15A2,2 0 0,0 8,17A2,2 0 0,0 10,15A2,2 0 0,0 8,13M20,13.21L20.94,14.14L20,15.08V13.21Z"
-
-
 {-| The [`speaker`](https://pictogrammers.com/library/mdi/icon/speaker/) icon.
 -}
 speaker : IconShape
 speaker =
     iconShape "M12,12A3,3 0 0,0 9,15A3,3 0 0,0 12,18A3,3 0 0,0 15,15A3,3 0 0,0 12,12M12,20A5,5 0 0,1 7,15A5,5 0 0,1 12,10A5,5 0 0,1 17,15A5,5 0 0,1 12,20M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8C10.89,8 10,7.1 10,6C10,4.89 10.89,4 12,4M17,2H7C5.89,2 5,2.89 5,4V20A2,2 0 0,0 7,22H17A2,2 0 0,0 19,20V4C19,2.89 18.1,2 17,2Z"
+
+
+{-| The [`speaker-bluetooth`](https://pictogrammers.com/library/mdi/icon/speaker-bluetooth/) icon.
+-}
+speakerBluetooth : IconShape
+speakerBluetooth =
+    iconShape "M4,3A2,2 0 0,0 2,5V19A2,2 0 0,0 4,21H12A2,2 0 0,0 14,19V5A2,2 0 0,0 12,3H4M8,5A2,2 0 0,1 10,7A2,2 0 0,1 8,9A2,2 0 0,1 6,7A2,2 0 0,1 8,5M19,7V10.79L16.71,8.5L16,9.21L18.79,12L16,14.79L16.71,15.5L19,13.21V17H19.5L22.35,14.14L20.21,12L22.35,9.85L19.5,7H19M20,8.91L20.94,9.85L20,10.79V8.91M8,11A4,4 0 0,1 12,15A4,4 0 0,1 8,19A4,4 0 0,1 4,15A4,4 0 0,1 8,11M8,13A2,2 0 0,0 6,15A2,2 0 0,0 8,17A2,2 0 0,0 10,15A2,2 0 0,0 8,13M20,13.21L20.94,14.14L20,15.08V13.21Z"
 
 
 {-| The [`speaker-message`](https://pictogrammers.com/library/mdi/icon/speaker-message/) icon.
@@ -3845,18 +3845,18 @@ speakerMessage =
     iconShape "M16.5 3H21.5C22.3 3 23 3.7 23 4.5V7.5C23 8.3 22.3 9 21.5 9H18L15 12V4.5C15 3.7 15.7 3 16.5 3M3 3C1.9 3 1 3.9 1 5V19C1 20.1 1.9 21 3 21H11C12.1 21 13 20.1 13 19V5C13 3.9 12.1 3 11 3H3M7 5C8.1 5 9 5.9 9 7S8.1 9 7 9 5 8.1 5 7 5.9 5 7 5M7 11C9.2 11 11 12.8 11 15S9.2 19 7 19 3 17.2 3 15 4.8 11 7 11M7 13C5.9 13 5 13.9 5 15S5.9 17 7 17 9 16.1 9 15 8.1 13 7 13"
 
 
-{-| The [`speaker-off`](https://pictogrammers.com/library/mdi/icon/speaker-off/) icon.
--}
-speakerOff : IconShape
-speakerOff =
-    iconShape "M2,5.27L3.28,4L21,21.72L19.73,23L18.27,21.54C17.93,21.83 17.5,22 17,22H7C5.89,22 5,21.1 5,20V8.27L2,5.27M12,18A3,3 0 0,1 9,15C9,14.24 9.28,13.54 9.75,13L8.33,11.6C7.5,12.5 7,13.69 7,15A5,5 0 0,0 12,20C13.31,20 14.5,19.5 15.4,18.67L14,17.25C13.45,17.72 12.76,18 12,18M17,15A5,5 0 0,0 12,10H11.82L5.12,3.3C5.41,2.54 6.14,2 7,2H17A2,2 0 0,1 19,4V17.18L17,15.17V15M12,4C10.89,4 10,4.89 10,6A2,2 0 0,0 12,8A2,2 0 0,0 14,6C14,4.89 13.1,4 12,4Z"
-
-
 {-| The [`speaker-multiple`](https://pictogrammers.com/library/mdi/icon/speaker-multiple/) icon.
 -}
 speakerMultiple : IconShape
 speakerMultiple =
     iconShape "M14,10A3,3 0 0,0 11,13A3,3 0 0,0 14,16A3,3 0 0,0 17,13A3,3 0 0,0 14,10M14,18A5,5 0 0,1 9,13A5,5 0 0,1 14,8A5,5 0 0,1 19,13A5,5 0 0,1 14,18M14,2A2,2 0 0,1 16,4A2,2 0 0,1 14,6A2,2 0 0,1 12,4A2,2 0 0,1 14,2M19,0H9A2,2 0 0,0 7,2V18A2,2 0 0,0 9,20H19A2,2 0 0,0 21,18V2A2,2 0 0,0 19,0M5,22H17V24H5A2,2 0 0,1 3,22V4H5"
+
+
+{-| The [`speaker-off`](https://pictogrammers.com/library/mdi/icon/speaker-off/) icon.
+-}
+speakerOff : IconShape
+speakerOff =
+    iconShape "M2,5.27L3.28,4L21,21.72L19.73,23L18.27,21.54C17.93,21.83 17.5,22 17,22H7C5.89,22 5,21.1 5,20V8.27L2,5.27M12,18A3,3 0 0,1 9,15C9,14.24 9.28,13.54 9.75,13L8.33,11.6C7.5,12.5 7,13.69 7,15A5,5 0 0,0 12,20C13.31,20 14.5,19.5 15.4,18.67L14,17.25C13.45,17.72 12.76,18 12,18M17,15A5,5 0 0,0 12,10H11.82L5.12,3.3C5.41,2.54 6.14,2 7,2H17A2,2 0 0,1 19,4V17.18L17,15.17V15M12,4C10.89,4 10,4.89 10,6A2,2 0 0,0 12,8A2,2 0 0,0 14,6C14,4.89 13.1,4 12,4Z"
 
 
 {-| The [`speaker-pause`](https://pictogrammers.com/library/mdi/icon/speaker-pause/) icon.
@@ -4811,18 +4811,18 @@ storeCogOutline =
     iconShape "M20 6H4V4H20V6M19 12C17.09 12 15.37 12.76 14.11 14H14V14.11C12.76 15.37 12 17.09 12 19C12 19.34 12.03 19.67 12.08 20H4V14H3V12L4 7H20L21 12V12.3C20.37 12.11 19.7 12 19 12M12 14H6V18H12V14M18.96 12L18.36 9H5.64L5.04 12H18.96M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"
 
 
-{-| The [`store-edit-outline`](https://pictogrammers.com/library/mdi/icon/store-edit-outline/) icon.
--}
-storeEditOutline : IconShape
-storeEditOutline =
-    iconShape "M20 6H4V4H20V6M14 16.13L11 19.13V20H4V14H3V12L4 7H20L20.61 10.07C20.16 10.17 19.73 10.4 19.39 10.74L18.82 11.31L18.36 9H5.64L5.04 12H18.13L16.13 14H14V16.13M12 14H6V18H12V14M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96Z"
-
-
 {-| The [`store-edit`](https://pictogrammers.com/library/mdi/icon/store-edit/) icon.
 -}
 storeEdit : IconShape
 storeEdit =
     iconShape "M20 6H4V4H20V6M14 16.13L11 19.13V20H4V14H3V12L4 7H20L20.61 10.07C20.16 10.17 19.73 10.4 19.39 10.74L16.13 14H14V16.13M12 14H6V18H12V14M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96Z"
+
+
+{-| The [`store-edit-outline`](https://pictogrammers.com/library/mdi/icon/store-edit-outline/) icon.
+-}
+storeEditOutline : IconShape
+storeEditOutline =
+    iconShape "M20 6H4V4H20V6M14 16.13L11 19.13V20H4V14H3V12L4 7H20L20.61 10.07C20.16 10.17 19.73 10.4 19.39 10.74L18.82 11.31L18.36 9H5.64L5.04 12H18.13L16.13 14H14V16.13M12 14H6V18H12V14M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96Z"
 
 
 {-| The [`store-marker`](https://pictogrammers.com/library/mdi/icon/store-marker/) icon.
@@ -6230,20 +6230,20 @@ lookup name =
         "sign-pole" ->
             Just signPole
 
+        "sign-real-estate" ->
+            Just signRealEstate
+
         "sign-text" ->
             Just signText
 
         "sign-yield" ->
             Just signYield
 
-        "sign-real-estate" ->
-            Just signRealEstate
+        "signal" ->
+            Just signal
 
         "signal-2g" ->
             Just signal2g
-
-        "signal" ->
-            Just signal
 
         "signal-3g" ->
             Just signal3g
@@ -6254,14 +6254,14 @@ lookup name =
         "signal-5g" ->
             Just signal5g
 
+        "signal-cellular-1" ->
+            Just signalCellular1
+
         "signal-cellular-2" ->
             Just signalCellular2
 
         "signal-cellular-3" ->
             Just signalCellular3
-
-        "signal-cellular-1" ->
-            Just signalCellular1
 
         "signal-cellular-outline" ->
             Just signalCellularOutline
@@ -6794,20 +6794,20 @@ lookup name =
         "spade" ->
             Just spade
 
-        "speaker-bluetooth" ->
-            Just speakerBluetooth
-
         "speaker" ->
             Just speaker
+
+        "speaker-bluetooth" ->
+            Just speakerBluetooth
 
         "speaker-message" ->
             Just speakerMessage
 
-        "speaker-off" ->
-            Just speakerOff
-
         "speaker-multiple" ->
             Just speakerMultiple
+
+        "speaker-off" ->
+            Just speakerOff
 
         "speaker-pause" ->
             Just speakerPause
@@ -7217,11 +7217,11 @@ lookup name =
         "store-cog-outline" ->
             Just storeCogOutline
 
-        "store-edit-outline" ->
-            Just storeEditOutline
-
         "store-edit" ->
             Just storeEdit
+
+        "store-edit-outline" ->
+            Just storeEditOutline
 
         "store-marker" ->
             Just storeMarker

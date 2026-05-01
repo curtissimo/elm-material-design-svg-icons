@@ -31,17 +31,17 @@ module Material.Icons.Categories.Content exposing
     , contentPaste
     , fitToPage
     , fitToPageOutline
-    , formatAlignCenter
     , formatAlignBottom
+    , formatAlignCenter
     , formatAlignJustify
     , formatAlignLeft
     , formatAlignMiddle
     , formatAlignRight
     , formatAlignTop
     , formatAnnotationMinus
-    , formatClear
     , formatAnnotationPlus
     , formatBold
+    , formatClear
     , formatColorFill
     , formatColorHighlight
     , formatColorMarkerCancel
@@ -235,17 +235,17 @@ module Material.Icons.Categories.Content exposing
 @docs contentPaste
 @docs fitToPage
 @docs fitToPageOutline
-@docs formatAlignCenter
 @docs formatAlignBottom
+@docs formatAlignCenter
 @docs formatAlignJustify
 @docs formatAlignLeft
 @docs formatAlignMiddle
 @docs formatAlignRight
 @docs formatAlignTop
 @docs formatAnnotationMinus
-@docs formatClear
 @docs formatAnnotationPlus
 @docs formatBold
+@docs formatClear
 @docs formatColorFill
 @docs formatColorHighlight
 @docs formatColorMarkerCancel
@@ -702,16 +702,6 @@ fitToPageOutline =
     Material.Icons.Directory.F.fitToPageOutline
 
 
-{-| The [`format-align-center`](https://pictogrammers.com/library/mdi/icon/format-align-center/) icon.
-
-![format-align-center](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsM0gyMVY1SDNWM003LDdIMTdWOUg3VjdNMywxMUgyMVYxM0gzVjExTTcsMTVIMTdWMTdIN1YxNU0zLDE5SDIxVjIxSDNWMTlaIiAvPjwvc3ZnPg==)
-
--}
-formatAlignCenter : IconShape
-formatAlignCenter =
-    Material.Icons.Directory.F.formatAlignCenter
-
-
 {-| The [`format-align-bottom`](https://pictogrammers.com/library/mdi/icon/format-align-bottom/) icon.
 
 ![format-align-bottom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLDlMMTUuNSw2LjVMMTYuOTIsNy45MkwxMiwxMi44NEw3LjA4LDcuOTJMOC41LDYuNUwxMSw5VjNIMTNWOU0zLDE1SDIxVjE3SDNWMTVNMywxOUgxM1YyMUgzVjE5WiIgLz48L3N2Zz4=)
@@ -720,6 +710,16 @@ formatAlignCenter =
 formatAlignBottom : IconShape
 formatAlignBottom =
     Material.Icons.Directory.F.formatAlignBottom
+
+
+{-| The [`format-align-center`](https://pictogrammers.com/library/mdi/icon/format-align-center/) icon.
+
+![format-align-center](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsM0gyMVY1SDNWM003LDdIMTdWOUg3VjdNMywxMUgyMVYxM0gzVjExTTcsMTVIMTdWMTdIN1YxNU0zLDE5SDIxVjIxSDNWMTlaIiAvPjwvc3ZnPg==)
+
+-}
+formatAlignCenter : IconShape
+formatAlignCenter =
+    Material.Icons.Directory.F.formatAlignCenter
 
 
 {-| The [`format-align-justify`](https://pictogrammers.com/library/mdi/icon/format-align-justify/) icon.
@@ -782,16 +782,6 @@ formatAnnotationMinus =
     Material.Icons.Directory.F.formatAnnotationMinus
 
 
-{-| The [`format-clear`](https://pictogrammers.com/library/mdi/icon/format-clear/) icon.
-
-![format-clear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsNVY1LjE4TDguODIsOEgxMS4yMkwxMC41LDkuNjhMMTIuNiwxMS43OEwxNC4yMSw4SDIwVjVINk0zLjI3LDVMMiw2LjI3TDguOTcsMTMuMjRMNi41LDE5SDkuNUwxMS4wNywxNS4zNEwxNi43MywyMUwxOCwxOS43M0wzLjU1LDUuMjdMMy4yNyw1WiIgLz48L3N2Zz4=)
-
--}
-formatClear : IconShape
-formatClear =
-    Material.Icons.Directory.F.formatClear
-
-
 {-| The [`format-annotation-plus`](https://pictogrammers.com/library/mdi/icon/format-annotation-plus/) icon.
 
 ![format-annotation-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguNSw3SDEwLjVMMTYsMjFIMTMuNkwxMi41LDE4SDYuM0w1LjIsMjFIM0w4LjUsN003LjEsMTZIMTEuOUw5LjUsOS43TDcuMSwxNk0yMiw1VjdIMTlWMTBIMTdWN0gxNFY1SDE3VjJIMTlWNUgyMloiIC8+PC9zdmc+)
@@ -810,6 +800,16 @@ formatAnnotationPlus =
 formatBold : IconShape
 formatBold =
     Material.Icons.Directory.F.formatBold
+
+
+{-| The [`format-clear`](https://pictogrammers.com/library/mdi/icon/format-clear/) icon.
+
+![format-clear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsNVY1LjE4TDguODIsOEgxMS4yMkwxMC41LDkuNjhMMTIuNiwxMS43OEwxNC4yMSw4SDIwVjVINk0zLjI3LDVMMiw2LjI3TDguOTcsMTMuMjRMNi41LDE5SDkuNUwxMS4wNywxNS4zNEwxNi43MywyMUwxOCwxOS43M0wzLjU1LDUuMjdMMy4yNyw1WiIgLz48L3N2Zz4=)
+
+-}
+formatClear : IconShape
+formatClear =
+    Material.Icons.Directory.F.formatClear
 
 
 {-| The [`format-color-fill`](https://pictogrammers.com/library/mdi/icon/format-color-fill/) icon.

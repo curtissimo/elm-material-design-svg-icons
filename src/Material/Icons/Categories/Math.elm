@@ -27,12 +27,12 @@ module Material.Icons.Categories.Math exposing
     , chartBubble
     , chartDonut
     , chartDonutVariant
-    , chartLine
     , chartGantt
-    , chartLineStacked
-    , chartMultiline
     , chartHistogram
+    , chartLine
+    , chartLineStacked
     , chartLineVariant
+    , chartMultiline
     , chartMultiple
     , chartPie
     , chartPieOutline
@@ -159,12 +159,12 @@ module Material.Icons.Categories.Math exposing
 @docs chartBubble
 @docs chartDonut
 @docs chartDonutVariant
-@docs chartLine
 @docs chartGantt
-@docs chartLineStacked
-@docs chartMultiline
 @docs chartHistogram
+@docs chartLine
+@docs chartLineStacked
 @docs chartLineVariant
+@docs chartMultiline
 @docs chartMultiple
 @docs chartPie
 @docs chartPieOutline
@@ -524,16 +524,6 @@ chartDonutVariant =
     Material.Icons.Directory.C.chartDonutVariant
 
 
-{-| The [`chart-line`](https://pictogrammers.com/library/mdi/icon/chart-line/) icon.
-
-![chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDExLjc4TDIwLjI0LDQuNDVMMjEuOTcsNS40NUwxNi43NCwxNC41TDEwLjIzLDEwLjc1TDUuNDYsMTlIMjJWMjFIMlYzSDRWMTcuNTRMOS41LDhMMTYsMTEuNzhaIiAvPjwvc3ZnPg==)
-
--}
-chartLine : IconShape
-chartLine =
-    Material.Icons.Directory.C.chartLine
-
-
 {-| The [`chart-gantt`](https://pictogrammers.com/library/mdi/icon/chart-gantt/) icon.
 
 ![chart-gantt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNUgxMFYySDEyVjIySDEwVjE4SDZWMTVIMTBWMTNINFYxMEgxMFY4SDJWNU0xNCw1SDE3VjhIMTRWNU0xNCwxMEgxOVYxM0gxNFYxME0xNCwxNUgyMlYxOEgxNFYxNVoiIC8+PC9zdmc+)
@@ -542,26 +532,6 @@ chartLine =
 chartGantt : IconShape
 chartGantt =
     Material.Icons.Directory.C.chartGantt
-
-
-{-| The [`chart-line-stacked`](https://pictogrammers.com/library/mdi/icon/chart-line-stacked/) icon.
-
-![chart-line-stacked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LjQ1LDE1LjE4TDIyLDYuODFWMTlMMjIsMjFIMlYzSDRWMTUuNTRMNCwxOUg0LjMxTDYsMTlINi41N0wxMC45NiwxMS40NEwxNy40NSwxNS4xOE0yMiwzTDIxLjk3LDMuNDVMMTcsMTFMMTAsNkw2LDEyVjNIMjJaIiAvPjwvc3ZnPg==)
-
--}
-chartLineStacked : IconShape
-chartLineStacked =
-    Material.Icons.Directory.C.chartLineStacked
-
-
-{-| The [`chart-multiline`](https://pictogrammers.com/library/mdi/icon/chart-multiline/) icon.
-
-![chart-multiline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDYuOTJMMjAuNTksNS41TDE3Ljc0LDguNzJDMTUuNjgsNi40IDEyLjgzLDUgOS42MSw1QzYuNzIsNSA0LjA3LDYuMTYgMiw4TDMuNDIsOS40MkM1LjEyLDcuOTMgNy4yNyw3IDkuNjEsN0MxMi4zNSw3IDE0LjcsOC4yNiAxNi4zOCwxMC4yNEwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwxNy41NSwxMS45M0MxOC4zLDEzLjI4IDE4LjgsMTQuODMgMTksMTYuNUgyMUMyMC43OCwxNC4xOCAyMC4wNSwxMi4wOSAxOC45NiwxMC4zNEwyMiw2LjkyWiIgLz48L3N2Zz4=)
-
--}
-chartMultiline : IconShape
-chartMultiline =
-    Material.Icons.Directory.C.chartMultiline
 
 
 {-| The [`chart-histogram`](https://pictogrammers.com/library/mdi/icon/chart-histogram/) icon.
@@ -574,6 +544,26 @@ chartHistogram =
     Material.Icons.Directory.C.chartHistogram
 
 
+{-| The [`chart-line`](https://pictogrammers.com/library/mdi/icon/chart-line/) icon.
+
+![chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE2LDExLjc4TDIwLjI0LDQuNDVMMjEuOTcsNS40NUwxNi43NCwxNC41TDEwLjIzLDEwLjc1TDUuNDYsMTlIMjJWMjFIMlYzSDRWMTcuNTRMOS41LDhMMTYsMTEuNzhaIiAvPjwvc3ZnPg==)
+
+-}
+chartLine : IconShape
+chartLine =
+    Material.Icons.Directory.C.chartLine
+
+
+{-| The [`chart-line-stacked`](https://pictogrammers.com/library/mdi/icon/chart-line-stacked/) icon.
+
+![chart-line-stacked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LjQ1LDE1LjE4TDIyLDYuODFWMTlMMjIsMjFIMlYzSDRWMTUuNTRMNCwxOUg0LjMxTDYsMTlINi41N0wxMC45NiwxMS40NEwxNy40NSwxNS4xOE0yMiwzTDIxLjk3LDMuNDVMMTcsMTFMMTAsNkw2LDEyVjNIMjJaIiAvPjwvc3ZnPg==)
+
+-}
+chartLineStacked : IconShape
+chartLineStacked =
+    Material.Icons.Directory.C.chartLineStacked
+
+
 {-| The [`chart-line-variant`](https://pictogrammers.com/library/mdi/icon/chart-line-variant/) icon.
 
 ![chart-line-variant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwyMiw2LjkyTDIwLjU5LDUuNUwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41WiIgLz48L3N2Zz4=)
@@ -582,6 +572,16 @@ chartHistogram =
 chartLineVariant : IconShape
 chartLineVariant =
     Material.Icons.Directory.C.chartLineVariant
+
+
+{-| The [`chart-multiline`](https://pictogrammers.com/library/mdi/icon/chart-multiline/) icon.
+
+![chart-multiline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDYuOTJMMjAuNTksNS41TDE3Ljc0LDguNzJDMTUuNjgsNi40IDEyLjgzLDUgOS42MSw1QzYuNzIsNSA0LjA3LDYuMTYgMiw4TDMuNDIsOS40MkM1LjEyLDcuOTMgNy4yNyw3IDkuNjEsN0MxMi4zNSw3IDE0LjcsOC4yNiAxNi4zOCwxMC4yNEwxMy41LDEzLjVMOS41LDkuNUwyLDE3TDMuNSwxOC41TDkuNSwxMi41TDEzLjUsMTYuNUwxNy41NSwxMS45M0MxOC4zLDEzLjI4IDE4LjgsMTQuODMgMTksMTYuNUgyMUMyMC43OCwxNC4xOCAyMC4wNSwxMi4wOSAxOC45NiwxMC4zNEwyMiw2LjkyWiIgLz48L3N2Zz4=)
+
+-}
+chartMultiline : IconShape
+chartMultiline =
+    Material.Icons.Directory.C.chartMultiline
 
 
 {-| The [`chart-multiple`](https://pictogrammers.com/library/mdi/icon/chart-multiple/) icon.

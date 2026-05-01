@@ -8,8 +8,8 @@ module Material.Icons.Categories.Form exposing
     , card
     , cardOutline
     , check
-    , checkCircleOutline
     , checkCircle
+    , checkCircleOutline
     , checkboxBlank
     , checkboxBlankBadge
     , checkboxBlankBadgeOutline
@@ -52,8 +52,8 @@ module Material.Icons.Categories.Form exposing
     , drawPen
     , formDropdown
     , formSelect
-    , formTextbox
     , formTextarea
+    , formTextbox
     , formTextboxLock
     , formTextboxPassword
     , gestureTapButton
@@ -81,8 +81,8 @@ module Material.Icons.Categories.Form exposing
 @docs card
 @docs cardOutline
 @docs check
-@docs checkCircleOutline
 @docs checkCircle
+@docs checkCircleOutline
 @docs checkboxBlank
 @docs checkboxBlankBadge
 @docs checkboxBlankBadgeOutline
@@ -125,8 +125,8 @@ module Material.Icons.Categories.Form exposing
 @docs drawPen
 @docs formDropdown
 @docs formSelect
-@docs formTextbox
 @docs formTextarea
+@docs formTextbox
 @docs formTextboxLock
 @docs formTextboxPassword
 @docs gestureTapButton
@@ -209,16 +209,6 @@ check =
     Material.Icons.Directory.C.check
 
 
-{-| The [`check-circle-outline`](https://pictogrammers.com/library/mdi/icon/check-circle-outline/) icon.
-
-![check-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDNi41IDIgMiA2LjUgMiAxMlM2LjUgMjIgMTIgMjIgMjIgMTcuNSAyMiAxMiAxNy41IDIgMTIgMk0xMiAyMEM3LjU5IDIwIDQgMTYuNDEgNCAxMlM3LjU5IDQgMTIgNCAyMCA3LjU5IDIwIDEyIDE2LjQxIDIwIDEyIDIwTTE2LjU5IDcuNThMMTAgMTQuMTdMNy40MSAxMS41OUw2IDEzTDEwIDE3TDE4IDlMMTYuNTkgNy41OFoiIC8+PC9zdmc+)
-
--}
-checkCircleOutline : IconShape
-checkCircleOutline =
-    Material.Icons.Directory.C.checkCircleOutline
-
-
 {-| The [`check-circle`](https://pictogrammers.com/library/mdi/icon/check-circle/) icon.
 
 ![check-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDNi41IDIgMiA2LjUgMiAxMlM2LjUgMjIgMTIgMjIgMjIgMTcuNSAyMiAxMiAxNy41IDIgMTIgMk0xMCAxN0w1IDEyTDYuNDEgMTAuNTlMMTAgMTQuMTdMMTcuNTkgNi41OEwxOSA4TDEwIDE3WiIgLz48L3N2Zz4=)
@@ -227,6 +217,16 @@ checkCircleOutline =
 checkCircle : IconShape
 checkCircle =
     Material.Icons.Directory.C.checkCircle
+
+
+{-| The [`check-circle-outline`](https://pictogrammers.com/library/mdi/icon/check-circle-outline/) icon.
+
+![check-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyIDJDNi41IDIgMiA2LjUgMiAxMlM2LjUgMjIgMTIgMjIgMjIgMTcuNSAyMiAxMiAxNy41IDIgMTIgMk0xMiAyMEM3LjU5IDIwIDQgMTYuNDEgNCAxMlM3LjU5IDQgMTIgNCAyMCA3LjU5IDIwIDEyIDE2LjQxIDIwIDEyIDIwTTE2LjU5IDcuNThMMTAgMTQuMTdMNy40MSAxMS41OUw2IDEzTDEwIDE3TDE4IDlMMTYuNTkgNy41OFoiIC8+PC9zdmc+)
+
+-}
+checkCircleOutline : IconShape
+checkCircleOutline =
+    Material.Icons.Directory.C.checkCircleOutline
 
 
 {-| The [`checkbox-blank`](https://pictogrammers.com/library/mdi/icon/checkbox-blank/) icon.
@@ -649,16 +649,6 @@ formSelect =
     Material.Icons.Directory.F.formSelect
 
 
-{-| The [`form-textbox`](https://pictogrammers.com/library/mdi/icon/form-textbox/) icon.
-
-![form-textbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDdIMjJWMTdIMTdWMTlBMSwxIDAgMCwwIDE4LDIwSDIwVjIySDE3LjVDMTYuOTUsMjIgMTYsMjEuNTUgMTYsMjFDMTYsMjEuNTUgMTUuMDUsMjIgMTQuNSwyMkgxMlYyMEgxNEExLDEgMCAwLDAgMTUsMTlWNUExLDEgMCAwLDAgMTQsNEgxMlYySDE0LjVDMTUuMDUsMiAxNiwyLjQ1IDE2LDNDMTYsMi40NSAxNi45NSwyIDE3LjUsMkgyMFY0SDE4QTEsMSAwIDAsMCAxNyw1VjdNMiw3SDEzVjlINFYxNUgxM1YxN0gyVjdNMjAsMTVWOUgxN1YxNUgyMFoiIC8+PC9zdmc+)
-
--}
-formTextbox : IconShape
-formTextbox =
-    Material.Icons.Directory.F.formTextbox
-
-
 {-| The [`form-textarea`](https://pictogrammers.com/library/mdi/icon/form-textarea/) icon.
 
 ![form-textarea](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDlINFYyM0gyVjdIMTNNMjMgOVY3SDE3VjVBMSAxIDAgMCAxIDE4IDRIMjBWMkgxNy41QzE3IDIgMTYgMi40NSAxNiAzQzE2IDIuNDUgMTUuMDUgMiAxNC41IDJIMTJWNEgxNEExIDEgMCAwIDEgMTUgNVYxOUExIDEgMCAwIDEgMTQgMjBIMTJWMjJIMTQuNUMxNS4wNSAyMiAxNiAyMS41NSAxNiAyMUMxNiAyMS41NSAxNi45NSAyMiAxNy41IDIySDIwVjIwSDE4QTEgMSAwIDAgMSAxNyAxOVY5WiIgLz48L3N2Zz4=)
@@ -667,6 +657,16 @@ formTextbox =
 formTextarea : IconShape
 formTextarea =
     Material.Icons.Directory.F.formTextarea
+
+
+{-| The [`form-textbox`](https://pictogrammers.com/library/mdi/icon/form-textbox/) icon.
+
+![form-textbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDdIMjJWMTdIMTdWMTlBMSwxIDAgMCwwIDE4LDIwSDIwVjIySDE3LjVDMTYuOTUsMjIgMTYsMjEuNTUgMTYsMjFDMTYsMjEuNTUgMTUuMDUsMjIgMTQuNSwyMkgxMlYyMEgxNEExLDEgMCAwLDAgMTUsMTlWNUExLDEgMCAwLDAgMTQsNEgxMlYySDE0LjVDMTUuMDUsMiAxNiwyLjQ1IDE2LDNDMTYsMi40NSAxNi45NSwyIDE3LjUsMkgyMFY0SDE4QTEsMSAwIDAsMCAxNyw1VjdNMiw3SDEzVjlINFYxNUgxM1YxN0gyVjdNMjAsMTVWOUgxN1YxNUgyMFoiIC8+PC9zdmc+)
+
+-}
+formTextbox : IconShape
+formTextbox =
+    Material.Icons.Directory.F.formTextbox
 
 
 {-| The [`form-textbox-lock`](https://pictogrammers.com/library/mdi/icon/form-textbox-lock/) icon.

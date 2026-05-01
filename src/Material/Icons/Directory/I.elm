@@ -829,18 +829,18 @@ informationVariantCircleOutline =
     iconShape "M12.3 7.29C12.5 7.11 12.74 7 13 7C13.27 7 13.5 7.11 13.71 7.29C13.9 7.5 14 7.74 14 8C14 8.27 13.9 8.5 13.71 8.71C13.5 8.9 13.27 9 13 9C12.74 9 12.5 8.9 12.3 8.71C12.11 8.5 12 8.27 12 8C12 7.74 12.11 7.5 12.3 7.29M9.8 11.97C9.8 11.97 11.97 10.25 12.76 10.18C13.5 10.12 13.35 10.97 13.28 11.41L13.27 11.47C13.13 12 12.96 12.64 12.79 13.25C12.41 14.64 12.04 16 12.13 16.25C12.23 16.59 12.85 16.16 13.3 15.86C13.36 15.82 13.41 15.78 13.46 15.75C13.46 15.75 13.54 15.67 13.62 15.78C13.64 15.81 13.66 15.84 13.68 15.86C13.77 16 13.82 16.05 13.7 16.13L13.66 16.15C13.44 16.3 12.5 16.96 12.12 17.2C11.71 17.47 10.14 18.37 10.38 16.62C10.59 15.39 10.87 14.33 11.09 13.5C11.5 12 11.68 11.32 10.76 11.91C10.39 12.13 10.17 12.27 10.04 12.36C9.93 12.44 9.92 12.44 9.85 12.31L9.82 12.25L9.77 12.17C9.7 12.07 9.7 12.06 9.8 11.97M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12M20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12Z"
 
 
-{-| The [`integrated-circuit-chip`](https://pictogrammers.com/library/mdi/icon/integrated-circuit-chip/) icon.
--}
-integratedCircuitChip : IconShape
-integratedCircuitChip =
-    iconShape "M10 4H20C21.11 4 22 4.89 22 6V8H18.59L16 10.59V14.59L14 16.59V20H10V16.59L8 14.59V9.41L10 7.41V4M18 11.41V14H22V10H19.41L18 11.41M6.59 8L8 6.59V4H4C2.89 4 2 4.89 2 6V8H6.59M6 14V10H2V14H6M8 17.41L6.59 16H2V18C2 19.11 2.89 20 4 20H8V17.41M17.41 16L16 17.41V20H20C21.11 20 22 19.11 22 18V16H17.41Z"
-
-
 {-| The [`instrument-triangle`](https://pictogrammers.com/library/mdi/icon/instrument-triangle/) icon.
 -}
 instrumentTriangle : IconShape
 instrumentTriangle =
     iconShape "M11.5 2H10.5V6.2C10.4 6.3 10.3 6.3 10.2 6.5L2.1 20.7C1.8 21.3 2.2 22 2.9 22H16V20H4.8L11 9.2L16.7 19.2L18.4 18.2L11.8 6.4L11.5 6.1V2M21 6H20V18L19.5 22H21.5L21 18V6Z"
+
+
+{-| The [`integrated-circuit-chip`](https://pictogrammers.com/library/mdi/icon/integrated-circuit-chip/) icon.
+-}
+integratedCircuitChip : IconShape
+integratedCircuitChip =
+    iconShape "M10 4H20C21.11 4 22 4.89 22 6V8H18.59L16 10.59V14.59L14 16.59V20H10V16.59L8 14.59V9.41L10 7.41V4M18 11.41V14H22V10H19.41L18 11.41M6.59 8L8 6.59V4H4C2.89 4 2 4.89 2 6V8H6.59M6 14V10H2V14H6M8 17.41L6.59 16H2V18C2 19.11 2.89 20 4 20H8V17.41M17.41 16L16 17.41V20H20C21.11 20 22 19.11 22 18V16H17.41Z"
 
 
 {-| The [`invert-colors`](https://pictogrammers.com/library/mdi/icon/invert-colors/) icon.
@@ -1596,11 +1596,11 @@ lookup name =
         "information-variant-circle-outline" ->
             Just informationVariantCircleOutline
 
-        "integrated-circuit-chip" ->
-            Just integratedCircuitChip
-
         "instrument-triangle" ->
             Just instrumentTriangle
+
+        "integrated-circuit-chip" ->
+            Just integratedCircuitChip
 
         "invert-colors" ->
             Just invertColors

@@ -1583,6 +1583,13 @@ calendarStartOutline =
     iconShape "M13 18L9 14V17H4V14H2V22H4V19H9V22L13 18M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V12H5V9H19V19H14.8L12.8 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M5 7V5H19V7H5Z"
 
 
+{-| The [`calendar-sync`](https://pictogrammers.com/library/mdi/icon/calendar-sync/) icon.
+-}
+calendarSync : IconShape
+calendarSync =
+    iconShape "M18,11V12.5C21.19,12.5 23.09,16.05 21.33,18.71L20.24,17.62C21.06,15.96 19.85,14 18,14V15.5L15.75,13.25L18,11M18,22V20.5C14.81,20.5 12.91,16.95 14.67,14.29L15.76,15.38C14.94,17.04 16.15,19 18,19V17.5L20.25,19.75L18,22M19,3H18V1H16V3H8V1H6V3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H14C13.36,20.45 12.86,19.77 12.5,19H5V8H19V10.59C19.71,10.7 20.39,10.94 21,11.31V5A2,2 0 0,0 19,3Z"
+
+
 {-| The [`calendar-sync-outline`](https://pictogrammers.com/library/mdi/icon/calendar-sync-outline/) icon.
 -}
 calendarSyncOutline : IconShape
@@ -1597,11 +1604,11 @@ calendarText =
     iconShape "M14,14H7V16H14M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M17,10H7V12H17V10Z"
 
 
-{-| The [`calendar-sync`](https://pictogrammers.com/library/mdi/icon/calendar-sync/) icon.
+{-| The [`calendar-text-outline`](https://pictogrammers.com/library/mdi/icon/calendar-text-outline/) icon.
 -}
-calendarSync : IconShape
-calendarSync =
-    iconShape "M18,11V12.5C21.19,12.5 23.09,16.05 21.33,18.71L20.24,17.62C21.06,15.96 19.85,14 18,14V15.5L15.75,13.25L18,11M18,22V20.5C14.81,20.5 12.91,16.95 14.67,14.29L15.76,15.38C14.94,17.04 16.15,19 18,19V17.5L20.25,19.75L18,22M19,3H18V1H16V3H8V1H6V3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H14C13.36,20.45 12.86,19.77 12.5,19H5V8H19V10.59C19.71,10.7 20.39,10.94 21,11.31V5A2,2 0 0,0 19,3Z"
+calendarTextOutline : IconShape
+calendarTextOutline =
+    iconShape "M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M5 7V5H19V7H5M7 11H17V13H7V11M7 15H14V17H7V15Z"
 
 
 {-| The [`calendar-today`](https://pictogrammers.com/library/mdi/icon/calendar-today/) icon.
@@ -1609,13 +1616,6 @@ calendarSync =
 calendarToday : IconShape
 calendarToday =
     iconShape "M7,10H12V15H7M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z"
-
-
-{-| The [`calendar-text-outline`](https://pictogrammers.com/library/mdi/icon/calendar-text-outline/) icon.
--}
-calendarTextOutline : IconShape
-calendarTextOutline =
-    iconShape "M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.9 20.11 3 19 3M19 19H5V9H19V19M5 7V5H19V7H5M7 11H17V13H7V11M7 15H14V17H7V15Z"
 
 
 {-| The [`calendar-today-outline`](https://pictogrammers.com/library/mdi/icon/calendar-today-outline/) icon.
@@ -1646,18 +1646,18 @@ calendarWeekBeginOutline =
     iconShape "M19 3C20.11 3 21 3.89 21 5V19C21 20.11 20.11 21 19 21H5C3.89 21 3 20.1 3 19V5C3 3.89 3.9 3 5 3H6V1H8V3H16V1H18V3H19M19 19V9H5V19H19M19 7V5H5V7H19M7 11H9V17H7V11"
 
 
-{-| The [`calendar-weekend`](https://pictogrammers.com/library/mdi/icon/calendar-weekend/) icon.
--}
-calendarWeekend : IconShape
-calendarWeekend =
-    iconShape "M19 19V8H5V19H19M16 1H18V3H19C20.11 3 21 3.9 21 5V19C21 20.11 20.11 21 19 21H5C3.9 21 3 20.11 3 19V5C3 3.9 3.9 3 5 3H6V1H8V3H16V1M7 17V10H9V17H7M15 10H17V17H15V10Z"
-
-
 {-| The [`calendar-week-outline`](https://pictogrammers.com/library/mdi/icon/calendar-week-outline/) icon.
 -}
 calendarWeekOutline : IconShape
 calendarWeekOutline =
     iconShape "M5 3H6V1H8V3H16V1H18V3H19C20.11 3 21 3.89 21 5V19C21 20.1 20.11 21 19 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.9 3 5 3M5 19H19V9H5V19M5 7H19V5H5V7M17 11V13H7V11H17"
+
+
+{-| The [`calendar-weekend`](https://pictogrammers.com/library/mdi/icon/calendar-weekend/) icon.
+-}
+calendarWeekend : IconShape
+calendarWeekend =
+    iconShape "M19 19V8H5V19H19M16 1H18V3H19C20.11 3 21 3.9 21 5V19C21 20.11 20.11 21 19 21H5C3.9 21 3 20.11 3 19V5C3 3.9 3.9 3 5 3H6V1H8V3H16V1M7 17V10H9V17H7M15 10H17V17H15V10Z"
 
 
 {-| The [`calendar-weekend-outline`](https://pictogrammers.com/library/mdi/icon/calendar-weekend-outline/) icon.
@@ -3088,18 +3088,18 @@ caseSensitiveAlt =
     iconShape "M20,14C20,12.5 19.5,12 18,12H16V11C16,10 16,10 14,10V15.4L14,19H16L18,19C19.5,19 20,18.47 20,17V14M12,12C12,10.5 11.47,10 10,10H6C4.5,10 4,10.5 4,12V19H6V16H10V19H12V12M10,7H14V5H10V7M22,9V20C22,21.11 21.11,22 20,22H4A2,2 0 0,1 2,20V9C2,7.89 2.89,7 4,7H8V5L10,3H14L16,5V7H20A2,2 0 0,1 22,9H22M16,17H18V14H16V17M6,12H10V14H6V12Z"
 
 
-{-| The [`cash-100`](https://pictogrammers.com/library/mdi/icon/cash-100/) icon.
--}
-cash100 : IconShape
-cash100 =
-    iconShape "M2,5H22V20H2V5M20,18V7H4V18H20M17,8A2,2 0 0,0 19,10V15A2,2 0 0,0 17,17H7A2,2 0 0,0 5,15V10A2,2 0 0,0 7,8H17M17,13V12C17,10.9 16.33,10 15.5,10C14.67,10 14,10.9 14,12V13C14,14.1 14.67,15 15.5,15C16.33,15 17,14.1 17,13M15.5,11A0.5,0.5 0 0,1 16,11.5V13.5A0.5,0.5 0 0,1 15.5,14A0.5,0.5 0 0,1 15,13.5V11.5A0.5,0.5 0 0,1 15.5,11M13,13V12C13,10.9 12.33,10 11.5,10C10.67,10 10,10.9 10,12V13C10,14.1 10.67,15 11.5,15C12.33,15 13,14.1 13,13M11.5,11A0.5,0.5 0 0,1 12,11.5V13.5A0.5,0.5 0 0,1 11.5,14A0.5,0.5 0 0,1 11,13.5V11.5A0.5,0.5 0 0,1 11.5,11M8,15H9V10H8L7,10.5V11.5L8,11V15Z"
-
-
 {-| The [`cash`](https://pictogrammers.com/library/mdi/icon/cash/) icon.
 -}
 cash : IconShape
 cash =
     iconShape "M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z"
+
+
+{-| The [`cash-100`](https://pictogrammers.com/library/mdi/icon/cash-100/) icon.
+-}
+cash100 : IconShape
+cash100 =
+    iconShape "M2,5H22V20H2V5M20,18V7H4V18H20M17,8A2,2 0 0,0 19,10V15A2,2 0 0,0 17,17H7A2,2 0 0,0 5,15V10A2,2 0 0,0 7,8H17M17,13V12C17,10.9 16.33,10 15.5,10C14.67,10 14,10.9 14,12V13C14,14.1 14.67,15 15.5,15C16.33,15 17,14.1 17,13M15.5,11A0.5,0.5 0 0,1 16,11.5V13.5A0.5,0.5 0 0,1 15.5,14A0.5,0.5 0 0,1 15,13.5V11.5A0.5,0.5 0 0,1 15.5,11M13,13V12C13,10.9 12.33,10 11.5,10C10.67,10 10,10.9 10,12V13C10,14.1 10.67,15 11.5,15C12.33,15 13,14.1 13,13M11.5,11A0.5,0.5 0 0,1 12,11.5V13.5A0.5,0.5 0 0,1 11.5,14A0.5,0.5 0 0,1 11,13.5V11.5A0.5,0.5 0 0,1 11.5,11M8,15H9V10H8L7,10.5V11.5L8,11V15Z"
 
 
 {-| The [`cash-check`](https://pictogrammers.com/library/mdi/icon/cash-check/) icon.
@@ -3669,32 +3669,11 @@ chartDonutVariant =
     iconShape "M13,2.05C18.05,2.55 22,6.82 22,12C22,13.45 21.68,14.83 21.12,16.07L18.5,14.54C18.82,13.75 19,12.9 19,12C19,8.47 16.39,5.57 13,5.08V2.05M12,19C14.21,19 16.17,18 17.45,16.38L20.05,17.91C18.23,20.39 15.3,22 12,22C6.47,22 2,17.5 2,12C2,6.81 5.94,2.55 11,2.05V5.08C7.61,5.57 5,8.47 5,12A7,7 0 0,0 12,19M12,6A6,6 0 0,1 18,12C18,14.97 15.84,17.44 13,17.92V14.83C14.17,14.42 15,13.31 15,12A3,3 0 0,0 12,9L11.45,9.05L9.91,6.38C10.56,6.13 11.26,6 12,6M6,12C6,10.14 6.85,8.5 8.18,7.38L9.72,10.05C9.27,10.57 9,11.26 9,12C9,13.31 9.83,14.42 11,14.83V17.92C8.16,17.44 6,14.97 6,12Z"
 
 
-{-| The [`chart-line`](https://pictogrammers.com/library/mdi/icon/chart-line/) icon.
--}
-chartLine : IconShape
-chartLine =
-    iconShape "M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z"
-
-
 {-| The [`chart-gantt`](https://pictogrammers.com/library/mdi/icon/chart-gantt/) icon.
 -}
 chartGantt : IconShape
 chartGantt =
     iconShape "M2,5H10V2H12V22H10V18H6V15H10V13H4V10H10V8H2V5M14,5H17V8H14V5M14,10H19V13H14V10M14,15H22V18H14V15Z"
-
-
-{-| The [`chart-line-stacked`](https://pictogrammers.com/library/mdi/icon/chart-line-stacked/) icon.
--}
-chartLineStacked : IconShape
-chartLineStacked =
-    iconShape "M17.45,15.18L22,6.81V19L22,21H2V3H4V15.54L4,19H4.31L6,19H6.57L10.96,11.44L17.45,15.18M22,3L21.97,3.45L17,11L10,6L6,12V3H22Z"
-
-
-{-| The [`chart-multiline`](https://pictogrammers.com/library/mdi/icon/chart-multiline/) icon.
--}
-chartMultiline : IconShape
-chartMultiline =
-    iconShape "M22,6.92L20.59,5.5L17.74,8.72C15.68,6.4 12.83,5 9.61,5C6.72,5 4.07,6.16 2,8L3.42,9.42C5.12,7.93 7.27,7 9.61,7C12.35,7 14.7,8.26 16.38,10.24L13.5,13.5L9.5,9.5L2,17L3.5,18.5L9.5,12.5L13.5,16.5L17.55,11.93C18.3,13.28 18.8,14.83 19,16.5H21C20.78,14.18 20.05,12.09 18.96,10.34L22,6.92Z"
 
 
 {-| The [`chart-histogram`](https://pictogrammers.com/library/mdi/icon/chart-histogram/) icon.
@@ -3704,11 +3683,32 @@ chartHistogram =
     iconShape "M3,3H5V13H9V7H13V11H17V15H21V21H3V3Z"
 
 
+{-| The [`chart-line`](https://pictogrammers.com/library/mdi/icon/chart-line/) icon.
+-}
+chartLine : IconShape
+chartLine =
+    iconShape "M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z"
+
+
+{-| The [`chart-line-stacked`](https://pictogrammers.com/library/mdi/icon/chart-line-stacked/) icon.
+-}
+chartLineStacked : IconShape
+chartLineStacked =
+    iconShape "M17.45,15.18L22,6.81V19L22,21H2V3H4V15.54L4,19H4.31L6,19H6.57L10.96,11.44L17.45,15.18M22,3L21.97,3.45L17,11L10,6L6,12V3H22Z"
+
+
 {-| The [`chart-line-variant`](https://pictogrammers.com/library/mdi/icon/chart-line-variant/) icon.
 -}
 chartLineVariant : IconShape
 chartLineVariant =
     iconShape "M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z"
+
+
+{-| The [`chart-multiline`](https://pictogrammers.com/library/mdi/icon/chart-multiline/) icon.
+-}
+chartMultiline : IconShape
+chartMultiline =
+    iconShape "M22,6.92L20.59,5.5L17.74,8.72C15.68,6.4 12.83,5 9.61,5C6.72,5 4.07,6.16 2,8L3.42,9.42C5.12,7.93 7.27,7 9.61,7C12.35,7 14.7,8.26 16.38,10.24L13.5,13.5L9.5,9.5L2,17L3.5,18.5L9.5,12.5L13.5,16.5L17.55,11.93C18.3,13.28 18.8,14.83 19,16.5H21C20.78,14.18 20.05,12.09 18.96,10.34L22,6.92Z"
 
 
 {-| The [`chart-multiple`](https://pictogrammers.com/library/mdi/icon/chart-multiple/) icon.
@@ -3935,13 +3935,6 @@ checkBold =
     iconShape "M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z"
 
 
-{-| The [`check-circle-outline`](https://pictogrammers.com/library/mdi/icon/check-circle-outline/) icon.
--}
-checkCircleOutline : IconShape
-checkCircleOutline =
-    iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 12 4 20 7.59 20 12 16.41 20 12 20M16.59 7.58L10 14.17L7.41 11.59L6 13L10 17L18 9L16.59 7.58Z"
-
-
 {-| The [`check-circle`](https://pictogrammers.com/library/mdi/icon/check-circle/) icon.
 -}
 checkCircle : IconShape
@@ -3949,11 +3942,11 @@ checkCircle =
     iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"
 
 
-{-| The [`check-decagram-outline`](https://pictogrammers.com/library/mdi/icon/check-decagram-outline/) icon.
+{-| The [`check-circle-outline`](https://pictogrammers.com/library/mdi/icon/check-circle-outline/) icon.
 -}
-checkDecagramOutline : IconShape
-checkDecagramOutline =
-    iconShape "M23 12L20.6 9.2L20.9 5.5L17.3 4.7L15.4 1.5L12 3L8.6 1.5L6.7 4.7L3.1 5.5L3.4 9.2L1 12L3.4 14.8L3.1 18.5L6.7 19.3L8.6 22.5L12 21L15.4 22.5L17.3 19.3L20.9 18.5L20.6 14.8L23 12M18.7 16.9L16 17.5L14.6 19.9L12 18.8L9.4 19.9L8 17.5L5.3 16.9L5.5 14.1L3.7 12L5.5 9.9L5.3 7.1L8 6.5L9.4 4.1L12 5.2L14.6 4.1L16 6.5L18.7 7.1L18.5 9.9L20.3 12L18.5 14.1L18.7 16.9M16.6 7.6L18 9L10 17L6 13L7.4 11.6L10 14.2L16.6 7.6Z"
+checkCircleOutline : IconShape
+checkCircleOutline =
+    iconShape "M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 12 4 20 7.59 20 12 16.41 20 12 20M16.59 7.58L10 14.17L7.41 11.59L6 13L10 17L18 9L16.59 7.58Z"
 
 
 {-| The [`check-decagram`](https://pictogrammers.com/library/mdi/icon/check-decagram/) icon.
@@ -3961,6 +3954,13 @@ checkDecagramOutline =
 checkDecagram : IconShape
 checkDecagram =
     iconShape "M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"
+
+
+{-| The [`check-decagram-outline`](https://pictogrammers.com/library/mdi/icon/check-decagram-outline/) icon.
+-}
+checkDecagramOutline : IconShape
+checkDecagramOutline =
+    iconShape "M23 12L20.6 9.2L20.9 5.5L17.3 4.7L15.4 1.5L12 3L8.6 1.5L6.7 4.7L3.1 5.5L3.4 9.2L1 12L3.4 14.8L3.1 18.5L6.7 19.3L8.6 22.5L12 21L15.4 22.5L17.3 19.3L20.9 18.5L20.6 14.8L23 12M18.7 16.9L16 17.5L14.6 19.9L12 18.8L9.4 19.9L8 17.5L5.3 16.9L5.5 14.1L3.7 12L5.5 9.9L5.3 7.1L8 6.5L9.4 4.1L12 5.2L14.6 4.1L16 6.5L18.7 7.1L18.5 9.9L20.3 12L18.5 14.1L18.7 16.9M16.6 7.6L18 9L10 17L6 13L7.4 11.6L10 14.2L16.6 7.6Z"
 
 
 {-| The [`check-network`](https://pictogrammers.com/library/mdi/icon/check-network/) icon.
@@ -4236,18 +4236,18 @@ checkerboardPlus =
     iconShape "M19 17H22V19H19V22H17V19H14V17H17V14H19V17M8 16H12V12H8V16M12 12H16V8H12V12M2 2V22H13.54C13 21.42 12.63 20.74 12.36 20H8V16H4V12H8V8H4V4H8V8H12V4H16V8H20V12.36C20.74 12.63 21.42 13 22 13.54V2H2Z"
 
 
-{-| The [`cheese`](https://pictogrammers.com/library/mdi/icon/cheese/) icon.
--}
-cheese : IconShape
-cheese =
-    iconShape "M11 17.5C11 16.67 11.67 16 12.5 16C12.79 16 13.06 16.09 13.29 16.23L20.75 11.93C20.35 11.22 19.9 10.55 19.41 9.9C19.29 9.96 19.15 10 19 10C18.45 10 18 9.55 18 9C18 8.8 18.08 8.62 18.18 8.46C16.45 6.64 14.34 5.2 12 4.25C11.85 5.24 11 6 10 6C8.9 6 8 5.11 8 4C8 3.72 8.06 3.45 8.16 3.21C7.3 3.08 6.41 3 5.5 3C5.33 3 5.17 3 5 3.03V9.05C6.14 9.28 7 10.29 7 11.5S6.14 13.72 5 13.95V21L11 17.54C11 17.53 11 17.5 11 17.5M14 9C15.11 9 16 9.9 16 11S15.11 13 14 13 12 12.11 12 11 12.9 9 14 9M9 16C8.45 16 8 15.55 8 15S8.45 14 9 14 10 14.45 10 15 9.55 16 9 16M9 10C8.45 10 8 9.55 8 9S8.45 8 9 8 10 8.45 10 9 9.55 10 9 10Z"
-
-
 {-| The [`checkerboard-remove`](https://pictogrammers.com/library/mdi/icon/checkerboard-remove/) icon.
 -}
 checkerboardRemove : IconShape
 checkerboardRemove =
     iconShape "M8 16H12V12H8V16M12 12H16V8H12V12M2 2V22H13.5C13 21.4 12.6 20.7 12.3 20H8V16H4V12H8V8H4V4H8V8H12V4H16V8H20V12.4C20.7 12.7 21.4 13.1 22 13.6V2H2M20.1 14.5L18 16.6L15.9 14.5L14.5 15.9L16.6 18L14.5 20.1L15.9 21.5L18 19.4L20.1 21.5L21.5 20.1L19.4 18L21.5 15.9L20.1 14.5Z"
+
+
+{-| The [`cheese`](https://pictogrammers.com/library/mdi/icon/cheese/) icon.
+-}
+cheese : IconShape
+cheese =
+    iconShape "M11 17.5C11 16.67 11.67 16 12.5 16C12.79 16 13.06 16.09 13.29 16.23L20.75 11.93C20.35 11.22 19.9 10.55 19.41 9.9C19.29 9.96 19.15 10 19 10C18.45 10 18 9.55 18 9C18 8.8 18.08 8.62 18.18 8.46C16.45 6.64 14.34 5.2 12 4.25C11.85 5.24 11 6 10 6C8.9 6 8 5.11 8 4C8 3.72 8.06 3.45 8.16 3.21C7.3 3.08 6.41 3 5.5 3C5.33 3 5.17 3 5 3.03V9.05C6.14 9.28 7 10.29 7 11.5S6.14 13.72 5 13.95V21L11 17.54C11 17.53 11 17.5 11 17.5M14 9C15.11 9 16 9.9 16 11S15.11 13 14 13 12 12.11 12 11 12.9 9 14 9M9 16C8.45 16 8 15.55 8 15S8.45 14 9 14 10 14.45 10 15 9.55 16 9 16M9 10C8.45 10 8 9.55 8 9S8.45 8 9 8 10 8.45 10 9 9.55 10 9 10Z"
 
 
 {-| The [`cheese-off`](https://pictogrammers.com/library/mdi/icon/cheese-off/) icon.
@@ -5244,18 +5244,18 @@ clockAlertOutline =
     iconShape "M11 7V13L16.2 16.1L17 14.9L12.5 12.2V7H11M20 12V18H22V12H20M20 20V22H22V20H20M18 20C16.3 21.3 14.3 22 12 22C6.5 22 2 17.5 2 12S6.5 2 12 2C16.8 2 20.9 5.4 21.8 10H19.7C18.8 6.6 15.7 4 12 4C7.6 4 4 7.6 4 12S7.6 20 12 20C14.4 20 16.5 18.9 18 17.3V20Z"
 
 
-{-| The [`clock-check-outline`](https://pictogrammers.com/library/mdi/icon/clock-check-outline/) icon.
--}
-clockCheckOutline : IconShape
-clockCheckOutline =
-    iconShape "M23.5 17L18.5 22L15 18.5L16.5 17L18.5 19L22 15.5L23.5 17M13.1 19.9C12.7 20 12.4 20 12 20C7.6 20 4 16.4 4 12S7.6 4 12 4 20 7.6 20 12C20 12.4 20 12.7 19.9 13.1C20.6 13.2 21.2 13.4 21.8 13.7C21.9 13.1 22 12.6 22 12C22 6.5 17.5 2 12 2S2 6.5 2 12C2 17.5 6.5 22 12 22C12.6 22 13.2 21.9 13.7 21.8C13.4 21.3 13.2 20.6 13.1 19.9M15.6 14.1L12.5 12.3V7H11V13L14.5 15.1C14.8 14.7 15.2 14.4 15.6 14.1Z"
-
-
 {-| The [`clock-check`](https://pictogrammers.com/library/mdi/icon/clock-check/) icon.
 -}
 clockCheck : IconShape
 clockCheck =
     iconShape "M23.5 17L18.5 22L15 18.5L16.5 17L18.5 19L22 15.5L23.5 17M13 19C13 17.5 13.5 16.2 14.4 15.1L11 13V7H12.5V12.2L15.6 14.1C16.6 13.4 17.7 13 19 13C20 13 21 13.3 21.8 13.7C21.9 13.1 22 12.6 22 12C22 6.5 17.5 2 12 2S2 6.5 2 12 6.5 22 12 22C12.6 22 13.2 21.9 13.7 21.8C13.3 21 13 20 13 19Z"
+
+
+{-| The [`clock-check-outline`](https://pictogrammers.com/library/mdi/icon/clock-check-outline/) icon.
+-}
+clockCheckOutline : IconShape
+clockCheckOutline =
+    iconShape "M23.5 17L18.5 22L15 18.5L16.5 17L18.5 19L22 15.5L23.5 17M13.1 19.9C12.7 20 12.4 20 12 20C7.6 20 4 16.4 4 12S7.6 4 12 4 20 7.6 20 12C20 12.4 20 12.7 19.9 13.1C20.6 13.2 21.2 13.4 21.8 13.7C21.9 13.1 22 12.6 22 12C22 6.5 17.5 2 12 2S2 6.5 2 12C2 17.5 6.5 22 12 22C12.6 22 13.2 21.9 13.7 21.8C13.4 21.3 13.2 20.6 13.1 19.9M15.6 14.1L12.5 12.3V7H11V13L14.5 15.1C14.8 14.7 15.2 14.4 15.6 14.1Z"
 
 
 {-| The [`clock-digital`](https://pictogrammers.com/library/mdi/icon/clock-digital/) icon.
@@ -6077,18 +6077,18 @@ clouds =
     iconShape "M19.19 12.07C19.69 11.54 20 10.82 20 10C20 8.3 18.7 6.84 17 6.84H14.2C14.2 4.17 12.03 2 9.36 2C7.31 2 5.56 3.28 4.85 5.08C2.72 5.14 1 6.89 1 9.04C1 11.22 2.78 13 4.96 13H8.1C8.04 13.33 8 13.66 8 14H7.5C5.57 14 4 15.57 4 17.5S5.57 21 7.5 21H18.5C21 21 23 19 23 16.5C23 14.26 21.34 12.41 19.19 12.07M18.5 19H7.5C6.67 19 6 18.33 6 17.5S6.67 16 7.5 16H10V14C10 12.07 11.57 10.5 13.5 10.5S17 12.07 17 14H18.5C19.88 14 21 15.12 21 16.5S19.88 19 18.5 19Z"
 
 
-{-| The [`clover-outline`](https://pictogrammers.com/library/mdi/icon/clover-outline/) icon.
--}
-cloverOutline : IconShape
-cloverOutline =
-    iconShape "M10.61 12.62L10.65 12.58L11.16 12.03L11.18 12L11.16 11.97C11 11.78 10.82 11.6 10.66 11.42L10.61 11.38C8.42 8.97 7.03 7.53 5.58 7.12C5.29 7.04 5 7 4.69 7C3.19 7 2 8.25 2 9.75C2 10.38 2.19 11 2.55 11.5C2.68 11.68 2.83 11.85 3 12C2.83 12.15 2.68 12.32 2.55 12.5C2.19 13 2 13.64 2 14.31C2 15.81 3.25 17 4.75 17C5.03 17 5.31 16.96 5.58 16.89C7 16.5 8.4 15.05 10.61 12.62M8.47 12C7.57 12.97 6.88 13.69 6.26 14.21C5.43 14.91 5 15 4.75 15C4.3 15 4 14.65 4 14.31C4 13.93 4.14 13.66 4.33 13.5L6 12L4.33 10.5C4.13 10.33 4 10.05 4 9.75C4 9.3 4.35 9 4.69 9C5 9 5.43 9.1 6.26 9.8C6.88 10.31 7.57 11.03 8.47 12M7.12 18.43C7.04 18.72 7 19 7 19.31C7 20.81 8.25 22 9.75 22C10.38 22 11 21.81 11.5 21.45C11.68 21.32 11.85 21.17 12 21C12.15 21.17 12.32 21.32 12.5 21.45C13 21.81 13.64 22 14.31 22C15.81 22 17 20.75 17 19.25C17 18.97 16.96 18.69 16.89 18.42C16.5 17 15.05 15.6 12.62 13.39L12.58 13.35L12.03 12.85L12 12.82L11.97 12.85L11.42 13.35L11.38 13.38C8.97 15.58 7.53 16.97 7.12 18.43M12 15.53C12.97 16.43 13.69 17.12 14.21 17.74C14.91 18.57 15 19 15 19.25C15 19.7 14.65 20 14.31 20C13.93 20 13.66 19.86 13.5 19.67L12 18L10.5 19.67C10.33 19.87 10.05 20 9.75 20C9.3 20 9 19.65 9 19.31C9 19 9.1 18.57 9.8 17.74C10.31 17.12 11.03 16.43 12 15.53M13.39 12.62C15.59 15.03 16.97 16.47 18.43 16.88C18.72 16.96 19 17 19.31 17C20.81 17 22 15.75 22 14.25C22 13.62 21.81 13 21.45 12.5C21.32 12.32 21.17 12.15 21 12C21.17 11.85 21.32 11.68 21.45 11.5C21.81 11 22 10.37 22 9.69C22 8.19 20.75 7 19.25 7C18.97 7 18.69 7.04 18.42 7.11C17 7.5 15.6 8.95 13.39 11.38L13.36 11.42L12.83 12L12.83 12L12.83 12L13.36 12.58L13.39 12.62M15.54 12C16.43 11.03 17.13 10.31 17.74 9.79C18.58 9.09 19 9 19.25 9C19.7 9 20 9.35 20 9.69C20 10.07 19.86 10.34 19.67 10.5L18 12L19.67 13.5C19.87 13.68 20 13.95 20 14.25C20 14.7 19.65 15 19.31 15C19 15 18.57 14.9 17.74 14.2C17.13 13.69 16.43 12.97 15.54 12M12.62 10.62C15.03 8.42 16.47 7.03 16.88 5.58C16.96 5.29 17 5 17 4.69C17 3.19 15.75 2 14.25 2C13.62 2 13 2.19 12.5 2.55C12.32 2.68 12.15 2.83 12 3C11.85 2.83 11.68 2.68 11.5 2.55C11 2.19 10.37 2 9.69 2C8.19 2 7 3.25 7 4.75C7 5.03 7.04 5.31 7.11 5.58C7.5 7 8.95 8.4 11.38 10.62L11.42 10.65L11.97 11.15L12 11.18L12.03 11.16L12.59 10.65L12.62 10.61M12 8.47C11.03 7.57 10.31 6.88 9.79 6.26C9.09 5.43 9 5 9 4.75C9 4.3 9.35 4 9.69 4C10.07 4 10.34 4.14 10.5 4.33L12 6L13.5 4.33C13.68 4.13 13.95 4 14.25 4C14.7 4 15 4.35 15 4.69C15 5 14.9 5.43 14.2 6.26C13.69 6.88 12.97 7.57 12 8.47Z"
-
-
 {-| The [`clover`](https://pictogrammers.com/library/mdi/icon/clover/) icon.
 -}
 clover : IconShape
 clover =
     iconShape "M12,11.18C15.3,8.18 17,6.64 17,4.69C17,3.19 15.75,2 14.25,2C13.39,2 12.57,2.36 12,3C11.43,2.36 10.61,2 9.69,2C8.19,2 7,3.25 7,4.75C7,6.64 8.7,8.18 12,11.18M11.18,12C8.18,8.7 6.64,7 4.69,7C3.19,7 2,8.25 2,9.75C2,10.61 2.36,11.43 3,12C2.36,12.57 2,13.39 2,14.31C2,15.81 3.25,17 4.75,17C6.64,17 8.18,15.3 11.18,12M12.83,12C15.82,15.3 17.36,17 19.31,17C20.81,17 22,15.75 22,14.25C22,13.39 21.64,12.57 21,12C21.64,11.43 22,10.61 22,9.69C22,8.19 20.75,7 19.25,7C17.36,7 15.82,8.7 12.83,12M12,12.82C8.7,15.82 7,17.36 7,19.31C7,20.81 8.25,22 9.75,22C10.61,22 11.43,21.64 12,21C12.57,21.64 13.39,22 14.31,22C15.81,22 17,20.75 17,19.25C17,17.36 15.3,15.82 12,12.82Z"
+
+
+{-| The [`clover-outline`](https://pictogrammers.com/library/mdi/icon/clover-outline/) icon.
+-}
+cloverOutline : IconShape
+cloverOutline =
+    iconShape "M10.61 12.62L10.65 12.58L11.16 12.03L11.18 12L11.16 11.97C11 11.78 10.82 11.6 10.66 11.42L10.61 11.38C8.42 8.97 7.03 7.53 5.58 7.12C5.29 7.04 5 7 4.69 7C3.19 7 2 8.25 2 9.75C2 10.38 2.19 11 2.55 11.5C2.68 11.68 2.83 11.85 3 12C2.83 12.15 2.68 12.32 2.55 12.5C2.19 13 2 13.64 2 14.31C2 15.81 3.25 17 4.75 17C5.03 17 5.31 16.96 5.58 16.89C7 16.5 8.4 15.05 10.61 12.62M8.47 12C7.57 12.97 6.88 13.69 6.26 14.21C5.43 14.91 5 15 4.75 15C4.3 15 4 14.65 4 14.31C4 13.93 4.14 13.66 4.33 13.5L6 12L4.33 10.5C4.13 10.33 4 10.05 4 9.75C4 9.3 4.35 9 4.69 9C5 9 5.43 9.1 6.26 9.8C6.88 10.31 7.57 11.03 8.47 12M7.12 18.43C7.04 18.72 7 19 7 19.31C7 20.81 8.25 22 9.75 22C10.38 22 11 21.81 11.5 21.45C11.68 21.32 11.85 21.17 12 21C12.15 21.17 12.32 21.32 12.5 21.45C13 21.81 13.64 22 14.31 22C15.81 22 17 20.75 17 19.25C17 18.97 16.96 18.69 16.89 18.42C16.5 17 15.05 15.6 12.62 13.39L12.58 13.35L12.03 12.85L12 12.82L11.97 12.85L11.42 13.35L11.38 13.38C8.97 15.58 7.53 16.97 7.12 18.43M12 15.53C12.97 16.43 13.69 17.12 14.21 17.74C14.91 18.57 15 19 15 19.25C15 19.7 14.65 20 14.31 20C13.93 20 13.66 19.86 13.5 19.67L12 18L10.5 19.67C10.33 19.87 10.05 20 9.75 20C9.3 20 9 19.65 9 19.31C9 19 9.1 18.57 9.8 17.74C10.31 17.12 11.03 16.43 12 15.53M13.39 12.62C15.59 15.03 16.97 16.47 18.43 16.88C18.72 16.96 19 17 19.31 17C20.81 17 22 15.75 22 14.25C22 13.62 21.81 13 21.45 12.5C21.32 12.32 21.17 12.15 21 12C21.17 11.85 21.32 11.68 21.45 11.5C21.81 11 22 10.37 22 9.69C22 8.19 20.75 7 19.25 7C18.97 7 18.69 7.04 18.42 7.11C17 7.5 15.6 8.95 13.39 11.38L13.36 11.42L12.83 12L12.83 12L12.83 12L13.36 12.58L13.39 12.62M15.54 12C16.43 11.03 17.13 10.31 17.74 9.79C18.58 9.09 19 9 19.25 9C19.7 9 20 9.35 20 9.69C20 10.07 19.86 10.34 19.67 10.5L18 12L19.67 13.5C19.87 13.68 20 13.95 20 14.25C20 14.7 19.65 15 19.31 15C19 15 18.57 14.9 17.74 14.2C17.13 13.69 16.43 12.97 15.54 12M12.62 10.62C15.03 8.42 16.47 7.03 16.88 5.58C16.96 5.29 17 5 17 4.69C17 3.19 15.75 2 14.25 2C13.62 2 13 2.19 12.5 2.55C12.32 2.68 12.15 2.83 12 3C11.85 2.83 11.68 2.68 11.5 2.55C11 2.19 10.37 2 9.69 2C8.19 2 7 3.25 7 4.75C7 5.03 7.04 5.31 7.11 5.58C7.5 7 8.95 8.4 11.38 10.62L11.42 10.65L11.97 11.15L12 11.18L12.03 11.16L12.59 10.65L12.62 10.61M12 8.47C11.03 7.57 10.31 6.88 9.79 6.26C9.09 5.43 9 5 9 4.75C9 4.3 9.35 4 9.69 4C10.07 4 10.34 4.14 10.5 4.33L12 6L13.5 4.33C13.68 4.13 13.95 4 14.25 4C14.7 4 15 4.35 15 4.69C15 5 14.9 5.43 14.2 6.26C13.69 6.88 12.97 7.57 12 8.47Z"
 
 
 {-| The [`coach-lamp`](https://pictogrammers.com/library/mdi/icon/coach-lamp/) icon.
@@ -8635,20 +8635,20 @@ lookup name =
         "calendar-start-outline" ->
             Just calendarStartOutline
 
+        "calendar-sync" ->
+            Just calendarSync
+
         "calendar-sync-outline" ->
             Just calendarSyncOutline
 
         "calendar-text" ->
             Just calendarText
 
-        "calendar-sync" ->
-            Just calendarSync
+        "calendar-text-outline" ->
+            Just calendarTextOutline
 
         "calendar-today" ->
             Just calendarToday
-
-        "calendar-text-outline" ->
-            Just calendarTextOutline
 
         "calendar-today-outline" ->
             Just calendarTodayOutline
@@ -8662,11 +8662,11 @@ lookup name =
         "calendar-week-begin-outline" ->
             Just calendarWeekBeginOutline
 
-        "calendar-weekend" ->
-            Just calendarWeekend
-
         "calendar-week-outline" ->
             Just calendarWeekOutline
+
+        "calendar-weekend" ->
+            Just calendarWeekend
 
         "calendar-weekend-outline" ->
             Just calendarWeekendOutline
@@ -9280,11 +9280,11 @@ lookup name =
         "case-sensitive-alt" ->
             Just caseSensitiveAlt
 
-        "cash-100" ->
-            Just cash100
-
         "cash" ->
             Just cash
+
+        "cash-100" ->
+            Just cash100
 
         "cash-check" ->
             Just cashCheck
@@ -9529,23 +9529,23 @@ lookup name =
         "chart-donut-variant" ->
             Just chartDonutVariant
 
-        "chart-line" ->
-            Just chartLine
-
         "chart-gantt" ->
             Just chartGantt
-
-        "chart-line-stacked" ->
-            Just chartLineStacked
-
-        "chart-multiline" ->
-            Just chartMultiline
 
         "chart-histogram" ->
             Just chartHistogram
 
+        "chart-line" ->
+            Just chartLine
+
+        "chart-line-stacked" ->
+            Just chartLineStacked
+
         "chart-line-variant" ->
             Just chartLineVariant
+
+        "chart-multiline" ->
+            Just chartMultiline
 
         "chart-multiple" ->
             Just chartMultiple
@@ -9643,17 +9643,17 @@ lookup name =
         "check-bold" ->
             Just checkBold
 
-        "check-circle-outline" ->
-            Just checkCircleOutline
-
         "check-circle" ->
             Just checkCircle
 
-        "check-decagram-outline" ->
-            Just checkDecagramOutline
+        "check-circle-outline" ->
+            Just checkCircleOutline
 
         "check-decagram" ->
             Just checkDecagram
+
+        "check-decagram-outline" ->
+            Just checkDecagramOutline
 
         "check-network" ->
             Just checkNetwork
@@ -9772,11 +9772,11 @@ lookup name =
         "checkerboard-plus" ->
             Just checkerboardPlus
 
-        "cheese" ->
-            Just cheese
-
         "checkerboard-remove" ->
             Just checkerboardRemove
+
+        "cheese" ->
+            Just cheese
 
         "cheese-off" ->
             Just cheeseOff
@@ -10204,11 +10204,11 @@ lookup name =
         "clock-alert-outline" ->
             Just clockAlertOutline
 
-        "clock-check-outline" ->
-            Just clockCheckOutline
-
         "clock-check" ->
             Just clockCheck
+
+        "clock-check-outline" ->
+            Just clockCheckOutline
 
         "clock-digital" ->
             Just clockDigital
@@ -10561,11 +10561,11 @@ lookup name =
         "clouds" ->
             Just clouds
 
-        "clover-outline" ->
-            Just cloverOutline
-
         "clover" ->
             Just clover
+
+        "clover-outline" ->
+            Just cloverOutline
 
         "coach-lamp" ->
             Just coachLamp

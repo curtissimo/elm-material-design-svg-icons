@@ -938,18 +938,18 @@ bankOutline =
     iconShape "M6.5,10H4.5V17H6.5V10M12.5,10H10.5V17H12.5V10M21,19H2V21H21V19M18.5,10H16.5V17H18.5V10M11.5,3.26L16.71,6H6.29L11.5,3.26M11.5,1L2,6V8H21V6L11.5,1Z"
 
 
-{-| The [`bank-remove`](https://pictogrammers.com/library/mdi/icon/bank-remove/) icon.
--}
-bankRemove : IconShape
-bankRemove =
-    iconShape "M14.46,15.88L15.88,14.46L18,16.59L20.12,14.46L21.54,15.88L19.41,18L21.54,20.12L20.12,21.54L18,19.41L15.88,21.54L14.46,20.12L16.59,18L14.46,15.88M11.5,1L21,6V8H2V6L11.5,1M16,10H19V12.08L18,12C17.3,12 16.63,12.12 16,12.34V10M2,22V19H12.08C12.27,20.14 12.79,21.17 13.53,22H2M10,10H13V14.68C12.54,15.37 12.22,16.15 12.08,17H10V10M4,10H7V17H4V10Z"
-
-
 {-| The [`bank-plus`](https://pictogrammers.com/library/mdi/icon/bank-plus/) icon.
 -}
 bankPlus : IconShape
 bankPlus =
     iconShape "M17,14H19V17H22V19H19V22H17V19H14V17H17V14M11.5,1L21,6V8H2V6L11.5,1M16,10H19V12.08L18,12C17.3,12 16.63,12.12 16,12.34V10M2,22V19H12.08C12.27,20.14 12.79,21.17 13.53,22H2M10,10H13V14.68C12.54,15.37 12.22,16.15 12.08,17H10V10M4,10H7V17H4V10Z"
+
+
+{-| The [`bank-remove`](https://pictogrammers.com/library/mdi/icon/bank-remove/) icon.
+-}
+bankRemove : IconShape
+bankRemove =
+    iconShape "M14.46,15.88L15.88,14.46L18,16.59L20.12,14.46L21.54,15.88L19.41,18L21.54,20.12L20.12,21.54L18,19.41L15.88,21.54L14.46,20.12L16.59,18L14.46,15.88M11.5,1L21,6V8H2V6L11.5,1M16,10H19V12.08L18,12C17.3,12 16.63,12.12 16,12.34V10M2,22V19H12.08C12.27,20.14 12.79,21.17 13.53,22H2M10,10H13V14.68C12.54,15.37 12.22,16.15 12.08,17H10V10M4,10H7V17H4V10Z"
 
 
 {-| The [`bank-transfer`](https://pictogrammers.com/library/mdi/icon/bank-transfer/) icon.
@@ -4482,11 +4482,11 @@ lookup name =
         "bank-outline" ->
             Just bankOutline
 
-        "bank-remove" ->
-            Just bankRemove
-
         "bank-plus" ->
             Just bankPlus
+
+        "bank-remove" ->
+            Just bankRemove
 
         "bank-transfer" ->
             Just bankTransfer

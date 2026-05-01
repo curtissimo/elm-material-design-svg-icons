@@ -297,18 +297,18 @@ earthArrowUp =
     iconShape "M21 17H19V21H17V17H15L18 14L21 17M12 18C12 15.8 13.2 13.9 15 12.8C14.9 12.3 14.5 12 14 12H8V10H10C10.6 10 11 9.6 11 9V7H13C14.1 7 15 6.1 15 5V4.6C17.9 5.8 20 8.6 20 12V12.3C20.7 12.5 21.3 12.9 21.9 13.4C22 13 22 12.5 22 12C22 6.5 17.5 2 12 2S2 6.5 2 12 6.5 22 12 22C12.5 22 13 22 13.4 21.9C12.5 20.8 12 19.5 12 18M11 19.9C7 19.4 4 16.1 4 12C4 11.4 4.1 10.8 4.2 10.2L9 15V16C9 17.1 9.9 18 11 18V19.9Z"
 
 
-{-| The [`earth-box-minus`](https://pictogrammers.com/library/mdi/icon/earth-box-minus/) icon.
--}
-earthBoxMinus : IconShape
-earthBoxMinus =
-    iconShape "M22 17V19H14V17H22M5 3H19C20.1 3 21 3.89 21 5V12.8C20.39 12.45 19.72 12.2 19 12.08V5H15.78C15.67 6 14.83 6.79 13.8 6.79H11.8V8.79C11.8 9.35 11.35 9.79 10.8 9.79H8.8V11.79H14.8C15.23 11.79 15.6 12.06 15.74 12.44C13.6 13.31 12.07 15.39 12 17.83C10.7 17.79 9.8 16.9 9.8 15.79V14.79L5 10.29V19H12.08C12.2 19.72 12.45 20.39 12.8 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.89 3 5 3Z"
-
-
 {-| The [`earth-box`](https://pictogrammers.com/library/mdi/icon/earth-box/) icon.
 -}
 earthBox : IconShape
 earthBox =
     iconShape "M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H5M15.78,5H19V17.18C18.74,16.38 17.69,15.79 16.8,15.79H15.8V12.79A1,1 0 0,0 14.8,11.79H8.8V9.79H10.8A1,1 0 0,0 11.8,8.79V6.79H13.8C14.83,6.79 15.67,6 15.78,5M5,10.29L9.8,14.79V15.79C9.8,16.9 10.7,17.79 11.8,17.79V19H5V10.29Z"
+
+
+{-| The [`earth-box-minus`](https://pictogrammers.com/library/mdi/icon/earth-box-minus/) icon.
+-}
+earthBoxMinus : IconShape
+earthBoxMinus =
+    iconShape "M22 17V19H14V17H22M5 3H19C20.1 3 21 3.89 21 5V12.8C20.39 12.45 19.72 12.2 19 12.08V5H15.78C15.67 6 14.83 6.79 13.8 6.79H11.8V8.79C11.8 9.35 11.35 9.79 10.8 9.79H8.8V11.79H14.8C15.23 11.79 15.6 12.06 15.74 12.44C13.6 13.31 12.07 15.39 12 17.83C10.7 17.79 9.8 16.9 9.8 15.79V14.79L5 10.29V19H12.08C12.2 19.72 12.45 20.39 12.8 21H5C3.9 21 3 20.11 3 19V5C3 3.89 3.89 3 5 3Z"
 
 
 {-| The [`earth-box-off`](https://pictogrammers.com/library/mdi/icon/earth-box-off/) icon.
@@ -1686,11 +1686,11 @@ lookup name =
         "earth-arrow-up" ->
             Just earthArrowUp
 
-        "earth-box-minus" ->
-            Just earthBoxMinus
-
         "earth-box" ->
             Just earthBox
+
+        "earth-box-minus" ->
+            Just earthBoxMinus
 
         "earth-box-off" ->
             Just earthBoxOff

@@ -5,8 +5,8 @@
 module Material.Icons.Categories.Currency exposing
     ( accountCash
     , accountCashOutline
-    , cash100
     , cash
+    , cash100
     , cashCheck
     , cashClock
     , cashFast
@@ -64,8 +64,8 @@ module Material.Icons.Categories.Currency exposing
 
 @docs accountCash
 @docs accountCashOutline
-@docs cash100
 @docs cash
+@docs cash100
 @docs cashCheck
 @docs cashClock
 @docs cashFast
@@ -146,16 +146,6 @@ accountCashOutline =
     Material.Icons.Directory.A.accountCashOutline
 
 
-{-| The [`cash-100`](https://pictogrammers.com/library/mdi/icon/cash-100/) icon.
-
-![cash-100](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNUgyMlYyMEgyVjVNMjAsMThWN0g0VjE4SDIwTTE3LDhBMiwyIDAgMCwwIDE5LDEwVjE1QTIsMiAwIDAsMCAxNywxN0g3QTIsMiAwIDAsMCA1LDE1VjEwQTIsMiAwIDAsMCA3LDhIMTdNMTcsMTNWMTJDMTcsMTAuOSAxNi4zMywxMCAxNS41LDEwQzE0LjY3LDEwIDE0LDEwLjkgMTQsMTJWMTNDMTQsMTQuMSAxNC42NywxNSAxNS41LDE1QzE2LjMzLDE1IDE3LDE0LjEgMTcsMTNNMTUuNSwxMUEwLjUsMC41IDAgMCwxIDE2LDExLjVWMTMuNUEwLjUsMC41IDAgMCwxIDE1LjUsMTRBMC41LDAuNSAwIDAsMSAxNSwxMy41VjExLjVBMC41LDAuNSAwIDAsMSAxNS41LDExTTEzLDEzVjEyQzEzLDEwLjkgMTIuMzMsMTAgMTEuNSwxMEMxMC42NywxMCAxMCwxMC45IDEwLDEyVjEzQzEwLDE0LjEgMTAuNjcsMTUgMTEuNSwxNUMxMi4zMywxNSAxMywxNC4xIDEzLDEzTTExLjUsMTFBMC41LDAuNSAwIDAsMSAxMiwxMS41VjEzLjVBMC41LDAuNSAwIDAsMSAxMS41LDE0QTAuNSwwLjUgMCAwLDEgMTEsMTMuNVYxMS41QTAuNSwwLjUgMCAwLDEgMTEuNSwxMU04LDE1SDlWMTBIOEw3LDEwLjVWMTEuNUw4LDExVjE1WiIgLz48L3N2Zz4=)
-
--}
-cash100 : IconShape
-cash100 =
-    Material.Icons.Directory.C.cash100
-
-
 {-| The [`cash`](https://pictogrammers.com/library/mdi/icon/cash/) icon.
 
 ![cash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNkgyMVYxOEgzVjZNMTIsOUEzLDMgMCAwLDEgMTUsMTJBMywzIDAgMCwxIDEyLDE1QTMsMyAwIDAsMSA5LDEyQTMsMyAwIDAsMSAxMiw5TTcsOEEyLDIgMCAwLDEgNSwxMFYxNEEyLDIgMCAwLDEgNywxNkgxN0EyLDIgMCAwLDEgMTksMTRWMTBBMiwyIDAgMCwxIDE3LDhIN1oiIC8+PC9zdmc+)
@@ -164,6 +154,16 @@ cash100 =
 cash : IconShape
 cash =
     Material.Icons.Directory.C.cash
+
+
+{-| The [`cash-100`](https://pictogrammers.com/library/mdi/icon/cash-100/) icon.
+
+![cash-100](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNUgyMlYyMEgyVjVNMjAsMThWN0g0VjE4SDIwTTE3LDhBMiwyIDAgMCwwIDE5LDEwVjE1QTIsMiAwIDAsMCAxNywxN0g3QTIsMiAwIDAsMCA1LDE1VjEwQTIsMiAwIDAsMCA3LDhIMTdNMTcsMTNWMTJDMTcsMTAuOSAxNi4zMywxMCAxNS41LDEwQzE0LjY3LDEwIDE0LDEwLjkgMTQsMTJWMTNDMTQsMTQuMSAxNC42NywxNSAxNS41LDE1QzE2LjMzLDE1IDE3LDE0LjEgMTcsMTNNMTUuNSwxMUEwLjUsMC41IDAgMCwxIDE2LDExLjVWMTMuNUEwLjUsMC41IDAgMCwxIDE1LjUsMTRBMC41LDAuNSAwIDAsMSAxNSwxMy41VjExLjVBMC41LDAuNSAwIDAsMSAxNS41LDExTTEzLDEzVjEyQzEzLDEwLjkgMTIuMzMsMTAgMTEuNSwxMEMxMC42NywxMCAxMCwxMC45IDEwLDEyVjEzQzEwLDE0LjEgMTAuNjcsMTUgMTEuNSwxNUMxMi4zMywxNSAxMywxNC4xIDEzLDEzTTExLjUsMTFBMC41LDAuNSAwIDAsMSAxMiwxMS41VjEzLjVBMC41LDAuNSAwIDAsMSAxMS41LDE0QTAuNSwwLjUgMCAwLDEgMTEsMTMuNVYxMS41QTAuNSwwLjUgMCAwLDEgMTEuNSwxMU04LDE1SDlWMTBIOEw3LDEwLjVWMTEuNUw4LDExVjE1WiIgLz48L3N2Zz4=)
+
+-}
+cash100 : IconShape
+cash100 =
+    Material.Icons.Directory.C.cash100
 
 
 {-| The [`cash-check`](https://pictogrammers.com/library/mdi/icon/cash-check/) icon.

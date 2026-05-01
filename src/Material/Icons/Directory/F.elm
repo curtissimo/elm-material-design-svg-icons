@@ -1418,18 +1418,18 @@ fileExcelBoxOutline =
     iconShape "M5 3C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3H5M5 5H19V19H5V5M13 12L16.2 17H14.2L12 13.2L9.8 17H7.8L11 12L7.8 7H9.8L12 10.8L14.2 7H16.2L13 12Z"
 
 
-{-| The [`file-export`](https://pictogrammers.com/library/mdi/icon/file-export/) icon.
--}
-fileExport : IconShape
-fileExport =
-    iconShape "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,3.5L18.5,9H13M8.93,12.22H16V19.29L13.88,17.17L11.05,20L8.22,17.17L11.05,14.35"
-
-
 {-| The [`file-excel-outline`](https://pictogrammers.com/library/mdi/icon/file-excel-outline/) icon.
 -}
 fileExcelOutline : IconShape
 fileExcelOutline =
     iconShape "M14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V8L14 2M18 20H6V4H13V9H18V20M12.9 14.5L15.8 19H14L12 15.6L10 19H8.2L11.1 14.5L8.2 10H10L12 13.4L14 10H15.8L12.9 14.5Z"
+
+
+{-| The [`file-export`](https://pictogrammers.com/library/mdi/icon/file-export/) icon.
+-}
+fileExport : IconShape
+fileExport =
+    iconShape "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,3.5L18.5,9H13M8.93,12.22H16V19.29L13.88,17.17L11.05,20L8.22,17.17L11.05,14.35"
 
 
 {-| The [`file-export-outline`](https://pictogrammers.com/library/mdi/icon/file-export-outline/) icon.
@@ -1446,18 +1446,18 @@ fileEye =
     iconShape "M17,18C17.56,18 18,18.44 18,19C18,19.56 17.56,20 17,20C16.44,20 16,19.56 16,19C16,18.44 16.44,18 17,18M17,15C14.27,15 11.94,16.66 11,19C11.94,21.34 14.27,23 17,23C19.73,23 22.06,21.34 23,19C22.06,16.66 19.73,15 17,15M17,21.5A2.5,2.5 0 0,1 14.5,19A2.5,2.5 0 0,1 17,16.5A2.5,2.5 0 0,1 19.5,19A2.5,2.5 0 0,1 17,21.5M9.14,19.75L8.85,19L9.14,18.26C10.43,15.06 13.5,13 17,13C18.05,13 19.06,13.21 20,13.56V8L14,2H6C4.89,2 4,2.89 4,4V20A2,2 0 0,0 6,22H10.5C9.95,21.34 9.5,20.58 9.14,19.75M13,3.5L18.5,9H13V3.5Z"
 
 
-{-| The [`file-find`](https://pictogrammers.com/library/mdi/icon/file-find/) icon.
--}
-fileFind : IconShape
-fileFind =
-    iconShape "M9,13A3,3 0 0,0 12,16A3,3 0 0,0 15,13A3,3 0 0,0 12,10A3,3 0 0,0 9,13M20,19.59V8L14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18C18.45,22 18.85,21.85 19.19,21.6L14.76,17.17C13.96,17.69 13,18 12,18A5,5 0 0,1 7,13A5,5 0 0,1 12,8A5,5 0 0,1 17,13C17,14 16.69,14.96 16.17,15.75L20,19.59Z"
-
-
 {-| The [`file-eye-outline`](https://pictogrammers.com/library/mdi/icon/file-eye-outline/) icon.
 -}
 fileEyeOutline : IconShape
 fileEyeOutline =
     iconShape "M17,18C17.56,18 18,18.44 18,19C18,19.56 17.56,20 17,20C16.44,20 16,19.56 16,19C16,18.44 16.44,18 17,18M17,15C14.27,15 11.94,16.66 11,19C11.94,21.34 14.27,23 17,23C19.73,23 22.06,21.34 23,19C22.06,16.66 19.73,15 17,15M17,21.5A2.5,2.5 0 0,1 14.5,19A2.5,2.5 0 0,1 17,16.5A2.5,2.5 0 0,1 19.5,19A2.5,2.5 0 0,1 17,21.5M9.27,20H6V4H13V9H18V13.07C18.7,13.15 19.36,13.32 20,13.56V8L14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H10.5C10,21.41 9.59,20.73 9.27,20Z"
+
+
+{-| The [`file-find`](https://pictogrammers.com/library/mdi/icon/file-find/) icon.
+-}
+fileFind : IconShape
+fileFind =
+    iconShape "M9,13A3,3 0 0,0 12,16A3,3 0 0,0 15,13A3,3 0 0,0 12,10A3,3 0 0,0 9,13M20,19.59V8L14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18C18.45,22 18.85,21.85 19.19,21.6L14.76,17.17C13.96,17.69 13,18 12,18A5,5 0 0,1 7,13A5,5 0 0,1 12,8A5,5 0 0,1 17,13C17,14 16.69,14.96 16.17,15.75L20,19.59Z"
 
 
 {-| The [`file-find-outline`](https://pictogrammers.com/library/mdi/icon/file-find-outline/) icon.
@@ -1530,18 +1530,18 @@ fileImagePlus =
     iconShape "M13.09 20H6L12 14L13.88 15.88C14.5 14.9 15.36 14.1 16.4 13.6L18 12V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.1 4.89 22 6 22H13.81C13.46 21.39 13.21 20.72 13.09 20M13 3.5L18.5 9H13V3.5M8 9C9.11 9 10 9.9 10 11S9.11 13 8 13 6 12.11 6 11 6.9 9 8 9M20 15V18H23V20H20V23H18V20H15V18H18V15H20Z"
 
 
-{-| The [`file-image-remove`](https://pictogrammers.com/library/mdi/icon/file-image-remove/) icon.
--}
-fileImageRemove : IconShape
-fileImageRemove =
-    iconShape "M13.09 20H6L12 14L13.88 15.88C14.5 14.9 15.36 14.1 16.4 13.6L18 12V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.1 4.89 22 6 22H13.81C13.46 21.39 13.21 20.72 13.09 20M13 3.5L18.5 9H13V3.5M8 9C9.11 9 10 9.9 10 11S9.11 13 8 13 6 12.11 6 11 6.9 9 8 9M22.54 16.88L20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88Z"
-
-
 {-| The [`file-image-plus-outline`](https://pictogrammers.com/library/mdi/icon/file-image-plus-outline/) icon.
 -}
 fileImagePlusOutline : IconShape
 fileImagePlusOutline =
     iconShape "M7 19L12 14L13.88 15.88C13.33 16.79 13 17.86 13 19H7M10 10.5C10 9.67 9.33 9 8.5 9S7 9.67 7 10.5 7.67 12 8.5 12 10 11.33 10 10.5M13.09 20H6V4H13V9H18V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H13.81C13.46 21.39 13.21 20.72 13.09 20M18 15V18H15V20H18V23H20V20H23V18H20V15H18Z"
+
+
+{-| The [`file-image-remove`](https://pictogrammers.com/library/mdi/icon/file-image-remove/) icon.
+-}
+fileImageRemove : IconShape
+fileImageRemove =
+    iconShape "M13.09 20H6L12 14L13.88 15.88C14.5 14.9 15.36 14.1 16.4 13.6L18 12V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.1 4.89 22 6 22H13.81C13.46 21.39 13.21 20.72 13.09 20M13 3.5L18.5 9H13V3.5M8 9C9.11 9 10 9.9 10 11S9.11 13 8 13 6 12.11 6 11 6.9 9 8 9M22.54 16.88L20.41 19L22.54 21.12L21.12 22.54L19 20.41L16.88 22.54L15.47 21.12L17.59 19L15.47 16.88L16.88 15.47L19 17.59L21.12 15.47L22.54 16.88Z"
 
 
 {-| The [`file-image-remove-outline`](https://pictogrammers.com/library/mdi/icon/file-image-remove-outline/) icon.
@@ -1551,6 +1551,13 @@ fileImageRemoveOutline =
     iconShape "M7 19L12 14L13.88 15.88C13.33 16.79 13 17.86 13 19H7M10 10.5C10 9.67 9.33 9 8.5 9S7 9.67 7 10.5 7.67 12 8.5 12 10 11.33 10 10.5M13.09 20H6V4H13V9H18V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V8L14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H13.81C13.46 21.39 13.21 20.72 13.09 20M21.12 15.46L19 17.59L16.88 15.47L15.47 16.88L17.59 19L15.47 21.12L16.88 22.54L19 20.41L21.12 22.54L22.54 21.12L20.41 19L22.54 16.88L21.12 15.46Z"
 
 
+{-| The [`file-import`](https://pictogrammers.com/library/mdi/icon/file-import/) icon.
+-}
+fileImport : IconShape
+fileImport =
+    iconShape "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,3.5L18.5,9H13M10.05,11.22L12.88,14.05L15,11.93V19H7.93L10.05,16.88L7.22,14.05"
+
+
 {-| The [`file-import-outline`](https://pictogrammers.com/library/mdi/icon/file-import-outline/) icon.
 -}
 fileImportOutline : IconShape
@@ -1558,11 +1565,11 @@ fileImportOutline =
     iconShape "M14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V8L14 2M18 20H6V4H13V9H18V20M15 11.93V19H7.93L10.05 16.88L7.22 14.05L10.05 11.22L12.88 14.05L15 11.93Z"
 
 
-{-| The [`file-import`](https://pictogrammers.com/library/mdi/icon/file-import/) icon.
+{-| The [`file-jpg-box`](https://pictogrammers.com/library/mdi/icon/file-jpg-box/) icon.
 -}
-fileImport : IconShape
-fileImport =
-    iconShape "M6,2C4.89,2 4,2.9 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,3.5L18.5,9H13M10.05,11.22L12.88,14.05L15,11.93V19H7.93L10.05,16.88L7.22,14.05"
+fileJpgBox : IconShape
+fileJpgBox =
+    iconShape "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9 13.5C9 14.6 8.1 15 7 15S5 14.6 5 13.5V12H6.5V13.5H7.5V9H9V13.5M14 11.5C14 12.3 13.3 13 12.5 13H11.5V15H10V9H12.5C13.3 9 14 9.7 14 10.5V11.5M19 10.5H16.5V13.5H17.5V12H19V13.7C19 14.4 18.5 15 17.7 15H16.4C15.6 15 15.1 14.3 15.1 13.7V10.4C15 9.7 15.5 9 16.3 9H17.6C18.4 9 18.9 9.7 18.9 10.3V10.5M11.5 10.5H12.5V11.5H11.5V10.5Z"
 
 
 {-| The [`file-key`](https://pictogrammers.com/library/mdi/icon/file-key/) icon.
@@ -1579,25 +1586,11 @@ fileKeyOutline =
     iconShape "M14 2H6A2 2 0 0 0 4 4V20A2 2 0 0 0 6 22H18A2 2 0 0 0 20 20V8L14 2M18 20H6V4H13V9H18M12.83 15A3 3 0 1 0 12.83 17H14V19H16V17H17V15M10 17A1 1 0 1 1 11 16A1 1 0 0 1 10 17Z"
 
 
-{-| The [`file-jpg-box`](https://pictogrammers.com/library/mdi/icon/file-jpg-box/) icon.
--}
-fileJpgBox : IconShape
-fileJpgBox =
-    iconShape "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M9 13.5C9 14.6 8.1 15 7 15S5 14.6 5 13.5V12H6.5V13.5H7.5V9H9V13.5M14 11.5C14 12.3 13.3 13 12.5 13H11.5V15H10V9H12.5C13.3 9 14 9.7 14 10.5V11.5M19 10.5H16.5V13.5H17.5V12H19V13.7C19 14.4 18.5 15 17.7 15H16.4C15.6 15 15.1 14.3 15.1 13.7V10.4C15 9.7 15.5 9 16.3 9H17.6C18.4 9 18.9 9.7 18.9 10.3V10.5M11.5 10.5H12.5V11.5H11.5V10.5Z"
-
-
 {-| The [`file-link`](https://pictogrammers.com/library/mdi/icon/file-link/) icon.
 -}
 fileLink : IconShape
 fileLink =
     iconShape "M14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V8L14 2M11 20H10C8.39 20 6 18.94 6 16C6 13.07 8.39 12 10 12H11V14H10C9.54 14 8 14.17 8 16C8 17.9 9.67 18 10 18H11V20M15 15V17H9V15H15M14 20H13V18H14C14.46 18 16 17.83 16 16C16 14.1 14.33 14 14 14H13V12H14C15.61 12 18 13.07 18 16C18 18.94 15.61 20 14 20M13 9V3.5L18.5 9H13Z"
-
-
-{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
--}
-fileLockOpenOutline : IconShape
-fileLockOpenOutline =
-    iconShape "M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V14.5C15.2 13.1 16.6 12 18 12S20.8 13.1 20.8 14.5V15H19.5V14.5C19.5 13.7 18.8 13.2 18 13.2S16.5 13.7 16.5 14.5V17H20.8C21.4 17 22 17.6 22 18.3M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H12V20H6V4H13V9H18V10C18.7 10 19.4 10.2 20 10.4V8L14 2H6Z"
 
 
 {-| The [`file-link-outline`](https://pictogrammers.com/library/mdi/icon/file-link-outline/) icon.
@@ -1621,11 +1614,18 @@ fileLockOpen =
     iconShape "M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V14.5C15.2 13.1 16.6 12 18 12S20.8 13.1 20.8 14.5V15H19.5V14.5C19.5 13.7 18.8 13.2 18 13.2S16.5 13.7 16.5 14.5V17H20.8C21.4 17 22 17.6 22 18.3M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H12V18.2C12 17.2 12.4 16.5 13 16C13.1 15.9 13.2 15.9 13.2 15.8V14.5C13.2 11.8 15.6 10 18 10C18.7 10 19.4 10.2 20 10.4V8L14 2H6M13 3.5L18.5 9H13V3.5Z"
 
 
-{-| The [`file-marker-outline`](https://pictogrammers.com/library/mdi/icon/file-marker-outline/) icon.
+{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
 -}
-fileMarkerOutline : IconShape
-fileMarkerOutline =
-    iconShape "M14.55 20C15 20.76 15.5 21.44 15.91 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H14L20 8V10.22C19.5 10.08 19 10 18.5 10C18.33 10 18.17 10 18 10.03V9H13V4H6V20H14.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z"
+fileLockOpenOutline : IconShape
+fileLockOpenOutline =
+    iconShape "M22 18.3V21.8C22 22.4 21.4 23 20.7 23H15.2C14.6 23 14 22.4 14 21.7V18.2C14 17.6 14.6 17 15.2 17V14.5C15.2 13.1 16.6 12 18 12S20.8 13.1 20.8 14.5V15H19.5V14.5C19.5 13.7 18.8 13.2 18 13.2S16.5 13.7 16.5 14.5V17H20.8C21.4 17 22 17.6 22 18.3M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H12V20H6V4H13V9H18V10C18.7 10 19.4 10.2 20 10.4V8L14 2H6Z"
+
+
+{-| The [`file-lock-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-outline/) icon.
+-}
+fileLockOutline : IconShape
+fileLockOutline =
+    iconShape "M18 13C16.6 13 15.2 14.1 15.2 15.5V17C14.6 17 14 17.6 14 18.2V21.7C14 22.4 14.6 23 15.2 23H20.7C21.4 23 22 22.4 22 21.8V18.3C22 17.6 21.4 17 20.8 17V15.5C20.8 14.1 19.4 13 18 13M18 14.2C18.8 14.2 19.5 14.7 19.5 15.5V17H16.5V15.5C16.5 14.7 17.2 14.2 18 14.2M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H12V20H6V4H13V9H18V11C18.7 11 19.4 11.2 20 11.4V8L14 2H6Z"
 
 
 {-| The [`file-marker`](https://pictogrammers.com/library/mdi/icon/file-marker/) icon.
@@ -1635,11 +1635,11 @@ fileMarker =
     iconShape "M18.5 10C19 10 19.5 10.08 20 10.22V8L14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H15.91C14.7 20.41 13 17.78 13 15.5C13 12.5 15.5 10 18.5 10M13 3.5L18.5 9H13V3.5M18.5 12C16.6 12 15 13.6 15 15.5C15 18.1 18.5 22 18.5 22S22 18.1 22 15.5C22 13.6 20.4 12 18.5 12M18.5 16.8C17.8 16.8 17.3 16.2 17.3 15.6C17.3 14.9 17.9 14.4 18.5 14.4S19.7 15 19.7 15.6C19.8 16.2 19.2 16.8 18.5 16.8Z"
 
 
-{-| The [`file-minus-outline`](https://pictogrammers.com/library/mdi/icon/file-minus-outline/) icon.
+{-| The [`file-marker-outline`](https://pictogrammers.com/library/mdi/icon/file-marker-outline/) icon.
 -}
-fileMinusOutline : IconShape
-fileMinusOutline =
-    iconShape "M13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H14L20 8V13.09C19.67 13.04 19.34 13 19 13S18.33 13.04 18 13.09V9H13V4H6V20H13.09C13.21 20.72 13.46 21.39 13.81 22M23 18H15V20H23V18Z"
+fileMarkerOutline : IconShape
+fileMarkerOutline =
+    iconShape "M14.55 20C15 20.76 15.5 21.44 15.91 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H14L20 8V10.22C19.5 10.08 19 10 18.5 10C18.33 10 18.17 10 18 10.03V9H13V4H6V20H14.55M22 15.5C22 18.1 18.5 22 18.5 22S15 18.1 15 15.5C15 13.6 16.6 12 18.5 12S22 13.6 22 15.5M19.7 15.6C19.7 15 19.1 14.4 18.5 14.4S17.3 14.9 17.3 15.6C17.3 16.2 17.8 16.8 18.5 16.8S19.8 16.2 19.7 15.6Z"
 
 
 {-| The [`file-minus`](https://pictogrammers.com/library/mdi/icon/file-minus/) icon.
@@ -1649,11 +1649,11 @@ fileMinus =
     iconShape "M14 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H13.81C13.28 21.09 13 20.05 13 19C13 15.69 15.69 13 19 13C19.34 13 19.67 13.03 20 13.08V8L14 2M13 9V3.5L18.5 9H13M23 20H15V18H23V20Z"
 
 
-{-| The [`file-move-outline`](https://pictogrammers.com/library/mdi/icon/file-move-outline/) icon.
+{-| The [`file-minus-outline`](https://pictogrammers.com/library/mdi/icon/file-minus-outline/) icon.
 -}
-fileMoveOutline : IconShape
-fileMoveOutline =
-    iconShape "M14 2H6C4.9 2 4 2.9 4 4V20C4 20.41 4.12 20.8 4.34 21.12C4.41 21.23 4.5 21.33 4.59 21.41C4.95 21.78 5.45 22 6 22H13.53C13 21.42 12.61 20.75 12.35 20H6V4H13V9H18V12C18.7 12 19.37 12.12 20 12.34V8L14 2M18 23L23 18.5L20 15.8L18 14V17H14V20H18V23Z"
+fileMinusOutline : IconShape
+fileMinusOutline =
+    iconShape "M13.81 22H6C4.89 22 4 21.11 4 20V4C4 2.9 4.89 2 6 2H14L20 8V13.09C19.67 13.04 19.34 13 19 13S18.33 13.04 18 13.09V9H13V4H6V20H13.09C13.21 20.72 13.46 21.39 13.81 22M23 18H15V20H23V18Z"
 
 
 {-| The [`file-move`](https://pictogrammers.com/library/mdi/icon/file-move/) icon.
@@ -1663,11 +1663,18 @@ fileMove =
     iconShape "M14,17H18V14L23,18.5L18,23V20H14V17M13,9H18.5L13,3.5V9M6,2H14L20,8V12.34C19.37,12.12 18.7,12 18,12A6,6 0 0,0 12,18C12,19.54 12.58,20.94 13.53,22H6C4.89,22 4,21.1 4,20V4A2,2 0 0,1 6,2Z"
 
 
-{-| The [`file-lock-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-outline/) icon.
+{-| The [`file-move-outline`](https://pictogrammers.com/library/mdi/icon/file-move-outline/) icon.
 -}
-fileLockOutline : IconShape
-fileLockOutline =
-    iconShape "M18 13C16.6 13 15.2 14.1 15.2 15.5V17C14.6 17 14 17.6 14 18.2V21.7C14 22.4 14.6 23 15.2 23H20.7C21.4 23 22 22.4 22 21.8V18.3C22 17.6 21.4 17 20.8 17V15.5C20.8 14.1 19.4 13 18 13M18 14.2C18.8 14.2 19.5 14.7 19.5 15.5V17H16.5V15.5C16.5 14.7 17.2 14.2 18 14.2M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H12V20H6V4H13V9H18V11C18.7 11 19.4 11.2 20 11.4V8L14 2H6Z"
+fileMoveOutline : IconShape
+fileMoveOutline =
+    iconShape "M14 2H6C4.9 2 4 2.9 4 4V20C4 20.41 4.12 20.8 4.34 21.12C4.41 21.23 4.5 21.33 4.59 21.41C4.95 21.78 5.45 22 6 22H13.53C13 21.42 12.61 20.75 12.35 20H6V4H13V9H18V12C18.7 12 19.37 12.12 20 12.34V8L14 2M18 23L23 18.5L20 15.8L18 14V17H14V20H18V23Z"
+
+
+{-| The [`file-multiple`](https://pictogrammers.com/library/mdi/icon/file-multiple/) icon.
+-}
+fileMultiple : IconShape
+fileMultiple =
+    iconShape "M15,7H20.5L15,1.5V7M8,0H16L22,6V18A2,2 0 0,1 20,20H8C6.89,20 6,19.1 6,18V2A2,2 0 0,1 8,0M4,4V22H20V24H4A2,2 0 0,1 2,22V4H4Z"
 
 
 {-| The [`file-multiple-outline`](https://pictogrammers.com/library/mdi/icon/file-multiple-outline/) icon.
@@ -1684,11 +1691,11 @@ fileMusic =
     iconShape "M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,13H11V18A2,2 0 0,1 9,20A2,2 0 0,1 7,18A2,2 0 0,1 9,16C9.4,16 9.7,16.1 10,16.3V11H13V13M13,9V3.5L18.5,9H13Z"
 
 
-{-| The [`file-multiple`](https://pictogrammers.com/library/mdi/icon/file-multiple/) icon.
+{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
 -}
-fileMultiple : IconShape
-fileMultiple =
-    iconShape "M15,7H20.5L15,1.5V7M8,0H16L22,6V18A2,2 0 0,1 20,20H8C6.89,20 6,19.1 6,18V2A2,2 0 0,1 8,0M4,4V22H20V24H4A2,2 0 0,1 2,22V4H4Z"
+fileMusicOutline : IconShape
+fileMusicOutline =
+    iconShape "M14,2L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H14M18,20V9H13V4H6V20H18M13,10V12H11V17A2,2 0 0,1 9,19A2,2 0 0,1 7,17A2,2 0 0,1 9,15C9.4,15 9.7,15.1 10,15.3V10H13Z"
 
 
 {-| The [`file-outline`](https://pictogrammers.com/library/mdi/icon/file-outline/) icon.
@@ -1696,13 +1703,6 @@ fileMultiple =
 fileOutline : IconShape
 fileOutline =
     iconShape "M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"
-
-
-{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
--}
-fileMusicOutline : IconShape
-fileMusicOutline =
-    iconShape "M14,2L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H14M18,20V9H13V4H6V20H18M13,10V12H11V17A2,2 0 0,1 9,19A2,2 0 0,1 7,17A2,2 0 0,1 9,15C9.4,15 9.7,15.1 10,15.3V10H13Z"
 
 
 {-| The [`file-pdf-box`](https://pictogrammers.com/library/mdi/icon/file-pdf-box/) icon.
@@ -2349,18 +2349,18 @@ findReplace =
     iconShape "M11,6C12.38,6 13.63,6.56 14.54,7.46L12,10H18V4L15.95,6.05C14.68,4.78 12.93,4 11,4C7.47,4 4.57,6.61 4.08,10H6.1C6.56,7.72 8.58,6 11,6M16.64,15.14C17.3,14.24 17.76,13.17 17.92,12H15.9C15.44,14.28 13.42,16 11,16C9.62,16 8.37,15.44 7.46,14.54L10,12H4V18L6.05,15.95C7.32,17.22 9.07,18 11,18C12.55,18 14,17.5 15.14,16.64L20,21.5L21.5,20L16.64,15.14Z"
 
 
-{-| The [`fingerprint-off`](https://pictogrammers.com/library/mdi/icon/fingerprint-off/) icon.
--}
-fingerprintOff : IconShape
-fingerprintOff =
-    iconShape "M1.5,4.77L2.78,3.5L20.5,21.22L19.23,22.5L16.67,19.94C15.58,19.9 14.62,19.6 13.82,19.05C12.34,18.05 11.46,16.43 11.44,14.71L10.27,13.53C10.03,13.85 9.89,14.23 9.89,14.65C9.89,16.36 10.55,17.96 11.76,19.16C12.71,20.1 13.62,20.62 15.03,21C15.3,21.08 15.45,21.36 15.38,21.62C15.33,21.85 15.12,22 14.91,22H14.78C13.19,21.54 12.15,20.95 11.06,19.88C9.66,18.5 8.89,16.64 8.89,14.66C8.89,13.97 9.14,13.33 9.56,12.83L8.5,11.77C7.78,12.54 7.34,13.55 7.34,14.66C7.34,16.1 7.66,17.43 8.27,18.5C8.91,19.66 9.35,20.15 10.12,20.93C10.31,21.13 10.31,21.44 10.12,21.64C10,21.74 9.88,21.79 9.75,21.79C9.62,21.79 9.5,21.74 9.4,21.64C8.53,20.77 8.06,20.21 7.39,19C6.7,17.77 6.34,16.27 6.34,14.66C6.34,13.28 6.89,12 7.79,11.06L6.7,9.97C6.15,10.5 5.69,11.15 5.35,11.86C4.96,12.67 4.76,13.62 4.76,14.66C4.76,15.44 4.83,16.67 5.43,18.27C5.53,18.53 5.4,18.82 5.14,18.91C4.88,19 4.59,18.87 4.5,18.62C4,17.31 3.77,16 3.77,14.66C3.77,13.46 4,12.37 4.45,11.42C4.84,10.61 5.36,9.88 6,9.26L4.97,8.24C4.58,8.63 4.22,9.05 3.89,9.5C3.81,9.65 3.66,9.72 3.5,9.72L3.21,9.63C3,9.47 2.93,9.16 3.09,8.93C3.45,8.43 3.84,7.96 4.27,7.53L1.5,4.77M17.81,4.47L17.58,4.41C15.66,3.42 14,3 12,3C10.03,3 8.15,3.47 6.44,4.41L6.29,4.46L5.71,3.89C5.73,3.74 5.82,3.61 5.96,3.53C7.82,2.5 9.86,2 12,2C14.14,2 16,2.47 18.04,3.5C18.29,3.65 18.38,3.95 18.25,4.19C18.16,4.37 18,4.47 17.81,4.47M17.15,5.65C18.65,6.42 19.91,7.5 20.9,8.9C21.06,9.12 21,9.44 20.78,9.6C20.55,9.76 20.24,9.71 20.08,9.5C19.18,8.22 18.04,7.23 16.69,6.54C14.06,5.19 10.76,5.08 8.03,6.21L7.27,5.45C10.34,4.04 14.14,4.1 17.15,5.65M12,9.27C15.12,9.27 17.66,11.69 17.66,14.66A0.5,0.5 0 0,1 17.16,15.16L16.93,15.11L16.72,14.89L16.66,14.66C16.66,12.27 14.62,10.32 12.09,10.27L11.15,9.33L12,9.27M14.38,18.22C14.71,18.45 15.07,18.62 15.47,18.73L12.63,15.9C12.92,16.82 13.53,17.65 14.38,18.22M19.21,14.66C19.21,10.89 15.96,7.83 11.96,7.83C11.26,7.83 10.58,7.93 9.93,8.11L9.12,7.3C10,7 10.97,6.82 11.96,6.82C16.5,6.82 20.21,10.33 20.21,14.65C20.21,15.65 19.69,16.53 18.89,17.06L18.17,16.34C18.79,16 19.21,15.38 19.21,14.66Z"
-
-
 {-| The [`fingerprint`](https://pictogrammers.com/library/mdi/icon/fingerprint/) icon.
 -}
 fingerprint : IconShape
 fingerprint =
     iconShape "M17.81,4.47C17.73,4.47 17.65,4.45 17.58,4.41C15.66,3.42 14,3 12,3C10.03,3 8.15,3.47 6.44,4.41C6.2,4.54 5.9,4.45 5.76,4.21C5.63,3.97 5.72,3.66 5.96,3.53C7.82,2.5 9.86,2 12,2C14.14,2 16,2.47 18.04,3.5C18.29,3.65 18.38,3.95 18.25,4.19C18.16,4.37 18,4.47 17.81,4.47M3.5,9.72C3.4,9.72 3.3,9.69 3.21,9.63C3,9.47 2.93,9.16 3.09,8.93C4.08,7.53 5.34,6.43 6.84,5.66C10,4.04 14,4.03 17.15,5.65C18.65,6.42 19.91,7.5 20.9,8.9C21.06,9.12 21,9.44 20.78,9.6C20.55,9.76 20.24,9.71 20.08,9.5C19.18,8.22 18.04,7.23 16.69,6.54C13.82,5.07 10.15,5.07 7.29,6.55C5.93,7.25 4.79,8.25 3.89,9.5C3.81,9.65 3.66,9.72 3.5,9.72M9.75,21.79C9.62,21.79 9.5,21.74 9.4,21.64C8.53,20.77 8.06,20.21 7.39,19C6.7,17.77 6.34,16.27 6.34,14.66C6.34,11.69 8.88,9.27 12,9.27C15.12,9.27 17.66,11.69 17.66,14.66A0.5,0.5 0 0,1 17.16,15.16A0.5,0.5 0 0,1 16.66,14.66C16.66,12.24 14.57,10.27 12,10.27C9.43,10.27 7.34,12.24 7.34,14.66C7.34,16.1 7.66,17.43 8.27,18.5C8.91,19.66 9.35,20.15 10.12,20.93C10.31,21.13 10.31,21.44 10.12,21.64C10,21.74 9.88,21.79 9.75,21.79M16.92,19.94C15.73,19.94 14.68,19.64 13.82,19.05C12.33,18.04 11.44,16.4 11.44,14.66A0.5,0.5 0 0,1 11.94,14.16A0.5,0.5 0 0,1 12.44,14.66C12.44,16.07 13.16,17.4 14.38,18.22C15.09,18.7 15.92,18.93 16.92,18.93C17.16,18.93 17.56,18.9 17.96,18.83C18.23,18.78 18.5,18.96 18.54,19.24C18.59,19.5 18.41,19.77 18.13,19.82C17.56,19.93 17.06,19.94 16.92,19.94M14.91,22C14.87,22 14.82,22 14.78,22C13.19,21.54 12.15,20.95 11.06,19.88C9.66,18.5 8.89,16.64 8.89,14.66C8.89,13.04 10.27,11.72 11.97,11.72C13.67,11.72 15.05,13.04 15.05,14.66C15.05,15.73 16,16.6 17.13,16.6C18.28,16.6 19.21,15.73 19.21,14.66C19.21,10.89 15.96,7.83 11.96,7.83C9.12,7.83 6.5,9.41 5.35,11.86C4.96,12.67 4.76,13.62 4.76,14.66C4.76,15.44 4.83,16.67 5.43,18.27C5.53,18.53 5.4,18.82 5.14,18.91C4.88,19 4.59,18.87 4.5,18.62C4,17.31 3.77,16 3.77,14.66C3.77,13.46 4,12.37 4.45,11.42C5.78,8.63 8.73,6.82 11.96,6.82C16.5,6.82 20.21,10.33 20.21,14.65C20.21,16.27 18.83,17.59 17.13,17.59C15.43,17.59 14.05,16.27 14.05,14.65C14.05,13.58 13.12,12.71 11.97,12.71C10.82,12.71 9.89,13.58 9.89,14.65C9.89,16.36 10.55,17.96 11.76,19.16C12.71,20.1 13.62,20.62 15.03,21C15.3,21.08 15.45,21.36 15.38,21.62C15.33,21.85 15.12,22 14.91,22Z"
+
+
+{-| The [`fingerprint-off`](https://pictogrammers.com/library/mdi/icon/fingerprint-off/) icon.
+-}
+fingerprintOff : IconShape
+fingerprintOff =
+    iconShape "M1.5,4.77L2.78,3.5L20.5,21.22L19.23,22.5L16.67,19.94C15.58,19.9 14.62,19.6 13.82,19.05C12.34,18.05 11.46,16.43 11.44,14.71L10.27,13.53C10.03,13.85 9.89,14.23 9.89,14.65C9.89,16.36 10.55,17.96 11.76,19.16C12.71,20.1 13.62,20.62 15.03,21C15.3,21.08 15.45,21.36 15.38,21.62C15.33,21.85 15.12,22 14.91,22H14.78C13.19,21.54 12.15,20.95 11.06,19.88C9.66,18.5 8.89,16.64 8.89,14.66C8.89,13.97 9.14,13.33 9.56,12.83L8.5,11.77C7.78,12.54 7.34,13.55 7.34,14.66C7.34,16.1 7.66,17.43 8.27,18.5C8.91,19.66 9.35,20.15 10.12,20.93C10.31,21.13 10.31,21.44 10.12,21.64C10,21.74 9.88,21.79 9.75,21.79C9.62,21.79 9.5,21.74 9.4,21.64C8.53,20.77 8.06,20.21 7.39,19C6.7,17.77 6.34,16.27 6.34,14.66C6.34,13.28 6.89,12 7.79,11.06L6.7,9.97C6.15,10.5 5.69,11.15 5.35,11.86C4.96,12.67 4.76,13.62 4.76,14.66C4.76,15.44 4.83,16.67 5.43,18.27C5.53,18.53 5.4,18.82 5.14,18.91C4.88,19 4.59,18.87 4.5,18.62C4,17.31 3.77,16 3.77,14.66C3.77,13.46 4,12.37 4.45,11.42C4.84,10.61 5.36,9.88 6,9.26L4.97,8.24C4.58,8.63 4.22,9.05 3.89,9.5C3.81,9.65 3.66,9.72 3.5,9.72L3.21,9.63C3,9.47 2.93,9.16 3.09,8.93C3.45,8.43 3.84,7.96 4.27,7.53L1.5,4.77M17.81,4.47L17.58,4.41C15.66,3.42 14,3 12,3C10.03,3 8.15,3.47 6.44,4.41L6.29,4.46L5.71,3.89C5.73,3.74 5.82,3.61 5.96,3.53C7.82,2.5 9.86,2 12,2C14.14,2 16,2.47 18.04,3.5C18.29,3.65 18.38,3.95 18.25,4.19C18.16,4.37 18,4.47 17.81,4.47M17.15,5.65C18.65,6.42 19.91,7.5 20.9,8.9C21.06,9.12 21,9.44 20.78,9.6C20.55,9.76 20.24,9.71 20.08,9.5C19.18,8.22 18.04,7.23 16.69,6.54C14.06,5.19 10.76,5.08 8.03,6.21L7.27,5.45C10.34,4.04 14.14,4.1 17.15,5.65M12,9.27C15.12,9.27 17.66,11.69 17.66,14.66A0.5,0.5 0 0,1 17.16,15.16L16.93,15.11L16.72,14.89L16.66,14.66C16.66,12.27 14.62,10.32 12.09,10.27L11.15,9.33L12,9.27M14.38,18.22C14.71,18.45 15.07,18.62 15.47,18.73L12.63,15.9C12.92,16.82 13.53,17.65 14.38,18.22M19.21,14.66C19.21,10.89 15.96,7.83 11.96,7.83C11.26,7.83 10.58,7.93 9.93,8.11L9.12,7.3C10,7 10.97,6.82 11.96,6.82C16.5,6.82 20.21,10.33 20.21,14.65C20.21,15.65 19.69,16.53 18.89,17.06L18.17,16.34C18.79,16 19.21,15.38 19.21,14.66Z"
 
 
 {-| The [`fire`](https://pictogrammers.com/library/mdi/icon/fire/) icon.
@@ -3357,18 +3357,18 @@ folderFileOutline =
     iconShape "M4 18H11V20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V10.17L20.41 8.59L20 8.17V8H4V18M23 14V21C23 22.11 22.11 23 21 23H15C13.9 23 13 22.11 13 21V12C13 10.9 13.9 10 15 10H19L23 14M21 15H18V12H15V21H21V15Z"
 
 
-{-| The [`folder-heart-outline`](https://pictogrammers.com/library/mdi/icon/folder-heart-outline/) icon.
--}
-folderHeartOutline : IconShape
-folderHeartOutline =
-    iconShape "M20 18H4V8H20M20 6H12L10 4H4C2.89 4 2 4.89 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.89 21.1 6 20 6M13 10C11.9 10 11 10.92 11 12.05C11 12.62 11.22 13.12 11.59 13.5L15 17L18.42 13.5C18.78 13.13 19 12.61 19 12.05C19 10.92 18.1 10 17 10C16.46 10 15.95 10.23 15.59 10.6L15 11.2L14.42 10.61C14.05 10.23 13.54 10 13 10Z"
-
-
 {-| The [`folder-heart`](https://pictogrammers.com/library/mdi/icon/folder-heart/) icon.
 -}
 folderHeart : IconShape
 folderHeart =
     iconShape "M20 6H12L10 4H4C2.89 4 2 4.89 2 6V18C2 19.1 2.89 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M18.42 13.5L15 17L11.59 13.5C11.22 13.12 11 12.62 11 12.05C11 10.92 11.9 10 13 10C13.54 10 14.05 10.23 14.42 10.61L15 11.2L15.59 10.6C15.95 10.23 16.46 10 17 10C18.1 10 19 10.92 19 12.05C19 12.61 18.78 13.13 18.42 13.5Z"
+
+
+{-| The [`folder-heart-outline`](https://pictogrammers.com/library/mdi/icon/folder-heart-outline/) icon.
+-}
+folderHeartOutline : IconShape
+folderHeartOutline =
+    iconShape "M20 18H4V8H20M20 6H12L10 4H4C2.89 4 2 4.89 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.89 21.1 6 20 6M13 10C11.9 10 11 10.92 11 12.05C11 12.62 11.22 13.12 11.59 13.5L15 17L18.42 13.5C18.78 13.13 19 12.61 19 12.05C19 10.92 18.1 10 17 10C16.46 10 15.95 10.23 15.59 10.6L15 11.2L14.42 10.61C14.05 10.23 13.54 10 13 10Z"
 
 
 {-| The [`folder-hidden`](https://pictogrammers.com/library/mdi/icon/folder-hidden/) icon.
@@ -3392,18 +3392,18 @@ folderHomeOutline =
     iconShape "M20 6H12L10 4H4A2 2 0 0 0 2 6V18A2 2 0 0 0 4 20H20A2 2 0 0 0 22 18V8A2 2 0 0 0 20 6M20 18H4V8H20M13 17V14H15V17H17V13H19L14 9L9 13H11V17Z"
 
 
-{-| The [`folder-information`](https://pictogrammers.com/library/mdi/icon/folder-information/) icon.
--}
-folderInformation : IconShape
-folderInformation =
-    iconShape "M21 11.1V8C21 6.9 20.1 6 19 6H11L9 4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H10.3C11.6 21.9 13.8 23 16 23C19.9 23 23 19.9 23 16C23 14.2 22.3 12.4 21 11.1M16 21C13.2 21 11 18.8 11 16S13.2 11 16 11 21 13.2 21 16 18.8 21 16 21M17 20H15V15H17V20M17 14H15V12H17V14Z"
-
-
 {-| The [`folder-image`](https://pictogrammers.com/library/mdi/icon/folder-image/) icon.
 -}
 folderImage : IconShape
 folderImage =
     iconShape "M5,17L9.5,11L13,15.5L15.5,12.5L19,17M20,6H12L10,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8A2,2 0 0,0 20,6Z"
+
+
+{-| The [`folder-information`](https://pictogrammers.com/library/mdi/icon/folder-information/) icon.
+-}
+folderInformation : IconShape
+folderInformation =
+    iconShape "M21 11.1V8C21 6.9 20.1 6 19 6H11L9 4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H10.3C11.6 21.9 13.8 23 16 23C19.9 23 23 19.9 23 16C23 14.2 22.3 12.4 21 11.1M16 21C13.2 21 11 18.8 11 16S13.2 11 16 11 21 13.2 21 16 18.8 21 16 21M17 20H15V15H17V20M17 14H15V12H17V14Z"
 
 
 {-| The [`folder-information-outline`](https://pictogrammers.com/library/mdi/icon/folder-information-outline/) icon.
@@ -3427,18 +3427,18 @@ folderKeyNetwork =
     iconShape "M6 5C4.9 5 4 5.9 4 7V15C4 16.1 4.9 17 6 17H11V19H10C9.4 19 9 19.4 9 20H2V22H9C9 22.6 9.4 23 10 23H14C14.6 23 15 22.6 15 22H22V20H15C15 19.4 14.6 19 14 19H13V17H18C19.1 17 20 16.1 20 15V9C20 7.9 19.1 7 18 7H12L10 5H6M9 9C10.3 9 11.4 9.8 11.8 11H18V13H16V15H14V13H11.8C11.4 14.2 10.3 15 9 15C7.3 15 6 13.7 6 12S7.3 9 9 9M9 11C8.4 11 8 11.4 8 12C8 12.6 8.4 13 9 13C9.6 13 10 12.6 10 12S9.6 11 9 11Z"
 
 
-{-| The [`folder-key-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-outline/) icon.
--}
-folderKeyOutline : IconShape
-folderKeyOutline =
-    iconShape "M20 18H4V8H20M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M12.8 12C12.4 10.8 11.3 10 10 10C8.3 10 7 11.3 7 13S8.3 16 10 16C11.3 16 12.4 15.2 12.8 14H15V16H17V14H19V12H12.8M10 14C9.4 14 9 13.6 9 13C9 12.4 9.4 12 10 12S11 12.4 11 13 10.6 14 10 14Z"
-
-
 {-| The [`folder-key-network-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-network-outline/) icon.
 -}
 folderKeyNetworkOutline : IconShape
 folderKeyNetworkOutline =
     iconShape "M9 8C7.3 8 6 9.3 6 11S7.3 14 9 14C10.3 14 11.4 13.2 11.8 12H14V14H16V12H18V10H11.8C11.4 8.8 10.3 8 9 8M9 12C8.4 12 8 11.6 8 11S8.4 10 9 10 10 10.4 10 11 9.6 12 9 12M15 20C15 19.5 14.6 19 14 19H13V17H19C20.1 17 21 16.1 21 15V7C21 5.9 20.1 5 19 5H13L11 3H5C3.9 3 3 3.9 3 5V15C3 16.1 3.9 17 5 17H11V19H10C9.4 19 9 19.5 9 20H2V22H9C9 22.5 9.4 23 10 23H14C14.6 23 15 22.5 15 22H22V20H15M5 15V7H19V15H5Z"
+
+
+{-| The [`folder-key-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-outline/) icon.
+-}
+folderKeyOutline : IconShape
+folderKeyOutline =
+    iconShape "M20 18H4V8H20M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M12.8 12C12.4 10.8 11.3 10 10 10C8.3 10 7 11.3 7 13S8.3 16 10 16C11.3 16 12.4 15.2 12.8 14H15V16H17V14H19V12H12.8M10 14C9.4 14 9 13.6 9 13C9 12.4 9.4 12 10 12S11 12.4 11 13 10.6 14 10 14Z"
 
 
 {-| The [`folder-lock`](https://pictogrammers.com/library/mdi/icon/folder-lock/) icon.
@@ -3525,13 +3525,6 @@ folderMultipleImage =
     iconShape "M7,15L11.5,9L15,13.5L17.5,10.5L21,15M22,4H14L12,2H6A2,2 0 0,0 4,4V16A2,2 0 0,0 6,18H22A2,2 0 0,0 24,16V6A2,2 0 0,0 22,4M2,6H0V11H0V20A2,2 0 0,0 2,22H20V20H2V6Z"
 
 
-{-| The [`folder-multiple-plus`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus/) icon.
--}
-folderMultiplePlus : IconShape
-folderMultiplePlus =
-    iconShape "M2 20V6H0V20C0 21.1 .9 22 2 22H20V20H2M22 4H14L12 2H6C5.6 2 5.2 2.1 4.9 2.3L4.3 2.9C4.1 3.2 4 3.6 4 4V16C4 16.4 4.1 16.8 4.3 17.1C4.4 17.2 4.5 17.3 4.5 17.4C5 17.8 5.5 18 6 18H22C23.1 18 24 17.1 24 16V6C24 4.9 23.1 4 22 4M22 12H19V15H17V12H14V10H17V7H19V10H22V12Z"
-
-
 {-| The [`folder-multiple-outline`](https://pictogrammers.com/library/mdi/icon/folder-multiple-outline/) icon.
 -}
 folderMultipleOutline : IconShape
@@ -3539,11 +3532,11 @@ folderMultipleOutline =
     iconShape "M22,4A2,2 0 0,1 24,6V16A2,2 0 0,1 22,18H6A2,2 0 0,1 4,16V4A2,2 0 0,1 6,2H12L14,4H22M2,6V20H20V22H2A2,2 0 0,1 0,20V11H0V6H2M6,6V16H22V6H6Z"
 
 
-{-| The [`folder-music`](https://pictogrammers.com/library/mdi/icon/folder-music/) icon.
+{-| The [`folder-multiple-plus`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus/) icon.
 -}
-folderMusic : IconShape
-folderMusic =
-    iconShape "M22 8V11H16.5V16.11C14.66 16.53 13.26 18.09 13.04 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8M18.5 13V18.21C18.19 18.07 17.86 18 17.5 18C16.12 18 15 19.12 15 20.5S16.12 23 17.5 23 20 21.88 20 20.5V15H22V13H18.5Z"
+folderMultiplePlus : IconShape
+folderMultiplePlus =
+    iconShape "M2 20V6H0V20C0 21.1 .9 22 2 22H20V20H2M22 4H14L12 2H6C5.6 2 5.2 2.1 4.9 2.3L4.3 2.9C4.1 3.2 4 3.6 4 4V16C4 16.4 4.1 16.8 4.3 17.1C4.4 17.2 4.5 17.3 4.5 17.4C5 17.8 5.5 18 6 18H22C23.1 18 24 17.1 24 16V6C24 4.9 23.1 4 22 4M22 12H19V15H17V12H14V10H17V7H19V10H22V12Z"
 
 
 {-| The [`folder-multiple-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus-outline/) icon.
@@ -3551,6 +3544,13 @@ folderMusic =
 folderMultiplePlusOutline : IconShape
 folderMultiplePlusOutline =
     iconShape "M22 4C23.1 4 24 4.9 24 6V16C24 17.1 23.1 18 22 18H6C4.9 18 4 17.1 4 16V4C4 2.9 4.9 2 6 2H12L14 4H22M2 6V20H20V22H2C.9 22 0 21.1 0 20V6H2M6 6V16H22V6H6M14 10H16V8H18V10H20V12H18V14H16V12H14V10Z"
+
+
+{-| The [`folder-music`](https://pictogrammers.com/library/mdi/icon/folder-music/) icon.
+-}
+folderMusic : IconShape
+folderMusic =
+    iconShape "M22 8V11H16.5V16.11C14.66 16.53 13.26 18.09 13.04 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8M18.5 13V18.21C18.19 18.07 17.86 18 17.5 18C16.12 18 15 19.12 15 20.5S16.12 23 17.5 23 20 21.88 20 20.5V15H22V13H18.5Z"
 
 
 {-| The [`folder-music-outline`](https://pictogrammers.com/library/mdi/icon/folder-music-outline/) icon.
@@ -3574,18 +3574,18 @@ folderNetworkOutline =
     iconShape "M15 20C15 19.45 14.55 19 14 19H13V17H19C20.11 17 21 16.11 21 15V7C21 5.9 20.11 5 19 5H13L11 3H5C3.9 3 3 3.9 3 5V15C3 16.11 3.9 17 5 17H11V19H10C9.45 19 9 19.45 9 20H2V22H9C9 22.55 9.45 23 10 23H14C14.55 23 15 22.55 15 22H22V20H15M5 15V7H19V15H5Z"
 
 
-{-| The [`folder-off-outline`](https://pictogrammers.com/library/mdi/icon/folder-off-outline/) icon.
--}
-folderOffOutline : IconShape
-folderOffOutline =
-    iconShape "M2.39 1.73L1.11 3L2.64 4.53C2.25 4.9 2 5.42 2 6V18C2 19.11 2.9 20 4 20H18.11L20.84 22.73L22.11 21.46L2.39 1.73M4 18V8H6.11L16.11 18H4M11.2 8L7.2 4H10L12 6H20C21.1 6 22 6.89 22 8V18C22 18.24 21.96 18.47 21.88 18.68L20 16.8V8H11.2Z"
-
-
 {-| The [`folder-off`](https://pictogrammers.com/library/mdi/icon/folder-off/) icon.
 -}
 folderOff : IconShape
 folderOff =
     iconShape "M22.11 21.46L20.84 22.73L18.11 20H4C2.9 20 2 19.11 2 18V6C2 5.42 2.25 4.9 2.64 4.53L1.11 3L2.39 1.73L22.11 21.46M22 18V8C22 6.89 21.1 6 20 6H12L10 4H7.2L21.88 18.68C21.96 18.47 22 18.24 22 18Z"
+
+
+{-| The [`folder-off-outline`](https://pictogrammers.com/library/mdi/icon/folder-off-outline/) icon.
+-}
+folderOffOutline : IconShape
+folderOffOutline =
+    iconShape "M2.39 1.73L1.11 3L2.64 4.53C2.25 4.9 2 5.42 2 6V18C2 19.11 2.9 20 4 20H18.11L20.84 22.73L22.11 21.46L2.39 1.73M4 18V8H6.11L16.11 18H4M11.2 8L7.2 4H10L12 6H20C21.1 6 22 6.89 22 8V18C22 18.24 21.96 18.47 21.88 18.68L20 16.8V8H11.2Z"
 
 
 {-| The [`folder-open`](https://pictogrammers.com/library/mdi/icon/folder-open/) icon.
@@ -3602,18 +3602,18 @@ folderOpenOutline =
     iconShape "M6.1,10L4,18V8H21A2,2 0 0,0 19,6H12L10,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H19C19.9,20 20.7,19.4 20.9,18.5L23.2,10H6.1M19,18H6L7.6,12H20.6L19,18Z"
 
 
-{-| The [`folder-play`](https://pictogrammers.com/library/mdi/icon/folder-play/) icon.
--}
-folderPlay : IconShape
-folderPlay =
-    iconShape "M22 8V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8M17 22L22 19L17 16V22Z"
-
-
 {-| The [`folder-outline`](https://pictogrammers.com/library/mdi/icon/folder-outline/) icon.
 -}
 folderOutline : IconShape
 folderOutline =
     iconShape "M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"
+
+
+{-| The [`folder-play`](https://pictogrammers.com/library/mdi/icon/folder-play/) icon.
+-}
+folderPlay : IconShape
+folderPlay =
+    iconShape "M22 8V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8M17 22L22 19L17 16V22Z"
 
 
 {-| The [`folder-play-outline`](https://pictogrammers.com/library/mdi/icon/folder-play-outline/) icon.
@@ -3623,18 +3623,18 @@ folderPlayOutline =
     iconShape "M22 8V13.81C21.39 13.46 20.72 13.22 20 13.09V8H4V18H13.09C13.04 18.33 13 18.66 13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8M17 22L22 19L17 16V22Z"
 
 
-{-| The [`folder-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-plus-outline/) icon.
--}
-folderPlusOutline : IconShape
-folderPlusOutline =
-    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V13.81C21.39 13.46 20.72 13.22 20 13.09V8H4V18H13.09C13.04 18.33 13 18.66 13 19M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
-
-
 {-| The [`folder-plus`](https://pictogrammers.com/library/mdi/icon/folder-plus/) icon.
 -}
 folderPlus : IconShape
 folderPlus =
     iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V13.81C21.12 13.3 20.1 13 19 13C15.69 13 13 15.69 13 19M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
+
+
+{-| The [`folder-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-plus-outline/) icon.
+-}
+folderPlusOutline : IconShape
+folderPlusOutline =
+    iconShape "M13 19C13 19.34 13.04 19.67 13.09 20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V13.81C21.39 13.46 20.72 13.22 20 13.09V8H4V18H13.09C13.04 18.33 13 18.66 13 19M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"
 
 
 {-| The [`folder-pound`](https://pictogrammers.com/library/mdi/icon/folder-pound/) icon.
@@ -3658,18 +3658,18 @@ folderQuestion =
     iconShape "M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M16.8 18H15.3V16.5H16.8V18M16.8 15.8H15.3C15.3 13.4 17.5 13.5 17.5 12C17.5 11.2 16.8 10.5 16 10.5S14.5 11.2 14.5 12H13C13 10.3 14.3 9 16 9S19 10.3 19 12C19 13.9 16.8 14.1 16.8 15.8Z"
 
 
-{-| The [`folder-refresh`](https://pictogrammers.com/library/mdi/icon/folder-refresh/) icon.
--}
-folderRefresh : IconShape
-folderRefresh =
-    iconShape "M18 14.5C19.11 14.5 20.11 14.95 20.83 15.67L22 14.5V18.5H18L19.77 16.73C19.32 16.28 18.69 16 18 16C16.62 16 15.5 17.12 15.5 18.5C15.5 19.88 16.62 21 18 21C18.82 21 19.54 20.61 20 20H21.71C21.12 21.47 19.68 22.5 18 22.5C15.79 22.5 14 20.71 14 18.5C14 16.29 15.79 14.5 18 14.5M10 4L12 6H20C21.1 6 22 6.89 22 8V13C21 12.38 19.79 12 18.5 12C14.91 12 12 14.91 12 18.5C12 19 12.06 19.5 12.17 20H4C2.89 20 2 19.1 2 18L2 6C2 4.89 2.89 4 4 4H10Z"
-
-
 {-| The [`folder-question-outline`](https://pictogrammers.com/library/mdi/icon/folder-question-outline/) icon.
 -}
 folderQuestionOutline : IconShape
 folderQuestionOutline =
     iconShape "M20 18H4V8H20M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6M19 11.7C19 13.4 17 13.5 17 15H15.7C15.7 12.8 17.7 13 17.7 11.7C17.7 11 17.1 10.4 16.4 10.4C15.7 10.4 15.1 11 15.1 11.7H13.8C13.8 10.2 15 9 16.5 9S19 10.2 19 11.7M17 15.7V17H15.7V15.7H17Z"
+
+
+{-| The [`folder-refresh`](https://pictogrammers.com/library/mdi/icon/folder-refresh/) icon.
+-}
+folderRefresh : IconShape
+folderRefresh =
+    iconShape "M18 14.5C19.11 14.5 20.11 14.95 20.83 15.67L22 14.5V18.5H18L19.77 16.73C19.32 16.28 18.69 16 18 16C16.62 16 15.5 17.12 15.5 18.5C15.5 19.88 16.62 21 18 21C18.82 21 19.54 20.61 20 20H21.71C21.12 21.47 19.68 22.5 18 22.5C15.79 22.5 14 20.71 14 18.5C14 16.29 15.79 14.5 18 14.5M10 4L12 6H20C21.1 6 22 6.89 22 8V13C21 12.38 19.79 12 18.5 12C14.91 12 12 14.91 12 18.5C12 19 12.06 19.5 12.17 20H4C2.89 20 2 19.1 2 18L2 6C2 4.89 2.89 4 4 4H10Z"
 
 
 {-| The [`folder-refresh-outline`](https://pictogrammers.com/library/mdi/icon/folder-refresh-outline/) icon.
@@ -4029,25 +4029,11 @@ footballHelmet =
     iconShape "M13.5,12A1.5,1.5 0 0,0 12,13.5A1.5,1.5 0 0,0 13.5,15A1.5,1.5 0 0,0 15,13.5A1.5,1.5 0 0,0 13.5,12M13.5,3C18.19,3 22,6.58 22,11C22,12.62 22,14 21.09,16C17,16 16,20 12.5,20C10.32,20 9.27,18.28 9.05,16H9L8.24,16L6.96,20.3C6.81,20.79 6.33,21.08 5.84,21H3A1,1 0 0,1 2,20A1,1 0 0,1 3,19V16A1,1 0 0,1 2,15A1,1 0 0,1 3,14H6.75L7.23,12.39C6.72,12.14 6.13,12 5.5,12H5.07L5,11C5,6.58 8.81,3 13.5,3M5,16V19H5.26L6.15,16H5Z"
 
 
-{-| The [`form-dropdown`](https://pictogrammers.com/library/mdi/icon/form-dropdown/) icon.
--}
-formDropdown : IconShape
-formDropdown =
-    iconShape "M17 5H20L18.5 7L17 5M3 2H21C22.11 2 23 2.9 23 4V8C23 9.11 22.11 10 21 10H16V20C16 21.11 15.11 22 14 22H3C1.9 22 1 21.11 1 20V4C1 2.9 1.9 2 3 2M3 4V8H14V4H3M21 8V4H16V8H21M3 20H14V10H3V20M5 12H12V14H5V12M5 16H12V18H5V16Z"
-
-
 {-| The [`forest`](https://pictogrammers.com/library/mdi/icon/forest/) icon.
 -}
 forest : IconShape
 forest =
     iconShape "M16 12L9 2L2 12H3.86L0 18H7V22H11V18H18L14.14 12H16M20.14 12H22L15 2L12.61 5.41L17.92 13H15.97L19.19 18H24L20.14 12M13 19H17V22H13V19Z"
-
-
-{-| The [`forklift`](https://pictogrammers.com/library/mdi/icon/forklift/) icon.
--}
-forklift : IconShape
-forklift =
-    iconShape "M6,4V11H4C2.89,11 2,11.89 2,13V17A3,3 0 0,0 5,20A3,3 0 0,0 8,17H10A3,3 0 0,0 13,20A3,3 0 0,0 16,17V13L12,4H6M17,5V19H22V17.5H18.5V5H17M7.5,5.5H11.2L14.5,13H7.5V5.5M5,15.5A1.5,1.5 0 0,1 6.5,17A1.5,1.5 0 0,1 5,18.5A1.5,1.5 0 0,1 3.5,17A1.5,1.5 0 0,1 5,15.5M13,15.5A1.5,1.5 0 0,1 14.5,17A1.5,1.5 0 0,1 13,18.5A1.5,1.5 0 0,1 11.5,17A1.5,1.5 0 0,1 13,15.5Z"
 
 
 {-| The [`forest-outline`](https://pictogrammers.com/library/mdi/icon/forest-outline/) icon.
@@ -4057,18 +4043,25 @@ forestOutline =
     iconShape "M19.19 18H24L20.14 12H22L15 2L12.61 5.41L17.92 13H15.97L19.19 18M16 12L9 2L2 12H3.86L0 18H7V22H11V18H18L14.14 12H16M12.16 10H10.5L14.34 16H3.67L7.53 10H5.84L9 5.5L12.16 10M13 19V22H17V19H13Z"
 
 
+{-| The [`forklift`](https://pictogrammers.com/library/mdi/icon/forklift/) icon.
+-}
+forklift : IconShape
+forklift =
+    iconShape "M6,4V11H4C2.89,11 2,11.89 2,13V17A3,3 0 0,0 5,20A3,3 0 0,0 8,17H10A3,3 0 0,0 13,20A3,3 0 0,0 16,17V13L12,4H6M17,5V19H22V17.5H18.5V5H17M7.5,5.5H11.2L14.5,13H7.5V5.5M5,15.5A1.5,1.5 0 0,1 6.5,17A1.5,1.5 0 0,1 5,18.5A1.5,1.5 0 0,1 3.5,17A1.5,1.5 0 0,1 5,15.5M13,15.5A1.5,1.5 0 0,1 14.5,17A1.5,1.5 0 0,1 13,18.5A1.5,1.5 0 0,1 11.5,17A1.5,1.5 0 0,1 13,15.5Z"
+
+
+{-| The [`form-dropdown`](https://pictogrammers.com/library/mdi/icon/form-dropdown/) icon.
+-}
+formDropdown : IconShape
+formDropdown =
+    iconShape "M17 5H20L18.5 7L17 5M3 2H21C22.11 2 23 2.9 23 4V8C23 9.11 22.11 10 21 10H16V20C16 21.11 15.11 22 14 22H3C1.9 22 1 21.11 1 20V4C1 2.9 1.9 2 3 2M3 4V8H14V4H3M21 8V4H16V8H21M3 20H14V10H3V20M5 12H12V14H5V12M5 16H12V18H5V16Z"
+
+
 {-| The [`form-select`](https://pictogrammers.com/library/mdi/icon/form-select/) icon.
 -}
 formSelect : IconShape
 formSelect =
     iconShape "M15 5H18L16.5 7L15 5M5 2H19C20.11 2 21 2.9 21 4V20C21 21.11 20.11 22 19 22H5C3.9 22 3 21.11 3 20V4C3 2.9 3.9 2 5 2M5 4V8H19V4H5M5 20H19V10H5V20M7 12H17V14H7V12M7 16H17V18H7V16Z"
-
-
-{-| The [`form-textbox`](https://pictogrammers.com/library/mdi/icon/form-textbox/) icon.
--}
-formTextbox : IconShape
-formTextbox =
-    iconShape "M17,7H22V17H17V19A1,1 0 0,0 18,20H20V22H17.5C16.95,22 16,21.55 16,21C16,21.55 15.05,22 14.5,22H12V20H14A1,1 0 0,0 15,19V5A1,1 0 0,0 14,4H12V2H14.5C15.05,2 16,2.45 16,3C16,2.45 16.95,2 17.5,2H20V4H18A1,1 0 0,0 17,5V7M2,7H13V9H4V15H13V17H2V7M20,15V9H17V15H20Z"
 
 
 {-| The [`form-textarea`](https://pictogrammers.com/library/mdi/icon/form-textarea/) icon.
@@ -4078,18 +4071,18 @@ formTextarea =
     iconShape "M13 9H4V23H2V7H13M23 9V7H17V5A1 1 0 0 1 18 4H20V2H17.5C17 2 16 2.45 16 3C16 2.45 15.05 2 14.5 2H12V4H14A1 1 0 0 1 15 5V19A1 1 0 0 1 14 20H12V22H14.5C15.05 22 16 21.55 16 21C16 21.55 16.95 22 17.5 22H20V20H18A1 1 0 0 1 17 19V9Z"
 
 
+{-| The [`form-textbox`](https://pictogrammers.com/library/mdi/icon/form-textbox/) icon.
+-}
+formTextbox : IconShape
+formTextbox =
+    iconShape "M17,7H22V17H17V19A1,1 0 0,0 18,20H20V22H17.5C16.95,22 16,21.55 16,21C16,21.55 15.05,22 14.5,22H12V20H14A1,1 0 0,0 15,19V5A1,1 0 0,0 14,4H12V2H14.5C15.05,2 16,2.45 16,3C16,2.45 16.95,2 17.5,2H20V4H18A1,1 0 0,0 17,5V7M2,7H13V9H4V15H13V17H2V7M20,15V9H17V15H20Z"
+
+
 {-| The [`form-textbox-lock`](https://pictogrammers.com/library/mdi/icon/form-textbox-lock/) icon.
 -}
 formTextboxLock : IconShape
 formTextboxLock =
     iconShape "M2 7H6V9H4V15H6V17H2V7M10 7H22V12C21.42 11.56 20.74 11.25 20 11.1V9H10V15H14.25C13.56 15 13 15.56 13 16.25V17H10V19C10 19.55 10.45 20 11 20H13V22H10.5C9.95 22 9 21.55 9 21C9 21.55 8.05 22 7.5 22H5V20H7C7.55 20 8 19.55 8 19V5C8 4.45 7.55 4 7 4H5V2H7.5C8.05 2 9 2.45 9 3C9 2.45 9.95 2 10.5 2H13V4H11C10.45 4 10 4.45 10 5V7M21.8 17C22.4 17 23 17.6 23 18.3V21.8C23 22.4 22.4 23 21.7 23H16.2C15.6 23 15 22.4 15 21.7V18.2C15 17.6 15.6 17 16.2 17V15.5C16.2 14.1 17.6 13 19 13C20.4 13 21.8 14.1 21.8 15.5V17M20.5 17V15.5C20.5 14.7 19.8 14.2 19 14.2C18.2 14.2 17.5 14.7 17.5 15.5V17H20.5Z"
-
-
-{-| The [`format-align-center`](https://pictogrammers.com/library/mdi/icon/format-align-center/) icon.
--}
-formatAlignCenter : IconShape
-formatAlignCenter =
-    iconShape "M3,3H21V5H3V3M7,7H17V9H7V7M3,11H21V13H3V11M7,15H17V17H7V15M3,19H21V21H3V19Z"
 
 
 {-| The [`form-textbox-password`](https://pictogrammers.com/library/mdi/icon/form-textbox-password/) icon.
@@ -4104,6 +4097,13 @@ formTextboxPassword =
 formatAlignBottom : IconShape
 formatAlignBottom =
     iconShape "M13,9L15.5,6.5L16.92,7.92L12,12.84L7.08,7.92L8.5,6.5L11,9V3H13V9M3,15H21V17H3V15M3,19H13V21H3V19Z"
+
+
+{-| The [`format-align-center`](https://pictogrammers.com/library/mdi/icon/format-align-center/) icon.
+-}
+formatAlignCenter : IconShape
+formatAlignCenter =
+    iconShape "M3,3H21V5H3V3M7,7H17V9H7V7M3,11H21V13H3V11M7,15H17V17H7V15M3,19H21V21H3V19Z"
 
 
 {-| The [`format-align-justify`](https://pictogrammers.com/library/mdi/icon/format-align-justify/) icon.
@@ -4148,13 +4148,6 @@ formatAnnotationMinus =
     iconShape "M10.5,7H8.5L3,21H5.2L6.3,18H12.5L13.6,21H16L10.5,7M7.1,16L9.5,9.7L11.9,16H7.1M22,7H14V5H22V7Z"
 
 
-{-| The [`format-clear`](https://pictogrammers.com/library/mdi/icon/format-clear/) icon.
--}
-formatClear : IconShape
-formatClear =
-    iconShape "M6,5V5.18L8.82,8H11.22L10.5,9.68L12.6,11.78L14.21,8H20V5H6M3.27,5L2,6.27L8.97,13.24L6.5,19H9.5L11.07,15.34L16.73,21L18,19.73L3.55,5.27L3.27,5Z"
-
-
 {-| The [`format-annotation-plus`](https://pictogrammers.com/library/mdi/icon/format-annotation-plus/) icon.
 -}
 formatAnnotationPlus : IconShape
@@ -4167,6 +4160,13 @@ formatAnnotationPlus =
 formatBold : IconShape
 formatBold =
     iconShape "M13.5,15.5H10V12.5H13.5A1.5,1.5 0 0,1 15,14A1.5,1.5 0 0,1 13.5,15.5M10,6.5H13A1.5,1.5 0 0,1 14.5,8A1.5,1.5 0 0,1 13,9.5H10M15.6,10.79C16.57,10.11 17.25,9 17.25,8C17.25,5.74 15.5,4 13.25,4H7V18H14.04C16.14,18 17.75,16.3 17.75,14.21C17.75,12.69 16.89,11.39 15.6,10.79Z"
+
+
+{-| The [`format-clear`](https://pictogrammers.com/library/mdi/icon/format-clear/) icon.
+-}
+formatClear : IconShape
+formatClear =
+    iconShape "M6,5V5.18L8.82,8H11.22L10.5,9.68L12.6,11.78L14.21,8H20V5H6M3.27,5L2,6.27L8.97,13.24L6.5,19H9.5L11.07,15.34L16.73,21L18,19.73L3.55,5.27L3.27,5Z"
 
 
 {-| The [`format-color-fill`](https://pictogrammers.com/library/mdi/icon/format-color-fill/) icon.
@@ -5566,11 +5566,11 @@ lookup name =
         "file-excel-box-outline" ->
             Just fileExcelBoxOutline
 
-        "file-export" ->
-            Just fileExport
-
         "file-excel-outline" ->
             Just fileExcelOutline
+
+        "file-export" ->
+            Just fileExport
 
         "file-export-outline" ->
             Just fileExportOutline
@@ -5578,11 +5578,11 @@ lookup name =
         "file-eye" ->
             Just fileEye
 
-        "file-find" ->
-            Just fileFind
-
         "file-eye-outline" ->
             Just fileEyeOutline
+
+        "file-find" ->
+            Just fileFind
 
         "file-find-outline" ->
             Just fileFindOutline
@@ -5614,20 +5614,23 @@ lookup name =
         "file-image-plus" ->
             Just fileImagePlus
 
-        "file-image-remove" ->
-            Just fileImageRemove
-
         "file-image-plus-outline" ->
             Just fileImagePlusOutline
+
+        "file-image-remove" ->
+            Just fileImageRemove
 
         "file-image-remove-outline" ->
             Just fileImageRemoveOutline
 
+        "file-import" ->
+            Just fileImport
+
         "file-import-outline" ->
             Just fileImportOutline
 
-        "file-import" ->
-            Just fileImport
+        "file-jpg-box" ->
+            Just fileJpgBox
 
         "file-key" ->
             Just fileKey
@@ -5635,14 +5638,8 @@ lookup name =
         "file-key-outline" ->
             Just fileKeyOutline
 
-        "file-jpg-box" ->
-            Just fileJpgBox
-
         "file-link" ->
             Just fileLink
-
-        "file-lock-open-outline" ->
-            Just fileLockOpenOutline
 
         "file-link-outline" ->
             Just fileLinkOutline
@@ -5653,26 +5650,32 @@ lookup name =
         "file-lock-open" ->
             Just fileLockOpen
 
-        "file-marker-outline" ->
-            Just fileMarkerOutline
+        "file-lock-open-outline" ->
+            Just fileLockOpenOutline
+
+        "file-lock-outline" ->
+            Just fileLockOutline
 
         "file-marker" ->
             Just fileMarker
 
-        "file-minus-outline" ->
-            Just fileMinusOutline
+        "file-marker-outline" ->
+            Just fileMarkerOutline
 
         "file-minus" ->
             Just fileMinus
 
-        "file-move-outline" ->
-            Just fileMoveOutline
+        "file-minus-outline" ->
+            Just fileMinusOutline
 
         "file-move" ->
             Just fileMove
 
-        "file-lock-outline" ->
-            Just fileLockOutline
+        "file-move-outline" ->
+            Just fileMoveOutline
+
+        "file-multiple" ->
+            Just fileMultiple
 
         "file-multiple-outline" ->
             Just fileMultipleOutline
@@ -5680,14 +5683,11 @@ lookup name =
         "file-music" ->
             Just fileMusic
 
-        "file-multiple" ->
-            Just fileMultiple
+        "file-music-outline" ->
+            Just fileMusicOutline
 
         "file-outline" ->
             Just fileOutline
-
-        "file-music-outline" ->
-            Just fileMusicOutline
 
         "file-pdf-box" ->
             Just filePdfBox
@@ -5965,11 +5965,11 @@ lookup name =
         "find-replace" ->
             Just findReplace
 
-        "fingerprint-off" ->
-            Just fingerprintOff
-
         "fingerprint" ->
             Just fingerprint
+
+        "fingerprint-off" ->
+            Just fingerprintOff
 
         "fire" ->
             Just fire
@@ -6397,11 +6397,11 @@ lookup name =
         "folder-file-outline" ->
             Just folderFileOutline
 
-        "folder-heart-outline" ->
-            Just folderHeartOutline
-
         "folder-heart" ->
             Just folderHeart
+
+        "folder-heart-outline" ->
+            Just folderHeartOutline
 
         "folder-hidden" ->
             Just folderHidden
@@ -6412,11 +6412,11 @@ lookup name =
         "folder-home-outline" ->
             Just folderHomeOutline
 
-        "folder-information" ->
-            Just folderInformation
-
         "folder-image" ->
             Just folderImage
+
+        "folder-information" ->
+            Just folderInformation
 
         "folder-information-outline" ->
             Just folderInformationOutline
@@ -6427,11 +6427,11 @@ lookup name =
         "folder-key-network" ->
             Just folderKeyNetwork
 
-        "folder-key-outline" ->
-            Just folderKeyOutline
-
         "folder-key-network-outline" ->
             Just folderKeyNetworkOutline
+
+        "folder-key-outline" ->
+            Just folderKeyOutline
 
         "folder-lock" ->
             Just folderLock
@@ -6469,17 +6469,17 @@ lookup name =
         "folder-multiple-image" ->
             Just folderMultipleImage
 
-        "folder-multiple-plus" ->
-            Just folderMultiplePlus
-
         "folder-multiple-outline" ->
             Just folderMultipleOutline
 
-        "folder-music" ->
-            Just folderMusic
+        "folder-multiple-plus" ->
+            Just folderMultiplePlus
 
         "folder-multiple-plus-outline" ->
             Just folderMultiplePlusOutline
+
+        "folder-music" ->
+            Just folderMusic
 
         "folder-music-outline" ->
             Just folderMusicOutline
@@ -6490,11 +6490,11 @@ lookup name =
         "folder-network-outline" ->
             Just folderNetworkOutline
 
-        "folder-off-outline" ->
-            Just folderOffOutline
-
         "folder-off" ->
             Just folderOff
+
+        "folder-off-outline" ->
+            Just folderOffOutline
 
         "folder-open" ->
             Just folderOpen
@@ -6502,20 +6502,20 @@ lookup name =
         "folder-open-outline" ->
             Just folderOpenOutline
 
-        "folder-play" ->
-            Just folderPlay
-
         "folder-outline" ->
             Just folderOutline
+
+        "folder-play" ->
+            Just folderPlay
 
         "folder-play-outline" ->
             Just folderPlayOutline
 
-        "folder-plus-outline" ->
-            Just folderPlusOutline
-
         "folder-plus" ->
             Just folderPlus
+
+        "folder-plus-outline" ->
+            Just folderPlusOutline
 
         "folder-pound" ->
             Just folderPound
@@ -6526,11 +6526,11 @@ lookup name =
         "folder-question" ->
             Just folderQuestion
 
-        "folder-refresh" ->
-            Just folderRefresh
-
         "folder-question-outline" ->
             Just folderQuestionOutline
+
+        "folder-refresh" ->
+            Just folderRefresh
 
         "folder-refresh-outline" ->
             Just folderRefreshOutline
@@ -6685,38 +6685,38 @@ lookup name =
         "football-helmet" ->
             Just footballHelmet
 
-        "form-dropdown" ->
-            Just formDropdown
-
         "forest" ->
             Just forest
-
-        "forklift" ->
-            Just forklift
 
         "forest-outline" ->
             Just forestOutline
 
+        "forklift" ->
+            Just forklift
+
+        "form-dropdown" ->
+            Just formDropdown
+
         "form-select" ->
             Just formSelect
-
-        "form-textbox" ->
-            Just formTextbox
 
         "form-textarea" ->
             Just formTextarea
 
+        "form-textbox" ->
+            Just formTextbox
+
         "form-textbox-lock" ->
             Just formTextboxLock
-
-        "format-align-center" ->
-            Just formatAlignCenter
 
         "form-textbox-password" ->
             Just formTextboxPassword
 
         "format-align-bottom" ->
             Just formatAlignBottom
+
+        "format-align-center" ->
+            Just formatAlignCenter
 
         "format-align-justify" ->
             Just formatAlignJustify
@@ -6736,14 +6736,14 @@ lookup name =
         "format-annotation-minus" ->
             Just formatAnnotationMinus
 
-        "format-clear" ->
-            Just formatClear
-
         "format-annotation-plus" ->
             Just formatAnnotationPlus
 
         "format-bold" ->
             Just formatBold
+
+        "format-clear" ->
+            Just formatClear
 
         "format-color-fill" ->
             Just formatColorFill

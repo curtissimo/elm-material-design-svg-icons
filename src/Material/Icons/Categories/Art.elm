@@ -26,8 +26,8 @@ module Material.Icons.Categories.Art exposing
     , mathCompass
     , palette
     , paletteAdvanced
-    , paletteSwatch
     , paletteOutline
+    , paletteSwatch
     , paletteSwatchOutline
     , paletteSwatchVariant
     , pen
@@ -39,8 +39,8 @@ module Material.Icons.Categories.Art exposing
     , pencilOutline
     , pencilRuler
     , pencilRulerOutline
-    , rulerSquare
     , ruler
+    , rulerSquare
     , spray
     , squareOpacity
     , waterOpacity
@@ -71,8 +71,8 @@ module Material.Icons.Categories.Art exposing
 @docs mathCompass
 @docs palette
 @docs paletteAdvanced
-@docs paletteSwatch
 @docs paletteOutline
+@docs paletteSwatch
 @docs paletteSwatchOutline
 @docs paletteSwatchVariant
 @docs pen
@@ -84,8 +84,8 @@ module Material.Icons.Categories.Art exposing
 @docs pencilOutline
 @docs pencilRuler
 @docs pencilRulerOutline
-@docs rulerSquare
 @docs ruler
+@docs rulerSquare
 @docs spray
 @docs squareOpacity
 @docs waterOpacity
@@ -338,16 +338,6 @@ paletteAdvanced =
     Material.Icons.Directory.P.paletteAdvanced
 
 
-{-| The [`palette-swatch`](https://pictogrammers.com/library/mdi/icon/palette-swatch/) icon.
-
-![palette-swatch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNTMsMTkuNjVMMy44NywyMC4yMVYxMS4xOEwxLjQ0LDE3LjA0QzEuMDMsMTguMDYgMS41LDE5LjIzIDIuNTMsMTkuNjVNMjIuMDMsMTUuOTVMMTcuMDcsNEMxNi43NiwzLjIzIDE2LjAzLDIuNzcgMTUuMjYsMi43NUMxNSwyLjc1IDE0LjczLDIuNzkgMTQuNDcsMi45TDcuMSw1Ljk1QzYuMzUsNi4yNiA1Ljg5LDcgNS44Nyw3Ljc1QzUuODYsOCA1LjkxLDguMjkgNiw4LjU1TDExLDIwLjVDMTEuMjksMjEuMjggMTIuMDMsMjEuNzQgMTIuODEsMjEuNzVDMTMuMDcsMjEuNzUgMTMuMzMsMjEuNyAxMy41OCwyMS42TDIwLjk0LDE4LjU1QzIxLjk2LDE4LjEzIDIyLjQ1LDE2Ljk2IDIyLjAzLDE1Ljk1TTcuODgsOC43NUExLDEgMCAwLDEgNi44OCw3Ljc1QTEsMSAwIDAsMSA3Ljg4LDYuNzVDOC40Myw2Ljc1IDguODgsNy4yIDguODgsNy43NUM4Ljg4LDguMyA4LjQzLDguNzUgNy44OCw4Ljc1TTUuODgsMTkuNzVBMiwyIDAgMCwwIDcuODgsMjEuNzVIOS4zM0w1Ljg4LDEzLjQxVjE5Ljc1WiIgLz48L3N2Zz4=)
-
--}
-paletteSwatch : IconShape
-paletteSwatch =
-    Material.Icons.Directory.P.paletteSwatch
-
-
 {-| The [`palette-outline`](https://pictogrammers.com/library/mdi/icon/palette-outline/) icon.
 
 ![palette-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDIyQTEwLDEwIDAgMCwxIDIsMTJBMTAsMTAgMCAwLDEgMTIsMkMxNy41LDIgMjIsNiAyMiwxMUE2LDYgMCAwLDEgMTYsMTdIMTQuMkMxMy45LDE3IDEzLjcsMTcuMiAxMy43LDE3LjVDMTMuNywxNy42IDEzLjgsMTcuNyAxMy44LDE3LjhDMTQuMiwxOC4zIDE0LjQsMTguOSAxNC40LDE5LjVDMTQuNSwyMC45IDEzLjQsMjIgMTIsMjJNMTIsNEE4LDggMCAwLDAgNCwxMkE4LDggMCAwLDAgMTIsMjBDMTIuMywyMCAxMi41LDE5LjggMTIuNSwxOS41QzEyLjUsMTkuMyAxMi40LDE5LjIgMTIuNCwxOS4xQzEyLDE4LjYgMTEuOCwxOC4xIDExLjgsMTcuNUMxMS44LDE2LjEgMTIuOSwxNSAxNC4zLDE1SDE2QTQsNCAwIDAsMCAyMCwxMUMyMCw3LjEgMTYuNCw0IDEyLDRNNi41LDEwQzcuMywxMCA4LDEwLjcgOCwxMS41QzgsMTIuMyA3LjMsMTMgNi41LDEzQzUuNywxMyA1LDEyLjMgNSwxMS41QzUsMTAuNyA1LjcsMTAgNi41LDEwTTkuNSw2QzEwLjMsNiAxMSw2LjcgMTEsNy41QzExLDguMyAxMC4zLDkgOS41LDlDOC43LDkgOCw4LjMgOCw3LjVDOCw2LjcgOC43LDYgOS41LDZNMTQuNSw2QzE1LjMsNiAxNiw2LjcgMTYsNy41QzE2LDguMyAxNS4zLDkgMTQuNSw5QzEzLjcsOSAxMyw4LjMgMTMsNy41QzEzLDYuNyAxMy43LDYgMTQuNSw2TTE3LjUsMTBDMTguMywxMCAxOSwxMC43IDE5LDExLjVDMTksMTIuMyAxOC4zLDEzIDE3LjUsMTNDMTYuNywxMyAxNiwxMi4zIDE2LDExLjVDMTYsMTAuNyAxNi43LDEwIDE3LjUsMTBaIiAvPjwvc3ZnPg==)
@@ -356,6 +346,16 @@ paletteSwatch =
 paletteOutline : IconShape
 paletteOutline =
     Material.Icons.Directory.P.paletteOutline
+
+
+{-| The [`palette-swatch`](https://pictogrammers.com/library/mdi/icon/palette-swatch/) icon.
+
+![palette-swatch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuNTMsMTkuNjVMMy44NywyMC4yMVYxMS4xOEwxLjQ0LDE3LjA0QzEuMDMsMTguMDYgMS41LDE5LjIzIDIuNTMsMTkuNjVNMjIuMDMsMTUuOTVMMTcuMDcsNEMxNi43NiwzLjIzIDE2LjAzLDIuNzcgMTUuMjYsMi43NUMxNSwyLjc1IDE0LjczLDIuNzkgMTQuNDcsMi45TDcuMSw1Ljk1QzYuMzUsNi4yNiA1Ljg5LDcgNS44Nyw3Ljc1QzUuODYsOCA1LjkxLDguMjkgNiw4LjU1TDExLDIwLjVDMTEuMjksMjEuMjggMTIuMDMsMjEuNzQgMTIuODEsMjEuNzVDMTMuMDcsMjEuNzUgMTMuMzMsMjEuNyAxMy41OCwyMS42TDIwLjk0LDE4LjU1QzIxLjk2LDE4LjEzIDIyLjQ1LDE2Ljk2IDIyLjAzLDE1Ljk1TTcuODgsOC43NUExLDEgMCAwLDEgNi44OCw3Ljc1QTEsMSAwIDAsMSA3Ljg4LDYuNzVDOC40Myw2Ljc1IDguODgsNy4yIDguODgsNy43NUM4Ljg4LDguMyA4LjQzLDguNzUgNy44OCw4Ljc1TTUuODgsMTkuNzVBMiwyIDAgMCwwIDcuODgsMjEuNzVIOS4zM0w1Ljg4LDEzLjQxVjE5Ljc1WiIgLz48L3N2Zz4=)
+
+-}
+paletteSwatch : IconShape
+paletteSwatch =
+    Material.Icons.Directory.P.paletteSwatch
 
 
 {-| The [`palette-swatch-outline`](https://pictogrammers.com/library/mdi/icon/palette-swatch-outline/) icon.
@@ -468,16 +468,6 @@ pencilRulerOutline =
     Material.Icons.Directory.P.pencilRulerOutline
 
 
-{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
-
-![ruler-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNVYyMUg5VjE5LjVIN1YxOEg5VjE2LjVINVYxNUg5VjEzLjVIN1YxMkg5VjEwLjVINVY5SDlWNUgxMC41VjlIMTJWN0gxMy41VjlIMTVWNUgxNi41VjlIMThWN0gxOS41VjlIMjFWM0g1QTIsMiAwIDAsMCAzLDVNNiw3QTEsMSAwIDAsMSA1LDZBMSwxIDAgMCwxIDYsNUExLDEgMCAwLDEgNyw2QTEsMSAwIDAsMSA2LDdaIiAvPjwvc3ZnPg==)
-
--}
-rulerSquare : IconShape
-rulerSquare =
-    Material.Icons.Directory.R.rulerSquare
-
-
 {-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
 
 ![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuMzksMTguMzZMMy4xNiwxNi42TDQuNTgsMThMNS42NCwxNi45NUw0LjIyLDE1LjU0TDUuNjQsMTQuMTJMOC4xMSwxNi42TDkuMTcsMTUuNTRMNi43LDEzLjA2TDguMTEsMTEuNjVMOS41MywxMy4wNkwxMC41OSwxMkw5LjE3LDEwLjU5TDEwLjU5LDkuMTdMMTMuMDYsMTEuNjVMMTQuMTIsMTAuNTlMMTEuNjUsOC4xMUwxMy4wNiw2LjdMMTQuNDcsOC4xMUwxNS41NCw3LjA1TDE0LjEyLDUuNjRMMTUuNTQsNC4yMkwxOCw2LjdMMTkuMDcsNS42NEwxNi42LDMuMTZMMTguMzYsMS4zOUwyMi42MSw1LjY0TDUuNjQsMjIuNjFMMS4zOSwxOC4zNloiIC8+PC9zdmc+)
@@ -486,6 +476,16 @@ rulerSquare =
 ruler : IconShape
 ruler =
     Material.Icons.Directory.R.ruler
+
+
+{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
+
+![ruler-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNVYyMUg5VjE5LjVIN1YxOEg5VjE2LjVINVYxNUg5VjEzLjVIN1YxMkg5VjEwLjVINVY5SDlWNUgxMC41VjlIMTJWN0gxMy41VjlIMTVWNUgxNi41VjlIMThWN0gxOS41VjlIMjFWM0g1QTIsMiAwIDAsMCAzLDVNNiw3QTEsMSAwIDAsMSA1LDZBMSwxIDAgMCwxIDYsNUExLDEgMCAwLDEgNyw2QTEsMSAwIDAsMSA2LDdaIiAvPjwvc3ZnPg==)
+
+-}
+rulerSquare : IconShape
+rulerSquare =
+    Material.Icons.Directory.R.rulerSquare
 
 
 {-| The [`spray`](https://pictogrammers.com/library/mdi/icon/spray/) icon.

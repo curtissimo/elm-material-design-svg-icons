@@ -65,12 +65,12 @@ module Material.Icons.Categories.Folders exposing
     , fileExcel
     , fileExcelBox
     , fileExcelBoxOutline
-    , fileExport
     , fileExcelOutline
+    , fileExport
     , fileExportOutline
     , fileEye
-    , fileFind
     , fileEyeOutline
+    , fileFind
     , fileFindOutline
     , fileGifBox
     , fileHidden
@@ -81,31 +81,31 @@ module Material.Icons.Categories.Folders exposing
     , fileImageMinusOutline
     , fileImageOutline
     , fileImagePlus
-    , fileImageRemove
     , fileImagePlusOutline
+    , fileImageRemove
     , fileImageRemoveOutline
-    , fileImportOutline
     , fileImport
+    , fileImportOutline
+    , fileJpgBox
     , fileKey
     , fileKeyOutline
-    , fileJpgBox
     , fileLink
-    , fileLockOpenOutline
     , fileLinkOutline
     , fileLock
     , fileLockOpen
-    , fileMarkerOutline
-    , fileMarker
-    , fileMinusOutline
-    , fileMinus
-    , fileMoveOutline
-    , fileMove
+    , fileLockOpenOutline
     , fileLockOutline
+    , fileMarker
+    , fileMarkerOutline
+    , fileMinus
+    , fileMinusOutline
+    , fileMove
+    , fileMoveOutline
+    , fileMultiple
     , fileMultipleOutline
     , fileMusic
-    , fileMultiple
-    , fileOutline
     , fileMusicOutline
+    , fileOutline
     , filePdfBox
     , filePercent
     , filePercentOutline
@@ -200,18 +200,18 @@ module Material.Icons.Categories.Folders exposing
     , folderEyeOutline
     , folderFile
     , folderFileOutline
-    , folderHeartOutline
     , folderHeart
+    , folderHeartOutline
     , folderHidden
     , folderHome
     , folderHomeOutline
-    , folderInformation
     , folderImage
+    , folderInformation
     , folderInformationOutline
     , folderKey
     , folderKeyNetwork
-    , folderKeyOutline
     , folderKeyNetworkOutline
+    , folderKeyOutline
     , folderLock
     , folderLockOpen
     , folderLockOpenOutline
@@ -224,27 +224,27 @@ module Material.Icons.Categories.Folders exposing
     , folderMoveOutline
     , folderMultiple
     , folderMultipleImage
-    , folderMultiplePlus
     , folderMultipleOutline
-    , folderMusic
+    , folderMultiplePlus
     , folderMultiplePlusOutline
+    , folderMusic
     , folderMusicOutline
     , folderNetwork
     , folderNetworkOutline
-    , folderOffOutline
     , folderOff
+    , folderOffOutline
     , folderOpen
     , folderOpenOutline
-    , folderPlay
     , folderOutline
+    , folderPlay
     , folderPlayOutline
-    , folderPlusOutline
     , folderPlus
+    , folderPlusOutline
     , folderPound
     , folderPoundOutline
     , folderQuestion
-    , folderRefresh
     , folderQuestionOutline
+    , folderRefresh
     , folderRefreshOutline
     , folderRemove
     , folderRemoveOutline
@@ -355,12 +355,12 @@ module Material.Icons.Categories.Folders exposing
 @docs fileExcel
 @docs fileExcelBox
 @docs fileExcelBoxOutline
-@docs fileExport
 @docs fileExcelOutline
+@docs fileExport
 @docs fileExportOutline
 @docs fileEye
-@docs fileFind
 @docs fileEyeOutline
+@docs fileFind
 @docs fileFindOutline
 @docs fileGifBox
 @docs fileHidden
@@ -371,31 +371,31 @@ module Material.Icons.Categories.Folders exposing
 @docs fileImageMinusOutline
 @docs fileImageOutline
 @docs fileImagePlus
-@docs fileImageRemove
 @docs fileImagePlusOutline
+@docs fileImageRemove
 @docs fileImageRemoveOutline
-@docs fileImportOutline
 @docs fileImport
+@docs fileImportOutline
+@docs fileJpgBox
 @docs fileKey
 @docs fileKeyOutline
-@docs fileJpgBox
 @docs fileLink
-@docs fileLockOpenOutline
 @docs fileLinkOutline
 @docs fileLock
 @docs fileLockOpen
-@docs fileMarkerOutline
-@docs fileMarker
-@docs fileMinusOutline
-@docs fileMinus
-@docs fileMoveOutline
-@docs fileMove
+@docs fileLockOpenOutline
 @docs fileLockOutline
+@docs fileMarker
+@docs fileMarkerOutline
+@docs fileMinus
+@docs fileMinusOutline
+@docs fileMove
+@docs fileMoveOutline
+@docs fileMultiple
 @docs fileMultipleOutline
 @docs fileMusic
-@docs fileMultiple
-@docs fileOutline
 @docs fileMusicOutline
+@docs fileOutline
 @docs filePdfBox
 @docs filePercent
 @docs filePercentOutline
@@ -490,18 +490,18 @@ module Material.Icons.Categories.Folders exposing
 @docs folderEyeOutline
 @docs folderFile
 @docs folderFileOutline
-@docs folderHeartOutline
 @docs folderHeart
+@docs folderHeartOutline
 @docs folderHidden
 @docs folderHome
 @docs folderHomeOutline
-@docs folderInformation
 @docs folderImage
+@docs folderInformation
 @docs folderInformationOutline
 @docs folderKey
 @docs folderKeyNetwork
-@docs folderKeyOutline
 @docs folderKeyNetworkOutline
+@docs folderKeyOutline
 @docs folderLock
 @docs folderLockOpen
 @docs folderLockOpenOutline
@@ -514,27 +514,27 @@ module Material.Icons.Categories.Folders exposing
 @docs folderMoveOutline
 @docs folderMultiple
 @docs folderMultipleImage
-@docs folderMultiplePlus
 @docs folderMultipleOutline
-@docs folderMusic
+@docs folderMultiplePlus
 @docs folderMultiplePlusOutline
+@docs folderMusic
 @docs folderMusicOutline
 @docs folderNetwork
 @docs folderNetworkOutline
-@docs folderOffOutline
 @docs folderOff
+@docs folderOffOutline
 @docs folderOpen
 @docs folderOpenOutline
-@docs folderPlay
 @docs folderOutline
+@docs folderPlay
 @docs folderPlayOutline
-@docs folderPlusOutline
 @docs folderPlus
+@docs folderPlusOutline
 @docs folderPound
 @docs folderPoundOutline
 @docs folderQuestion
-@docs folderRefresh
 @docs folderQuestionOutline
+@docs folderRefresh
 @docs folderRefreshOutline
 @docs folderRemove
 @docs folderRemoveOutline
@@ -1210,16 +1210,6 @@ fileExcelBoxOutline =
     Material.Icons.Directory.F.fileExcelBoxOutline
 
 
-{-| The [`file-export`](https://pictogrammers.com/library/mdi/icon/file-export/) icon.
-
-![file-export](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMkM0Ljg5LDIgNCwyLjkgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDE4QTIsMiAwIDAsMCAyMCwyMFY4TDE0LDJNMTMsMy41TDE4LjUsOUgxM004LjkzLDEyLjIySDE2VjE5LjI5TDEzLjg4LDE3LjE3TDExLjA1LDIwTDguMjIsMTcuMTdMMTEuMDUsMTQuMzUiIC8+PC9zdmc+)
-
--}
-fileExport : IconShape
-fileExport =
-    Material.Icons.Directory.F.fileExport
-
-
 {-| The [`file-excel-outline`](https://pictogrammers.com/library/mdi/icon/file-excel-outline/) icon.
 
 ![file-excel-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME0xMi45IDE0LjVMMTUuOCAxOUgxNEwxMiAxNS42TDEwIDE5SDguMkwxMS4xIDE0LjVMOC4yIDEwSDEwTDEyIDEzLjRMMTQgMTBIMTUuOEwxMi45IDE0LjVaIiAvPjwvc3ZnPg==)
@@ -1228,6 +1218,16 @@ fileExport =
 fileExcelOutline : IconShape
 fileExcelOutline =
     Material.Icons.Directory.F.fileExcelOutline
+
+
+{-| The [`file-export`](https://pictogrammers.com/library/mdi/icon/file-export/) icon.
+
+![file-export](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMkM0Ljg5LDIgNCwyLjkgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDE4QTIsMiAwIDAsMCAyMCwyMFY4TDE0LDJNMTMsMy41TDE4LjUsOUgxM004LjkzLDEyLjIySDE2VjE5LjI5TDEzLjg4LDE3LjE3TDExLjA1LDIwTDguMjIsMTcuMTdMMTEuMDUsMTQuMzUiIC8+PC9zdmc+)
+
+-}
+fileExport : IconShape
+fileExport =
+    Material.Icons.Directory.F.fileExport
 
 
 {-| The [`file-export-outline`](https://pictogrammers.com/library/mdi/icon/file-export-outline/) icon.
@@ -1250,16 +1250,6 @@ fileEye =
     Material.Icons.Directory.F.fileEye
 
 
-{-| The [`file-find`](https://pictogrammers.com/library/mdi/icon/file-find/) icon.
-
-![file-find](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTNBMywzIDAgMCwwIDEyLDE2QTMsMyAwIDAsMCAxNSwxM0EzLDMgMCAwLDAgMTIsMTBBMywzIDAgMCwwIDksMTNNMjAsMTkuNTlWOEwxNCwySDZBMiwyIDAgMCwwIDQsNFYyMEEyLDIgMCAwLDAgNiwyMkgxOEMxOC40NSwyMiAxOC44NSwyMS44NSAxOS4xOSwyMS42TDE0Ljc2LDE3LjE3QzEzLjk2LDE3LjY5IDEzLDE4IDEyLDE4QTUsNSAwIDAsMSA3LDEzQTUsNSAwIDAsMSAxMiw4QTUsNSAwIDAsMSAxNywxM0MxNywxNCAxNi42OSwxNC45NiAxNi4xNywxNS43NUwyMCwxOS41OVoiIC8+PC9zdmc+)
-
--}
-fileFind : IconShape
-fileFind =
-    Material.Icons.Directory.F.fileFind
-
-
 {-| The [`file-eye-outline`](https://pictogrammers.com/library/mdi/icon/file-eye-outline/) icon.
 
 ![file-eye-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE3LDE4QzE3LjU2LDE4IDE4LDE4LjQ0IDE4LDE5QzE4LDE5LjU2IDE3LjU2LDIwIDE3LDIwQzE2LjQ0LDIwIDE2LDE5LjU2IDE2LDE5QzE2LDE4LjQ0IDE2LjQ0LDE4IDE3LDE4TTE3LDE1QzE0LjI3LDE1IDExLjk0LDE2LjY2IDExLDE5QzExLjk0LDIxLjM0IDE0LjI3LDIzIDE3LDIzQzE5LjczLDIzIDIyLjA2LDIxLjM0IDIzLDE5QzIyLjA2LDE2LjY2IDE5LjczLDE1IDE3LDE1TTE3LDIxLjVBMi41LDIuNSAwIDAsMSAxNC41LDE5QTIuNSwyLjUgMCAwLDEgMTcsMTYuNUEyLjUsMi41IDAgMCwxIDE5LjUsMTlBMi41LDIuNSAwIDAsMSAxNywyMS41TTkuMjcsMjBINlY0SDEzVjlIMThWMTMuMDdDMTguNywxMy4xNSAxOS4zNiwxMy4zMiAyMCwxMy41NlY4TDE0LDJINkEyLDIgMCAwLDAgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDEwLjVDMTAsMjEuNDEgOS41OSwyMC43MyA5LjI3LDIwWiIgLz48L3N2Zz4=)
@@ -1268,6 +1258,16 @@ fileFind =
 fileEyeOutline : IconShape
 fileEyeOutline =
     Material.Icons.Directory.F.fileEyeOutline
+
+
+{-| The [`file-find`](https://pictogrammers.com/library/mdi/icon/file-find/) icon.
+
+![file-find](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTksMTNBMywzIDAgMCwwIDEyLDE2QTMsMyAwIDAsMCAxNSwxM0EzLDMgMCAwLDAgMTIsMTBBMywzIDAgMCwwIDksMTNNMjAsMTkuNTlWOEwxNCwySDZBMiwyIDAgMCwwIDQsNFYyMEEyLDIgMCAwLDAgNiwyMkgxOEMxOC40NSwyMiAxOC44NSwyMS44NSAxOS4xOSwyMS42TDE0Ljc2LDE3LjE3QzEzLjk2LDE3LjY5IDEzLDE4IDEyLDE4QTUsNSAwIDAsMSA3LDEzQTUsNSAwIDAsMSAxMiw4QTUsNSAwIDAsMSAxNywxM0MxNywxNCAxNi42OSwxNC45NiAxNi4xNywxNS43NUwyMCwxOS41OVoiIC8+PC9zdmc+)
+
+-}
+fileFind : IconShape
+fileFind =
+    Material.Icons.Directory.F.fileFind
 
 
 {-| The [`file-find-outline`](https://pictogrammers.com/library/mdi/icon/file-find-outline/) icon.
@@ -1370,16 +1370,6 @@ fileImagePlus =
     Material.Icons.Directory.F.fileImagePlus
 
 
-{-| The [`file-image-remove`](https://pictogrammers.com/library/mdi/icon/file-image-remove/) icon.
-
-![file-image-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjA5IDIwSDZMMTIgMTRMMTMuODggMTUuODhDMTQuNSAxNC45IDE1LjM2IDE0LjEgMTYuNCAxMy42TDE4IDEyVjEzLjA5QzE4LjMzIDEzLjA0IDE4LjY2IDEzIDE5IDEzQzE5LjM0IDEzIDE5LjY3IDEzLjA0IDIwIDEzLjA5VjhMMTQgMkg2QzQuODkgMiA0IDIuODkgNCA0VjIwQzQgMjEuMSA0Ljg5IDIyIDYgMjJIMTMuODFDMTMuNDYgMjEuMzkgMTMuMjEgMjAuNzIgMTMuMDkgMjBNMTMgMy41TDE4LjUgOUgxM1YzLjVNOCA5QzkuMTEgOSAxMCA5LjkgMTAgMTFTOS4xMSAxMyA4IDEzIDYgMTIuMTEgNiAxMSA2LjkgOSA4IDlNMjIuNTQgMTYuODhMMjAuNDEgMTlMMjIuNTQgMjEuMTJMMjEuMTIgMjIuNTRMMTkgMjAuNDFMMTYuODggMjIuNTRMMTUuNDcgMjEuMTJMMTcuNTkgMTlMMTUuNDcgMTYuODhMMTYuODggMTUuNDdMMTkgMTcuNTlMMjEuMTIgMTUuNDdMMjIuNTQgMTYuODhaIiAvPjwvc3ZnPg==)
-
--}
-fileImageRemove : IconShape
-fileImageRemove =
-    Material.Icons.Directory.F.fileImageRemove
-
-
 {-| The [`file-image-plus-outline`](https://pictogrammers.com/library/mdi/icon/file-image-plus-outline/) icon.
 
 ![file-image-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTcgMTlMMTIgMTRMMTMuODggMTUuODhDMTMuMzMgMTYuNzkgMTMgMTcuODYgMTMgMTlIN00xMCAxMC41QzEwIDkuNjcgOS4zMyA5IDguNSA5UzcgOS42NyA3IDEwLjUgNy42NyAxMiA4LjUgMTIgMTAgMTEuMzMgMTAgMTAuNU0xMy4wOSAyMEg2VjRIMTNWOUgxOFYxMy4wOUMxOC4zMyAxMy4wNCAxOC42NiAxMyAxOSAxM0MxOS4zNCAxMyAxOS42NyAxMy4wNCAyMCAxMy4wOVY4TDE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDEzLjgxQzEzLjQ2IDIxLjM5IDEzLjIxIDIwLjcyIDEzLjA5IDIwTTE4IDE1VjE4SDE1VjIwSDE4VjIzSDIwVjIwSDIzVjE4SDIwVjE1SDE4WiIgLz48L3N2Zz4=)
@@ -1388,6 +1378,16 @@ fileImageRemove =
 fileImagePlusOutline : IconShape
 fileImagePlusOutline =
     Material.Icons.Directory.F.fileImagePlusOutline
+
+
+{-| The [`file-image-remove`](https://pictogrammers.com/library/mdi/icon/file-image-remove/) icon.
+
+![file-image-remove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjA5IDIwSDZMMTIgMTRMMTMuODggMTUuODhDMTQuNSAxNC45IDE1LjM2IDE0LjEgMTYuNCAxMy42TDE4IDEyVjEzLjA5QzE4LjMzIDEzLjA0IDE4LjY2IDEzIDE5IDEzQzE5LjM0IDEzIDE5LjY3IDEzLjA0IDIwIDEzLjA5VjhMMTQgMkg2QzQuODkgMiA0IDIuODkgNCA0VjIwQzQgMjEuMSA0Ljg5IDIyIDYgMjJIMTMuODFDMTMuNDYgMjEuMzkgMTMuMjEgMjAuNzIgMTMuMDkgMjBNMTMgMy41TDE4LjUgOUgxM1YzLjVNOCA5QzkuMTEgOSAxMCA5LjkgMTAgMTFTOS4xMSAxMyA4IDEzIDYgMTIuMTEgNiAxMSA2LjkgOSA4IDlNMjIuNTQgMTYuODhMMjAuNDEgMTlMMjIuNTQgMjEuMTJMMjEuMTIgMjIuNTRMMTkgMjAuNDFMMTYuODggMjIuNTRMMTUuNDcgMjEuMTJMMTcuNTkgMTlMMTUuNDcgMTYuODhMMTYuODggMTUuNDdMMTkgMTcuNTlMMjEuMTIgMTUuNDdMMjIuNTQgMTYuODhaIiAvPjwvc3ZnPg==)
+
+-}
+fileImageRemove : IconShape
+fileImageRemove =
+    Material.Icons.Directory.F.fileImageRemove
 
 
 {-| The [`file-image-remove-outline`](https://pictogrammers.com/library/mdi/icon/file-image-remove-outline/) icon.
@@ -1400,6 +1400,16 @@ fileImageRemoveOutline =
     Material.Icons.Directory.F.fileImageRemoveOutline
 
 
+{-| The [`file-import`](https://pictogrammers.com/library/mdi/icon/file-import/) icon.
+
+![file-import](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMkM0Ljg5LDIgNCwyLjkgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDE4QTIsMiAwIDAsMCAyMCwyMFY4TDE0LDJNMTMsMy41TDE4LjUsOUgxM00xMC4wNSwxMS4yMkwxMi44OCwxNC4wNUwxNSwxMS45M1YxOUg3LjkzTDEwLjA1LDE2Ljg4TDcuMjIsMTQuMDUiIC8+PC9zdmc+)
+
+-}
+fileImport : IconShape
+fileImport =
+    Material.Icons.Directory.F.fileImport
+
+
 {-| The [`file-import-outline`](https://pictogrammers.com/library/mdi/icon/file-import-outline/) icon.
 
 ![file-import-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME0xNSAxMS45M1YxOUg3LjkzTDEwLjA1IDE2Ljg4TDcuMjIgMTQuMDVMMTAuMDUgMTEuMjJMMTIuODggMTQuMDVMMTUgMTEuOTNaIiAvPjwvc3ZnPg==)
@@ -1410,14 +1420,14 @@ fileImportOutline =
     Material.Icons.Directory.F.fileImportOutline
 
 
-{-| The [`file-import`](https://pictogrammers.com/library/mdi/icon/file-import/) icon.
+{-| The [`file-jpg-box`](https://pictogrammers.com/library/mdi/icon/file-jpg-box/) icon.
 
-![file-import](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTYsMkM0Ljg5LDIgNCwyLjkgNCw0VjIwQTIsMiAwIDAsMCA2LDIySDE4QTIsMiAwIDAsMCAyMCwyMFY4TDE0LDJNMTMsMy41TDE4LjUsOUgxM00xMC4wNSwxMS4yMkwxMi44OCwxNC4wNUwxNSwxMS45M1YxOUg3LjkzTDEwLjA1LDE2Ljg4TDcuMjIsMTQuMDUiIC8+PC9zdmc+)
+![file-jpg-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDNINUMzLjkgMyAzIDMuOSAzIDVWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVY1QzIxIDMuOSAyMC4xIDMgMTkgM005IDEzLjVDOSAxNC42IDguMSAxNSA3IDE1UzUgMTQuNiA1IDEzLjVWMTJINi41VjEzLjVINy41VjlIOVYxMy41TTE0IDExLjVDMTQgMTIuMyAxMy4zIDEzIDEyLjUgMTNIMTEuNVYxNUgxMFY5SDEyLjVDMTMuMyA5IDE0IDkuNyAxNCAxMC41VjExLjVNMTkgMTAuNUgxNi41VjEzLjVIMTcuNVYxMkgxOVYxMy43QzE5IDE0LjQgMTguNSAxNSAxNy43IDE1SDE2LjRDMTUuNiAxNSAxNS4xIDE0LjMgMTUuMSAxMy43VjEwLjRDMTUgOS43IDE1LjUgOSAxNi4zIDlIMTcuNkMxOC40IDkgMTguOSA5LjcgMTguOSAxMC4zVjEwLjVNMTEuNSAxMC41SDEyLjVWMTEuNUgxMS41VjEwLjVaIiAvPjwvc3ZnPg==)
 
 -}
-fileImport : IconShape
-fileImport =
-    Material.Icons.Directory.F.fileImport
+fileJpgBox : IconShape
+fileJpgBox =
+    Material.Icons.Directory.F.fileJpgBox
 
 
 {-| The [`file-key`](https://pictogrammers.com/library/mdi/icon/file-key/) icon.
@@ -1440,16 +1450,6 @@ fileKeyOutline =
     Material.Icons.Directory.F.fileKeyOutline
 
 
-{-| The [`file-jpg-box`](https://pictogrammers.com/library/mdi/icon/file-jpg-box/) icon.
-
-![file-jpg-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE5IDNINUMzLjkgMyAzIDMuOSAzIDVWMTlDMyAyMC4xIDMuOSAyMSA1IDIxSDE5QzIwLjEgMjEgMjEgMjAuMSAyMSAxOVY1QzIxIDMuOSAyMC4xIDMgMTkgM005IDEzLjVDOSAxNC42IDguMSAxNSA3IDE1UzUgMTQuNiA1IDEzLjVWMTJINi41VjEzLjVINy41VjlIOVYxMy41TTE0IDExLjVDMTQgMTIuMyAxMy4zIDEzIDEyLjUgMTNIMTEuNVYxNUgxMFY5SDEyLjVDMTMuMyA5IDE0IDkuNyAxNCAxMC41VjExLjVNMTkgMTAuNUgxNi41VjEzLjVIMTcuNVYxMkgxOVYxMy43QzE5IDE0LjQgMTguNSAxNSAxNy43IDE1SDE2LjRDMTUuNiAxNSAxNS4xIDE0LjMgMTUuMSAxMy43VjEwLjRDMTUgOS43IDE1LjUgOSAxNi4zIDlIMTcuNkMxOC40IDkgMTguOSA5LjcgMTguOSAxMC4zVjEwLjVNMTEuNSAxMC41SDEyLjVWMTEuNUgxMS41VjEwLjVaIiAvPjwvc3ZnPg==)
-
--}
-fileJpgBox : IconShape
-fileJpgBox =
-    Material.Icons.Directory.F.fileJpgBox
-
-
 {-| The [`file-link`](https://pictogrammers.com/library/mdi/icon/file-link/) icon.
 
 ![file-link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjg5IDQgNFYyMEM0IDIxLjExIDQuODkgMjIgNiAyMkgxOEMxOS4xMSAyMiAyMCAyMS4xMSAyMCAyMFY4TDE0IDJNMTEgMjBIMTBDOC4zOSAyMCA2IDE4Ljk0IDYgMTZDNiAxMy4wNyA4LjM5IDEyIDEwIDEySDExVjE0SDEwQzkuNTQgMTQgOCAxNC4xNyA4IDE2QzggMTcuOSA5LjY3IDE4IDEwIDE4SDExVjIwTTE1IDE1VjE3SDlWMTVIMTVNMTQgMjBIMTNWMThIMTRDMTQuNDYgMTggMTYgMTcuODMgMTYgMTZDMTYgMTQuMSAxNC4zMyAxNCAxNCAxNEgxM1YxMkgxNEMxNS42MSAxMiAxOCAxMy4wNyAxOCAxNkMxOCAxOC45NCAxNS42MSAyMCAxNCAyME0xMyA5VjMuNUwxOC41IDlIMTNaIiAvPjwvc3ZnPg==)
@@ -1458,16 +1458,6 @@ fileJpgBox =
 fileLink : IconShape
 fileLink =
     Material.Icons.Directory.F.fileLink
-
-
-{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
-
-![file-lock-open-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zTTYgMkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDEyVjIwSDZWNEgxM1Y5SDE4VjEwQzE4LjcgMTAgMTkuNCAxMC4yIDIwIDEwLjRWOEwxNCAySDZaIiAvPjwvc3ZnPg==)
-
--}
-fileLockOpenOutline : IconShape
-fileLockOpenOutline =
-    Material.Icons.Directory.F.fileLockOpenOutline
 
 
 {-| The [`file-link-outline`](https://pictogrammers.com/library/mdi/icon/file-link-outline/) icon.
@@ -1500,14 +1490,24 @@ fileLockOpen =
     Material.Icons.Directory.F.fileLockOpen
 
 
-{-| The [`file-marker-outline`](https://pictogrammers.com/library/mdi/icon/file-marker-outline/) icon.
+{-| The [`file-lock-open-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-open-outline/) icon.
 
-![file-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjU1IDIwQzE1IDIwLjc2IDE1LjUgMjEuNDQgMTUuOTEgMjJINkM0Ljg5IDIyIDQgMjEuMTEgNCAyMFY0QzQgMi45IDQuODkgMiA2IDJIMTRMMjAgOFYxMC4yMkMxOS41IDEwLjA4IDE5IDEwIDE4LjUgMTBDMTguMzMgMTAgMTguMTcgMTAgMTggMTAuMDNWOUgxM1Y0SDZWMjBIMTQuNTVNMjIgMTUuNUMyMiAxOC4xIDE4LjUgMjIgMTguNSAyMlMxNSAxOC4xIDE1IDE1LjVDMTUgMTMuNiAxNi42IDEyIDE4LjUgMTJTMjIgMTMuNiAyMiAxNS41TTE5LjcgMTUuNkMxOS43IDE1IDE5LjEgMTQuNCAxOC41IDE0LjRTMTcuMyAxNC45IDE3LjMgMTUuNkMxNy4zIDE2LjIgMTcuOCAxNi44IDE4LjUgMTYuOFMxOS44IDE2LjIgMTkuNyAxNS42WiIgLz48L3N2Zz4=)
+![file-lock-open-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDE4LjNWMjEuOEMyMiAyMi40IDIxLjQgMjMgMjAuNyAyM0gxNS4yQzE0LjYgMjMgMTQgMjIuNCAxNCAyMS43VjE4LjJDMTQgMTcuNiAxNC42IDE3IDE1LjIgMTdWMTQuNUMxNS4yIDEzLjEgMTYuNiAxMiAxOCAxMlMyMC44IDEzLjEgMjAuOCAxNC41VjE1SDE5LjVWMTQuNUMxOS41IDEzLjcgMTguOCAxMy4yIDE4IDEzLjJTMTYuNSAxMy43IDE2LjUgMTQuNVYxN0gyMC44QzIxLjQgMTcgMjIgMTcuNiAyMiAxOC4zTTYgMkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMS4xIDQuOSAyMiA2IDIySDEyVjIwSDZWNEgxM1Y5SDE4VjEwQzE4LjcgMTAgMTkuNCAxMC4yIDIwIDEwLjRWOEwxNCAySDZaIiAvPjwvc3ZnPg==)
 
 -}
-fileMarkerOutline : IconShape
-fileMarkerOutline =
-    Material.Icons.Directory.F.fileMarkerOutline
+fileLockOpenOutline : IconShape
+fileLockOpenOutline =
+    Material.Icons.Directory.F.fileLockOpenOutline
+
+
+{-| The [`file-lock-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-outline/) icon.
+
+![file-lock-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEzQzE2LjYgMTMgMTUuMiAxNC4xIDE1LjIgMTUuNVYxN0MxNC42IDE3IDE0IDE3LjYgMTQgMTguMlYyMS43QzE0IDIyLjQgMTQuNiAyMyAxNS4yIDIzSDIwLjdDMjEuNCAyMyAyMiAyMi40IDIyIDIxLjhWMTguM0MyMiAxNy42IDIxLjQgMTcgMjAuOCAxN1YxNS41QzIwLjggMTQuMSAxOS40IDEzIDE4IDEzTTE4IDE0LjJDMTguOCAxNC4yIDE5LjUgMTQuNyAxOS41IDE1LjVWMTdIMTYuNVYxNS41QzE2LjUgMTQuNyAxNy4yIDE0LjIgMTggMTQuMk02IDJDNC45IDIgNCAyLjkgNCA0VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxMlYyMEg2VjRIMTNWOUgxOFYxMUMxOC43IDExIDE5LjQgMTEuMiAyMCAxMS40VjhMMTQgMkg2WiIgLz48L3N2Zz4=)
+
+-}
+fileLockOutline : IconShape
+fileLockOutline =
+    Material.Icons.Directory.F.fileLockOutline
 
 
 {-| The [`file-marker`](https://pictogrammers.com/library/mdi/icon/file-marker/) icon.
@@ -1520,14 +1520,14 @@ fileMarker =
     Material.Icons.Directory.F.fileMarker
 
 
-{-| The [`file-minus-outline`](https://pictogrammers.com/library/mdi/icon/file-minus-outline/) icon.
+{-| The [`file-marker-outline`](https://pictogrammers.com/library/mdi/icon/file-marker-outline/) icon.
 
-![file-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjgxIDIySDZDNC44OSAyMiA0IDIxLjExIDQgMjBWNEM0IDIuOSA0Ljg5IDIgNiAySDE0TDIwIDhWMTMuMDlDMTkuNjcgMTMuMDQgMTkuMzQgMTMgMTkgMTNTMTguMzMgMTMuMDQgMTggMTMuMDlWOUgxM1Y0SDZWMjBIMTMuMDlDMTMuMjEgMjAuNzIgMTMuNDYgMjEuMzkgMTMuODEgMjJNMjMgMThIMTVWMjBIMjNWMThaIiAvPjwvc3ZnPg==)
+![file-marker-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LjU1IDIwQzE1IDIwLjc2IDE1LjUgMjEuNDQgMTUuOTEgMjJINkM0Ljg5IDIyIDQgMjEuMTEgNCAyMFY0QzQgMi45IDQuODkgMiA2IDJIMTRMMjAgOFYxMC4yMkMxOS41IDEwLjA4IDE5IDEwIDE4LjUgMTBDMTguMzMgMTAgMTguMTcgMTAgMTggMTAuMDNWOUgxM1Y0SDZWMjBIMTQuNTVNMjIgMTUuNUMyMiAxOC4xIDE4LjUgMjIgMTguNSAyMlMxNSAxOC4xIDE1IDE1LjVDMTUgMTMuNiAxNi42IDEyIDE4LjUgMTJTMjIgMTMuNiAyMiAxNS41TTE5LjcgMTUuNkMxOS43IDE1IDE5LjEgMTQuNCAxOC41IDE0LjRTMTcuMyAxNC45IDE3LjMgMTUuNkMxNy4zIDE2LjIgMTcuOCAxNi44IDE4LjUgMTYuOFMxOS44IDE2LjIgMTkuNyAxNS42WiIgLz48L3N2Zz4=)
 
 -}
-fileMinusOutline : IconShape
-fileMinusOutline =
-    Material.Icons.Directory.F.fileMinusOutline
+fileMarkerOutline : IconShape
+fileMarkerOutline =
+    Material.Icons.Directory.F.fileMarkerOutline
 
 
 {-| The [`file-minus`](https://pictogrammers.com/library/mdi/icon/file-minus/) icon.
@@ -1540,14 +1540,14 @@ fileMinus =
     Material.Icons.Directory.F.fileMinus
 
 
-{-| The [`file-move-outline`](https://pictogrammers.com/library/mdi/icon/file-move-outline/) icon.
+{-| The [`file-minus-outline`](https://pictogrammers.com/library/mdi/icon/file-minus-outline/) icon.
 
-![file-move-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMC40MSA0LjEyIDIwLjggNC4zNCAyMS4xMkM0LjQxIDIxLjIzIDQuNSAyMS4zMyA0LjU5IDIxLjQxQzQuOTUgMjEuNzggNS40NSAyMiA2IDIySDEzLjUzQzEzIDIxLjQyIDEyLjYxIDIwLjc1IDEyLjM1IDIwSDZWNEgxM1Y5SDE4VjEyQzE4LjcgMTIgMTkuMzcgMTIuMTIgMjAgMTIuMzRWOEwxNCAyTTE4IDIzTDIzIDE4LjVMMjAgMTUuOEwxOCAxNFYxN0gxNFYyMEgxOFYyM1oiIC8+PC9zdmc+)
+![file-minus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzLjgxIDIySDZDNC44OSAyMiA0IDIxLjExIDQgMjBWNEM0IDIuOSA0Ljg5IDIgNiAySDE0TDIwIDhWMTMuMDlDMTkuNjcgMTMuMDQgMTkuMzQgMTMgMTkgMTNTMTguMzMgMTMuMDQgMTggMTMuMDlWOUgxM1Y0SDZWMjBIMTMuMDlDMTMuMjEgMjAuNzIgMTMuNDYgMjEuMzkgMTMuODEgMjJNMjMgMThIMTVWMjBIMjNWMThaIiAvPjwvc3ZnPg==)
 
 -}
-fileMoveOutline : IconShape
-fileMoveOutline =
-    Material.Icons.Directory.F.fileMoveOutline
+fileMinusOutline : IconShape
+fileMinusOutline =
+    Material.Icons.Directory.F.fileMinusOutline
 
 
 {-| The [`file-move`](https://pictogrammers.com/library/mdi/icon/file-move/) icon.
@@ -1560,14 +1560,24 @@ fileMove =
     Material.Icons.Directory.F.fileMove
 
 
-{-| The [`file-lock-outline`](https://pictogrammers.com/library/mdi/icon/file-lock-outline/) icon.
+{-| The [`file-move-outline`](https://pictogrammers.com/library/mdi/icon/file-move-outline/) icon.
 
-![file-lock-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDEzQzE2LjYgMTMgMTUuMiAxNC4xIDE1LjIgMTUuNVYxN0MxNC42IDE3IDE0IDE3LjYgMTQgMTguMlYyMS43QzE0IDIyLjQgMTQuNiAyMyAxNS4yIDIzSDIwLjdDMjEuNCAyMyAyMiAyMi40IDIyIDIxLjhWMTguM0MyMiAxNy42IDIxLjQgMTcgMjAuOCAxN1YxNS41QzIwLjggMTQuMSAxOS40IDEzIDE4IDEzTTE4IDE0LjJDMTguOCAxNC4yIDE5LjUgMTQuNyAxOS41IDE1LjVWMTdIMTYuNVYxNS41QzE2LjUgMTQuNyAxNy4yIDE0LjIgMTggMTQuMk02IDJDNC45IDIgNCAyLjkgNCA0VjIwQzQgMjEuMSA0LjkgMjIgNiAyMkgxMlYyMEg2VjRIMTNWOUgxOFYxMUMxOC43IDExIDE5LjQgMTEuMiAyMCAxMS40VjhMMTQgMkg2WiIgLz48L3N2Zz4=)
+![file-move-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0IDJINkM0LjkgMiA0IDIuOSA0IDRWMjBDNCAyMC40MSA0LjEyIDIwLjggNC4zNCAyMS4xMkM0LjQxIDIxLjIzIDQuNSAyMS4zMyA0LjU5IDIxLjQxQzQuOTUgMjEuNzggNS40NSAyMiA2IDIySDEzLjUzQzEzIDIxLjQyIDEyLjYxIDIwLjc1IDEyLjM1IDIwSDZWNEgxM1Y5SDE4VjEyQzE4LjcgMTIgMTkuMzcgMTIuMTIgMjAgMTIuMzRWOEwxNCAyTTE4IDIzTDIzIDE4LjVMMjAgMTUuOEwxOCAxNFYxN0gxNFYyMEgxOFYyM1oiIC8+PC9zdmc+)
 
 -}
-fileLockOutline : IconShape
-fileLockOutline =
-    Material.Icons.Directory.F.fileLockOutline
+fileMoveOutline : IconShape
+fileMoveOutline =
+    Material.Icons.Directory.F.fileMoveOutline
+
+
+{-| The [`file-multiple`](https://pictogrammers.com/library/mdi/icon/file-multiple/) icon.
+
+![file-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDdIMjAuNUwxNSwxLjVWN004LDBIMTZMMjIsNlYxOEEyLDIgMCAwLDEgMjAsMjBIOEM2Ljg5LDIwIDYsMTkuMSA2LDE4VjJBMiwyIDAgMCwxIDgsME00LDRWMjJIMjBWMjRINEEyLDIgMCAwLDEgMiwyMlY0SDRaIiAvPjwvc3ZnPg==)
+
+-}
+fileMultiple : IconShape
+fileMultiple =
+    Material.Icons.Directory.F.fileMultiple
 
 
 {-| The [`file-multiple-outline`](https://pictogrammers.com/library/mdi/icon/file-multiple-outline/) icon.
@@ -1590,14 +1600,14 @@ fileMusic =
     Material.Icons.Directory.F.fileMusic
 
 
-{-| The [`file-multiple`](https://pictogrammers.com/library/mdi/icon/file-multiple/) icon.
+{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
 
-![file-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE1LDdIMjAuNUwxNSwxLjVWN004LDBIMTZMMjIsNlYxOEEyLDIgMCAwLDEgMjAsMjBIOEM2Ljg5LDIwIDYsMTkuMSA2LDE4VjJBMiwyIDAgMCwxIDgsME00LDRWMjJIMjBWMjRINEEyLDIgMCAwLDEgMiwyMlY0SDRaIiAvPjwvc3ZnPg==)
+![file-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDJMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkEyLDIgMCAwLDEgNCwyMFY0QTIsMiAwIDAsMSA2LDJIMTRNMTgsMjBWOUgxM1Y0SDZWMjBIMThNMTMsMTBWMTJIMTFWMTdBMiwyIDAgMCwxIDksMTlBMiwyIDAgMCwxIDcsMTdBMiwyIDAgMCwxIDksMTVDOS40LDE1IDkuNywxNS4xIDEwLDE1LjNWMTBIMTNaIiAvPjwvc3ZnPg==)
 
 -}
-fileMultiple : IconShape
-fileMultiple =
-    Material.Icons.Directory.F.fileMultiple
+fileMusicOutline : IconShape
+fileMusicOutline =
+    Material.Icons.Directory.F.fileMusicOutline
 
 
 {-| The [`file-outline`](https://pictogrammers.com/library/mdi/icon/file-outline/) icon.
@@ -1608,16 +1618,6 @@ fileMultiple =
 fileOutline : IconShape
 fileOutline =
     Material.Icons.Directory.F.fileOutline
-
-
-{-| The [`file-music-outline`](https://pictogrammers.com/library/mdi/icon/file-music-outline/) icon.
-
-![file-music-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDJMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkEyLDIgMCAwLDEgNCwyMFY0QTIsMiAwIDAsMSA2LDJIMTRNMTgsMjBWOUgxM1Y0SDZWMjBIMThNMTMsMTBWMTJIMTFWMTdBMiwyIDAgMCwxIDksMTlBMiwyIDAgMCwxIDcsMTdBMiwyIDAgMCwxIDksMTVDOS40LDE1IDkuNywxNS4xIDEwLDE1LjNWMTBIMTNaIiAvPjwvc3ZnPg==)
-
--}
-fileMusicOutline : IconShape
-fileMusicOutline =
-    Material.Icons.Directory.F.fileMusicOutline
 
 
 {-| The [`file-pdf-box`](https://pictogrammers.com/library/mdi/icon/file-pdf-box/) icon.
@@ -2560,16 +2560,6 @@ folderFileOutline =
     Material.Icons.Directory.F.folderFileOutline
 
 
-{-| The [`folder-heart-outline`](https://pictogrammers.com/library/mdi/icon/folder-heart-outline/) icon.
-
-![folder-heart-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE4SDRWOEgyME0yMCA2SDEyTDEwIDRINEMyLjg5IDQgMiA0Ljg5IDIgNlYxOEMyIDE5LjEgMi45IDIwIDQgMjBIMjBDMjEuMSAyMCAyMiAxOS4xIDIyIDE4VjhDMjIgNi44OSAyMS4xIDYgMjAgNk0xMyAxMEMxMS45IDEwIDExIDEwLjkyIDExIDEyLjA1QzExIDEyLjYyIDExLjIyIDEzLjEyIDExLjU5IDEzLjVMMTUgMTdMMTguNDIgMTMuNUMxOC43OCAxMy4xMyAxOSAxMi42MSAxOSAxMi4wNUMxOSAxMC45MiAxOC4xIDEwIDE3IDEwQzE2LjQ2IDEwIDE1Ljk1IDEwLjIzIDE1LjU5IDEwLjZMMTUgMTEuMkwxNC40MiAxMC42MUMxNC4wNSAxMC4yMyAxMy41NCAxMCAxMyAxMFoiIC8+PC9zdmc+)
-
--}
-folderHeartOutline : IconShape
-folderHeartOutline =
-    Material.Icons.Directory.F.folderHeartOutline
-
-
 {-| The [`folder-heart`](https://pictogrammers.com/library/mdi/icon/folder-heart/) icon.
 
 ![folder-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDZIMTJMMTAgNEg0QzIuODkgNCAyIDQuODkgMiA2VjE4QzIgMTkuMSAyLjg5IDIwIDQgMjBIMjBDMjEuMSAyMCAyMiAxOS4xIDIyIDE4VjhDMjIgNi45IDIxLjEgNiAyMCA2TTE4LjQyIDEzLjVMMTUgMTdMMTEuNTkgMTMuNUMxMS4yMiAxMy4xMiAxMSAxMi42MiAxMSAxMi4wNUMxMSAxMC45MiAxMS45IDEwIDEzIDEwQzEzLjU0IDEwIDE0LjA1IDEwLjIzIDE0LjQyIDEwLjYxTDE1IDExLjJMMTUuNTkgMTAuNkMxNS45NSAxMC4yMyAxNi40NiAxMCAxNyAxMEMxOC4xIDEwIDE5IDEwLjkyIDE5IDEyLjA1QzE5IDEyLjYxIDE4Ljc4IDEzLjEzIDE4LjQyIDEzLjVaIiAvPjwvc3ZnPg==)
@@ -2578,6 +2568,16 @@ folderHeartOutline =
 folderHeart : IconShape
 folderHeart =
     Material.Icons.Directory.F.folderHeart
+
+
+{-| The [`folder-heart-outline`](https://pictogrammers.com/library/mdi/icon/folder-heart-outline/) icon.
+
+![folder-heart-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE4SDRWOEgyME0yMCA2SDEyTDEwIDRINEMyLjg5IDQgMiA0Ljg5IDIgNlYxOEMyIDE5LjEgMi45IDIwIDQgMjBIMjBDMjEuMSAyMCAyMiAxOS4xIDIyIDE4VjhDMjIgNi44OSAyMS4xIDYgMjAgNk0xMyAxMEMxMS45IDEwIDExIDEwLjkyIDExIDEyLjA1QzExIDEyLjYyIDExLjIyIDEzLjEyIDExLjU5IDEzLjVMMTUgMTdMMTguNDIgMTMuNUMxOC43OCAxMy4xMyAxOSAxMi42MSAxOSAxMi4wNUMxOSAxMC45MiAxOC4xIDEwIDE3IDEwQzE2LjQ2IDEwIDE1Ljk1IDEwLjIzIDE1LjU5IDEwLjZMMTUgMTEuMkwxNC40MiAxMC42MUMxNC4wNSAxMC4yMyAxMy41NCAxMCAxMyAxMFoiIC8+PC9zdmc+)
+
+-}
+folderHeartOutline : IconShape
+folderHeartOutline =
+    Material.Icons.Directory.F.folderHeartOutline
 
 
 {-| The [`folder-hidden`](https://pictogrammers.com/library/mdi/icon/folder-hidden/) icon.
@@ -2610,16 +2610,6 @@ folderHomeOutline =
     Material.Icons.Directory.F.folderHomeOutline
 
 
-{-| The [`folder-information`](https://pictogrammers.com/library/mdi/icon/folder-information/) icon.
-
-![folder-information](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDExLjFWOEMyMSA2LjkgMjAuMSA2IDE5IDZIMTFMOSA0SDNDMS45IDQgMSA0LjkgMSA2VjE4QzEgMTkuMSAxLjkgMjAgMyAyMEgxMC4zQzExLjYgMjEuOSAxMy44IDIzIDE2IDIzQzE5LjkgMjMgMjMgMTkuOSAyMyAxNkMyMyAxNC4yIDIyLjMgMTIuNCAyMSAxMS4xTTE2IDIxQzEzLjIgMjEgMTEgMTguOCAxMSAxNlMxMy4yIDExIDE2IDExIDIxIDEzLjIgMjEgMTYgMTguOCAyMSAxNiAyMU0xNyAyMEgxNVYxNUgxN1YyME0xNyAxNEgxNVYxMkgxN1YxNFoiIC8+PC9zdmc+)
-
--}
-folderInformation : IconShape
-folderInformation =
-    Material.Icons.Directory.F.folderInformation
-
-
 {-| The [`folder-image`](https://pictogrammers.com/library/mdi/icon/folder-image/) icon.
 
 ![folder-image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTUsMTdMOS41LDExTDEzLDE1LjVMMTUuNSwxMi41TDE5LDE3TTIwLDZIMTJMMTAsNEg0QTIsMiAwIDAsMCAyLDZWMThBMiwyIDAgMCwwIDQsMjBIMjBBMiwyIDAgMCwwIDIyLDE4VjhBMiwyIDAgMCwwIDIwLDZaIiAvPjwvc3ZnPg==)
@@ -2628,6 +2618,16 @@ folderInformation =
 folderImage : IconShape
 folderImage =
     Material.Icons.Directory.F.folderImage
+
+
+{-| The [`folder-information`](https://pictogrammers.com/library/mdi/icon/folder-information/) icon.
+
+![folder-information](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxIDExLjFWOEMyMSA2LjkgMjAuMSA2IDE5IDZIMTFMOSA0SDNDMS45IDQgMSA0LjkgMSA2VjE4QzEgMTkuMSAxLjkgMjAgMyAyMEgxMC4zQzExLjYgMjEuOSAxMy44IDIzIDE2IDIzQzE5LjkgMjMgMjMgMTkuOSAyMyAxNkMyMyAxNC4yIDIyLjMgMTIuNCAyMSAxMS4xTTE2IDIxQzEzLjIgMjEgMTEgMTguOCAxMSAxNlMxMy4yIDExIDE2IDExIDIxIDEzLjIgMjEgMTYgMTguOCAyMSAxNiAyMU0xNyAyMEgxNVYxNUgxN1YyME0xNyAxNEgxNVYxMkgxN1YxNFoiIC8+PC9zdmc+)
+
+-}
+folderInformation : IconShape
+folderInformation =
+    Material.Icons.Directory.F.folderInformation
 
 
 {-| The [`folder-information-outline`](https://pictogrammers.com/library/mdi/icon/folder-information-outline/) icon.
@@ -2660,16 +2660,6 @@ folderKeyNetwork =
     Material.Icons.Directory.F.folderKeyNetwork
 
 
-{-| The [`folder-key-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-outline/) icon.
-
-![folder-key-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE4SDRWOEgyME0yMCA2SDEyTDEwIDRINEMyLjkgNCAyIDQuOSAyIDZWMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY4QzIyIDYuOSAyMS4xIDYgMjAgNk0xMi44IDEyQzEyLjQgMTAuOCAxMS4zIDEwIDEwIDEwQzguMyAxMCA3IDExLjMgNyAxM1M4LjMgMTYgMTAgMTZDMTEuMyAxNiAxMi40IDE1LjIgMTIuOCAxNEgxNVYxNkgxN1YxNEgxOVYxMkgxMi44TTEwIDE0QzkuNCAxNCA5IDEzLjYgOSAxM0M5IDEyLjQgOS40IDEyIDEwIDEyUzExIDEyLjQgMTEgMTMgMTAuNiAxNCAxMCAxNFoiIC8+PC9zdmc+)
-
--}
-folderKeyOutline : IconShape
-folderKeyOutline =
-    Material.Icons.Directory.F.folderKeyOutline
-
-
 {-| The [`folder-key-network-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-network-outline/) icon.
 
 ![folder-key-network-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTkgOEM3LjMgOCA2IDkuMyA2IDExUzcuMyAxNCA5IDE0QzEwLjMgMTQgMTEuNCAxMy4yIDExLjggMTJIMTRWMTRIMTZWMTJIMThWMTBIMTEuOEMxMS40IDguOCAxMC4zIDggOSA4TTkgMTJDOC40IDEyIDggMTEuNiA4IDExUzguNCAxMCA5IDEwIDEwIDEwLjQgMTAgMTEgOS42IDEyIDkgMTJNMTUgMjBDMTUgMTkuNSAxNC42IDE5IDE0IDE5SDEzVjE3SDE5QzIwLjEgMTcgMjEgMTYuMSAyMSAxNVY3QzIxIDUuOSAyMC4xIDUgMTkgNUgxM0wxMSAzSDVDMy45IDMgMyAzLjkgMyA1VjE1QzMgMTYuMSAzLjkgMTcgNSAxN0gxMVYxOUgxMEM5LjQgMTkgOSAxOS41IDkgMjBIMlYyMkg5QzkgMjIuNSA5LjQgMjMgMTAgMjNIMTRDMTQuNiAyMyAxNSAyMi41IDE1IDIySDIyVjIwSDE1TTUgMTVWN0gxOVYxNUg1WiIgLz48L3N2Zz4=)
@@ -2678,6 +2668,16 @@ folderKeyOutline =
 folderKeyNetworkOutline : IconShape
 folderKeyNetworkOutline =
     Material.Icons.Directory.F.folderKeyNetworkOutline
+
+
+{-| The [`folder-key-outline`](https://pictogrammers.com/library/mdi/icon/folder-key-outline/) icon.
+
+![folder-key-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE4SDRWOEgyME0yMCA2SDEyTDEwIDRINEMyLjkgNCAyIDQuOSAyIDZWMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY4QzIyIDYuOSAyMS4xIDYgMjAgNk0xMi44IDEyQzEyLjQgMTAuOCAxMS4zIDEwIDEwIDEwQzguMyAxMCA3IDExLjMgNyAxM1M4LjMgMTYgMTAgMTZDMTEuMyAxNiAxMi40IDE1LjIgMTIuOCAxNEgxNVYxNkgxN1YxNEgxOVYxMkgxMi44TTEwIDE0QzkuNCAxNCA5IDEzLjYgOSAxM0M5IDEyLjQgOS40IDEyIDEwIDEyUzExIDEyLjQgMTEgMTMgMTAuNiAxNCAxMCAxNFoiIC8+PC9zdmc+)
+
+-}
+folderKeyOutline : IconShape
+folderKeyOutline =
+    Material.Icons.Directory.F.folderKeyOutline
 
 
 {-| The [`folder-lock`](https://pictogrammers.com/library/mdi/icon/folder-lock/) icon.
@@ -2800,16 +2800,6 @@ folderMultipleImage =
     Material.Icons.Directory.F.folderMultipleImage
 
 
-{-| The [`folder-multiple-plus`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus/) icon.
-
-![folder-multiple-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMjBWNkgwVjIwQzAgMjEuMSAuOSAyMiAyIDIySDIwVjIwSDJNMjIgNEgxNEwxMiAySDZDNS42IDIgNS4yIDIuMSA0LjkgMi4zTDQuMyAyLjlDNC4xIDMuMiA0IDMuNiA0IDRWMTZDNCAxNi40IDQuMSAxNi44IDQuMyAxNy4xQzQuNCAxNy4yIDQuNSAxNy4zIDQuNSAxNy40QzUgMTcuOCA1LjUgMTggNiAxOEgyMkMyMy4xIDE4IDI0IDE3LjEgMjQgMTZWNkMyNCA0LjkgMjMuMSA0IDIyIDRNMjIgMTJIMTlWMTVIMTdWMTJIMTRWMTBIMTdWN0gxOVYxMEgyMlYxMloiIC8+PC9zdmc+)
-
--}
-folderMultiplePlus : IconShape
-folderMultiplePlus =
-    Material.Icons.Directory.F.folderMultiplePlus
-
-
 {-| The [`folder-multiple-outline`](https://pictogrammers.com/library/mdi/icon/folder-multiple-outline/) icon.
 
 ![folder-multiple-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLDRBMiwyIDAgMCwxIDI0LDZWMTZBMiwyIDAgMCwxIDIyLDE4SDZBMiwyIDAgMCwxIDQsMTZWNEEyLDIgMCAwLDEgNiwySDEyTDE0LDRIMjJNMiw2VjIwSDIwVjIySDJBMiwyIDAgMCwxIDAsMjBWMTFIMFY2SDJNNiw2VjE2SDIyVjZINloiIC8+PC9zdmc+)
@@ -2820,14 +2810,14 @@ folderMultipleOutline =
     Material.Icons.Directory.F.folderMultipleOutline
 
 
-{-| The [`folder-music`](https://pictogrammers.com/library/mdi/icon/folder-music/) icon.
+{-| The [`folder-multiple-plus`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus/) icon.
 
-![folder-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTFIMTYuNVYxNi4xMUMxNC42NiAxNi41MyAxMy4yNiAxOC4wOSAxMy4wNCAyMEg0QzIuOSAyMCAyIDE5LjExIDIgMThWNkMyIDQuODkgMi44OSA0IDQgNEgxMEwxMiA2SDIwQzIxLjEgNiAyMiA2Ljg5IDIyIDhNMTguNSAxM1YxOC4yMUMxOC4xOSAxOC4wNyAxNy44NiAxOCAxNy41IDE4QzE2LjEyIDE4IDE1IDE5LjEyIDE1IDIwLjVTMTYuMTIgMjMgMTcuNSAyMyAyMCAyMS44OCAyMCAyMC41VjE1SDIyVjEzSDE4LjVaIiAvPjwvc3ZnPg==)
+![folder-multiple-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIgMjBWNkgwVjIwQzAgMjEuMSAuOSAyMiAyIDIySDIwVjIwSDJNMjIgNEgxNEwxMiAySDZDNS42IDIgNS4yIDIuMSA0LjkgMi4zTDQuMyAyLjlDNC4xIDMuMiA0IDMuNiA0IDRWMTZDNCAxNi40IDQuMSAxNi44IDQuMyAxNy4xQzQuNCAxNy4yIDQuNSAxNy4zIDQuNSAxNy40QzUgMTcuOCA1LjUgMTggNiAxOEgyMkMyMy4xIDE4IDI0IDE3LjEgMjQgMTZWNkMyNCA0LjkgMjMuMSA0IDIyIDRNMjIgMTJIMTlWMTVIMTdWMTJIMTRWMTBIMTdWN0gxOVYxMEgyMlYxMloiIC8+PC9zdmc+)
 
 -}
-folderMusic : IconShape
-folderMusic =
-    Material.Icons.Directory.F.folderMusic
+folderMultiplePlus : IconShape
+folderMultiplePlus =
+    Material.Icons.Directory.F.folderMultiplePlus
 
 
 {-| The [`folder-multiple-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-multiple-plus-outline/) icon.
@@ -2838,6 +2828,16 @@ folderMusic =
 folderMultiplePlusOutline : IconShape
 folderMultiplePlusOutline =
     Material.Icons.Directory.F.folderMultiplePlusOutline
+
+
+{-| The [`folder-music`](https://pictogrammers.com/library/mdi/icon/folder-music/) icon.
+
+![folder-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTFIMTYuNVYxNi4xMUMxNC42NiAxNi41MyAxMy4yNiAxOC4wOSAxMy4wNCAyMEg0QzIuOSAyMCAyIDE5LjExIDIgMThWNkMyIDQuODkgMi44OSA0IDQgNEgxMEwxMiA2SDIwQzIxLjEgNiAyMiA2Ljg5IDIyIDhNMTguNSAxM1YxOC4yMUMxOC4xOSAxOC4wNyAxNy44NiAxOCAxNy41IDE4QzE2LjEyIDE4IDE1IDE5LjEyIDE1IDIwLjVTMTYuMTIgMjMgMTcuNSAyMyAyMCAyMS44OCAyMCAyMC41VjE1SDIyVjEzSDE4LjVaIiAvPjwvc3ZnPg==)
+
+-}
+folderMusic : IconShape
+folderMusic =
+    Material.Icons.Directory.F.folderMusic
 
 
 {-| The [`folder-music-outline`](https://pictogrammers.com/library/mdi/icon/folder-music-outline/) icon.
@@ -2870,16 +2870,6 @@ folderNetworkOutline =
     Material.Icons.Directory.F.folderNetworkOutline
 
 
-{-| The [`folder-off-outline`](https://pictogrammers.com/library/mdi/icon/folder-off-outline/) icon.
-
-![folder-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzkgMS43M0wxLjExIDNMMi42NCA0LjUzQzIuMjUgNC45IDIgNS40MiAyIDZWMThDMiAxOS4xMSAyLjkgMjAgNCAyMEgxOC4xMUwyMC44NCAyMi43M0wyMi4xMSAyMS40NkwyLjM5IDEuNzNNNCAxOFY4SDYuMTFMMTYuMTEgMThINE0xMS4yIDhMNy4yIDRIMTBMMTIgNkgyMEMyMS4xIDYgMjIgNi44OSAyMiA4VjE4QzIyIDE4LjI0IDIxLjk2IDE4LjQ3IDIxLjg4IDE4LjY4TDIwIDE2LjhWOEgxMS4yWiIgLz48L3N2Zz4=)
-
--}
-folderOffOutline : IconShape
-folderOffOutline =
-    Material.Icons.Directory.F.folderOffOutline
-
-
 {-| The [`folder-off`](https://pictogrammers.com/library/mdi/icon/folder-off/) icon.
 
 ![folder-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyLjExIDIxLjQ2TDIwLjg0IDIyLjczTDE4LjExIDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNS40MiAyLjI1IDQuOSAyLjY0IDQuNTNMMS4xMSAzTDIuMzkgMS43M0wyMi4xMSAyMS40Nk0yMiAxOFY4QzIyIDYuODkgMjEuMSA2IDIwIDZIMTJMMTAgNEg3LjJMMjEuODggMTguNjhDMjEuOTYgMTguNDcgMjIgMTguMjQgMjIgMThaIiAvPjwvc3ZnPg==)
@@ -2888,6 +2878,16 @@ folderOffOutline =
 folderOff : IconShape
 folderOff =
     Material.Icons.Directory.F.folderOff
+
+
+{-| The [`folder-off-outline`](https://pictogrammers.com/library/mdi/icon/folder-off-outline/) icon.
+
+![folder-off-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIuMzkgMS43M0wxLjExIDNMMi42NCA0LjUzQzIuMjUgNC45IDIgNS40MiAyIDZWMThDMiAxOS4xMSAyLjkgMjAgNCAyMEgxOC4xMUwyMC44NCAyMi43M0wyMi4xMSAyMS40NkwyLjM5IDEuNzNNNCAxOFY4SDYuMTFMMTYuMTEgMThINE0xMS4yIDhMNy4yIDRIMTBMMTIgNkgyMEMyMS4xIDYgMjIgNi44OSAyMiA4VjE4QzIyIDE4LjI0IDIxLjk2IDE4LjQ3IDIxLjg4IDE4LjY4TDIwIDE2LjhWOEgxMS4yWiIgLz48L3N2Zz4=)
+
+-}
+folderOffOutline : IconShape
+folderOffOutline =
+    Material.Icons.Directory.F.folderOffOutline
 
 
 {-| The [`folder-open`](https://pictogrammers.com/library/mdi/icon/folder-open/) icon.
@@ -2910,16 +2910,6 @@ folderOpenOutline =
     Material.Icons.Directory.F.folderOpenOutline
 
 
-{-| The [`folder-play`](https://pictogrammers.com/library/mdi/icon/folder-play/) icon.
-
-![folder-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTMuODFDMjEuMTIgMTMuMyAyMC4xIDEzIDE5IDEzQzE1LjY5IDEzIDEzIDE1LjY5IDEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOE0xNyAyMkwyMiAxOUwxNyAxNlYyMloiIC8+PC9zdmc+)
-
--}
-folderPlay : IconShape
-folderPlay =
-    Material.Icons.Directory.F.folderPlay
-
-
 {-| The [`folder-outline`](https://pictogrammers.com/library/mdi/icon/folder-outline/) icon.
 
 ![folder-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwLDE4SDRWOEgyME0yMCw2SDEyTDEwLDRINEMyLjg5LDQgMiw0Ljg5IDIsNlYxOEEyLDIgMCAwLDAgNCwyMEgyMEEyLDIgMCAwLDAgMjIsMThWOEMyMiw2Ljg5IDIxLjEsNiAyMCw2WiIgLz48L3N2Zz4=)
@@ -2928,6 +2918,16 @@ folderPlay =
 folderOutline : IconShape
 folderOutline =
     Material.Icons.Directory.F.folderOutline
+
+
+{-| The [`folder-play`](https://pictogrammers.com/library/mdi/icon/folder-play/) icon.
+
+![folder-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIyIDhWMTMuODFDMjEuMTIgMTMuMyAyMC4xIDEzIDE5IDEzQzE1LjY5IDEzIDEzIDE1LjY5IDEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOE0xNyAyMkwyMiAxOUwxNyAxNlYyMloiIC8+PC9zdmc+)
+
+-}
+folderPlay : IconShape
+folderPlay =
+    Material.Icons.Directory.F.folderPlay
 
 
 {-| The [`folder-play-outline`](https://pictogrammers.com/library/mdi/icon/folder-play-outline/) icon.
@@ -2940,16 +2940,6 @@ folderPlayOutline =
     Material.Icons.Directory.F.folderPlayOutline
 
 
-{-| The [`folder-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-plus-outline/) icon.
-
-![folder-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOFYxMy44MUMyMS4zOSAxMy40NiAyMC43MiAxMy4yMiAyMCAxMy4wOVY4SDRWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
-
--}
-folderPlusOutline : IconShape
-folderPlusOutline =
-    Material.Icons.Directory.F.folderPlusOutline
-
-
 {-| The [`folder-plus`](https://pictogrammers.com/library/mdi/icon/folder-plus/) icon.
 
 ![folder-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOFYxMy44MUMyMS4xMiAxMy4zIDIwLjEgMTMgMTkgMTNDMTUuNjkgMTMgMTMgMTUuNjkgMTMgMTlNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
@@ -2958,6 +2948,16 @@ folderPlusOutline =
 folderPlus : IconShape
 folderPlus =
     Material.Icons.Directory.F.folderPlus
+
+
+{-| The [`folder-plus-outline`](https://pictogrammers.com/library/mdi/icon/folder-plus-outline/) icon.
+
+![folder-plus-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEzIDE5QzEzIDE5LjM0IDEzLjA0IDE5LjY3IDEzLjA5IDIwSDRDMi45IDIwIDIgMTkuMTEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwTDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOFYxMy44MUMyMS4zOSAxMy40NiAyMC43MiAxMy4yMiAyMCAxMy4wOVY4SDRWMThIMTMuMDlDMTMuMDQgMTguMzMgMTMgMTguNjYgMTMgMTlNMjAgMThWMTVIMThWMThIMTVWMjBIMThWMjNIMjBWMjBIMjNWMThIMjBaIiAvPjwvc3ZnPg==)
+
+-}
+folderPlusOutline : IconShape
+folderPlusOutline =
+    Material.Icons.Directory.F.folderPlusOutline
 
 
 {-| The [`folder-pound`](https://pictogrammers.com/library/mdi/icon/folder-pound/) icon.
@@ -2990,16 +2990,6 @@ folderQuestion =
     Material.Icons.Directory.F.folderQuestion
 
 
-{-| The [`folder-refresh`](https://pictogrammers.com/library/mdi/icon/folder-refresh/) icon.
-
-![folder-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0LjVDMTkuMTEgMTQuNSAyMC4xMSAxNC45NSAyMC44MyAxNS42N0wyMiAxNC41VjE4LjVIMThMMTkuNzcgMTYuNzNDMTkuMzIgMTYuMjggMTguNjkgMTYgMTggMTZDMTYuNjIgMTYgMTUuNSAxNy4xMiAxNS41IDE4LjVDMTUuNSAxOS44OCAxNi42MiAyMSAxOCAyMUMxOC44MiAyMSAxOS41NCAyMC42MSAyMCAyMEgyMS43MUMyMS4xMiAyMS40NyAxOS42OCAyMi41IDE4IDIyLjVDMTUuNzkgMjIuNSAxNCAyMC43MSAxNCAxOC41QzE0IDE2LjI5IDE1Ljc5IDE0LjUgMTggMTQuNU0xMCA0TDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOFYxM0MyMSAxMi4zOCAxOS43OSAxMiAxOC41IDEyQzE0LjkxIDEyIDEyIDE0LjkxIDEyIDE4LjVDMTIgMTkgMTIuMDYgMTkuNSAxMi4xNyAyMEg0QzIuODkgMjAgMiAxOS4xIDIgMThMMiA2QzIgNC44OSAyLjg5IDQgNCA0SDEwWiIgLz48L3N2Zz4=)
-
--}
-folderRefresh : IconShape
-folderRefresh =
-    Material.Icons.Directory.F.folderRefresh
-
-
 {-| The [`folder-question-outline`](https://pictogrammers.com/library/mdi/icon/folder-question-outline/) icon.
 
 ![folder-question-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIwIDE4SDRWOEgyME0yMCA2SDEyTDEwIDRINEMyLjkgNCAyIDQuOSAyIDZWMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY4QzIyIDYuOSAyMS4xIDYgMjAgNk0xOSAxMS43QzE5IDEzLjQgMTcgMTMuNSAxNyAxNUgxNS43QzE1LjcgMTIuOCAxNy43IDEzIDE3LjcgMTEuN0MxNy43IDExIDE3LjEgMTAuNCAxNi40IDEwLjRDMTUuNyAxMC40IDE1LjEgMTEgMTUuMSAxMS43SDEzLjhDMTMuOCAxMC4yIDE1IDkgMTYuNSA5UzE5IDEwLjIgMTkgMTEuN00xNyAxNS43VjE3SDE1LjdWMTUuN0gxN1oiIC8+PC9zdmc+)
@@ -3008,6 +2998,16 @@ folderRefresh =
 folderQuestionOutline : IconShape
 folderQuestionOutline =
     Material.Icons.Directory.F.folderQuestionOutline
+
+
+{-| The [`folder-refresh`](https://pictogrammers.com/library/mdi/icon/folder-refresh/) icon.
+
+![folder-refresh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE4IDE0LjVDMTkuMTEgMTQuNSAyMC4xMSAxNC45NSAyMC44MyAxNS42N0wyMiAxNC41VjE4LjVIMThMMTkuNzcgMTYuNzNDMTkuMzIgMTYuMjggMTguNjkgMTYgMTggMTZDMTYuNjIgMTYgMTUuNSAxNy4xMiAxNS41IDE4LjVDMTUuNSAxOS44OCAxNi42MiAyMSAxOCAyMUMxOC44MiAyMSAxOS41NCAyMC42MSAyMCAyMEgyMS43MUMyMS4xMiAyMS40NyAxOS42OCAyMi41IDE4IDIyLjVDMTUuNzkgMjIuNSAxNCAyMC43MSAxNCAxOC41QzE0IDE2LjI5IDE1Ljc5IDE0LjUgMTggMTQuNU0xMCA0TDEyIDZIMjBDMjEuMSA2IDIyIDYuODkgMjIgOFYxM0MyMSAxMi4zOCAxOS43OSAxMiAxOC41IDEyQzE0LjkxIDEyIDEyIDE0LjkxIDEyIDE4LjVDMTIgMTkgMTIuMDYgMTkuNSAxMi4xNyAyMEg0QzIuODkgMjAgMiAxOS4xIDIgMThMMiA2QzIgNC44OSAyLjg5IDQgNCA0SDEwWiIgLz48L3N2Zz4=)
+
+-}
+folderRefresh : IconShape
+folderRefresh =
+    Material.Icons.Directory.F.folderRefresh
 
 
 {-| The [`folder-refresh-outline`](https://pictogrammers.com/library/mdi/icon/folder-refresh-outline/) icon.

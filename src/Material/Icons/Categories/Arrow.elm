@@ -37,8 +37,8 @@ module Material.Icons.Categories.Arrow exposing
     , arrowDownBoldHexagonOutline
     , arrowDownBoldOutline
     , arrowDownBox
-    , arrowDownCircleOutline
     , arrowDownCircle
+    , arrowDownCircleOutline
     , arrowDownDropCircle
     , arrowDownDropCircleOutline
     , arrowDownLeft
@@ -271,8 +271,8 @@ module Material.Icons.Categories.Arrow exposing
 @docs arrowDownBoldHexagonOutline
 @docs arrowDownBoldOutline
 @docs arrowDownBox
-@docs arrowDownCircleOutline
 @docs arrowDownCircle
+@docs arrowDownCircleOutline
 @docs arrowDownDropCircle
 @docs arrowDownDropCircleOutline
 @docs arrowDownLeft
@@ -821,16 +821,6 @@ arrowDownBox =
     Material.Icons.Directory.A.arrowDownBox
 
 
-{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
-
-![arrow-down-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDZIMTNWMTRMMTYuNSwxMC41TDE3LjkyLDExLjkyTDEyLDE3Ljg0TDYuMDgsMTEuOTJMNy41LDEwLjVMMTEsMTRWNk0xMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJNMTIsMjBBOCw4IDAgMCwwIDIwLDEyQTgsOCAwIDAsMCAxMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMFoiIC8+PC9zdmc+)
-
--}
-arrowDownCircleOutline : IconShape
-arrowDownCircleOutline =
-    Material.Icons.Directory.A.arrowDownCircleOutline
-
-
 {-| The [`arrow-down-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle/) icon.
 
 ![arrow-down-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDZWMTRMNy41LDEwLjVMNi4wOCwxMS45MkwxMiwxNy44NEwxNy45MiwxMS45MkwxNi41LDEwLjVMMTMsMTRWNkgxMU0xMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJaIiAvPjwvc3ZnPg==)
@@ -839,6 +829,16 @@ arrowDownCircleOutline =
 arrowDownCircle : IconShape
 arrowDownCircle =
     Material.Icons.Directory.A.arrowDownCircle
+
+
+{-| The [`arrow-down-circle-outline`](https://pictogrammers.com/library/mdi/icon/arrow-down-circle-outline/) icon.
+
+![arrow-down-circle-outline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTExLDZIMTNWMTRMMTYuNSwxMC41TDE3LjkyLDExLjkyTDEyLDE3Ljg0TDYuMDgsMTEuOTJMNy41LDEwLjVMMTEsMTRWNk0xMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJBMTAsMTAgMCAwLDEgMjIsMTJBMTAsMTAgMCAwLDEgMTIsMjJNMTIsMjBBOCw4IDAgMCwwIDIwLDEyQTgsOCAwIDAsMCAxMiw0QTgsOCAwIDAsMCA0LDEyQTgsOCAwIDAsMCAxMiwyMFoiIC8+PC9zdmc+)
+
+-}
+arrowDownCircleOutline : IconShape
+arrowDownCircleOutline =
+    Material.Icons.Directory.A.arrowDownCircleOutline
 
 
 {-| The [`arrow-down-drop-circle`](https://pictogrammers.com/library/mdi/icon/arrow-down-drop-circle/) icon.

@@ -543,18 +543,18 @@ razorDoubleEdge =
     iconShape "M20 8C19.45 8 19 7.55 19 7C19 6.45 19.45 6 20 6V5H4V6C4.55 6 5 6.45 5 7C5 7.55 4.55 8 4 8H2V15H4C4.55 15 5 15.45 5 16C5 16.55 4.55 17 4 17V18H20V17C19.45 17 19 16.55 19 16C19 15.45 19.45 15 20 15H22V8H20M20 12H19V13H17V12H13.41C13.2 12.58 12.65 13 12 13S10.8 12.58 10.59 12H7V13H5V12H4V11H5V10H7V11H10.59C10.8 10.42 11.35 10 12 10S13.2 10.42 13.41 11H17V10H19V11H20V12Z"
 
 
-{-| The [`read`](https://pictogrammers.com/library/mdi/icon/read/) icon.
--}
-read : IconShape
-read =
-    iconShape "M21.59,11.59L23,13L13.5,22.5L8.42,17.41L9.83,16L13.5,19.68L21.59,11.59M4,16V3H6L9,3A4,4 0 0,1 13,7C13,8.54 12.13,9.88 10.85,10.55L14,16H12L9.11,11H6V16H4M6,9H9A2,2 0 0,0 11,7A2,2 0 0,0 9,5H6V9Z"
-
-
 {-| The [`razor-single-edge`](https://pictogrammers.com/library/mdi/icon/razor-single-edge/) icon.
 -}
 razorSingleEdge : IconShape
 razorSingleEdge =
     iconShape "M22 5V8H2V5H22M22 13V18H2V13H3.5C4.33 13 5 12.33 5 11.5S4.33 10 3.5 10L2 10V9H22V10H20.5C19.67 10 19 10.67 19 11.5S19.67 13 20.5 13H22M13 11C13 10.45 12.55 10 12 10S11 10.45 11 11V13C11 13.55 11.45 14 12 14S13 13.55 13 13V11Z"
+
+
+{-| The [`read`](https://pictogrammers.com/library/mdi/icon/read/) icon.
+-}
+read : IconShape
+read =
+    iconShape "M21.59,11.59L23,13L13.5,22.5L8.42,17.41L9.83,16L13.5,19.68L21.59,11.59M4,16V3H6L9,3A4,4 0 0,1 13,7C13,8.54 12.13,9.88 10.85,10.55L14,16H12L9.11,11H6V16H4M6,9H9A2,2 0 0,0 11,7A2,2 0 0,0 9,5H6V9Z"
 
 
 {-| The [`receipt`](https://pictogrammers.com/library/mdi/icon/receipt/) icon.
@@ -2055,18 +2055,18 @@ rugby =
     iconShape "M16.22,16.22C18.25,14.19 19.33,11.5 19.45,8.2C18.36,10.61 16.81,12.81 14.81,14.81C12.81,16.81 10.61,18.36 8.2,19.45C11.5,19.36 14.16,18.28 16.22,16.22M7.78,7.78C5.75,9.81 4.67,12.5 4.55,15.8C5,14.8 5.7,13.65 6.61,12.35C7.5,11.05 8.38,10 9.19,9.19C11.19,7.19 13.39,5.64 15.8,4.55C12.5,4.64 9.84,5.72 7.78,7.78M20.5,3.5C21,4.05 21.34,5.11 21.47,6.7C21.59,8.3 21.35,10.16 20.74,12.3C20.13,14.45 19.11,16.23 17.67,17.67C16.36,19 14.8,19.95 13,20.55C11.21,21.16 9.44,21.47 7.69,21.47C5.56,21.47 4.17,21.14 3.5,20.5C3,19.95 2.66,18.89 2.53,17.3C2.41,15.7 2.65,13.84 3.26,11.7C3.87,9.55 4.89,7.77 6.33,6.33C7.64,5 9.2,4.05 11,3.45C12.79,2.84 14.56,2.53 16.31,2.53C18.44,2.53 19.83,2.86 20.5,3.5Z"
 
 
-{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
--}
-rulerSquare : IconShape
-rulerSquare =
-    iconShape "M3,5V21H9V19.5H7V18H9V16.5H5V15H9V13.5H7V12H9V10.5H5V9H9V5H10.5V9H12V7H13.5V9H15V5H16.5V9H18V7H19.5V9H21V3H5A2,2 0 0,0 3,5M6,7A1,1 0 0,1 5,6A1,1 0 0,1 6,5A1,1 0 0,1 7,6A1,1 0 0,1 6,7Z"
-
-
 {-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
 -}
 ruler : IconShape
 ruler =
     iconShape "M1.39,18.36L3.16,16.6L4.58,18L5.64,16.95L4.22,15.54L5.64,14.12L8.11,16.6L9.17,15.54L6.7,13.06L8.11,11.65L9.53,13.06L10.59,12L9.17,10.59L10.59,9.17L13.06,11.65L14.12,10.59L11.65,8.11L13.06,6.7L14.47,8.11L15.54,7.05L14.12,5.64L15.54,4.22L18,6.7L19.07,5.64L16.6,3.16L18.36,1.39L22.61,5.64L5.64,22.61L1.39,18.36Z"
+
+
+{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
+-}
+rulerSquare : IconShape
+rulerSquare =
+    iconShape "M3,5V21H9V19.5H7V18H9V16.5H5V15H9V13.5H7V12H9V10.5H5V9H9V5H10.5V9H12V7H13.5V9H15V5H16.5V9H18V7H19.5V9H21V3H5A2,2 0 0,0 3,5M6,7A1,1 0 0,1 5,6A1,1 0 0,1 6,5A1,1 0 0,1 7,6A1,1 0 0,1 6,7Z"
 
 
 {-| The [`ruler-square-compass`](https://pictogrammers.com/library/mdi/icon/ruler-square-compass/) icon.
@@ -2223,11 +2223,11 @@ lookup name =
         "razor-double-edge" ->
             Just razorDoubleEdge
 
-        "read" ->
-            Just read
-
         "razor-single-edge" ->
             Just razorSingleEdge
+
+        "read" ->
+            Just read
 
         "receipt" ->
             Just receipt
@@ -2871,11 +2871,11 @@ lookup name =
         "rugby" ->
             Just rugby
 
-        "ruler-square" ->
-            Just rulerSquare
-
         "ruler" ->
             Just ruler
+
+        "ruler-square" ->
+            Just rulerSquare
 
         "ruler-square-compass" ->
             Just rulerSquareCompass

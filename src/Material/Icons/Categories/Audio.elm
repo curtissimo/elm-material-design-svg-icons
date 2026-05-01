@@ -53,11 +53,11 @@ module Material.Icons.Categories.Audio exposing
     , radioFm
     , sawtoothWave
     , sineWave
-    , speakerBluetooth
     , speaker
+    , speakerBluetooth
     , speakerMessage
-    , speakerOff
     , speakerMultiple
+    , speakerOff
     , speakerPause
     , speakerPlay
     , speakerStop
@@ -142,11 +142,11 @@ module Material.Icons.Categories.Audio exposing
 @docs radioFm
 @docs sawtoothWave
 @docs sineWave
-@docs speakerBluetooth
 @docs speaker
+@docs speakerBluetooth
 @docs speakerMessage
-@docs speakerOff
 @docs speakerMultiple
+@docs speakerOff
 @docs speakerPause
 @docs speakerPlay
 @docs speakerStop
@@ -696,16 +696,6 @@ sineWave =
     Material.Icons.Directory.S.sineWave
 
 
-{-| The [`speaker-bluetooth`](https://pictogrammers.com/library/mdi/icon/speaker-bluetooth/) icon.
-
-![speaker-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0EyLDIgMCAwLDAgMiw1VjE5QTIsMiAwIDAsMCA0LDIxSDEyQTIsMiAwIDAsMCAxNCwxOVY1QTIsMiAwIDAsMCAxMiwzSDRNOCw1QTIsMiAwIDAsMSAxMCw3QTIsMiAwIDAsMSA4LDlBMiwyIDAgMCwxIDYsN0EyLDIgMCAwLDEgOCw1TTE5LDdWMTAuNzlMMTYuNzEsOC41TDE2LDkuMjFMMTguNzksMTJMMTYsMTQuNzlMMTYuNzEsMTUuNUwxOSwxMy4yMVYxN0gxOS41TDIyLjM1LDE0LjE0TDIwLjIxLDEyTDIyLjM1LDkuODVMMTkuNSw3SDE5TTIwLDguOTFMMjAuOTQsOS44NUwyMCwxMC43OVY4LjkxTTgsMTFBNCw0IDAgMCwxIDEyLDE1QTQsNCAwIDAsMSA4LDE5QTQsNCAwIDAsMSA0LDE1QTQsNCAwIDAsMSA4LDExTTgsMTNBMiwyIDAgMCwwIDYsMTVBMiwyIDAgMCwwIDgsMTdBMiwyIDAgMCwwIDEwLDE1QTIsMiAwIDAsMCA4LDEzTTIwLDEzLjIxTDIwLjk0LDE0LjE0TDIwLDE1LjA4VjEzLjIxWiIgLz48L3N2Zz4=)
-
--}
-speakerBluetooth : IconShape
-speakerBluetooth =
-    Material.Icons.Directory.S.speakerBluetooth
-
-
 {-| The [`speaker`](https://pictogrammers.com/library/mdi/icon/speaker/) icon.
 
 ![speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEyLDEyQTMsMyAwIDAsMCA5LDE1QTMsMyAwIDAsMCAxMiwxOEEzLDMgMCAwLDAgMTUsMTVBMywzIDAgMCwwIDEyLDEyTTEyLDIwQTUsNSAwIDAsMSA3LDE1QTUsNSAwIDAsMSAxMiwxMEE1LDUgMCAwLDEgMTcsMTVBNSw1IDAgMCwxIDEyLDIwTTEyLDRBMiwyIDAgMCwxIDE0LDZBMiwyIDAgMCwxIDEyLDhDMTAuODksOCAxMCw3LjEgMTAsNkMxMCw0Ljg5IDEwLjg5LDQgMTIsNE0xNywySDdDNS44OSwyIDUsMi44OSA1LDRWMjBBMiwyIDAgMCwwIDcsMjJIMTdBMiwyIDAgMCwwIDE5LDIwVjRDMTksMi44OSAxOC4xLDIgMTcsMloiIC8+PC9zdmc+)
@@ -714,6 +704,16 @@ speakerBluetooth =
 speaker : IconShape
 speaker =
     Material.Icons.Directory.S.speaker
+
+
+{-| The [`speaker-bluetooth`](https://pictogrammers.com/library/mdi/icon/speaker-bluetooth/) icon.
+
+![speaker-bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTQsM0EyLDIgMCAwLDAgMiw1VjE5QTIsMiAwIDAsMCA0LDIxSDEyQTIsMiAwIDAsMCAxNCwxOVY1QTIsMiAwIDAsMCAxMiwzSDRNOCw1QTIsMiAwIDAsMSAxMCw3QTIsMiAwIDAsMSA4LDlBMiwyIDAgMCwxIDYsN0EyLDIgMCAwLDEgOCw1TTE5LDdWMTAuNzlMMTYuNzEsOC41TDE2LDkuMjFMMTguNzksMTJMMTYsMTQuNzlMMTYuNzEsMTUuNUwxOSwxMy4yMVYxN0gxOS41TDIyLjM1LDE0LjE0TDIwLjIxLDEyTDIyLjM1LDkuODVMMTkuNSw3SDE5TTIwLDguOTFMMjAuOTQsOS44NUwyMCwxMC43OVY4LjkxTTgsMTFBNCw0IDAgMCwxIDEyLDE1QTQsNCAwIDAsMSA4LDE5QTQsNCAwIDAsMSA0LDE1QTQsNCAwIDAsMSA4LDExTTgsMTNBMiwyIDAgMCwwIDYsMTVBMiwyIDAgMCwwIDgsMTdBMiwyIDAgMCwwIDEwLDE1QTIsMiAwIDAsMCA4LDEzTTIwLDEzLjIxTDIwLjk0LDE0LjE0TDIwLDE1LjA4VjEzLjIxWiIgLz48L3N2Zz4=)
+
+-}
+speakerBluetooth : IconShape
+speakerBluetooth =
+    Material.Icons.Directory.S.speakerBluetooth
 
 
 {-| The [`speaker-message`](https://pictogrammers.com/library/mdi/icon/speaker-message/) icon.
@@ -726,16 +726,6 @@ speakerMessage =
     Material.Icons.Directory.S.speakerMessage
 
 
-{-| The [`speaker-off`](https://pictogrammers.com/library/mdi/icon/speaker-off/) icon.
-
-![speaker-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjEsMjEuNzJMMTkuNzMsMjNMMTguMjcsMjEuNTRDMTcuOTMsMjEuODMgMTcuNSwyMiAxNywyMkg3QzUuODksMjIgNSwyMS4xIDUsMjBWOC4yN0wyLDUuMjdNMTIsMThBMywzIDAgMCwxIDksMTVDOSwxNC4yNCA5LjI4LDEzLjU0IDkuNzUsMTNMOC4zMywxMS42QzcuNSwxMi41IDcsMTMuNjkgNywxNUE1LDUgMCAwLDAgMTIsMjBDMTMuMzEsMjAgMTQuNSwxOS41IDE1LjQsMTguNjdMMTQsMTcuMjVDMTMuNDUsMTcuNzIgMTIuNzYsMTggMTIsMThNMTcsMTVBNSw1IDAgMCwwIDEyLDEwSDExLjgyTDUuMTIsMy4zQzUuNDEsMi41NCA2LjE0LDIgNywySDE3QTIsMiAwIDAsMSAxOSw0VjE3LjE4TDE3LDE1LjE3VjE1TTEyLDRDMTAuODksNCAxMCw0Ljg5IDEwLDZBMiwyIDAgMCwwIDEyLDhBMiwyIDAgMCwwIDE0LDZDMTQsNC44OSAxMy4xLDQgMTIsNFoiIC8+PC9zdmc+)
-
--}
-speakerOff : IconShape
-speakerOff =
-    Material.Icons.Directory.S.speakerOff
-
-
 {-| The [`speaker-multiple`](https://pictogrammers.com/library/mdi/icon/speaker-multiple/) icon.
 
 ![speaker-multiple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTE0LDEwQTMsMyAwIDAsMCAxMSwxM0EzLDMgMCAwLDAgMTQsMTZBMywzIDAgMCwwIDE3LDEzQTMsMyAwIDAsMCAxNCwxME0xNCwxOEE1LDUgMCAwLDEgOSwxM0E1LDUgMCAwLDEgMTQsOEE1LDUgMCAwLDEgMTksMTNBNSw1IDAgMCwxIDE0LDE4TTE0LDJBMiwyIDAgMCwxIDE2LDRBMiwyIDAgMCwxIDE0LDZBMiwyIDAgMCwxIDEyLDRBMiwyIDAgMCwxIDE0LDJNMTksMEg5QTIsMiAwIDAsMCA3LDJWMThBMiwyIDAgMCwwIDksMjBIMTlBMiwyIDAgMCwwIDIxLDE4VjJBMiwyIDAgMCwwIDE5LDBNNSwyMkgxN1YyNEg1QTIsMiAwIDAsMSAzLDIyVjRINSIgLz48L3N2Zz4=)
@@ -744,6 +734,16 @@ speakerOff =
 speakerMultiple : IconShape
 speakerMultiple =
     Material.Icons.Directory.S.speakerMultiple
+
+
+{-| The [`speaker-off`](https://pictogrammers.com/library/mdi/icon/speaker-off/) icon.
+
+![speaker-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIsNS4yN0wzLjI4LDRMMjEsMjEuNzJMMTkuNzMsMjNMMTguMjcsMjEuNTRDMTcuOTMsMjEuODMgMTcuNSwyMiAxNywyMkg3QzUuODksMjIgNSwyMS4xIDUsMjBWOC4yN0wyLDUuMjdNMTIsMThBMywzIDAgMCwxIDksMTVDOSwxNC4yNCA5LjI4LDEzLjU0IDkuNzUsMTNMOC4zMywxMS42QzcuNSwxMi41IDcsMTMuNjkgNywxNUE1LDUgMCAwLDAgMTIsMjBDMTMuMzEsMjAgMTQuNSwxOS41IDE1LjQsMTguNjdMMTQsMTcuMjVDMTMuNDUsMTcuNzIgMTIuNzYsMTggMTIsMThNMTcsMTVBNSw1IDAgMCwwIDEyLDEwSDExLjgyTDUuMTIsMy4zQzUuNDEsMi41NCA2LjE0LDIgNywySDE3QTIsMiAwIDAsMSAxOSw0VjE3LjE4TDE3LDE1LjE3VjE1TTEyLDRDMTAuODksNCAxMCw0Ljg5IDEwLDZBMiwyIDAgMCwwIDEyLDhBMiwyIDAgMCwwIDE0LDZDMTQsNC44OSAxMy4xLDQgMTIsNFoiIC8+PC9zdmc+)
+
+-}
+speakerOff : IconShape
+speakerOff =
+    Material.Icons.Directory.S.speakerOff
 
 
 {-| The [`speaker-pause`](https://pictogrammers.com/library/mdi/icon/speaker-pause/) icon.

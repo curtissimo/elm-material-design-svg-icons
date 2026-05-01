@@ -6,7 +6,23 @@ I love me some SVG icons. Well, here are all of them from [https://pictogrammers
 
 ## How to use
 
-There are two ways to use the icons in this package.
+There are three ways to use the icons in this package.
+
+### By category
+
+You can use a direct reference to the icon from the category that it's in.
+
+    let icon =
+        Material.Icons.Categories.Cloud.cloudAlert
+            |> Material.Icons.toSvg
+
+### By name
+
+You can use a direct reference to the icon from the directory that it's in.
+
+    let icon =
+        Material.Icons.Directory.C.cloudAlert
+            |> Material.Icons.toSvg
 
 ### Lookup
 
@@ -17,10 +33,3 @@ function to find an icon by the icon name as listed on Pictogrammers.
         Material.Icons.Directory.lookup "cloud-alert"
             |> Maybe.map Material.Icons.toSvg
 
-### By category
-
-You can use a direct reference to the icon from the category that it's in.
-
-    let icon =
-        Material.Icons.Categories.Cloud.cloudAlert
-            |> Material.Icons.toSvg

@@ -32,8 +32,8 @@ module Material.Icons.Categories.Hardware exposing
     , razorDoubleEdge
     , razorSingleEdge
     , rivet
-    , rulerSquare
     , ruler
+    , rulerSquare
     , rulerSquareCompass
     , sawBlade
     , screwFlatTop
@@ -89,8 +89,8 @@ module Material.Icons.Categories.Hardware exposing
 @docs razorDoubleEdge
 @docs razorSingleEdge
 @docs rivet
-@docs rulerSquare
 @docs ruler
+@docs rulerSquare
 @docs rulerSquareCompass
 @docs sawBlade
 @docs screwFlatTop
@@ -424,16 +424,6 @@ rivet =
     Material.Icons.Directory.R.rivet
 
 
-{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
-
-![ruler-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNVYyMUg5VjE5LjVIN1YxOEg5VjE2LjVINVYxNUg5VjEzLjVIN1YxMkg5VjEwLjVINVY5SDlWNUgxMC41VjlIMTJWN0gxMy41VjlIMTVWNUgxNi41VjlIMThWN0gxOS41VjlIMjFWM0g1QTIsMiAwIDAsMCAzLDVNNiw3QTEsMSAwIDAsMSA1LDZBMSwxIDAgMCwxIDYsNUExLDEgMCAwLDEgNyw2QTEsMSAwIDAsMSA2LDdaIiAvPjwvc3ZnPg==)
-
--}
-rulerSquare : IconShape
-rulerSquare =
-    Material.Icons.Directory.R.rulerSquare
-
-
 {-| The [`ruler`](https://pictogrammers.com/library/mdi/icon/ruler/) icon.
 
 ![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTEuMzksMTguMzZMMy4xNiwxNi42TDQuNTgsMThMNS42NCwxNi45NUw0LjIyLDE1LjU0TDUuNjQsMTQuMTJMOC4xMSwxNi42TDkuMTcsMTUuNTRMNi43LDEzLjA2TDguMTEsMTEuNjVMOS41MywxMy4wNkwxMC41OSwxMkw5LjE3LDEwLjU5TDEwLjU5LDkuMTdMMTMuMDYsMTEuNjVMMTQuMTIsMTAuNTlMMTEuNjUsOC4xMUwxMy4wNiw2LjdMMTQuNDcsOC4xMUwxNS41NCw3LjA1TDE0LjEyLDUuNjRMMTUuNTQsNC4yMkwxOCw2LjdMMTkuMDcsNS42NEwxNi42LDMuMTZMMTguMzYsMS4zOUwyMi42MSw1LjY0TDUuNjQsMjIuNjFMMS4zOSwxOC4zNloiIC8+PC9zdmc+)
@@ -442,6 +432,16 @@ rulerSquare =
 ruler : IconShape
 ruler =
     Material.Icons.Directory.R.ruler
+
+
+{-| The [`ruler-square`](https://pictogrammers.com/library/mdi/icon/ruler-square/) icon.
+
+![ruler-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTMsNVYyMUg5VjE5LjVIN1YxOEg5VjE2LjVINVYxNUg5VjEzLjVIN1YxMkg5VjEwLjVINVY5SDlWNUgxMC41VjlIMTJWN0gxMy41VjlIMTVWNUgxNi41VjlIMThWN0gxOS41VjlIMjFWM0g1QTIsMiAwIDAsMCAzLDVNNiw3QTEsMSAwIDAsMSA1LDZBMSwxIDAgMCwxIDYsNUExLDEgMCAwLDEgNyw2QTEsMSAwIDAsMSA2LDdaIiAvPjwvc3ZnPg==)
+
+-}
+rulerSquare : IconShape
+rulerSquare =
+    Material.Icons.Directory.R.rulerSquare
 
 
 {-| The [`ruler-square-compass`](https://pictogrammers.com/library/mdi/icon/ruler-square-compass/) icon.

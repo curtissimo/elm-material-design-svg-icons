@@ -68,9 +68,9 @@ module Material.Icons.Categories.Device exposing
     , tabletCellphone
     , tabletDashboard
     , television
-    , televisionGuide
     , televisionClassic
     , televisionClassicOff
+    , televisionGuide
     , televisionOff
     , televisionPause
     , televisionPlay
@@ -156,9 +156,9 @@ module Material.Icons.Categories.Device exposing
 @docs tabletCellphone
 @docs tabletDashboard
 @docs television
-@docs televisionGuide
 @docs televisionClassic
 @docs televisionClassicOff
+@docs televisionGuide
 @docs televisionOff
 @docs televisionPause
 @docs televisionPlay
@@ -841,16 +841,6 @@ television =
     Material.Icons.Directory.T.television
 
 
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
-
-![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
-
--}
-televisionGuide : IconShape
-televisionGuide =
-    Material.Icons.Directory.T.televisionGuide
-
-
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
 
 ![television-classic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTguMTYsM0w2Ljc1LDQuNDFMOS4zNCw3SDRDMi44OSw3IDIsNy44OSAyLDlWMTlDMiwyMC4xMSAyLjg5LDIxIDQsMjFIMjBDMjEuMTEsMjEgMjIsMjAuMTEgMjIsMTlWOUMyMiw3Ljg5IDIxLjExLDcgMjAsN0gxNC42NkwxNy4yNSw0LjQxTDE1Ljg0LDNMMTIsNi44NEw4LjE2LDNNNCw5SDE3VjE5SDRWOU0xOS41LDlBMSwxIDAgMCwxIDIwLjUsMTBBMSwxIDAgMCwxIDE5LjUsMTFBMSwxIDAgMCwxIDE4LjUsMTBBMSwxIDAgMCwxIDE5LjUsOU0xOS41LDEyQTEsMSAwIDAsMSAyMC41LDEzQTEsMSAwIDAsMSAxOS41LDE0QTEsMSAwIDAsMSAxOC41LDEzQTEsMSAwIDAsMSAxOS41LDEyWiIgLz48L3N2Zz4=)
@@ -869,6 +859,16 @@ televisionClassic =
 televisionClassicOff : IconShape
 televisionClassicOff =
     Material.Icons.Directory.T.televisionClassicOff
+
+
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+
+![television-guide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iNDhweCIgd2lkdGg9IjQ4cHgiIHByb3BlcnR5PSJwcmVzZW50YXRpb24iIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggc3R5bGU9ImZpbGw6IGN1cnJlbnRjb2xvciIgZD0iTTIxLDE3VjVIM1YxN0gyMU0yMSwzQTIsMiAwIDAsMSAyMyw1VjE3QTIsMiAwIDAsMSAyMSwxOUgxNlYyMUg4VjE5SDNBMiwyIDAgMCwxIDEsMTdWNUEyLDIgMCAwLDEgMywzSDIxTTUsN0gxMVYxMUg1VjdNNSwxM0gxMVYxNUg1VjEzTTEzLDdIMTlWOUgxM1Y3TTEzLDExSDE5VjE1SDEzVjExWiIgLz48L3N2Zz4=)
+
+-}
+televisionGuide : IconShape
+televisionGuide =
+    Material.Icons.Directory.T.televisionGuide
 
 
 {-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.

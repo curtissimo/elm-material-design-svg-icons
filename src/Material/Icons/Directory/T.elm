@@ -1287,18 +1287,18 @@ television =
     iconShape "M21,17H3V5H21M21,3H3A2,2 0 0,0 1,5V17A2,2 0 0,0 3,19H8V21H16V19H21A2,2 0 0,0 23,17V5A2,2 0 0,0 21,3Z"
 
 
+{-| The [`television-ambient-light`](https://pictogrammers.com/library/mdi/icon/television-ambient-light/) icon.
+-}
+televisionAmbientLight : IconShape
+televisionAmbientLight =
+    iconShape "M3 11H0V9H3V11M3 14H0V16H3V14M5 5.12L2.88 3L1.46 4.41L3.59 6.54L5 5.12M10 5V2H8V5H10M24 9H21V11H24V9M16 5V2H14V5H16M20.41 6.54L22.54 4.42L21.12 3L19 5.12L20.41 6.54M24 14H21V16H24V14M19 9V16C19 17.1 18.1 18 17 18H15V20H9V18H7C5.9 18 5 17.1 5 16V9C5 7.9 5.9 7 7 7H17C18.1 7 19 7.9 19 9M17 9H7V16H17V9M19 19.88L21.12 22L22.54 20.59L20.41 18.47L19 19.88M3.59 18.46L1.47 20.59L2.88 22L5 19.88L3.59 18.46Z"
+
+
 {-| The [`television-box`](https://pictogrammers.com/library/mdi/icon/television-box/) icon.
 -}
 televisionBox : IconShape
 televisionBox =
     iconShape "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M16,16L19,8H16.5L15,12.5L13.5,8H5V10H8V16H10V10H11.77L14,16H16Z"
-
-
-{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
--}
-televisionGuide : IconShape
-televisionGuide =
-    iconShape "M21,17V5H3V17H21M21,3A2,2 0 0,1 23,5V17A2,2 0 0,1 21,19H16V21H8V19H3A2,2 0 0,1 1,17V5A2,2 0 0,1 3,3H21M5,7H11V11H5V7M5,13H11V15H5V13M13,7H19V9H13V7M13,11H19V15H13V11Z"
 
 
 {-| The [`television-classic`](https://pictogrammers.com/library/mdi/icon/television-classic/) icon.
@@ -1308,18 +1308,18 @@ televisionClassic =
     iconShape "M8.16,3L6.75,4.41L9.34,7H4C2.89,7 2,7.89 2,9V19C2,20.11 2.89,21 4,21H20C21.11,21 22,20.11 22,19V9C22,7.89 21.11,7 20,7H14.66L17.25,4.41L15.84,3L12,6.84L8.16,3M4,9H17V19H4V9M19.5,9A1,1 0 0,1 20.5,10A1,1 0 0,1 19.5,11A1,1 0 0,1 18.5,10A1,1 0 0,1 19.5,9M19.5,12A1,1 0 0,1 20.5,13A1,1 0 0,1 19.5,14A1,1 0 0,1 18.5,13A1,1 0 0,1 19.5,12Z"
 
 
-{-| The [`television-ambient-light`](https://pictogrammers.com/library/mdi/icon/television-ambient-light/) icon.
--}
-televisionAmbientLight : IconShape
-televisionAmbientLight =
-    iconShape "M3 11H0V9H3V11M3 14H0V16H3V14M5 5.12L2.88 3L1.46 4.41L3.59 6.54L5 5.12M10 5V2H8V5H10M24 9H21V11H24V9M16 5V2H14V5H16M20.41 6.54L22.54 4.42L21.12 3L19 5.12L20.41 6.54M24 14H21V16H24V14M19 9V16C19 17.1 18.1 18 17 18H15V20H9V18H7C5.9 18 5 17.1 5 16V9C5 7.9 5.9 7 7 7H17C18.1 7 19 7.9 19 9M17 9H7V16H17V9M19 19.88L21.12 22L22.54 20.59L20.41 18.47L19 19.88M3.59 18.46L1.47 20.59L2.88 22L5 19.88L3.59 18.46Z"
-
-
 {-| The [`television-classic-off`](https://pictogrammers.com/library/mdi/icon/television-classic-off/) icon.
 -}
 televisionClassicOff : IconShape
 televisionClassicOff =
     iconShape "M2,5.27L3.28,4L21,21.72L19.73,23L17.73,21H4C2.89,21 2,20.11 2,19V9C2,8 2.76,7.14 3.75,7L2,5.27M8.16,3L12,6.84L15.84,3L17.25,4.41L14.66,7H20C21.11,7 22,7.89 22,9V19C22,19.34 21.92,19.66 21.77,19.94L17,15.18V9H10.82L8.82,7H9.34L6.75,4.41L8.16,3M4,9V19H15.73L5.73,9H4M19.5,9A1,1 0 0,0 18.5,10A1,1 0 0,0 19.5,11A1,1 0 0,0 20.5,10A1,1 0 0,0 19.5,9M19.5,12A1,1 0 0,0 18.5,13A1,1 0 0,0 19.5,14A1,1 0 0,0 20.5,13A1,1 0 0,0 19.5,12Z"
+
+
+{-| The [`television-guide`](https://pictogrammers.com/library/mdi/icon/television-guide/) icon.
+-}
+televisionGuide : IconShape
+televisionGuide =
+    iconShape "M21,17V5H3V17H21M21,3A2,2 0 0,1 23,5V17A2,2 0 0,1 21,19H16V21H8V19H3A2,2 0 0,1 1,17V5A2,2 0 0,1 3,3H21M5,7H11V11H5V7M5,13H11V15H5V13M13,7H19V9H13V7M13,11H19V15H13V11Z"
 
 
 {-| The [`television-off`](https://pictogrammers.com/library/mdi/icon/television-off/) icon.
@@ -1357,13 +1357,6 @@ televisionSpeaker =
     iconShape "M3 3C1.9 3 1 3.9 1 5V17C1 18.1 1.9 19 3 19H8V21H12V17H3V5H21V7H23V5C23 3.9 22.1 3 21 3H3M21 9H16C14.9 9 14 9.9 14 11V20C14 21.1 14.9 22 16 22H21C22.1 22 23 21.1 23 20V11C23 9.9 22.1 9 21 9M18.5 10.5C19.3 10.5 20 11.2 20 12S19.3 13.5 18.5 13.5 17 12.8 17 12 17.7 10.5 18.5 10.5M18.5 20.5C16.8 20.5 15.5 19.2 15.5 17.5C15.5 15.9 16.8 14.5 18.4 14.5H18.5C20.2 14.5 21.5 15.8 21.5 17.5S20.2 20.5 18.5 20.5M18.5 16C17.7 16 17 16.7 17 17.5S17.7 19 18.5 19 20 18.3 20 17.5 19.3 16 18.5 16Z"
 
 
-{-| The [`temperature-celsius`](https://pictogrammers.com/library/mdi/icon/temperature-celsius/) icon.
--}
-temperatureCelsius : IconShape
-temperatureCelsius =
-    iconShape "M16.5,5C18.05,5 19.5,5.47 20.69,6.28L19.53,9.17C18.73,8.44 17.67,8 16.5,8C14,8 12,10 12,12.5C12,15 14,17 16.5,17C17.53,17 18.47,16.66 19.23,16.08L20.37,18.93C19.24,19.61 17.92,20 16.5,20A7.5,7.5 0 0,1 9,12.5A7.5,7.5 0 0,1 16.5,5M6,3A3,3 0 0,1 9,6A3,3 0 0,1 6,9A3,3 0 0,1 3,6A3,3 0 0,1 6,3M6,5A1,1 0 0,0 5,6A1,1 0 0,0 6,7A1,1 0 0,0 7,6A1,1 0 0,0 6,5Z"
-
-
 {-| The [`television-speaker-off`](https://pictogrammers.com/library/mdi/icon/television-speaker-off/) icon.
 -}
 televisionSpeakerOff : IconShape
@@ -1376,6 +1369,13 @@ televisionSpeakerOff =
 televisionStop : IconShape
 televisionStop =
     iconShape "M3 3H21C22.1 3 23 3.89 23 5V17C23 18.1 22.1 19 21 19H16V21H8V19H3C1.9 19 1 18.1 1 17V5C1 3.89 1.89 3 3 3M3 5V17H21V5H3M9 8H15V14H9V8Z"
+
+
+{-| The [`temperature-celsius`](https://pictogrammers.com/library/mdi/icon/temperature-celsius/) icon.
+-}
+temperatureCelsius : IconShape
+temperatureCelsius =
+    iconShape "M16.5,5C18.05,5 19.5,5.47 20.69,6.28L19.53,9.17C18.73,8.44 17.67,8 16.5,8C14,8 12,10 12,12.5C12,15 14,17 16.5,17C17.53,17 18.47,16.66 19.23,16.08L20.37,18.93C19.24,19.61 17.92,20 16.5,20A7.5,7.5 0 0,1 9,12.5A7.5,7.5 0 0,1 16.5,5M6,3A3,3 0 0,1 9,6A3,3 0 0,1 6,9A3,3 0 0,1 3,6A3,3 0 0,1 6,3M6,5A1,1 0 0,0 5,6A1,1 0 0,0 6,7A1,1 0 0,0 7,6A1,1 0 0,0 6,5Z"
 
 
 {-| The [`temperature-fahrenheit`](https://pictogrammers.com/library/mdi/icon/temperature-fahrenheit/) icon.
@@ -2008,18 +2008,18 @@ timelineMinus =
     iconShape "M4 8H2V2H4V8M24 6V18C24 19.11 23.11 20 22 20H10C8.9 20 8 19.11 8 18V14L6 12L8 10V6C8 4.89 8.9 4 10 4H22C23.11 4 24 4.89 24 6M20 11H12V13H20V11M2 22H4V16H2V22M3 10C1.9 10 1 10.9 1 12C1 13.11 1.9 14 3 14C4.11 14 5 13.11 5 12C5 10.9 4.11 10 3 10Z"
 
 
-{-| The [`timeline-outline`](https://pictogrammers.com/library/mdi/icon/timeline-outline/) icon.
--}
-timelineOutline : IconShape
-timelineOutline =
-    iconShape "M4 2V8H2V2H4M2 22V16H4V22H2M5 12C5 13.11 4.11 14 3 14C1.9 14 1 13.11 1 12C1 10.9 1.9 10 3 10C4.11 10 5 10.9 5 12M24 6V18C24 19.11 23.11 20 22 20H10C8.9 20 8 19.11 8 18V14L6 12L8 10V6C8 4.89 8.9 4 10 4H22C23.11 4 24 4.89 24 6M10 6V18H22V6H10Z"
-
-
 {-| The [`timeline-minus-outline`](https://pictogrammers.com/library/mdi/icon/timeline-minus-outline/) icon.
 -}
 timelineMinusOutline : IconShape
 timelineMinusOutline =
     iconShape "M2 16H4V22H2V16M4 2H2V8H4V2M20 11H12V13H20V11M3 10C1.9 10 1 10.9 1 12C1 13.11 1.9 14 3 14C4.11 14 5 13.11 5 12C5 10.9 4.11 10 3 10M24 6V18C24 19.11 23.11 20 22 20H10C8.9 20 8 19.11 8 18V14L6 12L8 10V6C8 4.89 8.9 4 10 4H22C23.11 4 24 4.89 24 6M22 6H10V18H22V6Z"
+
+
+{-| The [`timeline-outline`](https://pictogrammers.com/library/mdi/icon/timeline-outline/) icon.
+-}
+timelineOutline : IconShape
+timelineOutline =
+    iconShape "M4 2V8H2V2H4M2 22V16H4V22H2M5 12C5 13.11 4.11 14 3 14C1.9 14 1 13.11 1 12C1 10.9 1.9 10 3 10C4.11 10 5 10.9 5 12M24 6V18C24 19.11 23.11 20 22 20H10C8.9 20 8 19.11 8 18V14L6 12L8 10V6C8 4.89 8.9 4 10 4H22C23.11 4 24 4.89 24 6M10 6V18H22V6H10Z"
 
 
 {-| The [`timeline-plus`](https://pictogrammers.com/library/mdi/icon/timeline-plus/) icon.
@@ -2400,18 +2400,18 @@ timerStop =
     iconShape "M19 13C19.7 13 20.36 13.13 21 13.35C21 13.23 21 13.12 21 13C21 10.88 20.26 8.93 19.03 7.39L20.45 5.97C20 5.46 19.55 5 19.04 4.56L17.62 6C16.07 4.74 14.12 4 12 4C7.03 4 3 8.03 3 13S7.03 22 12 22C12.59 22 13.16 21.94 13.71 21.83C13.26 21 13 20.03 13 19C13 15.69 15.69 13 19 13M13 14H11V7H13V14M15 3H9V1H15V3M21.5 16.5V21.5H16.5V16.5H21.5Z"
 
 
-{-| The [`timer-sync`](https://pictogrammers.com/library/mdi/icon/timer-sync/) icon.
--}
-timerSync : IconShape
-timerSync =
-    iconShape "M15 3H9V1H15V3M13 17.5C13 19.08 13.56 20.5 14.5 21.65C13.7 21.87 12.87 22 12 22C7.03 22 3 17.97 3 13S7.03 4 12 4C14.12 4 16.07 4.74 17.62 6L19.04 4.56C19.55 5 20 5.46 20.45 5.97L19.03 7.39C19.89 8.46 20.5 9.74 20.8 11.13C20.38 11.05 19.94 11 19.5 11C15.91 11 13 13.91 13 17.5M13 7H11V14H13V7M19 13.5V12L16.75 14.25L19 16.5V15C20.38 15 21.5 16.12 21.5 17.5C21.5 17.9 21.41 18.28 21.24 18.62L22.33 19.71C22.75 19.08 23 18.32 23 17.5C23 15.29 21.21 13.5 19 13.5M19 20C17.62 20 16.5 18.88 16.5 17.5C16.5 17.1 16.59 16.72 16.76 16.38L15.67 15.29C15.25 15.92 15 16.68 15 17.5C15 19.71 16.79 21.5 19 21.5V23L21.25 20.75L19 18.5V20Z"
-
-
 {-| The [`timer-stop-outline`](https://pictogrammers.com/library/mdi/icon/timer-stop-outline/) icon.
 -}
 timerStopOutline : IconShape
 timerStopOutline =
     iconShape "M11 8H13V14H11V8M12 20C8.13 20 5 16.87 5 13S8.13 6 12 6 19 9.13 19 13C19.7 13 20.36 13.13 21 13.35C21 13.23 21 13.12 21 13C21 10.88 20.26 8.93 19.03 7.39L20.45 5.97C20 5.46 19.55 5 19.04 4.56L17.62 6C16.07 4.74 14.12 4 12 4C7.03 4 3 8.03 3 13S7.03 22 12 22C12.59 22 13.16 21.94 13.71 21.83C13.4 21.25 13.18 20.6 13.08 19.91C12.72 19.96 12.37 20 12 20M15 1H9V3H15V1M16.5 16.5V21.5H21.5V16.5H16.5Z"
+
+
+{-| The [`timer-sync`](https://pictogrammers.com/library/mdi/icon/timer-sync/) icon.
+-}
+timerSync : IconShape
+timerSync =
+    iconShape "M15 3H9V1H15V3M13 17.5C13 19.08 13.56 20.5 14.5 21.65C13.7 21.87 12.87 22 12 22C7.03 22 3 17.97 3 13S7.03 4 12 4C14.12 4 16.07 4.74 17.62 6L19.04 4.56C19.55 5 20 5.46 20.45 5.97L19.03 7.39C19.89 8.46 20.5 9.74 20.8 11.13C20.38 11.05 19.94 11 19.5 11C15.91 11 13 13.91 13 17.5M13 7H11V14H13V7M19 13.5V12L16.75 14.25L19 16.5V15C20.38 15 21.5 16.12 21.5 17.5C21.5 17.9 21.41 18.28 21.24 18.62L22.33 19.71C22.75 19.08 23 18.32 23 17.5C23 15.29 21.21 13.5 19 13.5M19 20C17.62 20 16.5 18.88 16.5 17.5C16.5 17.1 16.59 16.72 16.76 16.38L15.67 15.29C15.25 15.92 15 16.68 15 17.5C15 19.71 16.79 21.5 19 21.5V23L21.25 20.75L19 18.5V20Z"
 
 
 {-| The [`timer-sync-outline`](https://pictogrammers.com/library/mdi/icon/timer-sync-outline/) icon.
@@ -4147,20 +4147,20 @@ lookup name =
         "television" ->
             Just television
 
+        "television-ambient-light" ->
+            Just televisionAmbientLight
+
         "television-box" ->
             Just televisionBox
-
-        "television-guide" ->
-            Just televisionGuide
 
         "television-classic" ->
             Just televisionClassic
 
-        "television-ambient-light" ->
-            Just televisionAmbientLight
-
         "television-classic-off" ->
             Just televisionClassicOff
+
+        "television-guide" ->
+            Just televisionGuide
 
         "television-off" ->
             Just televisionOff
@@ -4177,14 +4177,14 @@ lookup name =
         "television-speaker" ->
             Just televisionSpeaker
 
-        "temperature-celsius" ->
-            Just temperatureCelsius
-
         "television-speaker-off" ->
             Just televisionSpeakerOff
 
         "television-stop" ->
             Just televisionStop
+
+        "temperature-celsius" ->
+            Just temperatureCelsius
 
         "temperature-fahrenheit" ->
             Just temperatureFahrenheit
@@ -4456,11 +4456,11 @@ lookup name =
         "timeline-minus" ->
             Just timelineMinus
 
-        "timeline-outline" ->
-            Just timelineOutline
-
         "timeline-minus-outline" ->
             Just timelineMinusOutline
+
+        "timeline-outline" ->
+            Just timelineOutline
 
         "timeline-plus" ->
             Just timelinePlus
@@ -4624,11 +4624,11 @@ lookup name =
         "timer-stop" ->
             Just timerStop
 
-        "timer-sync" ->
-            Just timerSync
-
         "timer-stop-outline" ->
             Just timerStopOutline
+
+        "timer-sync" ->
+            Just timerSync
 
         "timer-sync-outline" ->
             Just timerSyncOutline
