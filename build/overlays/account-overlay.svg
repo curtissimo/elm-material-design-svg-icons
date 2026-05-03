@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <path d="M19.52,13.047C20.63,13.047 21.52,13.947 21.52,15.047C21.52,16.147 20.63,17.047 19.52,17.047C18.41,17.047 17.52,16.157 17.52,15.047C17.52,13.937 18.42,13.047 19.52,13.047M15.52,21.047L15.52,20.047C15.52,18.947 17.31,18.047 19.52,18.047C21.73,18.047 23.52,18.947 23.52,20.047L23.52,21.047L15.52,21.047Z" style="fill-rule:nonzero;"/>
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+  xmlns:serif="http://www.serif.com/"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <path d="M19.52,13.047C20.63,13.047 21.52,13.947 21.52,15.047C21.52,16.147 20.63,17.047 19.52,17.047C18.41,17.047 17.52,16.157 17.52,15.047C17.52,13.937 18.42,13.047 19.52,13.047M15.52,21.047L15.52,20.047C15.52,18.947 17.31,18.047 19.52,18.047C21.73,18.047 23.52,18.947 23.52,20.047L23.52,21.047L15.52,21.047Z" style="fill-rule:nonzero;"/>
+  <desc>Decorates the icon with a person in the lower right corner</desc>
+  <defs>
+    <clipPath id="circle" />
+  </defs>
 </svg>

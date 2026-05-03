@@ -1,7 +1,7 @@
 {
-  "name": "elm-material-design-svg-icons",
+  "name": "elm-composable-svg-icons",
   "version": "1.0.0",
-  "description": "Material Design Icons for Elm (https://pictogrammers.com/library/mdi/)",
+  "description": "Composable icons based on the https://pictogrammers.com/library/mdi/ library.",
   "license": "MIT",
   "author": "Curtis Schlak <696163-realistschuckle@users.noreply.gitlab.com>",
   "type": "module",
@@ -10,10 +10,11 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev": "nodemon --exec node -e js scripts/build.ts"
+    "dev": "nodemon --exec node -e ts,hbs,svg build/build.ts"
   },
   "devDependencies": {
     "@mdi/svg": "7.4.47",
+    "@types/node": "^25.6.0",
     "elm": "^0.19.1-6",
     "elm-doc-preview": "^6.0.1",
     "elm-format": "^0.8.8",

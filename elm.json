@@ -1,6 +1,6 @@
 {
   "type": "package",
-  "name": "curtissimo/elm-material-design-svg-icons",
+  "name": "curtissimo/elm-composable-svg-icons",
   "summary": "A complete library of Material Design Icons.",
   "license": "BSD-3-Clause",
   "version": "1.0.0",

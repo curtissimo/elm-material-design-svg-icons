@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <path d="M23.023,15.381L20.893,17.501L23.023,19.621L21.603,21.041L19.483,18.911L17.363,21.041L15.953,19.621L18.073,17.501L15.953,15.381L17.363,13.971L19.483,16.091L21.603,13.971L23.023,15.381" style="fill-rule:nonzero;"/>
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+  xmlns:serif="http://www.serif.com/"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <path d="M23.023,15.381L20.893,17.501L23.023,19.621L21.603,21.041L19.483,18.911L17.363,21.041L15.953,19.621L18.073,17.501L15.953,15.381L17.363,13.971L19.483,16.091L21.603,13.971L23.023,15.381" style="fill-rule:nonzero;"/>
+  <desc>Decorates the icon with an X in the lower right corner.</desc>
+  <defs>
+    <clipPath id="circle" />
+  </defs>
 </svg>

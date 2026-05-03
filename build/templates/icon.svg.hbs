@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" 
+  height="{{#if height}}{{height}}{{else}}48{{/if}}px"
+  width="{{#if width}}{{width}}{{else}}48{{/if}}px"
+  property="presentation" viewBox="0 0 24 24" style="color:currentcolor">
+  <path
+    style="fill:currentcolor"
+    d="{{{path}}}"
+    {{#if overlay}}clip-path="url(#{{overlay.clip.name}})"{{/if}} />
+  {{#if overlay}}
+  <path 
+    class="overlay-{{overlay.clip.name}}"
+    style="fill:currentcolor;{{#if decorationColor}}color:{{decorationColor}};{{/if}}"
+    d="{{{overlay.path}}}" />
+  <defs>
+    <clipPath id="{{overlay.clip.name}}">
+      <path d="{{overlay.clip.path}}" />
+    </clipPath>
+  </defs>
+  {{/if}}
+</svg>

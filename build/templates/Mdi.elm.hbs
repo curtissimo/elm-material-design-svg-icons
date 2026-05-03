@@ -1,0 +1,76 @@
+module Mdi exposing
+    ( toSvg
+    , decorationColor
+    , outline
+{{#each overlays}}    , {{name}}
+{{/each}}
+    , Icon
+    )
+
+{-| The **Mdi** module provides functions to interact with icons. 👋
+
+
+## Rendering an icon
+@docs toSvg
+
+
+## Styling the icon
+@docs decorationColor, outline
+
+
+## Decorations
+@docs {{#each overlays}}{{#if @index}}, {{/if}}{{name}}{{/each}}
+
+
+## Opaque types
+@docs Icon
+
+-}
+
+import Mdi.Config
+import Svg exposing (Svg)
+
+
+{-| An opaque type for an icon.
+-}
+type alias Icon =
+    Mdi.Config.Icon
+
+
+{-| The string can be any CSS-compliant color string.
+-}
+decorationColor : String -> Icon -> Icon
+decorationColor color icon =
+    icon
+
+
+{-| Uses the outline version of the icon.
+
+If an outline version doesn't exist, it will just continue using the non-outline
+version.
+-}
+outline : Icon -> Icon
+outline icon =
+    icon
+
+
+{-| Renders an [Icon](#Icon) to Svg.
+-}
+toSvg : Icon -> Svg msg
+toSvg (Mdi.Config.Icon config) =
+    Svg.svg
+        []
+        []
+{{#each overlays}}
+{-| {{description}}
+
+    Mdi.Icons.airballoon
+        |> Mdi.outline
+        |> Mdi.{{name}}
+
+![{{name}}](data:image/svg+xml;base64,{{{base64 example}}})
+-}
+{{name}} : Icon -> Icon
+{{name}} icon =
+    icon
+{{/each}}

@@ -1,0 +1,114 @@
+# Elm Material Design SVG Icons (from pictogrammers.com)
+
+I _love_ me some SVG icons.
+
+You know what I love even more? SVG icons that you can compose.
+
+"Compose?" you ask. "What's that mean?"
+
+Well, what I mean by that is you can take an icon and add different types of
+decorations to it, like cogs and eyes and map markers.
+
+{{#each airballons}}
+![{{name}}](data:image/svg+xml;base64,{{base64 svg}})
+{{/each}}
+
+## Table of contents
+
+- [Using the icons](#using-the-icons)
+- [Coloring the icons](#coloring-the-icons)
+- [Coloring the decorations](#coloring-the-decorations)
+- [Gratitude](#gratitude)
+
+## Using the icons
+
+First, find the base icon you want to use. They're listed and shown in the
+[Mdi.Icons](./Mdi-Icons) module.
+
+Let's say you want to use a hot air balloon icon. To render it, just use the
+[`toSvg`](Mdi#toSvg) function.
+
+    Mdi.Icons.airballoon
+        |> Mdi.toSvg
+
+{{#with airballoon}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+You want the outline version?
+
+    Mdi.Icons.airballoon
+        |> Mdi.outline
+        |> Mdi.toSvg
+
+{{#with airballoonOutline}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+Want to put a heart on it?
+
+    Mdi.Icons.airballoon
+        |> Mdi.outline
+        |> Mdi.heart
+        |> Mdi.toSvg
+
+{{#with airballoonOutlineHeart}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+## Coloring the icons
+
+The icons are set to have a fill color that is the current color of the text
+rendering context.
+
+The following code will render a green hot air balloon.
+
+    div [ style "color" "green" ]
+        [ Mdi.Icons.airballoon |> Mdi.toSvg ]
+
+{{#with greenBalloon}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+## Coloring the decorations
+
+By default, the decorations will be the same color as the icon.
+
+    div [ style "color" "green" ]
+        [ Mdi.Icons.airballoon |> Mdi.heart |> Mdi.toSvg ]
+
+{{#with greenBalloonHeart}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+You can use CSS to target the color of the decoration by setting the `color`
+property to whatever you want.
+
+```css
+<style>
+  .overlay-circle { color: red; }
+</style>
+```
+
+{{#with greenBalloonRedHeart}}
+![{{name}}](data:image/svg+xml;base64,{{{base64 svg}}})
+{{/with}}
+
+You can also use the [`decorationColor`](./Mdi#decorationColor) function. (I'm 
+not a fan of this, so much, but I'm like _that_ person that doesn't mind CSS.)
+
+    div [ style "color" "green" ]
+        [ Mdi.Icons.airballoon 
+            |> Mdi.heart 
+            |> Mdi.decorationColor "hsl(0, 100%, 50%)"
+            |> Mdi.toSvg 
+        ]
+
+## Gratitude
+
+The base icons come from Pictogrammer's [Material Design
+Icons](https://pictogrammers.com/library/mdi/) library. Lots of 🫶 to them for
+the artwork.
+
+The overlays are inspired by the MDI icon styles, but have been customized to
+fit the SVG clip paths used by this library.

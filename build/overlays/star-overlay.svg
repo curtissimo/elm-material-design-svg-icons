@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <path d="M23.465,16.384L20.575,16.134L19.465,13.494L18.335,16.134L15.465,16.384L17.645,18.264L16.965,21.074L19.465,19.584L21.915,21.074L21.265,18.264L23.465,16.384Z" style="fill-rule:nonzero;"/>
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+  xmlns:serif="http://www.serif.com/"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <path d="M23.465,16.384L20.575,16.134L19.465,13.494L18.335,16.134L15.465,16.384L17.645,18.264L16.965,21.074L19.465,19.584L21.915,21.074L21.265,18.264L23.465,16.384Z" style="fill-rule:nonzero;"/>
+  <desc>Decorates the icon with a star in the lower right corner.</desc>
+  <defs>
+    <clipPath id="circle" />
+  </defs>
 </svg>
