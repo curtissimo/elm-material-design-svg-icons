@@ -5,21 +5,23 @@
   "license": "MIT",
   "author": "Curtis Schlak <696163-realistschuckle@users.noreply.gitlab.com>",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon -e js index.js"
+  "main": "scripts/build.ts",
+  "engines": {
+    "node": ">=24"
   },
-  "dependencies": {
-    "@mdi/svg": "^7.4.47",
-    "fast-xml-parser": "^5.0.9",
-    "glob": "^11.0.3"
+  "scripts": {
+    "dev": "nodemon --exec node -e js scripts/build.ts"
   },
   "devDependencies": {
+    "@mdi/svg": "7.4.47",
     "elm": "^0.19.1-6",
     "elm-doc-preview": "^6.0.1",
     "elm-format": "^0.8.8",
     "elm-json": "^0.2.13",
     "elm-review": "^2.13.3",
+    "fast-xml-parser": "^5.0.9",
+    "glob": "^11.0.3",
+    "handlebars": "^4.7.9",
     "nodemon": "^3.1.14"
   }
 }

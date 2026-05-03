@@ -1,35 +1,19 @@
 # Elm Material Design SVG Icons (from pictogrammers.com)
 
-`elm-material-design-svg-icons` [![Build Status](https://github.com/curtissimo/elm-material-design-svg-icons/workflows/CI/badge.svg)](https://github.com/curtissimo/elm-material-design-svg-icons/actions?query=branch%3Amain)
+`elm-material-design-svg-icons` [![Build
+Status](https://github.com/curtissimo/elm-material-design-svg-icons/workflows/CI/badge.svg)](https://github.com/curtissimo/elm-material-design-svg-icons/actions?query=branch%3Amain)
 
-I love me some SVG icons. Well, here are all of them from [https://pictogrammers.com/library/mdi/](https://pictogrammers.com/library/mdi/).
+I love me some SVG icons.
+
+- [Material Design Icons](https://pictogrammers.com/library/mdi/).
+- [Material Design Icons Light](https://pictogrammers.com/library/mdil/).
 
 ## How to use
 
-There are three ways to use the icons in this package.
+The code is pretty simple:
 
-### By category
-
-You can use a direct reference to the icon from the category that it's in.
-
-    let icon =
-        Material.Icons.Categories.Cloud.cloudAlert
-            |> Material.Icons.toSvg
-
-### By name
-
-You can use a direct reference to the icon from the directory that it's in.
-
-    let icon =
-        Material.Icons.Directory.C.cloudAlert
-            |> Material.Icons.toSvg
-
-### Lookup
-
-You can use the [`Material.Icons.Directory.lookup`](Material.Icons.Directory#lookup)
-function to find an icon by the icon name as listed on Pictogrammers.
-
-    let icon =
-        Material.Icons.Directory.lookup "cloud-alert"
-            |> Maybe.map Material.Icons.toSvg
+    view : Model -> Html msg
+    view =
+        Mdi.Icons.Normal.abcTesting
+        |> Mdi.Icons
 
